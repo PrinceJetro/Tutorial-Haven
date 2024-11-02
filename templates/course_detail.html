@@ -1,0 +1,21 @@
+<h2>{{ course.name }}</h2>
+{% for topic in topics %}
+
+<p>
+    <a href="{% url 'topic_detail' topic.name %}">
+        {{topic}}
+    </a>
+</p>
+
+{% endfor %}
+
+
+
+<!-- templates/courses/course_detail.html -->
+<!-- <h1>{{ course.name }}</h1>
+<p>Departments:</p>
+<ul>
+    {% for department in course.departments.all %}
+        <li>{{ department.name }}</li>
+    {% endfor %}
+</ul> -->

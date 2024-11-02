@@ -1,0 +1,47 @@
+<!-- home.html -->
+<h1>Welcome to the Tutorial Center App</h1>
+
+{% if request.user.is_authenticated %}
+    <p>You are logged in as {{ request.user.username }}</p>
+    <a href="{% url 'profile' request.user.username %}">Visit Your Profile</a><br>
+
+
+    {% if request.user.tutorial_center %}
+        <!-- Show the name of the tutorial center for the owner -->
+        <header>
+            <h2>Tutorial Center: {{ request.user.tutorial_center.name }}</h2>
+        </header>
+        <!-- Link to approve tutors and students -->
+        <a href="{% url 'approve_users' %}">Approve Tutors and Students</a><br>
+        <a href="{% url 'list_tutorial_students' request.user.tutorial_center.name %}">See All Approved Students</a><br>
+    {% endif %}
+
+    {% if request.user.tutor and request.user.tutor.is_approved %}
+        <!-- Show link for approved tutors only -->
+        <a href="{% url 'list_tutorial_students' request.user.tutor.tutorial_center.name %}">
+            See All Students in {{ request.user.tutor.tutorial_center.name }}
+        </a><br>
+    {% endif %}
+
+    <p> <a href="{% url 'list_departments'  %}">Departments</a> </p>
+
+    <form method="POST" action="{% url 'logout' %}">
+        {% csrf_token %}
+        <button type="submit">Logout</button>
+    </form>
+    
+{% else %}
+    <a href="{% url 'register_owner' %}">Register as Tutorial Center Owner</a><br>
+    <a href="{% url 'register_tutor' %}">Register as Tutor</a><br>
+    <a href="{% url 'register_student' %}">Register as Student</a><br>
+    <a href="{% url 'login' %}">Login</a>
+{% endif %}
+
+
+<!-- 
+env\scripts\activate
+cd personalprojects
+cd tutorialhaven
+python manage.py runserver
+
+ -->

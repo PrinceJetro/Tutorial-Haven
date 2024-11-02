@@ -1,0 +1,10 @@
+<!-- templates/courses/list_courses.html -->
+<h1>
+    Approved {{ center.name|title }} Students
+</h1>
+
+<ul>
+    {% for student in students %}
+        <li><a href="#">{{ student.user.username }}</a></li>
+    {% endfor %}
+</ul>

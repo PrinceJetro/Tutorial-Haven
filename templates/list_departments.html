@@ -1,0 +1,7 @@
+{% for department in departments %}
+
+<p> 
+    <a href="{% url 'list_courses' department.name %}">{{department}}</a>
+</p>
+
+{% endfor %}

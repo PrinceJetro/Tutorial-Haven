@@ -1,0 +1,27 @@
+<!-- approve_users.html -->
+<h2>Approve Tutors and Students</h2>
+<form method="post">
+    {% csrf_token %}
+    
+    <h3>Unapproved Tutors</h3>
+    {% for tutor in unapproved_tutors %}
+        <div>
+            <input type="checkbox" name="approve_tutors" value="{{ tutor.id }}">
+            {{ tutor.user.first_name }} {{ tutor.user.last_name }}
+        </div>
+    {% empty %}
+        <p>No tutors pending approval.</p>
+    {% endfor %}
+
+    <h3>Unapproved Students</h3>
+    {% for student in unapproved_students %}
+        <div>
+            <input type="checkbox" name="approve_students" value="{{ student.id }}">
+            {{ student.user.first_name }} {{ student.user.last_name }}
+        </div>
+    {% empty %}
+        <p>No students pending approval.</p>
+    {% endfor %}
+
+    <button type="submit">Approve Selected Users</button>
+</form>
