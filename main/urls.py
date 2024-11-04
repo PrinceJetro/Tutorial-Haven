@@ -5,10 +5,11 @@ from . import views
 
 urlpatterns = [
     path('', views.home, name='home'),
+    path('speech/<str:texts>', views.speech, name='speech'),
     path('register/owner/', views.register_owner, name='register_owner'),
     path('register/tutor/', views.register_tutor, name='register_tutor'),
     path('register/student/', views.register_student, name='register_student'),
-    path('profile/<str:name>', views.profile, name='profile'),
+    path('myprofile/', views.myprofile, name='myprofile'),
     path('approve-users/', views.approve_users, name='approve_users'),
     path('login/', views.loginview, name='login'),  # Login URL
     path('logout/', auth_views.LogoutView.as_view(next_page='home'), name='logout'),  # Logout URL

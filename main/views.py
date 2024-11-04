@@ -9,6 +9,10 @@ from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseForbidden
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.hashers import make_password
+from django.urls import reverse
+import pyttsx3
+
+
 
 
 
@@ -86,7 +90,7 @@ def loginview(request):
         print("Hereeee")
         if user:
             login(request, user)
-            return redirect('home')
+            return redirect('myprofile')
     return render(request, 'login.html')
 
 @login_required
@@ -181,9 +185,24 @@ def list_tutorial_students(request, tutorial):
 
 
 @login_required
-def profile(request, name):
-    user = get_object_or_404(User, username=name)
-    return render(request, 'profile.html',{'user': user} )
+def myprofile(request):
+    user = request.user.username
+    courses = Course.objects.all()
+    return render(request, 'myprofile.html',{'user': user,'courses': courses} )
 
     
+
+@login_required
+def speech(request, texts):
+    # Initialize the TTS engine
+        engine = pyttsx3.init()
+
+        # Set the text you want to convert to speech
+        text = texts
+
+        # Use the engine to say the text
+        engine.say(text)
+
+        # Wait for the speaking to finish
+        engine.runAndWait()
 

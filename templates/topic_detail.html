@@ -1,4 +1,315 @@
-<h2>{{topic.name}}</h2>
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Tutorial Haven</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+ 
+    <!-- Favicon -->
+    <link href="{% static 'img/favicon.ico' %}" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="{% static 'lib/animate/animate.min.css' %}" rel="stylesheet">
+    <link href="{% static 'lib/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+
+    <style>
+        /* Overall container styling for content */
+        .content-container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f9fafb;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            line-height: 1.7;
+            color: #333;
+        }
+        
+        /* Heading styles */
+        .content-container h1,
+        .content-container h2,
+        .content-container h3 {
+            color: #1a73e8;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+        
+        .content-container h1 {
+            font-size: 2.2em;
+            font-weight: bold;
+        }
+        
+        .content-container h2 {
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+        
+        .content-container h3 {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        
+        /* Paragraph styling */
+        .content-container p {
+            font-size: 1.1em;
+            color: #4a4a4a;
+            margin: 1em 0;
+            text-align: justify;
+        }
+        
+        /* Blockquote styling for quoted texts */
+        .content-container blockquote {
+            font-size: 1.1em;
+            font-style: italic;
+            color: #666;
+            margin: 20px 0;
+            padding-left: 20px;
+            border-left: 5px solid #1a73e8;
+            background-color: #f1f8ff;
+            border-radius: 4px;
+        }
+        
+        /* Image styling */
+        .content-container img {
+            width: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+            margin: 20px 0;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Anchor link styling */
+        .content-container a {
+            color: #1a73e8;
+            text-decoration: underline;
+        }
+        
+        .content-container a:hover {
+            color: #0b5ed7;
+        }
+        
+        /* List styling */
+        .content-container ul,
+        .content-container ol {
+            margin-left: 2em;
+            padding-left: 1em;
+        }
+        
+        .content-container ul li,
+        .content-container ol li {
+            margin: 0.5em 0;
+            line-height: 1.6;
+        }
+        
+        /* Emphasize important text */
+        .content-container strong {
+            color: #1a73e8;
+            font-weight: bold;
+        }
+        
+        /* Code block styling */
+        .content-container pre {
+            background-color: #f4f6f8;
+            color: #333;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 6px;
+            overflow-x: auto;
+            font-size: 0.95em;
+        }
+        
+        /* Styling for tables if present */
+        .content-container table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 1em;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+        
+        .content-container th,
+        .content-container td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .content-container th {
+            background-color: #1a73e8;
+            color: white;
+            font-weight: bold;
+        }
+        
+        /* Fine-tuning text selection color */
+        ::selection {
+            background-color: #1a73e8;
+            color: white;
+        }
+        
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .content-container {
+                padding: 15px;
+                margin: 20px auto;
+                max-width: 400px;
+
+            }
+        
+            .content-container h1 {
+                font-size: 1.8em;
+            }
+        
+            .content-container h2 {
+                font-size: 1.6em;
+            }
+        
+            .content-container h3 {
+                font-size: 1.4em;
+            }
+        
+            .content-container img {
+                max-width: 100%;
+            }
+        }
+        </style>
+        
+    
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+</head>
+<body>
+      <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+    <a href="{% url 'home' %}" class="navbar-brand d-flex align-items-center px-4 px-sm-5">
+        <h5 class="m-0 text-primary"><i class="fa fa-book me-3"></i>Tutorial Haven</h5>
+    </a>
+    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+          {% if request.user.is_authenticated %}
+          <a href="{% url 'myprofile' %}" class="nav-item nav-link active">Welcome {{request.user.username}}</a>
+          <a href="{% url 'myprofile' %}" class="nav-item nav-link active">Your Profile</a>
+          {% else %}
+          <a href="{% url 'login'  %}" class="nav-item nav-link active">Login</a>
+          {% endif %}
+
+          {% if request.user.is_authenticated %}
+          <div class="nav-item dropdown" >
+              <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
+              <div class="dropdown-menu fade-down m-0" >
+                  {% if request.user.student %}
+                  <a href="{% url 'list_courses' request.user.student.department.name %}" class="nav-item nav-link">Courses</a>
+                  <a href="" class="nav-item nav-link">View Scores</a>
+                  {% endif %}
+                  <a href="" class="nav-item nav-link">Practice CBT</a>
+
+              </div>
+          </div>
+          <form method="POST" action="{% url 'logout' %}" class="mr-2" style="display:flex; justify-content:center; align-items:center;height:auto;">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-danger m-auto">Logout</button>
+        </form>
+          {% endif %}
+
+            
+
+        </div>
+    </div>
+</nav>
+<!-- Navbar End -->
 
 
-{{ topic.content|safe }}
+
+<div class="content-container">
+    <h2 class="mt-3">{{ topic.name }}</h2>
+    <div id="topic-content">{{ topic.content|safe }}</div>
+</div>
+
+<div>
+        <button class="m-3 btn btn-primary" onclick="speak()">Play</button>
+        <button class="m-3 btn btn-warning" onclick="pause()">Pause</button>
+        <button class="m-3 btn btn-success" onclick="resume()">Resume</button>
+        <button class="m-3 btn btn-danger" onclick="reset()">Reset</button>
+</div>
+
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="{% static 'lib/wow/wow.min.js' %}"></script>
+<script src="{% static 'lib/easing/easing.min.js' %}"></script>
+<script src="{% static 'lib/waypoints/waypoints.min.js' %}"></script>
+<script src="{% static 'lib/owlcarousel/owl.carousel.min.js' %}"></script>
+
+<!-- Template Javascript -->
+<script>
+    let utterance;
+
+        function speak() {
+            // Get the HTML content and convert it to plain text
+            const contentHtml = document.getElementById('topic-content').innerHTML;
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = contentHtml;
+            const textContent = tempDiv.innerText;
+
+            // Check if there's already an utterance and stop it if needed
+            if (utterance) {
+                window.speechSynthesis.cancel();
+            }
+
+            // Initialize a new utterance with the text content
+            utterance = new SpeechSynthesisUtterance(textContent);
+
+            // Customize speech options
+            utterance.rate = 1; // Normal speed
+            utterance.pitch = 1; // Normal pitch
+            utterance.volume = 1; // Max volume
+
+            // Start speaking
+            window.speechSynthesis.speak(utterance);
+        }
+
+        function pause() {
+            if (window.speechSynthesis.speaking && !window.speechSynthesis.paused) {
+                window.speechSynthesis.pause();
+            }
+        }
+
+        function resume() {
+            if (window.speechSynthesis.paused) {
+                window.speechSynthesis.resume();
+            }
+        }
+
+        function reset() {
+            window.speechSynthesis.cancel(); // Stops and resets the speech
+        }
+</script>
+
+<script src="{% static 'js/main.js' %}"></script>
+
+
+
+</body>
+</html>
