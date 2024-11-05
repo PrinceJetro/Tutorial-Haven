@@ -1,24 +1,11 @@
 # admin.py
 from django.contrib import admin
-from .models import TutorialCenter, Tutor, Student, Course, Department, Topic
-
-@admin.register(TutorialCenter)
-class TutorialCenterAdmin(admin.ModelAdmin):
-    list_display = ('name', 'owner')
-    search_fields = ('name', 'owner__username')
-    list_filter = ('name',)
-
-@admin.register(Tutor)
-class TutorAdmin(admin.ModelAdmin):
-    list_display = ('user', 'tutorial_center')
-    search_fields = ('user__username', 'user__first_name', 'user__last_name', 'tutorial_center__name')
-    list_filter = ('tutorial_center',)
+from .models import Student, Course, Department, Topic
 
 @admin.register(Student)
 class StudentAdmin(admin.ModelAdmin):
-    list_display = ('user', 'tutorial_center')
+    list_display = ['user']
     search_fields = ('user__username', 'user__first_name', 'user__last_name', 'tutorial_center__name')
-    list_filter = ('tutorial_center',)
 
 @admin.register(Department)
 class DepartmentAdmin(admin.ModelAdmin):

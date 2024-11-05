@@ -55,16 +55,15 @@
             <a href="{% url 'myprofile' %}" class="nav-item nav-link active">Your Profile</a>
             {% else %}
             <a href="{% url 'login'  %}" class="nav-item nav-link active">Login</a>
+            <a href="{% url 'register'  %}" class="nav-item nav-link active">Register</a>
             {% endif %}
 
             {% if request.user.is_authenticated %}
             <div class="nav-item dropdown" >
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
                 <div class="dropdown-menu fade-down m-0" >
-                    {% if request.user.student %}
                     <a href="{% url 'list_courses' request.user.student.department.name %}" class="nav-item nav-link">Courses</a>
                     <a href="" class="nav-item nav-link">View Scores</a>
-                    {% endif %}
                     <a href="" class="nav-item nav-link">Practice CBT</a>
 
                 </div>

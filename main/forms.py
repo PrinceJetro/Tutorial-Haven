@@ -1,7 +1,7 @@
 # forms.py
 from django import forms
 from django.contrib.auth.models import User
-from .models import TutorialCenter, Course, Exam, Topic
+from .models import  Course, Topic
 from ckeditor.fields import RichTextField  # For model definition
 
 class UserRegistrationForm(forms.ModelForm):
@@ -24,23 +24,6 @@ class UserRegistrationForm(forms.ModelForm):
         if password and confirm_password and password != confirm_password:
             self.add_error('confirm_password', "Passwords do not match.")
         return cleaned_data
-
-class OwnerRegistrationForm(UserRegistrationForm):
-    tutorial_center_name = forms.CharField(max_length=255, required=True)
-
-class TutorRegistrationForm(UserRegistrationForm):
-    tutorial_center = forms.ModelChoiceField(queryset=TutorialCenter.objects.all(), required=True)
-
-class StudentRegistrationForm(UserRegistrationForm):
-    tutorial_center = forms.ModelChoiceField(queryset=TutorialCenter.objects.all(), required=True)
-
-class CourseForm(forms.ModelForm):
-    name = forms.CharField(max_length=255, required=True)
-    departments = forms.ModelMultipleChoiceField(queryset=TutorialCenter.objects.all(), required=True)
-
-    class Meta:
-        model = Course
-        fields = ['name', 'departments']
 
 class TopicForm(forms.ModelForm):
     name = forms.CharField(max_length=255, required=True)
