@@ -55,7 +55,7 @@
             <a href="{% url 'myprofile' %}" class="nav-item nav-link active">Your Profile</a>
             {% else %}
             <a href="{% url 'login'  %}" class="nav-item nav-link active">Login</a>
-            <a href="{% url 'register'  %}" class="nav-item nav-link active">Register</a>
+            <a href="{% url 'register_student'  %}" class="nav-item nav-link active">Register</a>
             {% endif %}
 
             {% if request.user.is_authenticated %}
