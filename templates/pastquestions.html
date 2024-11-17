@@ -243,18 +243,12 @@
 
 
 
-
 <div class="content-container">
-    <h2 class="mt-3">{{ topic.name }}</h2>
-    <div id="topic-content">{{ topic.content|safe }}</div>
+    <h2 class="mt-3">{{ pastpq }}</h2>
+    <div id="topic-content">{{ pastpq.content|safe }}</div>
+    <a href="{% url 'keypoints' pastpq.id %}">View Answers / KeyPoints</a>
 </div>
 
-<div>
-        <button class="m-3 btn btn-primary" onclick="speak()">Play</button>
-        <button class="m-3 btn btn-warning" onclick="pause()">Pause</button>
-        <button class="m-3 btn btn-success" onclick="resume()">Resume</button>
-        <button class="m-3 btn btn-danger" onclick="reset()">Reset</button>
-</div>
 
 <!-- JavaScript Libraries -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -265,50 +259,6 @@
 <script src="{% static 'lib/owlcarousel/owl.carousel.min.js' %}"></script>
 
 <!-- Template Javascript -->
-<script>
-    let utterance;
-
-        function speak() {
-            // Get the HTML content and convert it to plain text
-            const contentHtml = document.getElementById('topic-content').innerHTML;
-            const tempDiv = document.createElement('div');
-            tempDiv.innerHTML = contentHtml;
-            const textContent = tempDiv.innerText;
-
-            // Check if there's already an utterance and stop it if needed
-            if (utterance) {
-                window.speechSynthesis.cancel();
-            }
-
-            // Initialize a new utterance with the text content
-            utterance = new SpeechSynthesisUtterance(textContent);
-
-            // Customize speech options
-            utterance.rate = 1; // Normal speed
-            utterance.pitch = 1; // Normal pitch
-            utterance.volume = 1; // Max volume
-
-            // Start speaking
-            window.speechSynthesis.speak(utterance);
-        }
-
-        function pause() {
-            if (window.speechSynthesis.speaking && !window.speechSynthesis.paused) {
-                window.speechSynthesis.pause();
-            }
-        }
-
-        function resume() {
-            if (window.speechSynthesis.paused) {
-                window.speechSynthesis.resume();
-            }
-        }
-
-        function reset() {
-            window.speechSynthesis.cancel(); // Stops and resets the speech
-        }
-</script>
-
 <script src="{% static 'js/main.js' %}"></script>
 
 

@@ -15,9 +15,9 @@
             </div>
             <div class="col-xl-6">
               <div class="card-body p-md-5 text-black">
-                <h3 class="mb-5 text-uppercase">Registration Form For Students</h3>
+                <h3 class="mb-5 text-uppercase">Registration Form For Teachers</h3>
 
-                <form method="POST" action="{% url 'register_student' %}" enctype="multipart/form-data">
+                <form method="POST" action="{% url 'register_teacher' %}" enctype="multipart/form-data">
                   {% csrf_token %}
 
                   <div class="row">
@@ -48,15 +48,6 @@
                         {% endfor %}
                     </select>
                     <label class="form-label" for="institution">Institution</label>
-                </div>
-                  
-                  <div data-mdb-input-init class="form-outline mb-4">
-                    <select name="department" id="department" class="form-control form-control-lg" required>
-                        {% for department in alldepartments %}      
-                            <option value="{{ department }}">{{ department }}</option>
-                        {% endfor %}
-                    </select>
-                    <label class="form-label" for="department">Department</label>
                 </div>
               
                   <div data-mdb-input-init class="form-outline mb-4">

@@ -53,15 +53,8 @@
                   <div class="text-center pt-3 pb-2" style="display: flex; justify-content: center; align-items:center; flex-direction: column">
                     <img src={{course.image}}
                       alt="Check" width="300px">
-                    <h2 class="my-4">{{course.name|title}}</h2>
-                    {% if course.percentage %}
-                    <h2 class="my-4">Percentage: {{course.percentage|title}}%</h2>
-                    {% else %}
-                    <h2>You have not practiced this yet</h2>
+                    <h2 class="my-4">Past Questions</h2>
 
-                    {% endif %}
-
-                    <a href="{% url 'cbt' course.id %}" class="btn btn-primary">Take CBT</a>
 
 
                   </div>
@@ -69,18 +62,18 @@
                   <table class="table text-white mb-0">
                     <thead>
                       <tr style="display: flex; justify-content: center; align-items:center; flex-direction: column">
-                        <th scope="col text-center">Topics</th>
+                        <th scope="col text-center">Past Questions</th>
                       </tr>
                     </thead>
                     <tbody>
 
-                        {% for topic in topics %}
+                        {% for pastpq in pastquestions %}
 
 
                       <tr class="fw-normal">
                         <td class="align-middle">
-                            <a href="{% url 'topic_detail' topic.id %}" class="text-light d-block">
-                                <span>{{topic|title}}</span>
+                            <a href="{% url 'pastquestions' pastpq.id %}" class="text-light d-block">
+                                <span>{{pastpq|title}}</span>
                             </a>
                         </td>
                       </tr>
@@ -105,39 +98,3 @@
 </html>
 
 {% endblock %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

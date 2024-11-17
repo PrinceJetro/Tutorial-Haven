@@ -1,0 +1,15 @@
+<!-- cbt_result.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>{{ course.name }} CBT Results</h2>
+<p>Your Score: {{ score }} / {{ total_questions }}</p>
+<p>Percentage: {{ percentage_score }}%</p>
+
+{% if percentage_score >= 50 %}
+    <p>Congratulations, you passed!</p>
+{% else %}
+    <p>Keep studying, you'll get it next time!</p>
+{% endif %}
+<a href="{% url 'course_detail' course.id %}" class="btn btn-primary">Back to Course</a>
+{% endblock %}
