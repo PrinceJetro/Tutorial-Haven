@@ -44,6 +44,7 @@ class Student(models.Model):
     image = models.ImageField(upload_to="uploaded_image", null=True, default='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKKOdmJz8Z2pDtYgFgR2u9spABvNNPKYYtGw&s', max_length=5000)
     department = models.ForeignKey(Department, on_delete=models.SET_NULL, null=True, related_name='students')
     school = models.ForeignKey(Institution, on_delete=models.SET_NULL, null=True, related_name='students')  # Foreign key to Institution
+    is_approved = models.BooleanField(default=False)  # Approval field
 
     def __str__(self):
         return f'{self.user.first_name} {self.user.last_name}'

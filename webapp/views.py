@@ -122,7 +122,7 @@ def register_teacher(request):
             return redirect('myprofile')
         else:
             error_message = "All fields are required."
-    return render(request, 'register_teacher.html', {'error_message': error_message})
+    return render(request, 'register_teacher.html', {'error_message': error_message,'allinstitutions':allinstitutions})
 
 
 def register_student(request):
