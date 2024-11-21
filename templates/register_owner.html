@@ -15,9 +15,9 @@
             </div>
             <div class="col-xl-6">
               <div class="card-body p-md-5 text-black">
-                <h3 class="mb-5 text-uppercase">Register As An Institution</h3>
+                <h3 class="mb-5 text-uppercase">Registration Form</h3>
 
-                <form method="POST" action="{% url 'register_institution' %}" enctype="multipart/form-data">
+                <form method="POST" action="{% url 'register_owner' %}">
                   {% csrf_token %}
 
                   <div class="row">
@@ -27,30 +27,12 @@
                         <label class="form-label" for="formFirstName">First name</label>
                       </div>
                     </div>
-
                     <div class="col-md-6 mb-4">
                       <div data-mdb-input-init class="form-outline">
                         <input type="text" id="formLastName" name="last_name" class="form-control form-control-lg" required />
                         <label class="form-label" for="formLastName">Last name</label>
                       </div>
                     </div>
-                  </div>
-
-                  <div data-mdb-input-init class="form-outline mb-4">
-                    <input type="text" id="formSchool" name="school_name" class="form-control form-control-lg" required />
-                    <label class="form-label" for="formSchool">School Name</label>
-                  </div>
-
-                  
-                  <div data-mdb-input-init class="form-outline mb-4">
-                    <input type="file"  id="profilepic" name="profilepic" class="form-control form-control-lg" required />
-                    <label class="form-label" for="proilepic">School Logo</label>
-                  </div>
-              
-              
-                  <div data-mdb-input-init class="form-outline mb-4">
-                    <input type="email" id="formEmail" name="email" class="form-control form-control-lg" required />
-                    <label class="form-label" for="formEmail">Email</label>
                   </div>
 
                   <div data-mdb-input-init class="form-outline mb-4">
@@ -61,7 +43,31 @@
                   <div data-mdb-input-init class="form-outline mb-4">
                     <input type="password" id="formPassword" name="password" class="form-control form-control-lg" required />
                     <label class="form-label" for="formPassword">Password</label>
-                    <i class="fa fa-eye" onclick="password()"></i>
+                  </div>
+
+                  <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="text" id="formTutorialCenterName" name="tutorial_center_name" class="form-control form-control-lg" />
+                    <label class="form-label" for="formTutorialCenterName">Tutorial Center Name</label>
+                  </div>
+                
+                  <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="text" id="formTutorialCenterName" name="tutorial_center_address" class="form-control form-control-lg" />
+                    <label class="form-label" for="formTutorialCenterName">Tutorial Center Address</label>
+                  </div>
+                
+                  <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="text" id="formTutorialCenterName" name="tutorial_center_dicipline" class="form-control form-control-lg" placeholder="Waec / Jamb etc"/>
+                    <label class="form-label" for="formTutorialCenterName">Tutorial Center Dicipline</label>
+                  </div>
+                  
+                  <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="number" id="formTutorialCenterName" name="tutorial_center_number" class="form-control form-control-lg" />
+                    <label class="form-label" for="formTutorialCenterName">Tutorial Center Phone Number</label>
+                  </div>
+
+                  <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="email" id="formEmail" name="email" class="form-control form-control-lg" required />
+                    <label class="form-label" for="formEmail">Email</label>
                   </div>
 
                   <div class="d-flex justify-content-end pt-3">
@@ -79,6 +85,9 @@
     </div>
   </div>
 </section>
+
+
+
 
 <script>
   function password(){

@@ -8,6 +8,8 @@ urlpatterns = [
     path('register_institution/', views.register_owner, name='register_institution'),
     path('register_tutor/', views.register_tutor, name='register_tutor'),
     path('register_student/', views.register_student, name='register_student'),
+    path('approve-users/', views.approve_users, name='approve_users'),
+    path('<str:tutorial>/students', views.list_tutorial_students, name='list_tutorial_students'),
     path('myprofile/', views.myprofile, name='myprofile'),
     path('login/', views.loginview, name='login'),  # Login URL
     path('logout/', auth_views.LogoutView.as_view(next_page='home'), name='logout'),  # Logout URL

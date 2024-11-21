@@ -1,6 +1,6 @@
 # admin.py
 from django.contrib import admin
-from .models import Student, Course, Department, Topic, PastQuestions, KeyPoints, CBTQuestion, PracticeExplanations, Institution, Teacher
+from .models import Student, Course, Department, Topic, PastQuestions, KeyPoints, CBTQuestion, PracticeExplanations, TutorialCenter, Tutor
 
 
 
@@ -9,8 +9,8 @@ class StudentAdmin(admin.ModelAdmin):
     list_display = ['user']
     search_fields = ('user__username', 'user__first_name', 'user__last_name')
 
-@admin.register(Teacher)
-class TeacherAdmin(admin.ModelAdmin):
+@admin.register(Tutor)
+class TutorAdmin(admin.ModelAdmin):
     list_display = ['user']
     search_fields = ('user__username', 'user__first_name', 'user__last_name')
 
@@ -19,8 +19,8 @@ class DepartmentAdmin(admin.ModelAdmin):
     list_display = ('name',)
     search_fields = ('name',)
 
-@admin.register(Institution)
-class InstitutionAdmin(admin.ModelAdmin):
+@admin.register(TutorialCenter)
+class TutorialCenterAdmin(admin.ModelAdmin):
     list_display = ('name',)
     search_fields = ('name',)
 

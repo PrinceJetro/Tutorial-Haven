@@ -1,0 +1,334 @@
+
+
+@login_required
+def list_departments(request):
+    departments = Department.objects.all()
+    print(departments)
+    return render(request, "cool/departments.html", {"departments": departments})
+
+
+@login_required
+def create_course(request):
+    if request.method == "POST":
+        # Assume you have a CourseForm that includes department selection
+        form = CourseForm(request.POST)
+        if form.is_valid():
+            form.save()
+            # Redirect to list or detail view
+    else:
+        form = CourseForm()
+    return render(request, 'create_course.html', {'form': form})
+
+@login_required
+def list_all_courses(request):
+    all_courses = Course.objects.all()
+    return render(request, 'list_courses.html', {'courses': all_courses})
+
+
+@login_required
+def list_courses(request, department_name=None):
+    if department_name:
+        department = get_object_or_404(Department, name=department_name)
+        print("here")
+        courses = department.courses.all()  # Access courses through the related_name
+    return render(request, 'list_courses.html', {'courses': courses, "department": department})
+
+
+@login_required
+def course_detail(request, course_name):
+    course = get_object_or_404(Course, name=course_name)
+    topics = course.topics.all()
+    return render(request, 'course_detail.html', {'course': course, 'topics': topics})
+
+
+@login_required
+def topic_detail(request, topic_name):
+    topic = get_object_or_404(Topic, name=topic_name)
+    return render(request, 'topic_detail.html', {'topic': topic})
+
+
+@login_required
+def about_tutorial(request):
+    pass
+
+
+
+
+
+@login_required
+def speech(request, texts):
+    # Initialize the TTS engine
+        engine = pyttsx3.init()
+
+        # Set the text you want to convert to speech
+        text = texts
+
+        # Use the engine to say the text
+        engine.say(text)
+
+        # Wait for the speaking to finish
+        engine.runAndWait()
+
+
+
+
+
+
+# models.py
+from django.db import models
+from django.contrib.auth.models import User
+from ckeditor.fields import RichTextField
+
+
+
+
+    
+class Department(models.Model):
+    name = models.CharField(max_length=20)
+    image = models.ImageField(upload_to="uploaded_image", null=True)
+    
+
+    def __str__(self):
+        return self.name
+
+class Course(models.Model):
+    name = models.CharField(max_length=255)
+    departments = models.ManyToManyField(Department, related_name='courses')  # Updated to ManyToManyField
+    image = models.ImageField(upload_to="uploaded_image", null=True)
+
+
+    def __str__(self):
+        return self.name
+
+
+
+
+
+
+
+    
+
+
+
+class Topic(models.Model):
+    name = models.CharField(max_length=100)
+    description = models.TextField(blank=True)
+    content = RichTextField(blank=True)
+    course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name='topics')
+
+    def __str__(self):
+        return self.name
+    
+
+
+class Exam(models.Model):
+    course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name='exams')
+    date = models.DateField()
+    duration = models.DurationField()  # Duration of the exam
+    maximum_marks = models.PositiveIntegerField()
+
+    def __str__(self):
+        return f'Exam for {self.course.title} on {self.date}'
+    
+
+
+
+
+
+
+
+
+
+
+
+
+from django.urls import path
+from django.contrib.auth import views as auth_views
+from . import views
+
+
+urlpatterns = [
+    path('', views.home, name='home'),
+    path('speech/<str:texts>', views.speech, name='speech'),
+    path('register/owner/', views.register_owner, name='register_owner'),
+    path('register/tutor/', views.register_tutor, name='register_tutor'),
+    path('register/student/', views.register_student, name='register_student'),
+    path('myprofile/', views.myprofile, name='myprofile'),
+    path('approve-users/', views.approve_users, name='approve_users'),
+    path('login/', views.loginview, name='login'),  # Login URL
+    path('logout/', auth_views.LogoutView.as_view(next_page='home'), name='logout'),  # Logout URL
+    path('departments/', views.list_departments, name='list_departments'),
+    path('departments/<str:department_name>/courses/', views.list_courses, name='list_courses'),
+    path('courses/', views.list_all_courses, name='course'),
+    path('courses/<str:course_name>/', views.course_detail, name='course_detail'),
+    path('courses/<str:topic_name>/topic', views.topic_detail, name='topic_detail'),
+    path('<str:tutorial>', views.about_tutorial, name='about_tutorial'),
+    path('<str:tutorial>/students', views.list_tutorial_students, name='list_tutorial_students'),
+]
+
+
+
+
+
+
+owner
+
+    <section class="h-100 bg-dark">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col">
+              <div class="card card-registration my-4">
+                <div class="row g-0">
+                  <div class="col-xl-6 d-none d-xl-block">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/img4.webp"
+                         alt="Sample photo" class="img-fluid"
+                         style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;" />
+                  </div>
+                  <div class="col-xl-6">
+                    <div class="card-body p-md-5 text-black">
+                      <h3 class="mb-5 text-uppercase">Registration Form</h3>
+      
+                      <form method="POST" action="{% url 'register_owner' %}">
+                        {% csrf_token %}
+      
+                        <div class="row">
+                          <div class="col-md-6 mb-4">
+                            <div data-mdb-input-init class="form-outline">
+                              <input type="text" id="formFirstName" name="first_name" class="form-control form-control-lg" required />
+                              <label class="form-label" for="formFirstName">First name</label>
+                            </div>
+                          </div>
+                          <div class="col-md-6 mb-4">
+                            <div data-mdb-input-init class="form-outline">
+                              <input type="text" id="formLastName" name="last_name" class="form-control form-control-lg" required />
+                              <label class="form-label" for="formLastName">Last name</label>
+                            </div>
+                          </div>
+                        </div>
+      
+                        <div data-mdb-input-init class="form-outline mb-4">
+                          <input type="text" id="formUsername" name="username" class="form-control form-control-lg" required />
+                          <label class="form-label" for="formUsername">Username</label>
+                        </div>
+      
+                        <div data-mdb-input-init class="form-outline mb-4">
+                          <input type="password" id="formPassword" name="password" class="form-control form-control-lg" required />
+                          <label class="form-label" for="formPassword">Password</label>
+                        </div>
+      
+                        <div data-mdb-input-init class="form-outline mb-4">
+                          <input type="text" id="formTutorialCenterName" name="tutorial_center_name" class="form-control form-control-lg" />
+                          <label class="form-label" for="formTutorialCenterName">Tutorial Center Name</label>
+                        </div>
+                      
+                        <div data-mdb-input-init class="form-outline mb-4">
+                          <input type="text" id="formTutorialCenterName" name="tutorial_center_address" class="form-control form-control-lg" />
+                          <label class="form-label" for="formTutorialCenterName">Tutorial Center Address</label>
+                        </div>
+                      
+                        <div data-mdb-input-init class="form-outline mb-4">
+                          <input type="text" id="formTutorialCenterName" name="tutorial_center_dicipline" class="form-control form-control-lg" placeholder="Waec / Jamb etc"/>
+                          <label class="form-label" for="formTutorialCenterName">Tutorial Center Dicipline</label>
+                        </div>
+                        
+                        <div data-mdb-input-init class="form-outline mb-4">
+                          <input type="number" id="formTutorialCenterName" name="tutorial_center_number" class="form-control form-control-lg" />
+                          <label class="form-label" for="formTutorialCenterName">Tutorial Center Phone Number</label>
+                        </div>
+      
+                        <div data-mdb-input-init class="form-outline mb-4">
+                          <input type="email" id="formEmail" name="email" class="form-control form-control-lg" required />
+                          <label class="form-label" for="formEmail">Email</label>
+                        </div>
+      
+                        <div class="d-flex justify-content-end pt-3">
+                          <button type="reset" class="btn btn-light btn-lg">Reset all</button>
+                          <button type="submit" class="btn btn-warning btn-lg ms-2">Submit form</button>
+                        </div>
+      
+                      </form>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+student
+
+  <section class="h-100 bg-dark">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col">
+              <div class="card card-registration my-4">
+                <div class="row g-0">
+                  <div class="col-xl-6 d-none d-xl-block">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/img4.webp"
+                         alt="Sample photo" class="img-fluid"
+                         style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;" />
+                  </div>
+                  <div class="col-xl-6">
+                    <div class="card-body p-md-5 text-black">
+                      <h3 class="mb-5 text-uppercase">Registration Form</h3>
+      
+                      <form method="POST" action="{% url 'register_owner' %}">
+                        {% csrf_token %}
+      
+                        <div class="row">
+                          <div class="col-md-6 mb-4">
+                            <div data-mdb-input-init class="form-outline">
+                              <input type="text" id="formFirstName" name="first_name" class="form-control form-control-lg" required />
+                              <label class="form-label" for="formFirstName">First name</label>
+                            </div>
+                          </div>
+                          <div class="col-md-6 mb-4">
+                            <div data-mdb-input-init class="form-outline">
+                              <input type="text" id="formLastName" name="last_name" class="form-control form-control-lg" required />
+                              <label class="form-label" for="formLastName">Last name</label>
+                            </div>
+                          </div>
+                        </div>
+      
+                        <div data-mdb-input-init class="form-outline mb-4">
+                          <input type="text" id="formUsername" name="username" class="form-control form-control-lg" required />
+                          <label class="form-label" for="formUsername">Username</label>
+                        </div>
+      
+                        <div data-mdb-input-init class="form-outline mb-4">
+                          <input type="password" id="formPassword" name="password" class="form-control form-control-lg" required />
+                          <label class="form-label" for="formPassword">Password</label>
+                        </div>
+      
+                        <div data-mdb-input-init class="form-outline mb-4">
+                          <input type="text" id="formTutorialCenterName" name="tutorial_center_name" class="form-control form-control-lg" />
+                          <label class="form-label" for="formTutorialCenterName">Tutorial Center Name</label>
+                        </div>
+      
+                        <div data-mdb-input-init class="form-outline mb-4">
+                          <input type="email" id="formEmail" name="email" class="form-control form-control-lg" required />
+                          <label class="form-label" for="formEmail">Email</label>
+                        </div>
+      
+                        <div class="d-flex justify-content-end pt-3">
+                          <button type="reset" class="btn btn-light btn-lg">Reset all</button>
+                          <button type="submit" class="btn btn-warning btn-lg ms-2">Submit form</button>
+                        </div>
+      
+                      </form>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
