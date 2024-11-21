@@ -5,7 +5,7 @@ from ckeditor.fields import RichTextField
 
 class Institution(models.Model):
     name = models.CharField(max_length=255)
-    owner = models.ForeignKey(User, on_delete=models.CASCADE, related_name="owned_schools", null=True)
+    user = models.OneToOneField(User, on_delete=models.CASCADE, related_name="owned_schools", null=True)
     image = models.ImageField(upload_to="uploaded_image", null=True, default='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKKOdmJz8Z2pDtYgFgR2u9spABvNNPKYYtGw&s', max_length=5000)
 
 

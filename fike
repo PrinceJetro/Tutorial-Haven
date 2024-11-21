@@ -1,0 +1,59 @@
+[33mcommit 8e903c2e73aa81103f7b5d31f2e6bb5bb37001fd[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: PrinceJetro <adegbuyijephthah@gmail.com>
+Date:   Mon Nov 18 09:15:52 2024 +0100
+
+    pulled and worked on some changes, htinking of how the profile page will be
+
+[33mcommit 94b46492b42c8efa2783ebec3118b45351d43264[m
+Author: Adegbuyi Jephthah <114796977+PrinceJetro@users.noreply.github.com>
+Date:   Sun Nov 17 21:24:12 2024 +0100
+
+    Update register_institution.html
+
+[33mcommit 02ae920a47fe58523fff8ba4dffcc4f1b25748ad[m
+Author: Adegbuyi Jephthah <114796977+PrinceJetro@users.noreply.github.com>
+Date:   Sun Nov 17 19:33:37 2024 +0100
+
+    Update urls.py
+
+[33mcommit 1242e0a2d677e7138e85c7a5bccd828fd0bf190e[m
+Author: Adegbuyi Jephthah <114796977+PrinceJetro@users.noreply.github.com>
+Date:   Sun Nov 17 19:27:22 2024 +0100
+
+    Update index.html
+
+[33mcommit cb253e61de9899dd24b5dbf42e76d7e217558a01[m
+Author: Adegbuyi Jephthah <114796977+PrinceJetro@users.noreply.github.com>
+Date:   Sun Nov 17 19:24:47 2024 +0100
+
+    Update base.html
+
+[33mcommit ad3ad84e77c3242f12bf318fc0b9eb3bfacc2ec3[m
+Author: Adegbuyi Jephthah <114796977+PrinceJetro@users.noreply.github.com>
+Date:   Sun Nov 17 19:21:16 2024 +0100
+
+    Update nav.html
+
+[33mcommit c20190a7d67c898408a4550c2ddcd53b056a62c5[m
+Author: PrinceJetro <adegbuyijephthah@gmail.com>
+Date:   Sun Nov 17 19:12:16 2024 +0100
+
+    back to school
+
+[33mcommit 93dc3560c5d31961906e327dc121ef6ee38c0520[m
+Author: PrinceJetro <adegbuyijephthah@gmail.com>
+Date:   Tue Nov 5 01:09:06 2024 +0100
+
+    first commit on change to the original
+
+[33mcommit 80c356f58dc039b20ccea0310a57b2621c3a345d[m
+Author: PrinceJetro <adegbuyijephthah@gmail.com>
+Date:   Mon Nov 4 23:07:28 2024 +0100
+
+    full stop to the o level
+
+[33mcommit ec3150a39e5d262abc4c19b2474f605a0890a2d6[m
+Author: PrinceJetro <adegbuyijephthah@gmail.com>
+Date:   Sat Nov 2 10:51:00 2024 +0100
+
+    first commit

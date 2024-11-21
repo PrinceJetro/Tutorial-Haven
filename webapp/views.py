@@ -137,10 +137,10 @@ def register_student(request):
         email = request.POST.get('email').lower()
         username = request.POST.get('username').lower()
         password = request.POST.get('password')
-        school = request.POST.get('institution').lower()  # Assuming this is passed as an ID or string
+        school_name = request.POST.get('institution')  # Assuming this is passed as the name of the institution
         profile_pic = request.FILES.get('profilepic')  # Retrieve the uploaded image
-        print("profile_pic.name")
 
+        print(f"Profile Picture Name: {profile_pic.name if profile_pic else 'No picture uploaded'}")
 
         # Initialize storage
         storage = SupabaseStorage()
@@ -149,7 +149,6 @@ def register_student(request):
         image_url = None
         if profile_pic:
             post = 'media/' + profile_pic.name
-            print(profile_pic.name)
             try:
                 filename = storage.save(post, profile_pic)
                 image_url = storage.url(filename)
@@ -158,19 +157,28 @@ def register_student(request):
                 print(f"Error uploading image: {e}")
 
         # Basic validation
-        if username and password and school and first_name and last_name and department_name and email:
+        if username and password and school_name and first_name and last_name and department_name and email:
             # Fetch the Department instance
             department = get_object_or_404(Department, name=department_name)
+            
+            # Fetch the Institution instance
+            school = get_object_or_404(Institution, name=school_name)
 
             # Create the user and student records
-            user = User(username=username, password=make_password(password), first_name=first_name, last_name=last_name, email=email)
+            user = User(
+                username=username, 
+                password=make_password(password), 
+                first_name=first_name, 
+                last_name=last_name, 
+                email=email
+            )
             user.save()
 
             # Create Student instance, including the profile picture if uploaded
             student = Student(
                 user=user,
                 department=department,
-                school=school,
+                school=school,  # Assign the Institution instance
                 image=image_url  # Store the image URL instead of the file
             )
             student.save()
@@ -180,7 +188,11 @@ def register_student(request):
         else:
             error_message = "All fields are required."
 
-    return render(request, 'register_student.html', {'error_message': error_message, 'alldepartments': departments, 'allinstitutions':allinstitutions})
+    return render(request, 'register_student.html', {
+        'error_message': error_message,
+        'alldepartments': departments,
+        'allinstitutions': allinstitutions
+    })
 
 
 
@@ -234,9 +246,11 @@ def topic_detail(request, topic_id):
 
 @login_required
 def myprofile(request):
-    user = request.user.username
+
+    print("here")
+    print(request.user.owned_schools.name)
     courses = Course.objects.all()
-    return render(request, 'myprofile.html',{'user': user,'courses': courses} )
+    return render(request, 'myprofile.html',{'courses': courses} )
 
 
 @login_required
