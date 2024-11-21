@@ -1,7 +1,7 @@
 # views.py
 from django.shortcuts import render, redirect
 from django.contrib.auth.models import User
-from .models import  Student, Course, Department, Topic,CBTQuestion, Institution, PastQuestions, KeyPoints, Institution, Teacher
+from .models import  Student, Course, Department, Topic,CBTQuestion, TutorialCenter, PastQuestions, KeyPoints, Tutor
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import get_object_or_404
 from django.contrib.auth.decorators import login_required
@@ -20,183 +20,68 @@ def home(request):
 
 
 
-def register_institution(request):
-    error_message = ""
-
+def register_owner(request):
     if request.method == 'POST':
-        first_name = request.POST.get('first_name').lower()
-        last_name = request.POST.get('last_name').lower()
-        email = request.POST.get('email').lower()
-        username = request.POST.get('username').lower()
+        username = request.POST.get('username')
         password = request.POST.get('password')
-        school_name = request.POST.get('school_name')
-        profile_pic = request.FILES.get('profilepic')  # Retrieve the uploaded image
-
-
-        # Initialize storage
-        storage = SupabaseStorage()
-
-        # Handle image upload
-        image_url = None
-        if profile_pic:
-            post = 'media/' + profile_pic.name
-            print(profile_pic.name)
-            try:
-                filename = storage.save(post, profile_pic)
-                image_url = storage.url(filename)
-            except Exception as e:
-                error_message = "Failed to upload image to Supabase storage. Please try again."
-                print(f"Error uploading image: {e}")
+        tutorial_center_name = request.POST.get('tutorial_center_name')
+        tutorial_center_address = request.POST.get('tutorial_center_address')
+        tutorial_center_number = request.POST.get('tutorial_center_number')
+        tutorial_center_discipline = request.POST.get('tutorial_center_discipline')
 
         # Basic validation
-        if username and password  and first_name and last_name  and email and school_name:
-
-            # Create the user and student records
-            user = User(username=username, password=make_password(password), first_name=first_name, last_name=last_name, email=email)
+        if username and password and tutorial_center_name:
+            user = User(username=username, password=make_password(password))
             user.save()
+            
+            tutorial_center = TutorialCenter(name=tutorial_center_name, owner=user, address=tutorial_center_address, discipline=tutorial_center_discipline, phone=tutorial_center_number)
+            tutorial_center.save()
 
-            # Create Student instance, including the profile picture if uploaded
-            institution = Institution(
-                owner=user,
-                name= school_name,
-                image=image_url  # Store the image URL instead of the file
-            )
-            institution.save()
-            login(request, user)
-
-            return redirect('myprofile')
+            return redirect('home')
         else:
             error_message = "All fields are required."
 
-    return render(request, 'register_institution.html', {'error_message': error_message})
+    return render(request, 'register_owner.html', {'error_message': error_message if 'error_message' in locals() else ''})
 
-
-
-
-def register_teacher(request):
-    allinstitutions = Institution.objects.all()
-    error_message = ""
-
+def register_tutor(request):
     if request.method == 'POST':
-        first_name = request.POST.get('first_name').lower()
-        last_name = request.POST.get('last_name').lower()
-        email = request.POST.get('email').lower()
-        username = request.POST.get('username').lower()
+        username = request.POST.get('username')
         password = request.POST.get('password')
-        school = request.POST.get('institution').lower()  # Assuming this is passed as an ID or string
-        profile_pic = request.FILES.get('profilepic')  # Retrieve the uploaded image
-        print("profile_pic.name")
-
-
-        # Initialize storage
-        storage = SupabaseStorage()
-
-        # Handle image upload
-        image_url = None
-        if profile_pic:
-            post = 'media/' + profile_pic.name
-            print(profile_pic.name)
-            try:
-                filename = storage.save(post, profile_pic)
-                image_url = storage.url(filename)
-            except Exception as e:
-                error_message = "Failed to upload image to Supabase storage. Please try again."
-                print(f"Error uploading image: {e}")
+        tutorial_center_id = request.POST.get('tutorial_center')  # Assuming the tutorial center is passed as an ID
 
         # Basic validation
-        if username and password and school and first_name and last_name and email:
-
-            # Create the user and student records
-            user = User(username=username, password=make_password(password), first_name=first_name, last_name=last_name, email=email)
+        if username and password and tutorial_center_id:
+            user = User(username=username, password=make_password(password))
             user.save()
 
-            # Create Student instance, including the profile picture if uploaded
-            teacher = Teacher(
-                user=user,
-                school=school,
-                image=image_url  # Store the image URL instead of the file
-            )
-            teacher.save()
-            login(request, user)
+            tutor = Tutor(user=user, tutorial_center_id=tutorial_center_id, is_approved=False)
+            tutor.save()
 
-            return redirect('myprofile')
+            return redirect('home')
         else:
             error_message = "All fields are required."
-    return render(request, 'register_teacher.html', {'error_message': error_message,'allinstitutions':allinstitutions})
 
+    return render(request, 'register_tutor.html', {'error_message': error_message if 'error_message' in locals() else ''})
 
 def register_student(request):
-    departments = Department.objects.all()
-    allinstitutions = Institution.objects.all()
-    error_message = ""
-
     if request.method == 'POST':
-        first_name = request.POST.get('first_name').lower()
-        last_name = request.POST.get('last_name').lower()
-        department_name = request.POST.get('department')
-        email = request.POST.get('email').lower()
-        username = request.POST.get('username').lower()
+        username = request.POST.get('username')
         password = request.POST.get('password')
-        school_name = request.POST.get('institution')  # Assuming this is passed as the name of the institution
-        profile_pic = request.FILES.get('profilepic')  # Retrieve the uploaded image
-
-        print(f"Profile Picture Name: {profile_pic.name if profile_pic else 'No picture uploaded'}")
-
-        # Initialize storage
-        storage = SupabaseStorage()
-
-        # Handle image upload
-        image_url = None
-        if profile_pic:
-            post = 'media/' + profile_pic.name
-            try:
-                filename = storage.save(post, profile_pic)
-                image_url = storage.url(filename)
-            except Exception as e:
-                error_message = "Failed to upload image to Supabase storage. Please try again."
-                print(f"Error uploading image: {e}")
+        tutorial_center_id = request.POST.get('tutorial_center')  # Assuming the tutorial center is passed as an ID
 
         # Basic validation
-        if username and password and school_name and first_name and last_name and department_name and email:
-            # Fetch the Department instance
-            department = get_object_or_404(Department, name=department_name)
-            
-            # Fetch the Institution instance
-            school = get_object_or_404(Institution, name=school_name)
-
-            # Create the user and student records
-            user = User(
-                username=username, 
-                password=make_password(password), 
-                first_name=first_name, 
-                last_name=last_name, 
-                email=email
-            )
+        if username and password and tutorial_center_id:
+            user = User(username=username, password=make_password(password))
             user.save()
 
-            # Create Student instance, including the profile picture if uploaded
-            student = Student(
-                user=user,
-                department=department,
-                school=school,  # Assign the Institution instance
-                image=image_url  # Store the image URL instead of the file
-            )
+            student = Student(user=user, tutorial_center_id=tutorial_center_id, is_approved=False)
             student.save()
-            login(request, user)
 
-            return redirect('myprofile')
+            return redirect('home')
         else:
             error_message = "All fields are required."
 
-    return render(request, 'register_student.html', {
-        'error_message': error_message,
-        'alldepartments': departments,
-        'allinstitutions': allinstitutions
-    })
-
-
-
-
+    return render(request, 'register_student.html', {'error_message': error_message if 'error_message' in locals() else ''})
 
 
 def loginview(request):
@@ -207,6 +92,29 @@ def loginview(request):
             login(request, user)
             return redirect('myprofile')
     return render(request, 'login.html')
+
+
+@login_required
+def approve_users(request):
+    tutorial_center = get_object_or_404(TutorialCenter, owner=request.user)
+    unapproved_tutors = Tutor.objects.filter(tutorial_center=tutorial_center, is_approved=False)
+    unapproved_students = Student.objects.filter(tutorial_center=tutorial_center, is_approved=False)
+
+    if request.method == 'POST':
+        # Process approvals for selected tutors and students
+        approved_tutor_ids = request.POST.getlist('approve_tutors')
+        approved_student_ids = request.POST.getlist('approve_students')
+
+        Tutor.objects.filter(id__in=approved_tutor_ids).update(is_approved=True)
+        Student.objects.filter(id__in=approved_student_ids).update(is_approved=True)
+
+        return redirect('approve_users')
+
+    return render(request, 'approve_users.html', {
+        'unapproved_tutors': unapproved_tutors,
+        'unapproved_students': unapproved_students,
+    })
+
 
 
 @login_required
@@ -246,11 +154,24 @@ def topic_detail(request, topic_id):
 
 @login_required
 def myprofile(request):
-
-    print("here")
-    print(request.user.owned_schools.name)
+    user = request.user.username
     courses = Course.objects.all()
-    return render(request, 'myprofile.html',{'courses': courses} )
+    return render(request, 'myprofile.html',{'user': user,'courses': courses} )
+
+
+@login_required
+def list_tutorial_students(request, tutorial):
+    # Get the tutorial center by name or return 404 if not found
+    center = get_object_or_404(TutorialCenter, name=tutorial)
+    
+    # Check if the user is the owner or an approved tutor associated with the center
+    if request.user != center.owner and not Tutor.objects.filter(user=request.user, tutorial_center=center, is_approved=True).exists():
+        return HttpResponseForbidden("You do not have permission to access this page.")
+
+    # Get only approved students associated with the center
+    students = center.students.filter(is_approved=True)
+
+    return render(request, 'tutorial_students.html', {'students': students, 'center': center})
 
 
 @login_required

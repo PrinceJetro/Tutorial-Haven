@@ -5,8 +5,8 @@ from . import views
 
 urlpatterns = [
     path('', views.home, name='home'),
-    path('register_institution/', views.register_institution, name='register_institution'),
-    path('register_teacher/', views.register_teacher, name='register_teacher'),
+    path('register_institution/', views.register_owner, name='register_institution'),
+    path('register_tutor/', views.register_tutor, name='register_tutor'),
     path('register_student/', views.register_student, name='register_student'),
     path('myprofile/', views.myprofile, name='myprofile'),
     path('login/', views.loginview, name='login'),  # Login URL

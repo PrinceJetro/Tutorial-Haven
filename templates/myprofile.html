@@ -1,310 +1,50 @@
 {% extends "base.html" %}
 
 {% block content %}
-
-
-  {% if request.user.owned_schools %}
-  <section style="background-color: #eee;">
-    <div class="container py-5">  
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="card mb-4">
-            <div class="card-body text-center">
-              <img src={{request.user.owned_schools.image}} alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
-            
-
-              <h5 class="my-3">{{request.user.username|title}}</h5>
-              <p class="text-muted mb-1">Owner Of {{request.user.owned_schools.name|title}}</p> 
-               </div>
-          </div>
-
-
-          <div class="card mb-4 mb-lg-0">
-            <div class="card-body p-0">
-              <ul class="list-group list-group-flush rounded-3">
-                <li class="list-group-item d-flex justify-content-between align-items-center p-3">
-                  <i class="fas fa-globe fa-lg text-warning"></i>
-                  <p class="mb-0"  onclick="copyLink()" id="link-to-tutor" >Copy Link To Register A Tutor</p>
-                </li>                
-                <li class="list-group-item d-flex justify-content-between align-items-center p-3">
-                  <i class="fas fa-check fa-lg text-success"></i>
-                  <p class="mb-0"><a href="">Approve Tutors and Students</a><br></p>               
-                </li>                
-                <li class="list-group-item d-flex justify-content-between align-items-center p-3">
-                  <i class="fas fa-globe fa-lg text-warning"></i>
-                  <p class="mb-0"><a href="">See All Approved Students</a><br></p>
-                </li>                
-              
-              </ul>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-lg-8">
-          <div class="card mb-4">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-sm-3">
-                  <p class="mb-0">Full Name</p>
-                </div>
-                <div class="col-sm-9">
-                  <p class="text-muted mb-0">{{request.user.first_name|title}} {{request.user.last_name|title}}</p>
-                </div>
-              </div>
-              <hr>
-              <div class="row">
-                <div class="col-sm-3">
-                  <p class="mb-0">Email</p>
-                </div>
-                <div class="col-sm-9">
-                  <p class="text-muted mb-0">{{request.user.email}}</p>
-                </div>
-              </div>
-              <hr>
-              
-              <div class="row">
-                <div class="col-sm-3">
-                  <p class="mb-0">Department</p>
-                </div>
-                <div class="col-sm-9">
-                  <p class="text-muted mb-0">{{request.user.student.department.name }}</p>
-                </div>
-              </div>
-              <hr>
-              <div class="row">
-                <div class="col-sm-3">
-                  <p class="mb-0">School</p>
-                </div>
-                <div class="col-sm-9">
-                  <p class="text-muted mb-0">{{request.user.student.school|title}}</p>
-                </div>
-              </div>
-              <hr>
-            </div>
-          </div>
-
-  
-
-
-          <!-- Student -->
-          <div class="row">
-            <div class="col-md-6">
-              <div class="card mb-4 mb-md-0">
-                <div class="card-body">
-                  <p class="mb-4"><span class="text-primary font-italic me-1">List</span> Of Your Approved Students
-                  </p>
-
-                  {% for student in request.user.owned_schools.students.all %}
-                  <p class="mb-1" style="font-size: 1rem;">
-                    <a href="">{{ student|title }}</a>
-                  </p>
-                  <div class="progress rounded mb-3" style="height: 5px;">
-                    <div class="progress-bar" role="progressbar" style="width: 80%; background-color: green" aria-valuenow="80"
-                      aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                {% endfor %}
-                
-
-                </div>
-              </div>
-            </div>
-
-            
-            <div class="col-md-6">
-              <div class="card mb-4 mb-md-0">
-                <div class="card-body">
-                  <p class="mb-4"><span class="text-primary font-italic me-1">List</span> Of Your Tutors
-                  </p>
-                  {% for tutor in request.user.student.department.courses.all %}
-                  <p class="mb-1" style="font-size: 1rem;">{{tutor|title}}</p>
-                  <div class="progress rounded  mb-3" style="height: 1px;">
-                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
-                      aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  {% endfor %}
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          
-
-
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-  {% elif request.user.teacher %}
-
-  <section style="background-color: #eee;">
-    <div class="container py-5">  
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="card mb-4">
-            <div class="card-body text-center">
-              <img src={{request.user.student.image}} alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
-            
-
-              <h5 class="my-3">{{request.user.username|title}}</h5>
-              <p class="text-muted mb-1">Student At {{request.user.institution.name|title}}</p> 
-               </div>
-          </div>
-
-
-          <div class="card mb-4 mb-lg-0">
-            <div class="card-body p-0">
-              <ul class="list-group list-group-flush rounded-3">
-                <li class="list-group-item d-flex justify-content-between align-items-center p-3">
-                  <i class="fas fa-globe fa-lg text-warning"></i>
-                  <p class="mb-0"  onclick="copyLink()" id="link-to-tutor" >Copy Link To Register A Tutor</p>
-                </li>                
-                <li class="list-group-item d-flex justify-content-between align-items-center p-3">
-                  <i class="fas fa-check fa-lg text-success"></i>
-                  <p class="mb-0"><a href="">Approve Tutors and Students</a><br></p>               
-                </li>                
-                <li class="list-group-item d-flex justify-content-between align-items-center p-3">
-                  <i class="fas fa-globe fa-lg text-warning"></i>
-                  <p class="mb-0"><a href="">See All Approved Students</a><br></p>
-                </li>                
-              
-              </ul>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-lg-8">
-          <div class="card mb-4">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-sm-3">
-                  <p class="mb-0">Full Name</p>
-                </div>
-                <div class="col-sm-9">
-                  <p class="text-muted mb-0">{{request.user.first_name|title}} {{request.user.last_name|title}}</p>
-                </div>
-              </div>
-              <hr>
-              <div class="row">
-                <div class="col-sm-3">
-                  <p class="mb-0">Email</p>
-                </div>
-                <div class="col-sm-9">
-                  <p class="text-muted mb-0">{{request.user.email}}</p>
-                </div>
-              </div>
-              <hr>
-              
-              <div class="row">
-                <div class="col-sm-3">
-                  <p class="mb-0">Department</p>
-                </div>
-                <div class="col-sm-9">
-                  <p class="text-muted mb-0">{{request.user.student.department.name }}</p>
-                </div>
-              </div>
-              <hr>
-              <div class="row">
-                <div class="col-sm-3">
-                  <p class="mb-0">School</p>
-                </div>
-                <div class="col-sm-9">
-                  <p class="text-muted mb-0">{{request.user.student.school|title}}</p>
-                </div>
-              </div>
-              <hr>
-            </div>
-          </div>
-
-  
-
-
-          <!-- Student -->
-          <div class="row">
-            <div class="col-md-6">
-              <div class="card mb-4 mb-md-0">
-                <div class="card-body">
-                  <p class="mb-4"><span class="text-primary font-italic me-1">List</span> Of Courses And CBT Grades
-                  </p>
-
-                  {% for course in request.user.student.department.courses.all %}
-                  <p class="mb-1" style="font-size: 1rem;">
-                    <a href="{% url 'course_detail' course.id %}">{{ course.name|title }}</a>
-                  </p>
-                  <div class="progress rounded mb-3" style="height: 5px;">
-                    <div class="progress-bar" role="progressbar" style="width: 80%; background-color: green" aria-valuenow="80"
-                      aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                {% endfor %}
-                
-
-                </div>
-              </div>
-            </div>
-
-            
-            <div class="col-md-6">
-              <div class="card mb-4 mb-md-0">
-                <div class="card-body">
-                  <p class="mb-4"><span class="text-primary font-italic me-1">List</span> Of Your Tutors
-                  </p>
-                  {% for tutor in request.user.student.department.courses.all %}
-                  <p class="mb-1" style="font-size: 1rem;">{{tutor|title}}</p>
-                  <div class="progress rounded  mb-3" style="height: 1px;">
-                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
-                      aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  {% endfor %}
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          
-
-
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-  {% else %}
 <section style="background-color: #eee;">
     <div class="container py-5">  
       <div class="row">
         <div class="col-lg-4">
           <div class="card mb-4">
             <div class="card-body text-center">
-              <img src={{request.user.student.image}} alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
-            
+              {% if request.user.tutorial_center %} 
+              <img src={{request.user.tutorial_center.image.url}} alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
+              {% elif request.user.tutor.is_approved %}
+              <img src={{request.user.tutor.image.url}} alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
+              {% elif request.user.student.is_approved %}
+              <img src={{request.user.student.image.url}} alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
+              {% endif %}
 
               <h5 class="my-3">{{request.user.username|title}}</h5>
-              <p class="text-muted mb-1">Student At {{request.user.institution.name|title}}</p> 
-               </div>
+              {% if request.user.tutorial_center %}
+              <p class="text-muted mb-1">Head Of {{request.user.tutorial_center.name|title}}</p>
+              <p class="text-muted mb-1">{{request.user.tutorial_center.desc|title}}</p>
+              {% elif request.user.tutor.is_approved %}
+              <p class="text-muted mb-1">Tutor At {{request.user.tutor.tutorial_center.name|title}}</p>
+              {% elif request.user.student.is_approved %}
+              <p class="text-muted mb-1">Student At {{request.user.student.tutorial_center.name|title}}</p> 
+              {% endif %}
+            </div>
           </div>
 
 
           <div class="card mb-4 mb-lg-0">
             <div class="card-body p-0">
               <ul class="list-group list-group-flush rounded-3">
+                {% if request.user.tutorial_center %}  
                 <li class="list-group-item d-flex justify-content-between align-items-center p-3">
                   <i class="fas fa-globe fa-lg text-warning"></i>
                   <p class="mb-0"  onclick="copyLink()" id="link-to-tutor" >Copy Link To Register A Tutor</p>
                 </li>                
                 <li class="list-group-item d-flex justify-content-between align-items-center p-3">
                   <i class="fas fa-check fa-lg text-success"></i>
-                  <p class="mb-0"><a href="">Approve Tutors and Students</a><br></p>               
+                  <p class="mb-0"><a href="{% url 'approve_users' %}">Approve Tutors and Students</a><br></p>               
                 </li>                
                 <li class="list-group-item d-flex justify-content-between align-items-center p-3">
                   <i class="fas fa-globe fa-lg text-warning"></i>
-                  <p class="mb-0"><a href="">See All Approved Students</a><br></p>
+                  <p class="mb-0"><a href="{% url 'list_tutorial_students' request.user.tutorial_center.name %}">See All Approved Students</a><br></p>
                 </li>                
+                {% endif %}
               
               </ul>
             </div>
@@ -333,49 +73,85 @@
                 </div>
               </div>
               <hr>
-              
+              {% if request.user.tutorial_center %}
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Address</p>
+                </div>
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0">{{request.user.tutorial_center.address}}</p>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Phone</p>
+                </div>
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0">{{request.user.tutorial_center.phone}}</p>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Specialization</p>
+                </div>
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0">{{request.user.tutorial_center.discipline |title}}</p>
+                </div>
+              </div>
+              <hr>
+              {% elif request.user.student %}
               <div class="row">
                 <div class="col-sm-3">
                   <p class="mb-0">Department</p>
                 </div>
                 <div class="col-sm-9">
-                  <p class="text-muted mb-0">{{request.user.student.department.name }}</p>
+                  <p class="text-muted mb-0">{{request.user.student.department.name}}</p>
+                </div>
+              </div>
+              <hr>
+              {% elif request.user.tutor %}
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Phone</p>
+                </div>
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0">{{request.user.tutor.phone}}</p>
                 </div>
               </div>
               <hr>
               <div class="row">
                 <div class="col-sm-3">
-                  <p class="mb-0">School</p>
+                  <p class="mb-0">Specialization</p>
                 </div>
                 <div class="col-sm-9">
-                  <p class="text-muted mb-0">{{request.user.student.school|title}}</p>
+                  {% for speciality in request.user.tutor.speciality.all %}
+                  <p class="text-muted mb-0">{{speciality}}</p>
+                  {% endfor %}
                 </div>
               </div>
               <hr>
+              {% endif %}
+
             </div>
           </div>
 
-  
-
-
-          <!-- Student -->
+          <!-- Owner -->
+          {% if request.user.tutorial_center %}
           <div class="row">
             <div class="col-md-6">
               <div class="card mb-4 mb-md-0">
                 <div class="card-body">
-                  <p class="mb-4"><span class="text-primary font-italic me-1">List</span> Of Courses And CBT Grades
+                  <p class="mb-4"><span class="text-primary font-italic me-1">List</span> Of Students And CBT Grades 
                   </p>
-
-                  {% for course in request.user.student.department.courses.all %}
-                  <p class="mb-1" style="font-size: 1rem;">
-                    <a href="{% url 'course_detail' course.id %}">{{ course.name|title }}</a>
-                  </p>
+                  {% for student in request.user.tutorial_center.students.all %}
+                  <p class="mb-1" style="font-size: 1rem;">{{student|title}}</p>
                   <div class="progress rounded mb-3" style="height: 5px;">
                     <div class="progress-bar" role="progressbar" style="width: 80%; background-color: green" aria-valuenow="80"
                       aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
-                {% endfor %}
-                
+                  {% endfor %}
 
                 </div>
               </div>
@@ -387,7 +163,7 @@
                 <div class="card-body">
                   <p class="mb-4"><span class="text-primary font-italic me-1">List</span> Of Your Tutors
                   </p>
-                  {% for tutor in request.user.student.department.courses.all %}
+                  {% for tutor in request.user.tutorial_center.tutors.all %}
                   <p class="mb-1" style="font-size: 1rem;">{{tutor|title}}</p>
                   <div class="progress rounded  mb-3" style="height: 1px;">
                     <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
@@ -398,8 +174,89 @@
               </div>
             </div>
           </div>
+          {% endif %}
 
 
+          <!-- Student -->
+          {% if request.user.student.is_approved %}
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card mb-4 mb-md-0">
+                <div class="card-body">
+                  <p class="mb-4"><span class="text-primary font-italic me-1">List</span> Of Courses And CBT Grades
+                  </p>
+
+                  {% for course in request.user.student.department.courses.all %}
+                  <p class="mb-1" style="font-size: 1rem;"> <a href="{% url 'course_detail' course|title %}">{{course|title}}</a> </p>
+                  <div class="progress rounded  mb-3" style="height: 5px;">
+                    <div class="progress-bar" role="progressbar" style="width: 80%; background-color: green" aria-valuenow="80"
+                      aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  {% endfor %}
+
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="col-md-6">
+              <div class="card mb-4 mb-md-0">
+                <div class="card-body">
+                  <p class="mb-4"><span class="text-primary font-italic me-1">List</span> Of Your Tutors
+                  </p>
+                  {% for tutor in request.user.student.tutorial_center.tutors.all %}
+                  <p class="mb-1" style="font-size: 1rem;">{{tutor|title}}</p>
+                  <div class="progress rounded  mb-3" style="height: 1px;">
+                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
+                      aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+
+
+                    <!-- Tutor -->
+                    {% if request.user.tutor.is_approved %}
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="card mb-4 mb-md-0">
+                          <div class="card-body">
+                            <p class="mb-4"><span class="text-primary font-italic me-1">List</span> Of Students
+                            </p>
+          
+                            {% for student in request.user.tutor.tutorial_center.students.all %}
+                  <p class="mb-1" style="font-size: 1rem;">{{student|title}}</p>
+                  <div class="progress rounded mb-3" style="height: 5px;">
+                    <div class="progress-bar" role="progressbar" style="width: 80%; background-color: green" aria-valuenow="80"
+                      aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  {% endfor %}
+          
+                          </div>
+                        </div>
+                      </div>
+          
+                      
+                      <div class="col-md-6">
+                        <div class="card mb-4 mb-md-0">
+                          <div class="card-body">
+                            <p class="mb-4"><span class="text-primary font-italic me-1">List</span> Of All Courses
+                            </p>
+                            {% for course in courses %}
+                  <p class="mb-1" style="font-size: 1rem;"> <a href="{% url 'course_detail' course|title %}">{{course|title}}</a> </p>
+                  <div class="progress rounded  mb-3" style="height: 5px;">
+                    <div class="progress-bar" role="progressbar" style="width: 80%; background-color: green" aria-valuenow="80"
+                      aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  {% endfor %}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    {% endif %}
           
 
 
@@ -409,30 +266,6 @@
     </div>
   </section>
 
-  {% endif %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
   <script>
     const link = document.getElementById("link-to-tutor");
     link.addEventListener('touchstart', copyLink);
