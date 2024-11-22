@@ -5,6 +5,8 @@
 <h2>{{ course.name }} CBT Results</h2>
 <p>Your Score: {{ score }} / {{ total_questions }}</p>
 <p>Percentage: {{ percentage_score }}%</p>
+<p>Total Attempts: {{ attempts }}</p>
+<p>Course Average: {{ total_percent }}%</p>
 
 {% if percentage_score >= 50 %}
     <p>Congratulations, you passed!</p>
@@ -12,4 +14,7 @@
     <p>Keep studying, you'll get it next time!</p>
 {% endif %}
 <a href="{% url 'course_detail' course.id %}" class="btn btn-primary">Back to Course</a>
+
+
+
 {% endblock %}

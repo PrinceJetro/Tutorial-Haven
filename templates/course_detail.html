@@ -54,14 +54,15 @@
                     <img src={{course.image}}
                       alt="Check" width="300px">
                     <h2 class="my-4">{{course.name|title}}</h2>
-                    {% if course.percentage %}
-                    <h2 class="my-4">Percentage: {{course.percentage|title}}%</h2>
+                    {% if userprogress %}
+                    <p>Your progress: {{ userprogress.percentage }}%</p>
+                    <p>Attempts: {{ userprogress.attempts }}</p>
                     {% else %}
                     <h2>You have not practiced this yet</h2>
 
                     {% endif %}
 
-                    <a href="{% url 'cbt' course.id %}" class="btn btn-primary">Take CBT</a>
+                    <a href="{% url 'pastquestions' course.id %}" class="btn btn-primary">Practice Past Questions</a>
 
 
                   </div>

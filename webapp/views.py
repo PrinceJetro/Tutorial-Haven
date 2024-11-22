@@ -1,7 +1,9 @@
 # views.py
 from django.shortcuts import render, redirect
+from django.http import HttpResponseRedirect
 from django.contrib.auth.models import User
-from .models import  Student, Course, Department, Topic,CBTQuestion, TutorialCenter, PastQuestions, KeyPoints, Tutor
+from .models import  Student, Course, Department, Topic, TutorialCenter, PastQuestions, KeyPoints, Tutor, TheorySubmission, Grade, UserCourseProgress
+from .forms import TheorySubmissionForm
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import get_object_or_404
 from django.contrib.auth.decorators import login_required
@@ -9,9 +11,13 @@ from django.http import HttpResponseForbidden
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.hashers import make_password
 from django.urls import reverse
+from django.db.models import Avg
 from webapp.storage import SupabaseStorage
 import smtplib
 import ssl
+from django.db.models import Avg  # Import Avg for aggregation
+import uuid  # Ensure you have imported this at the top of the file
+
 
 
 
@@ -187,12 +193,6 @@ def loginview(request):
             return redirect('myprofile')
     return render(request, 'login.html')
 
-from django.contrib.auth.decorators import login_required
-from django.shortcuts import render, redirect, get_object_or_404
-from .models import Tutor, Student, TutorialCenter
-import smtplib
-import ssl
-
 @login_required
 def approve_users(request):
     # Fetch the TutorialCenter owned by the logged-in user
@@ -275,8 +275,13 @@ def list_courses(request, department_id=None):
 def course_detail(request, course_id):
     course = get_object_or_404(Course, id=course_id)
     topics = course.topics.all()
-    return render(request, 'course_detail.html', {'course': course, 'topics': topics})
+    userprogress = UserCourseProgress.objects.filter(user=request.user, course=course).first()
 
+    return render(
+        request, 
+        'course_detail.html', 
+        {'course': course, 'topics': topics, 'userprogress': userprogress}
+    )
 
 @login_required
 def topic_detail(request, topic_id):
@@ -327,56 +332,79 @@ def list_tutorial_students(request, tutorial):
 
 
 @login_required
-def cbt_view(request, course_id):
+def pastquestion(request, course_id):
     course = get_object_or_404(Course, id=course_id)
-    questions = CBTQuestion.objects.filter(course=course)
+    questions = PastQuestions.objects.filter(course=course)
 
     if request.method == 'POST':
-        # Handle answer submission and scoring
         score = 0
         total_questions = questions.count()
+        submission_id = uuid.uuid4()  # Generate a unique submission ID for this attempt
+
         for question in questions:
             selected_option = request.POST.get(f'question_{question.id}')
             if selected_option == question.correct_option:
                 score += 1
 
-        # Calculate percentage score for this attempt
+            # Save individual grade for this question
+            Grade.objects.create(
+                user=request.user,
+                question=question,
+                course=course,
+                is_theory=False,
+                score=100 if selected_option == question.correct_option else 0,
+                submission_id=submission_id,  # Assign the unique submission ID
+            )
+
+        # Calculate overall percentage score for this attempt
         percentage_score = (score / total_questions) * 100
 
-        # Update the course's percentage field
-        # If this is the first attempt, set the percentage directly
-        if course.percentage is None:
-            course.percentage = percentage_score
-        else:
-            # Calculate new average if there is already a stored percentage
-            course.percentage = (float(course.percentage) + percentage_score) / 2
+        # Update or create the user's progress for this course
+        user_progress, created = UserCourseProgress.objects.get_or_create(
+            user=request.user,
+            course=course,
+        )
+        user_progress.attempts += 1
+        # Update the average percentage considering all attempts
+        all_user_grades = Grade.objects.filter(user=request.user, course=course, is_theory=False)
+        average_score = all_user_grades.aggregate(average_score=Avg('score'))['average_score'] or 0
+        user_progress.percentage = average_score
+        user_progress.save()
 
-        course.save()
-
-        # Prepare context for the result page
+        # Redirect to a results page or display results
         context = {
             'course': course,
             'score': score,
             'percentage_score': percentage_score,
             'total_questions': total_questions,
+            'attempts': user_progress.attempts,
+            'total_percent': user_progress.percentage
         }
         return render(request, 'cbt_result.html', context)
 
-    # For GET request: render the questions template
     context = {
         'course': course,
-        'questions': questions,
+        'cbt_questions': questions,
     }
-    return render(request, 'cbt.html', context)
+    return render(request, 'pastquestion.html', context)
 
 
-def all_past_questions(request):
-    pastquestions = PastQuestions.objects.all()
-    return render(request, 'cool/allpqs.html', {"pastquestions": pastquestions})
+def theory_question(request, question_id):
+    question = get_object_or_404(PastQuestions, id=question_id, theory__isnull=False)
+    
+    if request.method == 'POST':
+        form = TheorySubmissionForm(request.POST)
+        if form.is_valid():
+            submission = form.save(commit=False)
+            submission.user = request.user
+            submission.question = question
+            submission.save()
+            return HttpResponseRedirect('/thanks/')
+    else:
+        form = TheorySubmissionForm()
+    
+    return render(request, 'theory_question.html', {'question': question, 'form': form})
 
-def past_questions(request, pastpq_id):
-    pastpq = get_object_or_404(PastQuestions, id=pastpq_id)
-    return render(request, 'pastquestions.html', {"pastpq": pastpq})
 
 
 @login_required

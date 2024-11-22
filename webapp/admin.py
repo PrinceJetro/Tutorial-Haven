@@ -1,6 +1,6 @@
 # admin.py
 from django.contrib import admin
-from .models import Student, Course, Department, Topic, PastQuestions, KeyPoints, CBTQuestion, PracticeExplanations, TutorialCenter, Tutor
+from .models import Student, Course, Department, Topic, PastQuestions, KeyPoints, PracticeExplanations, TutorialCenter, Tutor, TheorySubmission, Grade, UserCourseProgress
 
 
 
@@ -44,7 +44,7 @@ class TopicAdmin(admin.ModelAdmin):
 
 @admin.register(PastQuestions)
 class PastQuestionsAdmin(admin.ModelAdmin):
-    list_display = ('course', 'year', 'uploaded_at')
+    list_display = ('course', 'year', 'question_text')
     search_fields = ('course__name', 'year')
     list_filter = ('course', 'year')
     ordering = ('-uploaded_at',)
@@ -55,15 +55,30 @@ class KeyPointsAdmin(admin.ModelAdmin):
     search_fields = ('past_question__course__name', 'past_question__year')
     list_filter = ('past_question__course',)
 
-@admin.register(CBTQuestion)
-class CBTQuestionAdmin(admin.ModelAdmin):
-    list_display = ('course', 'question_text', 'correct_option')
-    search_fields = ('course__name', 'question_text')
-    list_filter = ('course',)
-    ordering = ('course',)
 
 @admin.register(PracticeExplanations)
 class PracticeExplanationsAdmin(admin.ModelAdmin):
     list_display = ('cbt_question', 'explanation')
     search_fields = ('cbt_question__course__name', 'cbt_question__question_text')
     list_filter = ('cbt_question__course',)
+
+
+@admin.register(TheorySubmission)
+class TheorySubmissionAdmin(admin.ModelAdmin):
+    list_display = ('user', 'question', 'submitted_at')
+    list_filter = ('user', 'submitted_at')
+    search_fields = ('user__username', 'question__question_text')
+
+@admin.register(Grade)
+class GradeAdmin(admin.ModelAdmin):
+    list_display = ('user', 'question', 'score', )
+    list_filter = ('user', 'question',)
+
+@admin.register(UserCourseProgress)
+class UserCourseProgressAdmin(admin.ModelAdmin):
+    list_display = ('user', 'course_name', 'percentage', 'attempts')
+    list_filter = ('user', 'percentage', 'attempts')
+
+    def course_name(self, obj):
+        return obj.course.name  # Adjust this based on the actual field
+    course_name.short_description = 'Course'

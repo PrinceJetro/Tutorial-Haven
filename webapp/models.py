@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 from ckeditor.fields import RichTextField
+import uuid  # To generate unique submission IDs
 
 
 class Department(models.Model):
@@ -13,7 +14,6 @@ class Department(models.Model):
 class Course(models.Model):
     name = models.CharField(max_length=255)
     departments = models.ManyToManyField(Department, related_name='courses')  # ManyToManyField
-    percentage = models.DecimalField(max_digits=5, decimal_places=2, null=True, blank=True)  # Percentage score
 
 
     def __str__(self):
@@ -63,12 +63,66 @@ class Topic(models.Model):
 
 class PastQuestions(models.Model):
     course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name='past_questions')
-    content = RichTextField(blank=True)
+    question_text = RichTextField(help_text="Question for the CBT or theory question", null=True)
+    option_a = models.CharField(max_length=200, blank=True, null=True, help_text="Option A for CBT questions (leave blank for theory)")
+    option_b = models.CharField(max_length=200, blank=True, null=True, help_text="Option B for CBT questions (leave blank for theory)")
+    option_c = models.CharField(max_length=200, blank=True, null=True, help_text="Option C for CBT questions (leave blank for theory)")
+    option_d = models.CharField(max_length=200, blank=True, null=True, help_text="Option D for CBT questions (leave blank for theory)")
+    correct_option = models.CharField(
+        max_length=1, 
+        blank=True, 
+        null=True, 
+        choices=[('A', 'Option A'), ('B', 'Option B'), ('C', 'Option C'), ('D', 'Option D')],
+        help_text="Correct option for CBT questions (leave blank for theory)"
+    )
+    theory = RichTextField(blank=True, help_text="Detailed theory content if applicable")
     year = models.CharField(max_length=4, help_text="Year of the examination")
     uploaded_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return f'{self.course.name} Past Questions ({self.year})'
+        if self.theory:
+            return f'{self.course.name} Theory Question ({self.theory})'
+        return f'{self.course.name} CBT Question: {self.question_text}'
+
+
+
+    
+
+class Grade(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='grades')
+    question = models.ForeignKey(PastQuestions, on_delete=models.CASCADE, related_name='grades')
+    course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name='grades', null=True)
+    is_theory = models.BooleanField(default=False, help_text="Indicates if the question was theory or CBT")
+    score = models.DecimalField(max_digits=5, decimal_places=2, help_text="Score for this question")
+    submitted_at = models.DateTimeField(auto_now_add=True)
+    submission_id = models.UUIDField(default=uuid.uuid4, editable=False, help_text="Unique identifier for each submission attempt")
+
+    def __str__(self):
+        question_type = "Theory" if self.is_theory else "CBT"
+        return f'Grade for {self.user.username} - {self.question.course} ({question_type})'
+
+class UserCourseProgress(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='course_progress')
+    course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name='user_progress')
+    percentage = models.DecimalField(max_digits=5, decimal_places=2, default=0, help_text="User's progress percentage for the course")
+    attempts = models.PositiveIntegerField(default=0, help_text="Number of attempts by the user for this course")
+
+    def __str__(self):
+        return f"{self.user.username} - {self.course.name}: {self.percentage}% in {self.course}"
+
+
+class TheorySubmission(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='theory_submissions')
+    question = models.ForeignKey(PastQuestions, on_delete=models.CASCADE, related_name='theory_submissions')
+    response = RichTextField(help_text="User's answer to the theory question")
+    submitted_at = models.DateTimeField(auto_now_add=True)
+    graded = models.BooleanField(default=False, help_text="Has this submission been graded?")
+    grade = models.DecimalField(max_digits=5, decimal_places=2, blank=True, null=True, help_text="Grade for this submission")
+    feedback = RichTextField(blank=True, help_text="Optional feedback for the user")
+
+    def __str__(self):
+        return f'Submission by {self.user.username} for {self.question.course.name} ({self.question.year})'
+
 
 
 class KeyPoints(models.Model):
@@ -79,21 +133,9 @@ class KeyPoints(models.Model):
         return f'Key Points for {self.past_question.course.name} ({self.past_question.year})'
 
 
-class CBTQuestion(models.Model):
-    course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name='cbt_questions')
-    question_text = RichTextField(help_text="Question for the CBT")
-    option_a = models.CharField(max_length=200)
-    option_b = models.CharField(max_length=200)
-    option_c = models.CharField(max_length=200)
-    option_d = models.CharField(max_length=200)
-    correct_option = models.CharField(max_length=1, choices=[('A', 'Option A'), ('B', 'Option B'), ('C', 'Option C'), ('D', 'Option D')])
-
-    def __str__(self):
-        return f'CBT Question for {self.course.name}'
-
 
 class PracticeExplanations(models.Model):
-    cbt_question = models.ForeignKey(CBTQuestion, on_delete=models.CASCADE, related_name='explanations')
+    cbt_question = models.ForeignKey(PastQuestions, on_delete=models.CASCADE, related_name='explanations')
     explanation = RichTextField(help_text="Explanation for the correct answer in CBT")
 
     def __str__(self):
