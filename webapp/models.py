@@ -25,8 +25,6 @@ class TutorialCenter(models.Model):
     address = models.CharField(max_length=200, null=True)
     owner = models.OneToOneField(User, on_delete=models.CASCADE, related_name='tutorial_center')
     image = models.ImageField(upload_to="uploaded_image", null=True,default='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKKOdmJz8Z2pDtYgFgR2u9spABvNNPKYYtGw&s')
-    phone = models.IntegerField(null=True)
-    discipline = models.CharField(max_length=200, null=True)
     def __str__(self):
         return self.name
 
@@ -36,7 +34,6 @@ class Tutor(models.Model):
     image = models.ImageField(upload_to="uploaded_image", null=True,default='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKKOdmJz8Z2pDtYgFgR2u9spABvNNPKYYtGw&s')
     tutorial_center = models.ForeignKey(TutorialCenter, on_delete=models.CASCADE, related_name='tutors')
     is_approved = models.BooleanField(default=False)  # Approval field
-    phone = models.IntegerField(null=True)
     speciality = models.ManyToManyField(Course, related_name='tutors', null=True)  # Updated related_name
 
     def __str__(self):
@@ -47,10 +44,8 @@ class Student(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     image = models.ImageField(upload_to="uploaded_image", null=True, default='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKKOdmJz8Z2pDtYgFgR2u9spABvNNPKYYtGw&s', max_length=5000)
     tutorial_center = models.ForeignKey(TutorialCenter, on_delete=models.CASCADE, related_name='students', null=True)
-    image = models.ImageField(upload_to="uploaded_image", null=True)
     is_approved = models.BooleanField(default=False)
     department = models.ForeignKey(Department, on_delete=models.SET_NULL, null=True, related_name='students')  # Foreign key to Department
-    phone = models.IntegerField(null=True)
     
 
     def __str__(self):

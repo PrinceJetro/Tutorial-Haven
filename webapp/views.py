@@ -10,6 +10,8 @@ from django.contrib.auth import authenticate, login
 from django.contrib.auth.hashers import make_password
 from django.urls import reverse
 from webapp.storage import SupabaseStorage
+import smtplib
+import ssl
 
 
 
@@ -63,25 +65,117 @@ def register_tutor(request):
 
     return render(request, 'register_tutor.html', {'error_message': error_message if 'error_message' in locals() else ''})
 
+
 def register_student(request):
+    departments = Department.objects.all()
+    allinstitutions = TutorialCenter.objects.all()
+    error_message = ""
+
     if request.method == 'POST':
-        username = request.POST.get('username')
-        password = request.POST.get('password')
-        tutorial_center_id = request.POST.get('tutorial_center')  # Assuming the tutorial center is passed as an ID
+        first_name = request.POST.get('first_name', '').strip().lower()
+        last_name = request.POST.get('last_name', '').strip().lower()
+        department_name = request.POST.get('department', '').strip()
+        email = request.POST.get('email', '').strip().lower()
+        username = request.POST.get('username', '').strip().lower()
+        password = request.POST.get('password', '').strip()
+        school_id = request.POST.get('institution', '').strip().lower()  # School name or ID
+        profile_pic = request.FILES.get('profilepic')  # Retrieve the uploaded image
+
+        # Initialize storage
+        storage = SupabaseStorage()
+
+        # Handle image upload
+        image_url = None
+        if profile_pic:
+            post = 'media/' + profile_pic.name
+            print(profile_pic.name)
+            try:
+                filename = storage.save(post, profile_pic)
+                image_url = storage.url(filename)
+            except Exception as e:
+                error_message = "Failed to upload image to Supabase storage. Please try again."
+                print(f"Error uploading image: {e}")
 
         # Basic validation
-        if username and password and tutorial_center_id:
-            user = User(username=username, password=make_password(password))
-            user.save()
+        if username and password and school_id and first_name and last_name and department_name and email:
+            try:
+                # Fetch the Department instance
+                department = get_object_or_404(Department, name=department_name)
 
-            student = Student(user=user, tutorial_center_id=tutorial_center_id, is_approved=False)
-            student.save()
+                # Fetch the Institution instance
+                institution = get_object_or_404(TutorialCenter, id=school_id)
 
-            return redirect('home')
+                # Create the user
+                user = User(
+                    username=username,
+                    password=make_password(password),
+                    first_name=first_name,
+                    last_name=last_name,
+                    email=email,
+                )
+                user.save()
+
+                # Create the Student record
+                student = Student(
+                    user=user,
+                    department=department,
+                    tutorial_center=institution,  # Use the Institution instance
+                    image=image_url,  # Store the image URL instead of the file
+                )
+                student.save()
+
+                # Log the user in and redirect to their profile
+                login(request, user)
+                send_registration_email(
+                    full_name=f"{first_name.title()} {last_name.title()}",
+                    email=user.email,
+                    institution_email=institution.owner.email
+                )
+                return redirect('myprofile')
+               
+
+            except Exception as e:
+                error_message = f"An error occurred: {e}"
+                print(f"Error: {e}")
         else:
             error_message = "All fields are required."
 
-    return render(request, 'register_student.html', {'error_message': error_message if 'error_message' in locals() else ''})
+    return render(
+        request,
+        'register_student.html',
+        {
+            'error_message': error_message,
+            'alldepartments': departments,
+            'allinstitutions': allinstitutions,
+        }
+    )
+
+def send_registration_email(full_name, email, institution_email):
+    sender_email = 'princejetro123@gmail.com'
+    sender_password = "iatu bier ypec yeqq"  # App password, not actual email password
+    subject = "New Student Registration"
+    body = f"""
+Hello Tutorial Center Administration,
+
+A new student has successfully registered. Here are the details:
+
+Full Name: {full_name}
+Email: {email}
+
+Please review and approve their registration.
+
+Best regards,
+Tutorial Haven Team
+"""
+
+    try:
+        context = ssl.create_default_context()
+        with smtplib.SMTP_SSL('smtp.gmail.com', 465, context=context) as smtp:
+            smtp.login(sender_email, sender_password)
+            smtp.sendmail(sender_email, institution_email, f"Subject: {subject}\n\n{body}")
+        print("Email sent successfully.")
+    except Exception as e:
+        print(f"Failed to send email: {e}")
 
 
 def loginview(request):
@@ -93,20 +187,35 @@ def loginview(request):
             return redirect('myprofile')
     return render(request, 'login.html')
 
+from django.contrib.auth.decorators import login_required
+from django.shortcuts import render, redirect, get_object_or_404
+from .models import Tutor, Student, TutorialCenter
+import smtplib
+import ssl
 
 @login_required
 def approve_users(request):
+    # Fetch the TutorialCenter owned by the logged-in user
     tutorial_center = get_object_or_404(TutorialCenter, owner=request.user)
     unapproved_tutors = Tutor.objects.filter(tutorial_center=tutorial_center, is_approved=False)
     unapproved_students = Student.objects.filter(tutorial_center=tutorial_center, is_approved=False)
 
     if request.method == 'POST':
-        # Process approvals for selected tutors and students
+        # Retrieve IDs of selected tutors and students for approval
         approved_tutor_ids = request.POST.getlist('approve_tutors')
         approved_student_ids = request.POST.getlist('approve_students')
 
-        Tutor.objects.filter(id__in=approved_tutor_ids).update(is_approved=True)
-        Student.objects.filter(id__in=approved_student_ids).update(is_approved=True)
+        # Approve tutors
+        for tutor in Tutor.objects.filter(id__in=approved_tutor_ids):
+            tutor.is_approved = True
+            tutor.save()
+            send_approval_email(tutor.user.first_name, tutor.user.email, tutorial_center.name, "Tutor")
+
+        # Approve students
+        for student in Student.objects.filter(id__in=approved_student_ids):
+            student.is_approved = True
+            student.save()
+            send_approval_email(student.user.first_name, student.user.email, tutorial_center.name, "Student")
 
         return redirect('approve_users')
 
@@ -115,6 +224,30 @@ def approve_users(request):
         'unapproved_students': unapproved_students,
     })
 
+
+def send_approval_email(first_name, email, institution_name, role):
+    sender_email = 'princejetro123@gmail.com'
+    sender_password = "iatu bier ypec yeqq"  # App password, not actual email password
+    subject = "Account Approval Notification"
+    body = f"""
+Hello {first_name},
+
+Congratulations! Your registration as a {role} at {institution_name} has been approved. You can now log in to your account and start engaging with the platform.
+
+If you have any questions, feel free to contact us.
+
+Best regards,
+{institution_name} Team
+"""
+
+    try:
+        context = ssl.create_default_context()
+        with smtplib.SMTP_SSL('smtp.gmail.com', 465, context=context) as smtp:
+            smtp.login(sender_email, sender_password)
+            smtp.sendmail(sender_email, email, f"Subject: {subject}\n\n{body}")
+        print(f"Approval email sent to {email}.")
+    except Exception as e:
+        print(f"Failed to send email to {email}: {e}")
 
 
 @login_required
@@ -156,7 +289,26 @@ def topic_detail(request, topic_id):
 def myprofile(request):
     user = request.user.username
     courses = Course.objects.all()
-    return render(request, 'myprofile.html',{'user': user,'courses': courses} )
+
+    # Safely query for the tutorial center
+    tutorial_center = TutorialCenter.objects.filter(owner=request.user).first()
+
+    if tutorial_center:  # Check if the tutorial center exists
+        approved_tutors = Tutor.objects.filter(tutorial_center=tutorial_center, is_approved=True)
+        approved_students = Student.objects.filter(tutorial_center=tutorial_center, is_approved=True)
+
+        return render(request, 'myprofile.html', {
+            'user': user,
+            'courses': courses,
+            'approved_students': approved_students,
+            'approved_tutors': approved_tutors,
+        })
+    else:
+        # Render without tutorial center-specific data
+        return render(request, 'myprofile.html', {
+            'user': user,
+            'courses': courses,
+        })
 
 
 @login_required
