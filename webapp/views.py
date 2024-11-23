@@ -169,6 +169,7 @@ Full Name: {full_name}
 Email: {email}
 
 Please review and approve their registration.
+https://tutorialhaven.vercel.app/approve-users
 
 Best regards,
 Tutorial Haven Team
@@ -233,7 +234,7 @@ def send_approval_email(first_name, email, institution_name, role):
 Hello {first_name},
 
 Congratulations! Your registration as a {role} at {institution_name} has been approved. You can now log in to your account and start engaging with the platform.
-
+https://tutorialhaven.vercel.app/myprofile
 If you have any questions, feel free to contact us.
 
 Best regards,
