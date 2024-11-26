@@ -275,7 +275,7 @@ def list_courses(request, department_id=None):
 @login_required
 def course_detail(request, course_id):
     course = get_object_or_404(Course, id=course_id)
-    topics = course.topics.all()
+    topics = course.topics.order_by('name')  # Order related topics alphabetically by 'name'
     userprogress = UserCourseProgress.objects.filter(user=request.user, course=course).first()
 
     return render(
