@@ -48,6 +48,14 @@
                                 </div>
 
                                 <form action="{% url 'login' %}" method="post">
+                                    {% if messages %}
+                                    <ul>
+                                        {% for message in messages %}
+                                            <li style="color: red;" >{{ message }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                {% endif %}
+
                                     {% csrf_token %}
                                     <p>Please login to your account</p>
 

@@ -16,6 +16,13 @@
             <div class="col-xl-6">
               <div class="card-body p-md-5 text-black">
                 <h3 class="mb-5 text-uppercase">Registration Form For Students</h3>
+                {% if messages %}
+                <ul>
+                    {% for message in messages %}
+                        <li style="color: red;" >{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
 
                 <form method="POST" action="{% url 'register_student' %}" enctype="multipart/form-data">
                   {% csrf_token %}

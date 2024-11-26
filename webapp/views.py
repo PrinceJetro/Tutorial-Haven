@@ -17,6 +17,7 @@ import smtplib
 import ssl
 from django.db.models import Avg  # Import Avg for aggregation
 import uuid  # Ensure you have imported this at the top of the file
+from django.contrib import messages  # Import messages for feedback to users
 
 
 
@@ -86,6 +87,24 @@ def register_student(request):
         password = request.POST.get('password', '').strip()
         school_id = request.POST.get('institution', '').strip().lower()  # School name or ID
         profile_pic = request.FILES.get('profilepic')  # Retrieve the uploaded image
+
+        # Check if the username already exists
+        if User.objects.filter(username=username).exists():
+            messages.error(request, "Username is already taken.")
+            return render(request, 'register_student.html',{
+            'error_message': error_message,
+            'alldepartments': departments,
+            'allinstitutions': allinstitutions,
+        })
+        
+        # Check if the email already exists
+        if User.objects.filter(email=email).exists():
+            messages.error(request, "Email is already registered.")
+            return render(request, 'register_student.html',{
+            'error_message': error_message,
+            'alldepartments': departments,
+            'allinstitutions': allinstitutions,
+        })
 
         # Initialize storage
         storage = SupabaseStorage()
@@ -187,11 +206,18 @@ Tutorial Haven Team
 
 def loginview(request):
     if request.method == 'POST':
-        user = authenticate(request, username=request.POST["username"],
-                            password=request.POST["password"])
+        username = request.POST.get("username")
+        password = request.POST.get("password")
+        
+        user = authenticate(request, username=username, password=password)
+        
         if user:
             login(request, user)
             return redirect('myprofile')
+        else:
+            # Add error message for invalid credentials
+            messages.error(request, "Invalid username or password.")
+    
     return render(request, 'login.html')
 
 @login_required
