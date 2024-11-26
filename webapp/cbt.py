@@ -189,12 +189,12 @@ questions = [
 
 
 # from webapp.cbt import questions
-# from webapp.models import Course, PastQuestions
+# from webapp.models import Course, PastQuestionsObj
 
 # for question_data in questions:
 #     try:
 #         course = Course.objects.get(id=question_data['course_id'])
-#         PastQuestions.objects.create(
+#         PastQuestionsObj.objects.create(
 #             course=course,
 #             question_text=question_data['question_text'],
 #             option_a=question_data['option_a'],

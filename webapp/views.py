@@ -2,8 +2,7 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponseRedirect
 from django.contrib.auth.models import User
-from .models import  Student, Course, Department, Topic, TutorialCenter, PastQuestions, KeyPoints, Tutor, TheorySubmission, Grade, UserCourseProgress
-from .forms import TheorySubmissionForm
+from .models import  Student, Course, Department, Topic, TutorialCenter, PastQuestionsObj, KeyPoints, Tutor, PastQuestionsTheory, ObjGrade, UserCourseProgress
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import get_object_or_404
 from django.contrib.auth.decorators import login_required
@@ -361,7 +360,7 @@ def list_tutorial_students(request, tutorial):
 @login_required
 def pastquestion(request, course_id):
     course = get_object_or_404(Course, id=course_id)
-    questions = PastQuestions.objects.filter(course=course)
+    questions = PastQuestionsObj.objects.filter(course=course)
 
     if request.method == 'POST':
         score = 0
@@ -374,11 +373,10 @@ def pastquestion(request, course_id):
                 score += 1
 
             # Save individual grade for this question
-            Grade.objects.create(
+            ObjGrade.objects.create(
                 user=request.user,
                 question=question,
                 course=course,
-                is_theory=False,
                 score=100 if selected_option == question.correct_option else 0,
                 submission_id=submission_id,  # Assign the unique submission ID
             )
@@ -393,7 +391,7 @@ def pastquestion(request, course_id):
         )
         user_progress.attempts += 1
         # Update the average percentage considering all attempts
-        all_user_grades = Grade.objects.filter(user=request.user, course=course, is_theory=False)
+        all_user_grades = ObjGrade.objects.filter(user=request.user, course=course)
         average_score = all_user_grades.aggregate(average_score=Avg('score'))['average_score'] or 0
         user_progress.percentage = average_score
         user_progress.save()
@@ -416,27 +414,27 @@ def pastquestion(request, course_id):
     return render(request, 'pastquestion.html', context)
 
 
-def theory_question(request, question_id):
-    question = get_object_or_404(PastQuestions, id=question_id, theory__isnull=False)
+# def theory_question(request, question_id):
+#     question = get_object_or_404(PastQuestionsTheory, id=question_id, theory__isnull=False)
     
-    if request.method == 'POST':
-        form = TheorySubmissionForm(request.POST)
-        if form.is_valid():
-            submission = form.save(commit=False)
-            submission.user = request.user
-            submission.question = question
-            submission.save()
-            return HttpResponseRedirect('/thanks/')
-    else:
-        form = TheorySubmissionForm()
+#     if request.method == 'POST':
+#         form = TheorySubmissionForm(request.POST)
+#         if form.is_valid():
+#             submission = form.save(commit=False)
+#             submission.user = request.user
+#             submission.question = question
+#             submission.save()
+#             return HttpResponseRedirect('/thanks/')
+#     else:
+#         form = TheorySubmissionForm()
     
-    return render(request, 'theory_question.html', {'question': question, 'form': form})
+#     return render(request, 'theory_question.html', {'question': question, 'form': form})
 
 
 
 @login_required
 def key_points(request, pastpq_id):
-    pastpq = get_object_or_404(PastQuestions, id=pastpq_id)
+    pastpq = get_object_or_404(PastQuestionsObj, id=pastpq_id)
     keypoint = KeyPoints.objects.filter(past_question=pastpq).first()  # Use .first() to fetch the single object
 
     return render(request, 'cool/keypoints.html', {'keypoint': keypoint})

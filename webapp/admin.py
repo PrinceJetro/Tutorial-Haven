@@ -1,6 +1,6 @@
 # admin.py
 from django.contrib import admin
-from .models import Student, Course, Department, Topic, PastQuestions, KeyPoints, PracticeExplanations, TutorialCenter, Tutor, TheorySubmission, Grade, UserCourseProgress
+from .models import Student, Course, Department, Topic, PastQuestionsObj, KeyPoints, PracticeExplanations, TutorialCenter, Tutor, PastQuestionsTheory, ObjGrade, UserCourseProgress, TheoryGrade
 
 
 
@@ -41,14 +41,6 @@ class TopicAdmin(admin.ModelAdmin):
     search_fields = ('name', 'course__name')
     list_filter = ('course',)
 
-
-@admin.register(PastQuestions)
-class PastQuestionsAdmin(admin.ModelAdmin):
-    list_display = ('course', 'year', 'question_text')
-    search_fields = ('course__name', 'year')
-    list_filter = ('course', 'year')
-    ordering = ('-uploaded_at',)
-
 @admin.register(KeyPoints)
 class KeyPointsAdmin(admin.ModelAdmin):
     list_display = ('past_question', 'content')
@@ -62,18 +54,6 @@ class PracticeExplanationsAdmin(admin.ModelAdmin):
     search_fields = ('cbt_question__course__name', 'cbt_question__question_text')
     list_filter = ('cbt_question__course',)
 
-
-@admin.register(TheorySubmission)
-class TheorySubmissionAdmin(admin.ModelAdmin):
-    list_display = ('user', 'question', 'submitted_at')
-    list_filter = ('user', 'submitted_at')
-    search_fields = ('user__username', 'question__question_text')
-
-@admin.register(Grade)
-class GradeAdmin(admin.ModelAdmin):
-    list_display = ('user', 'question', 'score', )
-    list_filter = ('user', 'question',)
-
 @admin.register(UserCourseProgress)
 class UserCourseProgressAdmin(admin.ModelAdmin):
     list_display = ('user', 'course_name', 'percentage', 'attempts')
@@ -82,3 +62,30 @@ class UserCourseProgressAdmin(admin.ModelAdmin):
     def course_name(self, obj):
         return obj.course.name  # Adjust this based on the actual field
     course_name.short_description = 'Course'
+
+
+@admin.register(PastQuestionsObj)
+class PastQuestionsObjAdmin(admin.ModelAdmin):
+    list_display = ('course', 'question_text', 'year', 'uploaded_at')
+    list_filter = ('course', 'year')
+    search_fields = ('question_text', 'course__name', 'year')
+    ordering = ('-uploaded_at',)
+
+@admin.register(PastQuestionsTheory)
+class PastQuestionsTheoryAdmin(admin.ModelAdmin):
+    list_display = ('course', 'question_text')
+    search_fields = ('question_text', 'course__name')
+
+@admin.register(ObjGrade)
+class ObjGradeAdmin(admin.ModelAdmin):
+    list_display = ('user', 'question', 'score')
+    list_filter = ('course', 'user')
+    search_fields = ('user__username', 'course__name', 'question__question_text')
+    ordering = ('-submitted_at',)
+
+@admin.register(TheoryGrade)
+class TheoryGradeAdmin(admin.ModelAdmin):
+    list_display = ('user', 'question', 'course', 'score', 'submitted_at')
+    list_filter = ('course', 'user')
+    search_fields = ('user__username', 'course__name', 'question__question_text')
+    ordering = ('-submitted_at',)

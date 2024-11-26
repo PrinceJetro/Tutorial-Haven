@@ -1,7 +1,7 @@
 # forms.py
 from django import forms
 from django.contrib.auth.models import User
-from .models import  Course, Topic, TheorySubmission
+from .models import  Course, Topic
 from ckeditor.fields import RichTextField  # For model definition
 
 class UserRegistrationForm(forms.ModelForm):
@@ -37,10 +37,10 @@ class TopicForm(forms.ModelForm):
 
 
 
-class TheorySubmissionForm(forms.ModelForm):
-    class Meta:
-        model = TheorySubmission
-        fields = ['response']
-        widgets = {
-            'response': forms.Textarea(attrs={'rows': 10, 'cols': 80}),
-        }
+# class TheorySubmissionForm(forms.ModelForm):
+#     class Meta:
+#         model = TheorySubmission
+#         fields = ['response']
+#         widgets = {
+#             'response': forms.Textarea(attrs={'rows': 10, 'cols': 80}),
+#         }
