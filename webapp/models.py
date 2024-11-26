@@ -34,7 +34,6 @@ class Tutor(models.Model):
     image = models.ImageField(upload_to="uploaded_image", null=True,default='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKKOdmJz8Z2pDtYgFgR2u9spABvNNPKYYtGw&s')
     tutorial_center = models.ForeignKey(TutorialCenter, on_delete=models.CASCADE, related_name='tutors')
     is_approved = models.BooleanField(default=False)  # Approval field
-    speciality = models.ManyToManyField(Course, related_name='tutors', null=True)  # Updated related_name
 
     def __str__(self):
         return f'{self.user.first_name} {self.user.last_name}'
@@ -101,19 +100,19 @@ class PastQuestionsTheory(models.Model):
     body = models.CharField(max_length=4, help_text="Waec / Jamb?", null=True)
 
     def __str__(self):
-        return f'{self.course.name} Theory Question: {self.question_text[:50]}'
+        return f'{self.course.name} Theory Question: {self.year} {self.body}'
 
 class TheoryGrade(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='theory_grades')
     question = models.ForeignKey(PastQuestionsTheory, on_delete=models.CASCADE, related_name='theory_grades')
     response = RichTextField(help_text="Student's response", null=True)
     course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name='theory_grades', null=True)
-    score = models.DecimalField(max_digits=5, decimal_places=2, help_text="Score")
+    score = models.DecimalField(max_digits=5, decimal_places=2, help_text="Score", null=True)
     submitted_at = models.DateTimeField(auto_now_add=True)
     submission_id = models.UUIDField(default=uuid.uuid4, editable=False, help_text="Unique submission ID")
 
     def __str__(self):
-        return f'{self.user.username} - {self.course.name} Theory Grade'
+        return f'{self.user.username} - {self.course.name} Theory Grade {self.question.year}'
 
 
 class UserCourseProgress(models.Model):

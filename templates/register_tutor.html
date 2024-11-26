@@ -15,9 +15,16 @@
             </div>
             <div class="col-xl-6">
               <div class="card-body p-md-5 text-black">
-                <h3 class="mb-5 text-uppercase">Registration Form For Teachers</h3>
+                <h3 class="mb-5 text-uppercase">Registration Form For Tutors</h3>
+                {% if messages %}
+                <ul>
+                    {% for message in messages %}
+                        <li style="color: red;" >{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
 
-                <form method="POST" action="{% url 'register_teacher' %}" enctype="multipart/form-data">
+                <form method="POST" action="{% url 'register_tutor' %}" enctype="multipart/form-data">
                   {% csrf_token %}
 
                   <div class="row">
@@ -44,7 +51,7 @@
                   <div data-mdb-input-init class="form-outline mb-4">
                     <select name="institution" id="institution" class="form-control form-control-lg" required>
                         {% for institution in allinstitutions %}      
-                            <option value="{{ institution }}">{{ institution }}</option>
+                            <option value="{{ institution.id }}">{{ institution }}</option>
                         {% endfor %}
                     </select>
                     <label class="form-label" for="institution">Institution</label>
@@ -94,4 +101,3 @@
 </script>
 
 {% endblock %}
-

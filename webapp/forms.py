@@ -1,8 +1,12 @@
 # forms.py
 from django import forms
 from django.contrib.auth.models import User
-from .models import  Course, Topic
+from .models import  Course, Topic, TheoryGrade
 from ckeditor.fields import RichTextField  # For model definition
+from ckeditor.widgets import CKEditorWidget  # Import the CKEditor widget
+
+
+
 
 class UserRegistrationForm(forms.ModelForm):
     username = forms.CharField(max_length=150, required=True)
@@ -36,11 +40,23 @@ class TopicForm(forms.ModelForm):
         fields = ['name', 'course', 'description', 'content']
 
 
+class TheorySubmissionForm(forms.Form):
+    response = forms.CharField(
+        widget=forms.Textarea(attrs={"class": "form-control w-100", "rows": 6}),
+        label="Your Answer",
+        help_text="Provide a detailed answer to the question",
+    )
 
-# class TheorySubmissionForm(forms.ModelForm):
-#     class Meta:
-#         model = TheorySubmission
-#         fields = ['response']
-#         widgets = {
-#             'response': forms.Textarea(attrs={'rows': 10, 'cols': 80}),
-#         }
+class GradeForm(forms.ModelForm):
+    class Meta:
+        model = TheoryGrade
+        fields = ['score']
+        widgets = {
+            'score': forms.NumberInput(attrs={'min': 0, 'max': 100, 'step': 0.01}),
+        }
+        labels = {
+            'score': 'Assign Score',
+        }
+        help_texts = {
+            'score': 'Enter a score between 0 and 100.',
+        }

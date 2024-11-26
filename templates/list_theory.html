@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+<!-- templates/courses/list_courses.html -->
+<h1>
+    {{courses.name}}
+</h1>
+
+
+
+<!-- Header Start -->
+<div class="container-fluid bg-primary py-5 mb-5 page-header">
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 text-center">
+                <h1 class="display-3 text-white animated slideInDown" style="font-size: 50px">{{department.name}}</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+
+<div class="d-flex">
+  <div class="overflow-auto" style="height: 400px; width:100%;">
+    <h1 class="display-3 text-dark animated slideInDown" style="font-size: 50px">Theories</h1>
+
+    <div class="card m-2 m-auto" style="max-width: 540px; margin: auto">
+    {% for question in theories %}
+    
+
+        <div class="row g-0">
+            <div class="col">
+                <div class="card-body">
+                    <h5 class="card-title"><a href="{% url 'theory' question.course.id question.year %}">{{ question|title }}</a></h5>
+                    <p class="card-text">
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+    {% endfor %}
+</div>
+
+  </div>
+</div>
+
+{% endblock %}

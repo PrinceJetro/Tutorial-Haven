@@ -18,6 +18,9 @@ urlpatterns = [
     path('courses/', views.list_all_courses, name='course'),
     path('courses/<int:course_id>/', views.course_detail, name='course_detail'),
     path('courses/<int:topic_id>/topic', views.topic_detail, name='topic_detail'),
-    path('pastquestions/<int:course_id>/', views.pastquestion, name='pastquestions'),
+    path('pastquestions/<int:course_id>/', views.cbtquestion, name='pastquestions'),
+    path('pastquestions/<int:course_id>/<int:year>/theory', views.theoryquestion, name='theory'),
+    path('grade/theory/<int:grade_id>/', views.grade_theory, name='grade_theory'),
+    path("all_theories", views.listTheory, name="listTheory"),
     path('pastquestions/<int:pastpq_id>/keypoints', views.key_points, name='keypoints'),
 ]

@@ -2,7 +2,7 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponseRedirect
 from django.contrib.auth.models import User
-from .models import  Student, Course, Department, Topic, TutorialCenter, PastQuestionsObj, KeyPoints, Tutor, PastQuestionsTheory, ObjGrade, UserCourseProgress
+from .models import  Student, Course, Department, Topic, TutorialCenter, PastQuestionsObj, KeyPoints, Tutor, PastQuestionsTheory, ObjGrade,TheoryGrade, UserCourseProgress
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import get_object_or_404
 from django.contrib.auth.decorators import login_required
@@ -12,6 +12,7 @@ from django.contrib.auth.hashers import make_password
 from django.urls import reverse
 from django.db.models import Avg
 from webapp.storage import SupabaseStorage
+from .forms import TheorySubmissionForm, GradeForm
 import smtplib
 import ssl
 from django.db.models import Avg  # Import Avg for aggregation
@@ -51,26 +52,100 @@ def register_owner(request):
 
     return render(request, 'register_owner.html', {'error_message': error_message if 'error_message' in locals() else ''})
 
+
+
 def register_tutor(request):
+    allinstitutions = TutorialCenter.objects.all()
+    error_message = ""
+
     if request.method == 'POST':
-        username = request.POST.get('username')
-        password = request.POST.get('password')
-        tutorial_center_id = request.POST.get('tutorial_center')  # Assuming the tutorial center is passed as an ID
+        first_name = request.POST.get('first_name', '').strip().lower()
+        last_name = request.POST.get('last_name', '').strip().lower()
+        email = request.POST.get('email', '').strip().lower()
+        username = request.POST.get('username', '').strip().lower()
+        password = request.POST.get('password', '').strip()
+        school_id = request.POST.get('institution', '').strip().lower()  # School name or ID
+        profile_pic = request.FILES.get('profilepic')  # Retrieve the uploaded image
+
+        # Check if the username already exists
+        if User.objects.filter(username=username).exists():
+            messages.error(request, "Username is already taken.")
+            return render(request, 'register_tutor.html',{
+            'error_message': error_message,
+            'allinstitutions': allinstitutions,
+        })
+        
+        # Check if the email already exists
+        if User.objects.filter(email=email).exists():
+            messages.error(request, "Email is already registered.")
+            return render(request, 'register_tutor.html',{
+            'error_message': error_message,
+            'allinstitutions': allinstitutions,
+        })
+
+        # Initialize storage
+        storage = SupabaseStorage()
+
+        # Handle image upload
+        image_url = None
+        if profile_pic:
+            post = 'media/' + profile_pic.name
+            print(profile_pic.name)
+            try:
+                filename = storage.save(post, profile_pic)
+                image_url = storage.url(filename)
+            except Exception as e:
+                error_message = "Failed to upload image to Supabase storage. Please try again."
+                print(f"Error uploading image: {e}")
 
         # Basic validation
-        if username and password and tutorial_center_id:
-            user = User(username=username, password=make_password(password))
-            user.save()
+        if username and password and school_id and first_name and last_name  and email:
+            try:
+                # Fetch the Institution instance
+                institution = get_object_or_404(TutorialCenter, id=school_id)
 
-            tutor = Tutor(user=user, tutorial_center_id=tutorial_center_id, is_approved=False)
-            tutor.save()
+                # Create the user
+                user = User(
+                    username=username,
+                    password=make_password(password),
+                    first_name=first_name,
+                    last_name=last_name,
+                    email=email,
+                )
+                user.save()
 
-            return redirect('home')
+                # Create the Student record
+                tutor = Tutor(
+                    user=user,
+                    tutorial_center=institution,  # Use the Institution instance
+                    image=image_url,  # Store the image URL instead of the file
+                )
+                tutor.save()
+
+                # Log the user in and redirect to their profile
+                login(request, user)
+                send_registration_email(
+                    full_name=f"{first_name.title()} {last_name.title()}",
+                    email=user.email,
+                    institution_email=institution.owner.email
+                )
+                return redirect('myprofile')
+               
+
+            except Exception as e:
+                error_message = f"An error occurred: {e}"
+                print(f"Error: {e}")
         else:
             error_message = "All fields are required."
 
-    return render(request, 'register_tutor.html', {'error_message': error_message if 'error_message' in locals() else ''})
-
+    return render(
+        request,
+        'register_tutor.html',
+        {
+            'error_message': error_message,
+            'allinstitutions': allinstitutions,
+        }
+    )
 
 def register_student(request):
     departments = Department.objects.all()
@@ -358,7 +433,7 @@ def list_tutorial_students(request, tutorial):
 
 
 @login_required
-def pastquestion(request, course_id):
+def cbtquestion(request, course_id):
     course = get_object_or_404(Course, id=course_id)
     questions = PastQuestionsObj.objects.filter(course=course)
 
@@ -413,22 +488,78 @@ def pastquestion(request, course_id):
     }
     return render(request, 'pastquestion.html', context)
 
+@login_required
+def listTheory(request):
+    theories = PastQuestionsTheory.objects.all()
+    return render(request, 'list_theory.html', {
+        'theories':theories
+    })
 
-# def theory_question(request, question_id):
-#     question = get_object_or_404(PastQuestionsTheory, id=question_id, theory__isnull=False)
+
+@login_required
+def theoryquestion(request, course_id, year):
+    course = get_object_or_404(Course, id=course_id)
+    print(course)
+    questions = PastQuestionsTheory.objects.filter(course=course, year=year).first()
+    print(questions)
     
-#     if request.method == 'POST':
-#         form = TheorySubmissionForm(request.POST)
-#         if form.is_valid():
-#             submission = form.save(commit=False)
-#             submission.user = request.user
-#             submission.question = question
-#             submission.save()
-#             return HttpResponseRedirect('/thanks/')
-#     else:
-#         form = TheorySubmissionForm()
+    if request.method == 'POST':
+        form = TheorySubmissionForm(request.POST)
+        if form.is_valid():
+            response = form.cleaned_data['response']
+            question_id = request.POST.get('question_id')  # ID of the question being answered
+            print(request.POST)
+            question = get_object_or_404(PastQuestionsTheory, id=question_id)
+
+            submission = TheoryGrade.objects.create(
+                user=request.user,
+                question=question,
+                course=course,
+                response=response,
+                submission_id=uuid.uuid4()
+            )
+
+            messages.success(request, "Successfully Submitted! Your Tutor will grade and get back to you soon.")
+            return HttpResponseRedirect('/myprofile/')  # Redirect to a 'Thank you' page after submission
+    else:
+        form = TheorySubmissionForm()
+
+    context = {
+        'course': course,
+        'theory_questions': questions,
+        'form': form,
+    }
+    return render(request, 'theoryquestion.html', context)
+
+
+@login_required
+def grade_theory(request, grade_id):
+    # Fetch the TheoryGrade object
+    theory_grade = get_object_or_404(TheoryGrade, id=grade_id)
     
-#     return render(request, 'theory_question.html', {'question': question, 'form': form})
+    # Ensure the user has the right to grade (e.g., is a tutor)
+    if not request.user.tutor.is_approved or not request.user.tutorial_center :  # Replace with your own tutor-check logic
+        messages.error(request, "You do not have permission to grade this question.")
+        return redirect('myprofile')  # Redirect to a suitable page
+    
+    # Handle form submission
+    if request.method == 'POST':
+        form = GradeForm(request.POST, instance=theory_grade)
+        if form.is_valid():
+            form.save()  # Save the updated score
+            messages.success(request, "Score updated successfully!")
+            return redirect('myprofile')  # Redirect to a suitable page
+    else:
+        form = GradeForm(instance=theory_grade)
+
+    # Pass data to the template
+    context = {
+        'theory_grade': theory_grade,
+        'form': form,
+    }
+    return render(request, 'grade_theory.html', context)
+
+
 
 
 

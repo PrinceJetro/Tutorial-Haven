@@ -1,0 +1,20 @@
+<!-- templates/grade_theory.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Grade Theory Question</h2>
+
+<p><strong>Question:</strong> {{ theory_grade.question.question_text|safe }}</p>
+<p><strong>User:</strong> {{ theory_grade.user.username }}</p>
+<p><strong>Response:</strong></p>
+<div style="border: 1px solid #ccc; padding: 10px; margin-bottom: 20px;">
+    {{ theory_grade.response|safe }}
+</div>
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-primary">Update Score</button>
+</form>
+
+{% endblock %}

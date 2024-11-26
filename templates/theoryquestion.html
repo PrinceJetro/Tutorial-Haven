@@ -1,0 +1,42 @@
+<!-- templates/grade_theory.html -->
+{% extends "cool/nav.html" %}
+
+{% block content %}
+
+<head>
+    <style>
+        textarea{
+            width: 100%;
+            display: block;
+            height: auto;
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<div class="container mt-5">
+    <!-- Card for Theory Question -->
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h4>{{ theory_questions.course}} {{ theory_questions.body}} {{ theory_questions.year}}</h4>
+        </div>
+        <div class="card-body">
+            <!-- Question Text -->
+            <div class="mb-4">
+                <h5><strong>Question(s):</strong></h5>
+                    {{ theory_questions.question_text|safe }}
+            </div>
+
+            <!-- Form Section -->
+            <form method="POST" class="mt-4">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" class="btn btn-success mt-3">Submit</button>
+            </form>
+            
+        </div>
+    </div>
+</div>
+{% endblock %}
+
