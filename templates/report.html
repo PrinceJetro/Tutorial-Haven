@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Report Card</title>
+    <title>Progress Report</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -68,7 +68,7 @@
 <body>
     <div class="container report-card">
         <div class="header text-center mb-4">
-            <h1 class="display-4">REPORT CARD</h1>
+            <h1 class="display-4">PROGRESS REPORT</h1>
             <h2 class="h5">{{ request.user.student.tutorial_center.name|title }}</h2>
         </div>
     
@@ -138,6 +138,51 @@
                 </table>
             </div>
         </div>
+    
+    
+    
+        <!-- Grades Table -->
+        <div class="grades-table mb-4">
+            <h3 class="h5 text-center mb-3">Grades On Theory Aspects</h3>
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Subject</th>
+                            <th>Year</th>
+                            <th>Credits Earned</th>
+                            <th>Total Grade</th>
+                            <th>Comments</th>
+                            <th>Submitted At</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for grade in graded_data_theory %}
+                        <tr>
+                            <td>{{ grade.course }}</td>
+                            <td>{{ grade.year }}</td>
+                            <td>{{ grade.credits }}</td>
+                            <td>
+                                {% if grade.percentage == 0.00 %}
+                                    Not Graded Yet
+                                {% else %}
+                                    {{ grade.percentage }}%
+                                {% endif %}
+                            </td>
+                            <td>
+                                {{ grade.note|safe }}
+                            </td>
+                            <td>{{ grade.submitted_at }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    
+    
+    
+    
     
         <!-- Grading Scale -->
         <div class="grading-scale mb-4">

@@ -625,9 +625,12 @@ def calculate_credits(percentage):
 
 @login_required
 def myreport(request):
-    objgrades = UserCourseProgress.objects.filter(user=request.user).all()
-    print(objgrades)
+    objgrades = UserCourseProgress.objects.filter(user=request.user).order_by('-percentage')
+    theorygrades = TheoryGrade.objects.filter(user=request.user).order_by('-score')
+
+    print(theorygrades)
     graded_data = []
+    graded_data_theory = []
 
     for grade in objgrades:
         credits = calculate_credits(grade.percentage)
@@ -636,9 +639,21 @@ def myreport(request):
             "percentage": grade.percentage,
             "credits": credits,
         })
+    for grade in theorygrades:
+        print(grade)
+        credits = calculate_credits(grade.score)
+        graded_data_theory.append({
+            "course": grade.course.name,
+            "percentage": grade.score,
+            "credits": credits,
+            "note": grade.note,
+            "submitted_at": grade.submitted_at,
+            "year": grade.question.year
+        })
 
     context = {
         "graded_data": graded_data,
+        "graded_data_theory": graded_data_theory,
     }
     return render(request, 'report.html', context)
 

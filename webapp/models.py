@@ -111,7 +111,7 @@ class TheoryGrade(models.Model):
     response = RichTextField(help_text="Student's response", null=True)
     note = RichTextField(help_text="Note for Student", null=True)
     course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name='theory_grades', null=True)
-    score = models.DecimalField(max_digits=5, decimal_places=2, help_text="Score", null=True)
+    score = models.DecimalField(max_digits=5, decimal_places=2, default=0, help_text="Score Over 100", null=True)
     submitted_at = models.DateTimeField(auto_now_add=True)
     submission_id = models.UUIDField(default=uuid.uuid4, editable=False, help_text="Unique submission ID")
 
