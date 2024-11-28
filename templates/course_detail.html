@@ -42,7 +42,7 @@
     
 
     
-    <section class="vh-100 gradient-custom-2">
+    <section class="gradient-custom-2">
         <div class="container py-5 h-100">
           <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col-md-12 col-xl-10">
@@ -51,9 +51,7 @@
                 <div class="card-body p-4 text-white">
       
                   <div class="text-center pt-3 pb-2" style="display: flex; justify-content: center; align-items:center; flex-direction: column">
-                    <img src={{course.image}}
-                      alt="Check" width="300px">
-                    <h2 class="my-4">{{course.name|title}}</h2>
+                     <h2 class="my-4">{{course.name|title}}</h2>
                     {% if userprogress %}
                     <p>Your progress: {{ userprogress.percentage }}%</p>
                     <p>Attempts: {{ userprogress.attempts }}</p>
