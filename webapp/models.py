@@ -109,6 +109,7 @@ class TheoryGrade(models.Model):
     question = models.ForeignKey(PastQuestionsTheory, on_delete=models.CASCADE, related_name='theory_grades')
     question_text = RichTextField(help_text="Theory question", null=True)
     response = RichTextField(help_text="Student's response", null=True)
+    note = RichTextField(help_text="Note for Student", null=True)
     course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name='theory_grades', null=True)
     score = models.DecimalField(max_digits=5, decimal_places=2, help_text="Score", null=True)
     submitted_at = models.DateTimeField(auto_now_add=True)

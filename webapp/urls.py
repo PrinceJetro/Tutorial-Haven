@@ -23,4 +23,5 @@ urlpatterns = [
     path('grade/theory/<int:grade_id>/', views.grade_theory, name='grade_theory'),
     path("all_theories", views.listTheory, name="listTheory"),
     path('pastquestions/<int:pastpq_id>/keypoints', views.key_points, name='keypoints'),
+    path('myreport/', views.myreport, name='myreport'),
 ]

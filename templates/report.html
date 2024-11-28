@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+        }
+        .report-card {
+            max-width: 800px;
+            margin: auto;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            color: rgb(50, 50, 218);
+        }
+        .header h2 {
+            margin: 0;
+            font-size: 18px;
+            color: #333;
+        }
+        .info-table, .grades-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .info-table td {
+            padding: 5px;
+            font-size: 14px;
+        }
+        .grades-table th, .grades-table td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: center;
+        }
+        .grades-table th {
+            background-color: #f5f5f5;
+        }
+        .grading-scale, .quarters {
+            display: inline-block;
+            width: 48%;
+            vertical-align: top;
+        }
+        .grading-scale table, .quarters table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .grading-scale th, .grading-scale td, .quarters th, .quarters td {
+            border: 1px solid #ccc;
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="report-card">
+        <div class="header">
+            <h1>REPORT CARD</h1>
+            <h2>{{ request.user.student.tutorial_center.name|title }}</h2>
+        </div>
+        <table class="info-table">
+            <tr>
+                <td><strong>Student Name:</strong> {{ request.user.get_full_name|title }}</td>
+                <td><strong>Department</strong> {{ request.user.student.department.name|title }}</td>
+            </tr>
+            <tr>
+                <td><strong>Institution's Owner's Name:</strong> {{ request.user.student.tutorial_center.owner.get_full_name|title }}</td>
+                <td><strong>Signature:</strong> ____________________</td>
+            </tr>
+        </table>
+        <table class="grades-table">
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Credits Earned</th>
+                    <th>Total Grade</th>
+                    <th>Comments</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for grade in graded_data %}
+                <tr>
+                    <td>{{ grade.course }}</td>
+                    <td>{{ grade.credits }}</td>
+                    <td>
+                        {% if grade.percentage == 0.00 %}
+                            _____
+                        {% else %}
+                        {{ grade.percentage }}%
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if grade.credits == "A+" %}
+                            Excellent Performance
+                        {% elif grade.credits == "A" %}
+                            Very Good
+                        {% elif grade.credits == "B+" %}
+                            Good
+                        {% elif grade.credits == "B" %}
+                            Satisfactory
+                        {% elif grade.credits == "C" %}
+                            Pass
+                        {% elif grade.credits == "D" %}
+                            Poor Performance
+                        {% elif grade.percentage == 0.00 %}
+                            Go and Practice
+                        {% else %}
+                            Failed
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    
+        <div class="grading-scale">
+            <h3>Grading Scale</h3>
+            <table>
+                <tr>
+                    <th>Grade</th>
+                    <th>Percentage Range</th>
+                </tr>
+                <tr>
+                    <th>A+</th>
+                    <td>90-100</td>
+                </tr>
+                <tr>
+                    <th>A</th>
+                    <td>80-89</td>
+                </tr>
+                <tr>
+                    <th>B+</th>
+                    <td>70-79</td>
+                </tr>
+                <tr>
+                    <th>B</th>
+                    <td>60-69</td>
+                </tr>
+                <tr>
+                    <th>C</th>
+                    <td>50-59</td>
+                </tr>
+                <tr>
+                    <th>D</th>
+                    <td>40-49</td>
+                </tr>
+                <tr>
+                    <th>F</th>
+                    <td>1-39</td>
+                </tr>
+                
+            </table>
+        </div>
+        
+        <div class="quarters">
+            <h3>Quarterly Grades</h3>
+            <table>
+                <tr>
+                    <th>First Quarter</th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Second Quarter</th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Third Quarter</th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Fourth Quarter</th>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

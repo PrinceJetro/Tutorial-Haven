@@ -222,7 +222,6 @@ def register_student(request):
                     image=image_url,  # Store the image URL instead of the file
                 )
                 student.save()
-
                 # Log the user in and redirect to their profile
                 login(request, user)
                 send_registration_email(
@@ -316,6 +315,17 @@ def approve_users(request):
         for student in Student.objects.filter(id__in=approved_student_ids):
             student.is_approved = True
             student.save()
+            
+            # Prefill UserCourseProgress if missing
+            try:
+                department_courses = student.department.courses.all()
+                for course in department_courses:
+                    # Create or retrieve progress records for the student
+                    UserCourseProgress.objects.get_or_create(user=student.user, course=course)
+            except Exception as e:
+                # Log the error (replace print with proper logging in production)
+                print(f"Error pre-filling UserCourseProgress for {student.user.username}: {e}")
+
             send_approval_email(student.user.first_name, student.user.email, tutorial_center.name, "Student")
 
         return redirect('approve_users')
@@ -591,6 +601,46 @@ def grade_theory(request, grade_id):
         'form': form,
     }
     return render(request, 'grade_theory.html', context)
+
+# Utility function to calculate credits
+def calculate_credits(percentage):
+    if percentage >= 90:
+        return "A+"
+    elif percentage >= 80:
+        return "A"
+    elif percentage >= 70:
+        return "B+"
+    elif percentage >= 60:
+        return "B"
+    elif percentage >= 50:
+        return "C"
+    elif percentage >= 40:
+        return "D"
+    elif percentage == 0:
+        return "_____"
+    else:
+        return "F"
+
+
+
+@login_required
+def myreport(request):
+    objgrades = UserCourseProgress.objects.filter(user=request.user).all()
+    print(objgrades)
+    graded_data = []
+
+    for grade in objgrades:
+        credits = calculate_credits(grade.percentage)
+        graded_data.append({
+            "course": grade.course.name,
+            "percentage": grade.percentage,
+            "credits": credits,
+        })
+
+    context = {
+        "graded_data": graded_data,
+    }
+    return render(request, 'report.html', context)
 
 
 

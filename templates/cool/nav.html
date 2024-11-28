@@ -65,6 +65,7 @@
                         <div class="dropdown-menu fade-down m-0">
                             <a href="{% url 'list_courses' request.user.student.department.id %}" class="dropdown-item">Courses</a>
                             <a href="{% url 'listTheory' %}" class="dropdown-item">Theory Practices</a>
+                            <a href="{% url 'myreport' %}" class="dropdown-item">Your Report</a>
                         </div>
                     </div>
                 {% else %}
