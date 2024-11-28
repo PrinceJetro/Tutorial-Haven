@@ -34,6 +34,8 @@ class Tutor(models.Model):
     image = models.ImageField(upload_to="uploaded_image", null=True,default='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKKOdmJz8Z2pDtYgFgR2u9spABvNNPKYYtGw&s')
     tutorial_center = models.ForeignKey(TutorialCenter, on_delete=models.CASCADE, related_name='tutors')
     is_approved = models.BooleanField(default=False)  # Approval field
+    phone = models.CharField(max_length=200, null=True)
+    speciality = models.ForeignKey(Course, on_delete=models.CASCADE, related_name='speciality', null=True)
 
     def __str__(self):
         return f'{self.user.first_name} {self.user.last_name}'
@@ -97,14 +99,14 @@ class PastQuestionsTheory(models.Model):
     course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name='theory_questions')
     question_text = RichTextField(help_text="Theory question")
     year = models.CharField(max_length=4, help_text="Year of the examination", null=True)
-    body = models.CharField(max_length=4, help_text="Waec / Jamb?", null=True)
 
     def __str__(self):
-        return f'{self.course.name} Theory Question: {self.year} {self.body}'
+        return f'{self.course.name} Theory Question: {self.year}'
 
 class TheoryGrade(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='theory_grades')
     question = models.ForeignKey(PastQuestionsTheory, on_delete=models.CASCADE, related_name='theory_grades')
+    question_text = RichTextField(help_text="Theory question", null=True)
     response = RichTextField(help_text="Student's response", null=True)
     course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name='theory_grades', null=True)
     score = models.DecimalField(max_digits=5, decimal_places=2, help_text="Score", null=True)

@@ -4,6 +4,8 @@
 {% block content %}
 
 <head>
+    <script src="//cdn.ckeditor.com/4.6.2/standard/ckeditor.js"></script>
+
     <style>
         textarea{
             width: 100%;
@@ -14,6 +16,14 @@
             width: 100%;
         }
     </style>
+    <script type="text/javascript">
+        window.onload = () => {
+          CKEDITOR.replace("id_response");
+        };
+        function sendText() {
+          window.parent.postMessage(CKEDITOR.instances.CK1.getData(), "*");
+        }
+      </script>
 </head>
 <div class="container mt-5">
     <!-- Card for Theory Question -->
@@ -31,6 +41,7 @@
             <!-- Form Section -->
             <form method="POST" class="mt-4">
                 {% csrf_token %}
+                <input type="hidden" name="question_id" id="question_id" value="{{ theory_questions.id }}">
                 {{ form.as_p }}
                 <button type="submit" class="btn btn-success mt-3">Submit</button>
             </form>
@@ -38,5 +49,16 @@
         </div>
     </div>
 </div>
+
+<script>
+    $w.onReady(function () {
+        $w("#myHtmlComponent").onMessage((event) => {
+          $w("#myText").html = event.data;
+        });
+      });
+
+      
+</script>
+
 {% endblock %}
 

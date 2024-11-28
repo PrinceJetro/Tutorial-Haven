@@ -509,11 +509,14 @@ def theoryquestion(request, course_id, year):
             response = form.cleaned_data['response']
             question_id = request.POST.get('question_id')  # ID of the question being answered
             print(request.POST)
+            print(f"here is the  question id {question_id}")
+
             question = get_object_or_404(PastQuestionsTheory, id=question_id)
 
             submission = TheoryGrade.objects.create(
                 user=request.user,
                 question=question,
+                question_text = question.question_text,
                 course=course,
                 response=response,
                 submission_id=uuid.uuid4()

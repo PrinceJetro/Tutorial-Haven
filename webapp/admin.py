@@ -66,9 +66,8 @@ class UserCourseProgressAdmin(admin.ModelAdmin):
 
 @admin.register(PastQuestionsObj)
 class PastQuestionsObjAdmin(admin.ModelAdmin):
-    list_display = ('course', 'question_text', 'year', 'uploaded_at')
-    list_filter = ('course', 'year')
-    search_fields = ('question_text', 'course__name', 'year')
+    list_display = ('course', 'question_text', 'uploaded_at')
+    search_fields = ('question_text', 'course__name')
     ordering = ('-uploaded_at',)
 
 @admin.register(PastQuestionsTheory)
