@@ -45,6 +45,8 @@ class TheorySubmissionForm(forms.Form):
         widget=forms.Textarea(attrs={"class": "form-control w-100", "rows": 6}),
         label="Your Answer",
         help_text="Provide a detailed answer to the question",
+        required=True,  # Ensure the field is required
+
     )
 
 class GradeForm(forms.ModelForm):

@@ -28,6 +28,14 @@
 <div class="container mt-5">
     <!-- Card for Theory Question -->
     <div class="card shadow-sm">
+        {% if messages %}
+    <ul>
+        {% for message in messages %}
+            <li style="color: red;" >{{ message }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+
         <div class="card-header bg-primary text-white">
             <h4>{{ theory_questions.course}} {{ theory_questions.body}} {{ theory_questions.year}}</h4>
         </div>

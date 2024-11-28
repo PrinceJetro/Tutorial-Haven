@@ -521,9 +521,39 @@ def theoryquestion(request, course_id, year):
                 response=response,
                 submission_id=uuid.uuid4()
             )
+             # Fetch the tutor for the course
+            tutor = Tutor.objects.filter(speciality=course).first()
+            if tutor and tutor.user.email:
+                sender_email = 'princejetro123@gmail.com'
+                sender_password = "iatu bier ypec yeqq"
+                recipient_email = tutor.user.email
+                subject = "New Theory Practice Submission"
+                body = f"""
+Dear {tutor.user.username},
 
-            messages.success(request, "Successfully Submitted! Your Tutor will grade and get back to you soon.")
-            return HttpResponseRedirect('/myprofile/')  # Redirect to a 'Thank you' page after submission
+A new theory practice response has been submitted by {request.user.get_full_name()} for the course '{course.name}'.
+
+Please log in to your dashboard to review and grade the submission.
+
+Best regards,
+Tutorial Haven Tech Team
+"""
+
+                try:
+                    context = ssl.create_default_context()
+                    with smtplib.SMTP_SSL('smtp.gmail.com', 465, context=context) as smtp:
+                        smtp.login(sender_email, sender_password)
+                        smtp.sendmail(sender_email, recipient_email, f"Subject: {subject}\n\n{body}")
+                        print(f"Notification email sent to {tutor.user.email}.")
+                except Exception as e:
+                    print(f"Failed to send email to {tutor.user.email}: {e}")
+
+
+
+            messages.success(request, F"{questions} Successfully Submitted! Your Tutor will grade and get back to you soon.")
+            return HttpResponseRedirect('/all_theories') 
+        else:
+            messages.error(request, f"Answers Cannot Be Blank, you must submit an answer" )
     else:
         form = TheorySubmissionForm()
 

@@ -31,14 +31,11 @@
     
 
         <div class="row g-0">
-            <div class="col">
-                <img src={{course.image.url}} class="img-fluid rounded-start" style="height: 75%; " />
-            </div>
-            <div class="col">
+            <div class="">
                 <div class="card-body">
                     <h5 class="card-title"><a href="{% url 'course_detail' course.id %}">{{ course.name|title }}</a></h5>
                     <p class="card-text">
-                        This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                        {{ course.desc|title }}
                     </p>
                     <p class="card-text">
                     </p>

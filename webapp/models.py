@@ -13,6 +13,7 @@ class Department(models.Model):
 
 class Course(models.Model):
     name = models.CharField(max_length=255)
+    desc = models.CharField(max_length=255, null=True)
     departments = models.ManyToManyField(Department, related_name='courses')  # ManyToManyField
 
 
