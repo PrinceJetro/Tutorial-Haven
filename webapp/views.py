@@ -667,4 +667,3 @@ def key_points(request, pastpq_id):
     keypoint = KeyPoints.objects.filter(past_question=pastpq).first()  # Use .first() to fetch the single object
 
     return render(request, 'cool/keypoints.html', {'keypoint': keypoint})
-

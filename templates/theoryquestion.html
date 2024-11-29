@@ -7,6 +7,12 @@
     <script src="//cdn.ckeditor.com/4.6.2/standard/ckeditor.js"></script>
 
     <style>
+        .cke_inner {
+            width: 100%;
+        }
+        #cke_1_contents{
+            height: 1000px;
+        }
         textarea{
             width: 100%;
             display: block;
@@ -19,10 +25,24 @@
     <script type="text/javascript">
         window.onload = () => {
           CKEDITOR.replace("id_response");
+          adjustHeightAfterDelay();
         };
         function sendText() {
           window.parent.postMessage(CKEDITOR.instances.CK1.getData(), "*");
         }
+        // Function to adjust height of the specified element
+    function adjustHeightAfterDelay() {
+        setTimeout(function () {
+            // Select the element by its ID
+            var element = document.getElementById('cke_1_contents');
+            if (element) {
+                element.style.height = '500px'; // Set the new height
+            } else {
+                console.error("Element with ID 'cke_1_contents' not found.");
+            }
+        }, 7000); // 10000 milliseconds = 10 seconds
+    }
+
       </script>
 </head>
 <div class="container mt-5">
@@ -69,4 +89,3 @@
 </script>
 
 {% endblock %}
-
