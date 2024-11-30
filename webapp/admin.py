@@ -72,7 +72,7 @@ class PastQuestionsObjAdmin(admin.ModelAdmin):
 
 @admin.register(PastQuestionsTheory)
 class PastQuestionsTheoryAdmin(admin.ModelAdmin):
-    list_display = ('course', 'question_text')
+    list_display = ('course', 'year')
     search_fields = ('question_text', 'course__name')
 
 @admin.register(ObjGrade)
