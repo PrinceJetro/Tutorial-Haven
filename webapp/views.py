@@ -279,7 +279,7 @@ Tutorial Haven Team
 
 def loginview(request):
     if request.method == 'POST':
-        username = request.POST.get("username")
+        username = request.POST.get("username").strip().lower()
         password = request.POST.get("password")
         
         user = authenticate(request, username=username, password=password)
@@ -370,7 +370,7 @@ def list_departments(request):
 
 @login_required
 def list_all_courses(request):
-    all_courses = Course.objects.all()
+    all_courses = Course.objects.order_by('name').all()
     return render(request, 'list_courses.html', {'courses': all_courses})
 
 
@@ -404,14 +404,15 @@ def topic_detail(request, topic_id):
 @login_required
 def myprofile(request):
     user = request.user.username
-    courses = Course.objects.all()
+    courses = Course.objects.all().order_by("name")[:5]
 
-    # Safely query for the tutorial center
+    # Safely query for the tutorial center and tutor
     tutorial_center = TutorialCenter.objects.filter(owner=request.user).first()
+    tutor = Tutor.objects.filter(user=request.user).first()
 
-    if tutorial_center:  # Check if the tutorial center exists
-        approved_tutors = Tutor.objects.filter(tutorial_center=tutorial_center, is_approved=True)
-        approved_students = Student.objects.filter(tutorial_center=tutorial_center, is_approved=True)
+    if tutorial_center:  # Check if the user owns a tutorial center
+        approved_tutors = Tutor.objects.filter(tutorial_center=tutorial_center, is_approved=True).order_by('-id')[:5]
+        approved_students = Student.objects.filter(tutorial_center=tutorial_center, is_approved=True).order_by('-id')[:5]
 
         return render(request, 'myprofile.html', {
             'user': user,
@@ -419,18 +420,29 @@ def myprofile(request):
             'approved_students': approved_students,
             'approved_tutors': approved_tutors,
         })
-    else:
-        # Render without tutorial center-specific data
+
+    if tutor:  # Check if the user is a tutor
+        # Get the tutorial center associated with the tutor
+        tutorial_center = tutor.tutorial_center
+        approved_students = Student.objects.filter(tutorial_center=tutorial_center, is_approved=True).order_by('-id')[:5]
+
         return render(request, 'myprofile.html', {
             'user': user,
             'courses': courses,
+            'approved_students': approved_students,
         })
+
+    # If neither tutorial center owner nor tutor
+    return render(request, 'myprofile.html', {
+        'user': user,
+        'courses': courses,
+    })
 
 
 @login_required
-def list_tutorial_students(request, tutorial):
+def list_tutorial_students(request, tutorial_id):
     # Get the tutorial center by name or return 404 if not found
-    center = get_object_or_404(TutorialCenter, name=tutorial)
+    center = get_object_or_404(TutorialCenter, id=tutorial_id)
     
     # Check if the user is the owner or an approved tutor associated with the center
     if request.user != center.owner and not Tutor.objects.filter(user=request.user, tutorial_center=center, is_approved=True).exists():
@@ -448,6 +460,10 @@ def cbtquestion(request, course_id):
     questions = PastQuestionsObj.objects.filter(course=course)
 
     if request.method == 'POST':
+        if hasattr(request.user, 'tutorial_center') or hasattr(request.user, 'tutor'):
+            print("here")
+            messages.success(request, "Practice session has been successfully received. However, submissions are restricted for staff accounts.")
+            return HttpResponseRedirect('/allcourses/')
         score = 0
         total_questions = questions.count()
         submission_id = uuid.uuid4()  # Generate a unique submission ID for this attempt
@@ -514,6 +530,7 @@ def theoryquestion(request, course_id, year):
     print(questions)
     
     if request.method == 'POST':
+        
         form = TheorySubmissionForm(request.POST)
         if form.is_valid():
             response = form.cleaned_data['response']
@@ -522,6 +539,9 @@ def theoryquestion(request, course_id, year):
             print(f"here is the  question id {question_id}")
 
             question = get_object_or_404(PastQuestionsTheory, id=question_id)
+            if hasattr(request.user, 'tutorial_center') or hasattr(request.user, 'tutor'):
+                messages.success(request,f"{questions} have been successfully received. However, submissions are restricted for staff accounts.")
+                return HttpResponseRedirect('/all_theories') 
 
             submission = TheoryGrade.objects.create(
                 user=request.user,
@@ -656,6 +676,43 @@ def myreport(request):
         "graded_data_theory": graded_data_theory,
     }
     return render(request, 'report.html', context)
+
+
+@login_required
+def studentsreport(request, student_id):
+    student = get_object_or_404(Student, id=student_id)
+    objgrades = UserCourseProgress.objects.filter(user=student.user).order_by('-percentage')
+    theorygrades = TheoryGrade.objects.filter(user=student.user).order_by('-score')
+
+    print(theorygrades)
+    graded_data = []
+    graded_data_theory = []
+
+    for grade in objgrades:
+        credits = calculate_credits(grade.percentage)
+        graded_data.append({
+            "course": grade.course.name,
+            "percentage": grade.percentage,
+            "credits": credits,
+        })
+    for grade in theorygrades:
+        print(grade)
+        credits = calculate_credits(grade.score)
+        graded_data_theory.append({
+            "course": grade.course.name,
+            "percentage": grade.score,
+            "credits": credits,
+            "note": grade.note,
+            "submitted_at": grade.submitted_at,
+            "year": grade.question.year
+        })
+
+    context = {
+        "graded_data": graded_data,
+        "graded_data_theory": graded_data_theory,
+        "student":student
+    }
+    return render(request, 'studentsreport.html', context)
 
 
 

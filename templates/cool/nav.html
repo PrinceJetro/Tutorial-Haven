@@ -68,6 +68,14 @@
                             <a href="{% url 'myreport' %}" class="dropdown-item">Your Report</a>
                         </div>
                     </div>
+                {% elif request.user.tutorial_center or request.user.tutor %}
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
+                        <div class="dropdown-menu fade-down m-0">
+                            <a href="{% url 'allcourses' %}" class="dropdown-item">All Courses</a>
+                            <a href="{% url 'listTheory' %}" class="dropdown-item">Theory Practices</a>
+                        </div>
+                    </div>
                 {% else %}
                     <span class="nav-item nav-link text-danger">You are not approved yet.</span>
                 {% endif %}

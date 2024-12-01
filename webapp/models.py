@@ -35,7 +35,6 @@ class Tutor(models.Model):
     image = models.ImageField(upload_to="uploaded_image", null=True,default='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKKOdmJz8Z2pDtYgFgR2u9spABvNNPKYYtGw&s')
     tutorial_center = models.ForeignKey(TutorialCenter, on_delete=models.CASCADE, related_name='tutors')
     is_approved = models.BooleanField(default=False)  # Approval field
-    phone = models.CharField(max_length=200, null=True)
     speciality = models.ForeignKey(Course, on_delete=models.CASCADE, related_name='speciality', null=True)
 
     def __str__(self):

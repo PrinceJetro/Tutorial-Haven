@@ -55,6 +55,8 @@
                     {% if userprogress %}
                     <p>Your progress: {{ userprogress.percentage }}%</p>
                     <p>Attempts: {{ userprogress.attempts }}</p>
+                    {% elif request.user.tutorial_center or request.user.tutor %}
+                    <h1></h1>
                     {% else %}
                     <h2>You have not practiced this yet</h2>
 

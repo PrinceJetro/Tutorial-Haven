@@ -21,6 +21,14 @@
     </div>
 </div>
 <!-- Header End -->
+{% if messages %}
+<ul>
+    {% for message in messages %}
+        <li style="color: red;" >{{ message }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+
 
 <div class="d-flex">
   <div class="overflow-auto" style="height: 400px; width:100%;">
