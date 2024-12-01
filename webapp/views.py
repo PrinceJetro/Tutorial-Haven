@@ -594,6 +594,23 @@ Tutorial Haven Tech Team
     }
     return render(request, 'theoryquestion.html', context)
 
+@login_required
+def list_pending_theory(request, tutor_id):
+    # Get the logged-in tutor's speciality
+    tutor = get_object_or_404(Tutor, user=request.user)
+    speciality_course = tutor.speciality
+    print(speciality_course)
+
+    # Fetch all pending grades for the given course
+    pending_grades = TheoryGrade.objects.filter(course_id=speciality_course.id, score=0)
+    print(pending_grades)
+
+    # Pass the data to the template
+    context = {
+        'pending_grades': pending_grades,
+        'course': speciality_course
+    }
+    return render(request, 'pending_grades.html', context)
 
 @login_required
 def grade_theory(request, grade_id):
@@ -601,9 +618,10 @@ def grade_theory(request, grade_id):
     theory_grade = get_object_or_404(TheoryGrade, id=grade_id)
     
     # Ensure the user has the right to grade (e.g., is a tutor)
-    if not request.user.tutor.is_approved or not request.user.tutorial_center :  # Replace with your own tutor-check logic
+    if not request.user.is_authenticated or not hasattr(request.user, 'tutor') or not request.user.tutor:
         messages.error(request, "You do not have permission to grade this question.")
         return redirect('myprofile')  # Redirect to a suitable page
+
     
     # Handle form submission
     if request.method == 'POST':
@@ -658,6 +676,7 @@ def myreport(request):
             "course": grade.course.name,
             "percentage": grade.percentage,
             "credits": credits,
+            "attempts": grade.attempts
         })
     for grade in theorygrades:
         print(grade)
@@ -694,6 +713,7 @@ def studentsreport(request, student_id):
             "course": grade.course.name,
             "percentage": grade.percentage,
             "credits": credits,
+            "attempts": grade.attempts
         })
     for grade in theorygrades:
         print(grade)

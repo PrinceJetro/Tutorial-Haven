@@ -52,13 +52,15 @@ class TheorySubmissionForm(forms.Form):
 class GradeForm(forms.ModelForm):
     class Meta:
         model = TheoryGrade
-        fields = ['score']
+        fields = ['score', 'note']  # Include both score and note
         widgets = {
             'score': forms.NumberInput(attrs={'min': 0, 'max': 100, 'step': 0.01}),
         }
         labels = {
             'score': 'Assign Score',
+            'note': 'Add Note',
         }
         help_texts = {
             'score': 'Enter a score between 0 and 100.',
+            'note': 'Provide a note for the student (optional).',
         }

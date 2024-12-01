@@ -98,6 +98,7 @@
                             <th>Subject</th>
                             <th>Credits Earned</th>
                             <th>Total Grade</th>
+                            <th>Attempts</th>
                             <th>Comments</th>
                         </tr>
                     </thead>
@@ -112,6 +113,9 @@
                                 {% else %}
                                     {{ grade.percentage }}%
                                 {% endif %}
+                            </td>
+                            <td>
+                                {{ grade.attempts }}
                             </td>
                             <td>
                                 {% if grade.credits == "A+" %}
