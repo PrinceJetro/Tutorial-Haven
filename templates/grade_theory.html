@@ -1,20 +1,46 @@
-<!-- templates/grade_theory.html -->
 {% extends "base.html" %}
 
 {% block content %}
-<h2>Grade Theory Question</h2>
+<div class="container mt-4">
+    <h2 class="text-center mb-4">Grade Theory Question</h2>
 
-<p><strong>Question:</strong> {{ theory_grade.question.question_text|safe }}</p>
-<p><strong>Student:</strong> {{ theory_grade.user.username }}</p>
-<p><strong>Response:</strong></p>
-<div style="border: 1px solid #ccc; padding: 10px; margin-bottom: 20px;">
-    {{ theory_grade.response|safe }}
+    <!-- Student's Response -->
+    <p><strong>Student:</strong> {{ theory_grade.user.get_full_name|title }}</p>
+    <p><strong>Response:</strong></p>
+    <div class="border p-3 rounded bg-light mb-4">
+        {{ theory_grade.response|safe }}
+    </div>
+
+    <!-- Button to trigger the modal -->
+    <button type="button" class="btn btn-info mb-4" data-bs-toggle="modal" data-bs-target="#questionModal">
+        View Question
+    </button>
+
+    <!-- Grading Form -->
+    <form method="post" class="bg-white p-4 shadow-sm rounded">
+        {% csrf_token %}
+        <h4 class="mb-3">Grade Response</h4>
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-primary">Update Score</button>
+    </form>
 </div>
 
-<form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit" class="btn btn-primary">Update Score</button>
-</form>
-
+<!-- Modal for Question -->
+<div class="modal fade" id="questionModal" tabindex="-1" aria-labelledby="questionModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="questionModalLabel">Question Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Question:</strong></p>
+                <p>{{ theory_grade.question.question_text|safe }}</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}

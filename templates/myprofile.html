@@ -235,7 +235,7 @@
                 <div class="col-md-6">
                     <div class="card mb-4 mb-md-0">
                         <div class="card-body">
-                            <p class="mb-4"><span class="text-primary font-italic me-1">List</span> Of Students</p>
+                            <p class="mb-4"><span class="text-primary font-italic me-1">List</span> Of Some Students</p>
                             {% for student in approved_students %}
                                 <p class="mb-1" style="font-size: 1rem;">
                                   <img src={{student.image}} alt="" style="border-radius: 50%; width:50px;height:50px">
@@ -254,7 +254,7 @@
             <div class="col-md-6">
                 <div class="card mb-4 mb-md-0">
                     <div class="card-body">
-                        <p class="mb-4"><span class="text-primary font-italic me-1">List</span> Of All Courses</p>
+                        <p class="mb-4"><span class="text-primary font-italic me-1">List</span> Of Some Courses</p>
                         {% for course in courses %}
                             <p class="mb-1" style="font-size: 1rem;">
                                 <a href="{% url 'course_detail' course.id %}">{{ course.name|title }}</a>
