@@ -11,15 +11,15 @@ questions = [
   {
     "course_id": "3",
     "question_text": "If log 10 to base 8 = X, evaluate log 5 to base 8 in terms of X.",
-    "option_a": "\(\frac{1}{2}X\)",
-    "option_b": "X-\(\frac{1}{4}\)",
-    "option_c": "X-\(\frac{1}{3}\)",
-    "option_d": "X-\(\frac{1}{2}\)",
+    "option_a": "\\(\\frac{1}{2}X\\)",
+    "option_b": "X-\\(\\frac{1}{4}\\)",
+    "option_c": "X-\\(\\frac{1}{3}\\)",
+    "option_d": "X-\\(\\frac{1}{2}\\)",
     "correct_option": "C"
   },
   {
     "course_id": "3",
-    "question_text": "Find the value of X if \(\frac{\sqrt{2}}{x+\sqrt{2}}=\frac{1}{x-\sqrt{2}}\)",
+    "question_text": "Find the value of X if \\(\\frac{\\sqrt{2}}{x+\\sqrt{2}}=\\frac{1}{x-\\sqrt{2}}\\)",
     "option_a": "3√2+4",
     "option_b": "3√2-4",
     "option_c": "3-2√2",
@@ -28,7 +28,7 @@ questions = [
   },
   {
     "course_id": "3",
-    "question_text": "If \(\frac{(a^2 b^{-3}c)^{\frac{3}{4}}}{a^{-1}b^{4}c^{5}}=a^{p} b^{q} c^{r}\) What is the value of p+2q?",
+    "question_text": "If \\(\\frac{(a^2 b^{-3}c)^{\\frac{3}{4}}}{a^{-1}b^{4}c^{5}}=a^{p} b^{q} c^{r}\\) What is the value of p+2q?",
     "option_a": "(5/2)",
     "option_b": "-(5/4)",
     "option_c": "-(25/4)",
@@ -46,7 +46,7 @@ questions = [
   },
   {
     "course_id": "3",
-    "question_text": "What is the answer when 2434\(_6\) is divided by 42\(_6\)?",
+    "question_text": "What is the answer when 2434\\(_6\\) is divided by 42\\(_6\\)?",
     "option_a": "236",
     "option_b": "356",
     "option_c": "526",
@@ -55,7 +55,7 @@ questions = [
   },
   {
     "course_id": "3",
-    "question_text": "If 2\(_9\) x (Y3)\(_9\) = 3\(_5\) x (Y3)\(_5\), find the value of Y.",
+    "question_text": "If 2\\(_9\\) x (Y3)\\(_9\\) = 3\\(_5\\) x (Y3)\\(_5\\), find the value of Y.",
     "option_a": "4",
     "option_b": "3",
     "option_c": "2",
@@ -64,7 +64,7 @@ questions = [
   },
   {
     "course_id": "3",
-    "question_text": "Simplify \(\sqrt{\frac{(0.0023 \times 750)}{(0.00345 \times 1.25)}}\)",
+    "question_text": "Simplify \\(\\sqrt{\\frac{(0.0023 \\times 750)}{(0.00345 \\times 1.25)}}\\)",
     "option_a": "15",
     "option_b": "20",
     "option_c": "40",
@@ -73,11 +73,11 @@ questions = [
   },
   {
     "course_id": "3",
-    "question_text": "If \(m*n = (\frac{m}{n} - \frac{n}{m})\) for m, n belong to R, evaluate -3*4",
-    "option_a": "\(\frac{-25}{12}\)",
-    "option_b": "\(\frac{-7}{12}\)",
-    "option_c": "\(\frac{7}{12}\)",
-    "option_d": "\(\frac{25}{12}\)",
+    "question_text": "If \\(m*n = (\\frac{m}{n} - \\frac{n}{m})\\) for m, n belong to R, evaluate -3*4",
+    "option_a": "\\(\\frac{-25}{12}\\)",
+    "option_b": "\\(\\frac{-7}{12}\\)",
+    "option_c": "\\(\\frac{7}{12}\\)",
+    "option_d": "\\(\\frac{25}{12}\\)",
     "correct_option": "B"
   },
   {
@@ -100,7 +100,7 @@ questions = [
   },
   {
     "course_id": "3",
-    "question_text": "Factorize completely \(x^{2} + 2xy + y^{2} + 3x + 3y - 18\).",
+    "question_text": "Factorize completely \\(x^{2} + 2xy + y^{2} + 3x + 3y - 18\\).",
     "option_a": "(x+y+6)(x+y-3)",
     "option_b": "(x-y-6)(x-y+3)",
     "option_c": "(x-y+6)(x-y-3)",
@@ -118,7 +118,7 @@ questions = [
   },
   {
     "course_id": "3",
-    "question_text": "Three consecutive positive integers k, l and m are such that l\(^2\) = 3(k+m). Find the value of m.",
+    "question_text": "Three consecutive positive integers k, l and m are such that l\\(^2\\) = 3(k+m). Find the value of m.",
     "option_a": "4",
     "option_b": "5",
     "option_c": "6",
@@ -127,11 +127,11 @@ questions = [
   },
   {
     "course_id": "3",
-    "question_text": "Express \(\frac{1}{x^{3}-1}\) in partial fractions",
-    "option_a": "\(\frac{1}{3}(\frac{1}{x - 1} - \frac{(x + 2)}{x^{2} + x + 1})\)",
-    "option_b": "\(\frac{1}{3}(\frac{1}{x - 1} - \frac{x - 2}{x^{2} + x + 1})\)",
-    "option_c": "\(\frac{1}{3}(\frac{1}{x - 1} - \frac{(x - 2)}{x^{2} + x + 1})\)",
-    "option_d": "\(\frac{1}{3}(\frac{1}{x - 1} - \frac{(x - 1)}{x^{2} - x - 1})\)",
+    "question_text": "Express \\(\\frac{1}{x^{3}-1}\\) in partial fractions",
+    "option_a": "\\(\\frac{1}{3}(\\frac{1}{x - 1} - \\frac{(x + 2)}{x^{2} + x + 1})\\)",
+    "option_b": "\\(\\frac{1}{3}(\\frac{1}{x - 1} - \\frac{x - 2}{x^{2} + x + 1})\\)",
+    "option_c": "\\(\\frac{1}{3}(\\frac{1}{x - 1} - \\frac{(x - 2)}{x^{2} + x + 1})\\)",
+    "option_d": "\\(\\frac{1}{3}(\\frac{1}{x - 1} - \\frac{(x - 1)}{x^{2} - x - 1})\\)",
     "correct_option": "A"
   }
 ]
