@@ -1,3 +1,5 @@
+# answered
+
 [
   {
     "course_id": "3",
@@ -6,7 +8,7 @@
     "option_b": "B. vertical integration",
     "option_c": "C. horizontal integration",
     "option_d": "D. cartel",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -15,7 +17,7 @@
     "option_b": "B. Debenture holders",
     "option_c": "C. Ordinary shareholders",
     "option_d": "D. Cumulative preference shareholders",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -23,8 +25,8 @@
     "option_a": "A. an agreement by the owners",
     "option_b": "B. a declaration by a court of law",
     "option_c": "C. the termination of its life",
-    "option_d": "D. an unfavourable economic climtate",
-    "correct_option": ""
+    "option_d": "D. an unfavourable economic climate",
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -33,7 +35,7 @@
     "option_b": "B. current assets",
     "option_c": "C. fixed assets",
     "option_d": "D. working capital",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -42,16 +44,16 @@
     "option_b": "B. to act as a retaliatory measure against other governments",
     "option_c": "C. to discourage the redistribution of income at home",
     "option_d": "D. to protect home industries from external competition",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
-    "question_text": "<p>Sole enterprise may flourish best in</p>",
+    "question_text": "Sole enterprise may flourish best in",
     "option_a": "A. a mining business",
     "option_b": "B. a retailing business",
     "option_c": "C. an oil exploration business",
     "option_d": "D. a car assembly business",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -60,7 +62,7 @@
     "option_b": "B. retailing",
     "option_c": "C. wholesaling",
     "option_d": "D. mail-order selling",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -69,7 +71,7 @@
     "option_b": "B. buying in bulk and selling in small quantities",
     "option_c": "C. granting of credit facilities to retailers",
     "option_d": "D. providing information to manufacturers on market situation",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -78,7 +80,7 @@
     "option_b": "B. balance of trade",
     "option_c": "C. terms of payment",
     "option_d": "D. terms of trade",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -87,7 +89,7 @@
     "option_b": "B. balance of trade",
     "option_c": "C. comparative cost advantage",
     "option_d": "D. comparative advantage",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -96,7 +98,7 @@
     "option_b": "B. goods are sent on approval",
     "option_c": "C. dealing regularly with a customer",
     "option_d": "D. final prices are uncertain",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -105,7 +107,7 @@
     "option_b": "B. all ships must be insured at every journey",
     "option_c": "C. all ships are insured separately from the crew",
     "option_d": "D. all ships normally arrive at their destination with goods",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -114,7 +116,7 @@
     "option_b": "B. Post and Telephone",
     "option_c": "C. Post and Teleprinter",
     "option_d": "D. Post and Telegraph",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -123,7 +125,7 @@
     "option_b": "B. public warehouse",
     "option_c": "C. private warehouse",
     "option_d": "D. bonded warehouse",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -132,7 +134,7 @@
     "option_b": "B. N80,000",
     "option_c": "C. N100,000",
     "option_d": "D. N200,000",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -141,7 +143,7 @@
     "option_b": "B. value of other currencies relative to the naira have become cheaper",
     "option_c": "C. goods that can be exported from Nigeria have become costlier",
     "option_d": "D. imports that can be bought with the naira have become costlier",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -150,7 +152,7 @@
     "option_b": "B. drawer",
     "option_c": "C. drawee",
     "option_d": "D. payer",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -159,7 +161,7 @@
     "option_b": "B. Nigerian Economic Reconstruction Fund",
     "option_c": "C. Nigerian Industrial Development Bank",
     "option_d": "D. Nigerian Export-Import Bank",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -168,7 +170,7 @@
     "option_b": "B. retail co-operative society",
     "option_c": "C. consumer co-operative society",
     "option_d": "D. wholesaler co-operative society",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -177,7 +179,7 @@
     "option_b": "B. brokerage",
     "option_c": "C. speculations",
     "option_d": "D. transactions",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -186,88 +188,25 @@
     "option_b": "B. a member of the Nigeria stock exchange",
     "option_c": "C. meant for the shares of quoted private companies",
     "option_d": "D. a regulating arm of the Nigerian stock exchange",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
     "question_text": "The element of the marketing mix are",
     "option_a": "A. product promotion, place and price",
-    "option_b": "B. [personal selling, advertising and research",
-    "option_c": "C. promotion, production, place and price",
-    "option_d": "D. procurement, price, product and place",
-    "correct_option": ""
+    "option_b": "B. personal selling, publicity and promotion",
+    "option_c": "C. place, price, product and promotion",
+    "option_d": "D. personal selling, advertising and price",
+    "correct_option": "C"
   },
   {
     "course_id": "3",
-    "question_text": "Which of the following items has the shortest effect on the consumer",
-    "option_a": "A. fashion",
-    "option_b": "B. innovation",
-    "option_c": "C. fad",
-    "option_d": "D. attribute",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following is a form of sales promotion",
-    "option_a": "A. advertising on radio",
-    "option_b": "B. offering free sample",
-    "option_c": "C. distributing printed materials",
-    "option_d": "D. advertising on television",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "One advantage of personal selling over all other elements of promotion is that",
-    "option_a": "A. it can provide instant feedback",
-    "option_b": "B. it is very cheap in terms of cost per contact",
-    "option_c": "C. it does not need to use mass media",
-    "option_d": "D. sales people are wewll trained",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following must be present in an agency by agreement?",
-    "option_a": "A. intentions",
-    "option_b": "B. will",
-    "option_c": "C. consent",
-    "option_d": "D. authority",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "An agreement to sell is distinguishable from sale because in the former, the transfer of goods is",
-    "option_a": "A. not anticipated",
-    "option_b": "B. not discussed",
-    "option_c": "C. deferred",
-    "option_d": "D. immediate",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Mr Amusa says to Mr Bello 'i will sell you this hat for N30'. And Mr Bello replied 'i will pay N29'. The contract is",
-    "option_a": "A. an offer and acceptance",
-    "option_b": "B. an implied contract",
-    "option_c": "C. a complete simple contract",
-    "option_d": "D. an offer but no acceptance",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Nationalization of an industry means that its ownership becomes that of",
-    "option_a": "A. government",
-    "option_b": "B. shareholders",
-    "option_c": "C. taxpayers",
-    "option_d": "D. indigenes",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The comprehensive import supervision scheme was set up by the federal government in order to",
-    "option_a": "A. reverse Nigeria's unfavourable balance of trade",
-    "option_b": "B. promote fair trade between Nigeria and other countries",
-    "option_c": "C. counteract all fraudulent business deals of Nigeria with other nationals",
-    "option_d": "D. ensue that import into Nigeria are of the correct quality, value and quantity",
-    "correct_option": ""
+    "question_text": "The branch of economics concerned with the behaviour of individual consumers, firms and markets is",
+    "option_a": "A. macroeconomics",
+    "option_b": "B. market economics",
+    "option_c": "C. microeconomics",
+    "option_d": "D. political economy",
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -276,7 +215,7 @@
     "option_b": "B. Federal High courts in Nigeria",
     "option_c": "C. Food and Drug Department of the Federal Ministry of health",
     "option_d": "D. Local government health inspector",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -284,35 +223,35 @@
     "option_a": "A. individual employees have weak bargaining base",
     "option_b": "B. individual employees attain strength when they come together in union",
     "option_c": "C. only members of the union can benefit from agreements negotiated by the union",
-    "option_d": "D. collective bargainig covers the vast majority of employees, whether union members or not",
-    "correct_option": ""
+    "option_d": "D. collective bargaining covers the vast majority of employees, whether union members or not",
+    "correct_option": "A"
   },
   {
     "course_id": "3",
     "question_text": "NACCIMA stands for",
-    "option_a": "A. Nigerian-American Center for Culture,Civic, Industries, Minerals and Arts",
-    "option_b": "B. Nigerian Association for Culture ,Civic, Industries, Minerals and Arts",
+    "option_a": "A. Nigerian-American Center for Culture, Civic, Industries, Minerals and Arts",
+    "option_b": "B. Nigerian Association for Culture, Civic, Industries, Minerals and Arts",
     "option_c": "C. National Agency for Culture, Civilization, Investment, Manufacturing, and Agriculture",
-    "option_d": "D. Nigerian association of Chambers of commerce, Industries, Mines and Agriculture",
-    "correct_option": ""
+    "option_d": "D. Nigerian Association of Chambers of Commerce, Industries, Mines and Agriculture",
+    "correct_option": "D"
   },
   {
     "course_id": "3",
     "question_text": "For establishment of a powerful consumers' association in Nigeria to exist, there must be",
     "option_a": "A. financial and moral support from the public",
-    "option_b": "B. honest and commited leadership",
+    "option_b": "B. honest and committed leadership",
     "option_c": "C. allocation of goods from the producer",
     "option_d": "D. freedom from external influence",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
-    "question_text": "which of the following is the most important business resource?",
+    "question_text": "Which of the following is the most important business resource?",
     "option_a": "A. money",
     "option_b": "B. management",
     "option_c": "C. materials",
     "option_d": "D. manpower",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -321,16 +260,16 @@
     "option_b": "B. motivation",
     "option_c": "C. planning",
     "option_d": "D. leadership",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
     "question_text": "The principle of span of control stipulates that",
     "option_a": "A. an employee should report to only one superior",
-    "option_b": "B. manager must demand accountability from their surbordinates",
+    "option_b": "B. manager must demand accountability from their subordinates",
     "option_c": "C. resources have to be economized within the various division",
     "option_d": "D. the number of employee reporting to one superior should be kept to workable maximum",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -339,7 +278,7 @@
     "option_b": "B. marketing",
     "option_c": "C. finance",
     "option_d": "D. personnel",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -348,43 +287,43 @@
     "option_b": "B. scientific development",
     "option_c": "C. economic development",
     "option_d": "D. technological development",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
     "question_text": "When an oil exploring and mining company builds a health center in one of the communities where it operates, such a company is",
     "option_a": "A. currying favour from local people",
-    "option_b": "B. finding a way to spend resonsibility",
-    "option_c": "C. fulfilling part of its social responsibilty",
+    "option_b": "B. finding a way to spend responsibility",
+    "option_c": "C. fulfilling part of its social responsibility",
     "option_d": "D. invest its idle funds",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
     "question_text": "The West African clearing House became legally operational on",
-    "option_a": "A. 1st july, 1976",
-    "option_b": "B. 25th june, 1975",
-    "option_c": "C. 14th march, 1975",
-    "option_d": "D. 3rd may, 1974",
-    "correct_option": ""
+    "option_a": "A. 1st July, 1976",
+    "option_b": "B. 25th June, 1975",
+    "option_c": "C. 14th March, 1975",
+    "option_d": "D. 3rd May, 1974",
+    "correct_option": "A"
   },
   {
     "course_id": "3",
-    "question_text": "The lake Chad Basin commission was founded to enable member states",
+    "question_text": "The Lake Chad Basin Commission was founded to enable member states",
     "option_a": "A. expand the volume of water in the lake for fishing activities",
     "option_b": "B. increase navigational activities on the lake",
     "option_c": "C. dam the lake for electricity and agricultural purposes",
     "option_d": "D. co-ordinate their efforts in managing the use of the lake's resources",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
-    "question_text": "What are the factors with which commercial undertaking can be distinguish?<br>\nI    Size of the undertaking <br>\nII   Profits generated <br>\nIII  Forms of ownership<br>\nIV   Location of the undertaking",
+    "question_text": "What are the factors with which commercial undertaking can be distinguished? I. Size of the undertaking II. Profits generated III. Forms of ownership IV. Location of the undertaking",
     "option_a": "A. I and II only",
-    "option_b": "B. I andIII only",
+    "option_b": "B. I and III only",
     "option_c": "C. II and III only",
     "option_d": "D. III and IV only",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -393,16 +332,16 @@
     "option_b": "B. issued by a shipping company giving details of charges",
     "option_c": "C. used for payment for imported goods",
     "option_d": "D. given by an importer to pay for goods at a future period",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
     "question_text": "Spot market goods are those which are available for",
-    "option_a": "A. immidiate delivery",
+    "option_a": "A. immediate delivery",
     "option_b": "B. short-term delivery",
     "option_c": "C. long-term delivery",
     "option_d": "D. end of the delivery",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -411,7 +350,7 @@
     "option_b": "B. cheap and direct",
     "option_c": "C. common and fast",
     "option_d": "D. safe and available",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -420,7 +359,7 @@
     "option_b": "B. contribution",
     "option_c": "C. re-insurance",
     "option_d": "D. indemnity",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -429,116 +368,55 @@
     "option_b": "B. Policy Free of Particular Average",
     "option_c": "C. Marine Freight Insurance",
     "option_d": "D. Marine Voyage Policy Insurance",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
     "question_text": "Berne union is also known as",
     "option_a": "A. International Credit Union",
-    "option_b": "B. International Documentry Credit",
+    "option_b": "B. International Documentary Credit",
     "option_c": "C. International Union of Credit and Investment Insurers",
     "option_d": "D. export Credit Guarantee Scheme",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
-    "question_text": "which of the following sets of items was used for exchange in Nigeria before money was introduced?",
+    "question_text": "Which of the following sets of items was used for exchange in Nigeria before money was introduced?",
     "option_a": "A. cowries, iron rods, brass rods and copper rods",
     "option_b": "B. iron rods, copper rods, manilla and cowries",
-    "option_c": "C. cowries, manilla, brass rod andcopper wires",
-    "option_d": "D. copper wires, brass wires, cowries and iron rod",
-    "correct_option": ""
+    "option_c": "C. cowries, manilla, brass rods and copper wires",
+    "option_d": "D. copper wires, brass wires, cowries and iron rods",
+    "correct_option": "A"
   },
   {
     "course_id": "3",
     "question_text": "A major liability of a commercial bank arises from",
     "option_a": "A. customers' deposits",
-    "option_b": "B. loans and advances",
-    "option_c": "C. overdrafts",
-    "option_d": "D. staff allowance",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "A bank statement is a document",
-    "option_a": "A. ordering a bank to pay on demand a stated sum of money",
-    "option_b": "B. containing records of receipts, payments and balance on an account",
-    "option_c": "C. used for paying into bank account",
-    "option_d": "D. used for regular withdrawal of money from a savings account",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following is NOT a function of the stock exchange market?",
-    "option_a": "A. providing long term loans to large scale enterprises",
-    "option_b": "B. encouraging people to buy shares and thereby providing capital for investment",
-    "option_c": "C. providing means of assessing the value of a firm's assets",
-    "option_d": "D. enabling firms to wind-up quickly in times of difficulties",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The marketing approach by which a firm carries out detailed analysis of itself, the consumers and its competitors is known as?",
-    "option_a": "A. market analysis",
-    "option_b": "B. marketing mix analysis",
-    "option_c": "C. marketing opportunities analysis",
-    "option_d": "D. market survey",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The breaking down of a market into separate and identifiable elements each with its own special product requirement is known as market",
-    "option_a": "A. differentiation",
-    "option_b": "B. segmentation",
-    "option_c": "C. penetration",
-    "option_d": "D. identification",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Taking a new product to a particular part of a country to test the reaction of consumers to the product referred to as",
-    "option_a": "A. sales promotion",
-    "option_b": "B. sampling",
-    "option_c": "C. merchandizing",
-    "option_d": "D. advertising",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "A manufacturer can make his product distinguishable from those of other competitors by",
-    "option_a": "A. providing catalogues for his wholesalers",
-    "option_b": "B. aggressive sale ppromotion",
-    "option_c": "C. branding and packaging the product",
-    "option_d": "D. selling the product at a much lower price",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following are forms of sales promotion?",
-    "option_a": "A. advertising, personal selling and publicity",
-    "option_b": "B. advertising, market skimming and publicity",
-    "option_c": "C. personal selling, packaging and publicity",
-    "option_d": "D. advertising, packaging and publicity",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "A disadvantage of personal selling is that it",
-    "option_a": "A. increase a company's operating cost",
-    "option_b": "B. decreases acompany's operating cost",
-    "option_c": "C. increase a company's number of customers",
-    "option_d": "D. reduces a company's area of patronage",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "chinyere agree to make a dress for Halima with September  20, 1995 as the delivery date. If the dress was not ready on that date, Halima could",
-    "option_a": "A. sue Chinyere for damages",
-    "option_b": "B. sue Chinyere for specific performance",
-    "option_c": "C. seize another gown from Chinyere's shop",
-    "option_d": "D. regard the contract between them as terminated",
-    "correct_option": ""
-  },
+    "option_b": "B. loans granted to customers",
+    "option_c": "C. cash reserves",
+    "option_d": "D. the financial statements",
+    "correct_option": "A"
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# unnswered
+[
   {
     "course_id": "3",
     "question_text": "Consumer sovereignty means that they consumer is",

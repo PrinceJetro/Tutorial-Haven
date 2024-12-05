@@ -1,12 +1,13 @@
+# answered
 [
- {
+  {
     "course_id": "3",
     "question_text": "<p>Which of the following statements is NOT correct?</p>",
     "option_a": "A. The average kinetic energy of a gas is directly proportional to its temperature",
-    "option_b": "B. At constant tempearture, the volume of a gas increases as the pressure increases",
+    "option_b": "B. At constant temperature, the volume of a gas increases as the pressure increases",
     "option_c": "C. The pressure of a gas is inversely proportional to the density",
     "option_d": "D. The temperature of a gas is directly proportional to its volume",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -15,7 +16,7 @@
     "option_b": "B. Acidic Oxide",
     "option_c": "C. Amphoteric Oxide",
     "option_d": "D. Neutral Oxide",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -24,7 +25,7 @@
     "option_b": "B. both processes are endothermic",
     "option_c": "C. the dissolution of metallic sodium is endothermic",
     "option_d": "D. the dissolution of metallic sodium is exothermic",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -33,7 +34,7 @@
     "option_b": "B. Isotopic Weights",
     "option_c": "C. Molecular Weights",
     "option_d": "D. Atomic Numbers",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -42,7 +43,7 @@
     "option_b": "B. 10cm3",
     "option_c": "C. 20cm3",
     "option_d": "D. 25cm3",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -51,7 +52,7 @@
     "option_b": "B. sublimation",
     "option_c": "C. precipitation",
     "option_d": "D. evaporation",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -60,7 +61,7 @@
     "option_b": "B. Q will form a covalent bond with S",
     "option_c": "C. R will form an electrovalent bond with S",
     "option_d": "D. Q will form an electrovalent bond with S",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -69,7 +70,7 @@
     "option_b": "B. law of chemical proportions",
     "option_c": "C. law of simple proportions",
     "option_d": "D. law of conservation of mass",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -78,7 +79,7 @@
     "option_b": "B. +2",
     "option_c": "C. +3",
     "option_d": "D. +5",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -87,7 +88,7 @@
     "option_b": "B. the rare gases",
     "option_c": "C. nitrogen and oxygen",
     "option_d": "D. nitrogen and the rare gases",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -96,7 +97,7 @@
     "option_b": "B. exothermic",
     "option_c": "C. isothermal",
     "option_d": "D. endothermic",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -105,7 +106,7 @@
     "option_b": "B. polymerization",
     "option_c": "C. cracking",
     "option_d": "D. degradation",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -114,7 +115,7 @@
     "option_b": "B. the pH of Y is made more acidic by addition of distilled water",
     "option_c": "C. Z is the most acidic solution",
     "option_d": "D. W is the most acidic solution",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -123,7 +124,7 @@
     "option_b": "B. the nitrate of magnesium gives the nitrite and oxygen",
     "option_c": "C. the nitrates of magnesium and iron give the oxides",
     "option_d": "D. the nitrate of iron gives the nitrite and oxygen",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -132,7 +133,7 @@
     "option_b": "B. Magnesium",
     "option_c": "C. Iron",
     "option_d": "D. Calcium",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -141,7 +142,7 @@
     "option_b": "B. adding excess calcium hydroxide",
     "option_c": "C. adding a calculated amount of calcium hydroxide",
     "option_d": "D. adding sodium carbonate",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -150,7 +151,7 @@
     "option_b": "B. the litmus turns blue and oxygen is evolved",
     "option_c": "C. the litmus turns blue and hydrogen is evolved",
     "option_d": "D. the litmus turns red and oxygen is evolved",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -159,115 +160,16 @@
     "option_b": "B. dehydration",
     "option_c": "C. esterification",
     "option_d": "D. hydrolysis",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
     "question_text": "<p>The IUPAC names of the compounds CH3COOH and CH2=CH2 are respectively;</p>",
     "option_a": "A. acetic acid and ethene",
     "option_b": "B. methanoic acid and ethene",
-    "option_c": "C. methanoic acid and ethylene",
-    "option_d": "D. ethanol and ethene",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "If 30cm<sup>3</sup> of oxygen diffuses through a porous pot in 7 seconds, how long will it take 60cm<sup>3</sup> of chlorine to diffuse through the same pot, if the vapour densities of oxygen and chlorine are 16 and 36 respectively?",
-    "option_a": "A. 9.3 sec",
-    "option_b": "B. 14 sec",
-    "option_c": "C. 21 sec",
-    "option_d": "D. 28 sec",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Brass and bronze are both metallic alloys. Which of the following constituents is common to both alloys?",
-    "option_a": "A. Tin",
-    "option_b": "B. Zinc",
-    "option_c": "C. Copper",
-    "option_d": "D. Lead",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following gases may not be dried with concentrated sulphuric acid?",
-    "option_a": "A. HCl",
-    "option_b": "B. N2",
-    "option_c": "C. Cl2",
-    "option_d": "D. SO2",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Which of the following reactions does not take place in the smelting of iron in a blast furnace?</p>",
-    "option_a": "A. \\(CaCO_{3(s)} → CaO_{(s)} + (CO_{2(g)}\\)",
-    "option_b": "B. \\(C_{(s)} + O_{2(g)} → CO_{2(g)}\\)",
-    "option_c": "C. 3\\(Fe{(s)} + 2O_{2(g)} → FeO_{4(s)}\\)",
-    "option_d": "D. \\(SiO_{2(s)} + CaO_{(s)} → CaSiO_{3(s)}\\)",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Which of the following is not a member of the homologous series of the paraffins (alkanes)?</p>",
-    "option_a": "A. C3H8",
-    "option_b": "B. C5H12",
-    "option_c": "C. C7H16",
-    "option_d": "D. C15H32",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>When ammonia and hydrogen ion bond together to form ammonium ion, the bond formed is called</p>",
-    "option_a": "A. ionic bond",
-    "option_b": "B. electrovalent bond",
-    "option_c": "C. covalent bond",
-    "option_d": "D. co-ordinate bond",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "An example of an alcohol is",
-    "option_a": "A. CCl4",
-    "option_b": "B. CH3COOH",
-    "option_c": "C. CHCl3",
-    "option_d": "D. C2H6",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The nucleus of an atom contains",
-    "option_a": "A. protons only",
-    "option_b": "B. neurons only",
-    "option_c": "C. protons and electrons",
-    "option_d": "D. neutrons and electrons",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Hypochlorous acid is used as a bleach because",
-    "option_a": "A. it is a strong acid",
-    "option_b": "B. it yields chlorine readily in pure water",
-    "option_c": "C. it is an oxidising agent",
-    "option_d": "D. it is a weak acid",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>The normal boiling point of a liquid is defined as?</p>",
-    "option_a": "A. the temperature at which its vapour pressure equals the atmospheric pressure",
-    "option_b": "B. the temperature at which bubbles begin to form",
-    "option_c": "C. the temperature at which the vapour pressure equals 1 temperature",
-    "option_d": "D. the temperature at which the rate of condensation of vapour equals the rate of vaporisation of the liquid",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Which of the following compounds will form a solution if exposed to air?</p>",
-    "option_a": "A. Na2CO3.10H2O",
-    "option_b": "B. NaNO3",
-    "option_c": "C. CuSO4",
-    "option_d": "D. CaCl2",
-    "correct_option": ""
+    "option_c": "C. acetic acid and ethene",
+    "option_d": "D. acetic acid and ethane",
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -276,7 +178,7 @@
     "option_b": "B. addition",
     "option_c": "C. condensation",
     "option_d": "D. polymerisation",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -285,7 +187,7 @@
     "option_b": "B. concentration of SO3 decreases",
     "option_c": "C. concentration of SO3 increases",
     "option_d": "D. SO2 gas becomes unreactive",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -294,7 +196,7 @@
     "option_b": "B. the sulphate radical and the zinc ion are divalent",
     "option_c": "C. zinc is more electropositive than copper",
     "option_d": "D. both zinc and copper form depositive ions in solution",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -303,7 +205,7 @@
     "option_b": "B. dilute hydrochloric acide",
     "option_c": "C. lead nitrate solution",
     "option_d": "D. calcium chloride solution",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -312,7 +214,7 @@
     "option_b": "B. passing each gas through dilute potassium permanganate solution",
     "option_c": "C. passing each gas through silver nitrate solution",
     "option_d": "D. treating each gas catalytically with excess hydrogen gas",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -321,7 +223,7 @@
     "option_b": "B. Cl2",
     "option_c": "C. Fe3+",
     "option_d": "D. Cl-",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -330,7 +232,7 @@
     "option_b": "B. dilute hydrochloric acid",
     "option_c": "C. unreacted hydrogen sulphide in water",
     "option_d": "D. iron (III) chloride",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -339,7 +241,7 @@
     "option_b": "B. Adding sodium metal to water",
     "option_c": "C. Cooling a solution of Iron (II) sulphate to obtain the hydrated salt",
     "option_d": "D. Cooling water to obtain ice",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -348,7 +250,7 @@
     "option_b": "B. sand",
     "option_c": "C. lead nitrate",
     "option_d": "D. sugar (glucose)",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -357,7 +259,7 @@
     "option_b": "B. in the conical flask",
     "option_c": "C. in a burette",
     "option_d": "D. in the standard flask",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -366,7 +268,7 @@
     "option_b": "B. the air in the gas jar had been used up by burning",
     "option_c": "C. oxygen in the gas jar had been used up by burning",
     "option_d": "D. nitrogen in the gas jar had been used up by burning",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -375,7 +277,7 @@
     "option_b": "B. pass each gas into water and test with litmus paper",
     "option_c": "C. pass each gas into concentrated sulphuric acid",
     "option_d": "D. expose each gas to atmospheric air",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -384,7 +286,7 @@
     "option_b": "B. Phenolphthalein",
     "option_c": "C. Methyl orange",
     "option_d": "D. Universal indicator",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -393,7 +295,7 @@
     "option_b": "B. 5.56g",
     "option_c": "C. 8.34g",
     "option_d": "D. 11.12g",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -402,7 +304,7 @@
     "option_b": "B. 22.00",
     "option_c": "C. 33.00",
     "option_d": "D. 44.00",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -411,134 +313,40 @@
     "option_b": "B. Oxygen",
     "option_c": "C. Methane",
     "option_d": "D. Ammonia",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
     "question_text": "Which is the temperature of a given mass of a gas initially at 0°C and 9 atm, if the pressure is reduced to 3 atm at constant volume?",
     "option_a": "A. 91K",
-    "option_b": "B. 182K",
-    "option_c": "C. 273K",
-    "option_d": "D. 819K",
-    "correct_option": ""
+    "option_b": "B. 273K",
+    "option_c": "C. 300K",
+    "option_d": "D. 91°C",
+    "correct_option": "A"
   },
   {
     "course_id": "3",
-    "question_text": "Which of the following will have its mass increased when heated in air?",
-    "option_a": "A. Helium",
-    "option_b": "B. Magnesium",
-    "option_c": "C. Copper pyrites",
-    "option_d": "D. Glass",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Mg(s) + 2HCl(aq) → MgCl2(aq) + H2(g)<br>\nFrom the equation above, the mass of magnesium required to react with 250cm3 of 0.5M HCl is<br>\n[Mg = 24]</p>",
-    "option_a": "A. 0.3g",
-    "option_b": "B. 1.5g",
-    "option_c": "C. 2.4g",
-    "option_d": "D. 3.0g",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>A gaseous metallic chloride MClx consists of 20.22% of M by mass. The formula of the chloride is?<br>\n[M = 27, Cl = 35.5]</p>",
-    "option_a": "A. MCl",
-    "option_b": "B. MCl2",
-    "option_c": "C. MCl3",
-    "option_d": "D. M2Cl6",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>In which of the following are water molecules in the most disorderly arrangement?</p>",
-    "option_a": "A. Ice at -10°C",
-    "option_b": "B. Ice at 0°C",
-    "option_c": "C. Water at 100°C",
-    "option_d": "D. Steam at 100°C",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "In order to remove one electron from a 3S orbital of gaseous sodium atom, about 496KJMol<sup>-1</sup> of energy is required. This energy is referred to as",
-    "option_a": "A. electron affinity",
-    "option_b": "B. ionization energy",
-    "option_c": "C. activation evergy",
-    "option_d": "D. electronegativity",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Nitrogen obtained from the liquefaction of air has a higher density than that obtained from nitrogen containing compounds because the former contains</p>",
-    "option_a": "A. water vapour",
-    "option_b": "B. oxygen",
-    "option_c": "C. carbon (IV) oxide",
-    "option_d": "D. rare gases",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The method that can be used to convert hard water to soft water is",
-    "option_a": "A. chlorination",
-    "option_b": "B. passage over activated charcoal",
-    "option_c": "C. the use of an ion-exchange resin",
-    "option_d": "D. aeration",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "1s<sup>2</sup>, 2s<sup>2</sup>, 2p<sup>6</sup>, 3s<sup>2</sup>, 3p<sup>6</sup>, 3d<sup>7</sup>, 4s<sup>2</sup><br>\nAn element with the electronic configuration above is a",
-    "option_a": "A. non-metal",
-    "option_b": "B. metal",
-    "option_c": "C. transition element",
-    "option_d": "D. group two element",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Given that electronegativity increases across a period and decreases down a group in the periodic table, in which of the following compounds will the molecules be held together by the strongest hydrogen bond?",
-    "option_a": "A. HF(g)",
-    "option_b": "B. NH3(g)",
-    "option_c": "C. CH4(g)",
-    "option_d": "D. HCl(g)",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "0.25 mole of hydrogen chloride was dissolved in distilled water and the volume made up of 0.50 dm<sup>3</sup>. If 15.0 cm<sup>3</sup> of the solution requires 12.50 cm<sup>3</sup> of aqueous sodium trioxocarbonate (IV) for neutralization, calculate the concentration of the alkaline solution",
-    "option_a": "A. 0.30 mol dm3",
-    "option_b": "B. 0.40 mol dm3",
-    "option_c": "C. 0.50 mol dm3",
-    "option_d": "D. 0.60 mol dm3",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The correct order of increasing oxidation number of the transition metal ions for the compounds K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>, V<sub>2</sub>O<sub>5</sub> and KMnO<sub>4</sub> is",
-    "option_a": "A. V2O5 < K2Cr2O7 < KMnO4",
-    "option_b": "B. K2Cr2O7 < KMnO4 < V2O5",
-    "option_c": "C. KMnO4 < K2Cr2O7 < V2O5",
-    "option_d": "D. KMnO4 < V2O5 < K2Cr2O7",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The set of pollutants that is most likely to be produced when petrol is accidentally spilled on plastic materials and ignited is",
-    "option_a": "A. CO, CO2 and SO2",
-    "option_b": "B. CO, HCL and SO2",
-    "option_c": "C. CO, CO2 and HCL",
-    "option_d": "D. SO2, CO2 and HCL",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "What is observed when aqueous solutions of each of tetraoxosulphate (VI) acid, potassium trioxoiodate (V) and potassium iodide are mixed together?",
-    "option_a": "A. A white precipitate is formed",
-    "option_b": "B. A green precipitate is formed",
-    "option_c": "C. The mixture remains colourless",
-    "option_d": "D. The mixture turns reddish brown",
-    "correct_option": ""
-  },
+    "question_text": "Which of the following is an example of a condensation reaction?",
+    "option_a": "A. Acetic acid + ethanol → ethyl acetate + water",
+    "option_b": "B. Ethylene + chlorine → dichloroethane",
+    "option_c": "C. Chlorine + water → hydrochloric acid + oxygen",
+    "option_d": "D. Nitrogen + oxygen → nitrogen oxide",
+    "correct_option": "A"
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+# Unaswered
+[
   {
     "course_id": "3",
     "question_text": "The solution with the lowest pH value is",

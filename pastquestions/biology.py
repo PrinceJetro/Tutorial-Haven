@@ -1,12 +1,14 @@
+# answered  and uplaoded
+
 [
   {
     "course_id": "3",
-    "question_text": "<p>The cilia in paramecium are use for</p>",
+    "question_text": "<p>The cilia in paramecium are used for</p>",
     "option_a": "A. respirating",
     "option_b": "B. locomotion",
     "option_c": "C. protection",
     "option_d": "D. regulating food intake",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -15,7 +17,7 @@
     "option_b": "B. has a gullet",
     "option_c": "C. lives in a pond",
     "option_d": "D. possesses a flagellum",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -24,52 +26,52 @@
     "option_b": "B. a reptile",
     "option_c": "C. a shark",
     "option_d": "D. a mammal",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
-    "question_text": "<p>which of these type of skeleton is most appropriate for a cockroach?</p>",
+    "question_text": "<p>Which of these types of skeleton is most appropriate for a cockroach?</p>",
     "option_a": "A. Hydrostatic skeleton",
     "option_b": "B. Exoskeleton",
     "option_c": "C. Endoskeleton",
     "option_d": "D. Cartilaginous skeleton",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
-    "question_text": "<p>when protein are broken down they provide</p>",
+    "question_text": "<p>When proteins are broken down, they provide</p>",
     "option_a": "A. oxygen",
-    "option_b": "B. carbonhydrate",
+    "option_b": "B. carbohydrate",
     "option_c": "C. energy",
-    "option_d": "D. amino-acid",
-    "correct_option": ""
+    "option_d": "D. amino acids",
+    "correct_option": "C"
   },
   {
     "course_id": "3",
-    "question_text": "<p>the function of lenticels is</p>",
-    "option_a": "A. to remove excess water in plant",
+    "question_text": "<p>The function of lenticels is</p>",
+    "option_a": "A. to remove excess water in plants",
     "option_b": "B. to absorb water from the atmosphere",
     "option_c": "C. for gaseous exchange",
     "option_d": "D. to absorb light",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
-    "question_text": "<p>The following events take place during conjugation in spirogyra 1. The protoplasm of each of the conjugating cell separate from the cell wall to form a Gamete; the gamete of one filament passes through the conjugation tube to meet the gamete of the other filament 2. The zygote soon become surrounded by thick brown wall to become zygospore which burst after a short rest and germinate to produce a new filament 3. The nuclei of the gametes fuse to form a zygote 4. The protuberance meet and where they touch the cell-wall disappear so that a conjugation tube joining the two cell is formed 5. protuberance appear on the wall of the cell of two filament of spirogyra lying side by side opposite one another. Now what is the correct sequence in which the above sequence occur?</p>",
+    "question_text": "<p>The following events take place during conjugation in Spirogyra: 1. The protoplasm of each of the conjugating cells separates from the cell wall to form a gamete; the gamete of one filament passes through the conjugation tube to meet the gamete of the other filament 2. The zygote soon becomes surrounded by a thick brown wall to become a zygospore which bursts after a short rest and germinates to produce a new filament 3. The nuclei of the gametes fuse to form a zygote 4. The protuberance meets and where they touch, the cell-wall disappears so that a conjugation tube joining the two cells is formed 5. Protuberances appear on the wall of the cells of two filaments of Spirogyra lying side by side opposite one another. What is the correct sequence in which the above events occur?</p>",
     "option_a": "A. 1,2,3,4,5",
     "option_b": "B. 1,2,4,5,3",
     "option_c": "C. 3,4,5,2,1",
     "option_d": "D. 5,4,1,3,2",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
-    "question_text": "<p>Which of the following is a characteristic of animal cell?</p>",
+    "question_text": "<p>Which of the following is a characteristic of an animal cell?</p>",
     "option_a": "A. Presence of chloroplast",
-    "option_b": "B. possession of cellulose cell-wall",
-    "option_c": "C. absence of large vacuoles",
-    "option_d": "D. presence of large vacuoles",
-    "correct_option": ""
+    "option_b": "B. Possession of cellulose cell wall",
+    "option_c": "C. Absence of large vacuoles",
+    "option_d": "D. Presence of large vacuoles",
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -78,52 +80,52 @@
     "option_b": "B. converting ammonium salt to nitrate",
     "option_c": "C. converting atmospheric nitrogen to plant nitrogen",
     "option_d": "D. converting nitrate to nitrous oxide",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
-    "question_text": "<p>In the life history of schistosoma (Bilharzia), one of the following is intermediate host</p>",
+    "question_text": "<p>In the life history of Schistosoma (Bilharzia), one of the following is an intermediate host</p>",
     "option_a": "A. man",
     "option_b": "B. snail",
     "option_c": "C. mosquito larva",
     "option_d": "D. crayfish",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
-    "question_text": "<p>In which of the following groups of organisms do all the members have asexual method of reproduction?</p>",
-    "option_a": "A. A geen filament algae, a flowering plant and a bird",
-    "option_b": "B. A toad (or frog) , ameoba and mucor ( penicillium)",
-    "option_c": "C. A flowering plant, tape worm (or ascaris) and a green filamentous algae",
-    "option_d": "D. Mucor (or penicillium), a bird and a toad (or frog)",
-    "correct_option": ""
+    "question_text": "<p>In which of the following groups of organisms do all the members have an asexual method of reproduction?</p>",
+    "option_a": "A. A green filament algae, a flowering plant, and a bird",
+    "option_b": "B. A toad (or frog), amoeba, and mucor (penicillium)",
+    "option_c": "C. A flowering plant, tapeworm (or ascaris), and a green filamentous algae",
+    "option_d": "D. Mucor (or penicillium), a bird, and a toad (or frog)",
+    "correct_option": "B"
   },
   {
     "course_id": "3",
-    "question_text": "<p>The hormone which tones up the muscles of a person in time of danger is from the</p>",
+    "question_text": "<p>The hormone which tones up the muscles of a person in times of danger is from the</p>",
     "option_a": "A. thyroid gland",
     "option_b": "B. pancreas",
     "option_c": "C. adrenal gland",
     "option_d": "D. liver",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
-    "question_text": "<p>The study of organism and the environment of an abandoned farmland is the ecology of?</p>",
+    "question_text": "<p>The study of organisms and the environment of an abandoned farmland is the ecology of?</p>",
     "option_a": "A. a community",
     "option_b": "B. a population",
-    "option_c": "C. a specie",
+    "option_c": "C. a species",
     "option_d": "D. a habitat",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
-    "question_text": "<p>A potometer with a leafy shoot weighed 18.9g initially and weighed 17.9g after one hour. From this it follow that</p>",
+    "question_text": "<p>A potometer with a leafy shoot weighed 18.9g initially and weighed 17.9g after one hour. From this, it follows that</p>",
     "option_a": "A. the shoot absorbed 1g of water per hour",
     "option_b": "B. 1g of water per hour evaporates from the potometer",
     "option_c": "C. the shoot lost 1g of water per hour",
     "option_d": "D. the potometer water receded at the rate of 1g per hour",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -131,17 +133,17 @@
     "option_a": "A. one chromosome from the male joins another from the female",
     "option_b": "B. one gene from the male combines with another from the female",
     "option_c": "C. the male nucleus fuses with the female nucleus",
-    "option_d": "D. one set of chromosome combines with another set from the female",
-    "correct_option": ""
+    "option_d": "D. one set of chromosomes combines with another set from the female",
+    "correct_option": "C"
   },
   {
     "course_id": "3",
-    "question_text": "<p>The neck region of the tape worm, (taenia) is responsible for the</p>",
-    "option_a": "A. production of egg",
-    "option_b": "B. storage of egg",
-    "option_c": "C. formation of new segment",
+    "question_text": "<p>The neck region of the tapeworm (Taenia) is responsible for the</p>",
+    "option_a": "A. production of eggs",
+    "option_b": "B. storage of eggs",
+    "option_c": "C. formation of new segments",
     "option_d": "D. development of the suckers",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -150,79 +152,34 @@
     "option_b": "B. jointed appendages",
     "option_c": "C. exoskeleton",
     "option_d": "D. three pairs of legs",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
-    "question_text": "<p>Rhizopus (or mucor)obtain its food from dead organic matter extracellularly. It is said to be</p>",
+    "question_text": "<p>Rhizopus (or Mucor) obtains its food from dead organic matter extracellularly. It is said to be</p>",
     "option_a": "A. a facultative parasite",
     "option_b": "B. saprophyte",
     "option_c": "C. an obligate parasite",
     "option_d": "D. a commensal",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
-    "question_text": "<p>The feature that distinguish the toad or frog from the fish is the absence of</p>",
-    "option_a": "A. scales",
-    "option_b": "B. lungs",
-    "option_c": "C. paired appendages",
-    "option_d": "D. a tail",
-    "correct_option": ""
+    "question_text": "<p>The presence of red blood cells in the blood of a mammal gives it</p>",
+    "option_a": "A. its red color",
+    "option_b": "B. ability to carry oxygen",
+    "option_c": "C. ability to produce hormones",
+    "option_d": "D. immunity",
+    "correct_option": "B"
   },
   {
     "course_id": "3",
-    "question_text": "<p>Which of these is not associated with tadpole stages of toad or frog</p>",
-    "option_a": "A. V-shaped gland",
-    "option_b": "B. operculum",
-    "option_c": "C. external gills",
-    "option_d": "D. jelly",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Which of these is not associated with the movement of the toad, reptile or bird?</p>",
-    "option_a": "A. Hopping",
-    "option_b": "B. Bopping",
-    "option_c": "C. Flapping",
-    "option_d": "D. Gliding",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Which of these is not a part of the feather of a bird?</p>",
-    "option_a": "A. Wing",
-    "option_b": "B. aftershaft",
-    "option_c": "C. Inferior umblilicus",
-    "option_d": "D. Vane",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Which of these is not a function of the mammalian skin/</p>",
-    "option_a": "A. Protection against bacteria infection",
-    "option_b": "B. Excretion of waste and water",
-    "option_c": "C. Production of vitamin d when exposed to sun light",
-    "option_d": "D. production of pigments to reduce temperature",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>which of these elements in plants is required in small quantities only</p>",
-    "option_a": "A. Boron",
-    "option_b": "B. Nitrogen",
-    "option_c": "C. Phosphorus",
-    "option_d": "D. Magnesium",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "a potometer was used to compare the rate of loss of the same volume of water from a plant under different environmental conditions as under a fan, at the sea shore, under the sun, in the airy laboratory and in cupboard. What time was likely to have been obtained in a cupboard?",
-    "option_a": "A. 15 secs",
-    "option_b": "B. 30secs",
-    "option_c": "C. 25secs",
-    "option_d": "D. 20secs",
-    "correct_option": ""
+    "question_text": "<p>The stomach of a ruminant animal is adapted for</p>",
+    "option_a": "A. breaking down food by acidic digestion",
+    "option_b": "B. rapid absorption of food",
+    "option_c": "C. storing food for later digestion",
+    "option_d": "D. digesting cellulose from plant material",
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -231,7 +188,7 @@
     "option_b": "B. secretion of hydrochloric acid",
     "option_c": "C. secretion gastric juice",
     "option_d": "D. churning of food",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -240,7 +197,7 @@
     "option_b": "B. a very strong sugar solution",
     "option_c": "C. a weak sugar solution",
     "option_d": "D. a very weak salt solution",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -249,7 +206,7 @@
     "option_b": "B. Bilharzia",
     "option_c": "C. River blindness",
     "option_d": "D. Malaria",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -258,7 +215,7 @@
     "option_b": "B. lungs",
     "option_c": "C. Heart",
     "option_d": "D. liver",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -267,7 +224,7 @@
     "option_b": "B. The light was not strong enough",
     "option_c": "C. The seedlings were rather too young",
     "option_d": "D. The tip of the seedling may have been covered",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -276,7 +233,7 @@
     "option_b": "B. Feathery styles of stigmas pendulously hang outrside the flower",
     "option_c": "C. small inconspicuous scentless flower",
     "option_d": "D. large anthers which are loosley attached to the filament",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -285,7 +242,7 @@
     "option_b": "B. Transporting energy from part of the plant to another",
     "option_c": "C. The production of energy by oxidising essential carbonhydrate",
     "option_d": "D. hydrolysis of protein",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -294,7 +251,7 @@
     "option_b": "B. Salts",
     "option_c": "C. Dust",
     "option_d": "D. Urea",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -303,7 +260,7 @@
     "option_b": "B. 100% wrinkled",
     "option_c": "C. 50% wrinkled, 50% round",
     "option_d": "D. 75% wrinkled, 25% round",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -312,7 +269,7 @@
     "option_b": "B. Respire",
     "option_c": "C. Move",
     "option_d": "D. Feed",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -321,7 +278,7 @@
     "option_b": "B. Flagella",
     "option_c": "C. Pseudopodia",
     "option_d": "D. Swimmerets",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -330,7 +287,7 @@
     "option_b": "B. Collenchymas",
     "option_c": "C. Sclerenchyma",
     "option_d": "D. Xylem",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -339,7 +296,7 @@
     "option_b": "B. Stomach",
     "option_c": "C. Rectum",
     "option_d": "D. Colon",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -348,7 +305,7 @@
     "option_b": "B. Saprophyte",
     "option_c": "C. Commensal",
     "option_d": "D. Symbiont",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -357,7 +314,7 @@
     "option_b": "B. Sodium",
     "option_c": "C. Copper",
     "option_d": "D. Phosphate",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -366,7 +323,7 @@
     "option_b": "B. Transpiration",
     "option_c": "C. Osmosis",
     "option_d": "D. Translocation",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -375,7 +332,7 @@
     "option_b": "B. Anterior zygapophysis",
     "option_c": "C. Posterior zygapophysis",
     "option_d": "D. Lateral spine",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -384,7 +341,7 @@
     "option_b": "B. Habitat",
     "option_c": "C. Environment",
     "option_d": "D. Niche",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -393,7 +350,7 @@
     "option_b": "B. Tides",
     "option_c": "C. Waves",
     "option_d": "D. Turbidity",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -402,72 +359,27 @@
     "option_b": "B. Nucleus",
     "option_c": "C. Chromosome",
     "option_d": "D. Chloroplast",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
     "question_text": "<p>Which one of the following option is not true for mucor of Rhizophus? it</p>",
     "option_a": "A. Grows on moist dead organic matter",
     "option_b": "B. Is a plant",
-    "option_c": "C. Has cellulose cell-wall",
-    "option_d": "D. Reproduce asexually by producing a spore",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Which of these is not an enzyme?</p>",
-    "option_a": "A. Pepsin",
-    "option_b": "B. Gastrin",
-    "option_c": "C. Amylase",
-    "option_d": "D. Chymotrypsin",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The region of cell division in a root is",
-    "option_a": "A. Root cap",
-    "option_b": "B. Endodermis",
-    "option_c": "C. Xylem",
-    "option_d": "D. Piliferous layer",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of these statement below is not a characteristic of wind pollinated flower?",
-    "option_a": "A. Stigmas are usually large and feathery",
-    "option_b": "B. Nectar is usually absent",
-    "option_c": "C. The pollen grains have rough spiny surfaces",
-    "option_d": "D. The flowers are not scented",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Which of the following is not an excretory organ in animals?</p>",
-    "option_a": "A. Lungs",
-    "option_b": "B. Kidney",
-    "option_c": "C. Leaf",
-    "option_d": "D. Large intestine",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "When the ciliary muscles of the eye contract, the eye lens",
-    "option_a": "A. Bulge",
-    "option_b": "B. Contracts",
-    "option_c": "C. Rotates",
-    "option_d": "D. Flattens",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "which of these diseases cannot be controlled by killing the vector?",
-    "option_a": "A. River blindness",
-    "option_b": "B. Malaria",
-    "option_c": "C. Polio",
-    "option_d": "D. Cholera",
-    "correct_option": ""
-  },
-  {
+    "option_c": "C. Causes decay of organic matter",
+    "option_d": "D. Consists of multinucleated hyphae",
+    "correct_option": "B"
+  }
+]
+
+
+
+
+
+
+# Unanswered
+[
+{
     "course_id": "3",
     "question_text": "In which of these association is much harm done to one of the partners?",
     "option_a": "A. Symbiosis",

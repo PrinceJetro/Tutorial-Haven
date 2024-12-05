@@ -1,3 +1,4 @@
+# answered and uplaoded
 [
   {
     "course_id": "3",
@@ -6,7 +7,7 @@
     "option_b": "B. political culture",
     "option_c": "C. self determination",
     "option_d": "D. duties and obligation",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -15,7 +16,7 @@
     "option_b": "B. human rights watch",
     "option_c": "C. legal aid council",
     "option_d": "D. human rights monitor",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -24,7 +25,7 @@
     "option_b": "B. United Nations Organisation (UNO)",
     "option_c": "C. African Union (AU)",
     "option_d": "D. European Union (EU)",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -33,7 +34,7 @@
     "option_b": "B. judicial independence",
     "option_c": "C. press censorship",
     "option_d": "D. improved standard of living",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -42,7 +43,7 @@
     "option_b": "B. transparency",
     "option_c": "C. honesty",
     "option_d": "D. humility",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -51,7 +52,7 @@
     "option_b": "B. celebrity",
     "option_c": "C. responsible parent",
     "option_d": "D. permissive father",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -60,7 +61,7 @@
     "option_b": "B. Universal Basic Education (UBE)",
     "option_c": "C. Education Trust Fund (ETF)",
     "option_d": "D. National Youth Service Corps (NYSC)",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -69,7 +70,7 @@
     "option_b": "B. increasing air pollution",
     "option_c": "C. encourage public transportation",
     "option_d": "D. ensuring vehicle's functionality",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -78,7 +79,7 @@
     "option_b": "B. considerate of other road users",
     "option_c": "C. afraid of civil defence corps",
     "option_d": "D. environmentally friendly",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -87,7 +88,7 @@
     "option_b": "B. when to use public transport",
     "option_c": "C. traffic regulations",
     "option_d": "D. his obligations as a citizen",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -96,7 +97,7 @@
     "option_b": "B. dialogue",
     "option_c": "C. mediation",
     "option_d": "D. arbitration",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -105,7 +106,7 @@
     "option_b": "B. domination of the minority by the majority",
     "option_c": "C. domination of the majority by the minority",
     "option_d": "D. enhancement of security",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -114,7 +115,7 @@
     "option_b": "B. selfishness",
     "option_c": "C. caring",
     "option_d": "D. kindness",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -123,7 +124,7 @@
     "option_b": "B. intrusion",
     "option_c": "C. inhalation",
     "option_d": "D. injection",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -132,7 +133,7 @@
     "option_b": "B. prevent drug abuse",
     "option_c": "C. encourage the use of drugs by the masses",
     "option_d": "D. support importation of drugs",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -141,7 +142,7 @@
     "option_b": "B. rehabilitation",
     "option_c": "C. brain drain",
     "option_d": "D. memory loss",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -150,7 +151,7 @@
     "option_b": "B. employment",
     "option_c": "C. motivation",
     "option_d": "D. indulging offenders",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -159,7 +160,7 @@
     "option_b": "B. decline in literacy rate",
     "option_c": "C. increase rate of youth employment",
     "option_d": "D. increased exploitation of the ignorant",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -168,7 +169,7 @@
     "option_b": "B. migration",
     "option_c": "C. criminality",
     "option_d": "D. welfarism",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -177,7 +178,7 @@
     "option_b": "B. youths women and men",
     "option_c": "C. men and vulnerable children",
     "option_d": "D. old and weak individuals",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -186,7 +187,7 @@
     "option_b": "B. create job opportunities",
     "option_c": "C. cause conflict",
     "option_d": "D. provide people with genuine information",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -194,89 +195,8 @@
     "option_a": "A. refusal to interact with family of an HIV patient",
     "option_b": "B. physical and verbal abuse of an HIV patient",
     "option_c": "C. ostracizing HIV patients",
-    "option_d": "D. enlightening people living with HIV/AIDS",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Testing of blood before tranfusion will really help to?</p>",
-    "option_a": "A. spread HIV",
-    "option_b": "B. control HIV",
-    "option_c": "C. eradicate HIV",
-    "option_d": "D. prevent HIV",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>From the above report, which of the following is the major consequence of the intervention programme</p>",
-    "option_a": "A. increase in self reliance skills",
-    "option_b": "B. promotion of inter-communal relationship",
-    "option_c": "C. provision of infrastructural facilities",
-    "option_d": "D. acceleration of national development",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>One of the functions of local govrernment is?</p>",
-    "option_a": "A. settlement of intra party crisis",
-    "option_b": "B. making of bye laws",
-    "option_c": "C. formulation of monetary policies",
-    "option_d": "D. delimitation of constituencies",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>From the above report, a probable reason for the initial high crime rate in Aikara community was?</p>",
-    "option_a": "A. poor upbringing",
-    "option_b": "B. corruption",
-    "option_c": "C. abject poverty",
-    "option_d": "D. greed",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>A body established and entrusted with power and authority to direct the affairs of the state is called?</p>",
-    "option_a": "A. federal executive council",
-    "option_b": "B. state legislative council",
-    "option_c": "C. trusteeship",
-    "option_d": "D. government",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Which of the following concepts can guarantee adherence to the rule of law</p>",
-    "option_a": "A. political immunity",
-    "option_b": "B. political gerrymandering",
-    "option_c": "C. national development",
-    "option_d": "D. representative democracy",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>According to the 1999 constitution, sovereignty resides in the?</p>",
-    "option_a": "A. command in charge of the armed forces",
-    "option_b": "B. people who confer legitimacy on elected leaders",
-    "option_c": "C. national assembly which has power to make laws and amend the constitution",
-    "option_d": "D. military which can declare any law, null and of no effect",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>In a democratic government, franchise is given to all</p>",
-    "option_a": "A. party members",
-    "option_b": "B. resident adults",
-    "option_c": "C. adult citizens",
-    "option_d": "D. opinion leaders",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>A significant companion of the rule of law is the</p>",
-    "option_a": "A. fusion of legislative and executive functions",
-    "option_b": "B. supremacy of the ordinary law",
-    "option_c": "C. adoption of one party system",
-    "option_d": "D. enforcement of law by the legislature",
-    "correct_option": ""
+    "option_d": "D. enlightening people on the condition",
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -285,7 +205,7 @@
     "option_b": "B. existence of free press",
     "option_c": "C. establishment of administrative tribunal",
     "option_d": "D. encouragement of effective opposition",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -294,7 +214,7 @@
     "option_b": "B. corruption",
     "option_c": "C. absolute liberty",
     "option_d": "D. high cost of governance",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -303,7 +223,7 @@
     "option_b": "B. development",
     "option_c": "C. job creation",
     "option_d": "D. delegated legislature",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -312,7 +232,7 @@
     "option_b": "B. indirect democracy",
     "option_c": "C. communal democracy",
     "option_d": "D. direct democracy",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -321,7 +241,7 @@
     "option_b": "B. unfulfilled political promises",
     "option_c": "C. bad governance",
     "option_d": "D. cross carpeting phenomenon",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -330,7 +250,7 @@
     "option_b": "B. fundamental human rights",
     "option_c": "C. procedures for the impeachment of the president",
     "option_d": "D. information of quorum in the senate",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -339,7 +259,7 @@
     "option_b": "B. high cost of living",
     "option_c": "C. non registration",
     "option_d": "D. political neutrality",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -348,7 +268,7 @@
     "option_b": "B. pressure group",
     "option_c": "C. community group",
     "option_d": "D. civil society",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -357,7 +277,7 @@
     "option_b": "B. adequate training",
     "option_c": "C. privatization",
     "option_d": "D. bribery and corruption",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -366,7 +286,7 @@
     "option_b": "B. keeping of government records",
     "option_c": "C. provision of social services",
     "option_d": "D. budget approval for implementation",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -375,7 +295,7 @@
     "option_b": "B. manipulative",
     "option_c": "C. technical",
     "option_d": "D. administrative",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -384,7 +304,7 @@
     "option_b": "B. terrorist in nature",
     "option_c": "C. martial in nature",
     "option_d": "D. militant in nature",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -393,7 +313,7 @@
     "option_b": "B. protection",
     "option_c": "C. battle",
     "option_d": "D. vengeance",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -402,7 +322,7 @@
     "option_b": "B. campaign against cultism",
     "option_c": "C. relevant legislation",
     "option_d": "D. bullet proof vest",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -411,7 +331,7 @@
     "option_b": "B. rights",
     "option_c": "C. values",
     "option_d": "D. materialism",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -420,25 +340,25 @@
     "option_b": "B. makes one to acquire more properties",
     "option_c": "C. enhances an individual's access to education",
     "option_d": "D. promote influx of aliens to the community",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
     "question_text": "<p>''If i should forsake you, Banwuya motherland, Africa fatherland, let my two hands forget thy cunning''.&nbsp; &nbsp; &nbsp; @Femi Ademiluyi: The new man. All rights reserved.</p>\n\n<p>The quotation shows that the speaker is ?</p>",
     "option_a": "A. nationalistic",
     "option_b": "B. opportunistic",
-    "option_c": "C. subservent",
+    "option_c": "C. subservient",
     "option_d": "D. reoriented",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
     "question_text": "<p>The status of being a legal member of a country is referred to as&nbsp;</p>",
     "option_a": "A. alien",
-    "option_b": "B. assylum",
+    "option_b": "B. asylum",
     "option_c": "C. citizenship",
     "option_d": "D. migrant",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -447,16 +367,16 @@
     "option_b": "B. social dilemma",
     "option_c": "C. natural disaster",
     "option_d": "D. civic problems",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
     "question_text": "<p>Human rights can be best promoted if?</p>",
     "option_a": "A. jungle justice is discouraged",
     "option_b": "B. relevant knowledge and information are acquired",
-    "option_c": "C. political elites exercises discretionary powers",
-    "option_d": "D. there is existing constitution",
-    "correct_option": ""
+    "option_c": "C. political elites exercise discretionary powers",
+    "option_d": "D. there is an existing constitution",
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -465,97 +385,52 @@
     "option_b": "B. the writ of habeas corpus",
     "option_c": "C. prerogative",
     "option_d": "D. political immunity",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
-    "question_text": "<p>The inalienable rights of citizens can be guaranteee through?</p>",
+    "question_text": "<p>The inalienable rights of citizens can be guaranteed through?</p>",
     "option_a": "A. an unwritten constitution",
     "option_b": "B. parliamentary system of government",
     "option_c": "C. unitary system of government",
-    "option_d": "D. an independent judiciary",
-    "correct_option": ""
+    "option_d": "D. bill of rights",
+    "correct_option": "D"
   },
   {
     "course_id": "3",
-    "question_text": "<p>The society can be much more peaceful if individuals learn to</p>",
-    "option_a": "A. respect and obey the law",
-    "option_b": "B. gather knowledge about politics",
-    "option_c": "C. understand the human right",
-    "option_d": "D. seek redress in the court of law",
-    "correct_option": ""
+    "question_text": "<p>Which of the following methods can be employed to promote good governance in Nigeria?</p>",
+    "option_a": "A. fair judicial system",
+    "option_b": "B. dictatorship",
+    "option_c": "C. bureaucratic inefficiency",
+    "option_d": "D. corruption",
+    "correct_option": "A"
   },
   {
     "course_id": "3",
-    "question_text": "<p>The exhibition of queuing culture in a society is good example</p>",
-    "option_a": "A. participation",
-    "option_b": "B. empowerment",
-    "option_c": "C. nationalism",
-    "option_d": "D. orderliness",
-    "correct_option": ""
+    "question_text": "<p>Good governance can be achieved through the following measures except?</p>",
+    "option_a": "A. rule of law",
+    "option_b": "B. popular participation",
+    "option_c": "C. accountability",
+    "option_d": "D. authoritarianism",
+    "correct_option": "D"
   },
   {
     "course_id": "3",
-    "question_text": "<p>Constituted authority is necessary in the society because?</p>",
-    "option_a": "A. promote international relation",
-    "option_b": "B. ensure security of lives and properties",
-    "option_c": "C. serves as agents of socialization",
-    "option_d": "D. provide scholarship for higher education",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Responsible parenthood is important because it?</p>",
-    "option_a": "A. promote recreation",
-    "option_b": "B. foster orderliness",
-    "option_c": "C. grooms disciplined children",
-    "option_d": "D. provides solution to all societal problems",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Which of the following should not be encouraged by a responsible parent</p>",
-    "option_a": "A. moral development",
-    "option_b": "B. religious fundamentalist",
-    "option_c": "C. spiritual development",
-    "option_d": "D. respect for elders",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Road sign primarily serves as?</p>",
-    "option_a": "A. symbols to correct road users",
-    "option_b": "B. sign to aid federal road safety to apprehend defaulters",
-    "option_c": "C. device to guide traffic of police command",
-    "option_d": "D. precautionary devices to guide road users",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>One of the skills that can be used in resolving inter-communal conflicts is</p>",
-    "option_a": "A. coercion",
-    "option_b": "B. mediation",
-    "option_c": "C. suppression",
-    "option_d": "D. harassment",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>In obeying traffics rules, pedestrian are to walk on the left side of the road so as to</p>",
-    "option_a": "A. buy things at the road side",
+    "question_text": "<p>In obeying traffic rules, pedestrians are to walk on the left side of the road so as to</p>",
+    "option_a": "A. buy things at the roadside",
     "option_b": "B. see oncoming cars",
-    "option_c": "C. cross at anytime",
+    "option_c": "C. cross at any time",
     "option_d": "D. walk across junction",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
-    "question_text": "<p>From the above dialogue, it is evident that cultism disrupt activities in the</p>",
+    "question_text": "<p>From the above dialogue, it is evident that cultism disrupts activities in the</p>",
     "option_a": "A. family",
     "option_b": "B. school",
     "option_c": "C. society",
     "option_d": "D. club",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -564,34 +439,34 @@
     "option_b": "B. increase in the remuneration of staffs of higher institution",
     "option_c": "C. provision of scholarship to the student",
     "option_d": "D. amicable resolution of dispute",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
-    "question_text": "<p>Which of the following is not responsible for cult activities in in school and colleges</p>",
+    "question_text": "<p>Which of the following is not responsible for cult activities in schools and colleges</p>",
     "option_a": "A. perceived injustice",
     "option_b": "B. satisfaction of membership aspiration",
     "option_c": "C. personal protection",
     "option_d": "D. preservation of cultural heritage",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
-    "question_text": "<p>Drugs abuse often lead to?</p>",
+    "question_text": "<p>Drug abuse often leads to?</p>",
     "option_a": "A. sexually transmitted disease",
     "option_b": "B. cancerous illness",
     "option_c": "C. psychiatric disorder",
     "option_d": "D. incurable ailment",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
-    "question_text": "<p>If an individual persist in the use of hard drugs, such individual is likely to exibit?</p>",
+    "question_text": "<p>If an individual persists in the use of hard drugs, such an individual is likely to exhibit?</p>",
     "option_a": "A. hostile attitudes towards religious organisation",
     "option_b": "B. unfriendly disposition towards foreigners",
     "option_c": "C. oppressive behaviour",
     "option_d": "D. emotional illness and aggression",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -600,16 +475,16 @@
     "option_b": "B. rehabilitation",
     "option_c": "C. enlightenment",
     "option_d": "D. compromise",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
-    "question_text": "<p>Drug abuse can best be prevented in the society by&nbsp;</p>",
+    "question_text": "<p>Drug abuse can best be prevented in the society by</p>",
     "option_a": "A. arresting and prosecuting drug vendors",
     "option_b": "B. engaging in drug enlightenment",
     "option_c": "C. canvassing capital punishment for drug peddlers",
     "option_d": "D. prohibiting the sales of drugs at the motor park",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -618,7 +493,7 @@
     "option_b": "B. boys",
     "option_c": "C. children",
     "option_d": "D. adults",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -627,7 +502,7 @@
     "option_b": "B. unexplained feverish condition",
     "option_c": "C. infections that often resist treatment",
     "option_d": "D. systematic growth of the body",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -636,7 +511,7 @@
     "option_b": "B. greed",
     "option_c": "C. low self-esteem",
     "option_d": "D. education",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -645,16 +520,16 @@
     "option_b": "B. sitting close to HIV/AIDS patients",
     "option_c": "C. having handshakes with persons living with HIV/AIDS",
     "option_d": "D. sharing clothes with HIV/AIDS infected persons",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
-    "question_text": "<p>One of the preventive measure against the infections of HIV/AIDS</p>",
+    "question_text": "<p>One of the preventive measures against the infection of HIV/AIDS</p>",
     "option_a": "A. member of red cross society",
     "option_b": "B. faithfulness to partner",
     "option_c": "C. becoming a medical staff",
     "option_d": "D. membership of campaigns against AIDS",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -663,25 +538,25 @@
     "option_b": "B. innovation and creativity",
     "option_c": "C. diversification",
     "option_d": "D. quest for white collar jobs",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
-    "question_text": "<p>In the constitution, the area where both federal and state government exercise joint authority are on the?</p>",
+    "question_text": "<p>In the constitution, the area where both federal and state governments exercise joint authority are on the?</p>",
     "option_a": "A. residual list",
     "option_b": "B. concurrent list",
     "option_c": "C. exclusive list",
     "option_d": "D. reserved list",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
-    "question_text": "<p>Government is saddled with all the following responsiblities except?</p>",
+    "question_text": "<p>Government is saddled with all the following responsibilities except?</p>",
     "option_a": "A. prevention of internal disturbance",
     "option_b": "B. protection of lives and properties",
     "option_c": "C. promotion of individual development",
     "option_d": "D. provision of all the needs of the citizens",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -690,7 +565,7 @@
     "option_b": "B. absolute application of law",
     "option_c": "C. civil liberty groups",
     "option_d": "D. enlightened electorate",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -699,7 +574,7 @@
     "option_b": "B. pave way for military intervention",
     "option_c": "C. make government accountable",
     "option_d": "D. encourage crises in the state",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -708,53 +583,57 @@
     "option_b": "B. republicanism",
     "option_c": "C. presidential system of government",
     "option_d": "D. west minister system",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
-    "question_text": "<p>The beauty of a democratic government is that&nbsp;</p>",
+    "question_text": "<p>The beauty of a democratic government is that</p>",
     "option_a": "A. the president has supreme power",
     "option_b": "B. political power resides in the people",
     "option_c": "C. there is absence of exploitation",
     "option_d": "D. political participation is limited",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
-    "question_text": "<blockquote>\n<p>One morning, mr. Ojuri was on his way to a bank in his neighbourhood to make enquiries. He was arrested for wandering and subsequently detained for seven days by the police without trail or access to his relatives.&nbsp;</p>\n</blockquote>\n\n<p>From the above passage, it could be said that, in a society where this incident happened, there is absence of?</p>",
+    "question_text": "<blockquote>\n<p>One morning, Mr. Ojuri was on his way to a bank in his neighborhood to make inquiries. He was arrested for wandering and subsequently detained for seven days by the police without trial or access to his relatives.</p>\n</blockquote>\n\n<p>From the above passage, it could be said that, in a society where this incident happened, there is absence of?</p>",
     "option_a": "A. court of law",
     "option_b": "B. rule of law",
     "option_c": "C. lawyers and solicitors",
-    "option_d": "D. the press",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>The following can be classified as forms of political apathy except</p>",
-    "option_a": "A. refusal to register and vote",
-    "option_b": "B. lack of interest in politics",
-    "option_c": "C. refusal to rig in an election",
-    "option_d": "D. nonchalant attitude towards politicians",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>The notion of percieving the involvement of people in politics as devilish connotes political?</p>",
-    "option_a": "A. demonitization",
-    "option_b": "B. apathy",
-    "option_c": "C. degeneration",
-    "option_d": "D. discontent",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>The active involvement of people in the decision-making process in a state indicates political</p>",
-    "option_a": "A. indoctrination",
-    "option_b": "B. participation",
-    "option_c": "C. struggle",
-    "option_d": "D. apathy",
-    "correct_option": ""
-  },
+    "option_d": "D. constitutional laws",
+    "correct_option": "B"
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# unaswered
+
+[
   {
     "course_id": "3",
     "question_text": "<p>A non-governmental organization that allows independent initiative of citizens is known as</p>",

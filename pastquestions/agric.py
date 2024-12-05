@@ -1,589 +1,603 @@
+# Uplaoded
+
 [
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Granite is",
     "option_a": "A. a sedimentary rock",
-    "option_b": "B. a wealtered rock",
-    "option_c": "C. mentamorphic rock",
+    "option_b": "B. a weathered rock",
+    "option_c": "C. a metamorphic rock",
     "option_d": "D. an igneous rock",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "In which layer of the soil profile does most biological activity occur?",
     "option_a": "A. parent material",
     "option_b": "B. D-horizon",
     "option_c": "C. C-horizon",
     "option_d": "D. B-horizon",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "When leaves of crop plants show brownish coloration from the tips of the mid-ribs backward, they are showing deficiency symptom of",
     "option_a": "A. magnesium",
     "option_b": "B. zinc",
     "option_c": "C. nitrogen",
     "option_d": "D. copper",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
-    "course_id": "3",
-    "question_text": "which of the following farm practices can prevent excessive evaporation from soil surfaces?",
+    "course_id": "15",
+    "question_text": "Which of the following farm practices can prevent excessive evaporation from soil surfaces?",
     "option_a": "A. liming",
     "option_b": "B. mulching",
     "option_c": "C. weeding",
     "option_d": "D. harrowing",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Which of the following is not associated with surface irrigation?",
     "option_a": "A. natural flooding",
     "option_b": "B. check flooding",
     "option_c": "C. sprinkler irrigation",
     "option_d": "D. mole drains",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
-    "course_id": "3",
-    "question_text": "Which of the following types of soil contains particles of diameter between 0.02 mm and 2.o mm?",
+    "course_id": "15",
+    "question_text": "Which of the following types of soil contains particles of diameter between 0.02 mm and 2.0 mm?",
     "option_a": "A. sand",
     "option_b": "B. silt",
     "option_c": "C. gravel",
     "option_d": "D. clay",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "A farmer cultivating leafy vegetables will require fertilizers with a relatively high content of",
     "option_a": "A. calcium",
     "option_b": "B. magnesium",
-    "option_c": "C. potasssium",
+    "option_c": "C. potassium",
     "option_d": "D. nitrogen",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "The earthworm is important to the farmer because it",
     "option_a": "A. improves soil structure",
     "option_b": "B. improves soil texture",
     "option_c": "C. destroys soil pathogens",
     "option_d": "D. adds nutrients to the soil",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
-    "course_id": "3",
-    "question_text": "The type of rocks formed from the molten magma is known as",
+    "course_id": "15",
+    "question_text": "The type of rocks formed from molten magma is known as",
     "option_a": "A. sedimentary",
     "option_b": "B. igneous",
     "option_c": "C. metamorphic",
     "option_d": "D. schist",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "The relationship between the microorganisms and plant in the nitrogen cycle is best described as",
     "option_a": "A. parasitism",
     "option_b": "B. commensalism",
     "option_c": "C. competition",
     "option_d": "D. symbiosis",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "The type of energy obtained from the sun for agricultural uses is known as",
     "option_a": "A. potential energy",
     "option_b": "B. mechanical energy",
     "option_c": "C. nuclear energy",
     "option_d": "D. solar energy",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Which of the following implements will be used for the next farm operation after clearing a new farmland?",
     "option_a": "A. harrow",
     "option_b": "B. ridger",
     "option_c": "C. cultivator",
     "option_d": "D. planter",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Which of the following cannot be used to rub the metal parts of farm tools before storage?",
     "option_a": "A. grease",
-    "option_b": "B. plam oil",
+    "option_b": "B. palm oil",
     "option_c": "C. water",
     "option_d": "D. petroleum jelly",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "The common surveying equipment for farmland include the following except",
     "option_a": "A. ranging pole",
     "option_b": "B. prismatic compass",
     "option_c": "C. measuring tape",
     "option_d": "D. gunter's chain",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "An example of fungal disease of stored grains is",
     "option_a": "A. rosette",
     "option_b": "B. wilt",
     "option_c": "C. soft rot",
     "option_d": "D. damping off",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "A small plot of land where intensive cultivation is practiced to produce vegetables is generally referred to as",
-    "option_a": "A. an orchad",
+    "option_a": "A. an orchard",
     "option_b": "B. a plantation",
     "option_c": "C. a nursery",
     "option_d": "D. a garden",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Which of the following plants is not classified as forage grass?",
     "option_a": "A. giant star",
     "option_b": "B. guinea grass",
-    "option_c": "C. elepant grass",
+    "option_c": "C. elephant grass",
     "option_d": "D. gamba grass",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "The plant-a-tree-campaign of the Federal Government of Nigeria is a way of encouraging forest",
     "option_a": "A. regulation",
     "option_b": "B. exploration",
     "option_c": "C. exploitation",
     "option_d": "D. integration",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Which of the following is not a method of controlling pests?",
     "option_a": "A. quarantine",
     "option_b": "B. crop rotation",
     "option_c": "C. fumigation",
     "option_d": "D. trapping",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "The most effective method of controlling or preventing viral diseases in plants is by",
     "option_a": "A. planting resistant varieties",
     "option_b": "B. spraying crops regularly",
     "option_c": "C. burning affected crops",
     "option_d": "D. practising crop rotation",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Reduction of ten seedlings of pawpaw to two per stand is referred to as",
     "option_a": "A. pruning",
     "option_b": "B. thinning",
     "option_c": "C. uprooting",
     "option_d": "D. weeding",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Which of the following describes the steps in making hay?",
     "option_a": "A. cut-sun-bale",
     "option_b": "B. dry-silage-silo",
     "option_c": "C. soilage-ferment-cut",
     "option_d": "D. cut-graze-paddock",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "A situation where only specified trees in a forest reserve are cut down is known as",
     "option_a": "A. selection",
     "option_b": "B. afforestation",
     "option_c": "C. reforestation",
     "option_d": "D. selective exploitation",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "The causative organism of maize rust is",
     "option_a": "A. a fungus",
     "option_b": "B. a virus",
     "option_c": "C. a bacterium",
     "option_d": "D. an insect",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "The reproductive cells of crops are called",
     "option_a": "A. gametes",
     "option_b": "B. genes",
     "option_c": "C. chromosomes",
     "option_d": "D. anthers",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Which of the following fruits is a capsule?",
     "option_a": "A. okra",
     "option_b": "B. groundnut",
     "option_c": "C. mango",
     "option_d": "D. coconut",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Birds are important pests of",
     "option_a": "A. tree crops",
     "option_b": "B. legumes",
     "option_c": "C. cereal",
     "option_d": "D. vegetable crops",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "The agent of controlled pollination in plants is",
     "option_a": "A. wind",
     "option_b": "B. insect",
     "option_c": "C. man",
     "option_d": "D. bird",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Ginning is the process of",
     "option_a": "A. extracting cotton seed oil",
     "option_b": "B. separating fibres from the bark of kena",
     "option_c": "C. grinding cotton seeds",
     "option_d": "D. separating cotton fibre from its seed",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "The groundnut rosette virus is transmitted by",
     "option_a": "A. aphid",
     "option_b": "B. mealy bug",
     "option_c": "C. wind",
     "option_d": "D. rainsplash",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Which of the following farm animals possess a pair of caeca?",
     "option_a": "A. pigs",
     "option_b": "B. cattles",
     "option_c": "C. sheep",
     "option_d": "D. rabbits",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "The head of the tapeworm is known as the",
     "option_a": "A. sucker",
     "option_b": "B. rostellum",
     "option_c": "C. scolex",
     "option_d": "D. hook",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Which of the following is not a function of the ruminal microorganism?",
     "option_a": "A. digestion of cellulose",
     "option_b": "B. conversion of plant proteins into microbial protein",
     "option_c": "C. production of vitamin B",
     "option_d": "D. production of gas in the rumen",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Which of the following factors would you consider the least important for the successful incubation of eggs?",
     "option_a": "A. light",
     "option_b": "B. temperature",
     "option_c": "C. ventilation",
     "option_d": "D. relative humidity",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "In which area of Nigeria is the kuri breed of cattle commonly found?",
     "option_a": "A. borno",
     "option_b": "B. sokoto",
     "option_c": "C. plateau",
     "option_d": "D. obudu",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Crops grown primarily for feeding animals are known as",
     "option_a": "A. vegetables",
     "option_b": "B. cereal",
     "option_c": "C. forage",
     "option_d": "D. legumes",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Which of the following feeding stuff should be increased in the diet of laying birds?",
     "option_a": "A. palm kernel meal",
     "option_b": "B. bone meal",
     "option_c": "C. groundnut cake",
     "option_d": "D. vitamin supplement",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
-    "course_id": "3",
-    "question_text": "The following livestock diseases are caused by viruses expect",
+    "course_id": "15",
+    "question_text": "The following livestock diseases are caused by viruses except",
     "option_a": "A. anthrax",
     "option_b": "B. foot and mouth dieases",
     "option_c": "C. rinderpest",
     "option_d": "D. nhewcastle diseases",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Fingerlings refer to the young of",
     "option_a": "A. rabbit",
     "option_b": "B. guinea pig",
     "option_c": "C. fish",
     "option_d": "D. turkey",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "The practice of progeny selection involves selecting bread stock on the basis of the",
     "option_a": "A. performance of offspring",
     "option_b": "B. parental characteristics",
     "option_c": "C. sire-dam relationship",
     "option_d": "D. individual merits of each animal",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "The most important symptom of brucellosis in cattle is",
     "option_a": "A. abortion",
     "option_b": "B. swollen testes",
     "option_c": "C. lamencess",
     "option_d": "D. swollen joints",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Which of the following is not a sign of heat in animals?",
     "option_a": "A. mounting of other animals",
     "option_b": "B. mucous discharge from the vulva",
     "option_c": "C. restlessness",
     "option_d": "D. grunting sound",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Which of the following practices would a farmer not likely adopt in pig management?",
     "option_a": "A. ear notching",
     "option_b": "B. deworming",
     "option_c": "C. castration",
     "option_d": "D. feeding iron supplement",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Feeds with high amount of fibre are classified as",
     "option_a": "A. concentrates",
     "option_b": "B. roughages",
     "option_c": "C. hay",
     "option_d": "D. silage",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "In birds, loss of appetite, respiratory difficulties and nervous paralysis are symptoms of",
     "option_a": "A. coccidiosis",
     "option_b": "B. fowl pox",
     "option_c": "C. newcastle diseases",
     "option_d": "D. fowl typhoid",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "In which of the following ways can fish be processed and preserved?",
     "option_a": "A. salting and smoking",
     "option_b": "B. salting and fermentation",
     "option_c": "C. smoking and fermentation",
     "option_d": "D. smoking and pasteurization",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "The incubation period for turkey is",
     "option_a": "A. 15 days",
     "option_b": "B. 21 days",
     "option_c": "C. 27 days",
     "option_d": "D. 35 days",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Which of the following is commonly used as a source of plant protein in livestock ration?",
     "option_a": "A. maize",
     "option_b": "B. rice bran",
     "option_c": "C. wheat bran",
     "option_d": "D. groundnut cake",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "The brownish flattened and leaf-like parasite found in cattle are called",
     "option_a": "A. tapeworm",
     "option_b": "B. liver flukes",
     "option_c": "C. ticks",
     "option_d": "D. roundworm",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Which of the following decisions will not benefit a farmer?",
     "option_a": "A. what method of production to use",
     "option_b": "B. what to produce",
     "option_c": "C. how and where to dispose of outputs",
     "option_d": "D. diversification of production from the beginning",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Exposing farmers to scientific knowledge is the responsibility of the",
     "option_a": "A. research institute",
     "option_b": "B. farm settlers",
     "option_c": "C. agro-service centres",
     "option_d": "D. extension personnel",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Which of the following is not a source of farm credit?",
     "option_a": "A. cooperative societies",
     "option_b": "B. government agencies",
     "option_c": "C. commercial banks",
     "option_d": "D. agricultural banks",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "The efficiency of agricultural production is not usually improved by the",
     "option_a": "A. use of improved crop varieties and breed of livestock",
     "option_b": "B. increased use of manure and fertilizer",
     "option_c": "C. control of pest, diseases and weeds",
     "option_d": "D. use of better farm equipment and tools",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Which of the following is a reason for often marketing harvested crops immediately after harvest?",
     "option_a": "A. there is the lack of storage facilities for harvest crops",
     "option_b": "B. crops cannot be processed immediately",
     "option_c": "C. much more income is generated by early sale",
     "option_d": "D. pests attack only harvested crops",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "The best method of introducing a new herbicide to rural farmers is through",
     "option_a": "A. mass media",
     "option_b": "B. circular letters",
     "option_c": "C. farmer's cooperative",
     "option_d": "D. group meeting with farmers",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Peasant farmers sell almost all their produce immediately after harvesting because",
     "option_a": "A. stored produce would be lost to pests",
     "option_b": "B. there are inadequate storage facilities",
     "option_c": "C. stored produce lose their quality",
     "option_d": "D. the commonest method of land tenure in nigeria",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "The commonest method of land tenure in Nigeria is",
     "option_a": "A. lease",
     "option_b": "B. inheritance",
     "option_c": "C. outright purchase",
     "option_d": "D. pledge",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Which of the following constitutes a direct monetary cash assistance from government to farmers?",
     "option_a": "A. agricultural development programmes",
     "option_b": "B. extension services",
     "option_c": "C. supply of inputs",
     "option_d": "D. loans",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "The cross-section of a segment of soil showing the horizons or layers is known as the soil",
     "option_a": "A. structure",
     "option_b": "B. texture",
     "option_c": "C. section",
     "option_d": "D. depth",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "If a crop requires 1.5 kg phosphorus per hectare, how many kg of manure will be required per hectare if 1 kg manure contains 0.49 kg of phosphorus?",
     "option_a": "A. 2.47",
     "option_b": "B. 2.97",
     "option_c": "C. 7.35",
     "option_d": "D. 12.39",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "The factor that does not influence land use is",
     "option_a": "A. toptgraphy",
     "option_b": "B. population pressure",
     "option_c": "C. population graph",
     "option_d": "D. forest establishment",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Which of the following environmental factors is likely to have the greatest influence on crop production in Nigeria?",
     "option_a": "A. temperature",
     "option_b": "B. vegetation",
     "option_c": "C. air movement",
     "option_d": "D. moisture",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "The process whereby rocks are broken down into small particles through both physical and chemical factors is known as",
     "option_a": "A. rock hydration",
     "option_b": "B. rock degradation",
     "option_c": "C. oxidation",
     "option_d": "D. erosion",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "The parent material of a soil is formed from the disintegration of",
     "option_a": "A. sand",
     "option_b": "B. gravel",
     "option_c": "C. silt",
     "option_d": "D. rock",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "15",
     "question_text": "Nitrogen is made available to plants in the form of nitrates through the process of",
     "option_a": "A. deamination and nitrification",
     "option_b": "B. ammonification and denitrification",
-    "option_c": "C. deamination and ammonification",
-    "option_d": "D. nitrification and dentrification",
-    "correct_option": ""
-  },
+    "option_c": "C. ammonification and nitrification",
+    "option_d": "D. deamination and denitrification",
+    "correct_option": "C"
+  }
+]
+
+
+
+
+
+
+
+
+
+# Unanswered and unuploaded
+[
   {
     "course_id": "3",
     "question_text": "Which of the following is not an effect of burning on the soil?",
