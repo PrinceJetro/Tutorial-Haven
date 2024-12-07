@@ -1,2266 +1,1856 @@
-# Uplaoded
-
 [
   {
-    "course_id": "15",
-    "question_text": "Granite is",
-    "option_a": "A. a sedimentary rock",
-    "option_b": "B. a weathered rock",
-    "option_c": "C. a metamorphic rock",
-    "option_d": "D. an igneous rock",
-    "correct_option": "D"
-  },
-  {
-    "course_id": "15",
-    "question_text": "In which layer of the soil profile does most biological activity occur?",
-    "option_a": "A. parent material",
-    "option_b": "B. D-horizon",
-    "option_c": "C. C-horizon",
-    "option_d": "D. B-horizon",
-    "correct_option": "D"
-  },
-  {
-    "course_id": "15",
-    "question_text": "When leaves of crop plants show brownish coloration from the tips of the mid-ribs backward, they are showing deficiency symptom of",
-    "option_a": "A. magnesium",
-    "option_b": "B. zinc",
-    "option_c": "C. nitrogen",
-    "option_d": "D. copper",
+    "course_id": "3",
+    "question_text": "The problems associated with land tenure through inheritance include the following except",
+    "option_a": "A. small land holdings for family members",
+    "option_b": "B. hatred among family members arising from land sharing",
+    "option_c": "C. right of individuals to free use and control of inherited land",
+    "option_d": "D. individuals being restricted to their plots",
     "correct_option": "C"
   },
   {
-    "course_id": "15",
-    "question_text": "Which of the following farm practices can prevent excessive evaporation from soil surfaces?",
-    "option_a": "A. liming",
-    "option_b": "B. mulching",
-    "option_c": "C. weeding",
-    "option_d": "D. harrowing",
+    "course_id": "3",
+    "question_text": "The major reason which necessitates the<br>\nexpansion of agriculture is the increase in",
+    "option_a": "A. rainfalls",
+    "option_b": "B. population",
+    "option_c": "C. manpower",
+    "option_d": "D. animal power",
     "correct_option": "B"
   },
   {
-    "course_id": "15",
-    "question_text": "Which of the following is not associated with surface irrigation?",
-    "option_a": "A. natural flooding",
-    "option_b": "B. check flooding",
-    "option_c": "C. sprinkler irrigation",
-    "option_d": "D. mole drains",
+    "course_id": "3",
+    "question_text": "Which of the following groups of crops are<br>\nmostly cultivated in the rainforest zone of<br>\nNigeria?",
+    "option_a": "A. Millet, yam and coconut",
+    "option_b": "B. Maize, cocoyam and cassava",
+    "option_c": "C. Sorghum, sweet potato and date",
+    "option_d": "D. Wheat, Irish potato and groundnut",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "In farm animals, gonads are organs associated<br>\nwith",
+    "option_a": "A. circulation",
+    "option_b": "B. excretion",
+    "option_c": "C. respiration",
+    "option_d": "D. reproduction.",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Which of the following combinations of farm<br>\ninputs enhances the healthy growth of crop?",
+    "option_a": "A. Tractor and cash",
+    "option_b": "B. Irrigation and fertilizer",
+    "option_c": "C. Work bull and implement",
+    "option_d": "D. Cutlass and sacks",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "When farmers engages in both plant and animal<br>\nhusbandry, he is practising",
+    "option_a": "A. lay farming",
+    "option_b": "B. mixed framing",
+    "option_c": "C. mixed cropping",
+    "option_d": "D. crop rotation",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "The classification of soils into sand, loam and<br>\nclay is largely determine by the percentage of",
+    "option_a": "A. mineral matter",
+    "option_b": "B. organic matter",
+    "option_c": "C. soil water",
+    "option_d": "D. soil air",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "An example of igneous rock is",
+    "option_a": "A. marble",
+    "option_b": "B. basalt",
+    "option_c": "C. slate",
+    "option_d": "D. dolomite.",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "The most devastating agent of erosion is",
+    "option_a": "A. wild wind",
+    "option_b": "B. slope",
+    "option_c": "C. run-off water",
+    "option_d": "D. rodents.",
     "correct_option": "C"
   },
   {
-    "course_id": "15",
-    "question_text": "Which of the following types of soil contains particles of diameter between 0.02 mm and 2.0 mm?",
-    "option_a": "A. sand",
-    "option_b": "B. silt",
-    "option_c": "C. gravel",
-    "option_d": "D. clay",
-    "correct_option": "A"
-  },
-  {
-    "course_id": "15",
-    "question_text": "A farmer cultivating leafy vegetables will require fertilizers with a relatively high content of",
-    "option_a": "A. calcium",
-    "option_b": "B. magnesium",
-    "option_c": "C. potassium",
-    "option_d": "D. nitrogen",
-    "correct_option": "D"
-  },
-  {
-    "course_id": "15",
-    "question_text": "The earthworm is important to the farmer because it",
-    "option_a": "A. improves soil structure",
-    "option_b": "B. improves soil texture",
-    "option_c": "C. destroys soil pathogens",
-    "option_d": "D. adds nutrients to the soil",
-    "correct_option": "A"
-  },
-  {
-    "course_id": "15",
-    "question_text": "The type of rocks formed from molten magma is known as",
-    "option_a": "A. sedimentary",
-    "option_b": "B. igneous",
-    "option_c": "C. metamorphic",
-    "option_d": "D. schist",
-    "correct_option": "B"
-  },
-  {
-    "course_id": "15",
-    "question_text": "The relationship between the microorganisms and plant in the nitrogen cycle is best described as",
-    "option_a": "A. parasitism",
-    "option_b": "B. commensalism",
-    "option_c": "C. competition",
-    "option_d": "D. symbiosis",
-    "correct_option": "D"
-  },
-  {
-    "course_id": "15",
-    "question_text": "The type of energy obtained from the sun for agricultural uses is known as",
-    "option_a": "A. potential energy",
-    "option_b": "B. mechanical energy",
-    "option_c": "C. nuclear energy",
-    "option_d": "D. solar energy",
-    "correct_option": "D"
-  },
-  {
-    "course_id": "15",
-    "question_text": "Which of the following implements will be used for the next farm operation after clearing a new farmland?",
-    "option_a": "A. harrow",
-    "option_b": "B. ridger",
-    "option_c": "C. cultivator",
-    "option_d": "D. planter",
-    "correct_option": "A"
-  },
-  {
-    "course_id": "15",
-    "question_text": "Which of the following cannot be used to rub the metal parts of farm tools before storage?",
-    "option_a": "A. grease",
-    "option_b": "B. palm oil",
-    "option_c": "C. water",
-    "option_d": "D. petroleum jelly",
-    "correct_option": "C"
-  },
-  {
-    "course_id": "15",
-    "question_text": "The common surveying equipment for farmland include the following except",
-    "option_a": "A. ranging pole",
-    "option_b": "B. prismatic compass",
-    "option_c": "C. measuring tape",
-    "option_d": "D. gunter's chain",
-    "correct_option": "B"
-  },
-  {
-    "course_id": "15",
-    "question_text": "An example of fungal disease of stored grains is",
-    "option_a": "A. rosette",
-    "option_b": "B. wilt",
-    "option_c": "C. soft rot",
-    "option_d": "D. damping off",
-    "correct_option": "D"
-  },
-  {
-    "course_id": "15",
-    "question_text": "A small plot of land where intensive cultivation is practiced to produce vegetables is generally referred to as",
-    "option_a": "A. an orchard",
-    "option_b": "B. a plantation",
-    "option_c": "C. a nursery",
-    "option_d": "D. a garden",
-    "correct_option": "D"
-  },
-  {
-    "course_id": "15",
-    "question_text": "Which of the following plants is not classified as forage grass?",
-    "option_a": "A. giant star",
-    "option_b": "B. guinea grass",
-    "option_c": "C. elephant grass",
-    "option_d": "D. gamba grass",
-    "correct_option": "A"
-  },
-  {
-    "course_id": "15",
-    "question_text": "The plant-a-tree-campaign of the Federal Government of Nigeria is a way of encouraging forest",
-    "option_a": "A. regulation",
-    "option_b": "B. exploration",
-    "option_c": "C. exploitation",
-    "option_d": "D. integration",
-    "correct_option": "A"
-  },
-  {
-    "course_id": "15",
-    "question_text": "Which of the following is not a method of controlling pests?",
-    "option_a": "A. quarantine",
+    "course_id": "3",
+    "question_text": "A farming practice that encourages the depletion of soil fertility is",
+    "option_a": "A. planting of cover crops",
     "option_b": "B. crop rotation",
-    "option_c": "C. fumigation",
-    "option_d": "D. trapping",
-    "correct_option": "C"
-  },
-  {
-    "course_id": "15",
-    "question_text": "The most effective method of controlling or preventing viral diseases in plants is by",
-    "option_a": "A. planting resistant varieties",
-    "option_b": "B. spraying crops regularly",
-    "option_c": "C. burning affected crops",
-    "option_d": "D. practising crop rotation",
-    "correct_option": "A"
-  },
-  {
-    "course_id": "15",
-    "question_text": "Reduction of ten seedlings of pawpaw to two per stand is referred to as",
-    "option_a": "A. pruning",
-    "option_b": "B. thinning",
-    "option_c": "C. uprooting",
-    "option_d": "D. weeding",
-    "correct_option": "B"
-  },
-  {
-    "course_id": "15",
-    "question_text": "Which of the following describes the steps in making hay?",
-    "option_a": "A. cut-sun-bale",
-    "option_b": "B. dry-silage-silo",
-    "option_c": "C. soilage-ferment-cut",
-    "option_d": "D. cut-graze-paddock",
-    "correct_option": "A"
-  },
-  {
-    "course_id": "15",
-    "question_text": "A situation where only specified trees in a forest reserve are cut down is known as",
-    "option_a": "A. selection",
-    "option_b": "B. afforestation",
-    "option_c": "C. reforestation",
-    "option_d": "D. selective exploitation",
+    "option_c": "C. manual weeding",
+    "option_d": "D. continuous cropping",
     "correct_option": "D"
   },
   {
-    "course_id": "15",
-    "question_text": "The causative organism of maize rust is",
-    "option_a": "A. a fungus",
-    "option_b": "B. a virus",
-    "option_c": "C. a bacterium",
-    "option_d": "D. an insect",
-    "correct_option": "A"
+    "course_id": "3",
+    "question_text": "The kind of tillage method most suitable for<br>\nmaize is",
+    "option_a": "A. zero tillage",
+    "option_b": "B. minimum tillage",
+    "option_c": "C. maximum tillage",
+    "option_d": "D. contour ridges",
+    "correct_option": "B"
   },
   {
-    "course_id": "15",
-    "question_text": "The reproductive cells of crops are called",
-    "option_a": "A. gametes",
-    "option_b": "B. genes",
-    "option_c": "C. chromosomes",
-    "option_d": "D. anthers",
-    "correct_option": "A"
-  },
-  {
-    "course_id": "15",
-    "question_text": "Which of the following fruits is a capsule?",
-    "option_a": "A. okra",
+    "course_id": "3",
+    "question_text": "/d  Use the diagram below to this answer<br>\n<br>\nThe structure labeled I represents a",
+    "option_a": "A. root tuber",
     "option_b": "B. groundnut",
-    "option_c": "C. mango",
-    "option_d": "D. coconut",
-    "correct_option": "A"
-  },
-  {
-    "course_id": "15",
-    "question_text": "Birds are important pests of",
-    "option_a": "A. tree crops",
-    "option_b": "B. legumes",
-    "option_c": "C. cereal",
-    "option_d": "D. vegetable crops",
-    "correct_option": "C"
-  },
-  {
-    "course_id": "15",
-    "question_text": "The agent of controlled pollination in plants is",
-    "option_a": "A. wind",
-    "option_b": "B. insect",
-    "option_c": "C. man",
-    "option_d": "D. bird",
-    "correct_option": "C"
-  },
-  {
-    "course_id": "15",
-    "question_text": "Ginning is the process of",
-    "option_a": "A. extracting cotton seed oil",
-    "option_b": "B. separating fibres from the bark of kena",
-    "option_c": "C. grinding cotton seeds",
-    "option_d": "D. separating cotton fibre from its seed",
+    "option_c": "C. root nodule",
+    "option_d": "D. root hair.",
     "correct_option": "D"
   },
   {
-    "course_id": "15",
-    "question_text": "The groundnut rosette virus is transmitted by",
-    "option_a": "A. aphid",
-    "option_b": "B. mealy bug",
-    "option_c": "C. wind",
-    "option_d": "D. rainsplash",
+    "course_id": "3",
+    "question_text": "d  Use the diagram below to this answer<br>\n<br>\nThis type of root is associated with",
+    "option_a": "A. nitrogen fixation",
+    "option_b": "B. photosynthesis",
+    "option_c": "C. storage of organic acids",
+    "option_d": "D. storage of minerals",
     "correct_option": "A"
   },
   {
-    "course_id": "15",
-    "question_text": "Which of the following farm animals possess a pair of caeca?",
-    "option_a": "A. pigs",
-    "option_b": "B. cattles",
-    "option_c": "C. sheep",
-    "option_d": "D. rabbits",
-    "correct_option": "D"
-  },
-  {
-    "course_id": "15",
-    "question_text": "The head of the tapeworm is known as the",
-    "option_a": "A. sucker",
-    "option_b": "B. rostellum",
-    "option_c": "C. scolex",
-    "option_d": "D. hook",
+    "course_id": "3",
+    "question_text": "Self-pollination takes place when grains are<br>\ntransferred from the",
+    "option_a": "A. stigma to the anther of another plant",
+    "option_b": "B. stigma to the anther of same plant",
+    "option_c": "C. anther to the stigma of same plant",
+    "option_d": "D. anther to the stigma of another plant.",
     "correct_option": "C"
   },
   {
-    "course_id": "15",
-    "question_text": "Which of the following is not a function of the ruminal microorganism?",
-    "option_a": "A. digestion of cellulose",
-    "option_b": "B. conversion of plant proteins into microbial protein",
-    "option_c": "C. production of vitamin B",
-    "option_d": "D. production of gas in the rumen",
-    "correct_option": "D"
-  },
-  {
-    "course_id": "15",
-    "question_text": "Which of the following factors would you consider the least important for the successful incubation of eggs?",
-    "option_a": "A. light",
-    "option_b": "B. temperature",
-    "option_c": "C. ventilation",
-    "option_d": "D. relative humidity",
-    "correct_option": "A"
-  },
-  {
-    "course_id": "15",
-    "question_text": "In which area of Nigeria is the kuri breed of cattle commonly found?",
-    "option_a": "A. borno",
-    "option_b": "B. sokoto",
-    "option_c": "C. plateau",
-    "option_d": "D. obudu",
-    "correct_option": "A"
-  },
-  {
-    "course_id": "15",
-    "question_text": "Crops grown primarily for feeding animals are known as",
-    "option_a": "A. vegetables",
-    "option_b": "B. cereal",
-    "option_c": "C. forage",
-    "option_d": "D. legumes",
-    "correct_option": "C"
-  },
-  {
-    "course_id": "15",
-    "question_text": "Which of the following feeding stuff should be increased in the diet of laying birds?",
-    "option_a": "A. palm kernel meal",
-    "option_b": "B. bone meal",
-    "option_c": "C. groundnut cake",
-    "option_d": "D. vitamin supplement",
+    "course_id": "3",
+    "question_text": "Which of the following parts of plants are<br>\nnormally used for vegetative propagation?",
+    "option_a": "A. Fruit, leaf and root.",
+    "option_b": "B. Stem, root and leaf.",
+    "option_c": "C. Fruit, leaf and flower",
+    "option_d": "D. Leaf, flower and stem.",
     "correct_option": "B"
   },
   {
-    "course_id": "15",
-    "question_text": "The following livestock diseases are caused by viruses except",
-    "option_a": "A. anthrax",
-    "option_b": "B. foot and mouth dieases",
-    "option_c": "C. rinderpest",
-    "option_d": "D. nhewcastle diseases",
-    "correct_option": "A"
-  },
-  {
-    "course_id": "15",
-    "question_text": "Fingerlings refer to the young of",
-    "option_a": "A. rabbit",
-    "option_b": "B. guinea pig",
-    "option_c": "C. fish",
-    "option_d": "D. turkey",
-    "correct_option": "C"
-  },
-  {
-    "course_id": "15",
-    "question_text": "The practice of progeny selection involves selecting bread stock on the basis of the",
-    "option_a": "A. performance of offspring",
-    "option_b": "B. parental characteristics",
-    "option_c": "C. sire-dam relationship",
-    "option_d": "D. individual merits of each animal",
-    "correct_option": "A"
-  },
-  {
-    "course_id": "15",
-    "question_text": "The most important symptom of brucellosis in cattle is",
-    "option_a": "A. abortion",
-    "option_b": "B. swollen testes",
-    "option_c": "C. lamencess",
-    "option_d": "D. swollen joints",
-    "correct_option": "A"
-  },
-  {
-    "course_id": "15",
-    "question_text": "Which of the following is not a sign of heat in animals?",
-    "option_a": "A. mounting of other animals",
-    "option_b": "B. mucous discharge from the vulva",
-    "option_c": "C. restlessness",
-    "option_d": "D. grunting sound",
-    "correct_option": "D"
-  },
-  {
-    "course_id": "15",
-    "question_text": "Which of the following practices would a farmer not likely adopt in pig management?",
-    "option_a": "A. ear notching",
-    "option_b": "B. deworming",
-    "option_c": "C. castration",
-    "option_d": "D. feeding iron supplement",
-    "correct_option": "A"
-  },
-  {
-    "course_id": "15",
-    "question_text": "Feeds with high amount of fibre are classified as",
-    "option_a": "A. concentrates",
-    "option_b": "B. roughages",
-    "option_c": "C. hay",
-    "option_d": "D. silage",
+    "course_id": "3",
+    "question_text": "The most suitable planting pattern for a<br>\nmechanized farm which is mono cropped is",
+    "option_a": "A. band placement",
+    "option_b": "B. drilling",
+    "option_c": "C. top dressing",
+    "option_d": "D. side dressing",
     "correct_option": "B"
   },
   {
-    "course_id": "15",
-    "question_text": "In birds, loss of appetite, respiratory difficulties and nervous paralysis are symptoms of",
-    "option_a": "A. coccidiosis",
-    "option_b": "B. fowl pox",
-    "option_c": "C. newcastle diseases",
-    "option_d": "D. fowl typhoid",
-    "correct_option": "C"
-  },
-  {
-    "course_id": "15",
-    "question_text": "In which of the following ways can fish be processed and preserved?",
-    "option_a": "A. salting and smoking",
-    "option_b": "B. salting and fermentation",
-    "option_c": "C. smoking and fermentation",
-    "option_d": "D. smoking and pasteurization",
-    "correct_option": "A"
-  },
-  {
-    "course_id": "15",
-    "question_text": "The incubation period for turkey is",
-    "option_a": "A. 15 days",
-    "option_b": "B. 21 days",
-    "option_c": "C. 27 days",
-    "option_d": "D. 35 days",
-    "correct_option": "C"
-  },
-  {
-    "course_id": "15",
-    "question_text": "Which of the following is commonly used as a source of plant protein in livestock ration?",
-    "option_a": "A. maize",
-    "option_b": "B. rice bran",
-    "option_c": "C. wheat bran",
-    "option_d": "D. groundnut cake",
-    "correct_option": "D"
-  },
-  {
-    "course_id": "15",
-    "question_text": "The brownish flattened and leaf-like parasite found in cattle are called",
-    "option_a": "A. tapeworm",
-    "option_b": "B. liver flukes",
-    "option_c": "C. ticks",
-    "option_d": "D. roundworm",
+    "course_id": "3",
+    "question_text": "Jute and kenaf thrive well in a soil that is",
+    "option_a": "A. clayey",
+    "option_b": "B. sandy loam",
+    "option_c": "C. clayey loam",
+    "option_d": "D. humus.",
     "correct_option": "B"
   },
   {
-    "course_id": "15",
-    "question_text": "Which of the following decisions will not benefit a farmer?",
-    "option_a": "A. what method of production to use",
-    "option_b": "B. what to produce",
-    "option_c": "C. how and where to dispose of outputs",
-    "option_d": "D. diversification of production from the beginning",
-    "correct_option": "D"
-  },
-  {
-    "course_id": "15",
-    "question_text": "Exposing farmers to scientific knowledge is the responsibility of the",
-    "option_a": "A. research institute",
-    "option_b": "B. farm settlers",
-    "option_c": "C. agro-service centres",
-    "option_d": "D. extension personnel",
-    "correct_option": "D"
-  },
-  {
-    "course_id": "15",
-    "question_text": "Which of the following is not a source of farm credit?",
-    "option_a": "A. cooperative societies",
-    "option_b": "B. government agencies",
-    "option_c": "C. commercial banks",
-    "option_d": "D. agricultural banks",
-    "correct_option": "B"
-  },
-  {
-    "course_id": "15",
-    "question_text": "The efficiency of agricultural production is not usually improved by the",
-    "option_a": "A. use of improved crop varieties and breed of livestock",
-    "option_b": "B. increased use of manure and fertilizer",
-    "option_c": "C. control of pest, diseases and weeds",
-    "option_d": "D. use of better farm equipment and tools",
-    "correct_option": "B"
-  },
-  {
-    "course_id": "15",
-    "question_text": "Which of the following is a reason for often marketing harvested crops immediately after harvest?",
-    "option_a": "A. there is the lack of storage facilities for harvest crops",
-    "option_b": "B. crops cannot be processed immediately",
-    "option_c": "C. much more income is generated by early sale",
-    "option_d": "D. pests attack only harvested crops",
-    "correct_option": "A"
-  },
-  {
-    "course_id": "15",
-    "question_text": "The best method of introducing a new herbicide to rural farmers is through",
-    "option_a": "A. mass media",
-    "option_b": "B. circular letters",
-    "option_c": "C. farmer's cooperative",
-    "option_d": "D. group meeting with farmers",
-    "correct_option": "D"
-  },
-  {
-    "course_id": "15",
-    "question_text": "Peasant farmers sell almost all their produce immediately after harvesting because",
-    "option_a": "A. stored produce would be lost to pests",
-    "option_b": "B. there are inadequate storage facilities",
-    "option_c": "C. stored produce lose their quality",
-    "option_d": "D. the commonest method of land tenure in nigeria",
-    "correct_option": "B"
-  },
-  {
-    "course_id": "15",
-    "question_text": "The commonest method of land tenure in Nigeria is",
-    "option_a": "A. lease",
-    "option_b": "B. inheritance",
-    "option_c": "C. outright purchase",
-    "option_d": "D. pledge",
-    "correct_option": "B"
-  },
-  {
-    "course_id": "15",
-    "question_text": "Which of the following constitutes a direct monetary cash assistance from government to farmers?",
-    "option_a": "A. agricultural development programmes",
-    "option_b": "B. extension services",
-    "option_c": "C. supply of inputs",
-    "option_d": "D. loans",
-    "correct_option": "D"
-  },
-  {
-    "course_id": "15",
-    "question_text": "The cross-section of a segment of soil showing the horizons or layers is known as the soil",
-    "option_a": "A. structure",
-    "option_b": "B. texture",
-    "option_c": "C. section",
-    "option_d": "D. depth",
-    "correct_option": "C"
-  },
-  {
-    "course_id": "15",
-    "question_text": "If a crop requires 1.5 kg phosphorus per hectare, how many kg of manure will be required per hectare if 1 kg manure contains 0.49 kg of phosphorus?",
-    "option_a": "A. 2.47",
-    "option_b": "B. 2.97",
-    "option_c": "C. 7.35",
-    "option_d": "D. 12.39",
-    "correct_option": "A"
-  },
-  {
-    "course_id": "15",
-    "question_text": "The factor that does not influence land use is",
-    "option_a": "A. toptgraphy",
-    "option_b": "B. population pressure",
-    "option_c": "C. population graph",
-    "option_d": "D. forest establishment",
-    "correct_option": "C"
-  },
-  {
-    "course_id": "15",
-    "question_text": "Which of the following environmental factors is likely to have the greatest influence on crop production in Nigeria?",
-    "option_a": "A. temperature",
-    "option_b": "B. vegetation",
-    "option_c": "C. air movement",
-    "option_d": "D. moisture",
-    "correct_option": "D"
-  },
-  {
-    "course_id": "15",
-    "question_text": "The process whereby rocks are broken down into small particles through both physical and chemical factors is known as",
-    "option_a": "A. rock hydration",
-    "option_b": "B. rock degradation",
-    "option_c": "C. oxidation",
-    "option_d": "D. erosion",
-    "correct_option": "D"
-  },
-  {
-    "course_id": "15",
-    "question_text": "The parent material of a soil is formed from the disintegration of",
-    "option_a": "A. sand",
-    "option_b": "B. gravel",
-    "option_c": "C. silt",
-    "option_d": "D. rock",
-    "correct_option": "D"
-  },
-  {
-    "course_id": "15",
-    "question_text": "Nitrogen is made available to plants in the form of nitrates through the process of",
-    "option_a": "A. deamination and nitrification",
-    "option_b": "B. ammonification and denitrification",
-    "option_c": "C. ammonification and nitrification",
-    "option_d": "D. deamination and denitrification",
-    "correct_option": "C"
-  }
-]
-
-
-
-
-
-
-
-
-
-# Unanswered and unuploaded
-[
-  {
     "course_id": "3",
-    "question_text": "Which of the following is not an effect of burning on the soil?",
-    "option_a": "A. increasing the organic matter in the soil",
-    "option_b": "B. increasing the soil nutrients",
-    "option_c": "C. increasing the acidity of the soil",
-    "option_d": "D. exposing the soil to erosion",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The function of soil micro-organisms include the following except",
-    "option_a": "A. decomposition of dead plant and animal remains",
-    "option_b": "B. recycling of nutrients",
-    "option_c": "C. causing plant or animal diesases",
-    "option_d": "D. living as parasites on crop plants",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Slate is derived from",
-    "option_a": "A. schist",
-    "option_b": "B. sandstone",
-    "option_c": "C. shale",
-    "option_d": "D. gneiss",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The following are advantages of the sprinkler method of irrigation except",
-    "option_a": "A. rate of application of irrigation water can be controlled",
-    "option_b": "B. portable nature of many sprinkler system make them suitable for use",
-    "option_c": "C. the sprinkler system can be made automatic",
-    "option_d": "D. method can be where topography affects horrowing of land",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Rhizobium supplies nitrogen to leguminous plants by",
-    "option_a": "A. changing some mineral salts to sulphate of ammonia",
-    "option_b": "B. incoporating urea into its body",
-    "option_c": "C. fixing atmospheric nitrogen",
-    "option_d": "D. decomposing plant remains",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The advantage of providing drainage ditches in farms is that it",
-    "option_a": "A. requires periodic clearing",
-    "option_b": "B. is inconvenient for farm mechanization",
-    "option_c": "C. is labour intensive",
-    "option_d": "D. is unsuitable for draining basement of farm buildings",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following sources of farm power cannot be effectively used for processing agricultural products?",
-    "option_a": "A. animals",
-    "option_b": "B. electricity",
-    "option_c": "C. sun",
-    "option_d": "D. machines",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The instrument used to measure the relative humidity is",
-    "option_a": "A. thermometer",
-    "option_b": "B. anemometer",
-    "option_c": "C. hygrometer",
-    "option_d": "D. hydrometer",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The most important limitation of agricultural mechanization is",
-    "option_a": "A. small holdings",
-    "option_b": "B. lack of technical know-how",
-    "option_c": "C. poor marketing system",
-    "option_d": "D. inadequate storage facilities",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The best tool(s) a farmer should use to measure out a large farm accurately include(s) the",
-    "option_a": "A. garden line and measuring tape",
-    "option_b": "B. measuring tape and ranging poles",
-    "option_c": "C. measuring tape only",
-    "option_d": "D. garden line only",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The distance between two successive yam mounds should be about",
-    "option_a": "A. 0.10 m",
-    "option_b": "B. 1.00 m",
-    "option_c": "C. 10.00 m",
-    "option_d": "D. 100.00 m",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The desirable characteristics of forage crops include the following except",
-    "option_a": "A. palatability",
-    "option_b": "B. dependability",
-    "option_c": "C. high yield",
-    "option_d": "D. resistance to trampling",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The growing of both forest and agricultural crops on the same piece of land is termed",
-    "option_a": "A. mixed cropping",
-    "option_b": "B. mixed farming",
-    "option_c": "C. forestry",
-    "option_d": "D. taungya system",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following is not an effect on man of the various preventive and control measures of diseases and pests of crops?",
-    "option_a": "A. air pollution",
-    "option_b": "B. water poisoning",
-    "option_c": "C. food contamination",
-    "option_d": "D. poor health",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The units of inheritance which determine the various characteristics of crop are called",
-    "option_a": "A. chromosomes",
-    "option_b": "B. nuclei",
-    "option_c": "C. genes",
-    "option_d": "D. cytoplasm",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following crops is a raw material for production of chocolate?",
-    "option_a": "A. kolanut",
-    "option_b": "B. coffee",
-    "option_c": "C. banana",
-    "option_d": "D. cocoa",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "In the establishment of pastures, it is best to",
-    "option_a": "A. plant only grasses",
-    "option_b": "B. plant only legumes",
-    "option_c": "C. plant a mixture of grasses and legumes",
-    "option_d": "D. let the natural grasses grow",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "A forest established for watershed management will perform the following functions except",
-    "option_a": "A. reducing water pollution",
-    "option_b": "B. controlling fish population",
-    "option_c": "C. controlling erosion",
-    "option_d": "D. maintaining a steady stream flow",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The disease which most attacks groundnut is called",
-    "option_a": "A. rosette",
-    "option_b": "B. mosaic",
-    "option_c": "C. soft rot",
-    "option_d": "D. powdery mildew",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The process of meiosis in plants ensures the production of reproduction of reproductive cells with",
-    "option_a": "A. the same number of chromosomes like the parent plant",
-    "option_b": "B. half the number of chromosomes of the parent plant",
-    "option_c": "C. no chromosomes like the parent plant",
-    "option_d": "D. thrice the number of chromosomes of the parent plant",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Why should a seed-producing farmer spray an insecticide on his crops only when the bees are not around?",
-    "option_a": "A. the bees would sting him and he therefore avoids them",
-    "option_b": "B. the farmer does not want to waste his chemicals",
-    "option_c": "C. bees are important for pollination of his crops",
-    "option_d": "D. bees produce honey for him in his farm",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The average seed rate for maize is 25 kg per hectare. Allowing for a seed wastage of 5 per cent.How many kilogram of seeds would be required in planting 10 hectares of farmland?",
-    "option_a": "A. 237.5",
-    "option_b": "B. 238.0",
-    "option_c": "C. 250.0",
-    "option_d": "D. 255.0",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Thrips cause serious mechanical damages to crops by their",
-    "option_a": "A. feeding activities on flowers, leaves and fruits",
-    "option_b": "B. laying eggs on plants",
-    "option_c": "C. sucking of the sap of crops",
-    "option_d": "D. burrowing activities causing damping off in crops",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The expression of a gene in the phenotype irrespective of whether the cell is homozygous or heterozygous is known as",
-    "option_a": "A. recessive",
-    "option_b": "B. partial dominance",
-    "option_c": "C. test-cross",
-    "option_d": "D. segregation",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Vegetables propagation can be carried out through the following processes except",
-    "option_a": "A. seedling",
-    "option_b": "B. cutting",
-    "option_c": "C. layering",
-    "option_d": "D. grafting",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Contact insecticides are used to control",
-    "option_a": "A. pod borers of legumes",
-    "option_b": "B. stem borers of cereal",
-    "option_c": "C. leaf beetles of legumes",
-    "option_d": "D. peel worm of legumes",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The part of the ruminant stomach from which digestive juices secreted is the",
-    "option_a": "A. rumen",
-    "option_b": "B. reticulum",
-    "option_c": "C. omasum",
-    "option_d": "D. paunch",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "At which of the following ages are gilts normally mated?",
-    "option_a": "A. 8 - 12 months",
-    "option_b": "B. 14 - 15 months",
-    "option_c": "C. 15 - 20 months",
-    "option_d": "D. 21 - 24 months",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following breeds of cattle is regarded as the best dairy breed in Nigeria?",
-    "option_a": "A. red bororo",
-    "option_b": "B. keteku",
-    "option_c": "C. sokoto gudali",
-    "option_d": "D. muturu",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The symptoms of vitamin deficiency diseases in livestock includes the following",
-    "option_a": "A. scurvy",
-    "option_b": "B. loss of appetite",
-    "option_c": "C. poor blood clotting",
-    "option_d": "D. improved fertility",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "A protozoan diseases of livestock not transmitted by a vector is",
-    "option_a": "A. coccidiosis",
-    "option_b": "B. babesiosis",
-    "option_c": "C. trypanosomiasis",
-    "option_d": "D. redwater",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The best method(s) of regulating fish capture is/are",
-    "option_a": "A. gill netting and electro-fishing",
-    "option_b": "B. quota and mesh-size control",
-    "option_c": "C. beach seine method",
-    "option_d": "D. active netting",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following is not a factor of improvement in breeding cattle?",
-    "option_a": "A. fertility",
-    "option_b": "B. butter-fat percentage",
-    "option_c": "C. weaning weight",
-    "option_d": "D. feed efficiency",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following is not a factor of improvement in breeding cattle?",
-    "option_a": "A. bloat",
-    "option_b": "B. night blindness",
-    "option_c": "C. milk fever",
-    "option_d": "D. infertility",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The act of giving birth in rabbits is known as",
-    "option_a": "A. kidding",
-    "option_b": "B. farrowing",
-    "option_c": "C. kindling",
-    "option_d": "D. calving",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The exotic breeds of rabbits found in Nigeria include the following except",
-    "option_a": "A. new zealand white",
-    "option_b": "B. chinchila",
-    "option_c": "C. american albino",
-    "option_d": "D. flemish gaint",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Minerals such as contained in oyster shell help animals to",
-    "option_a": "A. build up their body tissue",
-    "option_b": "B. develop their bones and teeth",
-    "option_c": "C. have balanced diet",
-    "option_d": "D. develop immunity against deficiency diseases",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Some of the by-products of fish include the following except",
-    "option_a": "A. fish meal",
-    "option_b": "B. fish silage",
-    "option_c": "C. glue",
-    "option_d": "D. oil",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The commonest ectoparasites of birds are",
-    "option_a": "A. lice",
-    "option_b": "B. fleas",
-    "option_c": "C. ticks",
-    "option_d": "D. mites",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The following factors should be considered when selecting a farm animal irrespective of the use management and cost except",
-    "option_a": "A. heredity",
-    "option_b": "B. age",
-    "option_c": "C. health",
-    "option_d": "D. fecundity",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following is not a factor affecting fertility in farm animals?",
-    "option_a": "A. age",
-    "option_b": "B. ovulation rate",
-    "option_c": "C. number of ova fertilized",
-    "option_d": "D. number of offspring produced",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Low fibre and high energy feeds are classified as",
-    "option_a": "A. supplement",
-    "option_b": "B. concentrates",
-    "option_c": "C. roughages",
-    "option_d": "D. additives",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following is not used for identification purpose in livestock?",
-    "option_a": "A. tattooing",
-    "option_b": "B. branding",
-    "option_c": "C. tagging",
-    "option_d": "D. notching",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "the factors that can predispose animals to diseases include the following except",
-    "option_a": "A. poor housing",
-    "option_b": "B. malnutrition",
-    "option_c": "C. immunity",
-    "option_d": "D. physical injuries",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The following are factors of agricultural production except",
-    "option_a": "A. farmstead",
-    "option_b": "B. land",
-    "option_c": "C. labour",
-    "option_d": "D. capital",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Farm credits given to farmers can be only in form of",
-    "option_a": "A. cash",
-    "option_b": "B. tractor hiring",
-    "option_c": "C. insecticides application",
-    "option_d": "D. fertilizer use",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following is a day-to-day record of work on a farmer's farm?",
-    "option_a": "A. crop yield book",
-    "option_b": "B. labour diary",
-    "option_c": "C. farm inventory",
-    "option_d": "D. produce account",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Most farmers in Nigeria are hesitant in adopting new farming techniques because they",
-    "option_a": "A. are poor and cannot afford to take risks",
-    "option_b": "B. do not trust the extension worker",
-    "option_c": "C. do not accept anything that comes from the government",
-    "option_d": "D. are too old-fashioned to adopt new ideas",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Subsistence farming can be appropriately described as planting of crops and rearing of livestock",
-    "option_a": "A. for the benefit of the whole country",
-    "option_b": "B. as export for earning foreign exchange",
-    "option_c": "C. for the benefit of the community only",
-    "option_d": "D. for the benefit of the farmer and his family",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following is not the role of government in agricultural production?",
-    "option_a": "A. provision of loans and credits",
-    "option_b": "B. building of storage facilities",
-    "option_c": "C. establishment of efficient marketing outlets",
-    "option_d": "D. provision of subsidies",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "In encouraging farmers to produce more of a particular crop, the Nigerian government has helped farmers in marketing that crop through the establishment of",
-    "option_a": "A. rural schools of agriculture",
-    "option_b": "B. markets for the sale of crops",
-    "option_c": "C. marketing boards",
-    "option_d": "D. rural extension offices",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following factors affecting land availability and use is a socio-economic factor?",
-    "option_a": "A. population pressure",
-    "option_b": "B. soil type",
-    "option_c": "C. topography",
-    "option_d": "D. farming systems",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "A crop not requiring more than 750 mm annual rainfall is most suitable for cultivation in",
-    "option_a": "A. swampy forest",
-    "option_b": "B. sahel savanna",
-    "option_c": "C. rain forest",
-    "option_d": "D. sudan savanna",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The major factor influencing the physical or mechanical breakdown of rocks into finer particles include the following except",
-    "option_a": "A. man",
-    "option_b": "B. animal",
-    "option_c": "C. wind",
-    "option_d": "D. water",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following nutrient element is a macro-nutrient?",
-    "option_a": "A. phosphorus",
-    "option_b": "B. zinc",
-    "option_c": "C. iron",
-    "option_d": "D. manganese",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following is a disadvantage of using organic manure on the soil?",
-    "option_a": "A. spreading of pests and diseases",
-    "option_b": "B. reducing the rate of evaporation from soil surfaces",
-    "option_c": "C. improving the nitrogen content of soil",
-    "option_d": "D. increasing the humus content of soil",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following factors is not considered in 5the use of irrigation?",
-    "option_a": "A. weed seed distribution over the farm",
-    "option_b": "B. cost of maintenance",
-    "option_c": "C. availability of water",
-    "option_d": "D. build up of pests and diseases",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "By which of the following ways is the agricultural production in Nigeria affected by topography",
-    "option_a": "A. lowering of crop quality",
-    "option_b": "B. determining the manure requirement of a farm",
-    "option_c": "C. lowering the leve of production",
-    "option_d": "D. increasing the pest incidence on crops",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following will not contribute to soil formation in Nigeria?",
-    "option_a": "A. carbonation",
-    "option_b": "B. oxidation",
-    "option_c": "C. temperature",
-    "option_d": "D. hydrolysis",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The type of soil formed is affected by the following factors except",
-    "option_a": "A. farming systems",
-    "option_b": "B. climate",
-    "option_c": "C. vegetation",
-    "option_d": "D. topography",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following is the function of nitrosomonas in the nitrogen cycle?",
-    "option_a": "A. ammonification",
-    "option_b": "B. volatilization",
-    "option_c": "C. nitrification",
-    "option_d": "D. dentrification",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following farm practices does not have a very harmful effect on the soil?",
-    "option_a": "A. crop rotation",
-    "option_b": "B. land clearing",
-    "option_c": "C. overgrazing",
-    "option_d": "D. flooding",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Soil can be drained by the use of the following except",
-    "option_a": "A. sprinklers",
-    "option_b": "B. channels",
-    "option_c": "C. gutters",
-    "option_d": "D. ditches",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "What are give and take lines often used in farm surveying?",
-    "option_a": "A. leveling measurements of farms",
-    "option_b": "B. chain measurements of farmlands",
-    "option_c": "C. measuring diversion or obstruction in a farmland",
-    "option_d": "D. measuring turning points during surveying",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following is not a limitation of farm mechanization?",
-    "option_a": "A. technical know-how",
-    "option_b": "B. capital",
-    "option_c": "C. small holdings",
-    "option_d": "D. lack of spare parts",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Incubators are used to supply heat to",
-    "option_a": "A. day-old chicks",
-    "option_b": "B. sick fowls in cold weather",
-    "option_c": "C. cockerels to increase their libido",
-    "option_d": "D. poultry attendants for protection against cold",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Root knot of tomato is caused by a",
-    "option_a": "A. fungus",
-    "option_b": "B. bacterium",
-    "option_c": "C. virus",
-    "option_d": "D. protozoan",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "If the seed rate for guinea corn is 5.6 kg per hectare, what will be the amount of seeds required for planting 35 acre farm?",
-    "option_a": "A. 75.1",
-    "option_b": "B. 78.4",
-    "option_c": "C. 568.2",
-    "option_d": "D. 784.5",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The most common weed of pastures in Nigeria is",
-    "option_a": "A. spear grass",
-    "option_b": "B. goat weed",
-    "option_c": "C. water leaf",
-    "option_d": "D. tridax",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The following are forestry crops except",
-    "option_a": "A. tectona grandis",
-    "option_b": "B. gmelina arborea",
-    "option_c": "C. anarcadium",
-    "option_d": "D. pinus eliotis",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The pest designated as a national pest by the Nigeria Agricultural Advisory Council is",
-    "option_a": "A. variegated grasshopper",
-    "option_b": "B. thrips",
-    "option_c": "C. capsid",
-    "option_d": "D. cricket",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following groups comprises only oil crops?",
-    "option_a": "A. groundnut, jute and cotton",
-    "option_b": "B. melon, coconut and sisal hemp",
-    "option_c": "C. coconut, cotton and sunflower",
-    "option_d": "D. sunflower, rubber and jute",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The mosaic symptom commonly associated with viral diseases of crops can be best observed on",
-    "option_a": "A. roots",
-    "option_b": "B. stem",
-    "option_c": "C. leaves",
-    "option_d": "D. fruits",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Pests of crops that feed by piercing and sucking plants include the following except",
-    "option_a": "A. stem borers",
-    "option_b": "B. aphids",
-    "option_c": "C. cocoa mirids",
-    "option_d": "D. cotton stainers",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Maize grows best on",
-    "option_a": "A. sandy soil",
-    "option_b": "B. sandy-clay soil",
-    "option_c": "C. clayey-loam soil",
-    "option_d": "D. loamy soil",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Soil may be exposed to erosion when a pasture is",
-    "option_a": "A. undergrazed",
-    "option_b": "B. overgrazed",
-    "option_c": "C. paddocked",
-    "option_d": "D. weeded",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Taungya farm involves the combination of",
-    "option_a": "A. crop and animal husbandary",
-    "option_b": "B. crop husbandary and forestry",
-    "option_c": "C. forestry and animal husbandary",
-    "option_d": "D. crop husbandary and fish farming",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The destructive effects of variegated grasshoppers are conspicuously observed on",
-    "option_a": "A. cassava and yam crops",
-    "option_b": "B. cocoa and citrus crops",
-    "option_c": "C. cowpea and maize crops",
-    "option_d": "D. maize and cassava crops",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "A castrated male fowl is known as",
-    "option_a": "A. cock",
-    "option_b": "B. capon",
-    "option_c": "C. cockerel",
-    "option_d": "D. hen",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The type of feed which contains the essential nutrients in the right concentrations and proportions is known as",
-    "option_a": "A. growers mash",
-    "option_b": "B. weaners diet",
-    "option_c": "C. creep feed",
-    "option_d": "D. concentrate",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following is not a reason why planting a mixture of grass and legume on a pasture is economical to the farmer? The",
-    "option_a": "A. mixture can harbour pests",
-    "option_b": "B. mixture helps in preventing soil erosion",
-    "option_c": "C. farmer will save on fertilizer",
-    "option_d": "D. mixture provides a balanced feed for livestock",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The parts of the body affected by Newcastle disease of poultry are the",
-    "option_a": "A. digestive and circulatory systems",
-    "option_b": "B. reproductive and excretory tracts",
-    "option_c": "C. nervous system and respiratory tract",
-    "option_d": "D. air-sac and the comb",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "A fish pond in an enclosed body of water is for",
-    "option_a": "A. rearing fish for consumption",
-    "option_b": "B. rearing aquatic organisms for feeding fish",
-    "option_c": "C. storing fish and other organisms",
-    "option_d": "D. keeping ornamental fish and aquatic plants",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The breed of goat noted for its production of high quality morocco leather is the",
-    "option_a": "A. west african dwarf",
-    "option_b": "B. kano brown",
-    "option_c": "C. ouda",
-    "option_d": "D. bornu red",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following is not a source of minerals in animal nutrition?",
-    "option_a": "A. green pastures",
-    "option_b": "B. fish meal",
-    "option_c": "C. blood meal",
-    "option_d": "D. cereal",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The following are all leguminous forage crops except",
-    "option_a": "A. centrosema pubescens",
-    "option_b": "B. vigna sinensis",
-    "option_c": "C. stylodsnyhrd htsvilid",
-    "option_d": "D. panicum maximum",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following livestock diseases is transmitted by ticks?",
-    "option_a": "A. red water",
-    "option_b": "B. coccidiosis",
-    "option_c": "C. aspergillosis",
-    "option_d": "D. trypanosomiasis",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Dissolved oxygen in fish ponds is maintained at normal level in order to",
-    "option_a": "A. accelerate decay of plant materials",
-    "option_b": "B. prevent disease attacks",
-    "option_c": "C. prevent acquatic plants from competing with fish",
-    "option_d": "D. keep fish activities normal",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following is not a quality for selecting livestock?",
-    "option_a": "A. feed consumption",
-    "option_b": "B. egg production",
-    "option_c": "C. mortality rate",
-    "option_d": "D. body weight",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Investments with long life span in agricultural economics are otherwise known as",
-    "option_a": "A. labour",
-    "option_b": "B. entrepreneurship",
-    "option_c": "C. savings deposit",
-    "option_d": "D. profit",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Under normal circumstances, the concept of consumer sovereignty in agriculture implies that",
-    "option_a": "A. the consumer and not the farmer determines what to produce",
-    "option_b": "B. both the farmer and the consumer determine what to produce",
-    "option_c": "C. the consumer and not the farmer owns the means of production",
-    "option_d": "D. the environmental factors determine what to produce",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Agricultural credits given to farmers in form of cash are used by the farmer to",
-    "option_a": "A. disseminate the lastest technique in farming",
-    "option_b": "B. implement new policies",
-    "option_c": "C. investigate the cause of low agricultural production",
-    "option_d": "D. make the total cash value of his crops greater than his expenses",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Farm records and account help the farmer to",
-    "option_a": "A. manage his farm as a business",
-    "option_b": "B. repair his tools and machinery",
-    "option_c": "C. transport his crop to the market",
-    "option_d": "D. be less dependent on farming for an income",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The disbanded produce marketing boards in Nigeria dealt with the following commodities except",
-    "option_a": "A. oil palm",
-    "option_b": "B. rubber",
-    "option_c": "C. cocoa",
-    "option_d": "D. groundnut",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Agricultural extension programme would succeed in disseminating new ideas to farmers except if the programme",
-    "option_a": "A. is based on research tested on local conditions",
-    "option_b": "B. involves the people for which the programme is planned",
-    "option_c": "C. involved only the support to highly trained agricultural extension specialist",
-    "option_d": "D. is not kept flexible to contemporary technology",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The most important soil micro-organisms concerned with decay and nutrients-recycling are",
-    "option_a": "A. bacteria and fungi",
-    "option_b": "B. fungi and algea",
-    "option_c": "C. alga and actinomyces",
-    "option_d": "D. actinomyces and bacteria",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "the nutrient content of soil may be influenced by the following except",
-    "option_a": "A. harrowing",
-    "option_b": "B. topography",
-    "option_c": "C. cropping",
-    "option_d": "D. fallowing",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "What happens to the nitrogen and sulphur contents of vegetation when burning is used as a means of lans clearing? They",
-    "option_a": "A. are released by burning and lost as gases",
-    "option_b": "B. remain in ash as nitrates and sulphates",
-    "option_c": "C. raise the PH of an acid soil",
-    "option_d": "D. are released into the soil thus increasing the nutrients of the soil",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following does not occur as a result of poor drained soil?",
-    "option_a": "A. mottling near the top",
-    "option_b": "B. decrease in rooting depth",
-    "option_c": "C. change in colour of the subsoil",
-    "option_d": "D. decrease in organic matter content",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The different types of soil are determined by the relative amounts of each of the following components except",
-    "option_a": "A. rocks",
-    "option_b": "B. air",
-    "option_c": "C. water",
-    "option_d": "D. minerals",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Fertilizers that usually contain one nutrient which can be used directly by plants are commonly called",
-    "option_a": "A. organic fertilizers",
-    "option_b": "B. mixed fertilizers",
-    "option_c": "C. inorganic fertilizers",
-    "option_d": "D. compound fertilizers",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "A soil with particles of less than 0.002mm in diameter is referred to as",
-    "option_a": "A. clay",
-    "option_b": "B. silt",
-    "option_c": "C. sand",
-    "option_d": "D. gravel",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following factors does not bring about soil formation?",
-    "option_a": "A. climate",
-    "option_b": "B. time",
-    "option_c": "C. parent material",
-    "option_d": "D. sunshine",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Plant micro-nutrients include the following except",
-    "option_a": "A. sulphur",
-    "option_b": "B. copper",
-    "option_c": "C. iron",
-    "option_d": "D. zinc",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Most crop plants do not survive in water-logged soils because",
-    "option_a": "A. the dissolved nutrients are too diluted for crop plants",
-    "option_b": "B. the plants will not photosynthesize",
-    "option_c": "C. their leaves are turgid for respiration",
-    "option_d": "D. their physiological processes will be increased",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "If the ginning percentage of the samaru variety of cotton is 35, what will be the amount of raw cotton obtained from a 6 hectare farm with a yield of 330 kg seed cotton per hectare?",
-    "option_a": "A. 46 kg",
-    "option_b": "B. 96.3 kg",
-    "option_c": "C. 114 kg",
-    "option_d": "D. 693 kg",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following factors does not affect the distribution of pasture grasses?",
-    "option_a": "A. type of species",
-    "option_b": "B. temperature",
-    "option_c": "C. soil",
-    "option_d": "D. pests and diseases",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following is not a reason for the government to encourage the planting of trees",
-    "option_a": "A. controlling erosion",
-    "option_b": "B. increasing soil fertility",
-    "option_c": "C. preventing desert encroachment",
-    "option_d": "D. reducing effects of environmental pollution",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following crops does not require nursery?",
-    "option_a": "A. rice",
-    "option_b": "B. tobacco",
-    "option_c": "C. tomato",
-    "option_d": "D. oil palm",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The causal organism of damping-oil disease of okra is a",
-    "option_a": "A. bacterium",
-    "option_b": "B. virus",
-    "option_c": "C. nematode",
-    "option_d": "D. aphid",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following crops cannot be easily improved by cross-breeding?",
-    "option_a": "A. groundnut",
-    "option_b": "B. cowpea",
-    "option_c": "C. oil palm",
-    "option_d": "D. maize",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The commonest method of vegetative propagation is by",
-    "option_a": "A. layering",
-    "option_b": "B. budding",
-    "option_c": "C. cutting",
-    "option_d": "D. grafting",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "I. spreading and perennial plant with long and rapid growing stems. II. height of plant about 1.2m III. resistance to dry weather. Which of the following pasture grasses has the description given above?",
-    "option_a": "A. northern gamba grass",
-    "option_b": "B. bahama grass",
-    "option_c": "C. guinea grass",
-    "option_d": "D. elephant grass",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The annual burning of forest areas encourages",
-    "option_a": "A. afforestation",
-    "option_b": "B. deforestation",
-    "option_c": "C. regeneration",
-    "option_d": "D. selective explotation",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following crops is not correctly grouped with its industrial product?",
-    "option_a": "A. cocoa-chocolate",
-    "option_b": "B. rubber-boots",
-    "option_c": "C. coconut-oil",
-    "option_d": "D. cotton-textile",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The objective of crops improvement programmes is to produce the following except",
-    "option_a": "A. crop types with improved taste and processing",
-    "option_b": "B. disease-resistance crops",
-    "option_c": "C. high-yielding crops",
-    "option_d": "D. crops adapted to adverse enviromental conditions",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The bacterial blight of cotton is also known as",
-    "option_a": "A. black arm",
-    "option_b": "B. leaf spot",
-    "option_c": "C. damping off",
-    "option_d": "D. twister",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Staking is very essential in the cultivation of",
-    "option_a": "A. tomato and pepper",
-    "option_b": "B. cassava and cowpea",
-    "option_c": "C. cowpea and spinach",
-    "option_d": "D. tomato and yam",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Vetok 85 is used to control",
-    "option_a": "A. rodents",
-    "option_b": "B. birds",
-    "option_c": "C. stem borers",
-    "option_d": "D. reptiles",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "What symptom can be used to identify maize rust?",
-    "option_a": "A. yellow colouration of the leaves",
-    "option_b": "B. raised brown spots on the leaves",
-    "option_c": "C. infected leaves showing stripes of yellow and green",
-    "option_d": "D. drying up to the leaves",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "I.Pale leaves II. Shrunken new leaves III. Water-soaked bark which peels off IV. Gum-like exudation from the cracks on the bark. Which of the following diseases of citrus has the symptoms listed above?",
-    "option_a": "A. die-bark",
-    "option_b": "B. gum-mosis",
-    "option_c": "C. blight",
-    "option_d": "D. tristeza",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following is not a breed of cattle?",
-    "option_a": "A. ndama",
-    "option_b": "B. sokoto gudali",
-    "option_c": "C. white fulani",
-    "option_d": "D. sokoto red",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following may cause disease in a fish pond?",
-    "option_a": "A. mixed stocking",
-    "option_b": "B. liming",
-    "option_c": "C. poor management practices",
-    "option_d": "D. harvesting",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following may cause disease in a fish pond?",
-    "option_a": "A. mixed stocking",
-    "option_b": "B. liming",
-    "option_c": "C. poor management practices",
-    "option_d": "D. harvesting",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The act of parturition in rabbits is called",
-    "option_a": "A. kindling",
-    "option_b": "B. kidding",
-    "option_c": "C. farrowing",
-    "option_d": "D. lambing",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The factor affecting growth and development of young animals from birth to maturity include the following except",
-    "option_a": "A. breed of animal",
-    "option_b": "B. size of the head",
-    "option_c": "C. nutritional status",
-    "option_d": "D. health status",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following is not a sign of animal approaching parturition?",
-    "option_a": "A. soft, pliable and swollen vulva",
-    "option_b": "B. relaxed cervix",
-    "option_c": "C. full mammary gland",
-    "option_d": "D. relaxed pelvic ligaments",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Daily management routines in poultry include the following except",
-    "option_a": "A. egg collection",
-    "option_b": "B. record keeping",
-    "option_c": "C. water and feed provision",
-    "option_d": "D. health care",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Basal feeds have a high proportion of easily digestible",
-    "option_a": "A. minerals",
-    "option_b": "B. proteins",
-    "option_c": "C. fats",
-    "option_d": "D. vitamins",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The length of oestrus cycle (in days) in goat is",
-    "option_a": "A. 16 - 17",
-    "option_b": "B. 18 - 21",
-    "option_c": "C. 19 - 20",
-    "option_d": "D. 20 - 22",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "When a cockerel is castrated, it becomes a",
-    "option_a": "A. broiler",
-    "option_b": "B. cock",
-    "option_c": "C. layer",
-    "option_d": "D. capon",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Forages cut fresh and preserved in silo or pit are referred to as",
+    "question_text": "Forages that are chopped green and fed directly<br>\nto livestock are referred to as",
     "option_a": "A. hay",
     "option_b": "B. silage",
-    "option_c": "C. haylage",
-    "option_d": "D. soilage",
-    "correct_option": ""
+    "option_c": "C. fodder",
+    "option_d": "D. soilage.",
+    "correct_option": "D"
   },
   {
     "course_id": "3",
-    "question_text": "Which of the following is not a method of improving range land?",
-    "option_a": "A. controlled stocking",
-    "option_b": "B. rotational grazing",
-    "option_c": "C. use of fertilizers",
-    "option_d": "D. introduction of legumes",
-    "correct_option": ""
+    "question_text": "Floriculture deals with the study of",
+    "option_a": "A. flowers",
+    "option_b": "B. fossils",
+    "option_c": "C. weeds",
+    "option_d": "D. insects",
+    "correct_option": "A"
   },
   {
     "course_id": "3",
-    "question_text": "Which of the following characteristics is not correct of pigs?",
-    "option_a": "A. prolific animals",
-    "option_b": "B. efficient feed converters",
-    "option_c": "C. source of meat",
-    "option_d": "D. source of land",
-    "correct_option": ""
+    "question_text": "An advantage of weeds is that they are used to",
+    "option_a": "A. control insect pest",
+    "option_b": "B. check grazing by animals",
+    "option_c": "C. check erosion",
+    "option_d": "D. control diseases.",
+    "correct_option": "C"
   },
   {
     "course_id": "3",
-    "question_text": "The best control ensure for rinderpest disease in cattle is",
-    "option_a": "A. sanitation",
-    "option_b": "B. isolation",
-    "option_c": "C. use of antibiotics",
-    "option_d": "D. eradication of infected stock",
-    "correct_option": ""
+    "question_text": "Cassava mosaic disease is transmitted by",
+    "option_a": "A. Heteroligus meles",
+    "option_b": "B. Maruca testulalis",
+    "option_c": "C. Sesamia spp",
+    "option_d": "D. Bemisia nigerensis",
+    "correct_option": "D"
   },
   {
     "course_id": "3",
-    "question_text": "Management practices of established pasture include the following except",
-    "option_a": "A. fencing",
-    "option_b": "B. transplanting",
-    "option_c": "C. replanting",
-    "option_d": "D. manuring",
-    "correct_option": ""
+    "question_text": "A serious pest of sweet potato whose larvae<br>\ndestroy the foliage is",
+    "option_a": "A. leaf miners",
+    "option_b": "B. weevils mea",
+    "option_c": "C. mealy bugs",
+    "option_d": "D. aphids.",
+    "correct_option": "A"
   },
   {
     "course_id": "3",
-    "question_text": "Temperature is an important factor which is monitored in fish ponds because",
-    "option_a": "A. it determines the feeding rate in fish",
-    "option_b": "B. its fluctuation retards fish reproduction",
-    "option_c": "C. it affects the metabolic processes in fish",
-    "option_d": "D. it decreases the reaction of fishes to other water organisms",
-    "correct_option": ""
+    "question_text": "The fertility of soils under forest is sustained<br>\nmainly by",
+    "option_a": "A. nutrient recycling",
+    "option_b": "B. rodent activities",
+    "option_c": "C. being protected from direct rays of the sun",
+    "option_d": "D. preventing raindrops from directly hitting the soil.",
+    "correct_option": "A"
   },
   {
     "course_id": "3",
-    "question_text": "Diarrhoea tainted with blood is a symptom of",
-    "option_a": "A. trypanosomiasis",
-    "option_b": "B. coccidiosis",
-    "option_c": "C. ketosis",
-    "option_d": "D. brucellosis",
-    "correct_option": ""
+    "question_text": "The Mendelian law of segregation states that<br>\nthe characteristics which is hidden in an F1,<br>\nreappears in F2 generation in a ratio",
+    "option_a": "A. 1 : 2",
+    "option_b": "B. 2 : 2",
+    "option_c": "C. 1 : 3",
+    "option_d": "D. 3 : 2",
+    "correct_option": "C"
   },
   {
     "course_id": "3",
-    "question_text": "The major cause of spoilage in fresh fish is",
-    "option_a": "A. high humidity",
-    "option_b": "B. fungal attack",
-    "option_c": "C. high moisture content",
-    "option_d": "D. bacterial attack",
-    "correct_option": ""
+    "question_text": "The breed of sheep that can be found<br>\nthroughout Nigeria is",
+    "option_a": "A. Yankasa",
+    "option_b": "B. Uda",
+    "option_c": "C. West Africa dwarf sheep",
+    "option_d": "D. Balami.",
+    "correct_option": "A"
   },
   {
     "course_id": "3",
-    "question_text": "Selection of breeding males based on the performance of their female relatives is known as",
-    "option_a": "A. sib-selection",
-    "option_b": "B. individual selection",
-    "option_c": "C. tandem-method",
-    "option_d": "D. progeny testing",
-    "correct_option": ""
+    "question_text": "A female cattle which has not had a calf or<br>\ndeveloped into the mature form of a cow is<br>\nreferred to as",
+    "option_a": "A. stag",
+    "option_b": "B. vealers",
+    "option_c": "C. yealing",
+    "option_d": "D. heifer",
+    "correct_option": "D"
   },
   {
     "course_id": "3",
-    "question_text": "A farmer uses his agricultural loans for the following except",
-    "option_a": "A. paying labour wages",
-    "option_b": "B. hiring machineries and tools",
-    "option_c": "C. purchasing drugs for livestock",
-    "option_d": "D. paying for seeds",
-    "correct_option": ""
+    "question_text": "Which of the following farm animals is<br>\nconsidered as monogastric?",
+    "option_a": "A. Goat.",
+    "option_b": "B. Pig.",
+    "option_c": "C. Cow.",
+    "option_d": "D. Sheep.",
+    "correct_option": "B"
   },
   {
     "course_id": "3",
-    "question_text": "What is the effect of stability of market price on a produce? The",
-    "option_a": "A. profit of the producer would be constant if there is no increase in cost inputs",
-    "option_b": "B. profit of the retailer will be decreased",
-    "option_c": "C. wholesaler will earn more from his sales",
-    "option_d": "D. consumers will willingly buy more of the produce",
-    "correct_option": ""
+    "question_text": "The process of mating in poultry is referred to as",
+    "option_a": "A. servicing",
+    "option_b": "B. kidding",
+    "option_c": "C. tupping",
+    "option_d": "D. treading",
+    "correct_option": "D"
   },
   {
     "course_id": "3",
-    "question_text": "From which of the following sources can agricultural credits be more easily obtained by peasant farmers?",
-    "option_a": "A. commercial banks",
-    "option_b": "B. wholesalers",
-    "option_c": "C. money lenders",
-    "option_d": "D. government agencies",
-    "correct_option": ""
+    "question_text": "In farm animals, a sign of heat includes",
+    "option_a": "A. profuse salivation",
+    "option_b": "B. secretions from the vulva",
+    "option_c": "C. difficulty in breathing",
+    "option_d": "D. continuous urination.",
+    "correct_option": "B"
   },
   {
     "course_id": "3",
-    "question_text": "Net worth statement can be referred to as",
-    "option_a": "A. balance sheet",
-    "option_b": "B. farm record book",
-    "option_c": "C. profit and loss account",
-    "option_d": "D. farm trading account",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following activities is correct about agricultural extension agent?",
-    "option_a": "A. teaching farmers the management of exotic breeds of animals and crops",
-    "option_b": "B. educating farmers on the use of improved inputs and techniques in agriculture",
-    "option_c": "C. training school leavers to become professional farmers",
-    "option_d": "D. encouraging graduates to take up agriculture as a profession",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The problems of agriculture development in Nigeria are caused by the following except",
-    "option_a": "A. inadequate land",
-    "option_b": "B. poor finance",
-    "option_c": "C. poor transportation system",
-    "option_d": "D. lack of basic amenities",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The climate factors affecting agricultural production in Nigeria include the following except",
-    "option_a": "A. temperature",
-    "option_b": "B. rainfall",
-    "option_c": "C. relative humidity",
-    "option_d": "D. sunlight",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following is not a characteristic feature of peasant farming?",
-    "option_a": "A. inability to repay loan",
-    "option_b": "B. long-term loan facility",
-    "option_c": "C. lack of capital",
-    "option_d": "D. small farm-holding",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The principal involved in crop production include the following, I. controlling of diseases, weed and pests, II. maintaining the quality of agricultural produce, III. conserving and preserving of natural resources, IV. controlling soil erosion. Which of the following combination does the government aim at when making agricultural policies?",
-    "option_a": "A. I and II only",
-    "option_b": "B. III and IV only",
-    "option_c": "C. I, II and III only",
-    "option_d": "D. I, II,III and IV",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following is not a problem of agricultural development in Nigeria?",
-    "option_a": "A. provision of food and employment opportunity",
-    "option_b": "B. land tenure system",
-    "option_c": "C. poor and fluctating climatic conditions",
-    "option_d": "D. poor storage facilities",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "What is the purpose of wildlife conservation?",
-    "option_a": "A. keeping animals in forests",
-    "option_b": "B. preventing wild animals from destroying crops",
-    "option_c": "C. preventing the extinction of some wild animals",
-    "option_d": "D. ensuring that hunters always have some games",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Adequate knowledge of climate is useful in determining the following except",
-    "option_a": "A. method of land clearing to adopt",
-    "option_b": "B. tillage pratices",
-    "option_c": "C. crop and livestock management practices",
-    "option_d": "D. harvesting and storage",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The most important soil microorganism which are effective decomposers of wood in forest areas are",
-    "option_a": "A. earthworm",
-    "option_b": "B. wood beetles",
-    "option_c": "C. termites",
-    "option_d": "D. algea",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following is not a biotic factor affecting agricultural production?",
-    "option_a": "A. predator",
-    "option_b": "B. soil",
-    "option_c": "C. parasites",
-    "option_d": "D. pest",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The effect of clearing agricultural lands clean of all vegetation and or trees include the following except",
-    "option_a": "A. exposure of soil to erosion",
-    "option_b": "B. compaction of soil",
-    "option_c": "C. desertification",
-    "option_d": "D. complete removal of soil nutrients",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following is not an advantage of drip-irrigation?",
-    "option_a": "A. fertilizers can be applied through the system",
-    "option_b": "B. there is reduction in the concentration of salt in the root zone",
-    "option_c": "C. the system operates on a much lower line pressure than spinkler system",
-    "option_d": "D. its efficiency on water distribution in steep slopes is poor",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Chlorosis observed along the veins of leaves is a characteristic symptom for the deficiency of",
-    "option_a": "A. nitrogen",
-    "option_b": "B. magnesium",
-    "option_c": "C. potassium",
-    "option_d": "D. phosphorus",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The removal of excess water from the soil surface and the upper subsoil is known as",
-    "option_a": "A. irrigation",
-    "option_b": "B. drainage",
-    "option_c": "C. evaporation",
-    "option_d": "D. surface turn-off",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following is not an effect of manuring on the soil?",
-    "option_a": "A. adding plant nutrients to the soil",
-    "option_b": "B. releasing adequate plant nutrients of the appropriate time",
-    "option_c": "C. facilitating soil aeration and movement of soil moisture",
-    "option_d": "D. enhancing the activities of soil microorganisms",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "A soil with low PH value can be improved by the addition of",
-    "option_a": "A. ammonium sulphate",
-    "option_b": "B. calcium carbonate",
-    "option_c": "C. sodium chloride",
-    "option_d": "D. sodium nitrate",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following factors will cause etiolation in crops?",
-    "option_a": "A. law humidity",
-    "option_b": "B. high light intensity",
-    "option_c": "C. high humidity",
-    "option_d": "D. low temperature",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following tools is the best for making seed beds?",
-    "option_a": "A. hand fork",
-    "option_b": "B. mattock",
-    "option_c": "C. shovel",
-    "option_d": "D. spade",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The windmill is normally used as a source of power in",
-    "option_a": "A. pumping well water",
-    "option_b": "B. soil drainage",
-    "option_c": "C. ridging",
-    "option_d": "D. erosion control",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The most appropriate farm machinery for breaking soil is the",
-    "option_a": "A. harrow",
-    "option_b": "B. plough",
-    "option_c": "C. ridger",
-    "option_d": "D. tractor",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "An area of land where fruit trees are cultivated is commonly called",
-    "option_a": "A. an orchard",
-    "option_b": "B. a plantation",
-    "option_c": "C. a nursery",
-    "option_d": "D. an estate",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The natural grasslands of West Africa are generally located in the",
-    "option_a": "A. sahel region",
-    "option_b": "B. guinea savanna",
-    "option_c": "C. mangrove area",
-    "option_d": "D. equatorial region",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following forest trees is a soft wood?",
-    "option_a": "A. Mahogany",
-    "option_b": "B. Teak",
-    "option_c": "C. Shea-butter",
-    "option_d": "D. Ebony",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Soil-borne diseases of crops can be effectively reduced by",
-    "option_a": "A. terracing",
-    "option_b": "B. crops rotation",
-    "option_c": "C. liming",
-    "option_d": "D. irrigation",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Gametes are produced through the process of",
-    "option_a": "A. fusion",
-    "option_b": "B. meiosis",
-    "option_c": "C. mitosis",
-    "option_d": "D. pollination",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following is the most suitable raw material used in the production of pulp in paper industry?",
-    "option_a": "A. Hardwood",
-    "option_b": "B. Softwood",
-    "option_c": "C. Heartwood",
-    "option_d": "D. Sapwood",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following explains the term pruning?",
-    "option_a": "A. removal of unnecessary branches of trees crops",
-    "option_b": "B. Adequate spacing of seedlings during transplanting",
-    "option_c": "C. Removal of diseases or dead crops from the farm",
-    "option_d": "D. hardening of seedlings in the nursery",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "28. The freshly cut forage crops fed to livestock in their housing units are referred to as",
-    "option_a": "A. paddock grazing",
-    "option_b": "B. rotational grazing",
-    "option_c": "C. silage",
-    "option_d": "D. hay",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following plant diseases is not caused by fungus",
-    "option_a": "A. Black arm",
-    "option_b": "B. Rice blast",
-    "option_c": "C. Rice smut",
-    "option_d": "D. cassava leaf-spot",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Trees for lumbering will be regularly available in Nigerian forests if",
-    "option_a": "A. there is an increase in annual rainfall",
-    "option_b": "B. fertilizers are applied to trees",
-    "option_c": "C. timber is no longer used for construction purposes",
-    "option_d": "D. a tree is planted for everyone felled",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The side effects of the various preventive and control measures of pests and diseases of crops include the following except",
-    "option_a": "A. environmental pollution",
-    "option_b": "B. poisoning of wildlife",
-    "option_c": "C. disruption of the ecosystem",
-    "option_d": "D. improvement in the quality of farm produce",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following parts of plants are normally used for vegetative propagation?",
-    "option_a": "A. stem, root and seed",
-    "option_b": "B. stem, root and flower",
-    "option_c": "C. fruit, leaf and root",
-    "option_d": "D. leaf, flower and stem",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The correct sequence in preparing new land for cropping is usually",
-    "option_a": "A. stumping, laying out of farm, ridging and tiling",
-    "option_b": "B. laying out of farm, ridging, stumping and tilling",
-    "option_c": "C. tilling, stumping, laying out of farm",
-    "option_d": "D. ridging, laying out of farm, tilling and stumping",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following methods would quickly provide a large harvest of oranges from a tree with desirable qualities?",
-    "option_a": "A. planting the seeds of the plant with the desirable qualities",
-    "option_b": "B. Crossing orange trees with those of desirable qualities",
-    "option_c": "C. Applying special fertilizer to the other citrus trees",
-    "option_d": "D. Grafting a branch from the tree with desirable qualities to the stock of other citrus trees",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following is not an aim of improving crops?",
-    "option_a": "A. producing crops which are resistant to diseases and pests",
-    "option_b": "B. producing crops which are adapted to adverse weather conditions",
-    "option_c": "C. increasing yield by planting high yielding and vigorous varieties",
-    "option_d": "D. improving the qualities of farm produce",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Which of the following is not a characteristic of a good pasture?",
-    "option_a": "A. Ability to withstand extremes of climate and soil conditions",
-    "option_b": "B. Ability to withstand competition from weeds or other forage crops",
-    "option_c": "C. Ability to produce high quality fresh leaves",
-    "option_d": "D. High palatability and nutritional content",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Feed carotene is usually converted into",
+    "question_text": "The anti-sterility vitamin in livestocks nutrition is",
     "option_a": "A. vitamin K",
     "option_b": "B. vitamin E",
-    "option_c": "C. vitamin D",
-    "option_d": "D. vitamin B",
-    "correct_option": ""
+    "option_c": "C. vitamin C",
+    "option_d": "D. vitamin B.",
+    "correct_option": "B"
   },
   {
     "course_id": "3",
-    "question_text": "Which of the following is a disadvantage of battery cage?",
-    "option_a": "A. High rate of egg production",
-    "option_b": "B. production of eggs which cannot be hatched",
-    "option_c": "C. production of eggs which do not break easily",
-    "option_d": "D. regulation of feed consumption",
-    "correct_option": ""
+    "question_text": "The relative humidity in an incubator is usually<br>\nset at",
+    "option_a": "A. 10% - 30%",
+    "option_b": "B. 40% - 60%",
+    "option_c": "C. 70% - 80%",
+    "option_d": "D. 90% - 100%.",
+    "correct_option": "B"
   },
   {
     "course_id": "3",
-    "question_text": "Routine operation in cattle farming include the following except",
-    "option_a": "A. dehorning",
-    "option_b": "B. castration",
-    "option_c": "C. identification marking",
-    "option_d": "D. de-worming",
-    "correct_option": ""
+    "question_text": "The causative organism of Avian influenza is a",
+    "option_a": "A. bacterium",
+    "option_b": "B. virus",
+    "option_c": "C. fungus",
+    "option_d": "D. protozoan.",
+    "correct_option": "B"
   },
   {
     "course_id": "3",
-    "question_text": "The act of mating in chicken is known as",
-    "option_a": "A. treading",
-    "option_b": "B. service",
-    "option_c": "C. topping",
-    "option_d": "D. breeding",
-    "correct_option": ""
+    "question_text": "The introduction of proper planktons species<br>\ninto the pond is referred to as",
+    "option_a": "A. fertilization",
+    "option_b": "B. innoculation",
+    "option_c": "C. stocking",
+    "option_d": "D. liming.",
+    "correct_option": "B"
   },
   {
     "course_id": "3",
-    "question_text": "Stud bull is the term used in describing",
-    "option_a": "A. a castrated male cattle",
-    "option_b": "B. a bull kept mainly for breeding",
-    "option_c": "C. an old bull used for draft purposes",
-    "option_d": "D. a bull used for artificial insemination only",
-    "correct_option": ""
+    "question_text": "Selection based on the performance of ancestors<br>\nis referred to as",
+    "option_a": "A. family selection",
+    "option_b": "B. pedigree selection",
+    "option_c": "C. progeny selection",
+    "option_d": "D. line selection.",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "The most important of all the factors of<br>\nproduction in crop farming is",
+    "option_a": "A. labour",
+    "option_b": "B. capital",
+    "option_c": "C. land",
+    "option_d": "D. management.",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "   </d  From the curve above, at what point is it<br>\nadvisable for the farmer to stop further addition<br>\nof input?",
+    "option_a": "A. I",
+    "option_b": "B. II",
+    "option_c": "C. III",
+    "option_d": "D. IV",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Elastic demand is the type in which a change in<br>\nprice</p>",
+    "option_a": "A. brings about greater change in quantity of goods demanded",
+    "option_b": "B. of a commodity leads to little or no change in demand",
+    "option_c": "C. leads to equal change in commodity demanded",
+    "option_d": "D. may not change the demand of quantity of commodity.",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Farm labour is usually measured in terms of",
+    "option_a": "A. amount of wages paid to labour",
+    "option_b": "B. hours or days of work by labour",
+    "option_c": "C. level of education of labour",
+    "option_d": "D. type of work done by labour.",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "A piece of information contained in payroll<br>\nrecord of farms is",
+    "option_a": "A. date of employment",
+    "option_b": "B. equity",
+    "option_c": "C. income generated",
+    "option_d": "D. total credit.",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Retailers may create artificial scarcity of goods<br>\nby",
+    "option_a": "A. price hiking",
+    "option_b": "B. hoarding",
+    "option_c": "C. under producing",
+    "option_d": "D. processing.",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "The most effective method of disseminating<br>\ninformation among farmers is through",
+    "option_a": "A. individual method",
+    "option_b": "B. group method",
+    "option_c": "C. mass method",
+    "option_d": "D. cooperative method",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "In surveying, the instrument used to measure<br>\nhorizontal, vertical angles and planes is the",
+    "option_a": "A. gunters chain",
+    "option_b": "B. prismatic compass",
+    "option_c": "C. ranging poles",
+    "option_d": "D. theodolite.",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Use the following diagram below to answer this question<br>\n<br>\nDuring which of the following plant propagation<br>\nmethods is the tool represented used?",
+    "option_a": "A. Seed planting.",
+    "option_b": "B. Seedling transplant",
+    "option_c": "C. Budding.",
+    "option_d": "D. Layering.",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Which of the following routine maintenance in a<br>\ntractor is necessary on daily basis?",
+    "option_a": "A. Draining of the gear box oil.",
+    "option_b": "B. Removing and cleaning of engines air filter",
+    "option_c": "C. Replacing of the fuel filter element.",
+    "option_d": "D. Checking of the oil level in the engine.",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "The type of energy obtain from the sun is",
+    "option_a": "A. hydro energy",
+    "option_b": "B. solar energy",
+    "option_c": "C. thermal energy",
+    "option_d": "D. wind energy.",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "The storage facility that is not suitable for grains<br>\nis the",
+    "option_a": "A. silos",
+    "option_b": "B. rumbus",
+    "option_c": "C. barns",
+    "option_d": "D. sacs.",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "In biotechnology, propagation is mainly by",
+    "option_a": "A. grafting",
+    "option_b": "B. aerial layering",
+    "option_c": "C. binary fission",
+    "option_d": "D. cell culture.",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "The desktop computer used for data<br>\nmanagement in agri-business is",
+    "option_a": "A. an analog computer",
+    "option_b": "B. a super computer",
+    "option_c": "C. a hybrid computer",
+    "option_d": "D. a mainframe computer",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "A hypothesis can be described as",
+    "option_a": "A. predictive statement relating to experimental variables",
+    "option_b": "B. a postulate of general acceptance",
+    "option_c": "C. a research reasoning based on an accurate statement about the population",
+    "option_d": "D. a postulate based on experimental samples",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "The process of grafting in crop production involves",
+    "option_a": "A. The fusion of gametes of two crops",
+    "option_b": "B. Inducing rooting from stems",
+    "option_c": "C. The transfer of a bud from one crop to another",
+    "option_d": "D. The joining of two parts from related crops.",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "If the recommended spacing for a tree crop is 2.5cm by 4.0m determine the number of seedlings required to plant a 2-hectare farmland.",
+    "option_a": "A. 1,000",
+    "option_b": "B. 2,000",
+    "option_c": "C. 10,000",
+    "option_d": "D. 20,000",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "A regulatory control of diseases in crop production is",
+    "option_a": "A. roughing",
+    "option_b": "B. quarantine",
+    "option_c": "C. crop rotation",
+    "option_d": "D. Soil tillage.",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Which of the following statements about soil organisms is false?",
+    "option_a": "A. Soil pH will affect the population of soil organisms",
+    "option_b": "B. Population of soil living organisms is increased with increase in soil organic matter",
+    "option_c": "C. Soil with good texture and structure cannot harbour soil microbes",
+    "option_d": "D. Soil temperature affects the activities of soil organisms.",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "The data for feed consumption and weighing gain of four farm animals labelled P, Q, R and S are shown below.<br>\nP -50kg feed consumed and 20kg weight gained   Q -90kg feed consumed and 30kg weight gained  R -100kg feed consumed and 25kg weight gained S - 150kg feed consumed and 30kg weight gained.<br>\n<br>\n<br>\nWhich of the following must efficient feed converter?",
+    "option_a": "A. P",
+    "option_b": "B. Q",
+    "option_c": "C. R",
+    "option_d": "D. S",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "In preparing for parturition of a sow, warmth should be provided to",
+    "option_a": "A. Promote growth of hair of the young",
+    "option_b": "B. make the young suckle colostrum's",
+    "option_c": "C. prevent anaemia in the young",
+    "option_d": "D. prevent chilling of the young.",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "In which layer of the soil profile do most biological activities occur?",
+    "option_a": "A. D-horizon",
+    "option_b": "B. C-horizon",
+    "option_c": "C. B-horizon",
+    "option_d": "D. A-horizon",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Which of the following statements about agricultural development are true? It leads to<br>\n<br>\nI. increased processing of produce<br>\nII. Increased food production.<br>\nIII. High productivity.<br>\nIV. Increased agricultural labour force.",
+    "option_a": "A. I, II and III only",
+    "option_b": "B. I, II and IV only",
+    "option_c": "C. I, III and IV only",
+    "option_d": "D. II, II and IV only",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Under the communal land tenure system, farmers find it difficult to secure loans because",
+    "option_a": "A. land holdings are small and fragmented",
+    "option_b": "B. they are poor",
+    "option_c": "C. land holdings cannot be used as security",
+    "option_d": "D. they are mostly illiterate.",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Pineapple is widely propagated using",
+    "option_a": "A. seeds",
+    "option_b": "B. suckets",
+    "option_c": "C. Slips",
+    "option_d": "D. cuttings",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The correct sequence for the use of coupled implements for land preparation is</p>",
+    "option_a": "A. Plough, harrow and ridger",
+    "option_b": "B. harrow, ridger and plough",
+    "option_c": "C. plough, ridger and harrow.",
+    "option_d": "D. ridger, harrow and plough",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "The correct sequence of feed utilization in farm animals is",
+    "option_a": "A. digestion-ingestion-absorption-assimilation",
+    "option_b": "B. ingestion-digestion-assimilation-absorption",
+    "option_c": "C. ingestion-digestion-absorption-assimilation",
+    "option_d": "D. digestion-assimilation-ingestion-absorption",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Which of the following statements is a disadvantage of human power? It",
+    "option_a": "A. controls other sources of farm power",
+    "option_b": "B. brings about least damage",
+    "option_c": "C. is easily available and controlled",
+    "option_d": "D. has low output.",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Which of the following factors are causes of deforestation in West Africa?<br>\n<br>\nI. Expansion of cultivated land<br>\nII. High population growth rate<br>\nIII. Conservation of wildlife in game reserves<br>\nIV. Urban growth",
+    "option_a": "A. I, II and III only",
+    "option_b": "B. II, III and IV only",
+    "option_c": "C. I, II and IV only",
+    "option_d": "D. I, II, III and IV.",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Which of the following properties of soil determines its water-holding capacity?<br>\n<br>\nI. Texture<br>\nII. pH<br>\nIII. Colour<br>\nIV. Structure",
+    "option_a": "A. I and II only",
+    "option_b": "B. I and IV only",
+    "option_c": "C. II and III only",
+    "option_d": "D. III and IV only",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Which of the following diseases commonly occurs during brooding?<br>\n<br>\nI. Yolk sac infection<br>\nII. Coccidiosis<br>\nIII. Fowl pox<br>\nIV. Pullorum",
+    "option_a": "A. I, II and III only",
+    "option_b": "B. I, II and IV only",
+    "option_c": "C. I, III and IV only",
+    "option_d": "D. I, II and IV.",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "A detrimental effect of bush burning is that it",
+    "option_a": "A. destroys soil organic matter",
+    "option_b": "B. Destroys weed seeds",
+    "option_c": "C. sterilizes the soil",
+    "option_d": "D. adds potash to the soil",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Government plays roles in the development of agriculture through the following means except",
+    "option_a": "A. Provision of subsidies",
+    "option_b": "B. training of farmer's children",
+    "option_c": "C. establishment of agricultural development programmes",
+    "option_d": "D. establishment of farm settlements",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Sexual maturity in farm animals is not influenced by their",
+    "option_a": "A. Breed",
+    "option_b": "B. Sex",
+    "option_c": "C. nutrition",
+    "option_d": "D. wearing age",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Which of the following factors does not influence the distribution of cattle in West Africa?",
+    "option_a": "A. Pastures",
+    "option_b": "B. Light",
+    "option_c": "C. Diseases",
+    "option_d": "D. Rainfall",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Close to the time of harvesting of cotton, sunshine is needed to ensure the production of bolls that are",
+    "option_a": "A. big",
+    "option_b": "B. Bright",
+    "option_c": "C. not mouldy",
+    "option_d": "D. not open",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Agriculture contributes to the economy of West African countries through the following means except",
+    "option_a": "A. Reduction of poverty through job creation",
+    "option_b": "B. Supply of armament for territorial defence",
+    "option_c": "C. Provision of foreign exchange",
+    "option_d": "D. supply of raw materials to industries",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "In animal production, newly-born rabbits are called",
+    "option_a": "A. Bunnies",
+    "option_b": "B. Kids",
+    "option_c": "C. Pouts",
+    "option_d": "D. Lambs",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Which of the following crops has a fibrous root system?",
+    "option_a": "A. cotton",
+    "option_b": "B. coffee",
+    "option_c": "C. cowpea",
+    "option_d": "D. sugarcane",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Which of the following insects transmits swollen shoot disease of cocoa?",
+    "option_a": "A. steam borer",
+    "option_b": "B. Mealybug",
+    "option_c": "C. white fly",
+    "option_d": "D. scale insect",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Soil water that is available for root absorption at field capacity is",
+    "option_a": "A. Capillary water",
+    "option_b": "B. hygroscopic water",
+    "option_c": "C. Gravitational water",
+    "option_d": "D. superfluous water.",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "The weight of a sheep increased from 25kg to 45kg in two months.<br>\n<br>\nIf the total consumption during the period was 60kg. Determine the feed conversion ratio",
+    "option_a": "A. 1 : 1",
+    "option_b": "B. 1 : 2",
+    "option_c": "C. 3 : 1",
+    "option_d": "D. 4 : 1",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Which of the following statements is correct about micro-nutrients? They",
+    "option_a": "A. Promote formation of only root nodules",
+    "option_b": "B. are required by plants in very small quantities",
+    "option_c": "C. are fixed into the soil through microbial activity",
+    "option_d": "D. increase crop tolerance to pest attack.",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Yellow colouration of the lower leaves of a growing maize plant may be due to deficiency in",
+    "option_a": "A. potassium",
+    "option_b": "B. phosphorus",
+    "option_c": "C. zinc",
+    "option_d": "D. nitrogen",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "The following crops will enrich the soil with nitrates except",
+    "option_a": "A. Calopogonium",
+    "option_b": "B. pueraria",
+    "option_c": "C. centrosema",
+    "option_d": "D. Axonopus",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "The instrument which enables a surveyor to find the direction of a base line is",
+    "option_a": "A. Abney level",
+    "option_b": "B. ranging pole",
+    "option_c": "C. plumb bob",
+    "option_d": "D. magnetic compass",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "In crop production, ginger is propagated by",
+    "option_a": "A. seeds",
+    "option_b": "B. bulbs",
+    "option_c": "C. rhizome",
+    "option_d": "D. corn",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Tomatoes are staked in order to",
+    "option_a": "A. accelerate their growth",
+    "option_b": "B. induce flowering",
+    "option_c": "C. accelerate fruit ripening",
+    "option_d": "D. prevents rotting of fruits",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Crop rotation decreases the incidence of pests by",
+    "option_a": "A. breaking life cycles of pests",
+    "option_b": "B. attracting pest predators",
+    "option_c": "C. Sterilizing the soil",
+    "option_d": "D. maintaining soil fertility.",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "The following are advantages of sub-surface irrigation except that",
+    "option_a": "A. it is suitable for soils with low water holding capacity",
+    "option_b": "B. it can be used only for specific types of crops",
+    "option_c": "C. the rate of evaporation is greatly reduced",
+    "option_d": "D. it reduces the incidence of pests",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Which of the following groups of rocks is formed as a result of volcanic eruption?",
+    "option_a": "A. Limestone, basalt and shale",
+    "option_b": "B. Basalt, granite and pumice",
+    "option_c": "C. Sandstone, granite and quartzite",
+    "option_d": "D. Marble, gneiss and shale.",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Poaching is prohibited in game reserves to",
+    "option_a": "A. reduce wildlife population",
+    "option_b": "B. conserve wildlife",
+    "option_c": "C. starve hunters",
+    "option_d": "D. protect hunters from wild animals.",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "If T represents the gene for tallness while t represents dwarfness<br>\n<br>\nThe genotypic ratio of the second filial generation will be",
+    "option_a": "A. 3 : 1",
+    "option_b": "B. 1 : 2 : 1",
+    "option_c": "C. 2 : 2",
+    "option_d": "D. 4 : 0",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "The forest management system which involves the planting of both food crops and forest trees on the same piece of land at the same time is known as",
+    "option_a": "A. Selective exploitation",
+    "option_b": "B. Taungya",
+    "option_c": "C. Slips",
+    "option_d": "D. cuttings",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "If T represents the gene for tallness while t represents dwarfness<br>\n<br>\nWhen a tall (TT) crop is crossed with a dwarf (tt) crop, the resultant crops will be",
+    "option_a": "A. 100% dwarf",
+    "option_b": "B. 100% tall",
+    "option_c": "C. 50% tall and 50% dwarf",
+    "option_d": "D. 75% tall and 25% dwarf.",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Corns, rhizomes and tubers are examples of",
+    "option_a": "A. underground stems",
+    "option_b": "B. underground roots",
+    "option_c": "C. modified leaves",
+    "option_d": "D. aerial stems",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "A sow that is not producing milk after farrowing should be given",
+    "option_a": "A. oxytocin",
+    "option_b": "B. antibiotic",
+    "option_c": "C. anthelmintic drug",
+    "option_d": "D. sulphaquinoxaline.",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "The main objective of establishing forest in the arid region is to",
+    "option_a": "A. check desert encroachment",
+    "option_b": "B. provide firewood for cooking",
+    "option_c": "C. provide bush-meat",
+    "option_d": "D. improve the beauty of the environment.",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "The data for feed consumption and weighing gain of four farm animals labelled P, Q, R and S are shown below.<br>\nP-50kg feed consumed and 20kg weight gained   Q-90kg feed consumed and 30kg weight gained  R-100kg feed consumed and 25kg weight gained S - 150kg feed consumed and 30kg weight gained.<br>\n<br>\nThe feed conversion efficiency of the poorest weight gainer is",
+    "option_a": "A. 0.4",
+    "option_b": "B. 0.33",
+    "option_c": "C. 0.25",
+    "option_d": "D. 0.2",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Piglet anaemia can be controlled by using",
+    "option_a": "A. sulphur drugs",
+    "option_b": "B. iron drugs",
+    "option_c": "C. anthelmintics",
+    "option_d": "D. antibiotics",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "Limitations of farm mechanization in West Africa do not include",
+    "option_a": "A. land fragmentation",
+    "option_b": "B. high capital investment",
+    "option_c": "C. availability of spare parts",
+    "option_d": "D. Purchase of machines",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "The device which helps to stabilize heat in an incubator is the",
+    "option_a": "A. thermometer",
+    "option_b": "B. hygrometer",
+    "option_c": "C. barometer",
+    "option_d": "D. thermostat",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "The use of animal traction is limited in the forest zones of West Africa because of the",
+    "option_a": "A. Topography of the forest land",
+    "option_b": "B. presence of tsetse flies",
+    "option_c": "C. High amount of rainfall",
+    "option_d": "D. culture of the people",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The branch of crop science which deals with the study of insect pests is&nbsp;</p>",
+    "option_a": "A. zoology",
+    "option_b": "B. agronomy",
+    "option_c": "C. entomology",
+    "option_d": "D. pathology",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Horse racing and polo are events where horses are used for</p>",
+    "option_a": "A. wildlife conservation",
+    "option_b": "B. recreation",
+    "option_c": "C. dowry payment",
+    "option_d": "D. transportation",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The construction of rural feeder roads solves the following access problems in agriculture except</p>",
+    "option_a": "A. marketing",
+    "option_b": "B. transportation",
+    "option_c": "C. extension services",
+    "option_d": "D. land tenure system",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The diagram above&nbsp;illustrates a farm tool. Use it to answer this question.<br>\n&nbsp;</p>\n\n<p>The illustrated farm tool is used for</p>",
+    "option_a": "A. making mounds",
+    "option_b": "B. transplanting seedlings",
+    "option_c": "C. cutting trees",
+    "option_d": "D. pruning hedges",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The diagram above&nbsp;illustrates a farm tool. Use it to answer this question.</p>\n\n<p>The farm implement that could perform a similar function as the illustrated tool is</p>",
+    "option_a": "A. plough",
+    "option_b": "B. harrow",
+    "option_c": "C. ridger",
+    "option_d": "D. cultivator",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>A tractor-mounted sprayer used on large scale farms is the</p>",
+    "option_a": "A. electrodyne sprayer",
+    "option_b": "B. motorised sprayer",
+    "option_c": "C. knapsack sprayer",
+    "option_d": "D. boom sprayer",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Which of the following types of farm power does not cause pollution?</p>",
+    "option_a": "A. hydro",
+    "option_b": "B. electrical",
+    "option_c": "C. mechanical",
+    "option_d": "D. chemical",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>In planning a farmstead, the structure which should be located on high elevation is the&nbsp;</p>",
+    "option_a": "A. fish pond",
+    "option_b": "B. pigsty",
+    "option_c": "C. farmhouse",
+    "option_d": "D. processing shed",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The diagram below illustrates processes in the water cycle. Use it to answer this question.<br>\n<img alt=\"Open photo\" src=\"https://scontent.xx.fbcdn.net/v/t1.15752-9/312607368_1300891013985954_1573012711683710986_n.jpg?stp=dst-jpg_p206x206&amp;_nc_cat=101&amp;ccb=1-7&amp;_nc_sid=aee45a&amp;_nc_ohc=UWEV_MMpBVAAX8NMoKD&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_ht=scontent.xx&amp;oh=03_AdSMQZz6CYh7l0iQYj0ZlPPoEVGGREQtPGLi0wEpqfTnPQ&amp;oe=637D9E9A\"></p>\n\n<p>The process labelled I is.</p>",
+    "option_a": "A. evaporation",
+    "option_b": "B. absorption",
+    "option_c": "C. respiration",
+    "option_d": "D. transpiration",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The diagram below illustrates processes in the water cycle. Use it to answer this question.<br>\n<img alt=\"Open photo\" src=\"https://scontent.xx.fbcdn.net/v/t1.15752-9/312607368_1300891013985954_1573012711683710986_n.jpg?stp=dst-jpg_p206x206&amp;_nc_cat=101&amp;ccb=1-7&amp;_nc_sid=aee45a&amp;_nc_ohc=UWEV_MMpBVAAX8NMoKD&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_ht=scontent.xx&amp;oh=03_AdSMQZz6CYh7l0iQYj0ZlPPoEVGGREQtPGLi0wEpqfTnPQ&amp;oe=637D9E9A\"></p>\n\n<p>The process labelled II is</p>",
+    "option_a": "A. transpiration",
+    "option_b": "B. condensation",
+    "option_c": "C. evaporation",
+    "option_d": "D. respiration",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p><img alt=\"Open photo\" src=\"https://scontent.xx.fbcdn.net/v/t1.15752-9/312607368_1300891013985954_1573012711683710986_n.jpg?stp=dst-jpg_p206x206&amp;_nc_cat=101&amp;ccb=1-7&amp;_nc_sid=aee45a&amp;_nc_ohc=UWEV_MMpBVAAX8NMoKD&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_ht=scontent.xx&amp;oh=03_AdSMQZz6CYh7l0iQYj0ZlPPoEVGGREQtPGLi0wEpqfTnPQ&amp;oe=637D9E9A\"></p>\n\n<p>The major source of water to the plants in the diagram is&nbsp;</p>",
+    "option_a": "A. gravitational water",
+    "option_b": "B. hygroscopic water",
+    "option_c": "C. capillary water",
+    "option_d": "D. surface water",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The new rock formed when limestone is subjected to great heat and pressure is</p>",
+    "option_a": "A. slate",
+    "option_b": "B. graphite",
+    "option_c": "C. marble",
+    "option_d": "D. gneiss",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Which of the following pairs of raw materials is used in the canning industry</p>",
+    "option_a": "A. meat and fish",
+    "option_b": "B. cotton and sea",
+    "option_c": "C. hide and skin",
+    "option_d": "D. pulpwood and cocoa",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Microorganisms that decompose organic matter will function best under&nbsp;</p>",
+    "option_a": "A. waterlogged soil condition",
+    "option_b": "B. anaerobic soil condition",
+    "option_c": "C. low soil tempertaure",
+    "option_d": "D. optimum soil PH",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>In an experiment determine the percentage of organic matter in a soil sample, the following data was collected; weight of over-dried soil before burning = 50g<br>\nweight of over-dried soil after burning = 28g. Use the information to answer this question.</p>\n\n<p>Calculate the weight of organic matter in the soil</p>",
+    "option_a": "A. 11g",
+    "option_b": "B. 22g",
+    "option_c": "C. 44g",
+    "option_d": "D. 78g",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>In an experiment determine the percentage of organic matter in a soil sample, the following data was collected; weight of over-dried soil before burning = 50g<br>\nweight of over-dried soil after burning = 28g. Use the information to answer this question.</p>\n\n<p>Determine the percentage of organic matter in the soil&nbsp;</p>",
+    "option_a": "A. 22%",
+    "option_b": "B. 44%",
+    "option_c": "C. 56%",
+    "option_d": "D. 60%",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Which of the following practices will improve clay soil?</p>",
+    "option_a": "A. use of acid-forming fertilizers",
+    "option_b": "B. bush burning",
+    "option_c": "C. addition of sodium chloride",
+    "option_d": "D. addition of organic material",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>A farmer practices crop rotation in order to</p>",
+    "option_a": "A. reduce yield",
+    "option_b": "B. improve soil texture",
+    "option_c": "C. increase pest incidence",
+    "option_d": "D. improve soil fertility",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The phosphorus cycle is described as being sedimentary because phosphorus&nbsp;</p>",
+    "option_a": "A. is a macroelement",
+    "option_b": "B. is an earthbound element",
+    "option_c": "C. is solid at room temperature",
+    "option_d": "D. occurs in the atmosphere",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The following factors are essential for maize production except&nbsp;</p>",
+    "option_a": "A. high temperature",
+    "option_b": "B. low temperature",
+    "option_c": "C. relative humidity",
+    "option_d": "D. adequate rainfall",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Drying of newly harvested grains before storage helps to increase the&nbsp;</p>",
+    "option_a": "A. moisture content",
+    "option_b": "B. pest incidence",
+    "option_c": "C. seed viability",
+    "option_d": "D. nutrient content",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Yam stored in a barn should be inspected at least once a week in order to</p>",
+    "option_a": "A. remove irregular shaped tubes",
+    "option_b": "B. control termite attack",
+    "option_c": "C. prevent mouldiness in yam",
+    "option_d": "D. remove sprouts and rotten tubers",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The botanical name of onion is</p>",
+    "option_a": "A. Zea mays",
+    "option_b": "B. Oryza sativa",
+    "option_c": "C. Carica papaya",
+    "option_d": "D. Allium cepa",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Okro seeds are sown on 0.72 hectares of farmland at a spacing of 60cm. Calculate the expected plant population&nbsp;</p>",
+    "option_a": "A. 3,600 plants",
+    "option_b": "B. 7,200 plants",
+    "option_c": "C. 10,000 plants",
+    "option_d": "D. 20,000 plants",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>A plot of land devoted to the cultivation of fruit&nbsp; trees is called</p>",
+    "option_a": "A. orchard",
+    "option_b": "B. farmstead",
+    "option_c": "C. forest",
+    "option_d": "D. ranch",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Two species of kola grown for commercial purposes in West Africa are</p>",
+    "option_a": "A. Cola acuminata and cola gigantea",
+    "option_b": "B. Cola nitida and cola verticillata",
+    "option_c": "C. Cola nitida and cola acuminata",
+    "option_d": "D. Cola verticillata and cola gigantea",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Propagation of ginger is generally done using it's</p>",
+    "option_a": "A. corn",
+    "option_b": "B. rhizome",
+    "option_c": "C. sucker",
+    "option_d": "D. seed",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Elaeis guineensis and Arachis&nbsp;hypogaea are examples of</p>",
+    "option_a": "A. latex crops",
+    "option_b": "B. oil crops",
+    "option_c": "C. fibre crops",
+    "option_d": "D. fruit crops",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The diagram below illustrates a farm operation. Study it and answer this question.<br>\n<img alt=\"Open photo\" src=\"https://scontent.flos5-1.fna.fbcdn.net/v/t1.15752-9/312741715_693663995680723_3833731604829160564_n.jpg?stp=dst-jpg_p206x206&amp;_nc_cat=105&amp;ccb=1-7&amp;_nc_sid=aee45a&amp;_nc_eui2=AeGTGEtdZA2P_BXWQ4gMaby3mgSi0GlhhdWaBKLQaWGF1cZZSCvRNtyN0Gy5h1KHqvWhbZDG3cTwKr-CTHjq7bCc&amp;_nc_ohc=eT--IPiuxJ4AX_6AsdU&amp;_nc_ht=scontent.flos5-1.fna&amp;oh=03_AdRsG2K95prl_iwzPiZKxgV87ttofcTgXFjvcLGd_b9jgg&amp;oe=637E4ED5\"></p>\n\n<p>Which of the following statements is not a reason for carrying out the illustrated farm operation? To</p>",
+    "option_a": "A. expose the leaves to sunlight",
+    "option_b": "B. prevent damage by rodents",
+    "option_c": "C. improve the yield of the crop",
+    "option_d": "D. prevent lodging of the plants",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The diagram below illustrates a farm operation. Study it and answer this question.<br>\n<img alt=\"Open photo\" src=\"https://scontent.flos5-1.fna.fbcdn.net/v/t1.15752-9/312741715_693663995680723_3833731604829160564_n.jpg?stp=dst-jpg_p206x206&amp;_nc_cat=105&amp;ccb=1-7&amp;_nc_sid=aee45a&amp;_nc_eui2=AeGTGEtdZA2P_BXWQ4gMaby3mgSi0GlhhdWaBKLQaWGF1cZZSCvRNtyN0Gy5h1KHqvWhbZDG3cTwKr-CTHjq7bCc&amp;_nc_ohc=eT--IPiuxJ4AX_6AsdU&amp;_nc_ht=scontent.flos5-1.fna&amp;oh=03_AdRsG2K95prl_iwzPiZKxgV87ttofcTgXFjvcLGd_b9jgg&amp;oe=637E4ED5\"></p>\n\n<p>Crops which require the illustrated farm operation are</p>",
+    "option_a": "A. yam and cowpea",
+    "option_b": "B. tomato and okro",
+    "option_c": "C. okro and pepper",
+    "option_d": "D. tomato and yam",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The basic importance of agriculture to a forester is to&nbsp;</p>",
+    "option_a": "A. obtain honey",
+    "option_b": "B. obtain food",
+    "option_c": "C. acquire labour",
+    "option_d": "D. procure timber",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>A suitable grass for lawns is&nbsp;</p>",
+    "option_a": "A. Andropogon gayanus",
+    "option_b": "B. Pennisetum purpureum",
+    "option_c": "C. Cynodon dactylon",
+    "option_d": "D. Panicum maximum",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The causative organism of maize rust is a&nbsp;</p>",
+    "option_a": "A. bacterium",
+    "option_b": "B. protozoon",
+    "option_c": "C. virus",
+    "option_d": "D. fungus",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Which of the following groups of insect pests damages crops by bitting and chewing?</p>",
+    "option_a": "A. cotton stainer, armyworm and cricket",
+    "option_b": "B. cricket, mealybug, and whitefly",
+    "option_c": "C. armyworm, termite nd grasshopper",
+    "option_d": "D. cotton stainer, mealybug and termite",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The breeds of cattle resistant to trypanosomiasis are</p>",
+    "option_a": "A. N'dama and moturu",
+    "option_b": "B. White fulani and biu",
+    "option_c": "C. Red bororo and adamawa",
+    "option_d": "D. Wadara and sokoro gudali",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Which of the following&nbsp;features is not a characteristic of a good layer</p>",
+    "option_a": "A. Bright red comb and wattle",
+    "option_b": "B. Long and curved beak",
+    "option_c": "C. Bright and bulging eyes",
+    "option_d": "D. Broad and flexible pelvic bone",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The best way for a young animal to obtain colostrum is by</p>",
+    "option_a": "A. giving it powdered milk",
+    "option_b": "B. providing it with warm milk",
+    "option_c": "C. injecting it with progesterone",
+    "option_d": "D. allowing it to suckle the dam",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Which of the following statement about slatted floors in livestock housing are true? They<br>\nI.lessen labour&nbsp;requirements<br>\nII.reduce odour in pens<br>\nIII.hamper movement of animals</p>",
+    "option_a": "A. I and II only",
+    "option_b": "B. I and III only",
+    "option_c": "C. II and III only",
+    "option_d": "D. I,II and III",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>If 0.7kg of feed was fed to chicks per week, determine the cost of feeding the birds for 6 weeks. (1kg of feed costs #5)</p>",
+    "option_a": "A. #4.20",
+    "option_b": "B. #11.70",
+    "option_c": "C. #21.00",
+    "option_d": "D. #30.00",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Feeds that have more than 18% fibre are classified as&nbsp;</p>",
+    "option_a": "A. concentrates",
+    "option_b": "B. additives",
+    "option_c": "C. supplements",
+    "option_d": "D. roughages",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>An advantage of zero-grazing is that it</p>",
+    "option_a": "A. requires a lot of labour",
+    "option_b": "B. prevents livestock from physical exercises",
+    "option_c": "C. prevents depletion of pasture",
+    "option_d": "D. increases the cost of pasture management",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The diagram below illustrates a tool used in animal production. use it to answer this question.<br>\n<img alt=\"Open photo\" src=\"https://scontent.flos5-2.fna.fbcdn.net/v/t1.15752-9/312963246_437019961903397_2506461356611496837_n.jpg?stp=dst-jpg_p206x206&amp;_nc_cat=107&amp;ccb=1-7&amp;_nc_sid=aee45a&amp;_nc_eui2=AeGGy4BUeXBopJzW14aeDlgzBngUGmTK524GeBQaZMrnbtyf_-q1U1fjZ8ZpQVBIa53saPGdeuLGXclZMhCa3FGv&amp;_nc_ohc=0MvSc3HuGiQAX9o973E&amp;_nc_ht=scontent.flos5-2.fna&amp;oh=03_AdQm1qo_7pzCyzO8MugSoSeGguxowW4p4dHvBjEGGumxcQ&amp;oe=637F1A04\"></p>\n\n<p>The illustrated tool is</p>",
+    "option_a": "A. an elastrator",
+    "option_b": "B. a burdizzo",
+    "option_c": "C. an electric dehorner",
+    "option_d": "D. an artificial vagina",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The diagram below illustrates a tool used in animal production. use it to answer this question.<br>\n<img alt=\"Open photo\" src=\"https://scontent.flos5-2.fna.fbcdn.net/v/t1.15752-9/312963246_437019961903397_2506461356611496837_n.jpg?stp=dst-jpg_p206x206&amp;_nc_cat=107&amp;ccb=1-7&amp;_nc_sid=aee45a&amp;_nc_eui2=AeGGy4BUeXBopJzW14aeDlgzBngUGmTK524GeBQaZMrnbtyf_-q1U1fjZ8ZpQVBIa53saPGdeuLGXclZMhCa3FGv&amp;_nc_ohc=0MvSc3HuGiQAX9o973E&amp;_nc_ht=scontent.flos5-2.fna&amp;oh=03_AdQm1qo_7pzCyzO8MugSoSeGguxowW4p4dHvBjEGGumxcQ&amp;oe=637F1A04\"></p>\n\n<p>The illustrated tool is used for</p>",
+    "option_a": "A. castrating the bull calf",
+    "option_b": "B. cutting the horns of the animal",
+    "option_c": "C. collecting semen from the bull",
+    "option_d": "D. identifying the animal",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Formation of blisters on the mouth and the skin around the hoof of farm animals is a symptom of&nbsp;</p>",
+    "option_a": "A. rinderpest",
+    "option_b": "B. anthrax",
+    "option_c": "C. Newcastle disease",
+    "option_d": "D. foot and mouth disease",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>In sheep production, tapeworm could be controlled by&nbsp;</p>",
+    "option_a": "A. dusting",
+    "option_b": "B. spraying",
+    "option_c": "C. dipping",
+    "option_d": "D. drenching",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The table below illustrates the supply schedule of maize. Use it to answer this question.</p>\n\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>&nbsp; &nbsp; &nbsp; PRICE(#)</strong></td>\n\t\t\t<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>QUANTITY SUPPLIED(kg)</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 24</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;480</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 16</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;400</strong></td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>The percentage change in quantity supplied for maize is</p>\n\n<p>&nbsp;</p>",
+    "option_a": "A. 16.7%",
+    "option_b": "B. 20%",
+    "option_c": "C. 80%",
+    "option_d": "D. 83.3%",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The table below illustrates the supply schedule of maize. Use it to answer this question.</p>\n\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; PRICE(#)</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; QUANTITY SUPPLIED (kg)</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;24</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 480</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;16</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 400</strong></td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Calculate the percentage change in price for maize</p>",
+    "option_a": "A. 8.0%",
+    "option_b": "B. 33.3%",
+    "option_c": "C. 50.0%",
+    "option_d": "D. 66.7%",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The table below illustrates the supply schedule of maize. Use it to answer this question.</p>\n\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; PRICE(#)</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp;QUANTITY SUPPLIED(kg)</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;24</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;480</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;16</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;400&nbsp;</strong></td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Determine the elasticity of supply for maize&nbsp;</p>",
+    "option_a": "A. 0.3",
+    "option_b": "B. 0.4",
+    "option_c": "C. 0.5",
+    "option_d": "D. 0.6",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>A long-term loan for an agricultural enterprise could be obtained from</p>",
+    "option_a": "A. micro-finance banks",
+    "option_b": "B. commercial banks",
+    "option_c": "C. money lenders",
+    "option_d": "D. cooperative societies",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Which of the following problems of agriculture could be solved through farmers' adoption of research findings?</p>",
+    "option_a": "A. Unpredictable climate",
+    "option_b": "B. Environmental degradation",
+    "option_c": "C. poor extension services",
+    "option_d": "D. Insufficient basic amenities",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>To reduce rural-urban migration, the government should</p>",
+    "option_a": "A. establish commodity boards",
+    "option_b": "B. provide social infrastructure",
+    "option_c": "C. establish tractor-hiring units",
+    "option_d": "D. provide extension services to farmers",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The establishment of cooperative farming is encouraged by governments because it</p>",
+    "option_a": "A. enables farmers to control soil erosion",
+    "option_b": "B. facilitates the use of hand tools",
+    "option_c": "C. enables individual farmers to acquire capital",
+    "option_d": "D. allows farmers to cultivate small and scattered plots",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>A non-governmental organization involved in agricultural development in West Africa is</p>",
+    "option_a": "A. Operation Feed the Nation",
+    "option_b": "B. River Basin Development Authority",
+    "option_c": "C. Agricultural Development Project",
+    "option_d": "D. International Institute of Tropical Agriculture",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The diagram below illustrates a farm implement. Use it to answer this question.<br>\n<img alt=\"Open photo\" src=\"https://scontent.xx.fbcdn.net/v/t1.15752-9/312544727_637988911155790_5034667849574225543_n.jpg?stp=dst-jpg_p206x206&amp;_nc_cat=111&amp;ccb=1-7&amp;_nc_sid=aee45a&amp;_nc_eui2=AeGD-wm-I9EGFhdelarXff8sa9roiNC50c5r2uiI0LnRzsp1jiZwT8GDWI3gNSWqNaEELQfctcUfc_XZ7yazNCU4&amp;_nc_ohc=RQ6hFXMHgfYAX9Na7z8&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_ht=scontent.xx&amp;oh=03_AdRoPKK79A0fkQD30qB5UrHFH3HheI7UXCbvrjvv6YafAA&amp;oe=637E8B3E\"></p>\n\n<p>The illustrated farm implement i used for</p>",
+    "option_a": "A. pulverizing soil into fine tilth",
+    "option_b": "B. breaking up soil into clods",
+    "option_c": "C. gathering top soil",
+    "option_d": "D. levelling soil surface",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The diagram below illustrates a farm implement. Use it to answer this question.<br>\n<img alt=\"Open photo\" src=\"https://scontent.xx.fbcdn.net/v/t1.15752-9/312544727_637988911155790_5034667849574225543_n.jpg?stp=dst-jpg_p206x206&amp;_nc_cat=111&amp;ccb=1-7&amp;_nc_sid=aee45a&amp;_nc_eui2=AeGD-wm-I9EGFhdelarXff8sa9roiNC50c5r2uiI0LnRzsp1jiZwT8GDWI3gNSWqNaEELQfctcUfc_XZ7yazNCU4&amp;_nc_ohc=RQ6hFXMHgfYAX9Na7z8&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_ht=scontent.xx&amp;oh=03_AdRoPKK79A0fkQD30qB5UrHFH3HheI7UXCbvrjvv6YafAA&amp;oe=637E8B3E\"></p>\n\n<p>The part of the illustrated farm implement which enables it to roll over obstacles is labelled</p>",
+    "option_a": "A. I",
+    "option_b": "B. II",
+    "option_c": "C. III",
+    "option_d": "D. IV",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The diagram below illustrates a farm implement. Use it to answer this question.<br>\n<img alt=\"Open photo\" src=\"https://scontent.xx.fbcdn.net/v/t1.15752-9/312544727_637988911155790_5034667849574225543_n.jpg?stp=dst-jpg_p206x206&amp;_nc_cat=111&amp;ccb=1-7&amp;_nc_sid=aee45a&amp;_nc_eui2=AeGD-wm-I9EGFhdelarXff8sa9roiNC50c5r2uiI0LnRzsp1jiZwT8GDWI3gNSWqNaEELQfctcUfc_XZ7yazNCU4&amp;_nc_ohc=RQ6hFXMHgfYAX9Na7z8&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_ht=scontent.xx&amp;oh=03_AdRoPKK79A0fkQD30qB5UrHFH3HheI7UXCbvrjvv6YafAA&amp;oe=637E8B3E\"></p>\n\n<p>The function of the part labelled II is to&nbsp;</p>",
+    "option_a": "A. remove soil",
+    "option_b": "B. turn soil",
+    "option_c": "C. break clods",
+    "option_d": "D. cut stumps",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>A combine harvester can be used simultaneously to harvest</p>",
+    "option_a": "A. legumes and apply fertilizer",
+    "option_b": "B. grains and eradicate weeds",
+    "option_c": "C. tubers and distribute fertilizer",
+    "option_d": "D. cereals and winnow grains",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Ranging poles used in farm surveying have characteristic</p>",
+    "option_a": "A. green and white bands",
+    "option_b": "B. blue and white bands",
+    "option_c": "C. red and white bands",
+    "option_d": "D. black and red bands",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Decomposition of soil organic matter is mainly caused by&nbsp;</p>",
+    "option_a": "A. bacteria",
+    "option_b": "B. algae",
+    "option_c": "C. fungi",
+    "option_d": "D. nematodes",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The main factors responsible for rock weathering in the desert are high temperature and&nbsp;</p>",
+    "option_a": "A. animal activity",
+    "option_b": "B. water",
+    "option_c": "C. wind",
+    "option_d": "D. root growth",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>A difference between physical and chemical weathering is that</p>",
+    "option_a": "A. there is a change in the mineral composition of rock in physical weathering",
+    "option_b": "B. the mineral composition of rock is changed in chemical weathering.",
+    "option_c": "C. carbonation is necessary in physical weathering.",
+    "option_d": "D. wind is necessary in chemical weathering.",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Use the information below to answer this question.<br>\nIn an experiment on soil porosity, the following results were obtained:<br>\nVolume of dry soil = 52cm³<br>\nVolume of water= 48cm³<br>\nVolume of soil and water=78cm³</p>\n\n<p>Determine the volume of airspace in the soil sample.</p>",
+    "option_a": "A. 22cm³",
+    "option_b": "B. 26cm³",
+    "option_c": "C. 30cm³",
+    "option_d": "D. 100cm³",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Use the information below to answer this question.<br>\nIn an experiment on soil porosity, the following results were obtained:<br>\nVolume of dry soil = 52cm³<br>\nVolume of water= 48cm³<br>\nVolume of soil and water=78cm³</p>\n\n<p>Calculate the porosity of the soil sample</p>",
+    "option_a": "A. 28.21%",
+    "option_b": "B. 42.31%",
+    "option_c": "C. 45.83%",
+    "option_d": "D. 61.54%",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The diagram below illustrates a tool used to analyse a soil sample in an experiment. Use it to answer this question.<br>\n<img alt=\"Open photo\" src=\"https://scontent.xx.fbcdn.net/v/t1.15752-9/312891750_771299813964588_7053012339328965592_n.jpg?stp=dst-jpg_p206x206&amp;_nc_cat=101&amp;ccb=1-7&amp;_nc_sid=aee45a&amp;_nc_eui2=AeGF3Eixf2M4McyCLyQzpdJfqdiZfwPKQIyp2Jl_A8pAjAwt_MsbX8sxFQ9M8JH_8XWv9Ussv2mARArI0zbzo0e6&amp;_nc_ohc=zxuGUJwl4AUAX-Zygp-&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_ht=scontent.xx&amp;oh=03_AdRtBNAlZt1LOKIemm4-qDyY8bzi0enFxgeSNr7RwrtcAg&amp;oe=637E3C77\"></p>\n\n<p>The aim of the experiment is to determine the soil</p>",
+    "option_a": "A. structure",
+    "option_b": "B. texture",
+    "option_c": "C. mineral matter",
+    "option_d": "D. organic matter",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The diagram below illustrates a tool used to analyse a soil sample in an experiment. Use it to answer this question.<br>\n<img alt=\"Open photo\" src=\"https://scontent.xx.fbcdn.net/v/t1.15752-9/312891750_771299813964588_7053012339328965592_n.jpg?stp=dst-jpg_p206x206&amp;_nc_cat=101&amp;ccb=1-7&amp;_nc_sid=aee45a&amp;_nc_eui2=AeGF3Eixf2M4McyCLyQzpdJfqdiZfwPKQIyp2Jl_A8pAjAwt_MsbX8sxFQ9M8JH_8XWv9Ussv2mARArI0zbzo0e6&amp;_nc_ohc=zxuGUJwl4AUAX-Zygp-&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_ht=scontent.xx&amp;oh=03_AdRtBNAlZt1LOKIemm4-qDyY8bzi0enFxgeSNr7RwrtcAg&amp;oe=637E3C77\"></p>\n\n<p>The part labelled Ill will contain</p>",
+    "option_a": "A. clay",
+    "option_b": "B. silt",
+    "option_c": "C. coarse sand",
+    "option_d": "D. fine sand",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The diagram above&nbsp;illustrates a tool used to analyze a soil sample in an experiment. Use it to answer this qu</p>\n\n<p>The diameter of the soil particle that would be retained in the part labelled II is</p>",
+    "option_a": "A. 0.002 - 0.02 mm",
+    "option_b": "B. 0.02 - 0.2 mm",
+    "option_c": "C. 0.2 - 2.0 mm",
+    "option_d": "D. 2.0 mm",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Potassium deficiency in cereal crops Is indicated by</p>",
+    "option_a": "A. browning of leaves Trom the tips and margins",
+    "option_b": "B. yellowing of younger leaves",
+    "option_c": "C. purpling of leaves",
+    "option_d": "D. white and irregular spots on leaves",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Nitrogen is important in plants because it is mainly needed in</p>",
+    "option_a": "A. fruit formation",
+    "option_b": "B. root development",
+    "option_c": "C. leaf formation",
+    "option_d": "D. cell division",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Water can be conserved in the soil by</p>",
+    "option_a": "A. mulching, strip cropping and cover cropping",
+    "option_b": "B. weeding, strip cropping and clean clearing",
+    "option_c": "C. clean clearing, mulching, and strip cropping",
+    "option_d": "D. cover cropping, mulching and weeding",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Monocotyledonous crops include</p>",
+    "option_a": "A. oil palm, rice, and plantain.",
+    "option_b": "B. cowpea, pepper and tomato",
+    "option_c": "C. garden egg, cassava and mango",
+    "option_d": "D. rubber, cashew and orange",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Swampy lands are most suitable for growing</p>",
+    "option_a": "A. yam",
+    "option_b": "B. rice",
+    "option_c": "C. maize",
+    "option_d": "D. tomato",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>If maize seeds are sown at a spacing of 60 cm by 90 cm, what is the plant population of maize expected on one hectare of farmland?</p>",
+    "option_a": "A. 18,519 plants",
+    "option_b": "B. 16,667 plants",
+    "option_c": "C. 11,111 plants",
+    "option_d": "D. 5,400 plants",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The practice of placing the correct number of seeds in the soil with definite intra-row and inter-row spacing is called</p>",
+    "option_a": "A. seed drilling",
+    "option_b": "B. centrifugal distribution",
+    "option_c": "C. precision planting",
+    "option_d": "D. seed broadcasting",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Which of the following groups of crops will thrive in areas with high rainfall?</p>",
+    "option_a": "A. Cotton, cowpea and groundnut",
+    "option_b": "B. Millet, maize and cotton",
+    "option_c": "C. Guinea com, cowpea and maize",
+    "option_d": "D. Cocoa, oil palm and rubber",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Capping is a cultural practice carried out in the cultivation of</p>",
+    "option_a": "A. carrot",
+    "option_b": "B. cassava",
+    "option_c": "C. potato",
+    "option_d": "D. yam",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Damping of disease of tomato could be controlled by</p>",
+    "option_a": "A. staking",
+    "option_b": "B. supplying",
+    "option_c": "C. thinning",
+    "option_d": "D. pruning",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The most common way of controlling weeds in tree crop plantations is by</p>",
+    "option_a": "A. crop rotation",
+    "option_b": "B. hand pulling",
+    "option_c": "C. flooding",
+    "option_d": "D. slashing",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Which of the following crops is correctly matched with a disease that affects it?</p>",
+    "option_a": "A. Maize - smut",
+    "option_b": "B. Sorghum - scab",
+    "option_c": "C. Rice- black arm",
+    "option_d": "D. Yam- blast",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Soil-borne diseases could be controlled in the nursery by</p>",
+    "option_a": "A. mulching",
+    "option_b": "B. manuring",
+    "option_c": "C. heat treatment",
+    "option_d": "D. provision of shade",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Use the information below to answer this&nbsp;question.<br>\nI. Yellowing of leaves<br>\nII. Raised brown spots on the leaves<br>\nIII. Drying up of leaves<br>\nIV. Exudation of gum</p>\n\n<p>The disease of citrus described above is</p>",
+    "option_a": "A. die-back",
+    "option_b": "B. gummosis",
+    "option_c": "C. tristeza",
+    "option_d": "D. blight",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The diagram below illustrates the digestive system of a farm animal. Use it to answer this question.<br>\n<img alt=\"Open photo\" src=\"https://scontent.xx.fbcdn.net/v/t1.15752-9/313094554_489390253210894_5384069048168034983_n.jpg?stp=dst-jpg_p206x206&amp;_nc_cat=111&amp;ccb=1-7&amp;_nc_sid=aee45a&amp;_nc_eui2=AeF4gWVLJwy6Prg0GoqBWDBjZN_ooSlFPllk3-ihKUU-WckR88y7dkkzA_zPrO6F3CfekSz1pYRW-meIEdTTf9Qn&amp;_nc_ohc=qW0LxtUrajgAX_cz_gR&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_ht=scontent.xx&amp;oh=03_AdQvODyeGCS9Rc2dHy1Bn5zCqn6Hyt-Wc2VMiSheqw9hCw&amp;oe=637FF20A\"></p>\n\n<p>The diagram illustrates the digestive system of a</p>",
+    "option_a": "A. chicken",
+    "option_b": "B. turkey",
+    "option_c": "C. sheep",
+    "option_d": "D. rabbit",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The diagram below illustrates the digestive system of a farm animal. Use it to answer this question.<br>\n<img alt=\"Open photo\" src=\"https://scontent.xx.fbcdn.net/v/t1.15752-9/313094554_489390253210894_5384069048168034983_n.jpg?stp=dst-jpg_p206x206&amp;_nc_cat=111&amp;ccb=1-7&amp;_nc_sid=aee45a&amp;_nc_eui2=AeF4gWVLJwy6Prg0GoqBWDBjZN_ooSlFPllk3-ihKUU-WckR88y7dkkzA_zPrO6F3CfekSz1pYRW-meIEdTTf9Qn&amp;_nc_ohc=qW0LxtUrajgAX_cz_gR&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_ht=scontent.xx&amp;oh=03_AdQvODyeGCS9Rc2dHy1Bn5zCqn6Hyt-Wc2VMiSheqw9hCw&amp;oe=637FF20A\"></p>\n\n<p>The part labelled lll is the</p>",
+    "option_a": "A. pancreas",
+    "option_b": "B. caecum",
+    "option_c": "C. small intestine",
+    "option_d": "D. large intestine",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The diagram below illustrates the digestive system of a farm animal. Use it to answer this question.<br>\n<img alt=\"Open photo\" src=\"https://scontent.xx.fbcdn.net/v/t1.15752-9/313094554_489390253210894_5384069048168034983_n.jpg?stp=dst-jpg_p206x206&amp;_nc_cat=111&amp;ccb=1-7&amp;_nc_sid=aee45a&amp;_nc_eui2=AeF4gWVLJwy6Prg0GoqBWDBjZN_ooSlFPllk3-ihKUU-WckR88y7dkkzA_zPrO6F3CfekSz1pYRW-meIEdTTf9Qn&amp;_nc_ohc=qW0LxtUrajgAX_cz_gR&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_ht=scontent.xx&amp;oh=03_AdQvODyeGCS9Rc2dHy1Bn5zCqn6Hyt-Wc2VMiSheqw9hCw&amp;oe=637FF20A\"></p>\n\n<p>Digestion of fats takes place in the part labelled</p>",
+    "option_a": "A. I",
+    "option_b": "B. II",
+    "option_c": "C. III",
+    "option_d": "D. IV",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Lactation normally occurs</p>",
+    "option_a": "A. at the onset of conception",
+    "option_b": "B. at the onset of puberty",
+    "option_c": "C. after gestation.",
+    "option_d": "D. after mating",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>A by-product of all livestock is</p>",
+    "option_a": "A. hide",
+    "option_b": "B. horn",
+    "option_c": "C. milk",
+    "option_d": "D. meat",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Removal of &nbsp;needle teeth is important in the management of</p>",
+    "option_a": "A. kids",
+    "option_b": "B. lambs",
+    "option_c": "C. calves",
+    "option_d": "D. piglets",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Which of the following farm animals will browse more on plants in a pasture?</p>",
+    "option_a": "A. Goats",
+    "option_b": "B. Cattle",
+    "option_c": "C. Pigs",
+    "option_d": "D. Sheep",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The main reason for castrating farm animals is to</p>",
+    "option_a": "A. remove male odour",
+    "option_b": "B. make the animal sterile",
+    "option_c": "C. increase meat production",
+    "option_d": "D. make them lose weight",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Which of the following statements about silage are true?<br>\nI. It has a laxative effect<br>\nII. is acidic in reaction.<br>\nIII. has a strong aroma when well prepared</p>",
+    "option_a": "A. I and II only",
+    "option_b": "B. I and III only",
+    "option_c": "C. II and III only",
+    "option_d": "D. I, II and III",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>If 200 layers require 25 kg of layer mash per day, calculate the quantity of feed required by 1,000 layers per day.</p>",
+    "option_a": "A. 5kg",
+    "option_b": "B. 40kg",
+    "option_c": "C. 80kg",
+    "option_d": "D. 125kg",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Salt licks are provided for grazing animals to</p>",
+    "option_a": "A. make the pasture palatable.",
+    "option_b": "B. supply nutrients in pastures",
+    "option_c": "C. supplement mineral intake",
+    "option_d": "D. provide laxatives",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The correct order of arrangement of ration for piglets from day old is</p>",
+    "option_a": "A. weaners >growers->creep > finisher.",
+    "option_b": "B. creep>weaners>growers>finisher.",
+    "option_c": "C. growers>finisher>creep>weaners.",
+    "option_d": "D. finishers>creep>weaners>growers",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>In farming enterprise, short term loans are used to</p>",
+    "option_a": "A. purchase farm machinery",
+    "option_b": "B. construct new farm buildings",
+    "option_c": "C. construct an irrigation dam",
+    "option_d": "D. purchase agrochemicals",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The table below illustrates a farm record for Goodness Farms in the year 1970. Use it to answer this question.</p>\n\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td><strong>DATE</strong></td>\n\t\t\t<td><strong>NUMBER<br>\n\t\t\tOF HENS</strong></td>\n\t\t\t<td><strong>TOTAL EGGS<br>\n\t\t\tCOLLECTED</strong></td>\n\t\t\t<td><strong>TOTAL EGGS<br>\n\t\t\tSOLD</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>4th June</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; 362</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;176</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 96</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>5th June</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; 360</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;199</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;108</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>6th June</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; 360&nbsp;</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;177</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 48</strong></td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>The table illustrates</p>\n\n<p>&nbsp;</p>",
+    "option_a": "A. an inventory record",
+    "option_b": "B. a production record",
+    "option_c": "C. a labour record",
+    "option_d": "D. an input record",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The table below illustrates a farm record for Goodness Farms in the year 1970. Use it to answer this question.</p>\n\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td><strong>DATE</strong></td>\n\t\t\t<td><strong>NUMBER<br>\n\t\t\tOF HENS</strong></td>\n\t\t\t<td><strong>TOTAL EGGS<br>\n\t\t\tCOLLECTED</strong></td>\n\t\t\t<td><strong>TOTAL EGGS<br>\n\t\t\tSOLD</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>4th June</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; 362</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 176</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 96</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>5th June</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; 360</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 199</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;108</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>6th June</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; 360</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 177</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 48</strong></td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Calculate the total amount of eggs sold on the farm.</p>",
+    "option_a": "A. 804",
+    "option_b": "B. 552",
+    "option_c": "C. 300",
+    "option_d": "D. 252",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The table below illustrates a farm record for Goodness Farms in the year 1970. Use it to answer this question.</p>\n\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td><strong>DATE</strong></td>\n\t\t\t<td><strong>NUMBER<br>\n\t\t\tOF HENS</strong></td>\n\t\t\t<td><strong>TOTAL EGGS<br>\n\t\t\tCOLLECTED</strong></td>\n\t\t\t<td><strong>TOTAL EGGS<br>\n\t\t\tSOLD</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>4th June</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; 362</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;176</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;96</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>5th June</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; 360&nbsp;</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;199</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 108</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>6th June</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; 360</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;177</strong></td>\n\t\t\t<td><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;48</strong></td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>If all the unsold eggs were later sold on 7th June at ₦5.00 per crate, calculate the income from unsold eggs. (Assuming a crate = 30 eggs)</p>",
+    "option_a": "A. ₦40.00",
+    "option_b": "B. ₦45.00",
+    "option_c": "C. ₦50.00",
+    "option_d": "D. ₦55.00",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The gross profit of a farm business is the farm's</p>",
+    "option_a": "A. net sales less cost of production.",
+    "option_b": "B. total sales less operating expenses.",
+    "option_c": "C. net sales less taxation.",
+    "option_d": "D. total sales less cost of production.",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The primary role of agriculture is the provision of</p>",
+    "option_a": "A. foreign exchange earnings",
+    "option_b": "B. raw materials for industries",
+    "option_c": "C. food for man and his animals",
+    "option_d": "D. employment and income for farmers",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>In subsistence agriculture</p>",
+    "option_a": "A. yields are usually high",
+    "option_b": "B. surplus produce is small",
+    "option_c": "C. savings are made",
+    "option_d": "D. farm sizes are large",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Gestation period is defined as the time</p>",
+    "option_a": "A. of fusion of the sperm and the egg",
+    "option_b": "B. between conception and parturition",
+    "option_c": "C. of release of ovum from the ovary",
+    "option_d": "D. of the birth of the young animal",
+    "correct_option": "B"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The hormone responsible for milk let down in female farm animals is</p>",
+    "option_a": "A. testosterone",
+    "option_b": "B. FSH",
+    "option_c": "C. Oxytosin",
+    "option_d": "D. androgen",
+    "correct_option": "C"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>The adult male cattle is called</p>",
+    "option_a": "A. bull",
+    "option_b": "B. ram",
+    "option_c": "C. boar",
+    "option_d": "D. duck",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Layer's ration contains more limestone than grower's ration because limestone</p>",
+    "option_a": "A. is difficult for the growers to digest",
+    "option_b": "B. stimulates layer's appetite",
+    "option_c": "C. reduces the acidity in the gut if growers",
+    "option_d": "D. supplies sufficient minerals to layers for shell formation",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Which of the following is not a method of improving rangeland?</p>",
+    "option_a": "A. practicing continuous grazing",
+    "option_b": "B. routine and regular weeding",
+    "option_c": "C. routine reseeding",
+    "option_d": "D. regular application of fertilizers",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Miracidium is one of the stages in the life cycle of</p>",
+    "option_a": "A. roundworm",
+    "option_b": "B. liver fluke",
+    "option_c": "C. tapeworm",
+    "option_d": "D. tick",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Which of the following is not a symptom of foot and mouth disease of cattle?</p>",
+    "option_a": "A. excessive production of saliva",
+    "option_b": "B. sores on feet and tongue",
+    "option_c": "C. lameness",
+    "option_d": "D. blood stained diarrhea",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Heavy infestation of liver fluke causes poor absorption of fats in livestock by</p>",
+    "option_a": "A. blocking bile ducts thus preventing flow of bile",
+    "option_b": "B. destroying fat-digesting enzymes",
+    "option_c": "C. reducing ingestion of fats",
+    "option_d": "D. inhibiting the action of digestive enzymes",
+    "correct_option": "D"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Methods of preserving fish include the following except</p>",
+    "option_a": "A. boiling",
+    "option_b": "B. drying",
+    "option_c": "C. smoking",
+    "option_d": "D. salting",
+    "correct_option": "A"
+  },
+  {
+    "course_id": "3",
+    "question_text": "<p>Which of the following fishing gears can be used for total harvesting of pond?</p>",
+    "option_a": "A. hook and line",
+    "option_b": "B. harpoon",
+    "option_c": "C. basket trap",
+    "option_d": "D. dragnet",
+    "correct_option": "D"
   }
 ]

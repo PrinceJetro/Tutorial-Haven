@@ -1,184 +1,196 @@
+# return this entire array back to me with the answers inserted, the entire array ooo
+#   {
+#     "course_id": "3",
+#     "question_text": "<p>Facebook, Twitter and WhatsApp are examples of</p>",
+#     "option_a": "A. social media",
+#     "option_b": "B. social communication",
+#     "option_c": "C. networking media",
+#     "option_d": "D. search engines",
+#     "correct_option": ""
+#   },
+#   {
+#     "course_id": "3",
+#     "question_text": "<p>Which of the following is not an application of computers?</p>",
+#     "option_a": "A. bank notes counter",
+#     "option_b": "B. point of sales terminal",
+#     "option_c": "C. Automated Teller Machine",
+#     "option_d": "D. traffic lights control",
+#     "correct_option": ""
+#   },
+#   {
+#     "course_id": "3",
+#     "question_text": "<p>Which of the following is secondary storage device.</p>",
+#     "option_a": "A. RAM",
+#     "option_b": "B. bubble memory",
+#     "option_c": "C. floppy disk",
+#     "option_d": "D. EPROM",
+#     "correct_option": ""
+#   },
+#   {
+#     "course_id": "3",
+#     "question_text": "<p>Information analysis procedures includes the following except</p>",
+#     "option_a": "A. skim and scan",
+#     "option_b": "B. recognizing interrelationships",
+#     "option_c": "C. interpret and conclude",
+#     "option_d": "D. identifying propaganda and bias",
+#     "correct_option": ""
+#   },
+#   {
+#     "course_id": "3",
+#     "question_text": "<p>The advantages of electronic data processing includes the following except</p>",
+#     "option_a": "A. automatic processing",
+#     "option_b": "B. hacking",
+#     "option_c": "C. fast and reliable processing",
+#     "option_d": "D. storage capacity",
+#     "correct_option": ""
+#   },
+#   {
+#     "course_id": "3",
+#     "question_text": "<p>Which of the following is not a transmission medium?</p>",
+#     "option_a": "A. twisted pair cables",
+#     "option_b": "B. coaxial cables",
+#     "option_c": "C. wireless",
+#     "option_d": "D. modem",
+#     "correct_option": ""
+#   },
+#   {
+#     "course_id": "3",
+#     "question_text": "<p>Information transmission by television is classified as</p>",
+#     "option_a": "A. multimedia transmission",
+#     "option_b": "B. polymedia transmission",
+#     "option_c": "C. unimedia transmission",
+#     "option_d": "D. monomedia transmission",
+#     "correct_option": ""
+#   },
+#   {
+#     "course_id": "3",
+#     "question_text": "<p>Which of the following are the basic components of a computer network? I. A minimum of two computers II. Printers III. Network interface card.</p>",
+#     "option_a": "A. I and II",
+#     "option_b": "B. I and III",
+#     "option_c": "C. II and III",
+#     "option_d": "D. I, II and III",
+#     "correct_option": ""
+#   },
+#   {
+#     "course_id": "3",
+#     "question_text": "<p>Social networking does not promote.</p>",
+#     "option_a": "A. personal publicity",
+#     "option_b": "B. business expansion",
+#     "option_c": "C. e-commerce",
+#     "option_d": "D. e-payment",
+#     "correct_option": ""
+#   },
+#   {
+#     "course_id": "3",
+#     "question_text": "<p>Companies that provide internet access are referred to as</p>",
+#     "option_a": "A. fixed network operators",
+#     "option_b": "B. network service providers",
+#     "option_c": "C. internet service providers",
+#     "option_d": "D. internet network operators",
+#     "correct_option": ""
+#   },
+#   {
+#     "course_id": "3",
+#     "question_text": "<p>While typing a MS word document, Akin inserted footer in the document in order to&nbsp;</p>",
+#     "option_a": "A. enhance the overall appearance of the document.",
+#     "option_b": "B. make the document more readable",
+#     "option_c": "C. insert page numbers",
+#     "option_d": "D. make it appear on the document when printed.",
+#     "correct_option": ""
+#   },
+#   {
+#     "course_id": "3",
+#     "question_text": "<p>The spreadsheet symbol used to convert a&nbsp;number to a label is</p>",
+#     "option_a": "A. quotation mark (“ “)",
+#     "option_b": "B. equality sign (=)",
+#     "option_c": "C. underscore (_)",
+#     "option_d": "D. apostrophe sign (')",
+#     "correct_option": ""
+#   },
+#   {
+#     "course_id": "3",
+#     "question_text": "<p>In spreadsheets, data would not be accepted into a cell by pressing the.</p>",
+#     "option_a": "A. Enter key",
+#     "option_b": "B. Arrow key",
+#     "option_c": "C. Esc key",
+#     "option_d": "D. Tab key",
+#     "correct_option": ""
+#   },
+#   {
+#     "course_id": "3",
+#     "question_text": "<p>A field in a database table is also known as&nbsp;</p>",
+#     "option_a": "A. index",
+#     "option_b": "B. relation",
+#     "option_c": "C. attribute",
+#     "option_d": "D. key",
+#     "correct_option": ""
+#   },
+#   {
+#     "course_id": "3",
+#     "question_text": "<p>The property of a system software that enables it to execute more than one program at a time is referred to as&nbsp;</p>",
+#     "option_a": "A. compiling",
+#     "option_b": "B. virtual memory",
+#     "option_c": "C. multitasking",
+#     "option_d": "D. load modules",
+#     "correct_option": ""
+#   },
+#   {
+#     "course_id": "3",
+#     "question_text": "<p>Which of these operations would not close MS word application?</p>",
+#     "option_a": "A. Pressing the Alt + F4 keys",
+#     "option_b": "B. clicking the X button on the title bar",
+#     "option_c": "C. choosing exit from the file menu drop down box",
+#     "option_d": "D. selecting the close from the file menu drop down dialogue box",
+#     "correct_option": ""
+#   },
+#   {
+#     "course_id": "3",
+#     "question_text": "<p>The feature in a database application that acts as an interface between the user and the database is called a?</p>",
+#     "option_a": "A. query",
+#     "option_b": "B. report",
+#     "option_c": "C. form",
+#     "option_d": "D. table",
+#     "correct_option": ""
+#   },
+#   {
+#     "course_id": "3",
+#     "question_text": "<p>Planning and creating websites are stages in?</p>",
+#     "option_a": "A. web analysis",
+#     "option_b": "B. web maintenance",
+#     "option_c": "C. web design",
+#     "option_d": "D. web publishing",
+#     "correct_option": ""
+#   },
+#   {
+#     "course_id": "3",
+#     "question_text": "<p>The type of data entered into a table in database follow a set of rules known as?</p>",
+#     "option_a": "A. protocols",
+#     "option_b": "B. regulators",
+#     "option_c": "C. algorithms",
+#     "option_d": "D. constraints",
+#     "correct_option": ""
+#   },
+#   {
+#     "course_id": "3",
+#     "question_text": "<p>Which of the following drawing tools would create special effects for texts?</p>",
+#     "option_a": "A. Smart Art",
+#     "option_b": "B. Shape tool",
+#     "option_c": "C. Textbox",
+#     "option_d": "D. Word Art",
+#     "correct_option": ""
+#   },
+
+
+
+
+
+
+
+
+
+
+
 [
-  {
-    "course_id": "3",
-    "question_text": "<p>Facebook, Twitter and WhatsApp are examples of</p>",
-    "option_a": "A. social media",
-    "option_b": "B. social communication",
-    "option_c": "C. networking media",
-    "option_d": "D. search engines",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Which of the following is not an application of computers?</p>",
-    "option_a": "A. bank notes counter",
-    "option_b": "B. point of sales terminal",
-    "option_c": "C. Automated Teller Machine",
-    "option_d": "D. traffic lights control",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Which of the following is secondary storage device.</p>",
-    "option_a": "A. RAM",
-    "option_b": "B. bubble memory",
-    "option_c": "C. floppy disk",
-    "option_d": "D. EPROM",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Information analysis procedures includes the following except</p>",
-    "option_a": "A. skim and scan",
-    "option_b": "B. recognizing interrelationships",
-    "option_c": "C. interpret and conclude",
-    "option_d": "D. identifying propaganda and bias",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>The advantages of electronic data processing includes the following except</p>",
-    "option_a": "A. automatic processing",
-    "option_b": "B. hacking",
-    "option_c": "C. fast and reliable processing",
-    "option_d": "D. storage capacity",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Which of the following is not a transmission medium?</p>",
-    "option_a": "A. twisted pair cables",
-    "option_b": "B. coaxial cables",
-    "option_c": "C. wireless",
-    "option_d": "D. modem",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Information transmission by television is classified as</p>",
-    "option_a": "A. multimedia transmission",
-    "option_b": "B. polymedia transmission",
-    "option_c": "C. unimedia transmission",
-    "option_d": "D. monomedia transmission",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Which of the following are the basic components of a computer network? I. A minimum of two computers II. Printers III. Network interface card.</p>",
-    "option_a": "A. I and II",
-    "option_b": "B. I and III",
-    "option_c": "C. II and III",
-    "option_d": "D. I, II and III",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Social networking does not promote.</p>",
-    "option_a": "A. personal publicity",
-    "option_b": "B. business expansion",
-    "option_c": "C. e-commerce",
-    "option_d": "D. e-payment",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Companies that provide internet access are referred to as</p>",
-    "option_a": "A. fixed network operators",
-    "option_b": "B. network service providers",
-    "option_c": "C. internet service providers",
-    "option_d": "D. internet network operators",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>While typing a MS word document, Akin inserted footer in the document in order to&nbsp;</p>",
-    "option_a": "A. enhance the overall appearance of the document.",
-    "option_b": "B. make the document more readable",
-    "option_c": "C. insert page numbers",
-    "option_d": "D. make it appear on the document when printed.",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>The spreadsheet symbol used to convert a&nbsp;number to a label is</p>",
-    "option_a": "A. quotation mark (“ “)",
-    "option_b": "B. equality sign (=)",
-    "option_c": "C. underscore (_)",
-    "option_d": "D. apostrophe sign (')",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>In spreadsheets, data would not be accepted into a cell by pressing the.</p>",
-    "option_a": "A. Enter key",
-    "option_b": "B. Arrow key",
-    "option_c": "C. Esc key",
-    "option_d": "D. Tab key",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>A field in a database table is also known as&nbsp;</p>",
-    "option_a": "A. index",
-    "option_b": "B. relation",
-    "option_c": "C. attribute",
-    "option_d": "D. key",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>The property of a system software that enables it to execute more than one program at a time is referred to as&nbsp;</p>",
-    "option_a": "A. compiling",
-    "option_b": "B. virtual memory",
-    "option_c": "C. multitasking",
-    "option_d": "D. load modules",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Which of these operations would not close MS word application?</p>",
-    "option_a": "A. Pressing the Alt + F4 keys",
-    "option_b": "B. clicking the X button on the title bar",
-    "option_c": "C. choosing exit from the file menu drop down box",
-    "option_d": "D. selecting the close from the file menu drop down dialogue box",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>The feature in a database application that acts as an interface between the user and the database is called a?</p>",
-    "option_a": "A. query",
-    "option_b": "B. report",
-    "option_c": "C. form",
-    "option_d": "D. table",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Planning and creating websites are stages in?</p>",
-    "option_a": "A. web analysis",
-    "option_b": "B. web maintenance",
-    "option_c": "C. web design",
-    "option_d": "D. web publishing",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>The type of data entered into a table in database follow a set of rules known as?</p>",
-    "option_a": "A. protocols",
-    "option_b": "B. regulators",
-    "option_c": "C. algorithms",
-    "option_d": "D. constraints",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Which of the following drawing tools would create special effects for texts?</p>",
-    "option_a": "A. Smart Art",
-    "option_b": "B. Shape tool",
-    "option_c": "C. Textbox",
-    "option_d": "D. Word Art",
-    "correct_option": ""
-  },
   {
     "course_id": "3",
     "question_text": "<p>The study of the effect of interaction between the computer and human users is referred to as computer</p>",

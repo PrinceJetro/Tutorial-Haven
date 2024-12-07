@@ -6,7 +6,7 @@
     "option_b": "B. Abacus",
     "option_c": "C. ENIAC",
     "option_d": "D. Slide Rule",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -15,7 +15,7 @@
     "option_b": "B. Analytical Engine and Slide Rule",
     "option_c": "C. Abacus and Slide Rule",
     "option_d": "D. Analytical and Difference Engines",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -24,7 +24,7 @@
     "option_b": "B. program",
     "option_c": "C. data",
     "option_d": "D. file",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -33,7 +33,7 @@
     "option_b": "B. volume",
     "option_c": "C. storage capacity",
     "option_d": "D. storage power",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -42,7 +42,7 @@
     "option_b": "B. Written on a hardboard",
     "option_c": "C. Information stored on a hard disk",
     "option_d": "D. Amount of data",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -51,7 +51,7 @@
     "option_b": "B. Speakers",
     "option_c": "C. Projectors",
     "option_d": "D. Webcams",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -60,7 +60,7 @@
     "option_b": "B. Monitor to print",
     "option_c": "C. CPU to storage",
     "option_d": "D. Hard disk to processing",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -69,16 +69,7 @@
     "option_b": "B. an OR gate",
     "option_c": "C. a NOT gate",
     "option_d": "D. a NAND gate",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>.</p>",
-    "option_a": "A. Input, Output and Input signals",
-    "option_b": "B. Output, Output and Input signals",
-    "option_c": "C. Output, Input and Output Signals",
-    "option_d": "D. Input, Input and Output signals",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -87,7 +78,7 @@
     "option_b": "B. Spreadsheet",
     "option_c": "C. Graphic",
     "option_d": "D. Database",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -96,7 +87,7 @@
     "option_b": "B. Translation of machine language into machine code",
     "option_c": "C. File management",
     "option_d": "D. Arrangement of files in ascending order",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -105,7 +96,7 @@
     "option_b": "B. Keyboard",
     "option_c": "C. Mouse",
     "option_d": "D. Monitor",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -114,7 +105,7 @@
     "option_b": "B. Use of antivirus",
     "option_c": "C. Saving documents without a password",
     "option_d": "D. Proper labelling of storage devices",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -123,7 +114,7 @@
     "option_b": "B. Low Level Language",
     "option_c": "C. Machine Language",
     "option_d": "D. Assembly Language",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -132,7 +123,7 @@
     "option_b": "B. System implementation",
     "option_c": "C. Study review",
     "option_d": "D. Feasibility study",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -141,7 +132,7 @@
     "option_b": "B. System implementation",
     "option_c": "C. Study review",
     "option_d": "D. Feasibility study",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -150,7 +141,7 @@
     "option_b": "B. System implementation",
     "option_c": "C. Study review",
     "option_d": "D. Feasibility study",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -159,7 +150,7 @@
     "option_b": "B. Process/Action Symbol",
     "option_c": "C. Read/Write Symbol",
     "option_d": "D. Stop/End Symbol",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -168,16 +159,7 @@
     "option_b": "B. Read/Write Symbol",
     "option_c": "C. Process Symbol",
     "option_d": "D. Stop/End Symbol",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p><strong>Fig.3 is a flowchart above. Use it to answer the question below</strong></p>\n\n<p>The part labeled III represents________</p>",
-    "option_a": "A. Process?Action Symbol",
-    "option_b": "B. Decision Symbol",
-    "option_c": "C. Read/Write Symbol",
-    "option_d": "D. Stop Symbol",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -186,25 +168,7 @@
     "option_b": "B. Higher Transfer Text Protocol",
     "option_c": "C. Hard Text Transfer Protocol",
     "option_d": "D. Higher Text Transfer Protocol",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>In ring topology, the computer that is allowed to transmit data possesses the ________</p>",
-    "option_a": "A. Packet",
-    "option_b": "B. Data",
-    "option_c": "C. Access method",
-    "option_d": "D. Token",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>The most cost-effective and secure way of transmitting confidential messages among the employees of an organization is the ___________</p>",
-    "option_a": "A. Electronic notice boards",
-    "option_b": "B. Teleconferencing",
-    "option_c": "C. E-mail",
-    "option_d": "D. Social networks",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -213,16 +177,7 @@
     "option_b": "B. World Wide Web",
     "option_c": "C. Spreadsheet",
     "option_d": "D. Internet Protocol",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>A modern and a telephone connection are provided. Other things needed to be able to connect&nbsp;a computer to the internet are _______</p>",
-    "option_a": "A. ISP account and Utility software",
-    "option_b": "B. Browser and ISP account",
-    "option_c": "C. ISP account and Network",
-    "option_d": "D. Browser and Printer",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -231,7 +186,7 @@
     "option_b": "B. Male connector",
     "option_c": "C. Female Connector",
     "option_d": "D. USB Port",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -240,16 +195,16 @@
     "option_b": "B. PC Writer",
     "option_c": "C. Coreldraw",
     "option_d": "D. Acrobat Reader",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
-    "question_text": "<p>In word processing, the icon in Fig.4 is used for __________</p>\n\n<p>&nbsp;</p>",
+    "question_text": "<p>In word processing, the icon in Fig.4 is used for __________</p>",
     "option_a": "A. Paging",
     "option_b": "B. Line Spacing",
     "option_c": "C. Numbering",
     "option_d": "D. Bulleting",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -258,34 +213,34 @@
     "option_b": "B. Open",
     "option_c": "C. View",
     "option_d": "D. Mailings",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
-    "question_text": "<p>Use Table 3 to answer the questions below</p>\n\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>A</td>\n\t\t\t<td>B</td>\n\t\t\t<td>C</td>\n\t\t\t<td>D</td>\n\t\t\t<td>E</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1&nbsp;</td>\n\t\t\t<td>&nbsp; BOOK SUPPLIED TO SENIOR HIGH SCHOOLS</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>MATHS</td>\n\t\t\t<td>ICT</td>\n\t\t\t<td>ENGLISH</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>3</td>\n\t\t\t<td>SHS1</td>\n\t\t\t<td>3450</td>\n\t\t\t<td>4500</td>\n\t\t\t<td>5678</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>4</td>\n\t\t\t<td>SHS11</td>\n\t\t\t<td>8765</td>\n\t\t\t<td>6580</td>\n\t\t\t<td>9000</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>5</td>\n\t\t\t<td>SHS111</td>\n\t\t\t<td>2456</td>\n\t\t\t<td>4009</td>\n\t\t\t<td>4400</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<p>In table 3, the content of cell C5________</p>\n\n<p>&nbsp;</p>",
+    "question_text": "<p>In table 3, the content of cell C5________</p>",
     "option_a": "A. 2456",
     "option_b": "B. 4009",
     "option_c": "C. 4400",
     "option_d": "D. 3450",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
-    "question_text": "<p>Use Table 3 to answer the questions below</p>\n\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:400px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>A</td>\n\t\t\t<td>B</td>\n\t\t\t<td>C</td>\n\t\t\t<td>D</td>\n\t\t\t<td>E</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>BOOK</td>\n\t\t\t<td>SUPPLIED</td>\n\t\t\t<td>TO SENIOR</td>\n\t\t\t<td>HIGH</td>\n\t\t\t<td>SCHOOL</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>MATHS</td>\n\t\t\t<td>ICT</td>\n\t\t\t<td>ENGLISH</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>3</td>\n\t\t\t<td>SHS1</td>\n\t\t\t<td>3450</td>\n\t\t\t<td>4500</td>\n\t\t\t<td>5678</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>4</td>\n\t\t\t<td>SHS11</td>\n\t\t\t<td>8765</td>\n\t\t\t<td>6580</td>\n\t\t\t<td>9000</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>5</td>\n\t\t\t<td>SHS111</td>\n\t\t\t<td>2456</td>\n\t\t\t<td>4009</td>\n\t\t\t<td>4400</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>The number of cells that contain data in row 1 is_________</p>",
+    "question_text": "<p>The number of cells that contain data in row 1 is_________</p>",
     "option_a": "A. 1",
     "option_b": "B. 3",
     "option_c": "C. 5",
     "option_d": "D. 7",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
-    "question_text": "<p>Use Table 3 to answer the questions below</p>\n\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>A</td>\n\t\t\t<td>B</td>\n\t\t\t<td>C</td>\n\t\t\t<td>D</td>\n\t\t\t<td>E</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1&nbsp;</td>\n\t\t\t<td>&nbsp; BOOK SUPPLIED TO SENIOR HIGH SCHOOLS</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>MATHS</td>\n\t\t\t<td>ICT</td>\n\t\t\t<td>ENGLISH</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>3</td>\n\t\t\t<td>SHS1</td>\n\t\t\t<td>3450</td>\n\t\t\t<td>4500</td>\n\t\t\t<td>5678</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>4</td>\n\t\t\t<td>SHS11</td>\n\t\t\t<td>8765</td>\n\t\t\t<td>6580</td>\n\t\t\t<td>9000</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>5</td>\n\t\t\t<td>SHS111</td>\n\t\t\t<td>2456</td>\n\t\t\t<td>4009</td>\n\t\t\t<td>4400</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<p>Which cells in table 3 contain numeric data with the least value?</p>",
+    "question_text": "<p>Which cells in table 3 contain numeric data with the least value?</p>",
     "option_a": "A. A5",
     "option_b": "B. B5",
     "option_c": "C. C5",
     "option_d": "D. D5",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -294,7 +249,7 @@
     "option_b": "B. 'save' command",
     "option_c": "C. 'save as' command",
     "option_d": "D. alt + F, then save",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -303,7 +258,7 @@
     "option_b": "B. It is situated beside the CPU",
     "option_c": "C. It is situated beside the memory",
     "option_d": "D. It is a special high speed storage area within the CPU",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -312,7 +267,7 @@
     "option_b": "B. Program counter",
     "option_c": "C. ALU",
     "option_d": "D. Control unit",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -321,88 +276,16 @@
     "option_b": "B. Warm booting",
     "option_c": "C. Resume booting",
     "option_d": "D. Restart booting",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
-    "question_text": "<p>Evaluate the BASIC statement:</p>\n\n<p>LET Z = 4*W^2&nbsp; + 2*Y<br>\nGiven that W = 5 and Y = 10</p>",
+    "question_text": "<p>Evaluate the BASIC statement:</p><p>LET Z = 4*W^2 + 2*Y<br>Given that W = 5 and Y = 10</p>",
     "option_a": "A. 50",
     "option_b": "B. 80",
     "option_c": "C. 100",
     "option_d": "D. 120",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Given that 26 <span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-1\"><span class=\"MJXp-msubsup\" id=\"MJXp-Span-2\"><span class=\"MJXp-mi\" id=\"MJXp-Span-3\" style=\"margin-right: 0.05em;\"></span><span class=\"MJXp-mn MJXp-script\" id=\"MJXp-Span-4\" style=\"vertical-align: -0.4em;\">1</span></span><span class=\"MJXp-mn\" id=\"MJXp-Span-5\">0</span></span></span><script type=\"math/tex\" id=\"MathJax-Element-1\">_10</script> =&nbsp;X <span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-6\"><span class=\"MJXp-msubsup\" id=\"MJXp-Span-7\"><span class=\"MJXp-mi\" id=\"MJXp-Span-8\" style=\"margin-right: 0.05em;\"></span><span class=\"MJXp-mn MJXp-script\" id=\"MJXp-Span-9\" style=\"vertical-align: -0.4em;\">2</span></span></span></span><script type=\"math/tex\" id=\"MathJax-Element-2\">_2</script>, X is _________</p>",
-    "option_a": "A. 11011",
-    "option_b": "B. 11010",
-    "option_c": "C. 11110",
-    "option_d": "D. 10111",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>In hexadecimal number system, B, D, E represent_________</p>",
-    "option_a": "A. 11, 12, 13 respectively",
-    "option_b": "B. 11, 13, 14 respectively",
-    "option_c": "C. 13, 14, 15 respectively",
-    "option_d": "D. 14, 16, 17 respectively",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>The conversion of 11001 <span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-10\"><span class=\"MJXp-msubsup\" id=\"MJXp-Span-11\"><span class=\"MJXp-mi\" id=\"MJXp-Span-12\" style=\"margin-right: 0.05em;\"></span><span class=\"MJXp-mn MJXp-script\" id=\"MJXp-Span-13\" style=\"vertical-align: -0.4em;\">2</span></span></span></span><script type=\"math/tex\" id=\"MathJax-Element-3\">_2</script> to base 10 equals_______</p>",
-    "option_a": "A. 30",
-    "option_b": "B. 28",
-    "option_c": "C. 25",
-    "option_d": "D. 20",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>The transaction file can also be described as _______</p>",
-    "option_a": "A. Master File",
-    "option_b": "B. Movement file",
-    "option_c": "C. Reference file",
-    "option_d": "D. Historical file",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Which of the following statements is not true about a computer file?</p>",
-    "option_a": "A. It is very fast to access any record within a file",
-    "option_b": "B. It is created electronically",
-    "option_c": "C. Initial setup is inexpensive",
-    "option_d": "D. File creation and access are less laborious",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>An advantage of sequential access over serial access is that_______</p>",
-    "option_a": "A. Sequential file is slow",
-    "option_b": "B. Sequential file is detailed",
-    "option_c": "C. Sequential file does not use key",
-    "option_d": "D. Individual records can be located more quickly",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>The Use of electronic systems to send an unsolicited e-mail to someone's address is known as ______</p>",
-    "option_a": "A. Hacking",
-    "option_b": "B. Spamming",
-    "option_c": "C. Internet fraud",
-    "option_d": "D. Piracy",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Which of the following ideals is protected by copyright?</p>",
-    "option_a": "A. Ideas",
-    "option_b": "B. Profit",
-    "option_c": "C. Expression of ideas",
-    "option_d": "D. Inexperience",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -411,7 +294,7 @@
     "option_b": "B. continuous and discrete forms",
     "option_c": "C. nominal and ordinal forms",
     "option_d": "D. ordinal form only",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -420,7 +303,7 @@
     "option_b": "B. qualitative data",
     "option_c": "C. quantitative data",
     "option_d": "D. secondary data",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -429,7 +312,7 @@
     "option_b": "B. accept data, produce data and produce information",
     "option_c": "C. produce data, supply data and produce output",
     "option_d": "D. process data, produce data and display information",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -438,7 +321,7 @@
     "option_b": "A. is a collection of raw facts and figures",
     "option_c": "C. is unorganized",
     "option_d": "D. is used for decision making",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -447,7 +330,7 @@
     "option_b": "B. are easily affordable",
     "option_c": "C. can process billions of operations in a second",
     "option_d": "D. are found across various homes and offices",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -456,7 +339,7 @@
     "option_b": "B. 3-4 decimal places",
     "option_c": "C. 5 decimal places",
     "option_d": "D. 6 decimal places",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -465,7 +348,7 @@
     "option_b": "B. Cost, size and convenience",
     "option_c": "C. Size, convenience and battery life",
     "option_d": "D. Size, cost and battery life",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -474,7 +357,7 @@
     "option_b": "B. bus",
     "option_c": "C. driver",
     "option_d": "D. register",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -483,7 +366,7 @@
     "option_b": "B. 4",
     "option_c": "C. 8",
     "option_d": "D. 12",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -492,7 +375,7 @@
     "option_b": "B. 31",
     "option_c": "C. 14",
     "option_d": "D. 13",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -501,7 +384,7 @@
     "option_b": "B. NAND gate",
     "option_c": "C. NOR gate",
     "option_d": "D. OR gate",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -510,7 +393,7 @@
     "option_b": "B. Y",
     "option_c": "C. Z",
     "option_d": "D. X and Y",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -519,7 +402,7 @@
     "option_b": "B. The output state of each depends on the input state",
     "option_c": "C. The output is true only if all inputs are true",
     "option_d": "D. They are both equivalent gates.",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -528,7 +411,7 @@
     "option_b": "B. Z=A.B+C",
     "option_c": "C. Z=A+B.C",
     "option_d": "D. Z=\n¯\nA.B\n + \n¯\nC",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -537,7 +420,7 @@
     "option_b": "B. hardware",
     "option_c": "C. live ware",
     "option_d": "D. system software",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -546,7 +429,7 @@
     "option_b": "B. game developers",
     "option_c": "C. mobile application developers",
     "option_d": "D. search engines optimization",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -555,7 +438,7 @@
     "option_b": "B. resource allocation",
     "option_c": "C. creation of data",
     "option_d": "D. arrangement of files",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -564,7 +447,7 @@
     "option_b": "B. testing the system performance",
     "option_c": "C. updating the system performance",
     "option_d": "D. saving the operating system's file",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -573,7 +456,7 @@
     "option_b": "B. an object",
     "option_c": "C. a class",
     "option_d": "D. a control structure",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -582,8 +465,26 @@
     "option_b": "B. assembly language programming",
     "option_c": "C. algorithm language programming",
     "option_d": "D. high level language programming",
-    "correct_option": ""
-  },
+    "correct_option": "D"
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# not uploaded
+[
   {
     "course_id": "3",
     "question_text": "<p>Which of the following stages of the SDLC is post-operational stage?</p>",
