@@ -55,7 +55,7 @@ class Student(models.Model):
 
 class Topic(models.Model):
     name = models.CharField(max_length=255)
-    content = RichTextField(blank=True)
+    content = models.TextField(blank=True)
     course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name='topics')
 
     def __str__(self):
