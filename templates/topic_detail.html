@@ -38,6 +38,8 @@
             border-radius: 8px;
             line-height: 1.7;
             color: #333;
+            overflow-x: auto; /* Allow horizontal scrolling if the content overflows */
+            box-sizing: border-box; /* Include padding and border in the element's width */
         }
         
         /* Heading styles */
@@ -181,7 +183,7 @@
             .content-container img {
                 max-width: 100%;
             }
-        }
+        } 
         </style>
         
     
@@ -221,7 +223,16 @@
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
                         <div class="dropdown-menu fade-down m-0">
                             <a href="{% url 'list_courses' request.user.student.department.id %}" class="dropdown-item">Courses</a>
-                            <a href="" class="dropdown-item">View Scores</a>
+                            <a href="{% url 'listTheory' %}" class="dropdown-item">Theory Practices</a>
+                            <a href="{% url 'myreport' %}" class="dropdown-item">Your Report</a>
+                        </div>
+                    </div>
+                {% elif request.user.tutorial_center or request.user.tutor %}
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
+                        <div class="dropdown-menu fade-down m-0">
+                            <a href="{% url 'allcourses' %}" class="dropdown-item">All Courses</a>
+                            <a href="{% url 'listTheory' %}" class="dropdown-item">Theory Practices</a>
                         </div>
                     </div>
                 {% else %}
