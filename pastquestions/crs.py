@@ -10,7 +10,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    <p>Moses led the children of Israel through the</p>",
+    "question_text": "<p>Moses led the children of Israel through the</p>",
     "option_a": "A. Sahara desert",
     "option_b": "B. Lion's Den",
     "option_c": "C. Dead sea",
@@ -19,7 +19,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    <p>Which of the following people was one of the outstanding kings of Israel after the falling of the Kingdom?</p>",
+    "question_text": "<p>Which of the following people was one of the outstanding kings of Israel after the falling of the Kingdom?</p>",
     "option_a": "A. King herold",
     "option_b": "B. Pharoah",
     "option_c": "C. Sennacherib",
@@ -28,7 +28,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    <p>Who among the following was sold to the Ishaemlites for twenty shekels because of his dreams?</p>",
+    "question_text": "<p>Who among the following was sold to the Ishaemlites for twenty shekels because of his dreams?</p>",
     "option_a": "A. Moses",
     "option_b": "B. Joseph",
     "option_c": "C. Jacob",
@@ -37,7 +37,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    <p>The ten commandments were delivered to the Israelites through Moses while they were</p>",
+    "question_text": "<p>The ten commandments were delivered to the Israelites through Moses while they were</p>",
     "option_a": "A. In Egypt",
     "option_b": "B. In the Land of Midian",
     "option_c": "C. At Mount Sinai",
@@ -46,7 +46,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    <p>The children of Israel asked Samuel for a king because</p>",
+    "question_text": "<p>The children of Israel asked Samuel for a king because</p>",
     "option_a": "A. It was in their constitution",
     "option_b": "B. Their former kind was killed in battle",
     "option_c": "C. They desired to be like the heathen nations around them",
@@ -55,7 +55,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    <p>Who sold his birthright for a plate of pottage?</p>",
+    "question_text": "<p>Who sold his birthright for a plate of pottage?</p>",
     "option_a": "A. Daniel",
     "option_b": "B. Esau",
     "option_c": "C. Jacob",
@@ -64,7 +64,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    He was a king remembered for his erecting a mighty temple for the worship of God:",
+    "question_text": "He was a king remembered for his erecting a mighty temple for the worship of God:",
     "option_a": "A. Solomon",
     "option_b": "B. Josiah",
     "option_c": "C. Saul",
@@ -73,7 +73,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    <p>The law books used for the great reformation of Israel's social and religious institution were found in the temple in 621 BC during the reign of</p>",
+    "question_text": "<p>The law books used for the great reformation of Israel's social and religious institution were found in the temple in 621 BC during the reign of</p>",
     "option_a": "A. Hezekiah",
     "option_b": "B. Josiah",
     "option_c": "C. Moses",
@@ -82,7 +82,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    <p>Jesus Christ was baptized in the River Jordan by</p>",
+    "question_text": "<p>Jesus Christ was baptized in the River Jordan by</p>",
     "option_a": "A. Mathew",
     "option_b": "B. John",
     "option_c": "C. Jeremiah",
@@ -91,7 +91,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    <p>....was not one of the Apostles of Jesus</p>",
+    "question_text": "<p>....was not one of the Apostles of Jesus</p>",
     "option_a": "A. Bartholomew",
     "option_b": "B. Agrippa",
     "option_c": "C. James the son of Alphaeus",
@@ -100,7 +100,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    ....was one of the strongest enemies of the Christian faith before his conversion",
+    "question_text": "....was one of the strongest enemies of the Christian faith before his conversion",
     "option_a": "A. Jehu",
     "option_b": "B. Judas Iscariot",
     "option_c": "C. Paul",
@@ -109,7 +109,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    Who accompanied Paul on his First Missionary journey?",
+    "question_text": "Who accompanied Paul on his First Missionary journey?",
     "option_a": "A. Barnabas",
     "option_b": "B. Lucius of Cyrene",
     "option_c": "C. Manaen",
@@ -118,7 +118,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    The Holy spirit descended on the followers of Christ and they began to speak in tongues",
+    "question_text": "The Holy spirit descended on the followers of Christ and they began to speak in tongues",
     "option_a": "A. During the ascension of Christ",
     "option_b": "B. At the crucifixion of Christ",
     "option_c": "C. As the people sat on Mount Gilboa",
@@ -127,7 +127,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    <p>Joseph's brothers hated him more because</p>",
+    "question_text": "<p>Joseph's brothers hated him more because</p>",
     "option_a": "A. Of the coat Jacob gave him",
     "option_b": "B. He was the son of Rachael",
     "option_c": "C. His father loved him",
@@ -136,7 +136,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    David took Jerusalem from",
+    "question_text": "David took Jerusalem from",
     "option_a": "A. The Jebusites",
     "option_b": "B. The Philistines",
     "option_c": "C. The Ammonites",
@@ -145,7 +145,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    The Lord told Solomon his kingdom would be divided  after his death because.",
+    "question_text": "The Lord told Solomon his kingdom would be divided  after his death because.",
     "option_a": "A. He had married foriegn woman",
     "option_b": "B. Be built the temple",
     "option_c": "C. He followed other gods",
@@ -154,7 +154,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    <p>Jeremiah's vision of boiling pot represented</p>",
+    "question_text": "<p>Jeremiah's vision of boiling pot represented</p>",
     "option_a": "A. Israel's sin",
     "option_b": "B. The true worship of God",
     "option_c": "C. Invasion from the north",
@@ -163,7 +163,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    Jeremiah the prophet",
+    "question_text": "Jeremiah the prophet",
     "option_a": "A. encouraged Zedekiah to rebel against Babylon",
     "option_b": "B. Promised deliverance from the king of Babylon",
     "option_c": "C. told Zedekiah to submit to the king of Babylon",
@@ -172,7 +172,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    In his parables of the \"Wheat and the tares\" Jesus",
+    "question_text": "In his parables of the \"Wheat and the tares\" Jesus",
     "option_a": "A. Told people to root out the tares",
     "option_b": "B. Told people the tares should be left until harvest",
     "option_c": "C. Spoke of different kinds of soil",
@@ -181,7 +181,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    In St. Mark's gospel the women are told at the empty tomb",
+    "question_text": "In St. Mark's gospel the women are told at the empty tomb",
     "option_a": "A. to encourage the disciples to remain in Jerusalem",
     "option_b": "B. to order the disciples to preach the Gentiles",
     "option_c": "C. to inform the disciples that they will see Jesus in Galilee",
@@ -190,7 +190,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    Martha's sister was called",
+    "question_text": "Martha's sister was called",
     "option_a": "A. Elizabeth",
     "option_b": "B. Mary",
     "option_c": "C. Joanna",
@@ -199,7 +199,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    In the parable of the friend at the midnight, the man will get up and assist him because",
+    "question_text": "In the parable of the friend at the midnight, the man will get up and assist him because",
     "option_a": "A. He is his friend",
     "option_b": "B. Of his importunity",
     "option_c": "C. He has awaken him",
@@ -208,7 +208,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    Gamaliel advice the council to release the apostles because",
+    "question_text": "Gamaliel advice the council to release the apostles because",
     "option_a": "A. He feared the people",
     "option_b": "B. He believed what the apostles said",
     "option_c": "C. he saw the miracle they had done",
@@ -217,7 +217,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    After his arrest in Jerusalem, Paul was supported by the Pharisees because",
+    "question_text": "After his arrest in Jerusalem, Paul was supported by the Pharisees because",
     "option_a": "A. He had been a pupil of Gamaliel",
     "option_b": "B. He believed in the resurrection",
     "option_c": "C. They were Christians",
@@ -226,7 +226,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    Who was Isaac's wife?",
+    "question_text": "Who was Isaac's wife?",
     "option_a": "A. Rebekah",
     "option_b": "B. Rachel",
     "option_c": "C. Leah",
@@ -235,7 +235,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    Israel(Jacob)charged his people to bury him",
+    "question_text": "Israel(Jacob)charged his people to bury him",
     "option_a": "A. in the East of Bethel",
     "option_b": "B. in the valley of Kidron",
     "option_c": "C. in the cave that is in the field of Machpelah",
@@ -244,7 +244,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    Moses, after killing the Egyptian fled to",
+    "question_text": "Moses, after killing the Egyptian fled to",
     "option_a": "A. the land of Canaan",
     "option_b": "B. the land of Midian",
     "option_c": "C. the land of the Phillistines",
@@ -253,7 +253,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    The last plague inflicted upon the Egyptians was",
+    "question_text": "The last plague inflicted upon the Egyptians was",
     "option_a": "A. the changing of all the rivers into blood",
     "option_b": "B. the influx of frogs into the land of Egypt",
     "option_c": "C. the invasion of flies",
@@ -262,7 +262,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    <p>The spies sent to Jericho by Joshua were helped by</p>",
+    "question_text": "<p>The spies sent to Jericho by Joshua were helped by</p>",
     "option_a": "A. Asher",
     "option_b": "B. Manasseh",
     "option_c": "C. Esther",
@@ -271,7 +271,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    The Prophet who was with the exiles of 597 BC in Babylon was",
+    "question_text": "The Prophet who was with the exiles of 597 BC in Babylon was",
     "option_a": "A. Amos",
     "option_b": "B. Hosea",
     "option_c": "C. Micah",
@@ -280,7 +280,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    The Acts of the Apostles was initially written for",
+    "question_text": "The Acts of the Apostles was initially written for",
     "option_a": "A. the Church in Jerusalem",
     "option_b": "B. Theophilus",
     "option_c": "C. a disciple of Jesus",
@@ -289,7 +289,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    The Acts of the Apostles tells the story of how",
+    "question_text": "The Acts of the Apostles tells the story of how",
     "option_a": "A. Ananias lied to the Apostles",
     "option_b": "B. Gamaliel lied to the Apostles",
     "option_c": "C. Pontius Pilate defended the Apostles",
@@ -298,7 +298,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    Who was the first Christian Martyr?",
+    "question_text": "Who was the first Christian Martyr?",
     "option_a": "A. James",
     "option_b": "B. Phillip",
     "option_c": "C. Stephen",
@@ -307,7 +307,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    Paul's First Missionary Journey started from",
+    "question_text": "Paul's First Missionary Journey started from",
     "option_a": "A. Jerusalem",
     "option_b": "B. Samaria",
     "option_c": "C. Cyrene",
@@ -316,7 +316,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    Who were mistaken for gods in the Acts of the Apostles?",
+    "question_text": "Who were mistaken for gods in the Acts of the Apostles?",
     "option_a": "A. Paul and James",
     "option_b": "B. Paul and Peter",
     "option_c": "C. Paul and John",
@@ -325,7 +325,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    God commanded Abraham to circumcise his male descendants as",
+    "question_text": "God commanded Abraham to circumcise his male descendants as",
     "option_a": "A. a rule to the world",
     "option_b": "B. a sign of God's convenant with Abraham",
     "option_c": "C. a mark of honour for Abraham and his descendants",
@@ -334,7 +334,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    Deborah was......in Israel",
+    "question_text": "Deborah was......in Israel",
     "option_a": "A. priest",
     "option_b": "B. seer",
     "option_c": "C. sword bearer",
@@ -343,7 +343,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    During the time of Amos the prophet.......was the priest of Bethel",
+    "question_text": "During the time of Amos the prophet.......was the priest of Bethel",
     "option_a": "A. Amaziah",
     "option_b": "B. Jeroboam",
     "option_c": "C. Jacob",
@@ -352,7 +352,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    The king of Assyria who took Samaria was",
+    "question_text": "The king of Assyria who took Samaria was",
     "option_a": "A. Elah",
     "option_b": "B. Shalmanesar",
     "option_c": "C. Sennacherib",
@@ -361,7 +361,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    The prophecy \"The soul that sins shall die\", was given by the Prophet",
+    "question_text": "The prophecy \"The soul that sins shall die\", was given by the Prophet",
     "option_a": "A. Isaiah",
     "option_b": "B. Amos",
     "option_c": "C. Hosea",
@@ -370,7 +370,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    <p>The King of Persia who made it possible for the return of the exiles from Babylon was</p>",
+    "question_text": "<p>The King of Persia who made it possible for the return of the exiles from Babylon was</p>",
     "option_a": "A. Darius",
     "option_b": "B. Cyrus",
     "option_c": "C. Zechariah",
@@ -379,7 +379,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    The meaning of Emmanuel is",
+    "question_text": "The meaning of Emmanuel is",
     "option_a": "A. laughter",
     "option_b": "B. For i drew him from water",
     "option_c": "C. God with us",
@@ -388,7 +388,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    About almsgiving Jesus says,when you give your gift,you should",
+    "question_text": "About almsgiving Jesus says,when you give your gift,you should",
     "option_a": "A. sound trumpets for people to know what you are doing",
     "option_b": "B. give it in church",
     "option_c": "C. let it be known only by you and God",
@@ -397,7 +397,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    Mark's Gospel starts with",
+    "question_text": "Mark's Gospel starts with",
     "option_a": "A. the story of the birth of Jesus",
     "option_b": "B. the story of Simon Peter",
     "option_c": "C. the story of John the Baptist",
@@ -406,7 +406,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    ........was chosen in place of Judas Iscariot",
+    "question_text": "........was chosen in place of Judas Iscariot",
     "option_a": "A. Paul",
     "option_b": "B. Barnabas",
     "option_c": "C. Junias",
@@ -415,7 +415,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    Who was released by Pilate in place of Jesus?",
+    "question_text": "Who was released by Pilate in place of Jesus?",
     "option_a": "A. Herod",
     "option_b": "B. Nicodemus",
     "option_c": "C. Joseph of Arimathea",
@@ -424,7 +424,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    According to the Gospel of Luke the first statement made by Jesus on the cross was",
+    "question_text": "According to the Gospel of Luke the first statement made by Jesus on the cross was",
     "option_a": "A. it is finished",
     "option_b": "B. Today you shall be with me in Paradise",
     "option_c": "C. “Father, forgive them, for they do not know what they are doing”",
@@ -433,7 +433,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    The name Moses means",
+    "question_text": "The name Moses means",
     "option_a": "A. the loved child of Pharoah",
     "option_b": "B. God heard our groaning",
     "option_c": "C. I have been a sojourner in a foriegn land",
@@ -442,7 +442,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    The promise of God made with Abraham was that",
+    "question_text": "The promise of God made with Abraham was that",
     "option_a": "A. He would make nations of him",
     "option_b": "B. He would live long",
     "option_c": "C. He would give him flocks",
@@ -451,7 +451,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    <p>Moses asked Pharaoh to allow the Hebrews to depart from Egypt to</p>",
+    "question_text": "<p>Moses asked Pharaoh to allow the Hebrews to depart from Egypt to</p>",
     "option_a": "A. buy more food from the land of Canaan",
     "option_b": "B. fight the Jebusites",
     "option_c": "C. smite the Amorites",
@@ -460,7 +460,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    One of the reasons why Saul was rejected as king was that",
+    "question_text": "One of the reasons why Saul was rejected as king was that",
     "option_a": "A. the Lord preferred David",
     "option_b": "B. he disobeyed God by not destroying all that belonged to the Amalekites",
     "option_c": "C. he spared Jonathan",
@@ -469,7 +469,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    God's covenant with Abraham took the form of",
+    "question_text": "God's covenant with Abraham took the form of",
     "option_a": "A. some written codes",
     "option_b": "B. circumcision",
     "option_c": "C. promise of wealth",
@@ -478,7 +478,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    The great reformation of Israel's social and religious institutions took place during the reign of",
+    "question_text": "The great reformation of Israel's social and religious institutions took place during the reign of",
     "option_a": "A. Jeroboam the second",
     "option_b": "B. Josiah",
     "option_c": "C. Jehu",
@@ -487,7 +487,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    The one who saved Joseph's life when his brothers wanted to kill him was",
+    "question_text": "The one who saved Joseph's life when his brothers wanted to kill him was",
     "option_a": "A. Simeon",
     "option_b": "B. Reuben",
     "option_c": "C. Benjamin",
@@ -496,7 +496,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    ..........made the following statement:\"But as for me and my house,we will serve the Lord\"",
+    "question_text": "..........made the following statement:\"But as for me and my house,we will serve the Lord\"",
     "option_a": "A. Moses",
     "option_b": "B. Gideon",
     "option_c": "C. Amos",
@@ -505,7 +505,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    Pharaoh's first reaction to Moses' request to let Israel go was",
+    "question_text": "Pharaoh's first reaction to Moses' request to let Israel go was",
     "option_a": "A. to drive Moses out",
     "option_b": "B. to ask for time to consider it",
     "option_c": "C. to stop providing straw to make bricks",
@@ -514,7 +514,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    Gideon was called Jerubbaal because",
+    "question_text": "Gideon was called Jerubbaal because",
     "option_a": "A. he broke down the altar of Baal",
     "option_b": "B. he defeated the Midianites",
     "option_c": "C. he sacrificed to Baal",
@@ -523,7 +523,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    \"Bring your necks under the yoke of the king of Babylon and serve him and his people and live\" who gave this advice?",
+    "question_text": "\"Bring your necks under the yoke of the king of Babylon and serve him and his people and live\" who gave this advice?",
     "option_a": "A. Jeremiah",
     "option_b": "B. Isaiah",
     "option_c": "C. Ezekiel",
@@ -532,7 +532,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    Who was responsible for the death of Uriah?",
+    "question_text": "Who was responsible for the death of Uriah?",
     "option_a": "A. David",
     "option_b": "B. Solomon",
     "option_c": "C. Abinadab",
@@ -541,7 +541,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    What is the meaning of the name Samuel?",
+    "question_text": "What is the meaning of the name Samuel?",
     "option_a": "A. God has made me laugh",
     "option_b": "B. Because i have asked him of the Lord",
     "option_c": "C. the child of my old age",
@@ -550,7 +550,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    <p>Elijah prophesied a long and severe drought in Israel because</p>",
+    "question_text": "<p>Elijah prophesied a long and severe drought in Israel because</p>",
     "option_a": "A. Ahab married Jezebel",
     "option_b": "B. Jezebel worshipped Baal",
     "option_c": "C. Elijah was the only prophet of Yahweh left",
@@ -559,7 +559,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    Jephthah vowed that if he defeated the Ammonites he would",
+    "question_text": "Jephthah vowed that if he defeated the Ammonites he would",
     "option_a": "A. sacrifice his daughter as a burnt offering",
     "option_b": "B. slay all the Ammonites",
     "option_c": "C. offer the first thing which came to meet him out of his house to the Lord",
@@ -568,7 +568,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    Ezekiel was usually referred to as the prophet of",
+    "question_text": "Ezekiel was usually referred to as the prophet of",
     "option_a": "A. the exile",
     "option_b": "B. Jerusalem",
     "option_c": "C. doom",
@@ -577,7 +577,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    The King of Assyria took Samaria and carried Israel away into Assyria during the reign of",
+    "question_text": "The King of Assyria took Samaria and carried Israel away into Assyria during the reign of",
     "option_a": "A. Jeroboam",
     "option_b": "B. Hosea",
     "option_c": "C. Ahab",
@@ -586,7 +586,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    One of the following said: \"The lion hath roared,who will not fear?The Lord has spoken,who can but prophesy?\"",
+    "question_text": "One of the following said: \"The lion hath roared,who will not fear?The Lord has spoken,who can but prophesy?\"",
     "option_a": "A. Nathan",
     "option_b": "B. Jeremiah",
     "option_c": "C. Hosea",
@@ -595,7 +595,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    \"My father chastised you with whips,but i will chastise you with scorpion\". Who said this?",
+    "question_text": "\"My father chastised you with whips,but i will chastise you with scorpion\". Who said this?",
     "option_a": "A. Solomon",
     "option_b": "B. Jeroboam",
     "option_c": "C. Rehoboam",
@@ -604,7 +604,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    The Israelites entered the land of Canaan under the leadership of",
+    "question_text": "The Israelites entered the land of Canaan under the leadership of",
     "option_a": "A. Aaron",
     "option_b": "B. Moses",
     "option_c": "C. Joshua",
@@ -613,7 +613,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    Sisera was put to death by",
+    "question_text": "Sisera was put to death by",
     "option_a": "A. Deborah",
     "option_b": "B. Barak",
     "option_c": "C. Jael",
@@ -622,7 +622,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    One of the Judges of Israel was",
+    "question_text": "One of the Judges of Israel was",
     "option_a": "A. Zipporah",
     "option_b": "B. Manoah",
     "option_c": "C. Delilah",
@@ -631,7 +631,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    The kingdom of Judah was finally defeated by",
+    "question_text": "The kingdom of Judah was finally defeated by",
     "option_a": "A. The King of Assyriah",
     "option_b": "B. the King of Babylon",
     "option_c": "C. the King of Egypt",
@@ -640,7 +640,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    David first reigned as king in",
+    "question_text": "David first reigned as king in",
     "option_a": "A. Shiloh",
     "option_b": "B. Hebron",
     "option_c": "C. Jerusalem",
@@ -649,7 +649,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    Who was stoned to death because of his unyielding devotion to the Gospel of Jesus Christ?",
+    "question_text": "Who was stoned to death because of his unyielding devotion to the Gospel of Jesus Christ?",
     "option_a": "A. Amos",
     "option_b": "B. Paul",
     "option_c": "C. Aaron",
@@ -658,7 +658,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    The term \"sons of thunder\" was applied by Jesus to",
+    "question_text": "The term \"sons of thunder\" was applied by Jesus to",
     "option_a": "A. the samaritans who did not accept him in their village",
     "option_b": "B. James and John",
     "option_c": "C. The Romans",
@@ -667,7 +667,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    \"If this plan or this undertaking is of men,it will fail;but if it is of God,you will not be able to overthrow it\"this was said by",
+    "question_text": "\"If this plan or this undertaking is of men,it will fail;but if it is of God,you will not be able to overthrow it\"this was said by",
     "option_a": "A. Gamaliel",
     "option_b": "B. Peter",
     "option_c": "C. Caiaphas",
@@ -676,7 +676,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    <p>One of these is not in any list of the twelve Apostles</p>",
+    "question_text": "<p>One of these is not in any list of the twelve Apostles</p>",
     "option_a": "A. Thaddaeus",
     "option_b": "B. Matthew",
     "option_c": "C. Mark",
@@ -685,7 +685,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    The name of Herod's son who succeeded his father as ruler of Judea was",
+    "question_text": "The name of Herod's son who succeeded his father as ruler of Judea was",
     "option_a": "A. Phasael",
     "option_b": "B. Antipas",
     "option_c": "C. Herodias",
@@ -694,7 +694,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    In the Act of Apostles,Philip was",
+    "question_text": "In the Act of Apostles,Philip was",
     "option_a": "A. the one who took the place of Judas",
     "option_b": "B. one of the seven appointed with Stephen",
     "option_c": "C. a member of the church of Antioch",
@@ -703,7 +703,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    In the parable of the labourers in the vineyard the owner",
+    "question_text": "In the parable of the labourers in the vineyard the owner",
     "option_a": "A. gave the same amonut to all",
     "option_b": "B. gave more to those called frist",
     "option_c": "C. gave more to those called last",
@@ -712,7 +712,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    The statement,'consider the lilies, how they grow'is connected with Jesus'teaching about",
+    "question_text": "The statement,'consider the lilies, how they grow'is connected with Jesus'teaching about",
     "option_a": "A. prayer",
     "option_b": "B. fasting",
     "option_c": "C. anxiety",
@@ -721,7 +721,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    ...was a persecutor of the church before his conversion",
+    "question_text": "...was a persecutor of the church before his conversion",
     "option_a": "A. Barnabas",
     "option_b": "B. Matthias",
     "option_c": "C. James",
@@ -730,7 +730,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    Jesus said,'i will be clean,'to",
+    "question_text": "Jesus said,'i will be clean,'to",
     "option_a": "A. a man with an unclean spirit",
     "option_b": "B. a blind man",
     "option_c": "C. a leper",
@@ -739,7 +739,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    .....Appeared to Jesus on the mount of transfiguration",
+    "question_text": ".....Appeared to Jesus on the mount of transfiguration",
     "option_a": "A. Abraham and Isaac",
     "option_b": "B. David and Solomon",
     "option_c": "C. Jonathan and Samuel",
@@ -748,7 +748,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    The statement,'This is my beloved son with whom i am well pleased'was said during",
+    "question_text": "The statement,'This is my beloved son with whom i am well pleased'was said during",
     "option_a": "A. the Birth of Jesus",
     "option_b": "B. the Temptation of Jesus",
     "option_c": "C. the Baptism",
@@ -757,7 +757,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    Where were the disciples first called christian?",
+    "question_text": "Where were the disciples first called christian?",
     "option_a": "A. Antioch",
     "option_b": "B. Joppa",
     "option_c": "C. Jerusalem",
@@ -766,7 +766,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    <p>The title Christ means</p>",
+    "question_text": "<p>The title Christ means</p>",
     "option_a": "A. saviour",
     "option_b": "B. anointed",
     "option_c": "C. son of God",
@@ -775,7 +775,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    The story of the prodigal son indicate that God is",
+    "question_text": "The story of the prodigal son indicate that God is",
     "option_a": "A. all powerful",
     "option_b": "B. all knowing",
     "option_c": "C. present everywhere",
@@ -784,7 +784,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    <p>The statement, my soul magnifies the lord....was made by</p>",
+    "question_text": "<p>The statement, my soul magnifies the lord....was made by</p>",
     "option_a": "A. Elizabeth",
     "option_b": "B. Zechariah",
     "option_c": "C. Mary",
@@ -793,7 +793,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    After his resurrection,Jesus first appeared to",
+    "question_text": "After his resurrection,Jesus first appeared to",
     "option_a": "A. Mary Magdalene",
     "option_b": "B. Mary mother of James",
     "option_c": "C. Martha",
@@ -802,7 +802,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    Complete the statement,'blessed are the poor in spirit.....",
+    "question_text": "Complete the statement,'blessed are the poor in spirit.....",
     "option_a": "A. for the will will be filled",
     "option_b": "B. for the will be called the sons of God",
     "option_c": "C. for the will see God",
@@ -811,7 +811,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    Where did Paul cured a slave girl who has a spirit of divination?",
+    "question_text": "Where did Paul cured a slave girl who has a spirit of divination?",
     "option_a": "A. Philippi",
     "option_b": "B. Ephesus",
     "option_c": "C. Athens",
@@ -820,7 +820,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    Where did peter declare the messiah ship of Jesus?",
+    "question_text": "Where did peter declare the messiah ship of Jesus?",
     "option_a": "A. On the way to jerusalem",
     "option_b": "B. On the way to Caesarrea Philippi",
     "option_c": "C. On the way to Galilee",
@@ -829,7 +829,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    <p>One of the resolution of the Jerusalem council was</p>",
+    "question_text": "<p>One of the resolution of the Jerusalem council was</p>",
     "option_a": "A. Jews and Gentiles should eat separately",
     "option_b": "B. Gentiles should abstain from alcohol",
     "option_c": "C. Gentiles should be circumcised",
@@ -838,7 +838,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    Peter was released from prison as a result of",
+    "question_text": "Peter was released from prison as a result of",
     "option_a": "A. his ability to persuade the authorities",
     "option_b": "B. his good behaviour in prison",
     "option_c": "C. the kindness of the prison guard",
@@ -847,7 +847,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    Why did Jesus cursed a fig tree",
+    "question_text": "Why did Jesus cursed a fig tree",
     "option_a": "A. He was angry",
     "option_b": "B. He was hungry",
     "option_c": "C. He found nothing on it but leaves",
@@ -856,7 +856,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    The statement,'This night your soul is required of you' is found in the parable of",
+    "question_text": "The statement,'This night your soul is required of you' is found in the parable of",
     "option_a": "A. the wise and foolish virgins",
     "option_b": "B. the rich man and lazarus",
     "option_c": "C. the ten talents",
@@ -865,7 +865,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    Abraham and his nephew lot decided to separate into two different camps",
+    "question_text": "Abraham and his nephew lot decided to separate into two different camps",
     "option_a": "A. for fear of complete annihilation by the enemies",
     "option_b": "B. to enable them to capture more votes from the two camps",
     "option_c": "C. to keep chedor-laomer from capturing Sodom and Gomorrah",
@@ -874,7 +874,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    <p>...was born at the time when Pharaoh ordered that all Hebrew male children be killed</p>",
+    "question_text": "<p>...was born at the time when Pharaoh ordered that all Hebrew male children be killed</p>",
     "option_a": "A. Miriam",
     "option_b": "B. Aaron",
     "option_c": "C. Joseph",
@@ -883,7 +883,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    Before Jacob died he ask his children to bury him in",
+    "question_text": "Before Jacob died he ask his children to bury him in",
     "option_a": "A. the cave of machpelah at hebron",
     "option_b": "B. the fertile region of goshen in egypt",
     "option_c": "C. the temple of Jerusalem",
@@ -892,7 +892,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    At the bank of river Jabbok the name of ...was changed to Isreal",
+    "question_text": "At the bank of river Jabbok the name of ...was changed to Isreal",
     "option_a": "A. Isaac",
     "option_b": "B. nebuchadnezzar",
     "option_c": "C. Jacob",
@@ -901,7 +901,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    The name Abraham means",
+    "question_text": "The name Abraham means",
     "option_a": "A. Son of haran",
     "option_b": "B. A remnant shall return",
     "option_c": "C. Thy will be done oh Lord",
@@ -910,7 +910,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    ...was one of the Judges of Israel",
+    "question_text": "...was one of the Judges of Israel",
     "option_a": "A. Abimelech",
     "option_b": "B. Abinadab",
     "option_c": "C. Abner",
@@ -919,7 +919,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    Joshua's first victory was over the people",
+    "question_text": "Joshua's first victory was over the people",
     "option_a": "A. Ai",
     "option_b": "B. Gibeon",
     "option_c": "C. Gilgal",
@@ -928,7 +928,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    God promised Abraham in a covenant that",
+    "question_text": "God promised Abraham in a covenant that",
     "option_a": "A. he would conquered Goliath",
     "option_b": "B. he would build the Jerusalem temple",
     "option_c": "C. his descendant would be a blessing to all mankind",
@@ -937,7 +937,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    This place was called the valley of Eshcol Because",
+    "question_text": "This place was called the valley of Eshcol Because",
     "option_a": "A. the sons of israerl cut down a cluster of grapes there",
     "option_b": "B. the sons of Israel stop there on theirway canaan",
     "option_c": "C. the spies used the valley as their hideout",
@@ -946,7 +946,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    One of the experiences of Jacob with Laban in Haran was that he worked for seven years",
+    "question_text": "One of the experiences of Jacob with Laban in Haran was that he worked for seven years",
     "option_a": "A. to pay for his sins",
     "option_b": "B. to save enough money for his own personal business",
     "option_c": "C. to develop his muscles",
@@ -955,7 +955,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    the period of bondage of the children of Israel in Egypt was characterized by",
+    "question_text": "the period of bondage of the children of Israel in Egypt was characterized by",
     "option_a": "A. an oil boom",
     "option_b": "B. the drafting of their new constitution",
     "option_c": "C. regilious syncritism",
@@ -964,7 +964,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    The laws given by Moses to the children of Israel in Sinai have striking similarities with the",
+    "question_text": "The laws given by Moses to the children of Israel in Sinai have striking similarities with the",
     "option_a": "A. Rosetta",
     "option_b": "B. Septuagint",
     "option_c": "C. Code of hammurabi",
@@ -973,7 +973,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    <p>After the conquest of Canaan by Joshua,the ark was first housed at</p>",
+    "question_text": "<p>After the conquest of Canaan by Joshua,the ark was first housed at</p>",
     "option_a": "A. Jerusalem",
     "option_b": "B. Shechem",
     "option_c": "C. Shiloh",
@@ -982,7 +982,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    Elijah was a prophet during the reign of",
+    "question_text": "Elijah was a prophet during the reign of",
     "option_a": "A. Absalom",
     "option_b": "B. Ahab",
     "option_c": "C. Gideon",
@@ -991,7 +991,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    Saul was rejected by God because of his",
+    "question_text": "Saul was rejected by God because of his",
     "option_a": "A. disobedience",
     "option_b": "B. laziness",
     "option_c": "C. pride",
@@ -1000,7 +1000,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    Joab murdered Abner because",
+    "question_text": "Joab murdered Abner because",
     "option_a": "A. he wanted to avenge the death of his brother",
     "option_b": "B. he was jealous of Abner",
     "option_c": "C. Abner want to take his office from him",
@@ -1009,7 +1009,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    Which prophet said:'when Israel was a child,i loved him, and out of Egypt i called my son'?",
+    "question_text": "Which prophet said:'when Israel was a child,i loved him, and out of Egypt i called my son'?",
     "option_a": "A. Hosea",
     "option_b": "B. Isaiah",
     "option_c": "C. Jeremiah",
@@ -1018,7 +1018,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    But let justice roll down like waters and ...like an overflowing stream'. which of the following words completes the quotations?",
+    "question_text": "But let justice roll down like waters and ...like an overflowing stream'. which of the following words completes the quotations?",
     "option_a": "A. faith",
     "option_b": "B. hope",
     "option_c": "C. salvation",
@@ -1027,7 +1027,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    The division of the kingdom of Israel took place during the reign of",
+    "question_text": "The division of the kingdom of Israel took place during the reign of",
     "option_a": "A. Rehoboam",
     "option_b": "B. Samuel",
     "option_c": "C. Josiah",
@@ -1036,7 +1036,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    David was brought to Saul's palace at the initial stage",
+    "question_text": "David was brought to Saul's palace at the initial stage",
     "option_a": "A. to help the king plan against the seven years of famine",
     "option_b": "B. as a slave boy sold to the Egyptian traders",
     "option_c": "C. as a musician to play his harp to soothe saul's sickness",
@@ -1045,7 +1045,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    <p>Josiah's reign was popular because of his</p>",
+    "question_text": "<p>Josiah's reign was popular because of his</p>",
     "option_a": "A. allies",
     "option_b": "B. victory",
     "option_c": "C. violence",
@@ -1054,7 +1054,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    A prophet of hope in Babylon was",
+    "question_text": "A prophet of hope in Babylon was",
     "option_a": "A. Amos",
     "option_b": "B. Ezekiel",
     "option_c": "C. Hosea",
@@ -1063,7 +1063,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    The exiles return to Jerusalem in the reign of",
+    "question_text": "The exiles return to Jerusalem in the reign of",
     "option_a": "A. Cyrus",
     "option_b": "B. Hilkiah",
     "option_c": "C. Huldah",
@@ -1072,7 +1072,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    after the exile, the rebuilding of the temple was completed in the reign of",
+    "question_text": "after the exile, the rebuilding of the temple was completed in the reign of",
     "option_a": "A. Cyrus",
     "option_b": "B. Nebuchadnezzar",
     "option_c": "C. Artaxesrxes",
@@ -1081,7 +1081,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    Who ran to prophet Isaiah for prayers when the Assyrians threatened",
+    "question_text": "Who ran to prophet Isaiah for prayers when the Assyrians threatened",
     "option_a": "A. Ahab",
     "option_b": "B. Hezekiah",
     "option_c": "C. Josiah",
@@ -1090,7 +1090,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    The Acts of Apostle was written by",
+    "question_text": "The Acts of Apostle was written by",
     "option_a": "A. the Apostle, Paul",
     "option_b": "B. Peter, the Apostle",
     "option_c": "C. St. Luke",
@@ -1099,7 +1099,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    The teaching of Jesus about swearing was that one should not swear",
+    "question_text": "The teaching of Jesus about swearing was that one should not swear",
     "option_a": "A. by heaven",
     "option_b": "B. by the earth",
     "option_c": "C. by jerusalem",
@@ -1108,7 +1108,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    Which of the following defends the Apostles?",
+    "question_text": "Which of the following defends the Apostles?",
     "option_a": "A. Bartholomew",
     "option_b": "B. Caiaphas",
     "option_c": "C. Gamaliel",
@@ -1117,7 +1117,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    The last temptation of Jesus by the devil was to ask him to",
+    "question_text": "The last temptation of Jesus by the devil was to ask him to",
     "option_a": "A. change stone to bread",
     "option_b": "B. jump from the pinnacle of the temple",
     "option_c": "C. bow down and worship him on a mountain",
@@ -1126,7 +1126,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    Which of the Gospels relates the death of Judas?",
+    "question_text": "Which of the Gospels relates the death of Judas?",
     "option_a": "A. Mark",
     "option_b": "B. Matthew",
     "option_c": "C. Luke",
@@ -1135,7 +1135,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    The birth of Jesus Christ took place in Bethlehem during the reign of",
+    "question_text": "The birth of Jesus Christ took place in Bethlehem during the reign of",
     "option_a": "A. Pontius Pilate",
     "option_b": "B. Herod the Great",
     "option_c": "C. Herod Agrippa",
@@ -1144,7 +1144,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    Blessed are those who are persecuted for righteousness' sake",
+    "question_text": "Blessed are those who are persecuted for righteousness' sake",
     "option_a": "A. for the shall obtain mercy",
     "option_b": "B. for they share see God",
     "option_c": "C. for they shall be called the sons of God",
@@ -1153,7 +1153,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    The promise of sending the Holy Spirit was fulfilled in",
+    "question_text": "The promise of sending the Holy Spirit was fulfilled in",
     "option_a": "A. Bethany",
     "option_b": "B. Bethlehem",
     "option_c": "C. Capernaum",
@@ -1162,7 +1162,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    Why did Jesus refer to the story of Jonah in his discussion with scribes and Pharisees?",
+    "question_text": "Why did Jesus refer to the story of Jonah in his discussion with scribes and Pharisees?",
     "option_a": "A. It was a reference to the Jesus death and resurrection",
     "option_b": "B. It was a reference to the judgement day when the men of Nineveh would condemn the Jews",
     "option_c": "C. It shows thst the Queenof the South would condemn this generation on the judgement day",
@@ -1171,7 +1171,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    <p>Th statement 'But I say to you that every one who is angry with his brother shall be liable to judgement; whoever insults his brother shall be liable to the council and whoever says' You fool' shall be liable to hell fire' is part of</p>",
+    "question_text": "<p>Th statement 'But I say to you that every one who is angry with his brother shall be liable to judgement; whoever insults his brother shall be liable to the council and whoever says' You fool' shall be liable to hell fire' is part of</p>",
     "option_a": "A. Christ's Sermon on the Mount",
     "option_b": "B. Christ's warning to the Pharisees",
     "option_c": "C. Christ's warning to the Sadducees",
@@ -1180,7 +1180,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    The meaning of Ephphatha is said to be",
+    "question_text": "The meaning of Ephphatha is said to be",
     "option_a": "A. be open",
     "option_b": "B. be still",
     "option_c": "C. little girl, arise",
@@ -1189,7 +1189,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    According to St.Marks Gospel, Herod said that Jesus was",
+    "question_text": "According to St.Marks Gospel, Herod said that Jesus was",
     "option_a": "A. Jeremiah",
     "option_b": "B. Elijah",
     "option_c": "C. John the Batist, risen from dead",
@@ -1198,7 +1198,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    The council of Jerusalem decided that Gentiles should abstain from pollution of idols and unchastity and from?",
+    "question_text": "The council of Jerusalem decided that Gentiles should abstain from pollution of idols and unchastity and from?",
     "option_a": "A. murder",
     "option_b": "B. unclean food",
     "option_c": "C. eating what is strangled",
@@ -1207,7 +1207,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    In the parable of the ten virgins, the foolish ones are blamed because they",
+    "question_text": "In the parable of the ten virgins, the foolish ones are blamed because they",
     "option_a": "A. arrived late",
     "option_b": "B. where sleepling when the bridegroom came",
     "option_c": "C. had not bought enough oil before hand",
@@ -1216,7 +1216,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    Why did Jesus heal the leper at Galilee",
+    "question_text": "Why did Jesus heal the leper at Galilee",
     "option_a": "A. The leper said' if you want to, you can cure me'",
     "option_b": "B. Jesus wanted to cure him",
     "option_c": "C. Jesus felt sorry for him",
@@ -1225,7 +1225,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    The statement' truly this man was the son f God' was made by",
+    "question_text": "The statement' truly this man was the son f God' was made by",
     "option_a": "A. the centurion",
     "option_b": "B. Stephen",
     "option_c": "C. Mary mother of John",
@@ -1234,7 +1234,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    Jesus was presented in the temple of the Lord because",
+    "question_text": "Jesus was presented in the temple of the Lord because",
     "option_a": "A. he was already twelve years old",
     "option_b": "B. his parents wanted to offer a sacrifice",
     "option_c": "C. his parents wanted to do for him what the law required",
@@ -1243,7 +1243,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    Which of the following parable is peculiar to Luke?",
+    "question_text": "Which of the following parable is peculiar to Luke?",
     "option_a": "A. the labouers in the vineyard",
     "option_b": "B. the man with out a wedding garment",
     "option_c": "C. the lost ship",
@@ -1252,7 +1252,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    The one who added to make up the twelve was",
+    "question_text": "The one who added to make up the twelve was",
     "option_a": "A. Paul",
     "option_b": "B. Thaddaeus",
     "option_c": "C. Matthew",
@@ -1261,7 +1261,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    The canticle which begins' blessed be the lord of Israel'(the Benedictus)was uttered by",
+    "question_text": "The canticle which begins' blessed be the lord of Israel'(the Benedictus)was uttered by",
     "option_a": "A. Mary Magdalene",
     "option_b": "B. Zechariah",
     "option_c": "C. Simeon",
@@ -1270,7 +1270,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    The statement' oh man of little faith' why did you doubt' was uttered by Jesus Christ to",
+    "question_text": "The statement' oh man of little faith' why did you doubt' was uttered by Jesus Christ to",
     "option_a": "A. the crowd at the marriage in cana of Galilee where he turned water to wine",
     "option_b": "B. Judas after betraying him",
     "option_c": "C. Peter while sinking into the sea",
@@ -1279,7 +1279,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    Who baptist the Ethiopian Eunuch",
+    "question_text": "Who baptist the Ethiopian Eunuch",
     "option_a": "A. Paul",
     "option_b": "B. Peter",
     "option_c": "C. Philip",
@@ -1288,7 +1288,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    Which of these do not believe in the Resurrection?",
+    "question_text": "Which of these do not believe in the Resurrection?",
     "option_a": "A. Assyrians",
     "option_b": "B. Publicans",
     "option_c": "C. Levites",
@@ -1297,7 +1297,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    Which of the following parables could be said to teach about God's love for sinners",
+    "question_text": "Which of the following parables could be said to teach about God's love for sinners",
     "option_a": "A. The wicked husbandmen",
     "option_b": "B. The good samaritan",
     "option_c": "C. The ten talent",
@@ -1306,7 +1306,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1980\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1980</div></a>\n    <br>\n    \n    \n    \n    The statement 'beware of piety before men in order to be seen by them for then you will have no reward from your father whom is in heaven,'teaches that",
+    "question_text": "The statement 'beware of piety before men in order to be seen by them for then you will have no reward from your father whom is in heaven,'teaches that",
     "option_a": "A. a good deed should not be done if it wil attract the attention of others",
     "option_b": "B. a good deed should not be done simply to attract the attention of others",
     "option_c": "C. we should not mind what people say",
@@ -1315,7 +1315,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1981\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1981</div></a>\n    <br>\n    \n    \n    \n    Why was Saul pleased when he was told that his daughter, Michal, was in love with David?",
+    "question_text": "Why was Saul pleased when he was told that his daughter, Michal, was in love with David?",
     "option_a": "A. Michalwas already geetting to old to marry",
     "option_b": "B. Jonathan David's friend, was michal's borther",
     "option_c": "C. He wouldget a handsome marriage present from David",
@@ -1324,7 +1324,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1981\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1981</div></a>\n    <br>\n    \n    \n    \n    Moses was nursed by .....",
+    "question_text": "Moses was nursed by .....",
     "option_a": "A. Pharaoh's",
     "option_b": "B. his sister",
     "option_c": "C. his mother",
@@ -1333,7 +1333,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1981\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1981</div></a>\n    <br>\n    \n    \n    \n    Joseph brother were at....when they conspired to kill him",
+    "question_text": "Joseph brother were at....when they conspired to kill him",
     "option_a": "A. Shechem",
     "option_b": "B. Dothan",
     "option_c": "C. Bethel",
@@ -1342,7 +1342,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1981\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1981</div></a>\n    <br>\n    \n    \n    \n    God changed the name of Abraham wife from Sarai to Sarah when",
+    "question_text": "God changed the name of Abraham wife from Sarai to Sarah when",
     "option_a": "A. God commanded Abraham to go to the land of canaan",
     "option_b": "B. Abraham had come to the land of canaan",
     "option_c": "C. Sarah gave birth to Isaac",
@@ -1351,7 +1351,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1981\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1981</div></a>\n    <br>\n    \n    \n    \n    Amos condemned the woman of Samaria and called them...of Bashan",
+    "question_text": "Amos condemned the woman of Samaria and called them...of Bashan",
     "option_a": "A. Sheep",
     "option_b": "B. oxen",
     "option_c": "C. goats",
@@ -1360,7 +1360,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1981\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1981</div></a>\n    <br>\n    \n    \n    \n    Hosea married Gomer, a harlot to symbolize the",
+    "question_text": "Hosea married Gomer, a harlot to symbolize the",
     "option_a": "A. unfaithfulness of Israel in forsaking the Lord",
     "option_b": "B. steadfastness of Israel in worship",
     "option_c": "C. Attitude of Israel toward harlots",
@@ -1369,7 +1369,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1981\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1981</div></a>\n    <br>\n    \n    \n    \n    <p>One of the titles often used in the book of Ezekiel is?</p>",
+    "question_text": "<p>One of the titles often used in the book of Ezekiel is?</p>",
     "option_a": "A. Son of God",
     "option_b": "B. Son of man",
     "option_c": "C. Lamp of God",
@@ -1378,7 +1378,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    The Passover meal marked.",
+    "question_text": "The Passover meal marked.",
     "option_a": "A. the divine act of God when he slew the Egyptians but spared the Israelites",
     "option_b": "B. the send-off of the Israelites by Pharaoh",
     "option_c": "C. the festival of thanksgiving",
@@ -1387,7 +1387,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1978\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1978</div></a>\n    <br>\n    \n    \n    \n    The fall of the Northern Kingdom was due to",
+    "question_text": "The fall of the Northern Kingdom was due to",
     "option_a": "A. disorder in Israel after the death of Jeroboam II",
     "option_b": "B. Jerusalem's attack by the Assyrian army",
     "option_c": "C. Samaria being besieged and sacked",
@@ -1396,7 +1396,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    The United Kingdom of Israel was divided into two as a result of",
+    "question_text": "The United Kingdom of Israel was divided into two as a result of",
     "option_a": "A. a need for two states in Israel",
     "option_b": "B. the people's agitation for it",
     "option_c": "C. a fight between Rehoboam and Jeroboam",
@@ -1405,7 +1405,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1979\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1979</div></a>\n    <br>\n    \n    \n    \n    Shortly before his death on the cross Jesus said",
+    "question_text": "Shortly before his death on the cross Jesus said",
     "option_a": "A. In my father's house there are many mansions'",
     "option_b": "B. ' I am the king of the Jews, harken unto me",
     "option_c": "C. My God, my God, why hast thou forsaken me?",
@@ -1414,7 +1414,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1981\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1981</div></a>\n    <br>\n    \n    \n    \n    The disciples were first called Christians in",
+    "question_text": "The disciples were first called Christians in",
     "option_a": "A. Rome",
     "option_b": "B. Jerusalem",
     "option_c": "C. Samaria",
@@ -1423,7 +1423,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1985\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1985</div></a>\n    <br>\n    \n    \n    \n    The 5th of the Ten Commandments is a warning",
+    "question_text": "The 5th of the Ten Commandments is a warning",
     "option_a": "A. not to bow down to idols",
     "option_b": "B. not to kill",
     "option_c": "C. to avoid adultery",
@@ -1432,7 +1432,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1991\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1991</div></a>\n    <br>\n    \n    \n    \n    On the island of Malta, Paul healed a man who was",
+    "question_text": "On the island of Malta, Paul healed a man who was",
     "option_a": "A. born blind",
     "option_b": "B. deaf and dumb",
     "option_c": "C. lame from birth",
@@ -1441,7 +1441,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1992\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1992</div></a>\n    <br>\n    \n    \n    \n    ..... I am Pharisees, a son of Pharisee, with respect to the hope and resurrect of the dead I am on trial. This was part of the address of Paul to",
+    "question_text": "..... I am Pharisees, a son of Pharisee, with respect to the hope and resurrect of the dead I am on trial. This was part of the address of Paul to",
     "option_a": "A. the Jerusalem crowd",
     "option_b": "B. King Agrippa and Festus",
     "option_c": "C. the Sanhedrin",
@@ -1450,7 +1450,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1993\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1993</div></a>\n    <br>\n    \n    \n    \n    The new covenant which God was to make with the house of Israel was that it would be",
+    "question_text": "The new covenant which God was to make with the house of Israel was that it would be",
     "option_a": "A. written upon their hearts",
     "option_b": "B. for the tribe of Judah alone",
     "option_c": "C. the means of restoring the monarchy",
@@ -1459,7 +1459,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1997\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1997</div></a>\n    <br>\n    \n    \n    \n    <p>According to Matthew, Jesus entered Jerusalem riding</p>",
+    "question_text": "<p>According to Matthew, Jesus entered Jerusalem riding</p>",
     "option_a": "A. a horse and a donkey",
     "option_b": "B. an ass and a horse",
     "option_c": "C. a colt and a donkey",
@@ -1468,7 +1468,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=1998\"><div class=\"mb-2 badge bg-success text-light\">JAMB 1998</div></a>\n    <br>\n    \n    \n    \n    According to Paul, what bear witness to the righteousness of God are",
+    "question_text": "According to Paul, what bear witness to the righteousness of God are",
     "option_a": "A. faith and the law",
     "option_b": "B. grace and saving gift",
     "option_c": "C. faith and the prophets",
@@ -1477,7 +1477,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2001\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2001</div></a>\n    <br>\n    \n    \n    \n    After the mission of the seventy, Jesus declared that He had given them",
+    "question_text": "After the mission of the seventy, Jesus declared that He had given them",
     "option_a": "A. the gift of knowledge of the word",
     "option_b": "B. authority over all the power of the enemy",
     "option_c": "C. power over the Roman authorities",
@@ -1486,7 +1486,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2001\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2001</div></a>\n    <br>\n    \n    \n    \n    Amos declared that the Jews who built houses of hewn stone would not dwell in them because they",
+    "question_text": "Amos declared that the Jews who built houses of hewn stone would not dwell in them because they",
     "option_a": "A. swore falsely",
     "option_b": "B. persecuted the prophets",
     "option_c": "C. trampled upon the poor",
@@ -1495,7 +1495,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2002\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2002</div></a>\n    <br>\n    \n    \n    \n    The altar that Gideon built under the oak at Ophrah was called",
+    "question_text": "The altar that Gideon built under the oak at Ophrah was called",
     "option_a": "A. The LORD is great",
     "option_b": "B. The LORD is peace",
     "option_c": "C. The LORD is present",
@@ -1504,7 +1504,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2003\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2003</div></a>\n    <br>\n    \n    \n    \n    According to Paul, a ruler does not bear the sword in vain but he",
+    "question_text": "According to Paul, a ruler does not bear the sword in vain but he",
     "option_a": "A. leads men into the ways of God",
     "option_b": "B. executes God's wrath on the wrong doer",
     "option_c": "C. rules as influenced by the people",
@@ -1513,7 +1513,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2003\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2003</div></a>\n    <br>\n    \n    \n    \n    In Paul's Epistle to the Galatians, as long as an heir is a  child, he is under",
+    "question_text": "In Paul's Epistle to the Galatians, as long as an heir is a  child, he is under",
     "option_a": "A. guradians",
     "option_b": "B. custodians",
     "option_c": "C. protectors",
@@ -1522,7 +1522,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2003\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2003</div></a>\n    <br>\n    \n    \n    \n    In interpersonal relationships, Paul advises believers to",
+    "question_text": "In interpersonal relationships, Paul advises believers to",
     "option_a": "A. emulate his good gesture",
     "option_b": "B. obey the law of Moses",
     "option_c": "C. think with sober judgement",
@@ -1531,7 +1531,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2004\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2004</div></a>\n    <br>\n    \n    \n    \n    <p>Hosea proclaimed that Israel should return to God and plead that he should</p>",
+    "question_text": "<p>Hosea proclaimed that Israel should return to God and plead that he should</p>",
     "option_a": "A. take away their iniquity",
     "option_b": "B. accept their worship",
     "option_c": "C. bless them abundantly",
@@ -1540,7 +1540,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2005\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2005</div></a>\n    <br>\n    \n    \n    \n    The destruction of Jerusalem by Nebuchadnezzar was a consequence of",
+    "question_text": "The destruction of Jerusalem by Nebuchadnezzar was a consequence of",
     "option_a": "A. Hezekiah's death",
     "option_b": "B. Josiah's reforms",
     "option_c": "C. Israel's stubbornness to God",
@@ -1549,7 +1549,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    After Peter was released from prison by an angel, he went to the house of",
+    "question_text": "After Peter was released from prison by an angel, he went to the house of",
     "option_a": "A. Mary, mother of Mark",
     "option_b": "B. Salome",
     "option_c": "C. Mary, mother of James",
@@ -1558,7 +1558,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    '' Follow me, and I will make you fishers of men'' <br>\nThe statement above was made by Jesus to Simon Peter and Andrew when they were at the",
+    "question_text": "'' Follow me, and I will make you fishers of men'' <br>\nThe statement above was made by Jesus to Simon Peter and Andrew when they were at the",
     "option_a": "A. River Jordan",
     "option_b": "B. Great Sea",
     "option_c": "C. Sea of Galilee",
@@ -1567,7 +1567,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    The qualifications of the deacons appointed by the disciples were",
+    "question_text": "The qualifications of the deacons appointed by the disciples were",
     "option_a": "A. righteousness and faithfulness",
     "option_b": "B. good repute, full of the Spirit and Wisdom",
     "option_c": "C. faithfulness and Wisdom",
@@ -1576,7 +1576,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    The father of the prodigal son welcomed him back home because",
+    "question_text": "The father of the prodigal son welcomed him back home because",
     "option_a": "A. he had compassion on his son",
     "option_b": "B. the son confessed his sins",
     "option_c": "C. he had missed his son for a long time",
@@ -1585,7 +1585,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    According to John, the Jews who sent the priests and the Levites to find out who John the Baptist was, were the",
+    "question_text": "According to John, the Jews who sent the priests and the Levites to find out who John the Baptist was, were the",
     "option_a": "A. Scribes",
     "option_b": "B. Sadducees",
     "option_c": "C. Zealots",
@@ -1594,7 +1594,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    Jesus drove away the money changers and pigeon-sellers from the Temple because they",
+    "question_text": "Jesus drove away the money changers and pigeon-sellers from the Temple because they",
     "option_a": "A. disrespected the house of God",
     "option_b": "B. were Pharisees who hated His disciples",
     "option_c": "C. did not join the women who were hlling Him",
@@ -1603,7 +1603,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    The prayer of Jesus was that God should raise Lazarus from the dead so that",
+    "question_text": "The prayer of Jesus was that God should raise Lazarus from the dead so that",
     "option_a": "A. Lazarus life would believe that God sent Him",
     "option_b": "B. the people standing by would believe that God sent Him",
     "option_c": "C. the people would honour Him as the Son of God",
@@ -1612,7 +1612,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    According to John, those who believe in the light will become",
+    "question_text": "According to John, those who believe in the light will become",
     "option_a": "A. agents of light",
     "option_b": "B. people of light",
     "option_c": "C. light of life",
@@ -1621,7 +1621,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    '''....I will give you the keys of the kingdom of heaven, and whatever you bind on earth shall be bound in heaven....''''<br>\n<br>\nThe incident that preceded Jesus declaration above was the",
+    "question_text": "'''....I will give you the keys of the kingdom of heaven, and whatever you bind on earth shall be bound in heaven....''''<br>\n<br>\nThe incident that preceded Jesus declaration above was the",
     "option_a": "A. great confession by Peter",
     "option_b": "B. mission of the seventy",
     "option_c": "C. feeding of the four thousand",
@@ -1630,7 +1630,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    When the Lycaonians saw the miracle of healing by the apostles, they tried to",
+    "question_text": "When the Lycaonians saw the miracle of healing by the apostles, they tried to",
     "option_a": "A. accept the Gospel through Paul and Barnabas",
     "option_b": "B. sacrifice to both Paul and Barnabas",
     "option_c": "C. arrest Paul and Barnabas",
@@ -1639,7 +1639,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    ''' Lord, if you will, you can make me clean,'''<br>\nAccording to Luke, the leper who made the statement above was cleansed because",
+    "question_text": "''' Lord, if you will, you can make me clean,'''<br>\nAccording to Luke, the leper who made the statement above was cleansed because",
     "option_a": "A. he had been following Jesus",
     "option_b": "B. Jesus was moved by his leprosy",
     "option_c": "C. he believed Jesus had the power to heal him",
@@ -1648,7 +1648,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    The decisions at the Council of Jerusalem laid to rest the issue of",
+    "question_text": "The decisions at the Council of Jerusalem laid to rest the issue of",
     "option_a": "A. abstaining from unchastity and blood",
     "option_b": "B. circumcision before one can be saved",
     "option_c": "C. circumcision and Abrahamic covenant",
@@ -1657,7 +1657,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    According to Mark, the three women that went to the sepulchre to anoint the body of Jesus with spices were",
+    "question_text": "According to Mark, the three women that went to the sepulchre to anoint the body of Jesus with spices were",
     "option_a": "A. Salome, Mary and Martha",
     "option_b": "B. Mary, Salome and Joane",
     "option_c": "C. Mary Magdalene, Martha the sister of Lazarus and Salome",
@@ -1666,7 +1666,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    Speaking in tongues by the disciples at Pentecost was the fulfillment of a prophecy by",
+    "question_text": "Speaking in tongues by the disciples at Pentecost was the fulfillment of a prophecy by",
     "option_a": "A. Joel",
     "option_b": "B. Micah",
     "option_c": "C. Amos",
@@ -1675,7 +1675,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    What happened after Jesus had turned water into wine?",
+    "question_text": "What happened after Jesus had turned water into wine?",
     "option_a": "A. The people spread the news around",
     "option_b": "B. The disciples believed in Him",
     "option_c": "C. The people marvelled at it",
@@ -1684,7 +1684,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    <p>God commanded man to eat of every tree of the garden but not of the tree of knowledge of good and evil because of His</p>",
+    "question_text": "<p>God commanded man to eat of every tree of the garden but not of the tree of knowledge of good and evil because of His</p>",
     "option_a": "A. love for man",
     "option_b": "B. understanding of the nature of man",
     "option_c": "C. sympathy for man",
@@ -1693,7 +1693,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    The people of Ziklag wanted to stone David when the Amalekites burned their city because",
+    "question_text": "The people of Ziklag wanted to stone David when the Amalekites burned their city because",
     "option_a": "A. their wives and daughters had been raped",
     "option_b": "B. he had neglected them",
     "option_c": "C. all the people were bitter in soul",
@@ -1702,7 +1702,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    What did Gideon do when he heard the dream of the Midiantite and its interpretation?",
+    "question_text": "What did Gideon do when he heard the dream of the Midiantite and its interpretation?",
     "option_a": "A. He hid himself",
     "option_b": "B. He became discouraged",
     "option_c": "C. He kissed his servant",
@@ -1711,7 +1711,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    <p>For worshiping the golden calf, the Israelite's were</p>",
+    "question_text": "<p>For worshiping the golden calf, the Israelite's were</p>",
     "option_a": "A. oppressed by their enemies",
     "option_b": "B. made wanderers",
     "option_c": "C. visited with a plague",
@@ -1720,7 +1720,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    God declared that no human blood should be shed because man was",
+    "question_text": "God declared that no human blood should be shed because man was",
     "option_a": "A. His representative on earth",
     "option_b": "B. loved by Him",
     "option_c": "C. the head of all His creation",
@@ -1729,7 +1729,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    God decided to provide food for the people of Israel on a daily basis because",
+    "question_text": "God decided to provide food for the people of Israel on a daily basis because",
     "option_a": "A. He wanted them to have enough to eat",
     "option_b": "B. He wanted to sea if they would obey Him",
     "option_c": "C. they had accused Moses of starving them",
@@ -1738,7 +1738,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    How did David know that Saul had come against him in the wilderness of Ziph?",
+    "question_text": "How did David know that Saul had come against him in the wilderness of Ziph?",
     "option_a": "A. it was revealed to Prophet Nathan",
     "option_b": "B. A Ziphite informed him",
     "option_c": "C. His spies informed him",
@@ -1747,7 +1747,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    The purpose of the covenant between God and the Israelites was to",
+    "question_text": "The purpose of the covenant between God and the Israelites was to",
     "option_a": "A. make them obey Him",
     "option_b": "B. make them rule over other nations",
     "option_c": "C. establish a kingdom for them",
@@ -1756,7 +1756,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    <p>People were saved during the flood as a result of</p>",
+    "question_text": "<p>People were saved during the flood as a result of</p>",
     "option_a": "A. Noah's kindness to them",
     "option_b": "B. Noah's obedience to God",
     "option_c": "C. God's covenant with Noah",
@@ -1765,7 +1765,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    <p>In his dedication of the Temple, Solomon reminded God of His promise to David that</p>",
+    "question_text": "<p>In his dedication of the Temple, Solomon reminded God of His promise to David that</p>",
     "option_a": "A. his descendants would always be blessed with the fruit of the womb",
     "option_b": "B. Israel would never be defeated in battle",
     "option_c": "C. Israel would be in peace with Hiram of Tyre",
@@ -1774,7 +1774,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    <p>According to Ezekiel, one of the blessings of the new covenant was that God's Pope would</p>",
+    "question_text": "<p>According to Ezekiel, one of the blessings of the new covenant was that God's Pope would</p>",
     "option_a": "A. return from the land of captivity",
     "option_b": "B. be given a heart of flesh",
     "option_c": "C. be free from diseases",
@@ -1783,7 +1783,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    After Adam's disobedience in the Garden of Eden, God guarded the tree of life with",
+    "question_text": "After Adam's disobedience in the Garden of Eden, God guarded the tree of life with",
     "option_a": "A. a strong wall",
     "option_b": "B. seraphim and a flaming sword",
     "option_c": "C. cherubim and a flaming sword",
@@ -1792,7 +1792,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    According to James, the prayer that has great power in its effects is that of",
+    "question_text": "According to James, the prayer that has great power in its effects is that of",
     "option_a": "A. one who fasts",
     "option_b": "B. a righteous man",
     "option_c": "C. an elder",
@@ -1801,7 +1801,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2007\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2007</div></a>\n    <br>\n    \n    \n    \n    <p>According to Matthew, Jesus was accused of blasphemy when He said that He</p>",
+    "question_text": "<p>According to Matthew, Jesus was accused of blasphemy when He said that He</p>",
     "option_a": "A. was the Messiah",
     "option_b": "B. was the son of man",
     "option_c": "C. would be at at the right hand of power",
@@ -1810,7 +1810,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>What was Herod's reaction when he heard the news about Jesus birth?</p>",
+    "question_text": "<p>What was Herod's reaction when he heard the news about Jesus birth?</p>",
     "option_a": "A. He was troubled",
     "option_b": "B. He became calm",
     "option_c": "C. He was excited",
@@ -1819,7 +1819,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>In his teaching on spiritual gifts in Corinthians, Paul said that all gifts are inspired by</p>",
+    "question_text": "<p>In his teaching on spiritual gifts in Corinthians, Paul said that all gifts are inspired by</p>",
     "option_a": "A. prayer",
     "option_b": "B. the same spirit",
     "option_c": "C. grace",
@@ -1828,7 +1828,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>Paul in Romans advised believers to respect those in authority to avoid God's wrath and also for the sake of</p>",
+    "question_text": "<p>Paul in Romans advised believers to respect those in authority to avoid God's wrath and also for the sake of</p>",
     "option_a": "A. Christ",
     "option_b": "B. Conscience",
     "option_c": "C. others",
@@ -1837,7 +1837,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>How old was Abram when God appeared to him the second time?</p>",
+    "question_text": "<p>How old was Abram when God appeared to him the second time?</p>",
     "option_a": "A. 75 years",
     "option_b": "B. 105 years",
     "option_c": "C. 85 years",
@@ -1846,7 +1846,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p><strong>''An eye for an eye and a tooth for a tooth...''</strong><br>\nJesus corrected the teaching in the statement above by declaring that</p>",
+    "question_text": "<p><strong>''An eye for an eye and a tooth for a tooth...''</strong><br>\nJesus corrected the teaching in the statement above by declaring that</p>",
     "option_a": "A. give and take is an ideal way of life",
     "option_b": "B. retaliation should be in equal measure to the offence",
     "option_c": "C. retaliation is right",
@@ -1855,7 +1855,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>The ruler of the synagogue whose child Jesus raised to life was</p>",
+    "question_text": "<p>The ruler of the synagogue whose child Jesus raised to life was</p>",
     "option_a": "A. a widow",
     "option_b": "B. Zebedee",
     "option_c": "C. a centurion",
@@ -1864,7 +1864,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p><strong>''Blessed are those who have not seen and yet believe''</strong><br>\n<br>\nJesus made the statement above to</p>",
+    "question_text": "<p><strong>''Blessed are those who have not seen and yet believe''</strong><br>\n<br>\nJesus made the statement above to</p>",
     "option_a": "A. His mother at Cana in Galilee",
     "option_b": "B. the father of the epileptic boy",
     "option_c": "C. the Syrophenician woman",
@@ -1873,7 +1873,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>According to Amos, true religion entails</p>",
+    "question_text": "<p>According to Amos, true religion entails</p>",
     "option_a": "A. being just and righteous",
     "option_b": "B. engaging in sacrifices and burnt offerings",
     "option_c": "C. engaging in holy feasts and assemblies",
@@ -1882,7 +1882,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p><strong>''....You are the Christ, the son of the living God.''</strong><br>\n<br>\nThe statement above was made by</p>",
+    "question_text": "<p><strong>''....You are the Christ, the son of the living God.''</strong><br>\n<br>\nThe statement above was made by</p>",
     "option_a": "A. Peter",
     "option_b": "B. James",
     "option_c": "C. John",
@@ -1891,7 +1891,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>In order that the word of the <strong>LORD</strong> concerning Judah might come to pass, He</p>",
+    "question_text": "<p>In order that the word of the <strong>LORD</strong> concerning Judah might come to pass, He</p>",
     "option_a": "A. made it the central city",
     "option_b": "B. allowed the Canaanites to besiege it",
     "option_c": "C. sent Kings to reign in Jerusalem",
@@ -1900,7 +1900,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>One of the prophets that prophesied hope for Israel in spite of God's promise of punishment was</p>",
+    "question_text": "<p>One of the prophets that prophesied hope for Israel in spite of God's promise of punishment was</p>",
     "option_a": "A. Jeremiah",
     "option_b": "B. Amos",
     "option_c": "C. Hosea",
@@ -1909,7 +1909,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p><strong>''.....Holy, holy, holy is the LORD of host...''</strong></p>\n\n<p>The statement above was made in reference to the call of</p>",
+    "question_text": "<p><strong>''.....Holy, holy, holy is the LORD of host...''</strong></p>\n\n<p>The statement above was made in reference to the call of</p>",
     "option_a": "A. Jeremiah",
     "option_b": "B. Ezekiel",
     "option_c": "C. Isaiah",
@@ -1918,7 +1918,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>In Jesus' teaching about the true vine, He said anyone who does not abide in Him shall be</p>",
+    "question_text": "<p>In Jesus' teaching about the true vine, He said anyone who does not abide in Him shall be</p>",
     "option_a": "A. crucified with Him",
     "option_b": "B. cast forth",
     "option_c": "C. taken away",
@@ -1927,7 +1927,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>Paul returned Philemon's slave back to him to ensure that</p>",
+    "question_text": "<p>Paul returned Philemon's slave back to him to ensure that</p>",
     "option_a": "A. he would be welcome when he left prison",
     "option_b": "B. the slave can complete his service time",
     "option_c": "C. Philemon forgave and accepted the slave",
@@ -1936,7 +1936,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>Where did God promise to lengthen Solomon's days if he kept His commandment?</p>",
+    "question_text": "<p>Where did God promise to lengthen Solomon's days if he kept His commandment?</p>",
     "option_a": "A. Gilboa",
     "option_b": "B. Gibeon",
     "option_c": "C. Tabor",
@@ -1945,7 +1945,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <b>''.....This man is that power of God which is called Great.''</b><br>\n<br>\nThe statement above referring to Simon the magician was made at",
+    "question_text": "<b>''.....This man is that power of God which is called Great.''</b><br>\n<br>\nThe statement above referring to Simon the magician was made at",
     "option_a": "A. Macedonia",
     "option_b": "B. Jerusalem",
     "option_c": "C. Samaria",
@@ -1954,7 +1954,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>Paul in Romans said that the righteousness of God has been manifested through faith in Jesus Christ for</p>",
+    "question_text": "<p>Paul in Romans said that the righteousness of God has been manifested through faith in Jesus Christ for</p>",
     "option_a": "A. the cleansing of the demand",
     "option_b": "B. the exaltation of the authority",
     "option_c": "C. all those who believe",
@@ -1963,7 +1963,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>Before Moses brought the Israelites to meet God on Mount Sinai, he charged them to</p>",
+    "question_text": "<p>Before Moses brought the Israelites to meet God on Mount Sinai, he charged them to</p>",
     "option_a": "A. wash their garments and be consecrated",
     "option_b": "B. ensure they eat very well",
     "option_c": "C. touch the mountain at the sight of smoke",
@@ -1972,7 +1972,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>In Matthew's account of Jesus burial, Joseph who requested the body of Jesus was</p>",
+    "question_text": "<p>In Matthew's account of Jesus burial, Joseph who requested the body of Jesus was</p>",
     "option_a": "A. a kingdom seeker",
     "option_b": "B. the council's elder",
     "option_c": "C. His disciple",
@@ -1981,7 +1981,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>What was God's immediate punishment to David for taking Uriah's wife?</p>",
+    "question_text": "<p>What was God's immediate punishment to David for taking Uriah's wife?</p>",
     "option_a": "A. God sent Nathan to him",
     "option_b": "B. David's son by Bathsheba died",
     "option_c": "C. Absalom conspired against him",
@@ -1990,7 +1990,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>When David's son Absalom rebelled against him, David was forced to</p>",
+    "question_text": "<p>When David's son Absalom rebelled against him, David was forced to</p>",
     "option_a": "A. abdicate the throne",
     "option_b": "B. flee from Jerusalem",
     "option_c": "C. surrender to him",
@@ -1999,7 +1999,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>The religious tension in Israel during the reign of King Ahab was caused by</p>",
+    "question_text": "<p>The religious tension in Israel during the reign of King Ahab was caused by</p>",
     "option_a": "A. Prophet Nathan's prophecy about Israel's doom",
     "option_b": "B. Jezebel's introduction of idol worship",
     "option_c": "C. Ahab's heed to the advice of the elders",
@@ -2008,7 +2008,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>A parable that teaches a lesson on the demands of the kingdom is that of the</p>",
+    "question_text": "<p>A parable that teaches a lesson on the demands of the kingdom is that of the</p>",
     "option_a": "A. weeds",
     "option_b": "B. lost coin",
     "option_c": "C. prodigal son",
@@ -2017,7 +2017,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>In his teaching on effective prayer, James said that the prayer of faith would</p>",
+    "question_text": "<p>In his teaching on effective prayer, James said that the prayer of faith would</p>",
     "option_a": "A. heal and cleans sins",
     "option_b": "B. influence the authority",
     "option_c": "C. enhance commitment to church",
@@ -2026,7 +2026,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>Amos is often referred to as a prophet of</p>",
+    "question_text": "<p>Amos is often referred to as a prophet of</p>",
     "option_a": "A. love",
     "option_b": "B. doom",
     "option_c": "C. justice",
@@ -2035,7 +2035,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>Whose address led to the conversion of three thousand souls on the of Pentecost?</p>",
+    "question_text": "<p>Whose address led to the conversion of three thousand souls on the of Pentecost?</p>",
     "option_a": "A. Peter's",
     "option_b": "B. James",
     "option_c": "C. Paul's",
@@ -2044,7 +2044,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>A key requirement for healing as exemplified by the disciple's inability to heal the epileptic boy is</p>",
+    "question_text": "<p>A key requirement for healing as exemplified by the disciple's inability to heal the epileptic boy is</p>",
     "option_a": "A. power",
     "option_b": "B. righteousness",
     "option_c": "C. faith",
@@ -2053,7 +2053,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>Paul admonished the Romans to live a new life in Christ by yielding themselves to God as men who</p>",
+    "question_text": "<p>Paul admonished the Romans to live a new life in Christ by yielding themselves to God as men who</p>",
     "option_a": "A. will meet Christ in God's kingdom",
     "option_b": "B. have been brought from death to life",
     "option_c": "C. have suffered for the sake of the gospel",
@@ -2062,7 +2062,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>Most believers celebrate Palm Sunday to honour Jesus as the</p>",
+    "question_text": "<p>Most believers celebrate Palm Sunday to honour Jesus as the</p>",
     "option_a": "A. Lamb of God",
     "option_b": "B. King of Kings",
     "option_c": "C. Son of God",
@@ -2071,7 +2071,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p><strong>'''.....For who is able to govern this thy great people?'''</strong><br>\n<br>\nIn the statement above, Solomon declared his</p>",
+    "question_text": "<p><strong>'''.....For who is able to govern this thy great people?'''</strong><br>\n<br>\nIn the statement above, Solomon declared his</p>",
     "option_a": "A. inability to carry out the duty",
     "option_b": "B. inadequacy as a man",
     "option_c": "C. total dependence on God",
@@ -2080,7 +2080,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>God sent Jonah to the city of Nineveh to</p>",
+    "question_text": "<p>God sent Jonah to the city of Nineveh to</p>",
     "option_a": "A. preach against it",
     "option_b": "B. mediate for the people",
     "option_c": "C. convert the people",
@@ -2089,7 +2089,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>The action that portrayed Moses as a leader of the Israelites was his</p>",
+    "question_text": "<p>The action that portrayed Moses as a leader of the Israelites was his</p>",
     "option_a": "A. disobedience to Pharaoh and escape",
     "option_b": "B. request to Pharaoh to spare Israelite's sons",
     "option_c": "C. protection of the daughters of Jethro",
@@ -2098,7 +2098,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>For obeying His word, God rewarded Shiphrah and Puah with</p>",
+    "question_text": "<p>For obeying His word, God rewarded Shiphrah and Puah with</p>",
     "option_a": "A. positions",
     "option_b": "B. families",
     "option_c": "C. wealth",
@@ -2107,7 +2107,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    God fed the Israelites with Manna at the wilderness of",
+    "question_text": "God fed the Israelites with Manna at the wilderness of",
     "option_a": "A. Elim",
     "option_b": "B. Zin",
     "option_c": "C. Sin",
@@ -2116,7 +2116,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>When Ezekiel ate the scroll that was given to him at his call, it signified that</p>",
+    "question_text": "<p>When Ezekiel ate the scroll that was given to him at his call, it signified that</p>",
     "option_a": "A. his sins were forgiven",
     "option_b": "B. God would always go before him",
     "option_c": "C. he was filled with God's word",
@@ -2125,7 +2125,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>A good example of parental responsibility was demonstrated by</p>",
+    "question_text": "<p>A good example of parental responsibility was demonstrated by</p>",
     "option_a": "A. Eli",
     "option_b": "B. Samuel",
     "option_c": "C. David",
@@ -2134,7 +2134,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>The story of Gehazi demonstrated God's hatred for</p>",
+    "question_text": "<p>The story of Gehazi demonstrated God's hatred for</p>",
     "option_a": "A. disobedience",
     "option_b": "B. greed",
     "option_c": "C. envy",
@@ -2143,7 +2143,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p>Believers today are partakers of the New Covenant through</p>",
+    "question_text": "<p>Believers today are partakers of the New Covenant through</p>",
     "option_a": "A. the gift of the spirit",
     "option_b": "B. partaking in baptism by immersion",
     "option_c": "C. obedience to church leadership",
@@ -2152,7 +2152,7 @@
   },
   {
     "course_id": "3",
-    "question_text": "<a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk\"><div class=\"mb-2 badge bg-success text-light\">Christian Religious Knowledge (CRK)</div></a>\n    <a href=\"https://myschool.ng/classroom/christian-religious-knowledge-crk?exam_type=jamb&amp;exam_year=2016\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2016</div></a>\n    <br>\n    \n    \n    \n    <p><strong>\"Shall I pursue after this band? Shall I overtake them?\"</strong>. David's dependence on God for direction is depicted in the statement above when</p>",
+    "question_text": "<p><strong>\"Shall I pursue after this band? Shall I overtake them?\"</strong>. David's dependence on God for direction is depicted in the statement above when</p>",
     "option_a": "A. Saul was within his grasp",
     "option_b": "B. Absalom had revolted against him",
     "option_c": "C. he was to go against Goliath",

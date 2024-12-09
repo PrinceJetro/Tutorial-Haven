@@ -1,4 +1,4 @@
-questions = [
+[
   {
     "name": "Commerce and E-Commerce",
     "content": "<h1>Commerce and E-Commerce</h1><h2>I. Introduction</h2><h3>i. Definition of Commerce and E-Commerce</h3><p><strong>Commerce</strong> refers to the activities involved in the buying and selling of goods and services, as well as the associated financial, legal, and operational processes. It encompasses all the processes that contribute to the distribution of products from producers to consumers, including transportation, marketing, banking, and insurance.</p><ul><li><strong>E-Commerce</strong> (Electronic Commerce) refers to the buying and selling of goods and services using the internet and other digital networks. It involves transactions that occur over platforms like websites, mobile apps, and social media, which facilitate the exchange of products and services without the need for physical interaction.</li></ul><h4>Key Points:</h4><ul><li><strong>Commerce</strong>: Traditional exchange of goods and services.</li><li><strong>E-Commerce</strong>: Electronic exchange of goods/services via the internet.</li></ul><h4>Examples:</h4><ul><li><strong>Commerce</strong>: A physical retail store where customers purchase goods.</li><li><strong>E-Commerce</strong>: Amazon or eBay, where customers purchase goods through an online platform.</li></ul><h3>ii. History/Background of Commerce</h3><p>The evolution of commerce dates back to ancient civilizations when barter systems were used for exchanging goods. Over time, trade became more organized, leading to the development of marketplaces, currencies, and global trade networks.</p><ul><li><strong>Early Stages</strong>: Barter trade in early human societies.</li><li><strong>Medieval Era</strong>: Rise of trade routes, fairs, and markets in cities.</li><li><strong>Industrial Revolution</strong>: Standardization of goods, mass production, and growth in trade due to advancements in transportation and communication.</li><li><strong>Modern Era</strong>: The advent of the internet revolutionized commerce, introducing the era of e-commerce in the 1990s.</li></ul><h4>Key Points:</h4><ul><li>Commerce has transitioned from a barter system to a global, digitalized marketplace.</li><li>The Industrial Revolution and technology played major roles in shaping modern commerce.</li></ul><h4>Example:</h4><ul><li><strong>Ancient Commerce</strong>: Trade between Egyptians and Mesopotamians using bartering.</li><li><strong>E-Commerce History</strong>: The launch of Amazon in 1995 as a pioneering e-commerce platform.</li></ul><h3>iii. Scope of Commerce and E-Commerce</h3><p><strong>Scope of Commerce</strong>:</p><ul><li><strong>Domestic Commerce</strong>: Business activities conducted within the borders of a single country.</li><li><strong>International Commerce</strong>: Business activities that involve transactions between countries, including imports and exports.</li></ul><p><strong>Scope of E-Commerce</strong>:</p><ul><li><strong>B2B (Business to Business)</strong>: Transactions between businesses (e.g., a supplier selling to a manufacturer).</li><li><strong>B2C (Business to Consumer)</strong>: Transactions between businesses and consumers (e.g., buying goods from an online store).</li><li><strong>C2C (Consumer to Consumer)</strong>: Transactions between individual consumers (e.g., eBay auctions).</li><li><strong>C2B (Consumer to Business)</strong>: Consumers offering products or services to businesses (e.g., influencers promoting brands).</li></ul><h4>Key Points:</h4><ul><li><strong>Commerce</strong>: Domestic and international trade.</li><li><strong>E-Commerce</strong>: Encompasses B2B, B2C, C2C, and C2B models.</li></ul><h4>Example:</h4><ul><li><strong>B2B</strong>: Alibaba, where businesses purchase supplies from manufacturers.</li><li><strong>B2C</strong>: Shopify stores where consumers purchase directly from businesses.</li></ul><h3>iv. Functions of Commerce and E-Commerce</h3><h4>1. Functions of Commerce</h4><ul><li><strong>Buying and Selling</strong>: The core activity of commerce, which involves the exchange of goods for money.</li><li><strong>Transportation</strong>: The movement of goods from one place to another, such as logistics and shipping.</li><li><strong>Warehousing</strong>: Storing goods until they are needed by the consumer.</li><li><strong>Banking</strong>: Facilitating the exchange of money, including payments, credit, and loans.</li><li><strong>Insurance</strong>: Protecting goods, individuals, and businesses from risks involved in commerce.</li><li><strong>Advertising</strong>: Promoting goods and services to potential buyers.</li></ul><h4>Key Points:</h4><ul><li>Commerce involves various supporting activities to ensure smooth transactions.</li></ul><h4>Example:</h4><ul><li><strong>Transportation</strong>: Shipping goods from a warehouse to retail stores.</li><li><strong>Insurance</strong>: Insuring inventory against loss or damage during transit.</li></ul><h4>2. Functions of E-Commerce</h4><ul><li><strong>Online Transactions</strong>: E-commerce platforms enable users to purchase goods and services online.</li><li><strong>Digital Payments</strong>: Payments for e-commerce transactions are made through digital means like credit cards, PayPal, and mobile wallets.</li><li><strong>Online Marketing</strong>: Companies promote their products online using digital ads, SEO, and social media platforms.</li><li><strong>Customer Support</strong>: E-commerce platforms provide virtual customer service through chatbots, email support, and FAQs.</li><li><strong>Product Delivery</strong>: Logistics and delivery services are integrated into e-commerce platforms to deliver products to customers.</li></ul><h4>Key Points:</h4><ul><li>E-commerce uses technology to facilitate transactions and customer interactions online.</li></ul><h4>Example:</h4><ul><li><strong>Online Transactions</strong>: A customer buying clothes from an e-commerce website like ASOS.</li><li><strong>Customer Support</strong>: Chatbots assisting with order tracking or queries on Amazon.</li></ul><h2>II. Summary</h2><ul><li><strong>Commerce</strong>: Refers to the traditional buying and selling of goods and services through physical or face-to-face methods, incorporating various functions such as transportation, banking, and insurance.</li><li><strong>E-Commerce</strong>: A digitalized form of commerce where transactions are carried out electronically through the internet. It includes various models like B2B, B2C, C2C, and C2B.</li><li>The development of commerce spans from the barter system to the rise of online shopping platforms, greatly influenced by technological advances.</li></ul><hr><p>This structure provides a comprehensive, concise explanation of the essential concepts of commerce and e-commerce, highlighting their definitions, history, scope, and key functions.</p>",
@@ -55,77 +55,3 @@ questions = [
     "course_id": "14"
   }
 ]
-
-
-# questions = [
-#      {
-#         'course_id': 10,
-#         'question_text': "",
-#         'option_a': "",
-#         'option_b': "",
-#         'option_c': "",
-#         'option_d': "",
-#         'correct_option': "",
-#     },
-# ]
-
-
-# from webapp.cbt import questions
-# from webapp.models import Course, PastQuestionsObj, Topic
-
-# for question_data in questions:
-#     try:
-#         course = Course.objects.get(id=question_data['course_id'])
-#         PastQuestionsObj.objects.create(
-#             course=course,
-#             question_text=question_data['question_text'],
-#             option_a=question_data['option_a'],
-#             option_b=question_data['option_b'],
-#             option_c=question_data['option_c'],
-#             option_d=question_data['option_d'],
-#             correct_option=question_data['correct_option']
-#         )
-#         print(f"Added question: {question_data['question_text']}")
-#     except Course.DoesNotExist:
-#         print(f"Course with ID {question_data['course_id']} does not exist.")
-#     except Exception as e:
-#         print(f"An error occurred: {e}")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-from webapp.cbt import questions
-from webapp.models import Course, Topic
-
-for question_data in questions:
-    try:
-        course = Course.objects.get(id=question_data['course_id'])
-        Topic.objects.create(
-            course=course,
-            content=question_data['content'],
-            name=question_data['name']
-        )
-        print(f"Added question: {question_data['name']}")
-    except Course.DoesNotExist:
-        print(f"Course with ID {question_data['course_id']} does not exist.")
-    except Exception as e:
-        print(f"An error occurred: {e}")
