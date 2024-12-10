@@ -1,6 +1,6 @@
 [
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The type of activity which turns processed raw materials into consumer and industrial goods is described as",
     "option_a": "A. extractive",
     "option_b": "B. manufacturing",
@@ -9,7 +9,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The production process that combines two or more raw materials into one end product is",
     "option_a": "A. conditioning",
     "option_b": "B. blending",
@@ -18,7 +18,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " A demonstration of social responsibility by a business is the payment of",
     "option_a": "A. taxes to government",
     "option_b": "B. dividends to shareholders",
@@ -27,7 +27,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " A distinguishing characteristics of a limited liability company is that it",
     "option_a": "A. is a collection of many sole proprietors",
     "option_b": "B. is a multiple partnership",
@@ -36,7 +36,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Which of the following takes place when firms producing at different stages in the same industry combine?",
     "option_a": "A. conglomeration",
     "option_b": "B. vertical integration",
@@ -45,7 +45,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Which of the following groups is paid first when a firm liquidates?",
     "option_a": "A. Preference shareholders",
     "option_b": "B. Debenture holders",
@@ -54,7 +54,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Compulsory dissolution of a business can arise from",
     "option_a": "A. an agreement by the owners",
     "option_b": "B. a declaration by a court of law",
@@ -63,7 +63,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " What are fixtures and fittings in a balance sheet?",
     "option_a": "A. liquid capital",
     "option_b": "B. current assets",
@@ -72,7 +72,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Governments impose import duties for the following reasons EXCEPT",
     "option_a": "A. to raise revenue for other services",
     "option_b": "B. to act as a retaliatory measure against other governments",
@@ -81,7 +81,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>Sole enterprise may flourish best in</p>",
     "option_a": "A. a mining business",
     "option_b": "B. a retailing business",
@@ -90,7 +90,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The use of coin-operated machines to sell goods is a form of",
     "option_a": "A. personal selling",
     "option_b": "B. retailing",
@@ -99,7 +99,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " What is the major function of the wholesaler?",
     "option_a": "A. buying from small-scale producers and selling to exporters",
     "option_b": "B. buying in bulk and selling in small quantities",
@@ -108,7 +108,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The rate at which a country's exports exchange for its imports is called",
     "option_a": "A. balance of payments",
     "option_b": "B. balance of trade",
@@ -117,7 +117,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The difference between the total payments for imports and the receipts from exports within a given period is referred to as",
     "option_a": "A. balance of payments",
     "option_b": "B. balance of trade",
@@ -126,7 +126,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " A pro forma invoice is NOT required when",
     "option_a": "A. quoting for the supply of goods",
     "option_b": "B. goods are sent on approval",
@@ -135,7 +135,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Which of the following statements is TRUE about sea transport?",
     "option_a": "A. all ships have specific routes to ply",
     "option_b": "B. all ships must be insured at every journey",
@@ -144,7 +144,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The postal organization which preceded the Nigerian Postal Service is",
     "option_a": "A. Post and Telecommunication",
     "option_b": "B. Post and Telephone",
@@ -153,7 +153,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Goods discharged from ships on which import duties have not been paid are kept in the",
     "option_a": "A. ordinary warehouse",
     "option_b": "B. public warehouse",
@@ -162,7 +162,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " A sole proprietor insured his goods worth N200,000 for half the value. There was a fire accident in which goods valued N80,000 were destroyed. The value of compensation expected from the insurer is",
     "option_a": "A. N40,000",
     "option_b": "B. N80,000",
@@ -171,7 +171,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " One of the effects of the devaluation of the Naira is that the",
     "option_a": "A. goods that can be imported with the naira have become cheaper",
     "option_b": "B. value of other currencies relative to the naira have become cheaper",
@@ -180,7 +180,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Drawing two parallel lines across a cheque means that it has to be paid into the account of the",
     "option_a": "A. payee",
     "option_b": "B. drawer",
@@ -189,7 +189,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The financial institution established to boost Nigeria's trade with the rest of the world is called",
     "option_a": "A. Nigerian Deposit Insurance Corporation",
     "option_b": "B. Nigerian Economic Reconstruction Fund",
@@ -198,7 +198,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Which of the following is both direct and indirect credit enterprise?",
     "option_a": "A. A co-operative and thrift society",
     "option_b": "B. retail co-operative society",
@@ -207,7 +207,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The business in the stock exchange is characterized essentially by",
     "option_a": "A. dealing",
     "option_b": "B. brokerage",
@@ -216,7 +216,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The second tier security market is",
     "option_a": "A. an appendage to the Nigeria stock exchange",
     "option_b": "B. a member of the Nigeria stock exchange",
@@ -225,7 +225,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The element of the marketing mix are",
     "option_a": "A. product promotion, place and price",
     "option_b": "B. [personal selling, advertising and research",
@@ -234,7 +234,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Which of the following items has the shortest effect on the consumer",
     "option_a": "A. fashion",
     "option_b": "B. innovation",
@@ -243,7 +243,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Which of the following is a form of sales promotion",
     "option_a": "A. advertising on radio",
     "option_b": "B. offering free sample",
@@ -252,7 +252,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " One advantage of personal selling over all other elements of promotion is that",
     "option_a": "A. it can provide instant feedback",
     "option_b": "B. it is very cheap in terms of cost per contact",
@@ -261,7 +261,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Which of the following must be present in an agency by agreement?",
     "option_a": "A. intentions",
     "option_b": "B. will",
@@ -270,7 +270,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " An agreement to sell is distinguishable from sale because in the former, the transfer of goods is",
     "option_a": "A. not anticipated",
     "option_b": "B. not discussed",
@@ -279,7 +279,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Mr Amusa says to Mr Bello 'i will sell you this hat for N30'. And Mr Bello replied 'i will pay N29'. The contract is",
     "option_a": "A. an offer and acceptance",
     "option_b": "B. an implied contract",
@@ -288,7 +288,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Nationalization of an industry means that its ownership becomes that of",
     "option_a": "A. government",
     "option_b": "B. shareholders",
@@ -297,7 +297,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The comprehensive import supervision scheme was set up by the federal government in order to",
     "option_a": "A. reverse Nigeria's unfavourable balance of trade",
     "option_b": "B. promote fair trade between Nigeria and other countries",
@@ -306,7 +306,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Which of the following has power to order withdrawal of a particular food item from circulation?",
     "option_a": "A. Standard organisation of Nigeria",
     "option_b": "B. Federal High courts in Nigeria",
@@ -315,7 +315,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Which of the following maxims negate the principle of collective bargaining?",
     "option_a": "A. individual employees have weak bargaining base",
     "option_b": "B. individual employees attain strength when they come together in union",
@@ -324,7 +324,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " NACCIMA stands for",
     "option_a": "A. Nigerian-American Center for Culture,Civic, Industries, Minerals and Arts",
     "option_b": "B. Nigerian Association for Culture ,Civic, Industries, Minerals and Arts",
@@ -333,7 +333,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " For establishment of a powerful consumers' association in Nigeria to exist, there must be",
     "option_a": "A. financial and moral support from the public",
     "option_b": "B. honest and commited leadership",
@@ -342,7 +342,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " which of the following is the most important business resource?",
     "option_a": "A. money",
     "option_b": "B. management",
@@ -351,7 +351,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The harmonious relationship among the various units in an organization is ensured through",
     "option_a": "A. co-ordination",
     "option_b": "B. motivation",
@@ -360,7 +360,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The principle of span of control stipulates that",
     "option_a": "A. an employee should report to only one superior",
     "option_b": "B. manager must demand accountability from their surbordinates",
@@ -369,7 +369,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Which of the following makes other functions of business its appendages?",
     "option_a": "A. production",
     "option_b": "B. marketing",
@@ -378,7 +378,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The use of computer in modern banking industry is a reflection of",
     "option_a": "A. competitive development",
     "option_b": "B. scientific development",
@@ -387,7 +387,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " When an oil exploring and mining company builds a health center in one of the communities where it operates, such a company is",
     "option_a": "A. currying favour from local people",
     "option_b": "B. finding a way to spend resonsibility",
@@ -396,7 +396,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The West African clearing House became legally operational on",
     "option_a": "A. 1st july, 1976",
     "option_b": "B. 25th june, 1975",
@@ -405,7 +405,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The lake Chad Basin commission was founded to enable member states",
     "option_a": "A. expand the volume of water in the lake for fishing activities",
     "option_b": "B. increase navigational activities on the lake",
@@ -414,7 +414,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " What are the factors with which commercial undertaking can be distinguish?<br>\nI    Size of the undertaking <br>\nII   Profits generated <br>\nIII  Forms of ownership<br>\nIV   Location of the undertaking",
     "option_a": "A. I and II only",
     "option_b": "B. I andIII only",
@@ -423,7 +423,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Freight note is a document",
     "option_a": "A. used by government to transport goods from one country to another",
     "option_b": "B. issued by a shipping company giving details of charges",
@@ -432,7 +432,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Spot market goods are those which are available for",
     "option_a": "A. immidiate delivery",
     "option_b": "B. short-term delivery",
@@ -441,7 +441,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The main advantage of road transport is that it is",
     "option_a": "A. convenient and flexible",
     "option_b": "B. cheap and direct",
@@ -450,7 +450,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The practice by which an insurance company accepts a very large risk and later shares it with other insurance companies is called",
     "option_a": "A. subrogation",
     "option_b": "B. contribution",
@@ -459,7 +459,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The insurance policy which provides full cover against all risks at sea is known as",
     "option_a": "A. Policy with Particular Average",
     "option_b": "B. Policy Free of Particular Average",
@@ -468,7 +468,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Berne union is also known as",
     "option_a": "A. International Credit Union",
     "option_b": "B. International Documentry Credit",
@@ -477,7 +477,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " which of the following sets of items was used for exchange in Nigeria before money was introduced?",
     "option_a": "A. cowries, iron rods, brass rods and copper rods",
     "option_b": "B. iron rods, copper rods, manilla and cowries",
@@ -486,7 +486,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " A major liability of a commercial bank arises from",
     "option_a": "A. customers' deposits",
     "option_b": "B. loans and advances",
@@ -495,7 +495,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " A bank statement is a document",
     "option_a": "A. ordering a bank to pay on demand a stated sum of money",
     "option_b": "B. containing records of receipts, payments and balance on an account",
@@ -504,7 +504,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Which of the following is NOT a function of the stock exchange market?",
     "option_a": "A. providing long term loans to large scale enterprises",
     "option_b": "B. encouraging people to buy shares and thereby providing capital for investment",
@@ -513,7 +513,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The marketing approach by which a firm carries out detailed analysis of itself, the consumers and its competitors is known as?",
     "option_a": "A. market analysis",
     "option_b": "B. marketing mix analysis",
@@ -522,7 +522,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The breaking down of a market into separate and identifiable elements each with its own special product requirement is known as market",
     "option_a": "A. differentiation",
     "option_b": "B. segmentation",
@@ -531,7 +531,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Taking a new product to a particular part of a country to test the reaction of consumers to the product referred to as",
     "option_a": "A. sales promotion",
     "option_b": "B. sampling",
@@ -540,7 +540,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " A manufacturer can make his product distinguishable from those of other competitors by",
     "option_a": "A. providing catalogues for his wholesalers",
     "option_b": "B. aggressive sale ppromotion",
@@ -549,7 +549,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Which of the following are forms of sales promotion?",
     "option_a": "A. advertising, personal selling and publicity",
     "option_b": "B. advertising, market skimming and publicity",
@@ -558,7 +558,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " A disadvantage of personal selling is that it",
     "option_a": "A. increase a company's operating cost",
     "option_b": "B. decreases acompany's operating cost",
@@ -567,7 +567,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " chinyere agree to make a dress for Halima with September  20, 1995 as the delivery date. If the dress was not ready on that date, Halima could",
     "option_a": "A. sue Chinyere for damages",
     "option_b": "B. sue Chinyere for specific performance",
@@ -576,7 +576,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Consumer sovereignty means that they consumer is",
     "option_a": "A. a citizen",
     "option_b": "B. always independent",
@@ -585,7 +585,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " When an industry or company is nationalized, the state becomes",
     "option_a": "A. the major shareholder",
     "option_b": "B. the mini shareholder",
@@ -594,7 +594,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The federal Government made efforts at rendering public enterprises more efficient and profit-oriented through the process of",
     "option_a": "A. privatization",
     "option_b": "B. commercialization",
@@ -603,7 +603,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Which of the following organizations represents those who engages labour in Nigeria?",
     "option_a": "A. Nigerian Labour Congress",
     "option_b": "B. Nigerian Employers Consultative Association",
@@ -612,7 +612,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The practice of assessing employees for payment or advancement according to their observed achievement is called",
     "option_a": "A. employee ranking",
     "option_b": "B. merit rating",
@@ -621,7 +621,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Motivation is an essential element in management because it",
     "option_a": "A. leads to the improvement of staff welfare",
     "option_b": "B. encourage individual to work towards achieving the orgaization's objective",
@@ -630,7 +630,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The direct authority of a superior over his subordinate is known as",
     "option_a": "A. staff authority",
     "option_b": "B. line authority",
@@ -639,7 +639,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " A firm's organizational structure would change if",
     "option_a": "A. one of the major partner dies",
     "option_b": "B. there is excessive competition",
@@ -648,7 +648,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The secretariat of the Niger Basin Commission is located at",
     "option_a": "A. Ouagadougou, Burkina Faso",
     "option_b": "B. Abuja, Nigeria",
@@ -657,7 +657,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Which of the following are the components of commerce?<br>\nI    Trading and advertising<br>\nII   Warehousing and transportation<br>\nIII  Packaging and branding<br>\nIV   Insurance and banking",
     "option_a": "A. I and II",
     "option_b": "B. I and III",
@@ -666,7 +666,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " A royal charter was granted to the Royal Niger Company to do business in Nigeria in",
     "option_a": "A. December 1888",
     "option_b": "B. May 1887",
@@ -675,7 +675,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Transport, retailing and wholesaling industries rely heavily on",
     "option_a": "A. banking",
     "option_b": "B. insurance",
@@ -684,7 +684,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " An example of indirect service is rendered by",
     "option_a": "A. civil servants",
     "option_b": "B. family doctors",
@@ -693,7 +693,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The mode of transportation that is noted for on time dependability and low cost peer unit on gods carried is?",
     "option_a": "A. pipe line",
     "option_b": "B. air",
@@ -702,7 +702,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The person who undertakes any risk in insurance business is known as",
     "option_a": "A. a broker",
     "option_b": "B. an underwriter",
@@ -711,7 +711,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The main purpose of insurance is to",
     "option_a": "A. encourage business to surviveand grow",
     "option_b": "B. ensures that facilities are available for operators",
@@ -720,7 +720,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The object of the business are determined by the",
     "option_a": "A. workers",
     "option_b": "B. government",
@@ -729,7 +729,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Partnership are most suitable where",
     "option_a": "A. the partners are family friends",
     "option_b": "B. professionals are involved",
@@ -738,7 +738,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>Use the conversation below to answer the question below;</p>\n\n<p><strong>MUSA</strong>: Taiwo why are you in business?<br>\n<br>\n<strong>TAIWO</strong>: To optimize profit, provide quality products, and discharge my social responsibilities. What of you, Okon and Kalu<br>\n<br>\n<strong>OKON</strong>: I am in business to cater to the needs&nbsp;of the consumers at all costs.<br>\n<br>\n<strong>KALU</strong>: I am in business to make a profit, provided quality products at reasonable prices, and establish a good reputation for myself.</p>\n\n<p>&nbsp;</p>\n\n<p>The businessman that may end up not discharging his social responsibility is--------------------</p>",
     "option_a": "A. Musa",
     "option_b": "B. Okon",
@@ -747,7 +747,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The business organization in which shareholder's have equal vote is",
     "option_a": "A. sole pprietorship",
     "option_b": "B. partneeship",
@@ -756,7 +756,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The major objective of corporate mergers is to",
     "option_a": "A. minimize the effects of taxation",
     "option_b": "B. increase financial advantage",
@@ -765,7 +765,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " When it became necessary to liquidate a company, the frist step to be taken is the appointment of",
     "option_a": "A. a receiver",
     "option_b": "B. an auditor",
@@ -774,7 +774,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " In which of the following circumstances is a court order NOT necessary for the winding up of a company?",
     "option_a": "A. supension of businesss for one year",
     "option_b": "B. special resolution of members",
@@ -783,7 +783,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " One type of investment that have a variable income is",
     "option_a": "A. debentures",
     "option_b": "B. preferred shares",
@@ -792,7 +792,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " A term which indicates that share is temporarily suspended is",
     "option_a": "A. ex-dividend",
     "option_b": "B. cum-dividend",
@@ -801,7 +801,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Leasing is the right to use asset for an agreed period in return for",
     "option_a": "A. profit",
     "option_b": "B. interest",
@@ -810,7 +810,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The form of business financing which involves pledging of a specific asset is",
     "option_a": "A. debenture",
     "option_b": "B. mortgage",
@@ -819,7 +819,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The total amount that a company is allowed to raised according to its memorandum of association is known as",
     "option_a": "A. issued capital",
     "option_b": "B. authorized capital",
@@ -828,7 +828,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " A public limited liability company having a nominal capital made up of 200 000 ordinary shares of 50k each decided to issued 50% of it to the public.<br><br>\nWhat is the authorized capital?",
     "option_a": "A. N40 000",
     "option_b": "B. N50 000",
@@ -837,7 +837,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The turnover of firm maybe affected by",
     "option_a": "A. the demand for its product",
     "option_b": "B. the cost of its goods sold",
@@ -846,7 +846,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The cost of transporting goods to consumers called",
     "option_a": "A. carried inward",
     "option_b": "B. carried forward",
@@ -855,7 +855,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The main aim of selling directly to consumers by manufactures is to",
     "option_a": "A. dis courage the activities of middlemen",
     "option_b": "B. make contacts with comsumers",
@@ -864,7 +864,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " In foreign trade, document of title is known as",
     "option_a": "A. bill of lading",
     "option_b": "B. bill at sight",
@@ -873,7 +873,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Excise duties are paid on goods that are",
     "option_a": "A. imported into the country",
     "option_b": "B. manufactured within the company",
@@ -882,7 +882,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Stevedores as a term in foreign trade means men who",
     "option_a": "A. inspect goods in ships",
     "option_b": "B. import goods by ships",
@@ -891,7 +891,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " A close indent is an instrument to an agent to",
     "option_a": "A. order goods from a particular manufacturer",
     "option_b": "B. order goods from any manufacturer",
@@ -900,7 +900,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The basic distinction between cash discount and trade discount is that while trade discount is",
     "option_a": "A. for a period of 30 days, cash discount is for a period of 3 months",
     "option_b": "B. given by a wholesaler, cash discount is given by a bank",
@@ -909,7 +909,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The cost that raises from failure to load or unload a ship at the port within a stipulated period is known as",
     "option_a": "A. excess charges",
     "option_b": "B. demurrage charges",
@@ -918,7 +918,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Bank giro is a system where?",
     "option_a": "A. commercial banks can give loan to all customers",
     "option_b": "B. a central bank opens account for commercial banks",
@@ -927,7 +927,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Commercial banks are referred to as departmental stores of banking because they",
     "option_a": "A. have many branches",
     "option_b": "B. have many customers",
@@ -936,7 +936,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " A markets where new shares are trade is known",
     "option_a": "A. primary market",
     "option_b": "B. stock exchange",
@@ -945,7 +945,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " When a firm speaker of stock appreciation, it refers to",
     "option_a": "A. change in the value of its stocks resulting from price movement",
     "option_b": "B. increase in the price of it shared quoted on the stock exchange",
@@ -954,7 +954,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The process of creating more for a product is called?",
     "option_a": "A. advertising",
     "option_b": "B. marketing",
@@ -963,7 +963,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " When a vendor supplies newspapers from house to house and across the streets, the element of marketing mix involved is",
     "option_a": "A. product",
     "option_b": "B. price",
@@ -972,7 +972,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The main advantage of using cinema as an advertising medium is that it is",
     "option_a": "A. cheap",
     "option_b": "B. accurate",
@@ -981,7 +981,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " When old customers stick to the old place to buy goods and services,it is known as",
     "option_a": "A. goodwil",
     "option_b": "B. personal factor",
@@ -990,7 +990,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The most important pieces of legislation governing  business and commercial activities in Nigeria currently is the",
     "option_a": "A. Companies degree,1968",
     "option_b": "B. Trade Disputes degree, 1976",
@@ -999,7 +999,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " One of the criteria for differentiating consumers markets from industrial ones is the",
     "option_a": "A. type of demand",
     "option_b": "B. type of supply",
@@ -1008,7 +1008,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Th overriding objective of the food and drug act in Nigeria is too prevent the",
     "option_a": "A. importation of food and drug that can be locally manufactured",
     "option_b": "B. consumption of food and drug not tested by the minitries of health",
@@ -1017,7 +1017,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The activities of consumers association in Nigeria have not been effective because",
     "option_a": "A. the consumers are too many",
     "option_b": "B. the government is not favourabley dispose towards consumerism",
@@ -1026,7 +1026,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The least of the advantages of indigenization is that",
     "option_a": "A. the standard of living of the indigenes is improved",
     "option_b": "B. the economy is controlled by the nationals",
@@ -1035,7 +1035,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The main objective of a trade association can best be described as promoting and protecting",
     "option_a": "A. the products",
     "option_b": "B. common interest",
@@ -1044,7 +1044,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The management function of evaluating whether objectives are being achieved is",
     "option_a": "A. planning",
     "option_b": "B. directing",
@@ -1053,7 +1053,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " In a business organization, the annual operation plan or budget is a form of",
     "option_a": "A. casual plan",
     "option_b": "B. medium-term plan",
@@ -1062,7 +1062,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " A key advantage of delegation is that",
     "option_a": "A. workers are prepared for hgher responsibilites",
     "option_b": "B. the manager has less work to do",
@@ -1071,7 +1071,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Social responsibility of business requires enterprises to",
     "option_a": "A. hold annual social parties for the public",
     "option_b": "B. draw their workers only from the immediate environment",
@@ -1080,7 +1080,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The existing system of government and the administrative sub-division of a country which affect the operation of business in the country is described as",
     "option_a": "A. economic environment",
     "option_b": "B. legal environment",
@@ -1089,7 +1089,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Sudden technology changes can have the effect of making",
     "option_a": "A. a company's management style ineffective",
     "option_b": "B. a company's product obsolete",
@@ -1098,7 +1098,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Which of the following contributed least to the evolution of commercial activities in Nigeria?",
     "option_a": "A. Development of banks",
     "option_b": "B. Development oftransportation",
@@ -1107,7 +1107,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " One of the factors which critically determines the choice of occupation is",
     "option_a": "A. traning",
     "option_b": "B. skills",
@@ -1116,7 +1116,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Extractive industries may also be denominated as",
     "option_a": "A. direct industries",
     "option_b": "B. servicing industries",
@@ -1125,7 +1125,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The primary objective of a business organization is to",
     "option_a": "A. cater for the neds of its owners",
     "option_b": "B. work towards making returns",
@@ -1134,7 +1134,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Service which are of absolute monopoly can can best be proved by",
     "option_a": "A. private companies",
     "option_b": "B. limited liability companies",
@@ -1143,7 +1143,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " One advantage the co-operative society has over the company is that the",
     "option_a": "A. the latter pays tax while the former does not",
     "option_b": "B. former attract more capitals than the later",
@@ -1152,7 +1152,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Use the above information below to answer question 7 and 8.<br><br>\n   Mr obi is a manager of obi Agricultural Venture.<br><br>\n   he makes all the decisions and takes all profits<br><br>\n   from the business. H e had agreed with Alhaji Musa<br><br>\n  <br>\nIt can be deduce from the above that obi AgricultrualVenture is a <br>\n  <br>\n   (a farmer) to pool their resources together and<br><br>\n   expand their business.They invited Mr Abayomi<br><br>\n   (a cotton grower) to join them. Mr Abayami agreed on the condition that his liability in the new firm will be limited to his investment in it. The thus registered Obi, Musa and Abayaomi''s Agricultural ventures.",
     "option_a": "A. A sole proprietorship",
     "option_b": "B. general partnership",
@@ -1161,7 +1161,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Which of the statements below is true of Mr Abayomi?",
     "option_a": "A. He can assign his shares to another without consent of other partners",
     "option_b": "B. He cannot take part in the management of the business",
@@ -1170,7 +1170,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " A source of capital to private limited companies is shares issued to",
     "option_a": "A. the public",
     "option_b": "B. selected persons",
@@ -1179,7 +1179,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Which of the following is an example of a conglomerate?",
     "option_a": "A. National Electric Power Authority",
     "option_b": "B. United Africa Company Nigeria Plc",
@@ -1188,7 +1188,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Which of the following statement is true of preferred stockholders?",
     "option_a": "A. They have no voting rights at annual general meetings",
     "option_b": "B. They first claim company asset before creditors",
@@ -1197,7 +1197,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " A provision in the charter of a company which gives holders of common stock the first option to purchase additional issues of the firm's common stock is known the?",
     "option_a": "A. pre-emptive right",
     "option_b": "B. shareholders right",
@@ -1206,7 +1206,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Use the information Above to answer this question <br>\n<br>\nWhat is the current ratio?",
     "option_a": "A. 4:1",
     "option_b": "B. 4.5:1",
@@ -1215,7 +1215,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Use the information above to answer this question <br>\n  <br>\nWhat is the ratio?",
     "option_a": "A. 2.95:1",
     "option_b": "B. 4.25:1",
@@ -1224,7 +1224,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The form of capital which is easily transferred into the form desired is known as?",
     "option_a": "A. working capital",
     "option_b": "B. liquid capital",
@@ -1233,7 +1233,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " If a firm's turnover is N15,000 and the cost of goods sold is N 10,000 What is the percentage of gross profit on sales?",
     "option_a": "A. 23.3%",
     "option_b": "B. 33.3%",
@@ -1242,7 +1242,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " A machine which enable s sales without the physical presence of a sales attendant is a",
     "option_a": "A. computer machine",
     "option_b": "B. vending machine",
@@ -1251,7 +1251,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " What document is required when a country imposes ad valorem import duties on goods?",
     "option_a": "A. A mail transfer",
     "option_b": "B. A shipping note",
@@ -1260,7 +1260,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Enter pot trade is said to have taken place when goods are?",
     "option_a": "A. held at the port payment of custom duty",
     "option_b": "B. sold in the ship under special regulation",
@@ -1269,7 +1269,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " When a price is quoted at F.O.B. it means that the price?",
     "option_a": "A. excludes loading charges incurred in bringing the goods to port of destinction",
     "option_b": "B. exclude all necessary shipping charges payable for insurrance",
@@ -1278,7 +1278,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The document with which a manufacturing enterprises releases stock <br>\nOf raw materials to the factory for product is called?",
     "option_a": "A. stock releases form",
     "option_b": "B. goods received note",
@@ -1287,7 +1287,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " the two main categories under which marine losses fall into are?",
     "option_a": "A. particular loss and average loss",
     "option_b": "B. actual loss and average loss",
@@ -1296,7 +1296,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Insurance companies operate on the principal of indemnity. This means that an insured person or firm collector",
     "option_a": "A. Only half of the loss suffered",
     "option_b": "B. double the value of the losses suffered",
@@ -1305,7 +1305,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The most important difference between community banks and peoples’ bank is that the?",
     "option_a": "A. latter is owned solely by government while the former are not",
     "option_b": "B. former cater for ruler dwellers while the latter cater for both rural and urban dwellers",
@@ -1314,7 +1314,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The assets, liabilities and general management of a distressed bank may be taken over  by?",
     "option_a": "A. International Bank for Reconstruction and development",
     "option_b": "B. Nigeria Industrial Development Bank",
@@ -1323,7 +1323,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The type of securities that the stock exchange deals with are",
     "option_a": "A. warrants, currency notes, money orders and postal orders",
     "option_b": "B. cheques, bankdrafts , warrants and promissory notes",
@@ -1332,7 +1332,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " (i) Companies must be registered as private limited liability companies. (ii)Companies must not have less than 100 shareholders (iii) No shareholder may have more than 75% of issued shared capital. What      of the above are requirements for admission into the second-tier securities market?",
     "option_a": "A. i and ii only.",
     "option_b": "B. i and iii only",
@@ -1341,7 +1341,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " An underlined principle in the marketing of goods is that firms should",
     "option_a": "A. Train their personnel",
     "option_b": "B. be consumers oriented",
@@ -1350,7 +1350,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Product X was introduced into the market at N4.00 with its cost of product at N3.90 while competing products are at N4.50. What pricing policy are producers of X adopting?",
     "option_a": "A. market skimming",
     "option_b": "B. market penetration",
@@ -1359,7 +1359,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The oral presentation iv a conversation with one or more prospective buyers for  the purpose of making sales is",
     "option_a": "A. branding of goods",
     "option_b": "B. personal selling",
@@ -1368,7 +1368,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Personnel activities that promote the general image of an organization are part of",
     "option_a": "A. advertising",
     "option_b": "B. sales promotion",
@@ -1377,7 +1377,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " An agent must not make any secret profit in the performance of his duties but can be rewarded by his principal through",
     "option_a": "A. remuneration and indemnity",
     "option_b": "B. payments of commision and salary",
@@ -1386,7 +1386,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Sabo and Gambo entered into a contract for the sale of two baskets of tomatoes belonging to Gambo. Before the date the date of delivery and without any default by Gambo, the tomatoes were stolen. This is an example of termination of contract by",
     "option_a": "A. breach",
     "option_b": "B. performance",
@@ -1395,7 +1395,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " A minor is  not permitted to enter into a valid contract  because he",
     "option_a": "A. Cannot pay the consideration",
     "option_b": "B. Is too young to interpret the law",
@@ -1404,7 +1404,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " A person who is cheated in business transaction can seek legal remedy",
     "option_a": "A. even if the agreement is verbal and the amount involved is large",
     "option_b": "B. only if the business is a sole proprietorship whose owner is known",
@@ -1413,7 +1413,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The most essential element of a product is the",
     "option_a": "A. price",
     "option_b": "B. utility",
@@ -1422,7 +1422,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Which of the following is a disadvantage of nationalization",
     "option_a": "A. It promotes poor economic planning",
     "option_b": "B. The cost of services is not determined by by market forces",
@@ -1431,7 +1431,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " An example of a consumer protection agency is the?",
     "option_a": "A. Nigeria Bar association",
     "option_b": "B. Nigeria Medical Association",
@@ -1440,7 +1440,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The body that organizes, promotes and participates in local and foreign trade fairs is the",
     "option_a": "A. Ministry of Commerce and Tourism",
     "option_b": "B. Ministry of finance",
@@ -1449,7 +1449,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " What is the working capital as at December 31,1992?",
     "option_a": "A. N 65 250",
     "option_b": "B. N60 000",
@@ -1458,7 +1458,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " A company earned a total revenue of N108 million with a total cost of N91 million in 1991. If it paid 45% tax on its gross profit for that year, determine its net profit.",
     "option_a": "A. N24.65 million",
     "option_b": "B. N17.00million",
@@ -1467,7 +1467,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " What are fixtures and fittings in a balance sheet?",
     "option_a": "A. liquid capital",
     "option_b": "B. current assets",
@@ -1476,7 +1476,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The development of commercial activities in Nigeria was facilitated largely by",
     "option_a": "A. a good transport system",
     "option_b": "B. the indigenization decree",
@@ -1485,7 +1485,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " In which of the following sets of occupations can an industrial worker be found?",
     "option_a": "A. extraction commerce and construction",
     "option_b": "B. manufacturing extraction and banking",
@@ -1494,7 +1494,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Construction activities include the building of houses and roads as well as",
     "option_a": "A. brick laying",
     "option_b": "B. shoe making",
@@ -1503,7 +1503,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " If a partnership deed is silent on how profits are to be shared, partners share profits",
     "option_a": "A. in the ratio of the value of business secured by each partner for the partnership",
     "option_b": "B. in the ratio of partner capital contributions",
@@ -1512,7 +1512,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Which of the following information is contained in the Articles of Association of a limited liability company?",
     "option_a": "A. Rights and obligations of directors",
     "option_b": "B. Objectives of the company",
@@ -1521,7 +1521,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The merger of two companies producing the same type of products is an example of",
     "option_a": "A. vertical integration",
     "option_b": "B. horizontal integration",
@@ -1530,7 +1530,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " One of the implications of the incorporation of a company is that",
     "option_a": "A. it is more difficult for the company to raise loans",
     "option_b": "B. the company can sue but cannot be sued",
@@ -1539,7 +1539,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The main advantage of a sole trader is the freedom to",
     "option_a": "A. employ anyone he likes",
     "option_b": "B. seek advice from any source",
@@ -1548,7 +1548,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " In the case of a voluntary liquidation of a business the receivers is appointed by the by the",
     "option_a": "A. creditors",
     "option_b": "B. debtors",
@@ -1557,7 +1557,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " When a company uses more of loans than equity to finance its business, the company is said to be",
     "option_a": "A. bankrupt",
     "option_b": "B. solvent",
@@ -1566,7 +1566,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The nominal value of a share as specified in the Memorandum of Association and the share certificate is the",
     "option_a": "A. discounted value",
     "option_b": "B. stock value",
@@ -1575,7 +1575,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " A public limited company can raise long-term loans through",
     "option_a": "A. the capital market",
     "option_b": "B. the money market",
@@ -1584,7 +1584,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Factoring is a trade debt term used when the agent buys all the trade debts of the",
     "option_a": "A. importers",
     "option_b": "B. exporters",
@@ -1593,7 +1593,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " The financial index which compares current assets directly with current liabilities is known as current",
     "option_a": "A. turnover",
     "option_b": "B. capital",
@@ -1602,7 +1602,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Rights issue means the",
     "option_a": "A. issue of shares to the directors of a company on favourable terms",
     "option_b": "B. Issue of shares by a company only to the founders of the company",
@@ -1611,7 +1611,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Rights issue means the",
     "option_a": "A. issue of shares to the directors of a company on favourable terms",
     "option_b": "B. Issue of shares by a company only to the founders of the company",
@@ -1620,7 +1620,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Profit that is expressed as a percentage of the cost of goods sold is referred to as",
     "option_a": "A. margin",
     "option_b": "B. mark-up",
@@ -1629,7 +1629,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Given: <br>\n<br>\nOpening stock         40 000<br>\nPurchases             115 000<br>\nClosing stock         60 000<br>\nSales                 250 000<br>\nWhat is the cost of goods sold?",
     "option_a": "A. N 155 000",
     "option_b": "B. N 95 000",
@@ -1638,7 +1638,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " In the channel of distribution, which of the following sets is entirely made up of middlemen?",
     "option_a": "A. Wholesalers, retailers and agents",
     "option_b": "B. Manufacturers, consumers and retailers",
@@ -1647,7 +1647,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Goods imported into a country for the purpose of re-exporting attracts a rebate known as",
     "option_a": "A. customs draw back",
     "option_b": "B. export royalty",
@@ -1656,7 +1656,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Most foreign trade transaction are paid for through the use of",
     "option_a": "A. central bank cheques",
     "option_b": "B. bank drafts drawn by commercial banks on their foreign branches",
@@ -1665,7 +1665,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Most foreign trade transaction are paid for through the use of",
     "option_a": "A. central bank cheques",
     "option_b": "B. bank drafts drawn by commercial banks on their foreign branches",
@@ -1674,7 +1674,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " RRF as a scheme introduced by the central bank of Nigeria means",
     "option_a": "A. recording and Rediscounting Facility",
     "option_b": "B. refinancing and Recording Facility",
@@ -1683,7 +1683,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " Which of the following gives the correct order in which the listed documents are used?",
     "option_a": "A. debit note, order, delivery note, invoice and statement",
     "option_b": "B. order, delivery note, invoice, debit note and statement",
@@ -1692,7 +1692,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>Use the conversation below to answer the question below;</p>\n\n<p><strong>MUSA</strong>: Taiwo why are you in business?<br>\n<br>\n<strong>TAIWO</strong>: To optimize profit, provide quality products, and discharge my social responsibilities. What of you, Okon and Kalu<br>\n<br>\n<strong>OKON</strong>: I am in business to cater to the needs&nbsp;of the consumers at all costs.<br>\n<br>\n<strong>KALU</strong>: I am in business to make a profit, provided quality products at reasonable prices, and establish a good reputation for myself.</p>\n\n<p>&nbsp;</p>\n\n<p>The businessman with the best business objectives is ------------------------</p>",
     "option_a": "A. Okon",
     "option_b": "B. Taiwo",
@@ -1701,7 +1701,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>The macro-environmental forces and trends which are a constraint on business operations are referred to as</p>",
     "option_a": "A. internal factors",
     "option_b": "B. technological factors",
@@ -1710,7 +1710,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>The payment made by a speculator to the buyer when he is unable to deliver stocks on the agreed date is</p>",
     "option_a": "A. contango",
     "option_b": "B. arbitrage",
@@ -1719,7 +1719,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>A document that lists the goods that are being sent from one place to another is</p>",
     "option_a": "A. mail transfer",
     "option_b": "B. shipping note",
@@ -1728,7 +1728,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>The maximum number of shareholders in a public liability company is</p>",
     "option_a": "A. twenty",
     "option_b": "B. one hundred",
@@ -1737,7 +1737,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>The process of dividing tasks into jobs and departments and delegating authority is known as</p>",
     "option_a": "A. organizing",
     "option_b": "B. staffing",
@@ -1746,7 +1746,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>A demerit of communication is that it</p>",
     "option_a": "A. increase the cost of goods in transit",
     "option_b": "B. give room for distortion of fact",
@@ -1755,7 +1755,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>Which of the following regulates and controls the activities in the Nigerian Stock Exchange?</p>",
     "option_a": "A. CBN",
     "option_b": "B. BPE",
@@ -1764,7 +1764,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>An agent who has to sell perishable goods without the prior authority of the owner becomes an agent by</p>",
     "option_a": "A. estoppel",
     "option_b": "B. conduct",
@@ -1773,7 +1773,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>Which of the following is not a veritable source of funds to a public limited liability company?</p>",
     "option_a": "A. advances and loans from bank",
     "option_b": "B. internally generated funds",
@@ -1782,7 +1782,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>The document that explains the types of shares available for sale to the public is</p>",
     "option_a": "A. a prospectus",
     "option_b": "B. an invoice",
@@ -1791,7 +1791,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>A major objective of all business resources is</p>",
     "option_a": "A. human relation",
     "option_b": "B. profit making",
@@ -1800,7 +1800,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>The type of letters that are delivered through the normal mail or by airmail express service is referred to as</p>",
     "option_a": "A. express letters",
     "option_b": "B. registered letters",
@@ -1809,7 +1809,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>Parts payments made on alloted shares by subscribers is usually the</p>",
     "option_a": "A. authorized capital",
     "option_b": "B. subscribed capital",
@@ -1818,7 +1818,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>Which of the following legislation aims primarily at the protection of consumers?</p>",
     "option_a": "A. Company's Act",
     "option_b": "B. Partnership Act",
@@ -1827,7 +1827,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>The activity which entails buying of goods in bulk and selling in small quantities to retailers is</p>",
     "option_a": "A. wholesaling",
     "option_b": "B. retailing",
@@ -1836,7 +1836,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>An individual that links the producer with the retailer is</p>",
     "option_a": "A. an agent",
     "option_b": "B. a wholesaler",
@@ -1845,7 +1845,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>I. Its unlimited nature<br>\nII. The number of partners<br>\nIII. The withdrawal of a major of partner<br>\nIV. The bearing of risk<br>\n<br>\nWhich of these is both merit and demerit in partnership?</p>",
     "option_a": "A. III and IV",
     "option_b": "B. I only",
@@ -1854,7 +1854,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>A factor necessary for siting of a warehouse is nearness to</p>",
     "option_a": "A. labour",
     "option_b": "B. consumers",
@@ -1863,7 +1863,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>The principle which requires the insurance company to disclose to the proposer all material facts of the risk to be covered is</p>",
     "option_a": "A. uberrimae fidei",
     "option_b": "B. subrogation",
@@ -1872,7 +1872,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>One disadvantages of advertising is that it</p>",
     "option_a": "A. could be misleading",
     "option_b": "B. decreases sales",
@@ -1881,7 +1881,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>Which of the following attracts only interest but leaves the capital unpaid?</p>",
     "option_a": "A. a development bond",
     "option_b": "B. a long term loan",
@@ -1890,7 +1890,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>A bill of exchange already accepted can be discounted by the holder in</p>",
     "option_a": "A. the central bank",
     "option_b": "B. his bank",
@@ -1899,7 +1899,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>The process of converting a non-profit making organisation to a profit-making business is</p>",
     "option_a": "A. commercialisation",
     "option_b": "B. deregulation",
@@ -1908,7 +1908,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>An agreement that is enforceable in law is</p>",
     "option_a": "A. a contract",
     "option_b": "B. an acceptance",
@@ -1917,7 +1917,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>One of the functions of a retailer is the</p>",
     "option_a": "A. breaking of bulk",
     "option_b": "B. provision of credit facilities to relations",
@@ -1926,7 +1926,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>A business organization that exploits the capabilities of a member to remedy the weakness of another is a</p>",
     "option_a": "A. joint venture",
     "option_b": "B. partnership",
@@ -1935,7 +1935,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>The government agency involved in issuing of export licences is</p>",
     "option_a": "A. Nigeria Port Authority",
     "option_b": "B. Customs and Excise Authority",
@@ -1944,7 +1944,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>Insurance against burglary is an example of</p>",
     "option_a": "A. non-indemnity insurance",
     "option_b": "B. non-insurable risk",
@@ -1953,7 +1953,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>The concept that refers to the sale, transfer or exchange of goods and services is</p>",
     "option_a": "A. trade",
     "option_b": "B. tariff",
@@ -1962,7 +1962,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>At the collapse of a business enterprises, the person appointed to dispose off the assets is called</p>",
     "option_a": "A. an auctioneer",
     "option_b": "B. an auditor",
@@ -1971,7 +1971,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>An announcement of a person's willingness to enter into a contract is referred to as</p>",
     "option_a": "A. an acceptance",
     "option_b": "B. a proxy",
@@ -1980,7 +1980,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>An example of a cartel is</p>",
     "option_a": "A. ECOWAS",
     "option_b": "B. AU",
@@ -1989,7 +1989,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>₦</td>\n\t\t\t<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>\n\t\t\t<td>\n\t\t\t<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ₦</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Stock 1/1</p>\n\t\t\t</td>\n\t\t\t<td>20,000</td>\n\t\t\t<td>Net Sales</td>\n\t\t\t<td>370,000</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Add purchases</p>\n\t\t\t</td>\n\t\t\t<td>250,000</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Cost of goods available for sale</p>\n\t\t\t</td>\n\t\t\t<td>270,000</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Less stock 31/12</p>\n\t\t\t</td>\n\t\t\t<td>40,000</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Cost of goods sold</p>\n\t\t\t</td>\n\t\t\t<td>230,000</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Rent expenses</p>\n\t\t\t</td>\n\t\t\t<td>35,000</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<p>Find the gross profit</p>",
     "option_a": "A. ₦150,000",
     "option_b": "B. ₦370,000",
@@ -1998,7 +1998,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>₦</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p>₦</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Stock 1/1</p>\n\t\t\t</td>\n\t\t\t<td>20,000</td>\n\t\t\t<td>Net sales</td>\n\t\t\t<td>370,000</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Add purchases</p>\n\t\t\t</td>\n\t\t\t<td>250,000</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Cost of goods available for sale</p>\n\t\t\t</td>\n\t\t\t<td>270,000</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Less stock 31/12</p>\n\t\t\t</td>\n\t\t\t<td>40,000</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Cost of goods sold</p>\n\t\t\t</td>\n\t\t\t<td>230,000</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>Rent expenses</p>\n\t\t\t</td>\n\t\t\t<td>35,000</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Calculate the net profit</p>",
     "option_a": "A. ₦35,000",
     "option_b": "B. ₦115,000",
@@ -2007,7 +2007,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>The function of commerce in relation to production is</p>",
     "option_a": "A. helping in the extraction of raw materials from nature",
     "option_b": "B. yielding result",
@@ -2016,7 +2016,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>A government policy that encourages transfer of ownership from foreigners to indigenes of the country is known as</p>",
     "option_a": "A. indigenisation",
     "option_b": "B. commercialisation",
@@ -2025,7 +2025,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>The rate where a country's exports exchange for its imports is called</p>",
     "option_a": "A. terms of trade",
     "option_b": "B. balance of trade",
@@ -2034,7 +2034,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>A major function of chamber of commerce is</p>",
     "option_a": "A. promoting both home and foreign trade",
     "option_b": "B. increasing productivity",
@@ -2043,7 +2043,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>The fees charged on postal order by the post office is</p>",
     "option_a": "A. premium",
     "option_b": "B. poundage",
@@ -2052,7 +2052,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>An advantage of division of labour is</p>",
     "option_a": "A. productivity and total output is increased",
     "option_b": "B. monopoly od task is eliminated",
@@ -2061,7 +2061,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>Which is the fastes means of transportation?</p>",
     "option_a": "A. road",
     "option_b": "B. air",
@@ -2070,7 +2070,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>Factors considered when setting up a retail business is one of the following</p>",
     "option_a": "A. capital, experience and trading",
     "option_b": "B. experience, term of trade and trading",
@@ -2079,7 +2079,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>An example of extractive occupation is</p>",
     "option_a": "A. driving",
     "option_b": "B. teaching",
@@ -2088,7 +2088,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>The part of the computer that has the capacity to interpret instruction is</p>",
     "option_a": "A. central processing unit",
     "option_b": "B. universal power storage",
@@ -2097,7 +2097,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>The duties paid on goods produced locally is</p>",
     "option_a": "A. export duty",
     "option_b": "B. excise duty",
@@ -2106,7 +2106,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>Current account holders withdraw money through</p>",
     "option_a": "A. transfer",
     "option_b": "B. credit cards",
@@ -2115,7 +2115,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>The type of activity which turns processed raw materials into consumer and industrial goods is described as</p>",
     "option_a": "A. extractive",
     "option_b": "B. processing",
@@ -2124,7 +2124,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>The organised effort of consumers to protect themselves against the unfair practices of businessmen is known as</p>",
     "option_a": "A. picketing",
     "option_b": "B. stroke",
@@ -2133,7 +2133,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>Land as a factor of production does not vary in</p>",
     "option_a": "A. cost",
     "option_b": "B. quality",
@@ -2142,7 +2142,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "14",
     "question_text": " <p>Which of the following is an item in the marketing mix?</p>",
     "option_a": "A. market",
     "option_b": "B. consumer",

@@ -457,7 +457,7 @@ def list_tutorial_students(request, tutorial_id):
 @login_required
 def cbtquestion(request, course_id):
     course = get_object_or_404(Course, id=course_id)
-    questions = PastQuestionsObj.objects.filter(course=course)[:30]
+    questions = PastQuestionsObj.objects.filter(course=course)
 
     if request.method == 'POST':
         if hasattr(request.user, 'tutorial_center') or hasattr(request.user, 'tutor'):

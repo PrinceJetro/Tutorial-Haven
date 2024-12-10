@@ -1,15 +1,6 @@
 [
   {
-    "course_id": "3",
-    "question_text": "<p>A plant which grows on another plant without apparent harm to the host plant is called</p>",
-    "option_a": "A. a parasite",
-    "option_b": "B. an epiphyte",
-    "option_c": "C. a saprophyte",
-    "option_d": "D. a predator",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>Given the equation:<br>\n6CO\\(_2\\)&nbsp;+ 6H\\(_2\\)O → C\\(_6\\)H\\(_{12}\\)O\\(_6\\)&nbsp;+ 6O\\(_2\\)&nbsp;{Under sunlight &amp; Chlorophyll)<br>\n<br>\nThe process represented by the above equation is?</p>",
     "option_a": "A. proteinsynthesis",
     "option_b": "B. respiration",
@@ -18,7 +9,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>Given the equation:<br>\n6CO2 + 6H2O → C6H12O6 + 6O2 {Under sunlight &amp; Chlorophyll)<br>\nThe oxygen given off during the above process is derived from</p>",
     "option_a": "A. sunlight",
     "option_b": "B. chlorophyll",
@@ -27,7 +18,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>One of the function of xylem is</p>",
     "option_a": "A. strengthening the stem",
     "option_b": "B. manufacturing food",
@@ -36,7 +27,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>People suffering from myopia</p>",
     "option_a": "A. can see near object clearly",
     "option_b": "B. can see far away object clearly",
@@ -45,7 +36,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>The cilia in paramecium are use for</p>",
     "option_a": "A. respirating",
     "option_b": "B. locomotion",
@@ -54,7 +45,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>Euglena may be classified as a plant because it</p>",
     "option_a": "A. has chloroplast",
     "option_b": "B. has a gullet",
@@ -63,7 +54,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>A trawler on a fishing trip caught a type of animal with hairs on its body. This animal could have been</p>",
     "option_a": "A. An amphibian",
     "option_b": "B. a reptile",
@@ -72,7 +63,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>which of these type of skeleton is most appropriate for a cockroach?</p>",
     "option_a": "A. Hydrostatic skeleton",
     "option_b": "B. Exoskeleton",
@@ -81,7 +72,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>when protein are broken down they provide</p>",
     "option_a": "A. oxygen",
     "option_b": "B. carbonhydrate",
@@ -90,7 +81,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>the function of lenticels is</p>",
     "option_a": "A. to remove excess water in plant",
     "option_b": "B. to absorb water from the atmosphere",
@@ -99,7 +90,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>The following events take place during conjugation in spirogyra 1. The protoplasm of each of the conjugating cell separate from the cell wall to form a Gamete; the gamete of one filament passes through the conjugation tube to meet the gamete of the other filament 2. The zygote soon become surrounded by thick brown wall to become zygospore which burst after a short rest and germinate to produce a new filament 3. The nuclei of the gametes fuse to form a zygote 4. The protuberance meet and where they touch the cell-wall disappear so that a conjugation tube joining the two cell is formed 5. protuberance appear on the wall of the cell of two filament of spirogyra lying side by side opposite one another. Now what is the correct sequence in which the above sequence occur?</p>",
     "option_a": "A. 1,2,3,4,5",
     "option_b": "B. 1,2,4,5,3",
@@ -108,7 +99,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>Which of the following is a characteristic of animal cell?</p>",
     "option_a": "A. Presence of chloroplast",
     "option_b": "B. possession of cellulose cell-wall",
@@ -117,7 +108,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>Nitrifying bacteria keep the soil fertile by</p>",
     "option_a": "A. converting nitrate to nitrogen",
     "option_b": "B. converting ammonium salt to nitrate",
@@ -126,7 +117,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>In the life history of schistosoma (Bilharzia), one of the following is intermediate host</p>",
     "option_a": "A. man",
     "option_b": "B. snail",
@@ -135,7 +126,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>In which of the following groups of organisms do all the members have asexual method of reproduction?</p>",
     "option_a": "A. A geen filament algae, a flowering plant and a bird",
     "option_b": "B. A toad (or frog) , ameoba and mucor ( penicillium)",
@@ -144,7 +135,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>The hormone which tones up the muscles of a person in time of danger is from the</p>",
     "option_a": "A. thyroid gland",
     "option_b": "B. pancreas",
@@ -153,7 +144,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>The study of organism and the environment of an abandoned farmland is the ecology of?</p>",
     "option_a": "A. a community",
     "option_b": "B. a population",
@@ -162,7 +153,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "At fertilization",
     "option_a": "A. one chromosome from the male joins another from the female",
     "option_b": "B. one gene from the male combines with another from the female",
@@ -171,7 +162,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "The neck region of the tape worm, (taenia) is responsible for the",
     "option_a": "A. production of egg",
     "option_b": "B. storage of egg",
@@ -180,7 +171,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   All the following are digestive enzymes except",
     "option_a": "A. bile",
     "option_b": "B. lipase",
@@ -189,7 +180,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   In a bakery, yeast is added to flour to make bread rise. This is possible because yeast produces",
     "option_a": "A. alcohol",
     "option_b": "B. oxygen",
@@ -198,7 +189,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Accommodation of the human eye is best described as the",
     "option_a": "A. ability to see distant objects",
     "option_b": "B. movement of upper and lower eyelids",
@@ -207,7 +198,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Normally any character shown by an organism is due to the effects of",
     "option_a": "A. hormones and chromosomes",
     "option_b": "B. chromosomes",
@@ -216,7 +207,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following statement is NOT true of symbiosis?",
     "option_a": "A. Symbionts must be living",
     "option_b": "B. It is an association of 'give and take'",
@@ -225,7 +216,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   A person whose blood can be donated to all other people, must have the blood group",
     "option_a": "A. O",
     "option_b": "B. AB",
@@ -234,7 +225,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   If Benedict's solution gives a positive result in a food test, the food contains",
     "option_a": "A. sugar",
     "option_b": "B. protein",
@@ -243,7 +234,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   A surprising fact about sickle cell disease is that it",
     "option_a": "A. affects only black people",
     "option_b": "B. kills the patient",
@@ -252,7 +243,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Nitrification means",
     "option_a": "A. conversion of nitrates to nitrogen",
     "option_b": "B. fixing nitrogen into plants",
@@ -261,7 +252,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following statements is NOT true of menstruation?",
     "option_a": "A. It occurs monthly",
     "option_b": "B. The discharge contains amniotic fluid",
@@ -270,7 +261,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The tissue which connects a muscle to a bone is a",
     "option_a": "A. cartiligae",
     "option_b": "B. muscle fibre",
@@ -279,7 +270,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   A fruit formed from a single flower having several free carpels is",
     "option_a": "A. a multiple fruit",
     "option_b": "B. a dry dehiscent fruit",
@@ -288,7 +279,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   If the anthers of a flower mature before the stigma, the condition is termed",
     "option_a": "A. epigyny",
     "option_b": "B. hypogyny",
@@ -297,7 +288,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   An instrument used in measuring the speed of wind is",
     "option_a": "A. a barometer",
     "option_b": "B. a wind gauge",
@@ -306,7 +297,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   In which of the following plants is swollen shoot disease common?",
     "option_a": "A. Groundnut",
     "option_b": "B. cocoa",
@@ -315,7 +306,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>One common feature of the fungi, algae, mosses and ferns is that they?</p>",
     "option_a": "A. are photosynthetic",
     "option_b": "B. show alternation of generation",
@@ -324,7 +315,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The deficiency of vitamin D leads to",
     "option_a": "A. scurvy",
     "option_b": "B. pellagra",
@@ -333,7 +324,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of these substance is likely to be deficient in the diet of a person having goitre?",
     "option_a": "A. potassuim",
     "option_b": "B. calcium",
@@ -342,7 +333,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>Growing yam tendrils climb for support. This growth response is</p>",
     "option_a": "A. haptotropism",
     "option_b": "B. geotropism",
@@ -351,7 +342,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Soil is said to be fertile if",
     "option_a": "A. It is black",
     "option_b": "B. it can supply usable nutrients to plants",
@@ -360,7 +351,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   A plant which has a horizontal underground stem is",
     "option_a": "A. rhizome",
     "option_b": "B. corm",
@@ -369,7 +360,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The hepatic portal vein is unique because it",
     "option_a": "A. carries deoxygenated blood",
     "option_b": "B. begins and ends with capillaries",
@@ -378,7 +369,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The functional unit of a mammalian kidney is the",
     "option_a": "A. urethra",
     "option_b": "B. malphigian capsule",
@@ -387,7 +378,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>The correct route for a piece of bread eaten by a mammal is</p>",
     "option_a": "A. oral cavity - oesophagus - stomach - ileum - rectum",
     "option_b": "B. oral - cavity - stomach - oesophagus - duodenum - ileum - rectum",
@@ -396,7 +387,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The thoracic vertebrae of a mammal is characterized by the",
     "option_a": "A. vertebraterial canal",
     "option_b": "B. prominent neural arch",
@@ -405,7 +396,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   A population is defined as the collection of",
     "option_a": "A. Similar organism that are found in the same habitat",
     "option_b": "B. Similar organisms that breed in the same habitat",
@@ -414,7 +405,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of these combinations is common to plant and animal cells?",
     "option_a": "A. Centriole, middle lamella, golgi bodies, mitrochondrion",
     "option_b": "B. Cytoplasm, sap, vacuole, starch grains, leucoplasts",
@@ -423,7 +414,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of these animals is NOT metamerically segmented?",
     "option_a": "A. Tapeworm",
     "option_b": "B. Earthworm",
@@ -432,7 +423,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Some of the major elements required by plants are",
     "option_a": "A. Potassium, nitrogen, phosphorus, sodium, calcium",
     "option_b": "B. Nitrogen, phosphorus, molybdenum, sodium, calcium",
@@ -441,7 +432,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   In human reproduction, the zygote formed as a result of fertilization gets attached to the wall of the uterus. The process is called",
     "option_a": "A. Sexual reproduction",
     "option_b": "B. Cohesion",
@@ -450,7 +441,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>Kwashiorkor is caused by severe deficiency of</p>",
     "option_a": "A. Water",
     "option_b": "B. Oil",
@@ -459,7 +450,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   An hormoiothermic animal kept in a room where the temperature is lower than the body temperature may lose heat by four physical process. Which of the following processes is NOT connected with the body temperature regulation ?",
     "option_a": "A. Radiation",
     "option_b": "B. Sweat",
@@ -468,7 +459,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>Which of these food chains is NOT possible in a forest?</p>",
     "option_a": "A. Diatom → fly → toad → snake",
     "option_b": "B. Fly → toad → snake→ hawk",
@@ -477,7 +468,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>If a tall man (TT) marries a dwarf woman (gg) and they have four male children, the offspring will be?</p>",
     "option_a": "A. All short",
     "option_b": "B. Three short and one tall",
@@ -486,7 +477,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   A married couple has 10 children and they are all girls. Which of the following is the CORRECT  explanation?",
     "option_a": "A. The woman is incapable of producing male children",
     "option_b": "B. The man’s sperms are very weak",
@@ -495,7 +486,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>If a 26 year old blind man married a young one-eyed woman and they had four children, how many of them would be blind like there father?</p>",
     "option_a": "A. All",
     "option_b": "B. 3",
@@ -504,7 +495,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>The glottis is the opening which leads to the</p>",
     "option_a": "A. Oesophagus",
     "option_b": "B. Larynx",
@@ -513,7 +504,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   A tapeworm has no alimentary canal because",
     "option_a": "A. It is autotrophic",
     "option_b": "B. It does not feed",
@@ -522,7 +513,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   A grass hopper respires by the means of its",
     "option_a": "A. Lung-books",
     "option_b": "B. Gills",
@@ -531,7 +522,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   An onion bulb stores its food in the",
     "option_a": "A. Stem",
     "option_b": "B. Leaves",
@@ -540,7 +531,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Roots of plants are normally",
     "option_a": "A. Positively phototropic",
     "option_b": "B. Negatively geotropic",
@@ -549,7 +540,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The main function of the swim-bladder is for",
     "option_a": "A. Swimming",
     "option_b": "B. Detecting sound",
@@ -558,7 +549,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following pairs are the products of sucrose hydrolysis?",
     "option_a": "A. Glucose + glucose",
     "option_b": "B. Fructose + fructose",
@@ -567,7 +558,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>Which of the vertebra has a projection called odontoid process?</p>",
     "option_a": "A. Atlas",
     "option_b": "B. Axis",
@@ -576,7 +567,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Refrigeration, as a method of preservation, has ONE of the following characteristics:",
     "option_a": "A. Kills all the bacteria",
     "option_b": "B. Kill most of the bacteria",
@@ -585,7 +576,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>Treatment of a poor soil with lime supplies</p>",
     "option_a": "A. Sulphur",
     "option_b": "B. Calcium",
@@ -594,7 +585,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   In the enzyme (amlyase) reactions of starch → sugar<br>\nstarch is referred to as the",
     "option_a": "A. substrate",
     "option_b": "B. product",
@@ -603,7 +594,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   ONE of the major causes of haemophilia is lack of",
     "option_a": "A. firbrinogen",
     "option_b": "B. amylase",
@@ -612,7 +603,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   In man, identical twins occur when",
     "option_a": "A. An ovum is fertilized by a sperm and then divide into two, each forming a separate embryo",
     "option_b": "B. an ovum fertilized by two sperms and then divides into two, each forming an embryo",
@@ -621,7 +612,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>The parts of the mammalian eye that strongly bend light rays are the</p>",
     "option_a": "A. cornea and the lens",
     "option_b": "B. cornea and aqueous humour",
@@ -630,7 +621,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of these statements is NOT true of insects?",
     "option_a": "A. They are anthropods",
     "option_b": "B. Their body is divide into three distinct regions of head, thorax and abdomen",
@@ -639,7 +630,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   when an operculate fish breathes it takes in water through the",
     "option_a": "A. mouth and passes it out through the same way",
     "option_b": "B. mouth and passes it out through the operculum",
@@ -648,7 +639,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following tissue are made up of dead cells?",
     "option_a": "A. Meristematic",
     "option_b": "B. Xylem vessels",
@@ -657,7 +648,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   External ears of mammals consist of",
     "option_a": "A. pinna and tympanum",
     "option_b": "B. pinna only",
@@ -666,7 +657,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Any dry fruit which can break into several parts each containing one seed is a",
     "option_a": "A. capsule",
     "option_b": "B. aggregrate fruit",
@@ -675,7 +666,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following is NOT a function of mammalian blood?",
     "option_a": "A. Engulfing bacteria",
     "option_b": "B. Production of hormones",
@@ -684,7 +675,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The maize grain is regarded as a fruit and not a seed because",
     "option_a": "A. it has a coleorhiza",
     "option_b": "B. it has a coleoptile",
@@ -693,7 +684,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>Which of these parts of the mammalian ears is directly concerned with the sense of balance?</p>",
     "option_a": "A. Cochlea",
     "option_b": "B. Eustachian tube",
@@ -702,7 +693,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   When freshly tapped palm wine was kept overnight it was found to be more alcoholic. This effect must have been due to",
     "option_a": "A. the addition of saccharin",
     "option_b": "B. the addition of sugar",
@@ -711,7 +702,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   If a farmer left his land uncultivated for five years before returning to it, he must be practising",
     "option_a": "A. modern agriculture",
     "option_b": "B. strip cropping",
@@ -720,7 +711,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   A pyramid of numbers can be defined as",
     "option_a": "A. the number of plants and animals in an ecosystem",
     "option_b": "B. an arrangement of organism according to their habitat",
@@ -729,7 +720,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>In man, spermatozoa are never found in the?</p>",
     "option_a": "A. testis",
     "option_b": "B. urethra",
@@ -738,7 +729,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following statements is TRUE of inhalation of air by man?",
     "option_a": "A. The ribs are not raised",
     "option_b": "B. Diaphragm is raised",
@@ -747,7 +738,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>If the gall bladder of a man is removed by surgery, which of the following processes will be most seriously affected?</p>",
     "option_a": "A. Digestion of fats and oil",
     "option_b": "B. Formation of urea",
@@ -756,7 +747,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Flatworms and roundworms are said to be invertebrates because",
     "option_a": "A. they are small animals",
     "option_b": "B. they can live inside the vertebrates",
@@ -765,7 +756,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Where is the energy produced in a cell?",
     "option_a": "A. Nucleus",
     "option_b": "B. Nucleolus",
@@ -774,7 +765,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   In which part of a leguminous plant can you find bacteria like Azotobacter?",
     "option_a": "A. Spongy mesophyll of leaf",
     "option_b": "B. At the nodes",
@@ -783,7 +774,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The three blood vessels that supply the mammalian alimentary canals are",
     "option_a": "A. segmented artery, hepatic artery and coeliac artery",
     "option_b": "B. coeliac artery, anterior mesenteric artery and posteroir mesenteric artery",
@@ -792,7 +783,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   In an epigeal germination, it is the",
     "option_a": "A. epicotyl that elongates fast",
     "option_b": "B. hypocotyl that elongates fast",
@@ -801,7 +792,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>The mammalian pancreas is involved with the?</p>",
     "option_a": "A. digestion of food only",
     "option_b": "B. digestion and absorption of food",
@@ -810,7 +801,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   When a person with blood belonging to group O has lost much blood due to an accident, he can be given blood from persons who have blood belonging to",
     "option_a": "A. group O only",
     "option_b": "B. group A only",
@@ -819,7 +810,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The absence of stomata shows that a leaf may be",
     "option_a": "A. from a floating plant",
     "option_b": "B. from submerged plant",
@@ -828,7 +819,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Root hairs are developed from the",
     "option_a": "A. root apex",
     "option_b": "B. epidermis of root",
@@ -837,7 +828,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   In a dicot leaf, guard cells differ from other epidermal cells because they",
     "option_a": "A. have no definite shape",
     "option_b": "B. lack nuclei",
@@ -846,7 +837,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following structure is NOT found in the female agama lizard?",
     "option_a": "A. Pre-anal pads",
     "option_b": "B. Eardrum",
@@ -855,7 +846,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Herbs differ from shrubs because they",
     "option_a": "A. do not produce fruit",
     "option_b": "B. are useful to herbalist",
@@ -864,7 +855,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following is not associated with excretion in mammals",
     "option_a": "A. Glomerulus",
     "option_b": "B. Urea",
@@ -873,7 +864,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   If an organic compound has its hydrogen: oxygen ratio as 2:1, it is likely to be",
     "option_a": "A. a protein",
     "option_b": "B. a cabohydrate",
@@ -882,7 +873,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following elements are necessary for the formation of chlorophyll in a plant?",
     "option_a": "A. magnesium and iron",
     "option_b": "B. Calcium and potassium",
@@ -891,7 +882,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following statements is NOT true of mammalian erythrocytes?",
     "option_a": "A. They have haemoglobin",
     "option_b": "B. they appear yellow when looked at singly",
@@ -900,7 +891,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   In woody plants, grass and water vapour are transported across the stems by the",
     "option_a": "A. xylem fibres",
     "option_b": "B. medullary rays",
@@ -909,7 +900,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following substance is not found in urine?",
     "option_a": "A. Water",
     "option_b": "B. Sodium chloride",
@@ -918,7 +909,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The kidneys of all vertebrates act as osmoregulators. This means that they",
     "option_a": "A. keep the composition of the plasma constant",
     "option_b": "B. regulate osmotic processes",
@@ -927,7 +918,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The movement of plant in response to external stimulus of no particular direction is",
     "option_a": "A. taxism",
     "option_b": "B. tropism",
@@ -936,7 +927,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The part of the mammalian brain responsible for maintaining balance is the",
     "option_a": "A. medulla oblongata",
     "option_b": "B. olfactory lobe",
@@ -945,7 +936,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   In the onion bulb, food is stored in the",
     "option_a": "A. stem",
     "option_b": "B. lateral buds",
@@ -954,7 +945,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Groundnut is not really a 'nut' in the biological sense because",
     "option_a": "A. it is harvested from inside the ground",
     "option_b": "B. pericarp is not hard and tough",
@@ -963,7 +954,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   What type of fruit is formed from a single flower having several carpels?",
     "option_a": "A. Multipe fruit",
     "option_b": "B. Simple fruit",
@@ -972,7 +963,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   28 g soil sample was heated to a constant weight of 24 g. When further heated to red hot and cooled, it weighed 18 g. What is the percentage of humus in the soil?",
     "option_a": "A. 22.2",
     "option_b": "B. 55.6",
@@ -981,7 +972,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following diseases is NOT caused by a virus?",
     "option_a": "A. Rinderpest",
     "option_b": "B. Maize rust",
@@ -990,7 +981,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>A centipede differs from a millipede by its</p>",
     "option_a": "A. colour",
     "option_b": "B. numerous abdominal segment",
@@ -999,7 +990,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   An organism having one pair of identical genes is",
     "option_a": "A. a heterozygote",
     "option_b": "B. a hybride",
@@ -1008,7 +999,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Plants which can survive in places where the water supply is limited are",
     "option_a": "A. bryophytes",
     "option_b": "B. mesophytes",
@@ -1017,7 +1008,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Banana, plantain and pineapple can be grouped together because they",
     "option_a": "A. produce small seeds",
     "option_b": "B. are multiple fruit",
@@ -1026,7 +1017,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   One disease NOT caused directly by bacteria is",
     "option_a": "A. malaria",
     "option_b": "B. tuberculosis",
@@ -1035,7 +1026,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   In  what order do the following structure develop during the metamorphosis of the toad? 1. External gills 2. Internal gills 3. Forelimbs 4.Hindlimbs 5. Mouth",
     "option_a": "A. 12345",
     "option_b": "B. 15243",
@@ -1044,7 +1035,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The dental formula of a i(3/3); c(1/1); pm(4/4; m(2/3) = 42 represent that of a",
     "option_a": "A. rabbit",
     "option_b": "B. full grown man",
@@ -1053,7 +1044,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following statements is NOT true of insectivorous plants?",
     "option_a": "A. They obtain part of their food by trapping and feeding on insects",
     "option_b": "B. They attract insects simply because of pollination",
@@ -1062,7 +1053,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   which of these worms is beneficial to man?",
     "option_a": "A. Hookworm",
     "option_b": "B. Tapeworm",
@@ -1071,7 +1062,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Starting from the skull end the vertebrate are arranged in the following order",
     "option_a": "A. axis, atlas, cervical, thoracic and lumber",
     "option_b": "B. atls, cervical, axis, thoracic and lumber",
@@ -1080,7 +1071,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   which of the following diseases could be exclusively associated with river basin?",
     "option_a": "A. Malaria",
     "option_b": "B. Syphilis",
@@ -1089,7 +1080,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following represents the evolutionary sequence in these plants? 1. Flowering plants 2. Ferns 3. Mosses 4. Algae 5. Conifers",
     "option_a": "A. 2 → 1 → 4 → 3 → 5",
     "option_b": "B. 5 → 4 → 3 → 2 → 1",
@@ -1098,7 +1089,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following statements on the mammalian circulatory system is NOT true?",
     "option_a": "A. Blood in the pulimonary artery is richer in oxygen content than blood in the pulmonary vein",
     "option_b": "B. The blood in the hepatic portal vein is the richest in food substance",
@@ -1107,7 +1098,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   In a positive phototropic response of a coleoptile, the region of greatest curvature is brought about by the",
     "option_a": "A. movement of auxins away from the region of curvature",
     "option_b": "B. even distribution of auxins in all parts of the coleoptile",
@@ -1116,7 +1107,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The tuber cassava is NOT a stem tuber because it",
     "option_a": "A. Is distended with food reserve",
     "option_b": "B. Has an aerial shoot portion",
@@ -1125,7 +1116,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The function of the ossicles (malleus, incus and stapes) in the mammalian ear is",
     "option_a": "A. Transmission of vibrations",
     "option_b": "B. Regulation of pressure",
@@ -1134,7 +1125,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following instruments is used for determining turbidity of water?",
     "option_a": "A. Thermometer",
     "option_b": "B. secchi disc",
@@ -1143,7 +1134,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following is NOT a characteristic of monocot plants?",
     "option_a": "A. Occurrence of secondary thickening",
     "option_b": "B. Parallel venation",
@@ -1152,7 +1143,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which sequence represents the correct order of organisms un a food chain? 1. Toad 2. Mucuna 3. Grasshopper 4. Snake 5. Hawk",
     "option_a": "A. 5 → 4 → 1 → 3 → 2",
     "option_b": "B. 1 → 2 → 3 → 4 → 5",
@@ -1161,7 +1152,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   In rhizopus carbohydrate is stored in the form of",
     "option_a": "A. Glucose",
     "option_b": "B. Paramylon",
@@ -1170,7 +1161,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following statements about the rate of transpiration is INCORRECT? It is",
     "option_a": "A. Dependent on temperature",
     "option_b": "B. Affected by changes in light intensity",
@@ -1179,7 +1170,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   ‘Jointed skeleton’ is absent in the",
     "option_a": "A. Cockroach",
     "option_b": "B. Spider",
@@ -1188,7 +1179,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>Which of the following statements about the dentition of man is INCORRECT ? man has</p>",
     "option_a": "A. More molars than incisors",
     "option_b": "B. No diastema",
@@ -1197,7 +1188,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   When spirogyra cell is immersed in a salt solution more concentrated than its cell sap, it",
     "option_a": "A. Remains unchanged",
     "option_b": "B. Takes up water an burst",
@@ -1206,7 +1197,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Urea is produced in the",
     "option_a": "A. Liver",
     "option_b": "B. Bladder",
@@ -1215,7 +1206,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   What is the genetic ratio of the F<sub>2</sub> generation if members of F generation are allowed to self-pollinate?",
     "option_a": "A. 1 tall : 3 short",
     "option_b": "B. 3 tall : 1 short",
@@ -1224,7 +1215,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The path taken by glucose from the ileum to the heart is",
     "option_a": "A. Ileum →hepatic portal vein →hepatic artery → vena cava → heart",
     "option_b": "B. Ileum → hepatic portal artery →hepatic artery → vena cava → heart",
@@ -1233,7 +1224,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The mouth parts of the housefly are adapted for",
     "option_a": "A. Lapping and sponging",
     "option_b": "B. Sucking and chewing",
@@ -1242,7 +1233,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The male toad differs from the female by having",
     "option_a": "A. Vocal sacs",
     "option_b": "B. Shorter hind limbs",
@@ -1251,7 +1242,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Mosses, liverworts and ferns can be grouped together because they",
     "option_a": "A. Are all aquatic plants",
     "option_b": "B. All grow in deserts",
@@ -1260,7 +1251,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Spirogyra and mucor can be grouped together as Thallophyta because",
     "option_a": "A. They are unicellular organisms",
     "option_b": "B. Their spores could be dispersed by wind",
@@ -1269,7 +1260,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following invertebrates does NOT possess antennae?",
     "option_a": "A. Centipede",
     "option_b": "B. Crustacean",
@@ -1278,7 +1269,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following is INCORRECT? The prothallus of a fern",
     "option_a": "A. Is flattened heart-shaped structure",
     "option_b": "B. Is green because its cells contain chloroplasts",
@@ -1287,7 +1278,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following cell constituents is NOT common in both plants and animals?",
     "option_a": "A. Mitochondria",
     "option_b": "B. Chloroplast",
@@ -1296,7 +1287,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The character-producing factors in living organisms are",
     "option_a": "A. Chromomeres",
     "option_b": "B. Alleles",
@@ -1305,7 +1296,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   A mixture of mercurous and mercuric nitrates is added to a food substance. A white precipitates is formed which on gentle heating turns red. The food substance is",
     "option_a": "A. Protein",
     "option_b": "B. Oil",
@@ -1314,7 +1305,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The mammalian organ through which nourishment and oxygen diffuse into a developing embryo is called",
     "option_a": "A. Amnion",
     "option_b": "B. Chorion",
@@ -1323,7 +1314,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>Osmosis can be defined as the movement of</p>",
     "option_a": "A. Molecules from solution of higher concentration to low concentration",
     "option_b": "B. Molecules from solution of low concentration to high concentration",
@@ -1332,7 +1323,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following statement is NOT true of enzymes? They",
     "option_a": "A. Are proteins",
     "option_b": "B. Need cofactors to activate them",
@@ -1341,7 +1332,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The dorsal and anal fins of fish are used for",
     "option_a": "A. Upward movement",
     "option_b": "B. Controlling rolling",
@@ -1350,7 +1341,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>Exoskeleton is NOT found in the</p>",
     "option_a": "A. Maggot",
     "option_b": "B. Mosquito larva",
@@ -1359,7 +1350,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Blood clotting is initiated by",
     "option_a": "A. Leucocytes",
     "option_b": "B. Platelets",
@@ -1368,7 +1359,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Pepsin is a digestive enzymes which breaks",
     "option_a": "A. Cellulose into glucose molecules",
     "option_b": "B. Carbohydrates into simple sugars",
@@ -1377,7 +1368,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Anaerobic respiration in yeast produces",
     "option_a": "A. Carbondioxide and ethanol",
     "option_b": "B. Carbondioxide and water",
@@ -1386,7 +1377,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Underground stems which grow horizontally through the soil are",
     "option_a": "A. Bulbs",
     "option_b": "B. Rhizomes",
@@ -1395,7 +1386,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   A man with normal haemoglobin (AA) marries a woman who has sickle-cell haemoglobin (SS). They have a child who has a sickle-cell trait. Which of the following genotypes could be associated with the child’s haemoglobin?",
     "option_a": "A. AA",
     "option_b": "B. OO",
@@ -1404,7 +1395,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   In the Burret test, some protein was mixed with sodium hydroxide solution. Which of the following chemicals should be added to the mixture for a positive results?",
     "option_a": "A. Mercurous nitrates",
     "option_b": "B. Copper sulphate",
@@ -1413,7 +1404,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The removal of a man’s pancreas by surgical operation can affect only the digestion of",
     "option_a": "A. Starch",
     "option_b": "B. Starch, protein and fats",
@@ -1422,7 +1413,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The parts used by the tapeworm to fasten itself to the host’s intestine are the",
     "option_a": "A. Neck and suckers",
     "option_b": "B. Hooks and suckers",
@@ -1431,7 +1422,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following types of vertebrae occur in equal numbers in the rabbit, rat and man?",
     "option_a": "A. Caudal",
     "option_b": "B. Thoracic",
@@ -1440,7 +1431,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following statements is NOT true of the piliferous layer of root? It",
     "option_a": "A. Has a very thin cuticle",
     "option_b": "B. Is the outermost layer of the cortex",
@@ -1449,7 +1440,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   A flowering plant is monoecious if",
     "option_a": "A. The androecium is found on one plant",
     "option_b": "B. The gynoecium is monocarpous",
@@ -1458,7 +1449,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   How many nuclei are found in pollen tube during fertilization?",
     "option_a": "A. 2",
     "option_b": "B. 3",
@@ -1467,7 +1458,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>Which of the following is NOT a waste product of plants?</p>",
     "option_a": "A. Tannins",
     "option_b": "B. Oxygen",
@@ -1476,7 +1467,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   If an animal is very active and has good muscular control, it is likely to have well-developed",
     "option_a": "A. Olfactory lobes",
     "option_b": "B. Cerebral hemisphere",
@@ -1485,7 +1476,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following adaptations is NOT concerned with the flight of birds?",
     "option_a": "A. Streamlined shape",
     "option_b": "B. Presence of powerful muscles",
@@ -1494,7 +1485,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The transect method can be used in ecology to show the",
     "option_a": "A. Number of plants and animals in a habitat",
     "option_b": "B. Population of a particular plant species",
@@ -1503,7 +1494,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>Which of the following group does NOT reproduce asexually?</p>",
     "option_a": "A. Mucor, Spirogyra and Paramecium",
     "option_b": "B. Penicillium, Paramecium and Amoeba",
@@ -1512,7 +1503,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Fehling's solution will readily change colour from blue to reddish colour when it is",
     "option_a": "A. mixed with sugar solution in the cold",
     "option_b": "B. warmed or heated by itself",
@@ -1521,7 +1512,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The presence of a diastema in the jaw bone indicates that the mammal lacks the teeth suitable for",
     "option_a": "A. tearing",
     "option_b": "B. chewing",
@@ -1530,7 +1521,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Normally the flow of blood is NEVER from",
     "option_a": "A. artery to arterioles",
     "option_b": "B. arterioles to capillaries",
@@ -1539,7 +1530,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Heat produced in tissue respiration in plants is",
     "option_a": "A. a chemical form of energy",
     "option_b": "B. the only form of energy",
@@ -1548,7 +1539,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The axial skeleton of a mammal does not include the bones of the",
     "option_a": "A. skull",
     "option_b": "B. tail",
@@ -1557,7 +1548,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following sequences represents process of blood clothing? 1. Fibrins forms a network of threads 2. Red blood cells are caught and clot is formed 3. Fibrinogen in plasma changes into fibrin 4. Blood is exposed to air",
     "option_a": "A. 4, 3, 2, 1",
     "option_b": "B. 4, 3, 1, 2",
@@ -1566,7 +1557,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Green plants are important in the ecosystem because they are",
     "option_a": "A. primary consumers",
     "option_b": "B. producers",
@@ -1575,7 +1566,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   An anemometer is an instrument for measuring",
     "option_a": "A. relative humidity",
     "option_b": "B. altitude",
@@ -1584,7 +1575,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following is NOT regarded as a pollutant on land or in the air?",
     "option_a": "A. smoke",
     "option_b": "B. noise",
@@ -1593,7 +1584,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following groups of factors is completely abiotic?",
     "option_a": "A. Salinity, tide, plankton, turbidity",
     "option_b": "B. Temperaure, pH, soil, insect",
@@ -1602,7 +1593,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following lists of diseases, their causes and transmission is CORRECT?",
     "option_a": "A. Cholera, virus, severe diarrhoea, infected water",
     "option_b": "B. Malaria, protozoan, high fever, contact with infected person",
@@ -1611,7 +1602,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Erosion can be reduced along shape by",
     "option_a": "A. ridging across slope",
     "option_b": "B. ridging up slope",
@@ -1620,7 +1611,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   If a handful of soil is shaken with water and left to settle, the soil particles will settle from light to heavy particles as follows",
     "option_a": "A. humus, clay, silt, sand, stones",
     "option_b": "B. humus, silt, clay, sand, stones",
@@ -1629,7 +1620,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Denitrifying bacteria in nature liberate gaseous nitrogen directly from",
     "option_a": "A. ammonium salts",
     "option_b": "B. soil nitrates",
@@ -1638,7 +1629,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>Leaching is</p>",
     "option_a": "A. Washing away of humus from the soil surface",
     "option_b": "B. reducing of soil aeration by pressure",
@@ -1647,7 +1638,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The process of soil erosion is usually from",
     "option_a": "A. rill → sheet → gully",
     "option_b": "B. gully → rill → sheet",
@@ -1656,7 +1647,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   In spirogyra, the pyrenoid",
     "option_a": "A. excretes waste products",
     "option_b": "B. is suspended by cytoplasmic strands",
@@ -1665,7 +1656,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   In which of the following groups of animals are flagella and cilia found?",
     "option_a": "A. Flatworms",
     "option_b": "B. Annelids",
@@ -1674,7 +1665,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following is seed bearing?",
     "option_a": "A. Mosses",
     "option_b": "B. Whistling pine",
@@ -1683,7 +1674,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Each of the following is an anthropod EXCEPT the",
     "option_a": "A. crab",
     "option_b": "B. spider",
@@ -1692,7 +1683,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   In fish the sense organs which detect movements in water are located within the",
     "option_a": "A. gills",
     "option_b": "B. operculum",
@@ -1701,7 +1692,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Euglene is an autotrophic organism because it",
     "option_a": "A. has flagella",
     "option_b": "B. has plant and animal features",
@@ -1710,7 +1701,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   which  of the following is NOT true of mucor? it",
     "option_a": "A. contains chlorophll",
     "option_b": "B. grows saprophytically",
@@ -1719,7 +1710,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Bryophtes are different from flower because they",
     "option_a": "A. live in moist habita",
     "option_b": "B. are small plants",
@@ -1728,7 +1719,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   At what stage in the life history of a toad is its mode of breathing similar to that of fish?",
     "option_a": "A. Tadpole stage",
     "option_b": "B. External gill stage",
@@ -1737,7 +1728,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   In lower plants like mosses, the structure which performs the functions of roots of higher plants is called",
     "option_a": "A. root hairs",
     "option_b": "B. rootlets",
@@ -1746,7 +1737,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   In an angiosperm leaf, the xylem is",
     "option_a": "A. beside the phloem",
     "option_b": "B. surrounded by trhe phloem",
@@ -1755,7 +1746,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   A group of similar cells performing the same function is",
     "option_a": "A. an organ",
     "option_b": "B. a system",
@@ -1764,7 +1755,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following is common to a dicotyledonous stem and monocotyledonous root?",
     "option_a": "A. Medullary rays",
     "option_b": "B. Central pith",
@@ -1773,7 +1764,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following represents the sequence of protein hydrolysis? 1. polypeptides 2. Amino acides 3. Proteins 4. Peptones",
     "option_a": "A. 3 → 1 → 2 → 4",
     "option_b": "B. 3 → 2 →4 → 1",
@@ -1782,7 +1773,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   A food substance which produces red colouration with Sudan III contain",
     "option_a": "A. protein",
     "option_b": "B. sugar",
@@ -1791,7 +1782,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   If calcium is deficient in food this may cause",
     "option_a": "A. anaemia",
     "option_b": "B. retarded growth",
@@ -1800,7 +1791,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Partially digested food ready to leave the stomach is referred to as",
     "option_a": "A. chyme",
     "option_b": "B. curd",
@@ -1809,7 +1800,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The function of lymph nodes is to",
     "option_a": "A. supply oxygen",
     "option_b": "B. filter out bacteria",
@@ -1818,7 +1809,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The vein which returns blood from the head and arms to the heart is called",
     "option_a": "A. aorta",
     "option_b": "B. inferior vena cava",
@@ -1827,7 +1818,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Blood platelets are important because they are",
     "option_a": "A. amoeboid and nucleated",
     "option_b": "B. produce antitoxins",
@@ -1836,7 +1827,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   If a child can receive blood from all donors , he belongs to the blood group",
     "option_a": "A. O",
     "option_b": "B. A",
@@ -1845,7 +1836,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following events does NOT occur during anaerobic respiration of glucose?",
     "option_a": "A. Muscle cells produce lactic acid",
     "option_b": "B. Carbon dioxide is produced",
@@ -1854,7 +1845,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Identify which of the following are characteristics of the vertebrate respiratory surface 1. Moist 2. Vascularized 3. Semipermeable 4. Freely permeable 5. Dry",
     "option_a": "A. 1, 2, 3",
     "option_b": "B. 1, 2, 5",
@@ -1863,7 +1854,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   In mammals, the function of the sebaceous gland is to",
     "option_a": "A. produce sweat",
     "option_b": "B. secrete sodium choride",
@@ -1872,7 +1863,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following organs regulates the amount of amino acids and glucose in the body?",
     "option_a": "A. Kidney",
     "option_b": "B. Liver",
@@ -1881,7 +1872,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Movements and positions of the head in man are detected by the",
     "option_a": "A. cochlea",
     "option_b": "B. malleus",
@@ -1890,7 +1881,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The appendicular skeleton is made up of the",
     "option_a": "A. limbs",
     "option_b": "B. skull and limbs",
@@ -1899,7 +1890,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The maize grain is a fruit and not a seed because it",
     "option_a": "A. has a large endosperm",
     "option_b": "B. is formed from an ovary",
@@ -1908,7 +1899,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   If a flower is protandrous then it",
     "option_a": "A. must be unisexual",
     "option_b": "B. has an undeveloped androecium",
@@ -1917,7 +1908,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   For pollen to be released in Crotalaria the insect must depress the",
     "option_a": "A. wing",
     "option_b": "B. keel",
@@ -1926,7 +1917,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Irish potato is a",
     "option_a": "A. bulb",
     "option_b": "B. tap root",
@@ -1935,7 +1926,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The characters by which an organism is recognized are termed its",
     "option_a": "A. phenotype",
     "option_b": "B. genotype",
@@ -1944,7 +1935,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   The hereditary material in a cell is known as",
     "option_a": "A. ADP",
     "option_b": "B. CNS",
@@ -1953,7 +1944,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>A young plant showing yellow leaves is likely NOT to be deficient in?</p>",
     "option_a": "A. calcium",
     "option_b": "B. magnesium",
@@ -1962,7 +1953,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Germination which results in the cotyledons being brought above ground is called",
     "option_a": "A. hypocotyl",
     "option_b": "B. epicotyl",
@@ -1971,7 +1962,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>The mammalian endocrine system is responsible for?</p>",
     "option_a": "A. transmitting impulse",
     "option_b": "B. regulating body temperature",
@@ -1980,7 +1971,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   An old man is likely to be long-sighted because age affects the",
     "option_a": "A. optic nerves",
     "option_b": "B. retina",
@@ -1989,7 +1980,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   In mammals, stimulus is transferred from the receptor muscles to the central nervous system through the",
     "option_a": "A. motor neurons",
     "option_b": "B. effector muscles",
@@ -1998,7 +1989,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   A relationship between living organisms which is of mutual benefit is",
     "option_a": "A. parasitism",
     "option_b": "B. saprophtism",
@@ -2007,7 +1998,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following food chains is in the correct sequence?",
     "option_a": "A. Weeds → Tadpole → Beetles → Fish → Man",
     "option_b": "B. Weeds → Tadpole → Fish → Beetles → Man",
@@ -2016,7 +2007,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>The primary and secondary hosts respectively of bilharzia are</p>",
     "option_a": "A. fish and man",
     "option_b": "B. man and dog",
@@ -2025,7 +2016,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>Which of the following is NOT caused by bacteria?</p>",
     "option_a": "A. Cholera",
     "option_b": "B. Gonorrhoea",
@@ -2034,7 +2025,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Tsetse fly is harmful to man because it is associated with the spread of",
     "option_a": "A. river blindness",
     "option_b": "B. malaria",
@@ -2043,7 +2034,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Soil erosion CANNOT be controlled by",
     "option_a": "A. planting cover crops",
     "option_b": "B. contouring of sloping ground",
@@ -2052,7 +2043,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>Water retention is highest in soils which are rich in</p>",
     "option_a": "A. sand, poor in humus and devoid of clay",
     "option_b": "B. clay and sand, but poor in humus",
@@ -2061,7 +2052,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>The origin of mineral particles in the soil is</p>",
     "option_a": "A. humus",
     "option_b": "B. water",
@@ -2070,7 +2061,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>Atmospheric nitrogen is directly replenished in nature through</p>",
     "option_a": "A. the activities of denitrifying bacteria",
     "option_b": "B. the breakdown of ammonium salts in the soil",
@@ -2079,7 +2070,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>The initial volume of water poured into 60g bag of dry soil was 50ml and the amount that drained through was 35ml. The percentage water content of the fully soaked soil is therefore</p>",
     "option_a": "A. 46.7",
     "option_b": "B. 25.0",
@@ -2088,7 +2079,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Viruses are regarded as non-living because they",
     "option_a": "A. can niether reproduce asexually nor sexually",
     "option_b": "B. cannot survive in their respective enviroments",
@@ -2097,7 +2088,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following pairs are fully adapted to terrestrial life?",
     "option_a": "A. Ferns and algae",
     "option_b": "B. Ferns and mosses",
@@ -2106,7 +2097,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of these animals is radially symmetrical?",
     "option_a": "A. squid",
     "option_b": "B. Hydra",
@@ -2115,7 +2106,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following has cones?",
     "option_a": "A. Angiosperms",
     "option_b": "B. Gymnosperms",
@@ -2124,7 +2115,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   For effective functioning of a bird's quill feather, hooks fit on the ridge of the",
     "option_a": "A. Vane",
     "option_b": "B. rachis",
@@ -2133,7 +2124,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   <p>Which of the following is NOT true of spirogyra?</p>",
     "option_a": "A. Reproduces by conjugation",
     "option_b": "B. Reproduces by fragmentation",
@@ -2142,7 +2133,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Which of the following lacks chaetae, tentacles and antennae?",
     "option_a": "A. Snail",
     "option_b": "B. Crab",
@@ -2151,7 +2142,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "1",
     "question_text": "   Incomplete metamorphosis occurs in the",
     "option_a": "A. butterfly",
     "option_b": "B. grasshopper",

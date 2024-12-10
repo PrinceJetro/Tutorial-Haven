@@ -15,37 +15,35 @@
     "option_b": "B. X-\\(\\frac{1}{4}\\)",
     "option_c": "C. X-\\(\\frac{1}{3}\\)",
     "option_d": "D. X-\\(\\frac{1}{2}\\)",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
-    "question_text": "<p>Find the value of X if \\(\\frac{\\sqrt{2}}{x+\\sqrt{2}}=\\frac{1}{x-\\sqrt{2}}\\)</p>",
+    "question_text": "<p>Find the value of X if <span class=\"MathJax_Preview\" style=\"color: inherit; display: none;\"></span><span class=\"MathJax\" id=\"MathJax-Element-2-Frame\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mfrac><msqrt><mn>2</mn></msqrt><mrow><mi>x</mi><mo>+</mo><msqrt><mn>2</mn></msqrt></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><mi>x</mi><mo>&amp;#x2212;</mo><msqrt><mn>2</mn></msqrt></mrow></mfrac></math>\" role=\"presentation\" style=\"position: relative;\"><nobr aria-hidden=\"true\"><span class=\"math\" id=\"MathJax-Span-22\" style=\"width: 7.319em; display: inline-block;\"><span style=\"display: inline-block; position: relative; width: 5.878em; height: 0px; font-size: 124%;\"><span style=\"position: absolute; clip: rect(1.04em, 1005.88em, 3.171em, -999.997em); top: -2.359em; left: 0em;\"><span class=\"mrow\" id=\"MathJax-Span-23\"><span class=\"mfrac\" id=\"MathJax-Span-24\"><span style=\"display: inline-block; position: relative; width: 2.019em; height: 0px; margin-right: 0.118em; margin-left: 0.118em;\"><span style=\"position: absolute; clip: rect(3.229em, 1000.92em, 4.266em, -999.997em); top: -4.548em; left: 50%; margin-left: -0.458em;\"><span class=\"msqrt\" id=\"MathJax-Span-25\"><span style=\"display: inline-block; position: relative; width: 0.925em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.344em, 1000.35em, 4.15em, -999.997em); top: -3.972em; left: 0.579em;\"><span class=\"mrow\" id=\"MathJax-Span-26\"><span class=\"mn\" id=\"MathJax-Span-27\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">2</span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(0.982em, 1000.35em, 1.328em, -999.997em); top: -1.725em; left: 0.579em;\"><span style=\"display: inline-block; overflow: hidden; vertical-align: -0.055em; border-top: 1.2px solid; width: 0.349em; height: 0px;\"></span><span style=\"display: inline-block; width: 0px; height: 1.097em;\"></span></span><span style=\"position: absolute; clip: rect(3.229em, 1000.58em, 4.266em, -999.997em); top: -3.972em; left: 0em;\"><span><span style=\"font-size: 70.7%; font-family: MathJax_Main;\">√</span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(3.229em, 1001.9em, 4.266em, -999.997em); top: -3.453em; left: 50%; margin-left: -0.919em;\"><span class=\"mrow\" id=\"MathJax-Span-28\"><span class=\"mi\" id=\"MathJax-Span-29\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">x</span><span class=\"mo\" id=\"MathJax-Span-30\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">+</span><span class=\"msqrt\" id=\"MathJax-Span-31\"><span style=\"display: inline-block; position: relative; width: 0.925em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.344em, 1000.35em, 4.15em, -999.997em); top: -3.972em; left: 0.579em;\"><span class=\"mrow\" id=\"MathJax-Span-32\"><span class=\"mn\" id=\"MathJax-Span-33\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">2</span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(0.982em, 1000.35em, 1.328em, -999.997em); top: -1.725em; left: 0.579em;\"><span style=\"display: inline-block; overflow: hidden; vertical-align: -0.055em; border-top: 1.2px solid; width: 0.349em; height: 0px;\"></span><span style=\"display: inline-block; width: 0px; height: 1.097em;\"></span></span><span style=\"position: absolute; clip: rect(3.229em, 1000.58em, 4.266em, -999.997em); top: -3.972em; left: 0em;\"><span><span style=\"font-size: 70.7%; font-family: MathJax_Main;\">√</span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(0.867em, 1002.02em, 1.27em, -999.997em); top: -1.322em; left: 0em;\"><span style=\"display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 2.019em; height: 0px;\"></span><span style=\"display: inline-block; width: 0px; height: 1.097em;\"></span></span></span></span><span class=\"mo\" id=\"MathJax-Span-34\" style=\"font-family: MathJax_Main; padding-left: 0.291em;\">=</span><span class=\"mfrac\" id=\"MathJax-Span-35\" style=\"padding-left: 0.291em;\"><span style=\"display: inline-block; position: relative; width: 2.019em; height: 0px; margin-right: 0.118em; margin-left: 0.118em;\"><span style=\"position: absolute; clip: rect(3.344em, 1000.29em, 4.15em, -999.997em); top: -4.375em; left: 50%; margin-left: -0.17em;\"><span class=\"mn\" id=\"MathJax-Span-36\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">1</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(3.229em, 1001.9em, 4.266em, -999.997em); top: -3.453em; left: 50%; margin-left: -0.919em;\"><span class=\"mrow\" id=\"MathJax-Span-37\"><span class=\"mi\" id=\"MathJax-Span-38\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">x</span><span class=\"mo\" id=\"MathJax-Span-39\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">−</span><span class=\"msqrt\" id=\"MathJax-Span-40\"><span style=\"display: inline-block; position: relative; width: 0.925em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.344em, 1000.35em, 4.15em, -999.997em); top: -3.972em; left: 0.579em;\"><span class=\"mrow\" id=\"MathJax-Span-41\"><span class=\"mn\" id=\"MathJax-Span-42\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">2</span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(0.982em, 1000.35em, 1.328em, -999.997em); top: -1.725em; left: 0.579em;\"><span style=\"display: inline-block; overflow: hidden; vertical-align: -0.055em; border-top: 1.2px solid; width: 0.349em; height: 0px;\"></span><span style=\"display: inline-block; width: 0px; height: 1.097em;\"></span></span><span style=\"position: absolute; clip: rect(3.229em, 1000.58em, 4.266em, -999.997em); top: -3.972em; left: 0em;\"><span><span style=\"font-size: 70.7%; font-family: MathJax_Main;\">√</span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(0.867em, 1002.02em, 1.27em, -999.997em); top: -1.322em; left: 0em;\"><span style=\"display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 2.019em; height: 0px;\"></span><span style=\"display: inline-block; width: 0px; height: 1.097em;\"></span></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 2.365em;\"></span></span></span><span style=\"display: inline-block; overflow: hidden; vertical-align: -0.854em; border-left: 0px solid; width: 0px; height: 2.289em;\"></span></span></nobr><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>2</mn></msqrt><mrow><mi>x</mi><mo>+</mo><msqrt><mn>2</mn></msqrt></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><mi>x</mi><mo>−</mo><msqrt><mn>2</mn></msqrt></mrow></mfrac></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-2\">\\frac{\\sqrt{2}}{x+\\sqrt{2}}=\\frac{1}{x-\\sqrt{2}}</script></p>",
     "option_a": "A. 3√2+4",
     "option_b": "B. 3√2-4",
     "option_c": "C. 3-2√2",
     "option_d": "D. 4+2√2",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
-    "question_text": "<p>If \\(\\frac{(a^2 b^{-3}c)^{\\frac{3}{4}}}{a^{-1}b^{4}c^{5}}=a^{p} b^{q} c^{r}\\) What is the value of p+2q?</p>",
+    "question_text": "<p>If <span class=\"MathJax_Preview\" style=\"color: inherit; display: none;\"></span><span class=\"MathJax\" id=\"MathJax-Element-2-Frame\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mfrac><mrow><mo stretchy=&quot;false&quot;>(</mo><msup><mi>a</mi><mn>2</mn></msup><msup><mi>b</mi><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mo>&amp;#x2212;</mo><mn>3</mn></mrow></msup><mi>c</mi><msup><mo stretchy=&quot;false&quot;>)</mo><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></msup></mrow><mrow><msup><mi>a</mi><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mo>&amp;#x2212;</mo><mn>1</mn></mrow></msup><msup><mi>b</mi><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mn>4</mn></mrow></msup><msup><mi>c</mi><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mn>5</mn></mrow></msup></mrow></mfrac><mo>=</mo><msup><mi>a</mi><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mi>p</mi></mrow></msup><msup><mi>b</mi><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mi>q</mi></mrow></msup><msup><mi>c</mi><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mi>r</mi></mrow></msup></math>\" role=\"presentation\" style=\"position: relative;\"><nobr aria-hidden=\"true\"><span class=\"math\" id=\"MathJax-Span-56\" style=\"width: 9.335em; display: inline-block;\"><span style=\"display: inline-block; position: relative; width: 7.491em; height: 0px; font-size: 124%;\"><span style=\"position: absolute; clip: rect(0.521em, 1007.49em, 3.113em, -999.997em); top: -2.359em; left: 0em;\"><span class=\"mrow\" id=\"MathJax-Span-57\"><span class=\"mfrac\" id=\"MathJax-Span-58\"><span style=\"display: inline-block; position: relative; width: 3.286em; height: 0px; margin-right: 0.118em; margin-left: 0.118em;\"><span style=\"position: absolute; clip: rect(2.71em, 1003.17em, 4.323em, -999.997em); top: -4.548em; left: 50%; margin-left: -1.61em;\"><span class=\"mrow\" id=\"MathJax-Span-59\"><span class=\"mo\" id=\"MathJax-Span-60\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">(</span><span class=\"msubsup\" id=\"MathJax-Span-61\"><span style=\"display: inline-block; position: relative; width: 0.694em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.517em, 1000.35em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-62\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">a</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.202em; left: 0.349em;\"><span class=\"mn\" id=\"MathJax-Span-63\" style=\"font-size: 50%; font-family: MathJax_Main;\">2</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span><span class=\"msubsup\" id=\"MathJax-Span-64\"><span style=\"display: inline-block; position: relative; width: 0.982em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.286em, 1000.29em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-65\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">b</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.26em; left: 0.291em;\"><span class=\"texatom\" id=\"MathJax-Span-66\"><span class=\"mrow\" id=\"MathJax-Span-67\"><span class=\"mo\" id=\"MathJax-Span-68\" style=\"font-size: 50%; font-family: MathJax_Main;\">−</span><span class=\"mn\" id=\"MathJax-Span-69\" style=\"font-size: 50%; font-family: MathJax_Main;\">3</span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span><span class=\"mi\" id=\"MathJax-Span-70\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">c</span><span class=\"msubsup\" id=\"MathJax-Span-71\"><span style=\"display: inline-block; position: relative; width: 0.925em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.286em, 1000.23em, 4.323em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mo\" id=\"MathJax-Span-72\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">)</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.433em; left: 0.291em;\"><span class=\"texatom\" id=\"MathJax-Span-73\"><span class=\"mrow\" id=\"MathJax-Span-74\"><span class=\"mfrac\" id=\"MathJax-Span-75\"><span style=\"display: inline-block; position: relative; width: 0.349em; height: 0px; margin-right: 0.118em; margin-left: 0.118em;\"><span style=\"position: absolute; clip: rect(3.459em, 1000.23em, 4.15em, -999.997em); top: -4.26em; left: 50%; margin-left: -0.112em;\"><span class=\"mn\" id=\"MathJax-Span-76\" style=\"font-size: 50%; font-family: MathJax_Main;\">3</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(3.459em, 1000.23em, 4.15em, -999.997em); top: -3.569em; left: 50%; margin-left: -0.112em;\"><span class=\"mn\" id=\"MathJax-Span-77\" style=\"font-size: 50%; font-family: MathJax_Main;\">4</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(0.867em, 1000.35em, 1.27em, -999.997em); top: -1.207em; left: 0em;\"><span style=\"display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 0.349em; height: 0px;\"></span><span style=\"display: inline-block; width: 0px; height: 1.097em;\"></span></span></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(3.171em, 1002.31em, 4.15em, -999.997em); top: -3.396em; left: 50%; margin-left: -1.149em;\"><span class=\"mrow\" id=\"MathJax-Span-78\"><span class=\"msubsup\" id=\"MathJax-Span-79\"><span style=\"display: inline-block; position: relative; width: 1.097em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.517em, 1000.35em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-80\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">a</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.202em; left: 0.349em;\"><span class=\"texatom\" id=\"MathJax-Span-81\"><span class=\"mrow\" id=\"MathJax-Span-82\"><span class=\"mo\" id=\"MathJax-Span-83\" style=\"font-size: 50%; font-family: MathJax_Main;\">−</span><span class=\"mn\" id=\"MathJax-Span-84\" style=\"font-size: 50%; font-family: MathJax_Main;\">1</span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span><span class=\"msubsup\" id=\"MathJax-Span-85\"><span style=\"display: inline-block; position: relative; width: 0.637em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.286em, 1000.29em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-86\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">b</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.26em; left: 0.291em;\"><span class=\"texatom\" id=\"MathJax-Span-87\"><span class=\"mrow\" id=\"MathJax-Span-88\"><span class=\"mn\" id=\"MathJax-Span-89\" style=\"font-size: 50%; font-family: MathJax_Main;\">4</span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span><span class=\"msubsup\" id=\"MathJax-Span-90\"><span style=\"display: inline-block; position: relative; width: 0.637em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.517em, 1000.29em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-91\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">c</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.202em; left: 0.291em;\"><span class=\"texatom\" id=\"MathJax-Span-92\"><span class=\"mrow\" id=\"MathJax-Span-93\"><span class=\"mn\" id=\"MathJax-Span-94\" style=\"font-size: 50%; font-family: MathJax_Main;\">5</span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(0.867em, 1003.29em, 1.27em, -999.997em); top: -1.322em; left: 0em;\"><span style=\"display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 3.286em; height: 0px;\"></span><span style=\"display: inline-block; width: 0px; height: 1.097em;\"></span></span></span></span><span class=\"mo\" id=\"MathJax-Span-95\" style=\"font-family: MathJax_Main; padding-left: 0.291em;\">=</span><span class=\"msubsup\" id=\"MathJax-Span-96\" style=\"padding-left: 0.291em;\"><span style=\"display: inline-block; position: relative; width: 0.982em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.344em, 1000.52em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-97\" style=\"font-family: MathJax_Math-italic;\">a</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.317em; left: 0.521em;\"><span class=\"texatom\" id=\"MathJax-Span-98\"><span class=\"mrow\" id=\"MathJax-Span-99\"><span class=\"mi\" id=\"MathJax-Span-100\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">p</span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span><span class=\"msubsup\" id=\"MathJax-Span-101\"><span style=\"display: inline-block; position: relative; width: 0.809em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.113em, 1000.41em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-102\" style=\"font-family: MathJax_Math-italic;\">b</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.317em; left: 0.406em;\"><span class=\"texatom\" id=\"MathJax-Span-103\"><span class=\"mrow\" id=\"MathJax-Span-104\"><span class=\"mi\" id=\"MathJax-Span-105\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">q<span style=\"display: inline-block; overflow: hidden; height: 1px; width: 0.003em;\"></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span><span class=\"msubsup\" id=\"MathJax-Span-106\"><span style=\"display: inline-block; position: relative; width: 0.809em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.344em, 1000.41em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-107\" style=\"font-family: MathJax_Math-italic;\">c</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.317em; left: 0.464em;\"><span class=\"texatom\" id=\"MathJax-Span-108\"><span class=\"mrow\" id=\"MathJax-Span-109\"><span class=\"mi\" id=\"MathJax-Span-110\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">r</span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 2.365em;\"></span></span></span><span style=\"display: inline-block; overflow: hidden; vertical-align: -0.782em; border-left: 0px solid; width: 0px; height: 2.932em;\"></span></span></nobr><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo stretchy=\"false\">(</mo><msup><mi>a</mi><mn>2</mn></msup><msup><mi>b</mi><mrow class=\"MJX-TeXAtom-ORD\"><mo>−</mo><mn>3</mn></mrow></msup><mi>c</mi><msup><mo stretchy=\"false\">)</mo><mrow class=\"MJX-TeXAtom-ORD\"><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></msup></mrow><mrow><msup><mi>a</mi><mrow class=\"MJX-TeXAtom-ORD\"><mo>−</mo><mn>1</mn></mrow></msup><msup><mi>b</mi><mrow class=\"MJX-TeXAtom-ORD\"><mn>4</mn></mrow></msup><msup><mi>c</mi><mrow class=\"MJX-TeXAtom-ORD\"><mn>5</mn></mrow></msup></mrow></mfrac><mo>=</mo><msup><mi>a</mi><mrow class=\"MJX-TeXAtom-ORD\"><mi>p</mi></mrow></msup><msup><mi>b</mi><mrow class=\"MJX-TeXAtom-ORD\"><mi>q</mi></mrow></msup><msup><mi>c</mi><mrow class=\"MJX-TeXAtom-ORD\"><mi>r</mi></mrow></msup></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-2\">\\frac{(a^2 b^{-3}c)^{\\frac{3}{4}}}{a^{-1}b^{4}c^{5}}=a^{p} b^{q} c^{r}</script> What is the value of p+2q?</p>",
     "option_a": "A. (5/2)",
     "option_b": "B. -(5/4)",
     "option_c": "C. -(25/4)",
     "option_d": "D. -10",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
-    "question_text": "<p>If \\(\\frac{({a^2b^{-3}c})^{3/4}}{a^{-1}b^4c^5}\\) = \\(a^p b^q c^r\\); what is the value of p+2q?</p>",
+    "question_text": "<p>If <span class=\"MathJax_Preview\" style=\"color: inherit; display: none;\"></span><span class=\"MathJax\" id=\"MathJax-Element-3-Frame\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mfrac><mrow><mo stretchy=&quot;false&quot;>(</mo><mrow class=&quot;MJX-TeXAtom-ORD&quot;><msup><mi>a</mi><mn>2</mn></msup><msup><mi>b</mi><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mo>&amp;#x2212;</mo><mn>3</mn></mrow></msup><mi>c</mi></mrow><msup><mo stretchy=&quot;false&quot;>)</mo><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mn>3</mn><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mo>/</mo></mrow><mn>4</mn></mrow></msup></mrow><mrow><msup><mi>a</mi><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mo>&amp;#x2212;</mo><mn>1</mn></mrow></msup><msup><mi>b</mi><mn>4</mn></msup><msup><mi>c</mi><mn>5</mn></msup></mrow></mfrac></math>\" role=\"presentation\" style=\"position: relative;\"><nobr aria-hidden=\"true\"><span class=\"math\" id=\"MathJax-Span-51\" style=\"width: 4.611em; display: inline-block;\"><span style=\"display: inline-block; position: relative; width: 3.69em; height: 0px; font-size: 124%;\"><span style=\"position: absolute; clip: rect(0.867em, 1003.69em, 3.113em, -999.997em); top: -2.359em; left: 0em;\"><span class=\"mrow\" id=\"MathJax-Span-52\"><span class=\"mfrac\" id=\"MathJax-Span-53\"><span style=\"display: inline-block; position: relative; width: 3.459em; height: 0px; margin-right: 0.118em; margin-left: 0.118em;\"><span style=\"position: absolute; clip: rect(3.113em, 1003.34em, 4.323em, -999.997em); top: -4.548em; left: 50%; margin-left: -1.668em;\"><span class=\"mrow\" id=\"MathJax-Span-54\"><span class=\"mo\" id=\"MathJax-Span-55\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">(</span><span class=\"texatom\" id=\"MathJax-Span-56\"><span class=\"mrow\" id=\"MathJax-Span-57\"><span class=\"msubsup\" id=\"MathJax-Span-58\"><span style=\"display: inline-block; position: relative; width: 0.694em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.517em, 1000.35em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-59\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">a</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.202em; left: 0.349em;\"><span class=\"mn\" id=\"MathJax-Span-60\" style=\"font-size: 50%; font-family: MathJax_Main;\">2</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span><span class=\"msubsup\" id=\"MathJax-Span-61\"><span style=\"display: inline-block; position: relative; width: 0.982em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.286em, 1000.29em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-62\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">b</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.26em; left: 0.291em;\"><span class=\"texatom\" id=\"MathJax-Span-63\"><span class=\"mrow\" id=\"MathJax-Span-64\"><span class=\"mo\" id=\"MathJax-Span-65\" style=\"font-size: 50%; font-family: MathJax_Main;\">−</span><span class=\"mn\" id=\"MathJax-Span-66\" style=\"font-size: 50%; font-family: MathJax_Main;\">3</span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span><span class=\"mi\" id=\"MathJax-Span-67\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">c</span></span></span><span class=\"msubsup\" id=\"MathJax-Span-68\"><span style=\"display: inline-block; position: relative; width: 1.097em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.286em, 1000.23em, 4.323em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mo\" id=\"MathJax-Span-69\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">)</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.317em; left: 0.291em;\"><span class=\"texatom\" id=\"MathJax-Span-70\"><span class=\"mrow\" id=\"MathJax-Span-71\"><span class=\"mn\" id=\"MathJax-Span-72\" style=\"font-size: 50%; font-family: MathJax_Main;\">3</span><span class=\"texatom\" id=\"MathJax-Span-73\"><span class=\"mrow\" id=\"MathJax-Span-74\"><span class=\"mo\" id=\"MathJax-Span-75\" style=\"font-size: 50%; font-family: MathJax_Main;\">/</span></span></span><span class=\"mn\" id=\"MathJax-Span-76\" style=\"font-size: 50%; font-family: MathJax_Main;\">4</span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(3.171em, 1002.31em, 4.15em, -999.997em); top: -3.396em; left: 50%; margin-left: -1.149em;\"><span class=\"mrow\" id=\"MathJax-Span-77\"><span class=\"msubsup\" id=\"MathJax-Span-78\"><span style=\"display: inline-block; position: relative; width: 1.097em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.517em, 1000.35em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-79\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">a</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.202em; left: 0.349em;\"><span class=\"texatom\" id=\"MathJax-Span-80\"><span class=\"mrow\" id=\"MathJax-Span-81\"><span class=\"mo\" id=\"MathJax-Span-82\" style=\"font-size: 50%; font-family: MathJax_Main;\">−</span><span class=\"mn\" id=\"MathJax-Span-83\" style=\"font-size: 50%; font-family: MathJax_Main;\">1</span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span><span class=\"msubsup\" id=\"MathJax-Span-84\"><span style=\"display: inline-block; position: relative; width: 0.637em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.286em, 1000.29em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-85\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">b</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.26em; left: 0.291em;\"><span class=\"mn\" id=\"MathJax-Span-86\" style=\"font-size: 50%; font-family: MathJax_Main;\">4</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span><span class=\"msubsup\" id=\"MathJax-Span-87\"><span style=\"display: inline-block; position: relative; width: 0.637em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.517em, 1000.29em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-88\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">c</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.202em; left: 0.291em;\"><span class=\"mn\" id=\"MathJax-Span-89\" style=\"font-size: 50%; font-family: MathJax_Main;\">5</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(0.867em, 1003.46em, 1.27em, -999.997em); top: -1.322em; left: 0em;\"><span style=\"display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 3.459em; height: 0px;\"></span><span style=\"display: inline-block; width: 0px; height: 1.097em;\"></span></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 2.365em;\"></span></span></span><span style=\"display: inline-block; overflow: hidden; vertical-align: -0.782em; border-left: 0px solid; width: 0px; height: 2.432em;\"></span></span></nobr><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo stretchy=\"false\">(</mo><mrow class=\"MJX-TeXAtom-ORD\"><msup><mi>a</mi><mn>2</mn></msup><msup><mi>b</mi><mrow class=\"MJX-TeXAtom-ORD\"><mo>−</mo><mn>3</mn></mrow></msup><mi>c</mi></mrow><msup><mo stretchy=\"false\">)</mo><mrow class=\"MJX-TeXAtom-ORD\"><mn>3</mn><mrow class=\"MJX-TeXAtom-ORD\"><mo>/</mo></mrow><mn>4</mn></mrow></msup></mrow><mrow><msup><mi>a</mi><mrow class=\"MJX-TeXAtom-ORD\"><mo>−</mo><mn>1</mn></mrow></msup><msup><mi>b</mi><mn>4</mn></msup><msup><mi>c</mi><mn>5</mn></msup></mrow></mfrac></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-3\">\\frac{({a^2b^{-3}c})^{3/4}}{a^{-1}b^4c^5}</script> = <span class=\"MathJax_Preview\" style=\"color: inherit; display: none;\"></span><span class=\"MathJax\" id=\"MathJax-Element-4-Frame\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><msup><mi>a</mi><mi>p</mi></msup><msup><mi>b</mi><mi>q</mi></msup><msup><mi>c</mi><mi>r</mi></msup></math>\" role=\"presentation\" style=\"position: relative;\"><nobr aria-hidden=\"true\"><span class=\"math\" id=\"MathJax-Span-90\" style=\"width: 3.229em; display: inline-block;\"><span style=\"display: inline-block; position: relative; width: 2.595em; height: 0px; font-size: 124%;\"><span style=\"position: absolute; clip: rect(1.501em, 1002.6em, 2.537em, -999.997em); top: -2.359em; left: 0em;\"><span class=\"mrow\" id=\"MathJax-Span-91\"><span class=\"msubsup\" id=\"MathJax-Span-92\"><span style=\"display: inline-block; position: relative; width: 0.982em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.344em, 1000.52em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-93\" style=\"font-family: MathJax_Math-italic;\">a</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.317em; left: 0.521em;\"><span class=\"mi\" id=\"MathJax-Span-94\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">p</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span><span class=\"msubsup\" id=\"MathJax-Span-95\"><span style=\"display: inline-block; position: relative; width: 0.809em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.113em, 1000.41em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-96\" style=\"font-family: MathJax_Math-italic;\">b</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.317em; left: 0.406em;\"><span class=\"mi\" id=\"MathJax-Span-97\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">q<span style=\"display: inline-block; overflow: hidden; height: 1px; width: 0.003em;\"></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span><span class=\"msubsup\" id=\"MathJax-Span-98\"><span style=\"display: inline-block; position: relative; width: 0.809em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.344em, 1000.41em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-99\" style=\"font-family: MathJax_Math-italic;\">c</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.317em; left: 0.464em;\"><span class=\"mi\" id=\"MathJax-Span-100\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">r</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 2.365em;\"></span></span></span><span style=\"display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 1.004em;\"></span></span></nobr><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mi>p</mi></msup><msup><mi>b</mi><mi>q</mi></msup><msup><mi>c</mi><mi>r</mi></msup></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-4\">a^p b^q c^r</script>; what is the value of p+2q?</p>",
     "option_a": "A. (5/2)",
     "option_b": "B. -(5/4)",
     "option_c": "C. -(25/4)",
     "option_d": "D. -10",
-    "correct_option": ""
-  }
-]
-[
+    "correct_option": "D"
+  },
   {
     "course_id": "3",
     "question_text": "<p>A trader bought 100 oranges at 5 for N1.20, 20 oranges got spoilt and the remaining were sold at 4 for N1.50. Find the percentage gain or loss.</p>",
@@ -53,7 +51,7 @@
     "option_b": "B. 25% gain",
     "option_c": "C. 30% loss",
     "option_d": "D. 25% loss",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -62,37 +60,35 @@
     "option_b": "B. 356",
     "option_c": "C. 526",
     "option_d": "D. 556",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
-    "question_text": "<p>If 2\\(_9\\) x (Y3)\\(_9\\) = 3\\(_5\\) x (Y3)\\(_5\\), find the value of Y.</p>",
+    "question_text": "<p>If 2<span class=\"MathJax_Preview\" style=\"color: inherit; display: none;\"></span><span class=\"MathJax\" id=\"MathJax-Element-6-Frame\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><msub><mi></mi><mn>9</mn></msub></math>\" role=\"presentation\" style=\"position: relative;\"><nobr aria-hidden=\"true\"><span class=\"math\" id=\"MathJax-Span-26\" style=\"width: 0.521em; display: inline-block;\"><span style=\"display: inline-block; position: relative; width: 0.406em; height: 0px; font-size: 124%;\"><span style=\"position: absolute; clip: rect(1.846em, 1000.41em, 2.71em, -999.997em); top: -2.359em; left: 0em;\"><span class=\"mrow\" id=\"MathJax-Span-27\"><span class=\"msubsup\" id=\"MathJax-Span-28\"><span style=\"display: inline-block; position: relative; width: 0.406em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.805em, 1000em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-29\"></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -3.799em; left: 0em;\"><span class=\"mn\" id=\"MathJax-Span-30\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">9</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 2.365em;\"></span></span></span><span style=\"display: inline-block; overflow: hidden; vertical-align: -0.282em; border-left: 0px solid; width: 0px; height: 0.718em;\"></span></span></nobr><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi></mi><mn>9</mn></msub></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-6\">_9</script> x (Y3)<span class=\"MathJax_Preview\" style=\"color: inherit; display: none;\"></span><span class=\"MathJax\" id=\"MathJax-Element-7-Frame\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><msub><mi></mi><mn>9</mn></msub></math>\" role=\"presentation\" style=\"position: relative;\"><nobr aria-hidden=\"true\"><span class=\"math\" id=\"MathJax-Span-31\" style=\"width: 0.521em; display: inline-block;\"><span style=\"display: inline-block; position: relative; width: 0.406em; height: 0px; font-size: 124%;\"><span style=\"position: absolute; clip: rect(1.846em, 1000.41em, 2.71em, -999.997em); top: -2.359em; left: 0em;\"><span class=\"mrow\" id=\"MathJax-Span-32\"><span class=\"msubsup\" id=\"MathJax-Span-33\"><span style=\"display: inline-block; position: relative; width: 0.406em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.805em, 1000em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-34\"></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -3.799em; left: 0em;\"><span class=\"mn\" id=\"MathJax-Span-35\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">9</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 2.365em;\"></span></span></span><span style=\"display: inline-block; overflow: hidden; vertical-align: -0.282em; border-left: 0px solid; width: 0px; height: 0.718em;\"></span></span></nobr><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi></mi><mn>9</mn></msub></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7\">_9</script> = 3<span class=\"MathJax_Preview\" style=\"color: inherit; display: none;\"></span><span class=\"MathJax\" id=\"MathJax-Element-8-Frame\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><msub><mi></mi><mn>5</mn></msub></math>\" role=\"presentation\" style=\"position: relative;\"><nobr aria-hidden=\"true\"><span class=\"math\" id=\"MathJax-Span-36\" style=\"width: 0.521em; display: inline-block;\"><span style=\"display: inline-block; position: relative; width: 0.406em; height: 0px; font-size: 124%;\"><span style=\"position: absolute; clip: rect(1.846em, 1000.41em, 2.71em, -999.997em); top: -2.359em; left: 0em;\"><span class=\"mrow\" id=\"MathJax-Span-37\"><span class=\"msubsup\" id=\"MathJax-Span-38\"><span style=\"display: inline-block; position: relative; width: 0.406em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.805em, 1000em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-39\"></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -3.799em; left: 0em;\"><span class=\"mn\" id=\"MathJax-Span-40\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">5</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 2.365em;\"></span></span></span><span style=\"display: inline-block; overflow: hidden; vertical-align: -0.282em; border-left: 0px solid; width: 0px; height: 0.718em;\"></span></span></nobr><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi></mi><mn>5</mn></msub></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-8\">_5</script> x (Y3)<span class=\"MathJax_Preview\" style=\"color: inherit; display: none;\"></span><span class=\"MathJax\" id=\"MathJax-Element-9-Frame\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><msub><mi></mi><mn>5</mn></msub></math>\" role=\"presentation\" style=\"position: relative;\"><nobr aria-hidden=\"true\"><span class=\"math\" id=\"MathJax-Span-41\" style=\"width: 0.521em; display: inline-block;\"><span style=\"display: inline-block; position: relative; width: 0.406em; height: 0px; font-size: 124%;\"><span style=\"position: absolute; clip: rect(1.846em, 1000.41em, 2.71em, -999.997em); top: -2.359em; left: 0em;\"><span class=\"mrow\" id=\"MathJax-Span-42\"><span class=\"msubsup\" id=\"MathJax-Span-43\"><span style=\"display: inline-block; position: relative; width: 0.406em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.805em, 1000em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-44\"></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -3.799em; left: 0em;\"><span class=\"mn\" id=\"MathJax-Span-45\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">5</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 2.365em;\"></span></span></span><span style=\"display: inline-block; overflow: hidden; vertical-align: -0.282em; border-left: 0px solid; width: 0px; height: 0.718em;\"></span></span></nobr><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi></mi><mn>5</mn></msub></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-9\">_5</script>, find the value of Y.</p>",
     "option_a": "A. 4",
     "option_b": "B. 3",
     "option_c": "C. 2",
     "option_d": "D. 1",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
-    "question_text": "<p>Simplify \\(\\sqrt{\\frac{(0.0023 \\times 750)}{(0.00345 \\times 1.25)}}\\)</p>",
+    "question_text": "<p>Simplify <span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-14\"><span class=\"MJXp-msqrt\" id=\"MJXp-Span-15\"><span class=\"MJXp-surd\"><span class=\"MJXp-right MJXp-scale6\" style=\"font-size: 285%; margin-top: 0.049em; margin-left: -0.218em;\">√</span></span><span class=\"MJXp-root\"><span class=\"MJXp-rule\" style=\"border-top: 0.103em solid;\"></span><span class=\"MJXp-box\"><span class=\"MJXp-mfrac\" id=\"MJXp-Span-16\" style=\"vertical-align: 0.25em;\"><span class=\"MJXp-box MJXp-script\"><span class=\"MJXp-mo\" id=\"MJXp-Span-17\">(</span><span class=\"MJXp-mn\" id=\"MJXp-Span-18\">0.0023</span><span class=\"MJXp-mo\" id=\"MJXp-Span-19\">×</span><span class=\"MJXp-mn\" id=\"MJXp-Span-20\">750</span><span class=\"MJXp-mo\" id=\"MJXp-Span-21\">)</span></span><span class=\"MJXp-box\" style=\"margin-top: -0.9em;\"><span class=\"MJXp-denom\"><span><span class=\"MJXp-rule\" style=\"height: 1em; border-top: none; border-bottom: 1px solid; margin: 0.1em 0px;\"></span></span><span><span class=\"MJXp-box MJXp-script\"><span class=\"MJXp-mo\" id=\"MJXp-Span-22\">(</span><span class=\"MJXp-mn\" id=\"MJXp-Span-23\">0.00345</span><span class=\"MJXp-mo\" id=\"MJXp-Span-24\">×</span><span class=\"MJXp-mn\" id=\"MJXp-Span-25\">1.25</span><span class=\"MJXp-mo\" id=\"MJXp-Span-26\">)</span></span></span></span></span></span></span></span></span></span></span><script type=\"math/tex\" id=\"MathJax-Element-2\">\\sqrt{\\frac{(0.0023 \\times 750)}{(0.00345 \\times 1.25)}}</script></p>",
     "option_a": "A. 15",
     "option_b": "B. 20",
     "option_c": "C. 40",
     "option_d": "D. 75",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
-    "question_text": "<p>If \\(m*n = (\\frac{m}{n} - \\frac{n}{m}\\)) for m, n belong to R, evaluate -3*4</p>",
-    "option_a": "A. \\(\\frac{-25}{12}\\)",
-    "option_b": "B. \\(\\frac{-7}{12}\\)",
-    "option_c": "C. \\(\\frac{7}{12}\\)",
-    "option_d": "D. \\(\\frac{25}{12}\\)",
-    "correct_option": ""
-  }
-]
-[
+    "question_text": "<p>If <span class=\"MathJax_Preview\" style=\"color: inherit; display: none;\"></span><span class=\"MathJax\" id=\"MathJax-Element-2-Frame\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>m</mi><mo>&amp;#x2217;</mo><mi>n</mi><mo>=</mo><mo stretchy=&quot;false&quot;>(</mo><mfrac><mi>m</mi><mi>n</mi></mfrac><mo>&amp;#x2212;</mo><mfrac><mi>n</mi><mi>m</mi></mfrac></math>\" role=\"presentation\" style=\"position: relative;\"><nobr aria-hidden=\"true\"><span class=\"math\" id=\"MathJax-Span-15\" style=\"width: 9.219em; display: inline-block;\"><span style=\"display: inline-block; position: relative; width: 7.434em; height: 0px; font-size: 124%;\"><span style=\"position: absolute; clip: rect(1.443em, 1007.43em, 2.883em, -999.997em); top: -2.359em; left: 0em;\"><span class=\"mrow\" id=\"MathJax-Span-16\"><span class=\"mi\" id=\"MathJax-Span-17\" style=\"font-family: MathJax_Math-italic;\">m</span><span class=\"mo\" id=\"MathJax-Span-18\" style=\"font-family: MathJax_Main; padding-left: 0.233em;\">∗</span><span class=\"mi\" id=\"MathJax-Span-19\" style=\"font-family: MathJax_Math-italic; padding-left: 0.233em;\">n</span><span class=\"mo\" id=\"MathJax-Span-20\" style=\"font-family: MathJax_Main; padding-left: 0.291em;\">=</span><span class=\"mo\" id=\"MathJax-Span-21\" style=\"font-family: MathJax_Main; padding-left: 0.291em;\">(</span><span class=\"mfrac\" id=\"MathJax-Span-22\"><span style=\"display: inline-block; position: relative; width: 0.752em; height: 0px; margin-right: 0.118em; margin-left: 0.118em;\"><span style=\"position: absolute; clip: rect(3.517em, 1000.64em, 4.15em, -999.997em); top: -4.375em; left: 50%; margin-left: -0.285em;\"><span class=\"mi\" id=\"MathJax-Span-23\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">m</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(3.517em, 1000.41em, 4.15em, -999.997em); top: -3.626em; left: 50%; margin-left: -0.228em;\"><span class=\"mi\" id=\"MathJax-Span-24\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">n</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(0.867em, 1000.75em, 1.27em, -999.997em); top: -1.322em; left: 0em;\"><span style=\"display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 0.752em; height: 0px;\"></span><span style=\"display: inline-block; width: 0px; height: 1.097em;\"></span></span></span></span><span class=\"mo\" id=\"MathJax-Span-25\" style=\"font-family: MathJax_Main; padding-left: 0.233em;\">−</span><span class=\"mfrac\" id=\"MathJax-Span-26\" style=\"padding-left: 0.233em;\"><span style=\"display: inline-block; position: relative; width: 0.752em; height: 0px; margin-right: 0.118em; margin-left: 0.118em;\"><span style=\"position: absolute; clip: rect(3.517em, 1000.41em, 4.15em, -999.997em); top: -4.375em; left: 50%; margin-left: -0.228em;\"><span class=\"mi\" id=\"MathJax-Span-27\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">n</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(3.517em, 1000.64em, 4.15em, -999.997em); top: -3.626em; left: 50%; margin-left: -0.285em;\"><span class=\"mi\" id=\"MathJax-Span-28\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">m</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(0.867em, 1000.75em, 1.27em, -999.997em); top: -1.322em; left: 0em;\"><span style=\"display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 0.752em; height: 0px;\"></span><span style=\"display: inline-block; width: 0px; height: 1.097em;\"></span></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 2.365em;\"></span></span></span><span style=\"display: inline-block; overflow: hidden; vertical-align: -0.496em; border-left: 0px solid; width: 0px; height: 1.504em;\"></span></span></nobr><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>∗</mo><mi>n</mi><mo>=</mo><mo stretchy=\"false\">(</mo><mfrac><mi>m</mi><mi>n</mi></mfrac><mo>−</mo><mfrac><mi>n</mi><mi>m</mi></mfrac></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-2\">m*n = (\\frac{m}{n} - \\frac{n}{m}</script>) for m, n belong to R, evaluate -3*4</p>",
+    "option_a": "A. \n−25\n12\n−\n25\n12",
+    "option_b": "B. \n−7\n12\n−\n7\n12",
+    "option_c": "C. \n7\n12\n7\n12",
+    "option_d": "D. \n25\n12\n25\n12",
+    "correct_option": "C"
+  },
   {
     "course_id": "3",
     "question_text": "The sum of two numbers is twice their difference. If the difference of the numbers is P, find the larger of the two numbers",
@@ -100,7 +96,7 @@
     "option_b": "B. 3p/2",
     "option_c": "C. 5p/2",
     "option_d": "D. 3p",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -109,16 +105,16 @@
     "option_b": "B. 1/2",
     "option_c": "C. -1/2",
     "option_d": "D. -2/3",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
-    "question_text": "<p>Factorize completely \\(x^{2} + 2xy + y^{2} + 3x + 3y - 18\\).</p>",
+    "question_text": "<p>Factorize completely <span class=\"MathJax_Preview\" style=\"color: inherit; display: none;\"></span><span class=\"MathJax\" id=\"MathJax-Element-2-Frame\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><msup><mi>x</mi><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mn>2</mn></mrow></msup><mo>+</mo><mn>2</mn><mi>x</mi><mi>y</mi><mo>+</mo><msup><mi>y</mi><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mn>2</mn></mrow></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>3</mn><mi>y</mi><mo>&amp;#x2212;</mo><mn>18</mn></math>\" role=\"presentation\" style=\"position: relative;\"><nobr aria-hidden=\"true\"><span class=\"math\" id=\"MathJax-Span-26\" style=\"width: 15.901em; display: inline-block;\"><span style=\"display: inline-block; position: relative; width: 12.791em; height: 0px; font-size: 124%;\"><span style=\"position: absolute; clip: rect(1.385em, 1012.73em, 2.768em, -999.997em); top: -2.359em; left: 0em;\"><span class=\"mrow\" id=\"MathJax-Span-27\"><span class=\"msubsup\" id=\"MathJax-Span-28\"><span style=\"display: inline-block; position: relative; width: 0.982em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.344em, 1000.52em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-29\" style=\"font-family: MathJax_Math-italic;\">x</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.317em; left: 0.579em;\"><span class=\"texatom\" id=\"MathJax-Span-30\"><span class=\"mrow\" id=\"MathJax-Span-31\"><span class=\"mn\" id=\"MathJax-Span-32\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">2</span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span><span class=\"mo\" id=\"MathJax-Span-33\" style=\"font-family: MathJax_Main; padding-left: 0.233em;\">+</span><span class=\"mn\" id=\"MathJax-Span-34\" style=\"font-family: MathJax_Main; padding-left: 0.233em;\">2</span><span class=\"mi\" id=\"MathJax-Span-35\" style=\"font-family: MathJax_Math-italic;\">x</span><span class=\"mi\" id=\"MathJax-Span-36\" style=\"font-family: MathJax_Math-italic;\">y<span style=\"display: inline-block; overflow: hidden; height: 1px; width: 0.003em;\"></span></span><span class=\"mo\" id=\"MathJax-Span-37\" style=\"font-family: MathJax_Main; padding-left: 0.233em;\">+</span><span class=\"msubsup\" id=\"MathJax-Span-38\" style=\"padding-left: 0.233em;\"><span style=\"display: inline-block; position: relative; width: 0.982em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.344em, 1000.52em, 4.381em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-39\" style=\"font-family: MathJax_Math-italic;\">y<span style=\"display: inline-block; overflow: hidden; height: 1px; width: 0.003em;\"></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.317em; left: 0.579em;\"><span class=\"texatom\" id=\"MathJax-Span-40\"><span class=\"mrow\" id=\"MathJax-Span-41\"><span class=\"mn\" id=\"MathJax-Span-42\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">2</span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span><span class=\"mo\" id=\"MathJax-Span-43\" style=\"font-family: MathJax_Main; padding-left: 0.233em;\">+</span><span class=\"mn\" id=\"MathJax-Span-44\" style=\"font-family: MathJax_Main; padding-left: 0.233em;\">3</span><span class=\"mi\" id=\"MathJax-Span-45\" style=\"font-family: MathJax_Math-italic;\">x</span><span class=\"mo\" id=\"MathJax-Span-46\" style=\"font-family: MathJax_Main; padding-left: 0.233em;\">+</span><span class=\"mn\" id=\"MathJax-Span-47\" style=\"font-family: MathJax_Main; padding-left: 0.233em;\">3</span><span class=\"mi\" id=\"MathJax-Span-48\" style=\"font-family: MathJax_Math-italic;\">y<span style=\"display: inline-block; overflow: hidden; height: 1px; width: 0.003em;\"></span></span><span class=\"mo\" id=\"MathJax-Span-49\" style=\"font-family: MathJax_Main; padding-left: 0.233em;\">−</span><span class=\"mn\" id=\"MathJax-Span-50\" style=\"font-family: MathJax_Main; padding-left: 0.233em;\">18</span></span><span style=\"display: inline-block; width: 0px; height: 2.365em;\"></span></span></span><span style=\"display: inline-block; overflow: hidden; vertical-align: -0.354em; border-left: 0px solid; width: 0px; height: 1.432em;\"></span></span></nobr><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mrow class=\"MJX-TeXAtom-ORD\"><mn>2</mn></mrow></msup><mo>+</mo><mn>2</mn><mi>x</mi><mi>y</mi><mo>+</mo><msup><mi>y</mi><mrow class=\"MJX-TeXAtom-ORD\"><mn>2</mn></mrow></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>3</mn><mi>y</mi><mo>−</mo><mn>18</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-2\">x^{2} + 2xy + y^{2} + 3x + 3y - 18</script>.</p>",
     "option_a": "A. (x+y+6)(x+y-3)",
     "option_b": "B. (x-y-6)(x-y+3)",
     "option_c": "C. (x-y+6)(x-y-3)",
     "option_d": "D. (x+y-6)(x+y+3)",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -127,27 +123,25 @@
     "option_b": "B. 5≤X≤8",
     "option_c": "C. 5≤X≤10",
     "option_d": "D. 8≤X≤10",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
-    "question_text": "<p>Three consecutive positive integers k, l and m are such that l\\(^2\\) = 3(k+m). Find the value of m.</p>",
+    "question_text": "<p>Three consecutive positive integers k, l and m are such that l<span class=\"MathJax_Preview\" style=\"color: inherit; display: none;\"></span><span class=\"MathJax\" id=\"MathJax-Element-2-Frame\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><msup><mi></mi><mn>2</mn></msup></math>\" role=\"presentation\" style=\"position: relative;\"><nobr aria-hidden=\"true\"><span class=\"math\" id=\"MathJax-Span-6\" style=\"width: 0.521em; display: inline-block;\"><span style=\"display: inline-block; position: relative; width: 0.406em; height: 0px; font-size: 124%;\"><span style=\"position: absolute; clip: rect(1.385em, 1000.41em, 2.537em, -999.997em); top: -2.359em; left: 0em;\"><span class=\"mrow\" id=\"MathJax-Span-7\"><span class=\"msubsup\" id=\"MathJax-Span-8\"><span style=\"display: inline-block; position: relative; width: 0.406em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.805em, 1000em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-9\"></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.317em; left: 0em;\"><span class=\"mn\" id=\"MathJax-Span-10\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">2</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 2.365em;\"></span></span></span><span style=\"display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 1.146em;\"></span></span></nobr><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi></mi><mn>2</mn></msup></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-2\">^2</script> = 3(k+m). Find the value of m.</p>",
     "option_a": "A. 4",
     "option_b": "B. 5",
     "option_c": "C. 6",
     "option_d": "D. 7",
-    "correct_option": ""
-  }
-]
-[
+    "correct_option": "D"
+  },
   {
     "course_id": "3",
-    "question_text": "<p>Express \\(\\frac{1}{x^{3}-1}\\) in partial fractions</p>",
-    "option_a": "A. \\(\\frac{1}{3}(\\frac{1}{x - 1} - \\frac{(x + 2)}{x^{2} + x + 1})\\)",
-    "option_b": "B. \\(\\frac{1}{3}(\\frac{1}{x - 1} - \\frac{x - 2}{x^{2} + x + 1})\\)",
-    "option_c": "C. \\(\\frac{1}{3}(\\frac{1}{x - 1} - \\frac{(x - 2)}{x^{2} + x + 1})\\)",
-    "option_d": "D. \\(\\frac{1}{3}(\\frac{1}{x - 1} - \\frac{(x - 1)}{x^{2} - x - 1})\\)",
-    "correct_option": ""
+    "question_text": "<p>Express <span class=\"MathJax_Preview\" style=\"color: inherit; display: none;\"></span><span class=\"MathJax\" id=\"MathJax-Element-2-Frame\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mn>3</mn></mrow></msup><mo>&amp;#x2212;</mo><mn>1</mn></mrow></mfrac></math>\" role=\"presentation\" style=\"position: relative;\"><nobr aria-hidden=\"true\"><span class=\"math\" id=\"MathJax-Span-13\" style=\"width: 2.422em; display: inline-block;\"><span style=\"display: inline-block; position: relative; width: 1.961em; height: 0px; font-size: 124%;\"><span style=\"position: absolute; clip: rect(1.328em, 1001.96em, 3.056em, -999.997em); top: -2.359em; left: 0em;\"><span class=\"mrow\" id=\"MathJax-Span-14\"><span class=\"mfrac\" id=\"MathJax-Span-15\"><span style=\"display: inline-block; position: relative; width: 1.731em; height: 0px; margin-right: 0.118em; margin-left: 0.118em;\"><span style=\"position: absolute; clip: rect(3.344em, 1000.29em, 4.15em, -999.997em); top: -4.375em; left: 50%; margin-left: -0.17em;\"><span class=\"mn\" id=\"MathJax-Span-16\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">1</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(3.286em, 1001.56em, 4.208em, -999.997em); top: -3.511em; left: 50%; margin-left: -0.804em;\"><span class=\"mrow\" id=\"MathJax-Span-17\"><span class=\"msubsup\" id=\"MathJax-Span-18\"><span style=\"display: inline-block; position: relative; width: 0.694em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.517em, 1000.35em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-19\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">x</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.202em; left: 0.406em;\"><span class=\"texatom\" id=\"MathJax-Span-20\"><span class=\"mrow\" id=\"MathJax-Span-21\"><span class=\"mn\" id=\"MathJax-Span-22\" style=\"font-size: 50%; font-family: MathJax_Main;\">3</span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span><span class=\"mo\" id=\"MathJax-Span-23\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">−</span><span class=\"mn\" id=\"MathJax-Span-24\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">1</span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(0.867em, 1001.73em, 1.27em, -999.997em); top: -1.322em; left: 0em;\"><span style=\"display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 1.731em; height: 0px;\"></span><span style=\"display: inline-block; width: 0px; height: 1.097em;\"></span></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 2.365em;\"></span></span></span><span style=\"display: inline-block; overflow: hidden; vertical-align: -0.711em; border-left: 0px solid; width: 0px; height: 1.861em;\"></span></span></nobr><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mrow class=\"MJX-TeXAtom-ORD\"><mn>3</mn></mrow></msup><mo>−</mo><mn>1</mn></mrow></mfrac></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-2\">\\frac{1}{x^{3}-1}</script> in partial fractions</p>",
+    "option_a": "A. \n1\n3\n(\n1\nx−1\n−\n(x+2)\nx\n2\n+x+1\n)\n1\n3\n(\n1\n𝑥\n−\n1\n−\n(\n𝑥\n+\n2\n)\n𝑥\n2\n+\n𝑥\n+\n1\n)",
+    "option_b": "B. \n1\n3\n(\n1\nx−1\n−\nx−2\nx\n2\n+x+1\n)\n1\n3\n(\n1\n𝑥\n−\n1\n−\n𝑥\n−\n2\n𝑥\n2\n+\n𝑥\n+\n1\n)",
+    "option_c": "C. \n1\n3\n(\n1\nx−1\n−\n(x−2)\nx\n2\n+x+1\n)\n1\n3\n(\n1\n𝑥\n−\n1\n−\n(\n𝑥\n−\n2\n)\n𝑥\n2\n+\n𝑥\n+\n1\n)",
+    "option_d": "D. \n1\n3\n(\n1\nx−1\n−\n(x−1)\nx\n2\n−x−1\n)\n1\n3\n(\n1\n𝑥\n−\n1\n−\n(\n𝑥\n−\n1\n)\n𝑥\n2\n−\n𝑥\n−\n1\n)",
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -156,37 +150,35 @@
     "option_b": "B. 8/3",
     "option_c": "C. 72/25",
     "option_d": "D. 56/9",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
-    "question_text": "<p>Divide 4x\\(^3\\) - 3x + 1 by 2x - 1</p>",
+    "question_text": "<p>Divide 4x<span class=\"MathJax_Preview\" style=\"color: inherit; display: none;\"></span><span class=\"MathJax\" id=\"MathJax-Element-3-Frame\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><msup><mi></mi><mn>3</mn></msup></math>\" role=\"presentation\" style=\"position: relative;\"><nobr aria-hidden=\"true\"><span class=\"math\" id=\"MathJax-Span-11\" style=\"width: 0.521em; display: inline-block;\"><span style=\"display: inline-block; position: relative; width: 0.406em; height: 0px; font-size: 124%;\"><span style=\"position: absolute; clip: rect(1.385em, 1000.41em, 2.537em, -999.997em); top: -2.359em; left: 0em;\"><span class=\"mrow\" id=\"MathJax-Span-12\"><span class=\"msubsup\" id=\"MathJax-Span-13\"><span style=\"display: inline-block; position: relative; width: 0.406em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.805em, 1000em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-14\"></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.317em; left: 0em;\"><span class=\"mn\" id=\"MathJax-Span-15\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">3</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 2.365em;\"></span></span></span><span style=\"display: inline-block; overflow: hidden; vertical-align: -0.068em; border-left: 0px solid; width: 0px; height: 1.146em;\"></span></span></nobr><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi></mi><mn>3</mn></msup></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-3\">^3</script> - 3x + 1 by 2x - 1</p>",
     "option_a": "A. 2x2-x+1",
     "option_b": "B. 2x2-x-1",
     "option_c": "C. 2x2+x+1",
     "option_d": "D. 2x2+x-1",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
-    "question_text": "<p>Find a positive value of \\(\\alpha\\)&nbsp;if the coordinate of the centre of a circle x\\(^2\\) + y\\(^2\\) - 2\\(\\alpha\\)x + 4y - \\(\\alpha\\)&nbsp;= 0 is (\\(\\alpha\\), -2) and the radius is 4 units.</p>",
+    "question_text": "<p>Find a positive value of <span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-7\"><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-8\">α</span></span></span><span class=\"MathJax MathJax_Processed\" id=\"MathJax-Element-3-Frame\" tabindex=\"0\" style=\"\"><nobr><span class=\"math\" id=\"MathJax-Span-9\"><span style=\"display: inline-block; position: relative; width: 0em; height: 0px; font-size: 124%;\"><span style=\"position: absolute;\"><span class=\"mrow\" id=\"MathJax-Span-10\"><span class=\"mi\" id=\"MathJax-Span-11\" style=\"font-family: MathJax_Math-italic;\">α</span></span></span></span></span></nobr></span><script type=\"math/tex\" id=\"MathJax-Element-3\">\\alpha</script>&nbsp;if the coordinate of the centre of a circle x<span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-9\"><span class=\"MJXp-msubsup\" id=\"MJXp-Span-10\"><span class=\"MJXp-mi\" id=\"MJXp-Span-11\" style=\"margin-right: 0.05em;\"></span><span class=\"MJXp-mn MJXp-script\" id=\"MJXp-Span-12\" style=\"vertical-align: 0.5em;\">2</span></span></span></span><span class=\"MathJax MathJax_Processed\" id=\"MathJax-Element-4-Frame\" tabindex=\"0\" style=\"\"><nobr><span class=\"math\" id=\"MathJax-Span-12\"><span style=\"display: inline-block; position: relative; width: 0em; height: 0px; font-size: 124%;\"><span style=\"position: absolute;\"><span class=\"mrow\" id=\"MathJax-Span-13\"><span class=\"msubsup\" id=\"MathJax-Span-14\"><span style=\"display: inline-block; position: relative; width: 0.406em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.805em, 1000em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-15\"></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.317em; left: 0em;\"><span class=\"mn\" id=\"MathJax-Span-16\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">2</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span></span></span></span></span></nobr></span><script type=\"math/tex\" id=\"MathJax-Element-4\">^2</script> + y<span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-13\"><span class=\"MJXp-msubsup\" id=\"MJXp-Span-14\"><span class=\"MJXp-mi\" id=\"MJXp-Span-15\" style=\"margin-right: 0.05em;\"></span><span class=\"MJXp-mn MJXp-script\" id=\"MJXp-Span-16\" style=\"vertical-align: 0.5em;\">2</span></span></span></span><span class=\"MathJax MathJax_Processed\" id=\"MathJax-Element-5-Frame\" tabindex=\"0\" style=\"\"><nobr><span class=\"math\" id=\"MathJax-Span-17\"><span style=\"display: inline-block; position: relative; width: 0em; height: 0px; font-size: 124%;\"><span style=\"position: absolute;\"><span class=\"mrow\" id=\"MathJax-Span-18\"><span class=\"msubsup\" id=\"MathJax-Span-19\"><span style=\"display: inline-block; position: relative; width: 0.406em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.805em, 1000em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-20\"></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.317em; left: 0em;\"><span class=\"mn\" id=\"MathJax-Span-21\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">2</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span></span></span></span></span></nobr></span><script type=\"math/tex\" id=\"MathJax-Element-5\">^2</script> - 2<span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-17\"><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-18\">α</span></span></span><span class=\"MathJax MathJax_Processed\" id=\"MathJax-Element-6-Frame\" tabindex=\"0\" style=\"\"><nobr><span class=\"math\" id=\"MathJax-Span-22\"><span style=\"display: inline-block; position: relative; width: 0em; height: 0px; font-size: 124%;\"><span style=\"position: absolute;\"><span class=\"mrow\" id=\"MathJax-Span-23\"><span class=\"mi\" id=\"MathJax-Span-24\" style=\"font-family: MathJax_Math-italic;\">α</span></span></span></span></span></nobr></span><script type=\"math/tex\" id=\"MathJax-Element-6\">\\alpha</script>x + 4y - <span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-19\"><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-20\">α</span></span></span><span class=\"MathJax MathJax_Processed\" id=\"MathJax-Element-7-Frame\" tabindex=\"0\" style=\"\"><nobr><span class=\"math\" id=\"MathJax-Span-25\"><span style=\"display: inline-block; position: relative; width: 0em; height: 0px; font-size: 124%;\"><span style=\"position: absolute;\"><span class=\"mrow\" id=\"MathJax-Span-26\"><span class=\"mi\" id=\"MathJax-Span-27\" style=\"font-family: MathJax_Math-italic;\">α</span></span></span></span></span></nobr></span><script type=\"math/tex\" id=\"MathJax-Element-7\">\\alpha</script>&nbsp;= 0 is (<span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-21\"><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-22\">α</span></span></span><span class=\"MathJax MathJax_Processed\" id=\"MathJax-Element-8-Frame\" tabindex=\"0\" style=\"\"><nobr><span class=\"math\" id=\"MathJax-Span-28\"><span style=\"display: inline-block; position: relative; width: 0em; height: 0px; font-size: 124%;\"><span style=\"position: absolute;\"><span class=\"mrow\" id=\"MathJax-Span-29\"><span class=\"mi\" id=\"MathJax-Span-30\" style=\"font-family: MathJax_Math-italic;\">α</span></span></span></span></span></nobr></span><script type=\"math/tex\" id=\"MathJax-Element-8\">\\alpha</script>, -2) and the radius is 4 units.</p>",
     "option_a": "A. 1",
     "option_b": "B. 2",
     "option_c": "C. 3",
     "option_d": "D. 4",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
     "question_text": "<p>A man 1.7m tall observes a bird on top of a tree at an angle of 30°. if the distance between the man's head and the bird is 25m, what is the height of the tree?</p>",
     "option_a": "A. 26.7m",
     "option_b": "B. 14.2m",
-    "option_c": "C. \\(1.7+(25\\frac{\\sqrt{3}}{3}m\\)",
-    "option_d": "D. \\(1.7+(25\\frac{\\sqrt{2}}{2}m\\)",
-    "correct_option": ""
-  }
-]
-[
+    "option_c": "C. \n1.7+(25\n3\n√\n3\nm\n1.7\n+\n(\n25\n3\n3\n𝑚",
+    "option_d": "D. \n1.7+(25\n2\n√\n2\nm\n1.7\n+\n(\n25\n2\n2\n𝑚",
+    "correct_option": "B"
+  },
   {
     "course_id": "3",
     "question_text": "<p>In ∆MNO, MN = 6 units, MO = 4 units and NO = 12 units. If the bisector of angle M meets NO at P, calculate NP.</p>",
@@ -194,7 +186,7 @@
     "option_b": "B. 7.2 units",
     "option_c": "C. 8.0 units",
     "option_d": "D. 18.0 units",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -203,7 +195,7 @@
     "option_b": "B. 7/8",
     "option_c": "C. 7/4",
     "option_d": "D. 7/2",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -212,7 +204,7 @@
     "option_b": "B. 140m",
     "option_c": "C. 150m",
     "option_d": "D. 160m",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -221,27 +213,25 @@
     "option_b": "B. 2x + 3y = 8",
     "option_c": "C. 2x + y = 9",
     "option_d": "D. x + 2y = 8",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
     "question_text": "Find the area bounded by the curve y = x(2-x). The x-axis, x = 0 and x = 2.",
     "option_a": "A. 4 sq units",
     "option_b": "B. 2 sq units",
-    "option_c": "C. \\(\\frac{4}{3}sq\\hspace{1 mm}units\\)",
-    "option_d": "D. \\(\\frac{1}{3}sq\\hspace{1 mm}units\\)",
-    "correct_option": ""
-  }
-]
-[
+    "option_c": "C. \n4\n3\nsqunits\n4\n3\n𝑠\n𝑞\n𝑢\n𝑛\n𝑖\n𝑡\n𝑠",
+    "option_d": "D. \n1\n3\nsqunits\n1\n3\n𝑠\n𝑞\n𝑢\n𝑛\n𝑖\n𝑡\n𝑠",
+    "correct_option": "C"
+  },
   {
     "course_id": "3",
-    "question_text": "Evaluate: \\(\\int^{z}_{0}(sin x - cos x) dx \\hspace{1mm}<br>\n<br>\nWhere\\hspace{1mm}letter\\hspace{1mm}z = \\frac{\\pi}{4}. (\\pi = pi)\\)",
-    "option_a": "A. \\(\\sqrt{2 +1}\\)",
-    "option_b": "B. \\(\\sqrt{2 }-1\\)",
-    "option_c": "C. \\(-\\sqrt{2 }-1\\)",
-    "option_d": "D. \\(1-\\sqrt{2}\\)",
-    "correct_option": ""
+    "question_text": "Evaluate: <span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-47\"><span class=\"MJXp-msubsup\" id=\"MJXp-Span-48\"><span class=\"MJXp-mo\" id=\"MJXp-Span-49\" style=\"margin-left: 0em; margin-right: 0.05em;\">∫</span><span class=\"MJXp-script-box\" style=\"height: 1.86em; vertical-align: -0.64em;\"><span class=\" MJXp-script\"><span><span style=\"margin-bottom: -0.25em;\"><span class=\"MJXp-mrow\" id=\"MJXp-Span-52\"><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-53\">z</span></span></span></span></span><span class=\" MJXp-script\"><span><span style=\"margin-top: -0.85em;\"><span class=\"MJXp-mrow\" id=\"MJXp-Span-50\"><span class=\"MJXp-mn\" id=\"MJXp-Span-51\">0</span></span></span></span></span></span></span><span class=\"MJXp-mo\" id=\"MJXp-Span-54\" style=\"margin-left: 0em; margin-right: 0em;\">(</span><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-55\">s</span><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-56\">i</span><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-57\">n</span><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-58\">x</span><span class=\"MJXp-mo\" id=\"MJXp-Span-59\" style=\"margin-left: 0.267em; margin-right: 0.267em;\">−</span><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-60\">c</span><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-61\">o</span><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-62\">s</span><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-63\">x</span><span class=\"MJXp-mo\" id=\"MJXp-Span-64\" style=\"margin-left: 0em; margin-right: 0em;\">)</span><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-65\">d</span><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-66\">x</span><span class=\"MJXp-mspace\" id=\"MJXp-Span-67\" style=\"width: 0.236em; height: 0em;\"></span><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-68\">W</span><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-69\">h</span><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-70\">e</span><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-71\">r</span><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-72\">e</span><span class=\"MJXp-mspace\" id=\"MJXp-Span-73\" style=\"width: 0.236em; height: 0em;\"></span><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-74\">l</span><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-75\">e</span><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-76\">t</span><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-77\">t</span><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-78\">e</span><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-79\">r</span><span class=\"MJXp-mspace\" id=\"MJXp-Span-80\" style=\"width: 0.236em; height: 0em;\"></span><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-81\">z</span><span class=\"MJXp-mo\" id=\"MJXp-Span-82\" style=\"margin-left: 0.333em; margin-right: 0.333em;\">=</span><span class=\"MJXp-mfrac\" id=\"MJXp-Span-83\" style=\"vertical-align: 0.25em;\"><span class=\"MJXp-box MJXp-script\"><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-84\">π</span></span><span class=\"MJXp-box\" style=\"margin-top: -0.9em;\"><span class=\"MJXp-denom\"><span><span class=\"MJXp-rule\" style=\"height: 1em; border-top: none; border-bottom: 1px solid; margin: 0.1em 0px;\"></span></span><span><span class=\"MJXp-box MJXp-script\"><span class=\"MJXp-mn\" id=\"MJXp-Span-85\">4</span></span></span></span></span></span><span class=\"MJXp-mo\" id=\"MJXp-Span-86\" style=\"margin-left: 0em; margin-right: 0.222em;\">.</span><span class=\"MJXp-mo\" id=\"MJXp-Span-87\" style=\"margin-left: 0em; margin-right: 0em;\">(</span><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-88\">π</span><span class=\"MJXp-mo\" id=\"MJXp-Span-89\" style=\"margin-left: 0.333em; margin-right: 0.333em;\">=</span><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-90\">p</span><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-91\">i</span><span class=\"MJXp-mo\" id=\"MJXp-Span-92\" style=\"margin-left: 0em; margin-right: 0em;\">)</span></span></span><script type=\"math/tex\" id=\"MathJax-Element-2\">\\int^{z}_{0}(sin x - cos x) dx \\hspace{1mm} \n \nWhere\\hspace{1mm}letter\\hspace{1mm}z = \\frac{\\pi}{4}. (\\pi = pi)</script>",
+    "option_a": "A. \n√\n2+1",
+    "option_b": "B. \n√\n2\n−1",
+    "option_c": "C. −\n√\n2\n−1",
+    "option_d": "D. 1−\n√\n2",
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -250,7 +240,7 @@
     "option_b": "B. 36 π cubic units",
     "option_c": "C. 18 π cubic units",
     "option_d": "D. 9 π cubic units",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -259,28 +249,26 @@
     "option_b": "B. 2t sin (3t - 5) - 3t2 cos (3t - 5)",
     "option_c": "C. 2t sin (3t - 5) + 3t2 cos (3t - 5)",
     "option_d": "D. 2t sin (3t - 5) + t2 cos 3t",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
-    "question_text": "Evaluate \\(\\int^{1}_{-2}(x-1)^{2}dx\\)",
-    "option_a": "A. \\(\\frac{-10}{3}\\)",
+    "question_text": "Evaluate <span class=\"MathJax_Preview\" style=\"color: inherit; display: none;\"></span><span class=\"MathJax\" id=\"MathJax-Element-2-Frame\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><msubsup><mo>&amp;#x222B;</mo><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mo>&amp;#x2212;</mo><mn>2</mn></mrow><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mn>1</mn></mrow></msubsup><mo stretchy=&quot;false&quot;>(</mo><mi>x</mi><mo>&amp;#x2212;</mo><mn>1</mn><msup><mo stretchy=&quot;false&quot;>)</mo><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mn>2</mn></mrow></msup><mi>d</mi><mi>x</mi></math>\" role=\"presentation\" style=\"position: relative;\"><nobr aria-hidden=\"true\"><span class=\"math\" id=\"MathJax-Span-23\" style=\"width: 7.549em; display: inline-block;\"><span style=\"display: inline-block; position: relative; width: 6.051em; height: 0px; font-size: 124%;\"><span style=\"position: absolute; clip: rect(1.213em, 1005.99em, 2.941em, -999.997em); top: -2.359em; left: 0em;\"><span class=\"mrow\" id=\"MathJax-Span-24\"><span class=\"msubsup\" id=\"MathJax-Span-25\"><span style=\"display: inline-block; position: relative; width: 1.443em; height: 0px;\"><span style=\"position: absolute; clip: rect(2.998em, 1000.64em, 4.438em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mo\" id=\"MathJax-Span-26\" style=\"font-family: MathJax_Size1; vertical-align: 0em;\">∫<span style=\"display: inline-block; overflow: hidden; height: 1px; width: 0.118em;\"></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(3.344em, 1000.41em, 4.15em, -999.997em); top: -4.49em; left: 0.694em;\"><span class=\"texatom\" id=\"MathJax-Span-27\"><span class=\"mrow\" id=\"MathJax-Span-28\"><span class=\"mn\" id=\"MathJax-Span-29\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">1</span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(3.344em, 1000.98em, 4.208em, -999.997em); top: -3.626em; left: 0.464em;\"><span class=\"texatom\" id=\"MathJax-Span-30\"><span class=\"mrow\" id=\"MathJax-Span-31\"><span class=\"mo\" id=\"MathJax-Span-32\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">−</span><span class=\"mn\" id=\"MathJax-Span-33\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">2</span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span><span class=\"mo\" id=\"MathJax-Span-34\" style=\"font-family: MathJax_Main;\">(</span><span class=\"mi\" id=\"MathJax-Span-35\" style=\"font-family: MathJax_Math-italic;\">x</span><span class=\"mo\" id=\"MathJax-Span-36\" style=\"font-family: MathJax_Main; padding-left: 0.233em;\">−</span><span class=\"mn\" id=\"MathJax-Span-37\" style=\"font-family: MathJax_Main; padding-left: 0.233em;\">1</span><span class=\"msubsup\" id=\"MathJax-Span-38\"><span style=\"display: inline-block; position: relative; width: 0.809em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.056em, 1000.29em, 4.381em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mo\" id=\"MathJax-Span-39\" style=\"font-family: MathJax_Main;\">)</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.317em; left: 0.406em;\"><span class=\"texatom\" id=\"MathJax-Span-40\"><span class=\"mrow\" id=\"MathJax-Span-41\"><span class=\"mn\" id=\"MathJax-Span-42\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">2</span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span><span class=\"mi\" id=\"MathJax-Span-43\" style=\"font-family: MathJax_Math-italic;\">d<span style=\"display: inline-block; overflow: hidden; height: 1px; width: 0.003em;\"></span></span><span class=\"mi\" id=\"MathJax-Span-44\" style=\"font-family: MathJax_Math-italic;\">x</span></span><span style=\"display: inline-block; width: 0px; height: 2.365em;\"></span></span></span><span style=\"display: inline-block; overflow: hidden; vertical-align: -0.568em; border-left: 0px solid; width: 0px; height: 1.861em;\"></span></span></nobr><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msubsup><mo>∫</mo><mrow class=\"MJX-TeXAtom-ORD\"><mo>−</mo><mn>2</mn></mrow><mrow class=\"MJX-TeXAtom-ORD\"><mn>1</mn></mrow></msubsup><mo stretchy=\"false\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><msup><mo stretchy=\"false\">)</mo><mrow class=\"MJX-TeXAtom-ORD\"><mn>2</mn></mrow></msup><mi>d</mi><mi>x</mi></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-2\">\\int^{1}_{-2}(x-1)^{2}dx</script>",
+    "option_a": "A. \n−10\n3\n−\n10\n3",
     "option_b": "B. 7",
     "option_c": "C. 9",
     "option_d": "D. 11",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
     "question_text": "Find the value of x for which the function y = x<sup>3</sup> - x has a minimum value.",
-    "option_a": "A. \\(-\\sqrt{3}\\)",
-    "option_b": "B. \\(-\\sqrt{\\frac{3}{3}}\\)",
-    "option_c": "C. \\(\\sqrt{\\frac{3}{3}}\\)",
-    "option_d": "D. \\(\\sqrt{3}\\)",
-    "correct_option": ""
-  }
-]
-[
+    "option_a": "A. \n−\n3\n–\n√\n−\n3",
+    "option_b": "B. \n−\n3\n3\n−\n−\n√\n−\n3\n3",
+    "option_c": "C. \n3\n3\n−\n−\n√\n3\n3",
+    "option_d": "D. \n3\n–\n√\n3",
+    "correct_option": "C"
+  },
   {
     "course_id": "3",
     "question_text": "If the minimum value of y = 1 + hx - 3x<sup>2</sup> is 13, find h.",
@@ -288,7 +276,7 @@
     "option_b": "B. 12",
     "option_c": "C. 11",
     "option_d": "D. 10",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -297,7 +285,7 @@
     "option_b": "B. {x y}",
     "option_c": "C. {x}",
     "option_d": "D. ɸ",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -306,7 +294,7 @@
     "option_b": "B. 249,696",
     "option_c": "C. 249,600",
     "option_d": "D. 244,800",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -315,7 +303,7 @@
     "option_b": "B. -2, 1",
     "option_c": "C. \\(\\frac{-2}{5}\\), 1",
     "option_d": "D. 2, 3/5",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -324,10 +312,8 @@
     "option_b": "B. 24",
     "option_c": "C. 62",
     "option_d": "D. 86",
-    "correct_option": ""
-  }
-]
-[
+    "correct_option": "C"
+  },
   {
     "course_id": "3",
     "question_text": "<p>Evaluate \\(\\frac{(2.813 \\times&nbsp;10^{-3} \\times&nbsp;1.063)}{(5.637 \\times&nbsp;10^{-2})}\\) reducing each number to two significant figures and leaving your answer in two significant figures.</p>",
@@ -335,7 +321,7 @@
     "option_b": "B. 0.055",
     "option_c": "C. 0.054",
     "option_d": "D. 0.54",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -344,7 +330,7 @@
     "option_b": "B. N96,000.00",
     "option_c": "C. N85,714.28",
     "option_d": "D. N76,800.00",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -353,16 +339,16 @@
     "option_b": "B. 8",
     "option_c": "C. 9",
     "option_d": "D. 10",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
-    "question_text": "<p>Simplify \\(\\frac{3(2^{n+1}) - 4(2^{n-1})}{2^{n+1} - 2^n}\\)</p>",
+    "question_text": "<p>Simplify <span class=\"MathJax_Preview\" style=\"color: inherit; display: none;\"></span><span class=\"MathJax\" id=\"MathJax-Element-2-Frame\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mfrac><mrow><mn>3</mn><mo stretchy=&quot;false&quot;>(</mo><msup><mn>2</mn><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mo stretchy=&quot;false&quot;>)</mo><mo>&amp;#x2212;</mo><mn>4</mn><mo stretchy=&quot;false&quot;>(</mo><msup><mn>2</mn><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mi>n</mi><mo>&amp;#x2212;</mo><mn>1</mn></mrow></msup><mo stretchy=&quot;false&quot;>)</mo></mrow><mrow><msup><mn>2</mn><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mo>&amp;#x2212;</mo><msup><mn>2</mn><mi>n</mi></msup></mrow></mfrac></math>\" role=\"presentation\" style=\"position: relative;\"><nobr aria-hidden=\"true\"><span class=\"math\" id=\"MathJax-Span-38\" style=\"width: 6.743em; display: inline-block;\"><span style=\"display: inline-block; position: relative; width: 5.418em; height: 0px; font-size: 124%;\"><span style=\"position: absolute; clip: rect(0.982em, 1005.42em, 3.113em, -999.997em); top: -2.359em; left: 0em;\"><span class=\"mrow\" id=\"MathJax-Span-39\"><span class=\"mfrac\" id=\"MathJax-Span-40\"><span style=\"display: inline-block; position: relative; width: 5.187em; height: 0px; margin-right: 0.118em; margin-left: 0.118em;\"><span style=\"position: absolute; clip: rect(3.171em, 1004.96em, 4.323em, -999.997em); top: -4.548em; left: 50%; margin-left: -2.532em;\"><span class=\"mrow\" id=\"MathJax-Span-41\"><span class=\"mn\" id=\"MathJax-Span-42\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">3</span><span class=\"mo\" id=\"MathJax-Span-43\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">(</span><span class=\"msubsup\" id=\"MathJax-Span-44\"><span style=\"display: inline-block; position: relative; width: 1.328em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.344em, 1000.35em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mn\" id=\"MathJax-Span-45\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">2</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.26em; left: 0.349em;\"><span class=\"texatom\" id=\"MathJax-Span-46\"><span class=\"mrow\" id=\"MathJax-Span-47\"><span class=\"mi\" id=\"MathJax-Span-48\" style=\"font-size: 50%; font-family: MathJax_Math-italic;\">n</span><span class=\"mo\" id=\"MathJax-Span-49\" style=\"font-size: 50%; font-family: MathJax_Main;\">+</span><span class=\"mn\" id=\"MathJax-Span-50\" style=\"font-size: 50%; font-family: MathJax_Main;\">1</span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span><span class=\"mo\" id=\"MathJax-Span-51\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">)</span><span class=\"mo\" id=\"MathJax-Span-52\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">−</span><span class=\"mn\" id=\"MathJax-Span-53\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">4</span><span class=\"mo\" id=\"MathJax-Span-54\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">(</span><span class=\"msubsup\" id=\"MathJax-Span-55\"><span style=\"display: inline-block; position: relative; width: 1.328em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.344em, 1000.35em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mn\" id=\"MathJax-Span-56\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">2</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.26em; left: 0.349em;\"><span class=\"texatom\" id=\"MathJax-Span-57\"><span class=\"mrow\" id=\"MathJax-Span-58\"><span class=\"mi\" id=\"MathJax-Span-59\" style=\"font-size: 50%; font-family: MathJax_Math-italic;\">n</span><span class=\"mo\" id=\"MathJax-Span-60\" style=\"font-size: 50%; font-family: MathJax_Main;\">−</span><span class=\"mn\" id=\"MathJax-Span-61\" style=\"font-size: 50%; font-family: MathJax_Main;\">1</span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span><span class=\"mo\" id=\"MathJax-Span-62\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">)</span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(3.171em, 1002.6em, 4.208em, -999.997em); top: -3.453em; left: 50%; margin-left: -1.322em;\"><span class=\"mrow\" id=\"MathJax-Span-63\"><span class=\"msubsup\" id=\"MathJax-Span-64\"><span style=\"display: inline-block; position: relative; width: 1.328em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.344em, 1000.35em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mn\" id=\"MathJax-Span-65\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">2</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.26em; left: 0.349em;\"><span class=\"texatom\" id=\"MathJax-Span-66\"><span class=\"mrow\" id=\"MathJax-Span-67\"><span class=\"mi\" id=\"MathJax-Span-68\" style=\"font-size: 50%; font-family: MathJax_Math-italic;\">n</span><span class=\"mo\" id=\"MathJax-Span-69\" style=\"font-size: 50%; font-family: MathJax_Main;\">+</span><span class=\"mn\" id=\"MathJax-Span-70\" style=\"font-size: 50%; font-family: MathJax_Main;\">1</span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span><span class=\"mo\" id=\"MathJax-Span-71\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">−</span><span class=\"msubsup\" id=\"MathJax-Span-72\"><span style=\"display: inline-block; position: relative; width: 0.694em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.344em, 1000.35em, 4.15em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mn\" id=\"MathJax-Span-73\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">2</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.26em; left: 0.349em;\"><span class=\"mi\" id=\"MathJax-Span-74\" style=\"font-size: 50%; font-family: MathJax_Math-italic;\">n</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(0.867em, 1005.19em, 1.27em, -999.997em); top: -1.322em; left: 0em;\"><span style=\"display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 5.187em; height: 0px;\"></span><span style=\"display: inline-block; width: 0px; height: 1.097em;\"></span></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 2.365em;\"></span></span></span><span style=\"display: inline-block; overflow: hidden; vertical-align: -0.782em; border-left: 0px solid; width: 0px; height: 2.361em;\"></span></span></nobr><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mo stretchy=\"false\">(</mo><msup><mn>2</mn><mrow class=\"MJX-TeXAtom-ORD\"><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mo stretchy=\"false\">)</mo><mo>−</mo><mn>4</mn><mo stretchy=\"false\">(</mo><msup><mn>2</mn><mrow class=\"MJX-TeXAtom-ORD\"><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup><mo stretchy=\"false\">)</mo></mrow><mrow><msup><mn>2</mn><mrow class=\"MJX-TeXAtom-ORD\"><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mo>−</mo><msup><mn>2</mn><mi>n</mi></msup></mrow></mfrac></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-2\">\\frac{3(2^{n+1}) - 4(2^{n-1})}{2^{n+1} - 2^n}</script></p>",
     "option_a": "A. 2n+1",
     "option_b": "B. 2n-1",
     "option_c": "C. 4",
     "option_d": "D. 1/4",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -371,10 +357,8 @@
     "option_b": "B. 3",
     "option_c": "C. 4",
     "option_d": "D. 5",
-    "correct_option": ""
-  }
-]
-[
+    "correct_option": "D"
+  },
   {
     "course_id": "3",
     "question_text": "<p>A binary operation * is defined by a * b = a\\(^b\\). If a * 2 = 2 - a, find the possible values of a.</p>",
@@ -382,7 +366,7 @@
     "option_b": "B. 1, 2",
     "option_c": "C. 2, -2",
     "option_d": "D. 1, -2",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -391,7 +375,7 @@
     "option_b": "B. 8x - 4y",
     "option_c": "C. x - y",
     "option_d": "D. 2x",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -400,7 +384,7 @@
     "option_b": "B. p -1",
     "option_c": "C. p/(p-1)",
     "option_d": "D. p/(p+1)",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -409,7 +393,7 @@
     "option_b": "B. zero",
     "option_c": "C. -2/3",
     "option_d": "D. -1",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -418,10 +402,8 @@
     "option_b": "B. 1/2, 1, 1/2",
     "option_c": "C. 1/2, 1, -1/2",
     "option_d": "D. 1/2, -1, 1/2",
-    "correct_option": ""
-  }
-]
-[
+    "correct_option": "A"
+  },
   {
     "course_id": "3",
     "question_text": "<p>A trader realizes 10x - x\\(^2\\) naira profit from the sale of x bags on corn. How many bags will give him the desired profit?</p>",
@@ -429,7 +411,7 @@
     "option_b": "B. 5",
     "option_c": "C. 6",
     "option_d": "D. 7",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -438,7 +420,7 @@
     "option_b": "B. x > 2 or x< -1",
     "option_c": "C. -1 < x < 2",
     "option_d": "D. -2 < x < 1",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -447,7 +429,7 @@
     "option_b": "B. -2/3",
     "option_c": "C. 1/2",
     "option_d": "D. 5/2",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -456,7 +438,7 @@
     "option_b": "B. 8.4 m",
     "option_c": "C. 9.0 m",
     "option_d": "D. 10.0 m",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -465,10 +447,8 @@
     "option_b": "B. 130°",
     "option_c": "C. 80°",
     "option_d": "D. 50°",
-    "correct_option": ""
-  }
-]
-[
+    "correct_option": "B"
+  },
   {
     "course_id": "3",
     "question_text": "<p>An equilateral triangle of side √3cm is inscribed in a circle. Find the radius of the circle.</p>",
@@ -476,7 +456,7 @@
     "option_b": "B. 2 cm",
     "option_c": "C. 1 cm",
     "option_d": "D. 3 cm",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -485,7 +465,7 @@
     "option_b": "B. -3/4",
     "option_c": "C. 3/4",
     "option_d": "D. 4/3",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -494,7 +474,7 @@
     "option_b": "B. a circle",
     "option_c": "C. the bisector of angle PXQ",
     "option_d": "D. the perpendicular bisector of PQ",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -503,7 +483,7 @@
     "option_b": "B. 6",
     "option_c": "C. 4",
     "option_d": "D. 3",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -512,10 +492,8 @@
     "option_b": "B. (1,1) and (1,2)",
     "option_c": "C. (0,0) and (1,1)",
     "option_d": "D. (√2,√2) only",
-    "correct_option": ""
-  }
-]
-[
+    "correct_option": "A"
+  },
   {
     "course_id": "3",
     "question_text": "Find the value of \\(\\int^{\\pi}_{0}\\frac{cos^{2}\\theta-1}{sin^{2}\\theta}d\\theta\\)",
@@ -523,7 +501,7 @@
     "option_b": "B. π/2",
     "option_c": "C. -π/2",
     "option_d": "D. -π",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -532,7 +510,7 @@
     "option_b": "B. -π",
     "option_c": "C. π/2",
     "option_d": "D. -π/2",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -541,7 +519,7 @@
     "option_b": "B. 15π/2 cubic units",
     "option_c": "C. 8π cubic units",
     "option_d": "D. 17π/2 cubic units",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -550,7 +528,7 @@
     "option_b": "B. 2.00 m/s",
     "option_c": "C. 0.25 m/s",
     "option_d": "D. 0.20 m/s",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -559,10 +537,8 @@
     "option_b": "B. 0.50",
     "option_c": "C. 0.57",
     "option_d": "D. 1.80",
-    "correct_option": ""
-  }
-]
-[
+    "correct_option": "A"
+  },
   {
     "course_id": "3",
     "question_text": "<p>If the mean of the numbers 0, (x+2), (3x+6), and (4x+8) is 4, find their mean deviation.</p>",
@@ -570,7 +546,7 @@
     "option_b": "B. 2",
     "option_c": "C. 3",
     "option_d": "D. 4",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -579,7 +555,7 @@
     "option_b": "B. 11!/(9! 2! 2!)",
     "option_c": "C. 11!/(2! 2! 2!)",
     "option_d": "D. 11!/(2! 2!)",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -588,7 +564,7 @@
     "option_b": "B. 16°",
     "option_c": "C. 40°",
     "option_d": "D. 60°",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -597,7 +573,7 @@
     "option_b": "B. 3/10",
     "option_c": "C. 1/4",
     "option_d": "D. 1/20",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -606,10 +582,8 @@
     "option_b": "B. 2x2",
     "option_c": "C. x2",
     "option_d": "D. 3x",
-    "correct_option": ""
-  }
-]
-[
+    "correct_option": "B"
+  },
   {
     "course_id": "3",
     "question_text": "Find the sum of the range and the mode of the set of numbers 10, 9, 10, 9, 8, 7, 7, 10, 8, 10, 8, 4, 6, 9, 10, 9, 10, 9, 7, 10, 6, 5",
@@ -617,7 +591,7 @@
     "option_b": "B. 14",
     "option_c": "C. 12",
     "option_d": "D. 10",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -626,7 +600,7 @@
     "option_b": "B. 28",
     "option_c": "C. 30",
     "option_d": "D. 45",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -635,7 +609,7 @@
     "option_b": "B. y = (3x2)/2 + x",
     "option_c": "C. y = 3x2 + (x/2)",
     "option_d": "D. y = 3x2 +2x",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -644,7 +618,7 @@
     "option_b": "B. 1, 2, 1",
     "option_c": "C. 2, 1, 1",
     "option_d": "D. 1, 1, 3",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -653,10 +627,8 @@
     "option_b": "B. 20.351",
     "option_c": "C. 20.981",
     "option_d": "D. 20.352",
-    "correct_option": ""
-  }
-]
-[
+    "correct_option": "D"
+  },
   {
     "course_id": "3",
     "question_text": "<p>Simplify \\((\\sqrt[3]{64a^{3}})^{-1}\\)</p>",
@@ -664,16 +636,16 @@
     "option_b": "B. 1/8a",
     "option_c": "C. 8a",
     "option_d": "D. 1/4a",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
-    "question_text": "<p>Given that \\(p = 1 + \\sqrt{2}\\) and \\(q = 1 - \\sqrt{2}\\), evaluate \\(\\frac{p^{2} - q^{2}}{2pq}\\).</p>",
+    "question_text": "<p>Given that <span class=\"MathJax_Preview\" style=\"color: inherit; display: none;\"></span><span class=\"MathJax\" id=\"MathJax-Element-3-Frame\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>p</mi><mo>=</mo><mn>1</mn><mo>+</mo><msqrt><mn>2</mn></msqrt></math>\" role=\"presentation\" style=\"position: relative;\"><nobr aria-hidden=\"true\"><span class=\"math\" id=\"MathJax-Span-19\" style=\"width: 6.166em; display: inline-block;\"><span style=\"display: inline-block; position: relative; width: 4.957em; height: 0px; font-size: 124%;\"><span style=\"position: absolute; clip: rect(1.328em, 1004.96em, 2.71em, -999.997em); top: -2.359em; left: 0em;\"><span class=\"mrow\" id=\"MathJax-Span-20\"><span class=\"mi\" id=\"MathJax-Span-21\" style=\"font-family: MathJax_Math-italic;\">p</span><span class=\"mo\" id=\"MathJax-Span-22\" style=\"font-family: MathJax_Main; padding-left: 0.291em;\">=</span><span class=\"mn\" id=\"MathJax-Span-23\" style=\"font-family: MathJax_Main; padding-left: 0.291em;\">1</span><span class=\"mo\" id=\"MathJax-Span-24\" style=\"font-family: MathJax_Main; padding-left: 0.233em;\">+</span><span class=\"msqrt\" id=\"MathJax-Span-25\" style=\"padding-left: 0.233em;\"><span style=\"display: inline-block; position: relative; width: 1.328em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.113em, 1000.46em, 4.15em, -999.997em); top: -3.972em; left: 0.809em;\"><span class=\"mrow\" id=\"MathJax-Span-26\"><span class=\"mn\" id=\"MathJax-Span-27\" style=\"font-family: MathJax_Main;\">2</span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(3.517em, 1000.52em, 3.92em, -999.997em); top: -4.49em; left: 0.809em;\"><span style=\"font-family: MathJax_Main;\">–</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(2.998em, 1000.87em, 4.323em, -999.997em); top: -4.029em; left: 0em;\"><span style=\"font-family: MathJax_Main;\">√</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 2.365em;\"></span></span></span><span style=\"display: inline-block; overflow: hidden; vertical-align: -0.282em; border-left: 0px solid; width: 0px; height: 1.432em;\"></span></span></nobr><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mn>1</mn><mo>+</mo><msqrt><mn>2</mn></msqrt></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-3\">p = 1 + \\sqrt{2}</script> and <span class=\"MathJax_Preview\" style=\"color: inherit; display: none;\"></span><span class=\"MathJax\" id=\"MathJax-Element-4-Frame\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>q</mi><mo>=</mo><mn>1</mn><mo>&amp;#x2212;</mo><msqrt><mn>2</mn></msqrt></math>\" role=\"presentation\" style=\"position: relative;\"><nobr aria-hidden=\"true\"><span class=\"math\" id=\"MathJax-Span-28\" style=\"width: 6.109em; display: inline-block;\"><span style=\"display: inline-block; position: relative; width: 4.899em; height: 0px; font-size: 124%;\"><span style=\"position: absolute; clip: rect(1.328em, 1004.9em, 2.71em, -999.997em); top: -2.359em; left: 0em;\"><span class=\"mrow\" id=\"MathJax-Span-29\"><span class=\"mi\" id=\"MathJax-Span-30\" style=\"font-family: MathJax_Math-italic;\">q<span style=\"display: inline-block; overflow: hidden; height: 1px; width: 0.003em;\"></span></span><span class=\"mo\" id=\"MathJax-Span-31\" style=\"font-family: MathJax_Main; padding-left: 0.291em;\">=</span><span class=\"mn\" id=\"MathJax-Span-32\" style=\"font-family: MathJax_Main; padding-left: 0.291em;\">1</span><span class=\"mo\" id=\"MathJax-Span-33\" style=\"font-family: MathJax_Main; padding-left: 0.233em;\">−</span><span class=\"msqrt\" id=\"MathJax-Span-34\" style=\"padding-left: 0.233em;\"><span style=\"display: inline-block; position: relative; width: 1.328em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.113em, 1000.46em, 4.15em, -999.997em); top: -3.972em; left: 0.809em;\"><span class=\"mrow\" id=\"MathJax-Span-35\"><span class=\"mn\" id=\"MathJax-Span-36\" style=\"font-family: MathJax_Main;\">2</span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(3.517em, 1000.52em, 3.92em, -999.997em); top: -4.49em; left: 0.809em;\"><span style=\"font-family: MathJax_Main;\">–</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(2.998em, 1000.87em, 4.323em, -999.997em); top: -4.029em; left: 0em;\"><span style=\"font-family: MathJax_Main;\">√</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 2.365em;\"></span></span></span><span style=\"display: inline-block; overflow: hidden; vertical-align: -0.282em; border-left: 0px solid; width: 0px; height: 1.432em;\"></span></span></nobr><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi><mo>=</mo><mn>1</mn><mo>−</mo><msqrt><mn>2</mn></msqrt></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-4\">q = 1 - \\sqrt{2}</script>, evaluate <span class=\"MathJax_Preview\" style=\"color: inherit; display: none;\"></span><span class=\"MathJax\" id=\"MathJax-Element-5-Frame\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mfrac><mrow><msup><mi>p</mi><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mn>2</mn></mrow></msup><mo>&amp;#x2212;</mo><msup><mi>q</mi><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mn>2</mn></mrow></msup></mrow><mrow><mn>2</mn><mi>p</mi><mi>q</mi></mrow></mfrac></math>\" role=\"presentation\" style=\"position: relative;\"><nobr aria-hidden=\"true\"><span class=\"math\" id=\"MathJax-Span-37\" style=\"width: 2.825em; display: inline-block;\"><span style=\"display: inline-block; position: relative; width: 2.249em; height: 0px; font-size: 124%;\"><span style=\"position: absolute; clip: rect(1.04em, 1002.25em, 3.056em, -999.997em); top: -2.359em; left: 0em;\"><span class=\"mrow\" id=\"MathJax-Span-38\"><span class=\"mfrac\" id=\"MathJax-Span-39\"><span style=\"display: inline-block; position: relative; width: 2.019em; height: 0px; margin-right: 0.118em; margin-left: 0.118em;\"><span style=\"position: absolute; clip: rect(3.229em, 1001.9em, 4.266em, -999.997em); top: -4.548em; left: 50%; margin-left: -0.919em;\"><span class=\"mrow\" id=\"MathJax-Span-40\"><span class=\"msubsup\" id=\"MathJax-Span-41\"><span style=\"display: inline-block; position: relative; width: 0.637em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.517em, 1000.35em, 4.266em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-42\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">p</span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.202em; left: 0.349em;\"><span class=\"texatom\" id=\"MathJax-Span-43\"><span class=\"mrow\" id=\"MathJax-Span-44\"><span class=\"mn\" id=\"MathJax-Span-45\" style=\"font-size: 50%; font-family: MathJax_Main;\">2</span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span><span class=\"mo\" id=\"MathJax-Span-46\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">−</span><span class=\"msubsup\" id=\"MathJax-Span-47\"><span style=\"display: inline-block; position: relative; width: 0.694em; height: 0px;\"><span style=\"position: absolute; clip: rect(3.517em, 1000.35em, 4.266em, -999.997em); top: -3.972em; left: 0em;\"><span class=\"mi\" id=\"MathJax-Span-48\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">q<span style=\"display: inline-block; overflow: hidden; height: 1px; width: 0.003em;\"></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; top: -4.202em; left: 0.406em;\"><span class=\"texatom\" id=\"MathJax-Span-49\"><span class=\"mrow\" id=\"MathJax-Span-50\"><span class=\"mn\" id=\"MathJax-Span-51\" style=\"font-size: 50%; font-family: MathJax_Main;\">2</span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(3.344em, 1001.04em, 4.266em, -999.997em); top: -3.569em; left: 50%; margin-left: -0.516em;\"><span class=\"mrow\" id=\"MathJax-Span-52\"><span class=\"mn\" id=\"MathJax-Span-53\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">2</span><span class=\"mi\" id=\"MathJax-Span-54\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">p</span><span class=\"mi\" id=\"MathJax-Span-55\" style=\"font-size: 70.7%; font-family: MathJax_Math-italic;\">q<span style=\"display: inline-block; overflow: hidden; height: 1px; width: 0.003em;\"></span></span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(0.867em, 1002.02em, 1.27em, -999.997em); top: -1.322em; left: 0em;\"><span style=\"display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 2.019em; height: 0px;\"></span><span style=\"display: inline-block; width: 0px; height: 1.097em;\"></span></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 2.365em;\"></span></span></span><span style=\"display: inline-block; overflow: hidden; vertical-align: -0.711em; border-left: 0px solid; width: 0px; height: 2.218em;\"></span></span></nobr><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mi>p</mi><mrow class=\"MJX-TeXAtom-ORD\"><mn>2</mn></mrow></msup><mo>−</mo><msup><mi>q</mi><mrow class=\"MJX-TeXAtom-ORD\"><mn>2</mn></mrow></msup></mrow><mrow><mn>2</mn><mi>p</mi><mi>q</mi></mrow></mfrac></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-5\">\\frac{p^{2} - q^{2}}{2pq}</script>.</p>",
     "option_a": "A. 2(2+√2)",
     "option_b": "B. -2(2+√2)",
     "option_c": "C. 2√2",
     "option_d": "D. -2√2",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -682,7 +654,7 @@
     "option_b": "B. 32%",
     "option_c": "C. 25%",
     "option_d": "D. 20%",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -691,7 +663,7 @@
     "option_b": "B. 5/2",
     "option_c": "C. 5/32",
     "option_d": "D. 5/16",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -700,10 +672,8 @@
     "option_b": "B. N5,000",
     "option_c": "C. N4,700",
     "option_d": "D. N4,800",
-    "correct_option": ""
-  }
-]
-[
+    "correct_option": "B"
+  },
   {
     "course_id": "3",
     "question_text": "<p>Evaluate \\(\\frac{(0.14^2 \\times&nbsp;0.275)}{7(0.02)}\\) to 3 decimal places.</p>",
@@ -711,7 +681,7 @@
     "option_b": "B. 0.385",
     "option_c": "C. 0.033",
     "option_d": "D. 0.038",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -720,7 +690,7 @@
     "option_b": "B. ax + 2",
     "option_c": "C. ax - 8",
     "option_d": "D. ax - 6",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -729,7 +699,7 @@
     "option_b": "B. \\(\\frac{7-q}{4}\\)",
     "option_c": "C. \\(\\frac{8-q}{2}\\)",
     "option_d": "D. \\(\\frac{7+q}{8}\\)",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -738,7 +708,7 @@
     "option_b": "B. (2, 5) and (5, 2)",
     "option_c": "C. (5, 2) and ( 5, 3)",
     "option_d": "D. (5, 3) and (3, 5)",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -747,10 +717,8 @@
     "option_b": "B. zero",
     "option_c": "C. -2",
     "option_d": "D. -4",
-    "correct_option": ""
-  }
-]
-[
+    "correct_option": "D"
+  },
   {
     "course_id": "3",
     "question_text": "The sixth term of an A.P is half of its twelfth term. The first term of the A.P is equal to",
@@ -758,7 +726,7 @@
     "option_b": "B. half of the common difference",
     "option_c": "C. double the common difference",
     "option_d": "D. the common difference",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -767,7 +735,7 @@
     "option_b": "B. (2x - 3y)(2x + 3y)",
     "option_c": "C. (2x - 3y +5)(2x + 3y + 5)",
     "option_d": "D. (2x + 5)(2x - 9y +5)",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -776,7 +744,7 @@
     "option_b": "B. 6cm",
     "option_c": "C. 9cm",
     "option_d": "D. 7cm",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -785,7 +753,7 @@
     "option_b": "B. 8cm",
     "option_c": "C. 8√3cm",
     "option_d": "D. 4cm",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -794,10 +762,8 @@
     "option_b": "B. y = x + 5",
     "option_c": "C. √3y = - x + 5√3",
     "option_d": "D. √3y = x + 5√3",
-    "correct_option": ""
-  }
-]
-[
+    "correct_option": "D"
+  },
   {
     "course_id": "3",
     "question_text": "<p>Find the value of P if the line joining (P, 4) and (6, -2) is perpendicular to the line joining (2, P) and (-1, 3).</p>",
@@ -805,7 +771,7 @@
     "option_b": "B. 6",
     "option_c": "C. 3",
     "option_d": "D. 0",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -814,7 +780,7 @@
     "option_b": "B. 2",
     "option_c": "C. 3",
     "option_d": "D. 8",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -823,7 +789,7 @@
     "option_b": "B. 13.0 units",
     "option_c": "C. 3.5 units",
     "option_d": "D. 7.0 units",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -832,7 +798,7 @@
     "option_b": "B. 070°",
     "option_c": "C. 280°",
     "option_d": "D. 320°",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -841,10 +807,8 @@
     "option_b": "B. 25 m",
     "option_c": "C. 20 m",
     "option_d": "D. 22 m",
-    "correct_option": ""
-  }
-]
-[
+    "correct_option": "C"
+  },
   {
     "course_id": "3",
     "question_text": "<p>Find the locus of a point which moves such that its distance from the line y = 4 is a constant, k.</p>",
@@ -852,7 +816,7 @@
     "option_b": "B. y = k \\(\\pm\\) 4",
     "option_c": "C. y = 4 + k",
     "option_d": "D. y = k - 4",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -861,7 +825,7 @@
     "option_b": "B. πr/2",
     "option_c": "C. πr/12",
     "option_d": "D. πr/3",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -870,7 +834,7 @@
     "option_b": "B. 3",
     "option_c": "C. 2",
     "option_d": "D. 1",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -879,7 +843,7 @@
     "option_b": "B. 6/5(2x-3)5/3 + k",
     "option_c": "C. 2x-3+k",
     "option_d": "D. 2(2x-3)+k",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -888,10 +852,8 @@
     "option_b": "B. 4(2x+5)(4x-3)",
     "option_c": "C. (2x+5)(2x-13)",
     "option_d": "D. (2x+5)(6x-11)",
-    "correct_option": ""
-  }
-]
-[
+    "correct_option": "D"
+  },
   {
     "course_id": "3",
     "question_text": "<p>Find the area bounded by the curves y = 4 - x2 and y = 2x + 1</p>",
@@ -899,7 +861,7 @@
     "option_b": "B. 20(2/3) sq. units",
     "option_c": "C. 10(2/3) sq. units",
     "option_d": "D. 10(1/3) sq. units",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -908,7 +870,7 @@
     "option_b": "B. 4π",
     "option_c": "C. 24π",
     "option_d": "D. 8π",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -917,7 +879,7 @@
     "option_b": "B. -1",
     "option_c": "C. 1",
     "option_d": "D. π/2",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -926,7 +888,7 @@
     "option_b": "B. square of sides 2p",
     "option_c": "C. square of sides (p/2)",
     "option_d": "D. square of sides (p/4)",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -935,14 +897,8 @@
     "option_b": "B. 121",
     "option_c": "C. 25",
     "option_d": "D. 64",
-    "correct_option": ""
-  }
-]
-
-
-# 100 done
-
-[
+    "correct_option": "B"
+  },
   {
     "course_id": "3",
     "question_text": "Given the scores: 4, 7, 8, 11, 13, 8 with corresponding frequencies: 3, 5, 2, 7, 2, 1 respectively. The mean score is",
@@ -950,7 +906,7 @@
     "option_b": "B. 8.7",
     "option_c": "C. 9.5",
     "option_d": "D. 11.0",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -959,7 +915,7 @@
     "option_b": "B. 1/2",
     "option_c": "C. 1/3",
     "option_d": "D. 1/4",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -968,7 +924,7 @@
     "option_b": "B. 33",
     "option_c": "C. 35",
     "option_d": "D. 15",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -977,7 +933,7 @@
     "option_b": "B. 12",
     "option_c": "C. 8",
     "option_d": "D. 7",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -986,7 +942,7 @@
     "option_b": "B. 80",
     "option_c": "C. 125",
     "option_d": "D. 110",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -995,7 +951,7 @@
     "option_b": "B. 41.5",
     "option_c": "C. 42.1",
     "option_d": "D. 42.2",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -1004,7 +960,7 @@
     "option_b": "B. 70.7",
     "option_c": "C. 217.7",
     "option_d": "D. 168.7",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1013,7 +969,7 @@
     "option_b": "B. 0.01285",
     "option_c": "C. 0.1286",
     "option_d": "D. 0.1285",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1022,7 +978,7 @@
     "option_b": "B. 50",
     "option_c": "C. 45",
     "option_d": "D. 36",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1031,7 +987,7 @@
     "option_b": "B. x2 - 3x",
     "option_c": "C. x2 - 3x - 3",
     "option_d": "D. x2 - 3x + 3",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -1040,7 +996,7 @@
     "option_b": "B. 5 sin5x cos 5x",
     "option_c": "C. 2 sin 5x cos 5x",
     "option_d": "D. 15 sin 5x cos 5x",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1049,7 +1005,7 @@
     "option_b": "B. 1",
     "option_c": "C. 6",
     "option_d": "D. 5",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1058,7 +1014,7 @@
     "option_b": "B. (1/3) cos 3x + c",
     "option_c": "C. (-1/3) cos 3x + c",
     "option_d": "D. (-2/3) cos 3x + c",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -1067,7 +1023,7 @@
     "option_b": "B. 5π",
     "option_c": "C. π",
     "option_d": "D. 4π",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1076,16 +1032,16 @@
     "option_b": "B. 2x + x2",
     "option_c": "C. 2x - x2",
     "option_d": "D. 2x + (1/x2)",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
-    "question_text": "<p>Solve for x in the equation x\\(^3\\) - 5x\\(^2\\) - x + 5 = 0</p>",
+    "question_text": "<p>Solve for x in the equation x<span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-9\"><span class=\"MJXp-msubsup\" id=\"MJXp-Span-10\"><span class=\"MJXp-mi\" id=\"MJXp-Span-11\" style=\"margin-right: 0.05em;\"></span><span class=\"MJXp-mn MJXp-script\" id=\"MJXp-Span-12\" style=\"vertical-align: 0.5em;\">3</span></span></span></span><script type=\"math/tex\" id=\"MathJax-Element-3\">^3</script> - 5x<span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-13\"><span class=\"MJXp-msubsup\" id=\"MJXp-Span-14\"><span class=\"MJXp-mi\" id=\"MJXp-Span-15\" style=\"margin-right: 0.05em;\"></span><span class=\"MJXp-mn MJXp-script\" id=\"MJXp-Span-16\" style=\"vertical-align: 0.5em;\">2</span></span></span></span><script type=\"math/tex\" id=\"MathJax-Element-4\">^2</script> - x + 5 = 0</p>",
     "option_a": "A. 1, - 1, or 5",
     "option_b": "B. 1, 1, or -5",
     "option_c": "C. -1, 1, or -5",
     "option_d": "D. 1, 1, or 5",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1094,7 +1050,7 @@
     "option_b": "B. 12 days",
     "option_c": "C. 5 days",
     "option_d": "D. 9 days",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -1103,7 +1059,7 @@
     "option_b": "B. x > -3",
     "option_c": "C. x < 8",
     "option_d": "D. x < 4",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1112,7 +1068,7 @@
     "option_b": "B. 5/3",
     "option_c": "C. 3/4",
     "option_d": "D. 4/3",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -1121,7 +1077,7 @@
     "option_b": "B. 3a + 5d = 0",
     "option_c": "C. a + 3d = 0",
     "option_d": "D. a + 2d = 0",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -1130,7 +1086,7 @@
     "option_b": "B. \\(\\frac{a^{2}}{(x+a)}\\)",
     "option_c": "C. \\(\\frac{a}{x-a}\\)",
     "option_d": "D. \\(\\frac{a}{x+a}\\)",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1139,7 +1095,7 @@
     "option_b": "B. (x-5)/5",
     "option_c": "C. (x+3)/4",
     "option_d": "D. (x+4)/3",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1148,7 +1104,7 @@
     "option_b": "B. 3",
     "option_c": "C. 2",
     "option_d": "D. 1",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -1157,7 +1113,7 @@
     "option_b": "B. 19",
     "option_c": "C. 67",
     "option_d": "D. 38",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1166,7 +1122,7 @@
     "option_b": "B. 10/3",
     "option_c": "C. 5/2",
     "option_d": "D. 3/2",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -1175,7 +1131,7 @@
     "option_b": "B. 27",
     "option_c": "C. √3",
     "option_d": "D. √17",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -1184,7 +1140,7 @@
     "option_b": "B. 32 π cm2",
     "option_c": "C. 16 π cm2",
     "option_d": "D. 8 π cm2",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -1193,7 +1149,7 @@
     "option_b": "B. 24/25",
     "option_c": "C. 7/25",
     "option_d": "D. 9/25",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -1202,7 +1158,7 @@
     "option_b": "B. x = 3",
     "option_c": "C. x = 4",
     "option_d": "D. y = 4",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -1211,7 +1167,7 @@
     "option_b": "B. 144π cm3",
     "option_c": "C. 128π cm3",
     "option_d": "D. 72π cm3",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1220,7 +1176,7 @@
     "option_b": "B. 20",
     "option_c": "C. 40",
     "option_d": "D. 10",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1229,7 +1185,7 @@
     "option_b": "B. (1, -2)",
     "option_c": "C. (-1, -2)",
     "option_d": "D. (1, 2)",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -1238,7 +1194,7 @@
     "option_b": "B. 12. 0 m",
     "option_c": "C. 8.8 m",
     "option_d": "D. 10.4 m",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -1247,7 +1203,7 @@
     "option_b": "B. 462 cm2",
     "option_c": "C. 66 cm2",
     "option_d": "D. 308 cm2",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -1256,7 +1212,7 @@
     "option_b": "B. 4",
     "option_c": "C. 8",
     "option_d": "D. -8",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -1265,7 +1221,7 @@
     "option_b": "B. the angle bisector of PS and ST",
     "option_c": "C. a perpendicular to ST",
     "option_d": "D. a line parallel to ST",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1274,7 +1230,7 @@
     "option_b": "B. 4",
     "option_c": "C. 1",
     "option_d": "D. 2",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -1283,7 +1239,7 @@
     "option_b": "B. 11",
     "option_c": "C. 6",
     "option_d": "D. 8",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -1292,7 +1248,7 @@
     "option_b": "B. 4/9",
     "option_c": "C. 8/27",
     "option_d": "D. 1/27",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -1301,7 +1257,7 @@
     "option_b": "B. 180°",
     "option_c": "C. 36°",
     "option_d": "D. 60°",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -1310,7 +1266,7 @@
     "option_b": "B. 10",
     "option_c": "C. 20",
     "option_d": "D. 60",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -1319,7 +1275,7 @@
     "option_b": "B. 100",
     "option_c": "C. 95",
     "option_d": "D. 110",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -1328,7 +1284,7 @@
     "option_b": "B. 5/2",
     "option_c": "C. 7/6",
     "option_d": "D. 7/3",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -1337,7 +1293,7 @@
     "option_b": "B. -2.5",
     "option_c": "C. 2.5",
     "option_d": "D. 5.5",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -1346,7 +1302,7 @@
     "option_b": "B. 103214",
     "option_c": "C. 122314",
     "option_d": "D. 132114",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -1355,7 +1311,7 @@
     "option_b": "B. 16",
     "option_c": "C. 8",
     "option_d": "D. 4",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1364,7 +1320,7 @@
     "option_b": "B. 1.53",
     "option_c": "C. 3.14",
     "option_d": "D. 4.42",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1373,7 +1329,7 @@
     "option_b": "B. N1, 620.00",
     "option_c": "C. N630.00",
     "option_d": "D. N360.00",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -1382,7 +1338,7 @@
     "option_b": "B. -79/60",
     "option_c": "C. -37/15",
     "option_d": "D. -151/60",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -1391,9 +1347,8 @@
     "option_b": "B. 1",
     "option_c": "C. 1/2",
     "option_d": "D. 1/4",
-    "correct_option": ""
-  }
-[
+    "correct_option": "C"
+  },
   {
     "course_id": "3",
     "question_text": "<p>A cinema hall contains a certain number of people. If 22\\(\\frac{1}{2}\\)% are children, 47\\(\\frac{1}{2}\\)% are men and 84 are women, find the number of men in the hall.</p>",
@@ -1401,7 +1356,7 @@
     "option_b": "B. 84",
     "option_c": "C. 113",
     "option_d": "D. 133",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -1410,7 +1365,7 @@
     "option_b": "B. 5",
     "option_c": "C. 3",
     "option_d": "D. 2",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -1419,7 +1374,7 @@
     "option_b": "B. 141",
     "option_c": "C. 401",
     "option_d": "D. 411",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -1428,7 +1383,7 @@
     "option_b": "B. 5",
     "option_c": "C. √6",
     "option_d": "D. √5",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -1437,7 +1392,7 @@
     "option_b": "B. 495",
     "option_c": "C. 496",
     "option_d": "D. 498",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -1446,25 +1401,7 @@
     "option_b": "B. 5/6",
     "option_c": "C. 7/6",
     "option_d": "D. 4/3",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "In the diagram above , <b>XZ</b> is the diameter of the circle <b>XZW</b>, with center <b>O</b> and radius 15/2 cm. If <b>XY</b> = 12 cm, find the area of the triangle <b>XYZ</b>",
-    "option_a": "A. 54 cm2",
-    "option_b": "B. 45 cm2",
-    "option_c": "C. 27 cm2",
-    "option_d": "D. 75 cm2",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The venn diagram above shows the numbers of students offering music and history in a class of 80 students. If a student is picked at random from the class, what is the probability that he offers Music only?",
-    "option_a": "A. 0.38",
-    "option_b": "B. 0.13",
-    "option_c": "C. 0.50",
-    "option_d": "D. 0.25",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -1473,7 +1410,7 @@
     "option_b": "B. {0, 10, 14, 22, 26}",
     "option_c": "C. {2,4, 14, 18, 26}",
     "option_d": "D. {0, 2, 6, 22, 26}",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1482,7 +1419,7 @@
     "option_b": "B. 4",
     "option_c": "C. 6",
     "option_d": "D. 9",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -1491,7 +1428,7 @@
     "option_b": "B. 3 \\(\\leq\\) x \\(\\leq\\) 6",
     "option_c": "C. -6 \\(\\leq\\) x \\(\\leq\\) 3",
     "option_d": "D. -6 \\(\\leq\\) x \\(\\leq\\) -3",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -1500,7 +1437,7 @@
     "option_b": "B. y = 3x + 2",
     "option_c": "C. y = 3x - 4",
     "option_d": "D. y = 3x + 4",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -1509,7 +1446,7 @@
     "option_b": "B. 30",
     "option_c": "C. 20",
     "option_d": "D. 15",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -1518,7 +1455,7 @@
     "option_b": "B. -4,. -5",
     "option_c": "C. 4, 5",
     "option_d": "D. 5, 4",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -1527,16 +1464,7 @@
     "option_b": "B. 1/2",
     "option_c": "C. 2/3",
     "option_d": "D. 3/2",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p><img alt=\"\" src=\"/storage/classroom/editor_images/IMG_20191031_103301%20%282%29_LI.jpg\" style=\"height:182px; width:250px\"></p>\n\n<p>Triangle <strong>OPQ</strong> above is the solution of the inequalities</p>",
-    "option_a": "A. x + 1 ≥ 0, y + x ≤ 0, y - x ≥ 0",
-    "option_b": "B. y + x ≤ 0, y - x ≥ 0, x -1 ≥ 0",
-    "option_c": "C. x - 1 ≤ 0, y - x ≥ o, y + x ≥ 0",
-    "option_d": "D. x - 1 ≤ 0, y + x ≤ 0, y - x ≤ 0",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -1545,7 +1473,7 @@
     "option_b": "B. 2x(3b - a)(2b - y)",
     "option_c": "C. 2x(a - 3b)(y - 2b)",
     "option_d": "D. 2x(2b - a)(3b - y)",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1554,7 +1482,7 @@
     "option_b": "B. 7",
     "option_c": "C. 8",
     "option_d": "D. 9",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -1563,7 +1491,7 @@
     "option_b": "B. 4 cm",
     "option_c": "C. 6 cm",
     "option_d": "D. 7 cm",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1572,7 +1500,7 @@
     "option_b": "B. a semicircle",
     "option_c": "C. an arc of a circle through X, Y",
     "option_d": "D. the perpendicular bisector of XY",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -1581,7 +1509,7 @@
     "option_b": "B. 6",
     "option_c": "C. 7",
     "option_d": "D. 9",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -1590,7 +1518,7 @@
     "option_b": "B. 2",
     "option_c": "C. 4/3",
     "option_d": "D. 1/3",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -1599,7 +1527,7 @@
     "option_b": "B. -12x cos (-4x)",
     "option_c": "C. -12 cos (-4x)",
     "option_d": "D. 12 sin (-4x)",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -1608,7 +1536,7 @@
     "option_b": "B. 2",
     "option_c": "C. 4",
     "option_d": "D. 6",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -1617,7 +1545,7 @@
     "option_b": "B. 0.50",
     "option_c": "C. 0.33",
     "option_d": "D. 0.17",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -1626,16 +1554,7 @@
     "option_b": "B. 21",
     "option_c": "C. 23",
     "option_d": "D. 24",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Find the mean of the distribution above</p>",
-    "option_a": "A. 1",
-    "option_b": "B. 2",
-    "option_c": "C. 3",
-    "option_d": "D. 4",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -1644,7 +1563,7 @@
     "option_b": "B. N84.00",
     "option_c": "C. N48.00",
     "option_d": "D. N42.00",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -1653,7 +1572,7 @@
     "option_b": "B. 6",
     "option_c": "C. 7",
     "option_d": "D. 8",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -1662,7 +1581,7 @@
     "option_b": "B. 6",
     "option_c": "C. 18",
     "option_d": "D. 24",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -1671,16 +1590,7 @@
     "option_b": "B. 13/28",
     "option_c": "C. 5/14",
     "option_d": "D. 3/14",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>The result of tossing a fair die 120 times is summarized above. Find the value of x</p>",
-    "option_a": "A. 19",
-    "option_b": "B. 20",
-    "option_c": "C. 21",
-    "option_d": "D. 22",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1689,7 +1599,7 @@
     "option_b": "B. 120o",
     "option_c": "C. 180o",
     "option_d": "D. 30o",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1698,7 +1608,7 @@
     "option_b": "B. 3",
     "option_c": "C. 5",
     "option_d": "D. 11",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -1707,16 +1617,7 @@
     "option_b": "B. y = 150 - x",
     "option_c": "C. y = 60 - x",
     "option_d": "D. y = 120 -x",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>In the diagram above, PQ = 4 cm and TS = 6 cm. If the area of parallelogram PQTU is 32 cm\\(^2\\), find the area of the trapezium PQRU</p>",
-    "option_a": "A. 60 cm2",
-    "option_b": "B. 72 cm2",
-    "option_c": "C. 48 cm2",
-    "option_d": "D. 24 cm2",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1725,7 +1626,7 @@
     "option_b": "B. (2, 2)",
     "option_c": "C. (4, 4)",
     "option_d": "D. (4, -4)",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1734,25 +1635,7 @@
     "option_b": "B. the perpendicular bisector of PQ",
     "option_c": "C. The diagonal PR",
     "option_d": "D. side SR",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Find the value of x in the figure above",
-    "option_a": "A. 15√6",
-    "option_b": "B. 20√6",
-    "option_c": "C. 3√6",
-    "option_d": "D. 5√6",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "P, R and S lie on a circle center as shown above while Q lies outside the circle. Find ∠PSO",
-    "option_a": "A. 45o",
-    "option_b": "B. 55o",
-    "option_c": "C. 35o",
-    "option_d": "D. 40o",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1761,7 +1644,7 @@
     "option_b": "B. pair of line on opposite sides of LM and parallel to it, each distance 5 cm from LM",
     "option_c": "C. line parallel to LM and 5 cm from LM",
     "option_d": "D. pair of parallel lines on one side of LM and parallel to LM",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -1770,7 +1653,7 @@
     "option_b": "B. -3",
     "option_c": "C. 2",
     "option_d": "D. -1",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -1779,7 +1662,7 @@
     "option_b": "B. -3",
     "option_c": "C. 1 - 6x",
     "option_d": "D. 6x - 1",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -1788,7 +1671,7 @@
     "option_b": "B. 16π",
     "option_c": "C. 2π",
     "option_d": "D. 4π",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1797,7 +1680,7 @@
     "option_b": "B. 16",
     "option_c": "C. -4",
     "option_d": "D. -6",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -1806,7 +1689,7 @@
     "option_b": "B. \\(-\\frac{2}{3}\\)",
     "option_c": "C. \\(-6\\frac{2}{3}\\)",
     "option_d": "D. \\(6\\frac{2}{3}\\)",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -1815,7 +1698,7 @@
     "option_b": "B. 21",
     "option_c": "C. 28",
     "option_d": "D. 32",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -1824,25 +1707,7 @@
     "option_b": "B. 2.0",
     "option_c": "C. 1.0",
     "option_d": "D. 1.5",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "An unbiased die is rolled 100 times and the outcome is tabulated above.<br>\nWhat is the probability of obtaining a 5?",
-    "option_a": "A. 1/5",
-    "option_b": "B. 1/2",
-    "option_c": "C. 1/6",
-    "option_d": "D. 1/4",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The pie chart above shows the distribution of the crops harvested from a farmland in a year. If 3000 tonnes of millet is harvested, what amount of beans is harvested",
-    "option_a": "A. 6000 tonnes",
-    "option_b": "B. 1500 tonnes",
-    "option_c": "C. 1200 tonnes",
-    "option_d": "D. 9000 tonnes",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -1851,7 +1716,7 @@
     "option_b": "B. 10 ways",
     "option_c": "C. 15 ways",
     "option_d": "D. 20 ways",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -1860,7 +1725,7 @@
     "option_b": "B. 7",
     "option_c": "C. 42",
     "option_d": "D. 15",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1869,7 +1734,7 @@
     "option_b": "B. 11/35",
     "option_c": "C. 4/7",
     "option_d": "D. 3/7",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -1878,7 +1743,7 @@
     "option_b": "B. 462 ways",
     "option_c": "C. 840 ways",
     "option_d": "D. 924 ways",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1887,7 +1752,7 @@
     "option_b": "B. 3",
     "option_c": "C. 1",
     "option_d": "D. 2",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -1896,7 +1761,7 @@
     "option_b": "B. I and II",
     "option_c": "C. II and III",
     "option_d": "D. I and III",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1905,7 +1770,7 @@
     "option_b": "B. 10",
     "option_c": "C. 1/5",
     "option_d": "D. 1/10",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -1914,7 +1779,7 @@
     "option_b": "B. -2, 1, 0 , -1",
     "option_c": "C. 0, 1, 2",
     "option_d": "D. -1, 0, 1",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -1923,7 +1788,7 @@
     "option_b": "B. 8",
     "option_c": "C. 78",
     "option_d": "D. 48",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -1932,7 +1797,7 @@
     "option_b": "B. 3",
     "option_c": "C. 16",
     "option_d": "D. 4",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1941,7 +1806,7 @@
     "option_b": "B. 4",
     "option_c": "C. 1",
     "option_d": "D. -1",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -1950,7 +1815,7 @@
     "option_b": "B. 12",
     "option_c": "C. 6",
     "option_d": "D. 3",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1959,7 +1824,7 @@
     "option_b": "B. (a - 2b)(c + a +2b)",
     "option_c": "C. (a - 2b)(c - a + 2b)",
     "option_d": "D. (a - 2b)(c + a - 2b)",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -1968,7 +1833,7 @@
     "option_b": "B. 1/3",
     "option_c": "C. 3/4",
     "option_d": "D. 1",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -1977,7 +1842,7 @@
     "option_b": "B. 324 cm",
     "option_c": "C. 36 cm",
     "option_d": "D. 144 cm",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -1986,7 +1851,7 @@
     "option_b": "B. 11/25",
     "option_c": "C. 12/25",
     "option_d": "D. 13/25",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -1995,7 +1860,7 @@
     "option_b": "B. 4/3",
     "option_c": "C. 3/4",
     "option_d": "D. 3/8",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -2004,7 +1869,7 @@
     "option_b": "B. 1167",
     "option_c": "C. 6117",
     "option_d": "D. 1427",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -2013,7 +1878,7 @@
     "option_b": "B. 6",
     "option_c": "C. 3",
     "option_d": "D. 2",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -2022,16 +1887,16 @@
     "option_b": "B. \\(\\frac{19}{35}\\)",
     "option_c": "C. \\(\\frac{2}{25}\\)",
     "option_d": "D. \\(\\frac{19}{60}\\)",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
-    "question_text": "<p>The shaded region in the Venn diagram above is</p>",
+    "question_text": "<a href=\"https://myschool.ng/classroom/mathematics\"><div class=\"mb-2 badge bg-success text-light\">Mathematics</div></a>\n    <a href=\"https://myschool.ng/classroom/mathematics?exam_type=jamb&amp;exam_year=2004\"><div class=\"mb-2 badge bg-success text-light\">JAMB 2004</div></a>\n    <br>\n    \n    \n            <div class=\"mb-4\">\n            <img src=\"https://myschool.ng/storage/classroom/6777947690_math200448.jpg\" class=\"img-fluid\">\n        </div>\n    \n    <p>The shaded region in the Venn diagram above is</p>",
     "option_a": "A. Pc ∪ (Q ∩ R)",
     "option_b": "B. Pc ∩ (Q ∪ R)",
     "option_c": "C. P ∩ Q",
     "option_d": "D. Pc ∩ (Q ∩ R)",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -2040,7 +1905,7 @@
     "option_b": "B. -2 - √3",
     "option_c": "C. 2 + √3",
     "option_d": "D. -2 + √3",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -2049,7 +1914,7 @@
     "option_b": "B. 1 : 25 000",
     "option_c": "C. 1 : 500",
     "option_d": "D. 1 : 5 000",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -2058,7 +1923,7 @@
     "option_b": "B. 6",
     "option_c": "C. 5",
     "option_d": "D. 2",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -2067,7 +1932,7 @@
     "option_b": "B. 1",
     "option_c": "C. 2",
     "option_d": "D. 3",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -2076,7 +1941,7 @@
     "option_b": "B. 21/60",
     "option_c": "C. 111/60",
     "option_d": "D. 11/60",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
@@ -2085,7 +1950,7 @@
     "option_b": "B. N7.50",
     "option_c": "C. N15.00",
     "option_d": "D. N18.00",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -2094,7 +1959,7 @@
     "option_b": "B. 54",
     "option_c": "C. 48",
     "option_d": "D. 42",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -2103,7 +1968,7 @@
     "option_b": "B. 1",
     "option_c": "C. 1/3",
     "option_d": "D. 1/8",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -2112,25 +1977,16 @@
     "option_b": "B. 0.6532",
     "option_c": "C. 0.4771",
     "option_d": "D. 0.3010",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
-    "question_text": "Simplify \\(\\frac{(√12-√3)}{(√12+√3)}\\)",
+    "question_text": "Simplify <span class=\"MathJax_Preview\" style=\"color: inherit; display: none;\"></span><span class=\"MathJax\" id=\"MathJax-Element-2-Frame\" tabindex=\"0\" style=\"position: relative;\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mfrac><mrow><mo stretchy=&quot;false&quot;>(</mo><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mo stretchy=&quot;false&quot;>&amp;#x221A;</mo></mrow><mn>12</mn><mo>&amp;#x2212;</mo><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mo stretchy=&quot;false&quot;>&amp;#x221A;</mo></mrow><mn>3</mn><mo stretchy=&quot;false&quot;>)</mo></mrow><mrow><mo stretchy=&quot;false&quot;>(</mo><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mo stretchy=&quot;false&quot;>&amp;#x221A;</mo></mrow><mn>12</mn><mo>+</mo><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mo stretchy=&quot;false&quot;>&amp;#x221A;</mo></mrow><mn>3</mn><mo stretchy=&quot;false&quot;>)</mo></mrow></mfrac></math>\" role=\"presentation\"><nobr aria-hidden=\"true\"><span class=\"math\" id=\"MathJax-Span-28\" style=\"width: 4.611em; display: inline-block;\"><span style=\"display: inline-block; position: relative; width: 3.69em; height: 0px; font-size: 124%;\"><span style=\"position: absolute; clip: rect(1.04em, 1003.69em, 3.171em, -999.997em); top: -2.359em; left: 0em;\"><span class=\"mrow\" id=\"MathJax-Span-29\"><span class=\"mfrac\" id=\"MathJax-Span-30\"><span style=\"display: inline-block; position: relative; width: 3.459em; height: 0px; margin-right: 0.118em; margin-left: 0.118em;\"><span style=\"position: absolute; clip: rect(3.229em, 1003.29em, 4.323em, -999.997em); top: -4.548em; left: 50%; margin-left: -1.668em;\"><span class=\"mrow\" id=\"MathJax-Span-31\"><span class=\"mo\" id=\"MathJax-Span-32\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">(</span><span class=\"texatom\" id=\"MathJax-Span-33\"><span class=\"mrow\" id=\"MathJax-Span-34\"><span class=\"mo\" id=\"MathJax-Span-35\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">√</span></span></span><span class=\"mn\" id=\"MathJax-Span-36\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">12</span><span class=\"mo\" id=\"MathJax-Span-37\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">−</span><span class=\"texatom\" id=\"MathJax-Span-38\"><span class=\"mrow\" id=\"MathJax-Span-39\"><span class=\"mo\" id=\"MathJax-Span-40\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">√</span></span></span><span class=\"mn\" id=\"MathJax-Span-41\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">3</span><span class=\"mo\" id=\"MathJax-Span-42\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">)</span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(3.229em, 1003.29em, 4.323em, -999.997em); top: -3.511em; left: 50%; margin-left: -1.668em;\"><span class=\"mrow\" id=\"MathJax-Span-43\"><span class=\"mo\" id=\"MathJax-Span-44\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">(</span><span class=\"texatom\" id=\"MathJax-Span-45\"><span class=\"mrow\" id=\"MathJax-Span-46\"><span class=\"mo\" id=\"MathJax-Span-47\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">√</span></span></span><span class=\"mn\" id=\"MathJax-Span-48\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">12</span><span class=\"mo\" id=\"MathJax-Span-49\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">+</span><span class=\"texatom\" id=\"MathJax-Span-50\"><span class=\"mrow\" id=\"MathJax-Span-51\"><span class=\"mo\" id=\"MathJax-Span-52\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">√</span></span></span><span class=\"mn\" id=\"MathJax-Span-53\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">3</span><span class=\"mo\" id=\"MathJax-Span-54\" style=\"font-size: 70.7%; font-family: MathJax_Main;\">)</span></span><span style=\"display: inline-block; width: 0px; height: 3.978em;\"></span></span><span style=\"position: absolute; clip: rect(0.867em, 1003.46em, 1.27em, -999.997em); top: -1.322em; left: 0em;\"><span style=\"display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 3.459em; height: 0px;\"></span><span style=\"display: inline-block; width: 0px; height: 1.097em;\"></span></span></span></span></span><span style=\"display: inline-block; width: 0px; height: 2.365em;\"></span></span></span><span style=\"display: inline-block; overflow: hidden; vertical-align: -0.854em; border-left: 0px solid; width: 0px; height: 2.432em;\"></span></span></nobr><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo stretchy=\"false\">(</mo><mrow class=\"MJX-TeXAtom-ORD\"><mo stretchy=\"false\">√</mo></mrow><mn>12</mn><mo>−</mo><mrow class=\"MJX-TeXAtom-ORD\"><mo stretchy=\"false\">√</mo></mrow><mn>3</mn><mo stretchy=\"false\">)</mo></mrow><mrow><mo stretchy=\"false\">(</mo><mrow class=\"MJX-TeXAtom-ORD\"><mo stretchy=\"false\">√</mo></mrow><mn>12</mn><mo>+</mo><mrow class=\"MJX-TeXAtom-ORD\"><mo stretchy=\"false\">√</mo></mrow><mn>3</mn><mo stretchy=\"false\">)</mo></mrow></mfrac></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-2\">\\frac{(√12-√3)}{(√12+√3)}</script>",
     "option_a": "A. zero",
     "option_b": "B. 1/3",
     "option_c": "C. 3/5",
     "option_d": "D. 1",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The venn diagram above shows a class of 40 students with the games they play. How many of the students play two games only?",
-    "option_a": "A. 19",
-    "option_b": "B. 16",
-    "option_c": "C. 15",
-    "option_d": "D. 4",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -2139,7 +1995,7 @@
     "option_b": "B. 19.15",
     "option_c": "C. 18.95",
     "option_d": "D. 18.05",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -2148,7 +2004,7 @@
     "option_b": "B. x3 + 7x - 6",
     "option_c": "C. x3 + 7x + 6",
     "option_d": "D. x3 - 7x - 6",
-    "correct_option": ""
+    "correct_option": "D"
   },
   {
     "course_id": "3",
@@ -2157,16 +2013,16 @@
     "option_b": "B. 35",
     "option_c": "C. 45",
     "option_d": "D. 60",
-    "correct_option": ""
+    "correct_option": "C"
   },
   {
     "course_id": "3",
     "question_text": "The weight W kg of a metal bar varies jointly as its length L meters and the square of its diameter d meters. If w = 140 when d = 4<sup>2</sup>/<sub>3</sub> and L = 54, find d in terms of W and L.",
-    "option_a": "A. \\(\\sqrt{\\frac{42W}{5L}}\\)",
-    "option_b": "B. \\(\\sqrt{\\frac{6L}{42W}}\\)",
-    "option_c": "C. \\(\\frac{42W}{5L}\\)",
-    "option_d": "D. \\(\\frac{5L}{42W}\\)",
-    "correct_option": ""
+    "option_a": "A. \n√\n42W\n\n\n5L",
+    "option_b": "B. \n√\n6L\n\n\n42W",
+    "option_c": "C. \n42W\n\n\n5L",
+    "option_d": "D. \n5L\n\n\n42W",
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -2175,16 +2031,7 @@
     "option_b": "B. x<7",
     "option_c": "C. x>-7",
     "option_d": "D. x<-7",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>The diagram above is the graph of the function f(x). Determine&nbsp;the range of values of x for which f(x) \\(\\geq\\) 0</p>",
-    "option_a": "A. x \\(\\leq\\) 2",
-    "option_b": "B. 0 \\(\\leq\\) x \\(\\leq\\) 2",
-    "option_c": "C. -2 \\(\\leq\\) x \\(\\leq\\) 0, x \\(\\geq\\) 2",
-    "option_d": "D. x \\(\\leq\\) -2, 0 \\(\\leq\\) x \\(\\leq\\) 2",
-    "correct_option": ""
+    "correct_option": "A"
   },
   {
     "course_id": "3",
@@ -2193,7 +2040,7 @@
     "option_b": "B. 3",
     "option_c": "C. 2",
     "option_d": "D. 1",
-    "correct_option": ""
+    "correct_option": "B"
   },
   {
     "course_id": "3",
@@ -2202,98 +2049,6 @@
     "option_b": "B. 1040",
     "option_c": "C. 960",
     "option_d": "D. 920",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>An operation * is defined on the set of real numbers by a * b = ab + 2(a + b + 1). find the identity element</p>",
-    "option_a": "A. 2",
-    "option_b": "B. 1",
-    "option_c": "C. -1",
-    "option_d": "D. -2",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "In the diagram above calculate the value of x",
-    "option_a": "A. 60o",
-    "option_b": "B. 100o",
-    "option_c": "C. 120o",
-    "option_d": "D. 140o",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Three straight lines EF, GH and LK interest at O as shown above. If ∠KOF = 52<sup>o</sup> and ∠LOH = 85<sup>o</sup>, calculate the size of ∠EOG.",
-    "option_a": "A. 26o",
-    "option_b": "B. 43o",
-    "option_c": "C. 52o",
-    "option_d": "D. 85o",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "The sum of the interior angle of a regular polygon is 1800<sup>o</sup>. Calculate the size of one exterior angle of the polygon",
-    "option_a": "A. 30o",
-    "option_b": "B. 24o",
-    "option_c": "C. 18o",
-    "option_d": "D. 12o",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>In the diagram above, O is the center of the circle,<br>\n<br>\n∠UOT = 70º&nbsp;and ∠RST = 100º. Calculate ∠RUO.</p>",
-    "option_a": "A. 20o",
-    "option_b": "B. 25o",
-    "option_c": "C. 50o",
-    "option_d": "D. 80o",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "A sector of a circle has an area of 55 cm<sup>2</sup>. If the radius of the circle is 10 cm, calculate the angle of the sector <br>\n[π = 22/7]",
-    "option_a": "A. 45o",
-    "option_b": "B. 63o",
-    "option_c": "C. 75o",
-    "option_d": "D. 90o",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Find the curved surface area of a cone with circular base diameter 10 cm and height 12 cm",
-    "option_a": "A. 25 πcm2",
-    "option_b": "B. 65 πcm2",
-    "option_c": "C. 120 πcm2",
-    "option_d": "D. 156 πcm2",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>Two lines PQ and ST intersect at 75°. The locus of points equidistant from PQ and ST lies on the</p>",
-    "option_a": "A. perpendicular bisector of PQ",
-    "option_b": "B. perpendicular bisector of ST",
-    "option_c": "C. bisector of the angles between lines PQ and ST",
-    "option_d": "D. bisector of the angles between lines PT and QS",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "Find the equation of the perpendicular at the point (4,3) to the line y +  2x = 5",
-    "option_a": "A. 2y - x = 4",
-    "option_b": "B. y + 2x = 3",
-    "option_c": "C. y + 2x = 5",
-    "option_d": "D. 2y - x = 2",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
-    "question_text": "<p>A chord of a circle subtends an angle of 60o at the length of a circle of radius 14 cm. Find the length of the chord</p>",
-    "option_a": "A. 7 cm",
-    "option_b": "B. 14 cm",
-    "option_c": "C. 21 cm",
-    "option_d": "D. 28 cm",
-    "correct_option": ""
+    "correct_option": "D"
   }
 ]
-
-

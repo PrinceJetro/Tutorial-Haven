@@ -1,15 +1,6 @@
 [
   {
-    "course_id": "3",
-    "question_text": "<p>Abraham is portrayed in the bible as</p>",
-    "option_a": "A. The miracle worker",
-    "option_b": "B. The lion of Judah",
-    "option_c": "C. The giver of the laws",
-    "option_d": "D. The father of the faithful",
-    "correct_option": ""
-  },
-  {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>Moses led the children of Israel through the</p>",
     "option_a": "A. Sahara desert",
     "option_b": "B. Lion's Den",
@@ -18,7 +9,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>Which of the following people was one of the outstanding kings of Israel after the falling of the Kingdom?</p>",
     "option_a": "A. King herold",
     "option_b": "B. Pharoah",
@@ -27,7 +18,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>Who among the following was sold to the Ishaemlites for twenty shekels because of his dreams?</p>",
     "option_a": "A. Moses",
     "option_b": "B. Joseph",
@@ -36,7 +27,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>The ten commandments were delivered to the Israelites through Moses while they were</p>",
     "option_a": "A. In Egypt",
     "option_b": "B. In the Land of Midian",
@@ -45,7 +36,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>The children of Israel asked Samuel for a king because</p>",
     "option_a": "A. It was in their constitution",
     "option_b": "B. Their former kind was killed in battle",
@@ -54,7 +45,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>Who sold his birthright for a plate of pottage?</p>",
     "option_a": "A. Daniel",
     "option_b": "B. Esau",
@@ -63,7 +54,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "He was a king remembered for his erecting a mighty temple for the worship of God:",
     "option_a": "A. Solomon",
     "option_b": "B. Josiah",
@@ -72,7 +63,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>The law books used for the great reformation of Israel's social and religious institution were found in the temple in 621 BC during the reign of</p>",
     "option_a": "A. Hezekiah",
     "option_b": "B. Josiah",
@@ -81,7 +72,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>Jesus Christ was baptized in the River Jordan by</p>",
     "option_a": "A. Mathew",
     "option_b": "B. John",
@@ -90,7 +81,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>....was not one of the Apostles of Jesus</p>",
     "option_a": "A. Bartholomew",
     "option_b": "B. Agrippa",
@@ -99,7 +90,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "....was one of the strongest enemies of the Christian faith before his conversion",
     "option_a": "A. Jehu",
     "option_b": "B. Judas Iscariot",
@@ -108,7 +99,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Who accompanied Paul on his First Missionary journey?",
     "option_a": "A. Barnabas",
     "option_b": "B. Lucius of Cyrene",
@@ -117,7 +108,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The Holy spirit descended on the followers of Christ and they began to speak in tongues",
     "option_a": "A. During the ascension of Christ",
     "option_b": "B. At the crucifixion of Christ",
@@ -126,7 +117,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>Joseph's brothers hated him more because</p>",
     "option_a": "A. Of the coat Jacob gave him",
     "option_b": "B. He was the son of Rachael",
@@ -135,7 +126,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "David took Jerusalem from",
     "option_a": "A. The Jebusites",
     "option_b": "B. The Philistines",
@@ -144,7 +135,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The Lord told Solomon his kingdom would be divided  after his death because.",
     "option_a": "A. He had married foriegn woman",
     "option_b": "B. Be built the temple",
@@ -153,7 +144,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>Jeremiah's vision of boiling pot represented</p>",
     "option_a": "A. Israel's sin",
     "option_b": "B. The true worship of God",
@@ -162,7 +153,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Jeremiah the prophet",
     "option_a": "A. encouraged Zedekiah to rebel against Babylon",
     "option_b": "B. Promised deliverance from the king of Babylon",
@@ -171,7 +162,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "In his parables of the \"Wheat and the tares\" Jesus",
     "option_a": "A. Told people to root out the tares",
     "option_b": "B. Told people the tares should be left until harvest",
@@ -180,7 +171,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "In St. Mark's gospel the women are told at the empty tomb",
     "option_a": "A. to encourage the disciples to remain in Jerusalem",
     "option_b": "B. to order the disciples to preach the Gentiles",
@@ -189,7 +180,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Martha's sister was called",
     "option_a": "A. Elizabeth",
     "option_b": "B. Mary",
@@ -198,7 +189,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "In the parable of the friend at the midnight, the man will get up and assist him because",
     "option_a": "A. He is his friend",
     "option_b": "B. Of his importunity",
@@ -207,7 +198,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Gamaliel advice the council to release the apostles because",
     "option_a": "A. He feared the people",
     "option_b": "B. He believed what the apostles said",
@@ -216,7 +207,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "After his arrest in Jerusalem, Paul was supported by the Pharisees because",
     "option_a": "A. He had been a pupil of Gamaliel",
     "option_b": "B. He believed in the resurrection",
@@ -225,7 +216,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Who was Isaac's wife?",
     "option_a": "A. Rebekah",
     "option_b": "B. Rachel",
@@ -234,7 +225,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Israel(Jacob)charged his people to bury him",
     "option_a": "A. in the East of Bethel",
     "option_b": "B. in the valley of Kidron",
@@ -243,7 +234,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Moses, after killing the Egyptian fled to",
     "option_a": "A. the land of Canaan",
     "option_b": "B. the land of Midian",
@@ -252,7 +243,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The last plague inflicted upon the Egyptians was",
     "option_a": "A. the changing of all the rivers into blood",
     "option_b": "B. the influx of frogs into the land of Egypt",
@@ -261,7 +252,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>The spies sent to Jericho by Joshua were helped by</p>",
     "option_a": "A. Asher",
     "option_b": "B. Manasseh",
@@ -270,7 +261,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The Prophet who was with the exiles of 597 BC in Babylon was",
     "option_a": "A. Amos",
     "option_b": "B. Hosea",
@@ -279,7 +270,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The Acts of the Apostles was initially written for",
     "option_a": "A. the Church in Jerusalem",
     "option_b": "B. Theophilus",
@@ -288,7 +279,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The Acts of the Apostles tells the story of how",
     "option_a": "A. Ananias lied to the Apostles",
     "option_b": "B. Gamaliel lied to the Apostles",
@@ -297,7 +288,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Who was the first Christian Martyr?",
     "option_a": "A. James",
     "option_b": "B. Phillip",
@@ -306,7 +297,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Paul's First Missionary Journey started from",
     "option_a": "A. Jerusalem",
     "option_b": "B. Samaria",
@@ -315,7 +306,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Who were mistaken for gods in the Acts of the Apostles?",
     "option_a": "A. Paul and James",
     "option_b": "B. Paul and Peter",
@@ -324,7 +315,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "God commanded Abraham to circumcise his male descendants as",
     "option_a": "A. a rule to the world",
     "option_b": "B. a sign of God's convenant with Abraham",
@@ -333,7 +324,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Deborah was......in Israel",
     "option_a": "A. priest",
     "option_b": "B. seer",
@@ -342,7 +333,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "During the time of Amos the prophet.......was the priest of Bethel",
     "option_a": "A. Amaziah",
     "option_b": "B. Jeroboam",
@@ -351,7 +342,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The king of Assyria who took Samaria was",
     "option_a": "A. Elah",
     "option_b": "B. Shalmanesar",
@@ -360,7 +351,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The prophecy \"The soul that sins shall die\", was given by the Prophet",
     "option_a": "A. Isaiah",
     "option_b": "B. Amos",
@@ -369,7 +360,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>The King of Persia who made it possible for the return of the exiles from Babylon was</p>",
     "option_a": "A. Darius",
     "option_b": "B. Cyrus",
@@ -378,7 +369,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The meaning of Emmanuel is",
     "option_a": "A. laughter",
     "option_b": "B. For i drew him from water",
@@ -387,7 +378,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "About almsgiving Jesus says,when you give your gift,you should",
     "option_a": "A. sound trumpets for people to know what you are doing",
     "option_b": "B. give it in church",
@@ -396,7 +387,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Mark's Gospel starts with",
     "option_a": "A. the story of the birth of Jesus",
     "option_b": "B. the story of Simon Peter",
@@ -405,7 +396,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "........was chosen in place of Judas Iscariot",
     "option_a": "A. Paul",
     "option_b": "B. Barnabas",
@@ -414,7 +405,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Who was released by Pilate in place of Jesus?",
     "option_a": "A. Herod",
     "option_b": "B. Nicodemus",
@@ -423,7 +414,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "According to the Gospel of Luke the first statement made by Jesus on the cross was",
     "option_a": "A. it is finished",
     "option_b": "B. Today you shall be with me in Paradise",
@@ -432,7 +423,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The name Moses means",
     "option_a": "A. the loved child of Pharoah",
     "option_b": "B. God heard our groaning",
@@ -441,7 +432,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The promise of God made with Abraham was that",
     "option_a": "A. He would make nations of him",
     "option_b": "B. He would live long",
@@ -450,7 +441,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>Moses asked Pharaoh to allow the Hebrews to depart from Egypt to</p>",
     "option_a": "A. buy more food from the land of Canaan",
     "option_b": "B. fight the Jebusites",
@@ -459,7 +450,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "One of the reasons why Saul was rejected as king was that",
     "option_a": "A. the Lord preferred David",
     "option_b": "B. he disobeyed God by not destroying all that belonged to the Amalekites",
@@ -468,7 +459,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "God's covenant with Abraham took the form of",
     "option_a": "A. some written codes",
     "option_b": "B. circumcision",
@@ -477,7 +468,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The great reformation of Israel's social and religious institutions took place during the reign of",
     "option_a": "A. Jeroboam the second",
     "option_b": "B. Josiah",
@@ -486,7 +477,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The one who saved Joseph's life when his brothers wanted to kill him was",
     "option_a": "A. Simeon",
     "option_b": "B. Reuben",
@@ -495,7 +486,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "..........made the following statement:\"But as for me and my house,we will serve the Lord\"",
     "option_a": "A. Moses",
     "option_b": "B. Gideon",
@@ -504,7 +495,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Pharaoh's first reaction to Moses' request to let Israel go was",
     "option_a": "A. to drive Moses out",
     "option_b": "B. to ask for time to consider it",
@@ -513,7 +504,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Gideon was called Jerubbaal because",
     "option_a": "A. he broke down the altar of Baal",
     "option_b": "B. he defeated the Midianites",
@@ -522,7 +513,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "\"Bring your necks under the yoke of the king of Babylon and serve him and his people and live\" who gave this advice?",
     "option_a": "A. Jeremiah",
     "option_b": "B. Isaiah",
@@ -531,7 +522,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Who was responsible for the death of Uriah?",
     "option_a": "A. David",
     "option_b": "B. Solomon",
@@ -540,7 +531,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "What is the meaning of the name Samuel?",
     "option_a": "A. God has made me laugh",
     "option_b": "B. Because i have asked him of the Lord",
@@ -549,7 +540,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>Elijah prophesied a long and severe drought in Israel because</p>",
     "option_a": "A. Ahab married Jezebel",
     "option_b": "B. Jezebel worshipped Baal",
@@ -558,7 +549,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Jephthah vowed that if he defeated the Ammonites he would",
     "option_a": "A. sacrifice his daughter as a burnt offering",
     "option_b": "B. slay all the Ammonites",
@@ -567,7 +558,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Ezekiel was usually referred to as the prophet of",
     "option_a": "A. the exile",
     "option_b": "B. Jerusalem",
@@ -576,7 +567,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The King of Assyria took Samaria and carried Israel away into Assyria during the reign of",
     "option_a": "A. Jeroboam",
     "option_b": "B. Hosea",
@@ -585,7 +576,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "One of the following said: \"The lion hath roared,who will not fear?The Lord has spoken,who can but prophesy?\"",
     "option_a": "A. Nathan",
     "option_b": "B. Jeremiah",
@@ -594,7 +585,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "\"My father chastised you with whips,but i will chastise you with scorpion\". Who said this?",
     "option_a": "A. Solomon",
     "option_b": "B. Jeroboam",
@@ -603,7 +594,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The Israelites entered the land of Canaan under the leadership of",
     "option_a": "A. Aaron",
     "option_b": "B. Moses",
@@ -612,7 +603,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Sisera was put to death by",
     "option_a": "A. Deborah",
     "option_b": "B. Barak",
@@ -621,7 +612,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "One of the Judges of Israel was",
     "option_a": "A. Zipporah",
     "option_b": "B. Manoah",
@@ -630,7 +621,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The kingdom of Judah was finally defeated by",
     "option_a": "A. The King of Assyriah",
     "option_b": "B. the King of Babylon",
@@ -639,7 +630,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "David first reigned as king in",
     "option_a": "A. Shiloh",
     "option_b": "B. Hebron",
@@ -648,7 +639,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Who was stoned to death because of his unyielding devotion to the Gospel of Jesus Christ?",
     "option_a": "A. Amos",
     "option_b": "B. Paul",
@@ -657,7 +648,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The term \"sons of thunder\" was applied by Jesus to",
     "option_a": "A. the samaritans who did not accept him in their village",
     "option_b": "B. James and John",
@@ -666,7 +657,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "\"If this plan or this undertaking is of men,it will fail;but if it is of God,you will not be able to overthrow it\"this was said by",
     "option_a": "A. Gamaliel",
     "option_b": "B. Peter",
@@ -675,7 +666,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>One of these is not in any list of the twelve Apostles</p>",
     "option_a": "A. Thaddaeus",
     "option_b": "B. Matthew",
@@ -684,7 +675,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The name of Herod's son who succeeded his father as ruler of Judea was",
     "option_a": "A. Phasael",
     "option_b": "B. Antipas",
@@ -693,7 +684,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "In the Act of Apostles,Philip was",
     "option_a": "A. the one who took the place of Judas",
     "option_b": "B. one of the seven appointed with Stephen",
@@ -702,7 +693,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "In the parable of the labourers in the vineyard the owner",
     "option_a": "A. gave the same amonut to all",
     "option_b": "B. gave more to those called frist",
@@ -711,7 +702,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The statement,'consider the lilies, how they grow'is connected with Jesus'teaching about",
     "option_a": "A. prayer",
     "option_b": "B. fasting",
@@ -720,7 +711,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "...was a persecutor of the church before his conversion",
     "option_a": "A. Barnabas",
     "option_b": "B. Matthias",
@@ -729,7 +720,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Jesus said,'i will be clean,'to",
     "option_a": "A. a man with an unclean spirit",
     "option_b": "B. a blind man",
@@ -738,7 +729,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": ".....Appeared to Jesus on the mount of transfiguration",
     "option_a": "A. Abraham and Isaac",
     "option_b": "B. David and Solomon",
@@ -747,7 +738,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The statement,'This is my beloved son with whom i am well pleased'was said during",
     "option_a": "A. the Birth of Jesus",
     "option_b": "B. the Temptation of Jesus",
@@ -756,7 +747,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Where were the disciples first called christian?",
     "option_a": "A. Antioch",
     "option_b": "B. Joppa",
@@ -765,7 +756,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>The title Christ means</p>",
     "option_a": "A. saviour",
     "option_b": "B. anointed",
@@ -774,7 +765,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The story of the prodigal son indicate that God is",
     "option_a": "A. all powerful",
     "option_b": "B. all knowing",
@@ -783,7 +774,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>The statement, my soul magnifies the lord....was made by</p>",
     "option_a": "A. Elizabeth",
     "option_b": "B. Zechariah",
@@ -792,7 +783,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "After his resurrection,Jesus first appeared to",
     "option_a": "A. Mary Magdalene",
     "option_b": "B. Mary mother of James",
@@ -801,7 +792,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Complete the statement,'blessed are the poor in spirit.....",
     "option_a": "A. for the will will be filled",
     "option_b": "B. for the will be called the sons of God",
@@ -810,7 +801,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Where did Paul cured a slave girl who has a spirit of divination?",
     "option_a": "A. Philippi",
     "option_b": "B. Ephesus",
@@ -819,7 +810,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Where did peter declare the messiah ship of Jesus?",
     "option_a": "A. On the way to jerusalem",
     "option_b": "B. On the way to Caesarrea Philippi",
@@ -828,7 +819,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>One of the resolution of the Jerusalem council was</p>",
     "option_a": "A. Jews and Gentiles should eat separately",
     "option_b": "B. Gentiles should abstain from alcohol",
@@ -837,7 +828,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Peter was released from prison as a result of",
     "option_a": "A. his ability to persuade the authorities",
     "option_b": "B. his good behaviour in prison",
@@ -846,7 +837,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Why did Jesus cursed a fig tree",
     "option_a": "A. He was angry",
     "option_b": "B. He was hungry",
@@ -855,7 +846,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The statement,'This night your soul is required of you' is found in the parable of",
     "option_a": "A. the wise and foolish virgins",
     "option_b": "B. the rich man and lazarus",
@@ -864,7 +855,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Abraham and his nephew lot decided to separate into two different camps",
     "option_a": "A. for fear of complete annihilation by the enemies",
     "option_b": "B. to enable them to capture more votes from the two camps",
@@ -873,7 +864,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>...was born at the time when Pharaoh ordered that all Hebrew male children be killed</p>",
     "option_a": "A. Miriam",
     "option_b": "B. Aaron",
@@ -882,7 +873,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Before Jacob died he ask his children to bury him in",
     "option_a": "A. the cave of machpelah at hebron",
     "option_b": "B. the fertile region of goshen in egypt",
@@ -891,7 +882,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "At the bank of river Jabbok the name of ...was changed to Isreal",
     "option_a": "A. Isaac",
     "option_b": "B. nebuchadnezzar",
@@ -900,7 +891,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The name Abraham means",
     "option_a": "A. Son of haran",
     "option_b": "B. A remnant shall return",
@@ -909,7 +900,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "...was one of the Judges of Israel",
     "option_a": "A. Abimelech",
     "option_b": "B. Abinadab",
@@ -918,7 +909,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Joshua's first victory was over the people",
     "option_a": "A. Ai",
     "option_b": "B. Gibeon",
@@ -927,7 +918,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "God promised Abraham in a covenant that",
     "option_a": "A. he would conquered Goliath",
     "option_b": "B. he would build the Jerusalem temple",
@@ -936,7 +927,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "This place was called the valley of Eshcol Because",
     "option_a": "A. the sons of israerl cut down a cluster of grapes there",
     "option_b": "B. the sons of Israel stop there on theirway canaan",
@@ -945,7 +936,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "One of the experiences of Jacob with Laban in Haran was that he worked for seven years",
     "option_a": "A. to pay for his sins",
     "option_b": "B. to save enough money for his own personal business",
@@ -954,7 +945,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "the period of bondage of the children of Israel in Egypt was characterized by",
     "option_a": "A. an oil boom",
     "option_b": "B. the drafting of their new constitution",
@@ -963,7 +954,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The laws given by Moses to the children of Israel in Sinai have striking similarities with the",
     "option_a": "A. Rosetta",
     "option_b": "B. Septuagint",
@@ -972,7 +963,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>After the conquest of Canaan by Joshua,the ark was first housed at</p>",
     "option_a": "A. Jerusalem",
     "option_b": "B. Shechem",
@@ -981,7 +972,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Elijah was a prophet during the reign of",
     "option_a": "A. Absalom",
     "option_b": "B. Ahab",
@@ -990,7 +981,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Saul was rejected by God because of his",
     "option_a": "A. disobedience",
     "option_b": "B. laziness",
@@ -999,7 +990,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Joab murdered Abner because",
     "option_a": "A. he wanted to avenge the death of his brother",
     "option_b": "B. he was jealous of Abner",
@@ -1008,7 +999,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Which prophet said:'when Israel was a child,i loved him, and out of Egypt i called my son'?",
     "option_a": "A. Hosea",
     "option_b": "B. Isaiah",
@@ -1017,7 +1008,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "But let justice roll down like waters and ...like an overflowing stream'. which of the following words completes the quotations?",
     "option_a": "A. faith",
     "option_b": "B. hope",
@@ -1026,7 +1017,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The division of the kingdom of Israel took place during the reign of",
     "option_a": "A. Rehoboam",
     "option_b": "B. Samuel",
@@ -1035,7 +1026,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "David was brought to Saul's palace at the initial stage",
     "option_a": "A. to help the king plan against the seven years of famine",
     "option_b": "B. as a slave boy sold to the Egyptian traders",
@@ -1044,7 +1035,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>Josiah's reign was popular because of his</p>",
     "option_a": "A. allies",
     "option_b": "B. victory",
@@ -1053,7 +1044,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "A prophet of hope in Babylon was",
     "option_a": "A. Amos",
     "option_b": "B. Ezekiel",
@@ -1062,7 +1053,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The exiles return to Jerusalem in the reign of",
     "option_a": "A. Cyrus",
     "option_b": "B. Hilkiah",
@@ -1071,7 +1062,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "after the exile, the rebuilding of the temple was completed in the reign of",
     "option_a": "A. Cyrus",
     "option_b": "B. Nebuchadnezzar",
@@ -1080,7 +1071,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Who ran to prophet Isaiah for prayers when the Assyrians threatened",
     "option_a": "A. Ahab",
     "option_b": "B. Hezekiah",
@@ -1089,7 +1080,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The Acts of Apostle was written by",
     "option_a": "A. the Apostle, Paul",
     "option_b": "B. Peter, the Apostle",
@@ -1098,7 +1089,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The teaching of Jesus about swearing was that one should not swear",
     "option_a": "A. by heaven",
     "option_b": "B. by the earth",
@@ -1107,7 +1098,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Which of the following defends the Apostles?",
     "option_a": "A. Bartholomew",
     "option_b": "B. Caiaphas",
@@ -1116,7 +1107,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The last temptation of Jesus by the devil was to ask him to",
     "option_a": "A. change stone to bread",
     "option_b": "B. jump from the pinnacle of the temple",
@@ -1125,7 +1116,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Which of the Gospels relates the death of Judas?",
     "option_a": "A. Mark",
     "option_b": "B. Matthew",
@@ -1134,7 +1125,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The birth of Jesus Christ took place in Bethlehem during the reign of",
     "option_a": "A. Pontius Pilate",
     "option_b": "B. Herod the Great",
@@ -1143,7 +1134,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Blessed are those who are persecuted for righteousness' sake",
     "option_a": "A. for the shall obtain mercy",
     "option_b": "B. for they share see God",
@@ -1152,7 +1143,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The promise of sending the Holy Spirit was fulfilled in",
     "option_a": "A. Bethany",
     "option_b": "B. Bethlehem",
@@ -1161,7 +1152,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Why did Jesus refer to the story of Jonah in his discussion with scribes and Pharisees?",
     "option_a": "A. It was a reference to the Jesus death and resurrection",
     "option_b": "B. It was a reference to the judgement day when the men of Nineveh would condemn the Jews",
@@ -1170,7 +1161,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>Th statement 'But I say to you that every one who is angry with his brother shall be liable to judgement; whoever insults his brother shall be liable to the council and whoever says' You fool' shall be liable to hell fire' is part of</p>",
     "option_a": "A. Christ's Sermon on the Mount",
     "option_b": "B. Christ's warning to the Pharisees",
@@ -1179,7 +1170,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The meaning of Ephphatha is said to be",
     "option_a": "A. be open",
     "option_b": "B. be still",
@@ -1188,7 +1179,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "According to St.Marks Gospel, Herod said that Jesus was",
     "option_a": "A. Jeremiah",
     "option_b": "B. Elijah",
@@ -1197,7 +1188,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The council of Jerusalem decided that Gentiles should abstain from pollution of idols and unchastity and from?",
     "option_a": "A. murder",
     "option_b": "B. unclean food",
@@ -1206,7 +1197,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "In the parable of the ten virgins, the foolish ones are blamed because they",
     "option_a": "A. arrived late",
     "option_b": "B. where sleepling when the bridegroom came",
@@ -1215,7 +1206,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Why did Jesus heal the leper at Galilee",
     "option_a": "A. The leper said' if you want to, you can cure me'",
     "option_b": "B. Jesus wanted to cure him",
@@ -1224,7 +1215,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The statement' truly this man was the son f God' was made by",
     "option_a": "A. the centurion",
     "option_b": "B. Stephen",
@@ -1233,7 +1224,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Jesus was presented in the temple of the Lord because",
     "option_a": "A. he was already twelve years old",
     "option_b": "B. his parents wanted to offer a sacrifice",
@@ -1242,7 +1233,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Which of the following parable is peculiar to Luke?",
     "option_a": "A. the labouers in the vineyard",
     "option_b": "B. the man with out a wedding garment",
@@ -1251,7 +1242,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The one who added to make up the twelve was",
     "option_a": "A. Paul",
     "option_b": "B. Thaddaeus",
@@ -1260,7 +1251,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The canticle which begins' blessed be the lord of Israel'(the Benedictus)was uttered by",
     "option_a": "A. Mary Magdalene",
     "option_b": "B. Zechariah",
@@ -1269,7 +1260,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The statement' oh man of little faith' why did you doubt' was uttered by Jesus Christ to",
     "option_a": "A. the crowd at the marriage in cana of Galilee where he turned water to wine",
     "option_b": "B. Judas after betraying him",
@@ -1278,7 +1269,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Who baptist the Ethiopian Eunuch",
     "option_a": "A. Paul",
     "option_b": "B. Peter",
@@ -1287,7 +1278,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Which of these do not believe in the Resurrection?",
     "option_a": "A. Assyrians",
     "option_b": "B. Publicans",
@@ -1296,7 +1287,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Which of the following parables could be said to teach about God's love for sinners",
     "option_a": "A. The wicked husbandmen",
     "option_b": "B. The good samaritan",
@@ -1305,7 +1296,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The statement 'beware of piety before men in order to be seen by them for then you will have no reward from your father whom is in heaven,'teaches that",
     "option_a": "A. a good deed should not be done if it wil attract the attention of others",
     "option_b": "B. a good deed should not be done simply to attract the attention of others",
@@ -1314,7 +1305,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Why was Saul pleased when he was told that his daughter, Michal, was in love with David?",
     "option_a": "A. Michalwas already geetting to old to marry",
     "option_b": "B. Jonathan David's friend, was michal's borther",
@@ -1323,7 +1314,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Moses was nursed by .....",
     "option_a": "A. Pharaoh's",
     "option_b": "B. his sister",
@@ -1332,7 +1323,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Joseph brother were at....when they conspired to kill him",
     "option_a": "A. Shechem",
     "option_b": "B. Dothan",
@@ -1341,7 +1332,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "God changed the name of Abraham wife from Sarai to Sarah when",
     "option_a": "A. God commanded Abraham to go to the land of canaan",
     "option_b": "B. Abraham had come to the land of canaan",
@@ -1350,7 +1341,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Amos condemned the woman of Samaria and called them...of Bashan",
     "option_a": "A. Sheep",
     "option_b": "B. oxen",
@@ -1359,7 +1350,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Hosea married Gomer, a harlot to symbolize the",
     "option_a": "A. unfaithfulness of Israel in forsaking the Lord",
     "option_b": "B. steadfastness of Israel in worship",
@@ -1368,7 +1359,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>One of the titles often used in the book of Ezekiel is?</p>",
     "option_a": "A. Son of God",
     "option_b": "B. Son of man",
@@ -1377,7 +1368,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The Passover meal marked.",
     "option_a": "A. the divine act of God when he slew the Egyptians but spared the Israelites",
     "option_b": "B. the send-off of the Israelites by Pharaoh",
@@ -1386,7 +1377,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The fall of the Northern Kingdom was due to",
     "option_a": "A. disorder in Israel after the death of Jeroboam II",
     "option_b": "B. Jerusalem's attack by the Assyrian army",
@@ -1395,7 +1386,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The United Kingdom of Israel was divided into two as a result of",
     "option_a": "A. a need for two states in Israel",
     "option_b": "B. the people's agitation for it",
@@ -1404,7 +1395,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Shortly before his death on the cross Jesus said",
     "option_a": "A. In my father's house there are many mansions'",
     "option_b": "B. ' I am the king of the Jews, harken unto me",
@@ -1413,7 +1404,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The disciples were first called Christians in",
     "option_a": "A. Rome",
     "option_b": "B. Jerusalem",
@@ -1422,7 +1413,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The 5th of the Ten Commandments is a warning",
     "option_a": "A. not to bow down to idols",
     "option_b": "B. not to kill",
@@ -1431,7 +1422,7 @@
     "correct_option": "E"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "On the island of Malta, Paul healed a man who was",
     "option_a": "A. born blind",
     "option_b": "B. deaf and dumb",
@@ -1440,7 +1431,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "..... I am Pharisees, a son of Pharisee, with respect to the hope and resurrect of the dead I am on trial. This was part of the address of Paul to",
     "option_a": "A. the Jerusalem crowd",
     "option_b": "B. King Agrippa and Festus",
@@ -1449,7 +1440,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The new covenant which God was to make with the house of Israel was that it would be",
     "option_a": "A. written upon their hearts",
     "option_b": "B. for the tribe of Judah alone",
@@ -1458,7 +1449,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>According to Matthew, Jesus entered Jerusalem riding</p>",
     "option_a": "A. a horse and a donkey",
     "option_b": "B. an ass and a horse",
@@ -1467,7 +1458,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "According to Paul, what bear witness to the righteousness of God are",
     "option_a": "A. faith and the law",
     "option_b": "B. grace and saving gift",
@@ -1476,7 +1467,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "After the mission of the seventy, Jesus declared that He had given them",
     "option_a": "A. the gift of knowledge of the word",
     "option_b": "B. authority over all the power of the enemy",
@@ -1485,7 +1476,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Amos declared that the Jews who built houses of hewn stone would not dwell in them because they",
     "option_a": "A. swore falsely",
     "option_b": "B. persecuted the prophets",
@@ -1494,7 +1485,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The altar that Gideon built under the oak at Ophrah was called",
     "option_a": "A. The LORD is great",
     "option_b": "B. The LORD is peace",
@@ -1503,7 +1494,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "According to Paul, a ruler does not bear the sword in vain but he",
     "option_a": "A. leads men into the ways of God",
     "option_b": "B. executes God's wrath on the wrong doer",
@@ -1512,7 +1503,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "In Paul's Epistle to the Galatians, as long as an heir is a  child, he is under",
     "option_a": "A. guradians",
     "option_b": "B. custodians",
@@ -1521,7 +1512,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "In interpersonal relationships, Paul advises believers to",
     "option_a": "A. emulate his good gesture",
     "option_b": "B. obey the law of Moses",
@@ -1530,7 +1521,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>Hosea proclaimed that Israel should return to God and plead that he should</p>",
     "option_a": "A. take away their iniquity",
     "option_b": "B. accept their worship",
@@ -1539,7 +1530,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The destruction of Jerusalem by Nebuchadnezzar was a consequence of",
     "option_a": "A. Hezekiah's death",
     "option_b": "B. Josiah's reforms",
@@ -1548,7 +1539,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "After Peter was released from prison by an angel, he went to the house of",
     "option_a": "A. Mary, mother of Mark",
     "option_b": "B. Salome",
@@ -1557,7 +1548,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "'' Follow me, and I will make you fishers of men'' <br>\nThe statement above was made by Jesus to Simon Peter and Andrew when they were at the",
     "option_a": "A. River Jordan",
     "option_b": "B. Great Sea",
@@ -1566,7 +1557,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The qualifications of the deacons appointed by the disciples were",
     "option_a": "A. righteousness and faithfulness",
     "option_b": "B. good repute, full of the Spirit and Wisdom",
@@ -1575,7 +1566,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The father of the prodigal son welcomed him back home because",
     "option_a": "A. he had compassion on his son",
     "option_b": "B. the son confessed his sins",
@@ -1584,7 +1575,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "According to John, the Jews who sent the priests and the Levites to find out who John the Baptist was, were the",
     "option_a": "A. Scribes",
     "option_b": "B. Sadducees",
@@ -1593,7 +1584,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Jesus drove away the money changers and pigeon-sellers from the Temple because they",
     "option_a": "A. disrespected the house of God",
     "option_b": "B. were Pharisees who hated His disciples",
@@ -1602,7 +1593,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The prayer of Jesus was that God should raise Lazarus from the dead so that",
     "option_a": "A. Lazarus life would believe that God sent Him",
     "option_b": "B. the people standing by would believe that God sent Him",
@@ -1611,7 +1602,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "According to John, those who believe in the light will become",
     "option_a": "A. agents of light",
     "option_b": "B. people of light",
@@ -1620,7 +1611,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "'''....I will give you the keys of the kingdom of heaven, and whatever you bind on earth shall be bound in heaven....''''<br>\n<br>\nThe incident that preceded Jesus declaration above was the",
     "option_a": "A. great confession by Peter",
     "option_b": "B. mission of the seventy",
@@ -1629,7 +1620,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "When the Lycaonians saw the miracle of healing by the apostles, they tried to",
     "option_a": "A. accept the Gospel through Paul and Barnabas",
     "option_b": "B. sacrifice to both Paul and Barnabas",
@@ -1638,7 +1629,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "''' Lord, if you will, you can make me clean,'''<br>\nAccording to Luke, the leper who made the statement above was cleansed because",
     "option_a": "A. he had been following Jesus",
     "option_b": "B. Jesus was moved by his leprosy",
@@ -1647,7 +1638,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The decisions at the Council of Jerusalem laid to rest the issue of",
     "option_a": "A. abstaining from unchastity and blood",
     "option_b": "B. circumcision before one can be saved",
@@ -1656,7 +1647,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "According to Mark, the three women that went to the sepulchre to anoint the body of Jesus with spices were",
     "option_a": "A. Salome, Mary and Martha",
     "option_b": "B. Mary, Salome and Joane",
@@ -1665,7 +1656,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "Speaking in tongues by the disciples at Pentecost was the fulfillment of a prophecy by",
     "option_a": "A. Joel",
     "option_b": "B. Micah",
@@ -1674,7 +1665,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "What happened after Jesus had turned water into wine?",
     "option_a": "A. The people spread the news around",
     "option_b": "B. The disciples believed in Him",
@@ -1683,7 +1674,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>God commanded man to eat of every tree of the garden but not of the tree of knowledge of good and evil because of His</p>",
     "option_a": "A. love for man",
     "option_b": "B. understanding of the nature of man",
@@ -1692,7 +1683,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The people of Ziklag wanted to stone David when the Amalekites burned their city because",
     "option_a": "A. their wives and daughters had been raped",
     "option_b": "B. he had neglected them",
@@ -1701,7 +1692,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "What did Gideon do when he heard the dream of the Midiantite and its interpretation?",
     "option_a": "A. He hid himself",
     "option_b": "B. He became discouraged",
@@ -1710,7 +1701,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>For worshiping the golden calf, the Israelite's were</p>",
     "option_a": "A. oppressed by their enemies",
     "option_b": "B. made wanderers",
@@ -1719,7 +1710,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "God declared that no human blood should be shed because man was",
     "option_a": "A. His representative on earth",
     "option_b": "B. loved by Him",
@@ -1728,7 +1719,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "God decided to provide food for the people of Israel on a daily basis because",
     "option_a": "A. He wanted them to have enough to eat",
     "option_b": "B. He wanted to sea if they would obey Him",
@@ -1737,7 +1728,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "How did David know that Saul had come against him in the wilderness of Ziph?",
     "option_a": "A. it was revealed to Prophet Nathan",
     "option_b": "B. A Ziphite informed him",
@@ -1746,7 +1737,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "The purpose of the covenant between God and the Israelites was to",
     "option_a": "A. make them obey Him",
     "option_b": "B. make them rule over other nations",
@@ -1755,7 +1746,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>People were saved during the flood as a result of</p>",
     "option_a": "A. Noah's kindness to them",
     "option_b": "B. Noah's obedience to God",
@@ -1764,7 +1755,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>In his dedication of the Temple, Solomon reminded God of His promise to David that</p>",
     "option_a": "A. his descendants would always be blessed with the fruit of the womb",
     "option_b": "B. Israel would never be defeated in battle",
@@ -1773,7 +1764,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>According to Ezekiel, one of the blessings of the new covenant was that God's Pope would</p>",
     "option_a": "A. return from the land of captivity",
     "option_b": "B. be given a heart of flesh",
@@ -1782,7 +1773,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "After Adam's disobedience in the Garden of Eden, God guarded the tree of life with",
     "option_a": "A. a strong wall",
     "option_b": "B. seraphim and a flaming sword",
@@ -1791,7 +1782,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "According to James, the prayer that has great power in its effects is that of",
     "option_a": "A. one who fasts",
     "option_b": "B. a righteous man",
@@ -1800,7 +1791,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>According to Matthew, Jesus was accused of blasphemy when He said that He</p>",
     "option_a": "A. was the Messiah",
     "option_b": "B. was the son of man",
@@ -1809,7 +1800,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>What was Herod's reaction when he heard the news about Jesus birth?</p>",
     "option_a": "A. He was troubled",
     "option_b": "B. He became calm",
@@ -1818,7 +1809,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>In his teaching on spiritual gifts in Corinthians, Paul said that all gifts are inspired by</p>",
     "option_a": "A. prayer",
     "option_b": "B. the same spirit",
@@ -1827,7 +1818,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>Paul in Romans advised believers to respect those in authority to avoid God's wrath and also for the sake of</p>",
     "option_a": "A. Christ",
     "option_b": "B. Conscience",
@@ -1836,7 +1827,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>How old was Abram when God appeared to him the second time?</p>",
     "option_a": "A. 75 years",
     "option_b": "B. 105 years",
@@ -1845,7 +1836,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p><strong>''An eye for an eye and a tooth for a tooth...''</strong><br>\nJesus corrected the teaching in the statement above by declaring that</p>",
     "option_a": "A. give and take is an ideal way of life",
     "option_b": "B. retaliation should be in equal measure to the offence",
@@ -1854,7 +1845,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>The ruler of the synagogue whose child Jesus raised to life was</p>",
     "option_a": "A. a widow",
     "option_b": "B. Zebedee",
@@ -1863,7 +1854,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p><strong>''Blessed are those who have not seen and yet believe''</strong><br>\n<br>\nJesus made the statement above to</p>",
     "option_a": "A. His mother at Cana in Galilee",
     "option_b": "B. the father of the epileptic boy",
@@ -1872,7 +1863,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>According to Amos, true religion entails</p>",
     "option_a": "A. being just and righteous",
     "option_b": "B. engaging in sacrifices and burnt offerings",
@@ -1881,7 +1872,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p><strong>''....You are the Christ, the son of the living God.''</strong><br>\n<br>\nThe statement above was made by</p>",
     "option_a": "A. Peter",
     "option_b": "B. James",
@@ -1890,7 +1881,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>In order that the word of the <strong>LORD</strong> concerning Judah might come to pass, He</p>",
     "option_a": "A. made it the central city",
     "option_b": "B. allowed the Canaanites to besiege it",
@@ -1899,7 +1890,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>One of the prophets that prophesied hope for Israel in spite of God's promise of punishment was</p>",
     "option_a": "A. Jeremiah",
     "option_b": "B. Amos",
@@ -1908,7 +1899,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p><strong>''.....Holy, holy, holy is the LORD of host...''</strong></p>\n\n<p>The statement above was made in reference to the call of</p>",
     "option_a": "A. Jeremiah",
     "option_b": "B. Ezekiel",
@@ -1917,7 +1908,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>In Jesus' teaching about the true vine, He said anyone who does not abide in Him shall be</p>",
     "option_a": "A. crucified with Him",
     "option_b": "B. cast forth",
@@ -1926,7 +1917,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>Paul returned Philemon's slave back to him to ensure that</p>",
     "option_a": "A. he would be welcome when he left prison",
     "option_b": "B. the slave can complete his service time",
@@ -1935,7 +1926,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>Where did God promise to lengthen Solomon's days if he kept His commandment?</p>",
     "option_a": "A. Gilboa",
     "option_b": "B. Gibeon",
@@ -1944,7 +1935,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<b>''.....This man is that power of God which is called Great.''</b><br>\n<br>\nThe statement above referring to Simon the magician was made at",
     "option_a": "A. Macedonia",
     "option_b": "B. Jerusalem",
@@ -1953,7 +1944,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>Paul in Romans said that the righteousness of God has been manifested through faith in Jesus Christ for</p>",
     "option_a": "A. the cleansing of the demand",
     "option_b": "B. the exaltation of the authority",
@@ -1962,7 +1953,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>Before Moses brought the Israelites to meet God on Mount Sinai, he charged them to</p>",
     "option_a": "A. wash their garments and be consecrated",
     "option_b": "B. ensure they eat very well",
@@ -1971,7 +1962,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>In Matthew's account of Jesus burial, Joseph who requested the body of Jesus was</p>",
     "option_a": "A. a kingdom seeker",
     "option_b": "B. the council's elder",
@@ -1980,7 +1971,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>What was God's immediate punishment to David for taking Uriah's wife?</p>",
     "option_a": "A. God sent Nathan to him",
     "option_b": "B. David's son by Bathsheba died",
@@ -1989,7 +1980,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>When David's son Absalom rebelled against him, David was forced to</p>",
     "option_a": "A. abdicate the throne",
     "option_b": "B. flee from Jerusalem",
@@ -1998,7 +1989,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>The religious tension in Israel during the reign of King Ahab was caused by</p>",
     "option_a": "A. Prophet Nathan's prophecy about Israel's doom",
     "option_b": "B. Jezebel's introduction of idol worship",
@@ -2007,7 +1998,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>A parable that teaches a lesson on the demands of the kingdom is that of the</p>",
     "option_a": "A. weeds",
     "option_b": "B. lost coin",
@@ -2016,7 +2007,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>In his teaching on effective prayer, James said that the prayer of faith would</p>",
     "option_a": "A. heal and cleans sins",
     "option_b": "B. influence the authority",
@@ -2025,7 +2016,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>Amos is often referred to as a prophet of</p>",
     "option_a": "A. love",
     "option_b": "B. doom",
@@ -2034,7 +2025,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>Whose address led to the conversion of three thousand souls on the of Pentecost?</p>",
     "option_a": "A. Peter's",
     "option_b": "B. James",
@@ -2043,7 +2034,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>A key requirement for healing as exemplified by the disciple's inability to heal the epileptic boy is</p>",
     "option_a": "A. power",
     "option_b": "B. righteousness",
@@ -2052,7 +2043,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>Paul admonished the Romans to live a new life in Christ by yielding themselves to God as men who</p>",
     "option_a": "A. will meet Christ in God's kingdom",
     "option_b": "B. have been brought from death to life",
@@ -2061,7 +2052,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>Most believers celebrate Palm Sunday to honour Jesus as the</p>",
     "option_a": "A. Lamb of God",
     "option_b": "B. King of Kings",
@@ -2070,7 +2061,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p><strong>'''.....For who is able to govern this thy great people?'''</strong><br>\n<br>\nIn the statement above, Solomon declared his</p>",
     "option_a": "A. inability to carry out the duty",
     "option_b": "B. inadequacy as a man",
@@ -2079,7 +2070,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>God sent Jonah to the city of Nineveh to</p>",
     "option_a": "A. preach against it",
     "option_b": "B. mediate for the people",
@@ -2088,7 +2079,7 @@
     "correct_option": "A"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>The action that portrayed Moses as a leader of the Israelites was his</p>",
     "option_a": "A. disobedience to Pharaoh and escape",
     "option_b": "B. request to Pharaoh to spare Israelite's sons",
@@ -2097,7 +2088,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>For obeying His word, God rewarded Shiphrah and Puah with</p>",
     "option_a": "A. positions",
     "option_b": "B. families",
@@ -2106,7 +2097,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "God fed the Israelites with Manna at the wilderness of",
     "option_a": "A. Elim",
     "option_b": "B. Zin",
@@ -2115,7 +2106,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>When Ezekiel ate the scroll that was given to him at his call, it signified that</p>",
     "option_a": "A. his sins were forgiven",
     "option_b": "B. God would always go before him",
@@ -2124,7 +2115,7 @@
     "correct_option": "C"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>A good example of parental responsibility was demonstrated by</p>",
     "option_a": "A. Eli",
     "option_b": "B. Samuel",
@@ -2133,7 +2124,7 @@
     "correct_option": "D"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>The story of Gehazi demonstrated God's hatred for</p>",
     "option_a": "A. disobedience",
     "option_b": "B. greed",
@@ -2142,7 +2133,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p>Believers today are partakers of the New Covenant through</p>",
     "option_a": "A. the gift of the spirit",
     "option_b": "B. partaking in baptism by immersion",
@@ -2151,7 +2142,7 @@
     "correct_option": "B"
   },
   {
-    "course_id": "3",
+    "course_id": "10",
     "question_text": "<p><strong>\"Shall I pursue after this band? Shall I overtake them?\"</strong>. David's dependence on God for direction is depicted in the statement above when</p>",
     "option_a": "A. Saul was within his grasp",
     "option_b": "B. Absalom had revolted against him",
