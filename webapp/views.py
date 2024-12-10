@@ -56,6 +56,7 @@ def register_owner(request):
 
 def register_tutor(request):
     allinstitutions = TutorialCenter.objects.all()
+    allcourses = Course.objects.all()
     error_message = ""
 
     if request.method == 'POST':
@@ -65,6 +66,7 @@ def register_tutor(request):
         username = request.POST.get('username', '').strip().lower()
         password = request.POST.get('password', '').strip()
         school_id = request.POST.get('institution', '').strip().lower()  # School name or ID
+        course_ids = request.POST.getlist('course')
         profile_pic = request.FILES.get('profilepic')  # Retrieve the uploaded image
 
         # Check if the username already exists
@@ -101,7 +103,7 @@ def register_tutor(request):
         # Basic validation
         if username and password and school_id and first_name and last_name  and email:
             try:
-                # Fetch the Institution instance
+                # Fetch the Institution and Course instance
                 institution = get_object_or_404(TutorialCenter, id=school_id)
 
                 # Create the user
@@ -114,13 +116,15 @@ def register_tutor(request):
                 )
                 user.save()
 
-                # Create the Student record
+                # Create the Tutor record
                 tutor = Tutor(
                     user=user,
                     tutorial_center=institution,  # Use the Institution instance
                     image=image_url,  # Store the image URL instead of the file
                 )
                 tutor.save()
+                tutor.speciality.set(course_ids)
+
 
                 # Log the user in and redirect to their profile
                 login(request, user)
@@ -144,6 +148,7 @@ def register_tutor(request):
         {
             'error_message': error_message,
             'allinstitutions': allinstitutions,
+            'allcourses': allcourses,
         }
     )
 
@@ -595,19 +600,21 @@ Tutorial Haven Tech Team
 
 @login_required
 def list_pending_theory(request, tutor_id):
-    # Get the logged-in tutor's speciality
+    # Get the logged-in tutor
     tutor = get_object_or_404(Tutor, user=request.user)
-    speciality_course = tutor.speciality
-    print(speciality_course)
 
-    # Fetch all pending grades for the given course
-    pending_grades = TheoryGrade.objects.filter(course_id=speciality_course.id, score=0)
+    # Get all the tutor's specialities (courses)
+    speciality_courses = tutor.speciality.all()
+    print(speciality_courses)
+
+    # Fetch all pending grades for the tutor's courses
+    pending_grades = TheoryGrade.objects.filter(course_id__in=speciality_courses, score=0)
     print(pending_grades)
 
     # Pass the data to the template
     context = {
         'pending_grades': pending_grades,
-        'course': speciality_course
+        'courses': speciality_courses,  # Pass all courses for the tutor
     }
     return render(request, 'pending_grades.html', context)
 

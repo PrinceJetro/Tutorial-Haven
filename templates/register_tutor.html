@@ -43,10 +43,10 @@
                   </div>
 
                   <div data-mdb-input-init class="form-outline mb-4">
-                    <input type="file"  id="profilepic" name="profilepic" class="form-control form-control-lg" />
-                    <label class="form-label" for="proilepic">Profile Picture</label>
-
-                  </div>
+                    <input type="file" id="profilepic" name="profilepic" class="form-control form-control-lg" accept="image/*" required />
+                    <label class="form-label" for="profilepic">Profile Picture</label>
+                </div>
+                
                         
                   <div data-mdb-input-init class="form-outline mb-4">
                     <select name="institution" id="institution" class="form-control form-control-lg" required>
@@ -55,6 +55,15 @@
                         {% endfor %}
                     </select>
                     <label class="form-label" for="institution">Institution</label>
+                </div>
+                  
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <select name="course" id="course" class="form-control form-control-lg" multiple required>
+                        {% for course in allcourses %}      
+                            <option value="{{ course.id }}">{{ course }}</option>
+                        {% endfor %}
+                    </select>
+                    <label class="form-label" for="course">Speciality(ies)</label>
                 </div>
               
                   <div data-mdb-input-init class="form-outline mb-4">
