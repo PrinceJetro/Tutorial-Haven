@@ -12,7 +12,7 @@ from django.contrib.auth.hashers import make_password
 from django.urls import reverse
 from django.db.models import Avg
 from webapp.storage import SupabaseStorage
-from .forms import TheorySubmissionForm, GradeForm
+from .forms import TheorySubmissionForm, GradeForm, SearchForm
 import smtplib
 import ssl
 from django.db.models import Avg  # Import Avg for aggregation
@@ -30,23 +30,67 @@ def home(request):
 
 
 def register_owner(request):
+    error_message = ""
+
     if request.method == 'POST':
-        username = request.POST.get('username')
-        password = request.POST.get('password')
-        tutorial_center_name = request.POST.get('tutorial_center_name')
-        tutorial_center_address = request.POST.get('tutorial_center_address')
-        tutorial_center_number = request.POST.get('tutorial_center_number')
-        tutorial_center_discipline = request.POST.get('tutorial_center_discipline')
+        first_name = request.POST.get('first_name', '').strip().lower()
+        last_name = request.POST.get('last_name', '').strip().lower()
+        username = request.POST.get('username', '').strip().lower()
+        password = request.POST.get('password').strip().lower()
+        email = request.POST.get('email', '').strip().lower()
+        tutorial_center_name = request.POST.get('tutorial_center_name').strip().lower()
+        tutorial_center_address = request.POST.get('tutorial_center_address').strip().lower()
+        tutorial_center_discipline = request.POST.get('tutorial_center_discipline').strip().lower()
+        profile_pic = request.FILES.get('profilepic')  # Retrieve the uploaded image
+
+
+        # Check if the username already exists
+        if User.objects.filter(username=username).exists():
+            messages.error(request, "Username is already taken.")
+            return render(request, 'register_owner.html',{
+            'error_message': error_message,
+        })
+        
+        # Check if the email already exists
+        if User.objects.filter(email=email).exists():
+            messages.error(request, "Email is already registered.")
+            return render(request, 'register_owner.html',{
+            'error_message': error_message,
+        })
+        
+        # Check if the institition name already exists
+        if TutorialCenter.objects.filter(name=tutorial_center_name).exists():
+            messages.error(request, "Institution is already registered.")
+            return render(request, 'register_owner.html',{
+            'error_message': error_message,
+        })
+
+        # Initialize storage
+        storage = SupabaseStorage()
+
+        # Handle image upload
+        image_url = None
+        if profile_pic:
+            post = 'media/' + profile_pic.name
+            print(profile_pic.name)
+            try:
+                filename = storage.save(post, profile_pic)
+                image_url = storage.url(filename)
+            except Exception as e:
+                error_message = "Failed to upload image to Supabase storage. Please try again."
+                print(f"Error uploading image: {e}")
+
+
 
         # Basic validation
         if username and password and tutorial_center_name:
-            user = User(username=username, password=make_password(password))
+            user = User(first_name=first_name,last_name=last_name,email=email,username=username, password=make_password(password))
             user.save()
             
-            tutorial_center = TutorialCenter(name=tutorial_center_name, owner=user, address=tutorial_center_address, discipline=tutorial_center_discipline, phone=tutorial_center_number)
+            tutorial_center = TutorialCenter(name=tutorial_center_name, owner=user, address=tutorial_center_address, desc=tutorial_center_discipline, image=image_url)
             tutorial_center.save()
-
-            return redirect('home')
+            login(request, user)
+            return redirect('myprofile')
         else:
             error_message = "All fields are required."
 
@@ -635,7 +679,7 @@ def grade_theory(request, grade_id):
         if form.is_valid():
             form.save()  # Save the updated score
             messages.success(request, "Score updated successfully!")
-            return redirect('myprofile')  # Redirect to a suitable page
+            return redirect('pending_gradings', tutor_id=request.user.tutor.id)  # Redirect to pending grades
     else:
         form = GradeForm(instance=theory_grade)
 
@@ -670,9 +714,9 @@ def calculate_credits(percentage):
 @login_required
 def myreport(request):
     objgrades = UserCourseProgress.objects.filter(user=request.user).order_by('-percentage')
-    theorygrades = TheoryGrade.objects.filter(user=request.user).order_by('-score')
+    theorygrades = TheoryGrade.objects.filter(user=request.user).order_by('-submitted_at')
 
-    print(theorygrades)
+
     graded_data = []
     graded_data_theory = []
 
@@ -685,7 +729,6 @@ def myreport(request):
             "attempts": grade.attempts
         })
     for grade in theorygrades:
-        print(grade)
         credits = calculate_credits(grade.score)
         graded_data_theory.append({
             "course": grade.course.name,
@@ -750,3 +793,34 @@ def key_points(request, pastpq_id):
     keypoint = KeyPoints.objects.filter(past_question=pastpq).first()  # Use .first() to fetch the single object
 
     return render(request, 'cool/keypoints.html', {'keypoint': keypoint})
+
+
+
+
+@login_required
+def search(request):
+    query = request.GET.get('query', '')  # Get the search query from the URL
+    results = []
+
+    if query:
+        # Search in Topic model
+        topic_results = Topic.objects.filter(name__icontains=query)  # Adjust this filter based on your field names
+        for topic in topic_results:
+            results.append({'object': topic, 'type': 'Topic'})
+
+        # Search in PastQuestionObj model
+        pastquestionobj_results = PastQuestionsObj.objects.filter(question_text__icontains=query)  # Adjust based on field names
+        for past_question in pastquestionobj_results:
+            results.append({'object': past_question, 'type': 'PastQuestionObj'})
+    
+        # Search in PastQuestionTheory model
+        pastquestiontheory_results = PastQuestionsTheory.objects.filter(question_text__icontains=query)  # Adjust based on field names
+        for past_question in pastquestiontheory_results:
+            results.append({'object': past_question, 'type': 'PastQuestionTheory'})
+
+    # If no query, show empty results
+    return render(request, 'search_results.html', {
+        'form': SearchForm(),  # Provide the search form
+        'results': results,  # The search results
+        'query': query,  # Pass the search query to show it in the template
+    })

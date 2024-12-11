@@ -1,0 +1,176 @@
+{% extends 'cool/nav.html' %}
+
+{% block content %}
+<style>
+    /* Style for the search form container */
+.searchform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #0056b3;
+}
+
+/* Hide the label element */
+.searchform label {
+    display: none;
+}
+
+/* Style the search input field */
+.searchform input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Add focus effect for the search input */
+.searchform input[type="text"]:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+/* Style the search button */
+.searchform button {
+    background-color: #007BFF;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Add hover effect for the search button */
+.searchform button:hover {
+    background-color: #0056b3;
+}
+
+/* Add responsive behavior for mobile screens */
+@media (max-width: 768px) {
+    .searchform input[type="text"] {
+        width: 80%; /* Make the input field wider on smaller screens */
+    }
+
+    .searchform button {
+        width: 80%; /* Make the button the same width as the input field */
+    }
+}
+
+    .results-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .result-section {
+        padding: 20px;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+        background-color: #f9f9f9;
+    }
+
+    .result-section h4 {
+        font-size: 1.5rem;
+        color: #333;
+        margin-bottom: 15px;
+    }
+
+    .result-item {
+        padding: 10px;
+        background-color: #fff;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .result-item a {
+        color: #007BFF;
+        text-decoration: none;
+    }
+
+    .result-item a:hover {
+        text-decoration: underline;
+    }
+
+    .question-options {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .question-options div {
+        margin-bottom: 5px;
+    }
+
+    .correct-option {
+        font-weight: bold;
+        color: green;
+    }
+</style>
+
+<form method="get" action="{% url 'search' %}" class="searchform">
+    <input type="text" name="query" placeholder="Search for topics, CBTs, or theories...">
+    <button type="submit">Search</button>
+</form>
+
+{% if query %}
+    <h3 style="text-align: center;" class="mt-3 mb-3">Results for "{{ query }}":</h3>
+    <div class="results-container">
+        {% if results %}
+            <div class="result-section">
+                <h4>Topics</h4>
+                {% for result in results %}
+                    {% if result.type == "Topic" %}
+                        <div class="result-item">
+                            <a href="{% url 'topic_detail' result.object.id %}">{{ result.object.name }}</a>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+
+            <div class="result-section">
+                <h4>CBTs</h4>
+                {% for result in results %}
+                    {% if result.type == "PastQuestionObj" %}
+                        <div class="result-item">
+                            <div><strong>Question:</strong> {{ result.object.question_text|safe }}</div>
+                            <div class="question-options">
+                                <div><strong>Option A:</strong> {{ result.object.option_a }}</div>
+                                <div><strong>Option B:</strong> {{ result.object.option_b }}</div>
+                                <div><strong>Option C:</strong> {{ result.object.option_c }}</div>
+                                <div><strong>Option D:</strong> {{ result.object.option_d }}</div>
+                                <div class="correct-option"><strong>Correct Option:</strong> {{ result.object.correct_option }}</div>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+
+            <div class="result-section">
+                <h4>Theories</h4>
+                {% for result in results %}
+                    {% if result.type == "PastQuestionTheory" %}
+                        <div class="result-item">
+                            <a href="{% url 'theory' result.object.course_id result.object.year %}">
+                                {{ result.object.course }}, {{ result.object.year }}
+                            </a>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        {% else %}
+            <p>No results found.</p>
+        {% endif %}
+    </div>
+{% endif %}
+
+{% endblock %}

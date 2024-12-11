@@ -16,8 +16,16 @@
             <div class="col-xl-6">
               <div class="card-body p-md-5 text-black">
                 <h3 class="mb-5 text-uppercase">Registration Form</h3>
+                {% if messages %}
+                <ul>
+                    {% for message in messages %}
+                        <li style="color: red;" >{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
 
-                <form method="POST" action="{% url 'register_owner' %}">
+
+                <form method="POST" action="{% url 'register_institution' %}">
                   {% csrf_token %}
 
                   <div class="row">
@@ -43,26 +51,28 @@
                   <div data-mdb-input-init class="form-outline mb-4">
                     <input type="password" id="formPassword" name="password" class="form-control form-control-lg" required />
                     <label class="form-label" for="formPassword">Password</label>
+                    <i class="fa fa-eye" onclick="password()"></i>
                   </div>
 
                   <div data-mdb-input-init class="form-outline mb-4">
                     <input type="text" id="formTutorialCenterName" name="tutorial_center_name" class="form-control form-control-lg" />
                     <label class="form-label" for="formTutorialCenterName">Tutorial Center Name</label>
                   </div>
-                
-                  <div data-mdb-input-init class="form-outline mb-4">
-                    <input type="text" id="formTutorialCenterName" name="tutorial_center_address" class="form-control form-control-lg" />
-                    <label class="form-label" for="formTutorialCenterName">Tutorial Center Address</label>
-                  </div>
-                
-                  <div data-mdb-input-init class="form-outline mb-4">
-                    <input type="text" id="formTutorialCenterName" name="tutorial_center_dicipline" class="form-control form-control-lg" placeholder="Waec / Jamb etc"/>
-                    <label class="form-label" for="formTutorialCenterName">Tutorial Center Dicipline</label>
-                  </div>
+
                   
                   <div data-mdb-input-init class="form-outline mb-4">
-                    <input type="number" id="formTutorialCenterName" name="tutorial_center_number" class="form-control form-control-lg" />
-                    <label class="form-label" for="formTutorialCenterName">Tutorial Center Phone Number</label>
+                    <input type="file"  id="profilepic" name="profilepic" class="form-control form-control-lg" accept="image/*" required />
+                    <label class="form-label" for="proilepic">Institution's Logo</label>
+                  </div>
+                
+                  <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="text" id="address" name="tutorial_center_address" class="form-control form-control-lg" />
+                    <label class="form-label" for="address">Tutorial Center Address</label>
+                  </div>
+                
+                  <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="text" id="discipline" name="tutorial_center_discipline" class="form-control form-control-lg" placeholder="Waec / Jamb etc"/>
+                    <label class="form-label" for="discipline">Tutorial Center Dicipline</label>
                   </div>
 
                   <div data-mdb-input-init class="form-outline mb-4">

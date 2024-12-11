@@ -64,3 +64,10 @@ class GradeForm(forms.ModelForm):
             'score': 'Enter a score between 0 and 100.',
             'note': 'Provide a note for the student (optional).',
         }
+
+
+
+
+
+class SearchForm(forms.Form):
+    query = forms.CharField(max_length=1000, required=True, label="Search")

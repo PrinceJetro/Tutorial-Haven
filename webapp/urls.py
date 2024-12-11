@@ -26,4 +26,6 @@ urlpatterns = [
     path('pastquestions/<int:pastpq_id>/keypoints', views.key_points, name='keypoints'),
     path('myreport/', views.myreport, name='myreport'),
     path('studentsreport/<int:student_id>', views.studentsreport, name='studentsreport'),
+    path('search/', views.search, name='search'),  # Add search route
+
 ]
