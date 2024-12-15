@@ -97,7 +97,7 @@ class ObjGrade(models.Model):
 
 class PastQuestionsTheory(models.Model):
     course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name='theory_questions')
-    question_text = RichTextField(help_text="Theory question")
+    question_text = models.TextField(help_text="Theory question")
     year = models.CharField(max_length=4, help_text="Year of the examination", null=True)
 
     def __str__(self):
@@ -144,4 +144,4 @@ class PracticeExplanations(models.Model):
     explanation = RichTextField(help_text="Explanation for the correct answer in CBT")
 
     def __str__(self):
-        return f'Explanation for {self.cbt_question.course.name} CBT Question'
+        return f'Explanation for {self.cbt_question.course.name} CBT Question' 
