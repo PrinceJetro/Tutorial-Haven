@@ -71,7 +71,7 @@
       </div>
 
       <!-- Form Section -->
-      <form method="POST" class="mt-4">
+       <form method="POST" enctype="multipart/form-data"  class="mt-4">
         {% csrf_token %}
         <input
           type="hidden"
@@ -80,6 +80,13 @@
           value="{{ theory_questions.id }}"
         />
         {{ form.as_p }}
+
+         <!-- Image Upload Section -->
+        <div class="mb-4">
+          <label for="images" class="form-label"><strong>Upload Your Drawing:</strong></label>
+          <input type="file" name="images" id="images" class="form-control" accept="image/*" multiple>
+          <small class="form-text text-muted">You can upload multiple images if needed (e.g., screenshots of your drawing).</small>
+        </div>
         <button type="submit" class="btn btn-success mt-3">Submit</button>
       </form>
     </div>

@@ -1,6 +1,6 @@
 # admin.py
 from django.contrib import admin
-from .models import Student, Course, Department, Topic, PastQuestionsObj, KeyPoints, PracticeExplanations, TutorialCenter, Tutor, PastQuestionsTheory, ObjGrade, UserCourseProgress, TheoryGrade
+from .models import Student, Course, Department, Topic, PastQuestionsObj, KeyPoints, PracticeExplanations, TutorialCenter, Tutor, PastQuestionsTheory, ObjGrade, UserCourseProgress, TheoryGrade, UploadedImage
 
 
 
@@ -90,3 +90,8 @@ class TheoryGradeAdmin(admin.ModelAdmin):
     list_filter = ('course', 'user')
     search_fields = ('user__username', 'course__name', 'question__question_text')
     ordering = ('-submitted_at',)
+
+@admin.register(UploadedImage)
+class UploadedImageAdmin(admin.ModelAdmin):
+    list_display = ('image',)
+    search_fields = ('image',)

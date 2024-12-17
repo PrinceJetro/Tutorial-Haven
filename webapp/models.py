@@ -118,6 +118,15 @@ class TheoryGrade(models.Model):
         return f'{self.user.username} - {self.course.name} Theory Grade {self.question.year}'
 
 
+class UploadedImage(models.Model):
+    theory_grade = models.ForeignKey(TheoryGrade, on_delete=models.CASCADE, related_name='images')
+    image = models.ImageField(upload_to="uploaded_images", max_length=5000, null=True, blank=True)
+    uploaded_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"Image for Submission {self.theory_grade.submission_id}"
+
+        
 class UserCourseProgress(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='course_progress')
     course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name='user_progress')

@@ -19,6 +19,14 @@
     <div class="border p-3 rounded bg-light mb-4">
         {{ theory_grade.response|safe }}
     </div>
+<h3>Submitted Images:</h3>
+{% for image in images %}
+    <div class="p-2 m-2">
+        <img src="{{ image.image }}" alt="Uploaded Image" style="max-width: 300px; height: auto;" />
+    </div>
+{% empty %}
+    <p>No images were uploaded for this submission.</p>
+{% endfor %}
 
     <!-- Button to trigger the modal -->
     <button type="button" class="btn btn-info mb-4" data-bs-toggle="modal" data-bs-target="#questionModal">

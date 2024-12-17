@@ -2,7 +2,7 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponseRedirect
 from django.contrib.auth.models import User
-from .models import  Student, Course, Department, Topic, TutorialCenter, PastQuestionsObj, KeyPoints, Tutor, PastQuestionsTheory, ObjGrade,TheoryGrade, UserCourseProgress
+from .models import  Student, Course, Department, Topic, TutorialCenter, PastQuestionsObj, KeyPoints, Tutor, PastQuestionsTheory, ObjGrade,TheoryGrade, UserCourseProgress, UploadedImage
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import get_object_or_404
 from django.contrib.auth.decorators import login_required
@@ -573,33 +573,54 @@ def listTheory(request):
 @login_required
 def theoryquestion(request, course_id, year):
     course = get_object_or_404(Course, id=course_id)
-    print(course)
     questions = PastQuestionsTheory.objects.filter(course=course, year=year).first()
-    print(questions)
-    
+
     if request.method == 'POST':
-        
+        print(request.POST)  # Debugging: Print POST data
+        uploaded_images = request.FILES.getlist("images")  # Retrieve uploaded images
         form = TheorySubmissionForm(request.POST)
-        if form.is_valid():
+
+        if form.is_valid():  # Ensure the form is valid
             response = form.cleaned_data['response']
-            question_id = request.POST.get('question_id')  # ID of the question being answered
-            print(request.POST)
-            print(f"here is the  question id {question_id}")
-
+            question_id = request.POST.get('question_id')
             question = get_object_or_404(PastQuestionsTheory, id=question_id)
-            if hasattr(request.user, 'tutorial_center') or hasattr(request.user, 'tutor'):
-                messages.success(request,f"{questions} have been successfully received. However, submissions are restricted for staff accounts.")
-                return HttpResponseRedirect('/all_theories') 
 
-            submission = TheoryGrade.objects.create(
+            # Prevent staff submissions
+            if hasattr(request.user, 'tutorial_center') or hasattr(request.user, 'tutor'):
+                messages.success(request, f"{questions} have been successfully received. However, submissions are restricted for staff accounts.")
+                return HttpResponseRedirect('/all_theories')
+
+            # Create TheoryGrade instance
+            theory_grade = TheoryGrade.objects.create(
                 user=request.user,
                 question=question,
-                question_text = question.question_text,
+                question_text=question.question_text,
                 course=course,
                 response=response,
                 submission_id=uuid.uuid4()
             )
-             # Fetch the tutor for the course
+
+            # Initialize storage for image upload
+            storage = SupabaseStorage()
+            try:
+                print("Uploading images...")
+                for image in uploaded_images:
+                    # Define storage path
+                    storage_path = f"diagrams/{image.name}"
+                    print(f"Uploading file: {image.name}")
+
+                    # Save to Supabase and get URL
+                    filename = storage.save(storage_path, image)
+                    image_url = storage.url(filename)
+
+                    # Save image record to UploadedImage model
+                    UploadedImage.objects.create(theory_grade=theory_grade, image=image_url)
+                print("Images uploaded successfully.")
+            except Exception as e:
+                print(f"Error uploading images: {e}")
+                messages.error(request, "Failed to upload one or more images. Please try again.")
+
+            # Send email notification to tutor
             tutor = Tutor.objects.filter(speciality=course).first()
             if tutor and tutor.user.email:
                 sender_email = 'princejetro123@gmail.com'
@@ -626,12 +647,12 @@ Tutorial Haven Tech Team
                 except Exception as e:
                     print(f"Failed to send email to {tutor.user.email}: {e}")
 
-
-
-            messages.success(request, F"{questions} Successfully Submitted! Your Tutor will grade and get back to you soon.")
-            return HttpResponseRedirect('/all_theories') 
+            # Success message and redirect
+            messages.success(request, f"{questions} Successfully Submitted! Your Tutor will grade and get back to you soon.")
+            return HttpResponseRedirect('/all_theories')
         else:
-            messages.error(request, f"Answers Cannot Be Blank, you must submit an answer" )
+            # Form validation error
+            messages.error(request, "Answers Cannot Be Blank. You must submit an answer.")
     else:
         form = TheorySubmissionForm()
 
@@ -641,6 +662,7 @@ Tutorial Haven Tech Team
         'form': form,
     }
     return render(request, 'theoryquestion.html', context)
+
 
 @login_required
 def list_pending_theory(request, tutor_id):
@@ -666,13 +688,13 @@ def list_pending_theory(request, tutor_id):
 def grade_theory(request, grade_id):
     # Fetch the TheoryGrade object
     theory_grade = get_object_or_404(TheoryGrade, id=grade_id)
-    
+    images = UploadedImage.objects.filter(theory_grade=theory_grade)  # Retrieve all related images
+
     # Ensure the user has the right to grade (e.g., is a tutor)
-    if not request.user.is_authenticated or not hasattr(request.user, 'tutor') or not request.user.tutor:
+    if not hasattr(request.user, 'tutor') or not request.user.tutor:
         messages.error(request, "You do not have permission to grade this question.")
         return redirect('myprofile')  # Redirect to a suitable page
 
-    
     # Handle form submission
     if request.method == 'POST':
         form = GradeForm(request.POST, instance=theory_grade)
@@ -687,6 +709,7 @@ def grade_theory(request, grade_id):
     context = {
         'theory_grade': theory_grade,
         'form': form,
+        'images': images,  # Pass all images to the template
     }
     return render(request, 'grade_theory.html', context)
 
