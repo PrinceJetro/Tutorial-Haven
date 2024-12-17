@@ -29,72 +29,84 @@ def home(request):
 
 
 
+
 def register_owner(request):
     error_message = ""
 
     if request.method == 'POST':
+        # Retrieve and clean input fields
         first_name = request.POST.get('first_name', '').strip().lower()
         last_name = request.POST.get('last_name', '').strip().lower()
         username = request.POST.get('username', '').strip().lower()
-        password = request.POST.get('password').strip().lower()
+        password = request.POST.get('password', '').strip()
         email = request.POST.get('email', '').strip().lower()
-        tutorial_center_name = request.POST.get('tutorial_center_name').strip().lower()
-        tutorial_center_address = request.POST.get('tutorial_center_address').strip().lower()
-        tutorial_center_discipline = request.POST.get('tutorial_center_discipline').strip().lower()
-        profile_pic = request.FILES.get('profilepic')  # Retrieve the uploaded image
+        tutorial_center_name = request.POST.get('tutorial_center_name', '').strip().lower()
+        tutorial_center_address = request.POST.get('tutorial_center_address', '').strip().lower()
+        tutorial_center_discipline = request.POST.get('tutorial_center_discipline', '').strip().lower()
+        profile_pic = request.FILES.get('profilepic')
 
+        # Input validation: ensure all required fields are provided
+        if not (username and password and tutorial_center_name):
+            messages.error(request, "All fields are required.")
+            return render(request, 'register_owner.html', {'error_message': "All fields are required."})
 
-        # Check if the username already exists
+        # Check for existing username, email, or institution
         if User.objects.filter(username=username).exists():
             messages.error(request, "Username is already taken.")
-            return render(request, 'register_owner.html',{
-            'error_message': error_message,
-        })
-        
-        # Check if the email already exists
+            return render(request, 'register_owner.html')
+
         if User.objects.filter(email=email).exists():
             messages.error(request, "Email is already registered.")
-            return render(request, 'register_owner.html',{
-            'error_message': error_message,
-        })
-        
-        # Check if the institition name already exists
+            return render(request, 'register_owner.html')
+
         if TutorialCenter.objects.filter(name=tutorial_center_name).exists():
             messages.error(request, "Institution is already registered.")
-            return render(request, 'register_owner.html',{
-            'error_message': error_message,
-        })
+            return render(request, 'register_owner.html')
 
-        # Initialize storage
+        # Upload profile image to Supabase (optional)
         storage = SupabaseStorage()
-
-        # Handle image upload
         image_url = None
         if profile_pic:
-            post = 'media/' + profile_pic.name
-            print(profile_pic.name)
             try:
-                filename = storage.save(post, profile_pic)
+                storage_path = f"media/{profile_pic.name}"
+                filename = storage.save(storage_path, profile_pic)
                 image_url = storage.url(filename)
+                print(f"Profile image uploaded: {image_url}")
             except Exception as e:
-                error_message = "Failed to upload image to Supabase storage. Please try again."
+                error_message = "Failed to upload image to storage."
                 print(f"Error uploading image: {e}")
+                messages.error(request, error_message)
+                return render(request, 'register_owner.html', {'error_message': error_message})
 
+        # Create and save user
+        try:
+            user = User.objects.create(
+                first_name=first_name,
+                last_name=last_name,
+                email=email,
+                username=username,
+                password=make_password(password)
+            )
+            # Create and save tutorial center
+            tutorial_center = TutorialCenter.objects.create(
+                name=tutorial_center_name,
+                owner=user,
+                address=tutorial_center_address,
+                desc=tutorial_center_discipline,
+                image=image_url
+            )
 
-
-        # Basic validation
-        if username and password and tutorial_center_name:
-            user = User(first_name=first_name,last_name=last_name,email=email,username=username, password=make_password(password))
-            user.save()
-            
-            tutorial_center = TutorialCenter(name=tutorial_center_name, owner=user, address=tutorial_center_address, desc=tutorial_center_discipline, image=image_url)
-            tutorial_center.save()
+            # Log the user in and redirect
             login(request, user)
             return redirect('myprofile')
-        else:
-            error_message = "All fields are required."
+        except Exception as e:
+            error_message = "Error creating account. Please try again."
+            print(f"Error saving user or tutorial center: {e}")
+            messages.error(request, error_message)
+            return render(request, 'register_owner.html', {'error_message': error_message})
 
-    return render(request, 'register_owner.html', {'error_message': error_message if 'error_message' in locals() else ''})
+    # Render registration form
+    return render(request, 'register_owner.html', {'error_message': error_message})
 
 
 
