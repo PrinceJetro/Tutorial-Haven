@@ -1,91 +1,97 @@
 <!-- templates/grade_theory.html -->
-{% extends "cool/nav.html" %}
-
-{% block content %}
+{% extends "cool/nav.html" %} {% block content %}
 
 <head>
-    <script src="//cdn.ckeditor.com/4.6.2/standard/ckeditor.js"></script>
+  <script src="//cdn.ckeditor.com/4.6.2/standard/ckeditor.js"></script>
 
-    <style>
-        .cke_inner {
-            width: 100%;
-        }
-        #cke_1_contents{
-            height: 1000px;
-        }
-        textarea{
-            width: 100%;
-            display: block;
-            height: auto;
-        }
-        img{
-            width: 100%;
-        }
-    </style>
-    <script type="text/javascript">
-        window.onload = () => {
-          CKEDITOR.replace("id_response");
-          adjustHeightAfterDelay();
-        };
-        function sendText() {
-          window.parent.postMessage(CKEDITOR.instances.CK1.getData(), "*");
-        }
-        // Function to adjust height of the specified element
-    function adjustHeightAfterDelay() {
-        setTimeout(function () {
-            // Select the element by its ID
-            var element = document.getElementById('cke_1_contents');
-            if (element) {
-                element.style.height = '500px'; // Set the new height
-            } else {
-                console.error("Element with ID 'cke_1_contents' not found.");
-            }
-        }, 7000); // 10000 milliseconds = 10 seconds
+  <style>
+    .cke_inner {
+      width: 100%;
     }
-
-      </script>
+    #cke_1_contents {
+      height: 1000px;
+    }
+    textarea {
+      width: 100%;
+      display: block;
+      height: auto;
+    }
+    img {
+      width: auto;
+    }
+    .media-body a {
+      display: none;
+      visibility: hidden;
+    }
+  </style>
+  <script type="text/javascript">
+    window.onload = () => {
+      CKEDITOR.replace("id_response");
+      adjustHeightAfterDelay();
+    };
+    function sendText() {
+      window.parent.postMessage(CKEDITOR.instances.CK1.getData(), "*");
+    }
+    // Function to adjust height of the specified element
+    function adjustHeightAfterDelay() {
+      setTimeout(function () {
+        // Select the element by its ID
+        var element = document.getElementById("cke_1_contents");
+        if (element) {
+          element.style.height = "500px"; // Set the new height
+        } else {
+          console.error("Element with ID 'cke_1_contents' not found.");
+        }
+      }, 7000); // 10000 milliseconds = 10 seconds
+    }
+  </script>
 </head>
 <div class="container mt-5">
-    <!-- Card for Theory Question -->
-    <div class="card shadow-sm">
-        {% if messages %}
+  <!-- Card for Theory Question -->
+  <div class="card shadow-sm">
+    {% if messages %}
     <ul>
-        {% for message in messages %}
-            <li style="color: red;" >{{ message }}</li>
-        {% endfor %}
+      {% for message in messages %}
+      <li style="color: red">{{ message }}</li>
+      {% endfor %}
     </ul>
-{% endif %}
+    {% endif %}
 
-        <div class="card-header bg-primary text-white">
-            <h4>{{ theory_questions.course}} {{ theory_questions.body}} {{ theory_questions.year}}</h4>
-        </div>
-        <div class="card-body">
-            <!-- Question Text -->
-            <div class="mb-4">
-                <h5><strong>Question(s):</strong></h5>
-                    {{ theory_questions.question_text|safe }}
-            </div>
-
-            <!-- Form Section -->
-            <form method="POST" class="mt-4">
-                {% csrf_token %}
-                <input type="hidden" name="question_id" id="question_id" value="{{ theory_questions.id }}">
-                {{ form.as_p }}
-                <button type="submit" class="btn btn-success mt-3">Submit</button>
-            </form>
-            
-        </div>
+    <div class="card-header bg-primary text-white">
+      <h4>
+        {{ theory_questions.course}} {{ theory_questions.body}}
+        {{theory_questions.year}}
+      </h4>
     </div>
+    <div class="card-body">
+      <!-- Question Text -->
+      <div class="mb-4">
+        <h5><strong>Question(s):</strong></h5>
+        {{ theory_questions.question_text|safe }}
+      </div>
+
+      <!-- Form Section -->
+      <form method="POST" class="mt-4">
+        {% csrf_token %}
+        <input
+          type="hidden"
+          name="question_id"
+          id="question_id"
+          value="{{ theory_questions.id }}"
+        />
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-success mt-3">Submit</button>
+      </form>
+    </div>
+  </div>
 </div>
 
 <script>
-    $w.onReady(function () {
-        $w("#myHtmlComponent").onMessage((event) => {
-          $w("#myText").html = event.data;
-        });
-      });
-
-      
+  $w.onReady(function () {
+    $w("#myHtmlComponent").onMessage((event) => {
+      $w("#myText").html = event.data;
+    });
+  });
 </script>
 
 {% endblock %}

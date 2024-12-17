@@ -564,7 +564,7 @@ def cbtquestion(request, course_id):
 
 @login_required
 def listTheory(request):
-    theories = PastQuestionsTheory.objects.all()
+    theories = PastQuestionsTheory.objects.order_by('course').all()
     return render(request, 'list_theory.html', {
         'theories':theories
     })

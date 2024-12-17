@@ -74,6 +74,8 @@ class PastQuestionsObjAdmin(admin.ModelAdmin):
 class PastQuestionsTheoryAdmin(admin.ModelAdmin):
     list_display = ('course', 'year')
     search_fields = ('question_text', 'course__name')
+    list_filter = ('course',)
+    
 
 @admin.register(ObjGrade)
 class ObjGradeAdmin(admin.ModelAdmin):
