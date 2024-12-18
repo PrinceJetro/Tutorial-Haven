@@ -154,3 +154,46 @@ class PracticeExplanations(models.Model):
 
     def __str__(self):
         return f'Explanation for {self.cbt_question.course.name} CBT Question' 
+
+
+class Achievement(models.Model):
+    CATEGORY_CHOICES = [
+        ('engagement', 'Engagement'),
+        ('performance', 'Performance'),
+        ('milestone', 'Milestone'),
+    ]
+
+    name = models.CharField(max_length=255)
+    description = models.TextField()
+    badge = models.ImageField(upload_to="achievement_badges", null=True, blank=True)
+    category = models.CharField(max_length=50, choices=CATEGORY_CHOICES)
+    required_value = models.IntegerField(default=0, help_text="Value to meet criteria (e.g., 5 courses, 7 days, etc.)")
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.name
+
+
+class UserAchievement(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="achievements")
+    achievement = models.ForeignKey(Achievement, on_delete=models.CASCADE, related_name="user_achievements")
+    unlocked_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"{self.user.username} - {self.achievement.name}"
+
+
+class UserProgress(models.Model):
+    """Tracks user progress to evaluate achievements."""
+    user = models.OneToOneField(User, on_delete=models.CASCADE, related_name="progress")
+    topics_completed = models.IntegerField(default=0)  # Optional but useful for caching
+    completed_topics = models.ManyToManyField("Topic", blank=True, related_name="users_completed")
+    courses_completed = models.IntegerField(default=0)
+    exams_perfect_score = models.IntegerField(default=0)
+    discussion_posts = models.IntegerField(default=0)
+    login_streak = models.IntegerField(default=0)
+    last_login = models.DateTimeField(null=True, blank=True)
+
+    def __str__(self):
+        return f"Progress for {self.user.username}"
+

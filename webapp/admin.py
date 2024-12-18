@@ -1,7 +1,6 @@
 # admin.py
 from django.contrib import admin
-from .models import Student, Course, Department, Topic, PastQuestionsObj, KeyPoints, PracticeExplanations, TutorialCenter, Tutor, PastQuestionsTheory, ObjGrade, UserCourseProgress, TheoryGrade, UploadedImage
-
+from .models import Student, Course, Department, Topic, PastQuestionsObj, KeyPoints, PracticeExplanations, TutorialCenter, Tutor, PastQuestionsTheory, ObjGrade, UserCourseProgress, TheoryGrade, UploadedImage, Achievement, UserAchievement, UserProgress
 
 
 @admin.register(Student)
@@ -95,3 +94,25 @@ class TheoryGradeAdmin(admin.ModelAdmin):
 class UploadedImageAdmin(admin.ModelAdmin):
     list_display = ('image',)
     search_fields = ('image',)
+
+
+
+@admin.register(Achievement)
+class AchievementAdmin(admin.ModelAdmin):
+    list_display = ("name", "category", "required_value", "created_at")
+    list_filter = ("category",)
+    search_fields = ("name", "description")
+    ordering = ("created_at",)
+
+@admin.register(UserAchievement)
+class UserAchievementAdmin(admin.ModelAdmin):
+    list_display = ("user", "achievement", "unlocked_at")
+    search_fields = ("user__username", "achievement__name")
+    list_filter = ("achievement__category",)
+    ordering = ("unlocked_at",)
+
+@admin.register(UserProgress)
+class UserProgressAdmin(admin.ModelAdmin):
+    list_display = ("user", "topics_completed", "courses_completed", "exams_perfect_score", "login_streak", "last_login")
+    search_fields = ("user__username",)
+    ordering = ("last_login",)

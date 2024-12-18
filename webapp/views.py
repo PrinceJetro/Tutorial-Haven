@@ -2,7 +2,7 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponseRedirect
 from django.contrib.auth.models import User
-from .models import  Student, Course, Department, Topic, TutorialCenter, PastQuestionsObj, KeyPoints, Tutor, PastQuestionsTheory, ObjGrade,TheoryGrade, UserCourseProgress, UploadedImage
+from .models import  Student, Course, Department, Topic, TutorialCenter, PastQuestionsObj, KeyPoints, Tutor, PastQuestionsTheory, ObjGrade,TheoryGrade, UserCourseProgress, UploadedImage,  Achievement, UserAchievement, UserProgress
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import get_object_or_404
 from django.contrib.auth.decorators import login_required
@@ -18,6 +18,11 @@ import ssl
 from django.db.models import Avg  # Import Avg for aggregation
 import uuid  # Ensure you have imported this at the top of the file
 from django.contrib import messages  # Import messages for feedback to users
+from django.http import JsonResponse
+from django.http import JsonResponse, HttpResponseBadRequest
+from django.db.models import Count, Q
+
+
 
 
 
@@ -544,6 +549,22 @@ def cbtquestion(request, course_id):
 
         # Calculate overall percentage score for this attempt
         percentage_score = (score / total_questions) * 100
+        # Check for "Perfect Grade" achievement
+        if percentage_score == 100:
+            print("Perfect score")
+            progress, created = UserProgress.objects.get_or_create(user=request.user)
+            progress.exams_perfect_score += 1
+            progress.save()
+
+            # Check and unlock the "Ace the Test" achievement
+            achievement = Achievement.objects.filter(name="Ace the Test").first()
+            if achievement:
+                user_achievement, created = UserAchievement.objects.get_or_create(
+                    user=request.user,
+                    achievement=achievement
+                )
+                if created:
+                    messages.success(request, "Congratulations! You've unlocked the 'Ace the Test' achievement!")
 
         # Update or create the user's progress for this course
         user_progress, created = UserCourseProgress.objects.get_or_create(
@@ -859,3 +880,139 @@ def search(request):
         'results': results,  # The search results
         'query': query,  # Pass the search query to show it in the template
     })
+
+@login_required
+def achievements_list(request):
+    """List all achievements and user's unlocked achievements."""
+    achievements = Achievement.objects.all()
+    user_achievements = UserAchievement.objects.filter(user=request.user)
+    unlocked_ids = user_achievements.values_list('achievement_id', flat=True)
+
+    context = {
+        "achievements": achievements,
+        "unlocked_ids": unlocked_ids,
+        "user_achievements": user_achievements,
+    }
+    return render(request, "achievement_list.html", context)
+
+
+def check_and_unlock_achievements(user):
+    """Check all achievements and unlock those the user qualifies for."""
+    progress = user.progress
+    achievements = Achievement.objects.all()
+
+    for achievement in achievements:
+        if not UserAchievement.objects.filter(user=user, achievement=achievement).exists():
+            # Check specific achievement criteria
+            if achievement.name == "First Step" and progress.topics_completed >= 1:
+                UserAchievement.objects.create(user=user, achievement=achievement)
+
+            elif achievement.name == "Course Enthusiast" and progress.courses_completed >= 5:
+                UserAchievement.objects.create(user=user, achievement=achievement)
+
+            elif achievement.name == "Top Performer" and progress.exams_perfect_score >= 1:
+                UserAchievement.objects.create(user=user, achievement=achievement)
+
+            elif achievement.name == "Course Master" and progress.courses_completed >= achievement.required_value:
+                UserAchievement.objects.create(user=user, achievement=achievement)
+
+            elif achievement.name == "Social Learner" and progress.discussion_posts >= 1:
+                UserAchievement.objects.create(user=user, achievement=achievement)
+
+            elif achievement.name == "Daily Streak" and progress.login_streak >= 7:
+                UserAchievement.objects.create(user=user, achievement=achievement)
+
+            elif achievement.name == "Milestone Achiever" and UserAchievement.objects.filter(user=user).count() >= 10:
+                UserAchievement.objects.create(user=user, achievement=achievement)
+
+            elif achievement.name == "Loyal Learner" and (now() - user.date_joined).days >= 90:
+                UserAchievement.objects.create(user=user, achievement=achievement)
+
+
+@login_required
+def user_progress(request):
+    """Display the user's current progress."""
+    progress = get_object_or_404(UserProgress, user=request.user)
+    return render(request, "achievement_progress.html", {"progress": progress})
+
+
+
+@login_required
+def complete_topic(request):
+    if request.method == "POST":
+        topic_id = request.POST.get("topic_id")
+        print(topic_id)
+        if not topic_id:
+            return HttpResponseBadRequest("No topic specified.")
+        
+        # Get the topic and user's progress
+        topic = get_object_or_404(Topic, id=topic_id)
+        user = request.user
+        progress, created = UserProgress.objects.get_or_create(user=user)
+
+        # Check if the topic is already completed
+        if progress.completed_topics.filter(id=topic.id).exists():
+            return JsonResponse({"message": "Topic already completed.", "success": False})
+
+        # Add topic to completed list and update count
+        progress.completed_topics.add(topic)
+        progress.topics_completed = progress.completed_topics.count()  # Update cached count
+        progress.save()
+
+        # Check for achievements
+        check_and_unlock_achievements(user)
+
+        return JsonResponse({"message": "Topic marked as completed.", "success": True})
+
+    return HttpResponseBadRequest("Invalid request method.")
+
+    
+        # Check if the user has completed all topics in the course
+        # course = topic.course
+        # if progress.completed_topics.filter(course=course).count() == course.topics.count():
+        #     # The user has completed all topics in the course - unlock the "Course Master" achievement
+        #     achievement = Achievement.objects.filter(name="Course Master").first()
+        #     if achievement:
+        #         user_achievement, created = UserAchievement.objects.get_or_create(
+        #             user=user,
+        #             achievement=achievement
+        #         )
+        #         if created:
+        #             messages.success(request, "Congratulations! You've unlocked the 'Course Master' achievement!")
+
+        # # Check if the user has completed 5 courses - unlock the "Course Enthusiast" achievement
+        # # First get all courses the user has completed by checking completed topics
+        # completed_courses = UserCourseProgress.objects.filter(user=user)
+        
+        # completed_courses_with_topic_count = completed_courses.annotate(
+        #     num_completed_topics=Count('course__topics', filter=Q(course__topics__in=progress.completed_topics))
+        # )
+        
+        # # Count how many of these courses have all topics completed
+        # completed_courses_count = completed_courses_with_topic_count.filter(
+        #     num_completed_topics=F('course__topics__count')
+        # ).count()
+
+        # if completed_courses_count >= 5:
+        #     achievement = Achievement.objects.filter(name="Course Enthusiast").first()
+        #     if achievement:
+        #         user_achievement, created = UserAchievement.objects.get_or_create(
+        #             user=user,
+        #             achievement=achievement
+        #         )
+        #         if created:
+        #             messages.success(request, "Congratulations! You've unlocked the 'Course Enthusiast' achievement!")
+
+        # Check for other achievements
+
+
+
+def update_login_streak(user):
+    progress, created = UserProgress.objects.get_or_create(user=user)
+    if progress.last_login and (now().date() - progress.last_login.date()).days == 1:
+        progress.login_streak += 1
+    elif not progress.last_login or (now().date() - progress.last_login.date()).days > 1:
+        progress.login_streak = 1  # Reset streak
+    progress.last_login = now()
+    progress.save()
+    check_and_unlock_achievements(user)

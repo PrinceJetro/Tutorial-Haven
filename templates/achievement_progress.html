@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Your Progress</h1>
+<ul>
+    <li>Topics Completed: {{ progress.topics_completed }}</li>
+    <li>Courses Completed: {{ progress.courses_completed }}</li>
+    <li>Exams with Perfect Scores: {{ progress.exams_perfect_score }}</li>
+    <li>Discussion Posts: {{ progress.discussion_posts }}</li>
+    <li>Login Streak: {{ progress.login_streak }} days</li>
+</ul>
+{% endblock %}

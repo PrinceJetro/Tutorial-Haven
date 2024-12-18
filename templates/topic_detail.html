@@ -255,6 +255,11 @@
 <div class="content-container">
     <div id="topic-content">{{ topic.content|safe }}</div>
 </div>
+<form style="display: none;">
+    <input type="text" name="topic_id" id="" value="{{ topic.id }}">
+    {% csrf_token %}
+</form>
+
 
 <div>
         <button class="m-3 btn btn-primary" onclick="speak()">Play</button>
@@ -314,11 +319,42 @@
         function reset() {
             window.speechSynthesis.cancel(); // Stops and resets the speech
         }
+
+            let topicCompleted = false; // Ensure the function is called only once
+
+    $(window).on("scroll", function () {
+        // Check if the user scrolled to the bottom of the page
+        if ($(window).scrollTop() + $(window).height() >= $(document).height() - 10) {
+            if (!topicCompleted) {
+                topicCompleted = true; // Prevent multiple calls
+                completeTopic();
+            }
+        }
+    });
+
+    function completeTopic() {
+        $.ajax({
+            url: "{% url 'complete_topic' %}", // Django URL for the view
+            type: "POST",
+            data: {
+                csrfmiddlewaretoken: "{{ csrf_token }}", // Pass the CSRF token for security
+                topic_id : "{{ topic.id }}"
+            },
+            success: function (response) {
+                console.log(response.message); // Handle the response
+                alert("Congrats! You've completed the topic.");
+            },
+            error: function (xhr, status, error) {
+                console.error("Error completing topic:", error);
+            }
+        });
+    }
+
+
 </script>
 
 <script src="{% static 'js/main.js' %}"></script>
-
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 </body>
 </html>

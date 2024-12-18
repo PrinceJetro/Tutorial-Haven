@@ -27,5 +27,9 @@ urlpatterns = [
     path('myreport/', views.myreport, name='myreport'),
     path('studentsreport/<int:student_id>', views.studentsreport, name='studentsreport'),
     path('search/', views.search, name='search'),  # Add search route
+    path("achievements/", views.achievements_list, name="achievements_list"),
+    path("progress/", views.user_progress, name="user_progress"),
+    path("complete_topic/", views.complete_topic, name="complete_topic"),
+
 
 ]

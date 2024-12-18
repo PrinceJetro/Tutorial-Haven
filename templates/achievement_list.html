@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Achievements</h1>
+<ul>
+    {% for achievement in achievements %}
+    <li>
+        <strong>{{ achievement.name }}</strong> - {{ achievement.description }}
+        {% if achievement.id in unlocked_ids %}
+        <span style="color: green;">[Unlocked]</span>
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
