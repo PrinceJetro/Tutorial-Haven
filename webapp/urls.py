@@ -30,6 +30,9 @@ urlpatterns = [
     path("achievements/", views.achievements_list, name="achievements_list"),
     path("progress/", views.user_progress, name="user_progress"),
     path("complete_topic/", views.complete_topic, name="complete_topic"),
+    path("forums/", views.forum_list, name="forum_list"),
+    path("forums/<int:forum_id>/", views.forum_detail, name="forum_detail"),
+    path("forums/create/", views.create_forum, name="create_forum"),
 
 
 ]

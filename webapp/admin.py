@@ -1,6 +1,6 @@
 # admin.py
 from django.contrib import admin
-from .models import Student, Course, Department, Topic, PastQuestionsObj, KeyPoints, PracticeExplanations, TutorialCenter, Tutor, PastQuestionsTheory, ObjGrade, UserCourseProgress, TheoryGrade, UploadedImage, Achievement, UserAchievement, UserProgress
+from .models import Student, Course, Department, Topic, PastQuestionsObj, KeyPoints, PracticeExplanations, TutorialCenter, Tutor, PastQuestionsTheory, ObjGrade, UserCourseProgress, TheoryGrade, UploadedImage, Achievement, UserAchievement, UserProgress, DiscussionForum, Comment
 
 
 @admin.register(Student)
@@ -116,3 +116,19 @@ class UserProgressAdmin(admin.ModelAdmin):
     list_display = ("user", "topics_completed", "courses_completed", "exams_perfect_score", "login_streak", "last_login")
     search_fields = ("user__username",)
     ordering = ("last_login",)
+
+
+
+
+@admin.register(DiscussionForum)
+class DiscussionForumAdmin(admin.ModelAdmin):
+    list_display = ('title', 'course', 'creator', 'created_at')
+    search_fields = ('title', 'course__title', 'creator__username')
+    list_filter = ('course', 'created_at')
+
+
+@admin.register(Comment)
+class CommentAdmin(admin.ModelAdmin):
+    list_display = ('forum', 'commenter', 'content', 'created_at')
+    search_fields = ('forum__title', 'commenter__username', 'content')
+    list_filter = ('created_at',)

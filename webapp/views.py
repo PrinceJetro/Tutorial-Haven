@@ -2,7 +2,7 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponseRedirect
 from django.contrib.auth.models import User
-from .models import  Student, Course, Department, Topic, TutorialCenter, PastQuestionsObj, KeyPoints, Tutor, PastQuestionsTheory, ObjGrade,TheoryGrade, UserCourseProgress, UploadedImage,  Achievement, UserAchievement, UserProgress
+from .models import  Student, Course, Department, Topic, TutorialCenter, PastQuestionsObj, KeyPoints, Tutor, PastQuestionsTheory, ObjGrade,TheoryGrade, UserCourseProgress, UploadedImage,  Achievement, UserAchievement, UserProgress, DiscussionForum, Comment
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import get_object_or_404
 from django.contrib.auth.decorators import login_required
@@ -1016,3 +1016,51 @@ def update_login_streak(user):
     progress.last_login = now()
     progress.save()
     check_and_unlock_achievements(user)
+
+
+
+
+@login_required
+def forum_list(request):
+    forums = DiscussionForum.objects.select_related('course').all().order_by('-created_at')
+    return render(request, "forums/forum_list.html", {"forums": forums})
+
+
+@login_required
+def forum_detail(request, forum_id):
+    forum = get_object_or_404(DiscussionForum, id=forum_id)
+    comments = forum.comments.all().order_by('-created_at')
+
+    # Mock data: Replace these with actual course-related data from your models
+    topics = forum.course.topics.all()
+    theory_questions = forum.course.theory_questions.all()
+    cbt_questions = forum.course.objective_questions.all()
+
+
+    if request.method == "POST":
+        content = request.POST.get("content")
+        Comment.objects.create(forum=forum, commenter=request.user, content=content)
+        return redirect("forum_detail", forum_id=forum_id)
+
+    return render(request, "forums/forum_detail.html", {
+        "forum": forum,
+        "comments": comments,
+        "topics": topics,
+        "theory_questions": theory_questions,
+        "cbt_questions": cbt_questions,
+    })
+
+
+@login_required
+def create_forum(request):
+    courses = Course.objects.all()
+
+    if request.method == "POST":
+        course_id = request.POST.get("course")
+        title = request.POST.get("title")
+        content = request.POST.get("content")
+        course = get_object_or_404(Course, id=course_id)
+        DiscussionForum.objects.create(creator=request.user, course=course, title=title, content=content)
+        return redirect("forum_list")
+
+    return render(request, "forums/create_forum.html", {"courses": courses})

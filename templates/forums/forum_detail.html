@@ -1,0 +1,673 @@
+{% extends "base.html" %}
+{% block content %}
+
+<head>
+    <style>
+        /*
+    DEMO STYLE
+*/
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #6d7fcc;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+a.article,
+a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.add-comment-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #6d7fcc;
+}
+
+/* Hide the label element */
+.add-comment-form label {
+    display: none;
+}
+
+/* Style the search input field */
+.add-comment-form textarea {
+    width: 60%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Add focus effect for the search input */
+.add-comment-form textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+/* Style the search button */
+.add-comment-form button {
+    background-color: #007BFF;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Add hover effect for the search button */
+.add-comment-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Add responsive behavior for mobile screens */
+@media (max-width: 768px) {
+    .add-comment-form textarea {
+        width: 80%; /* Make the input field wider on smaller screens */
+    }
+
+    .add-comment-form button {
+        width: 80%; /* Make the button the same width as the input field */
+    }
+}
+.forum-header {
+            text-align: center;
+            padding: 20px;
+            background: #6d7fcc;
+            color: white;
+            border-radius: 8px;
+        }
+
+        .forum-header h1 {
+            margin-bottom: 10px;
+        }
+
+
+    .question-options {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .question-options div {
+        margin-bottom: 5px;
+    }
+
+    .correct-option {
+        font-weight: bold;
+        color: green;
+    }
+
+.modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .modal-content {
+            background-color: #fff;
+            margin: 10% auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            width: 70%;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .close {
+            float: right;
+            font-size: 1.5rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        </style>
+    <script>
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+</head>
+<div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+            <h3>Forum Navigation</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Key Points</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        {% for topic in topics %}
+                <li>
+                    <a href="{% url 'topic_detail' topic.id %}">{{topic.name}}</a>
+                </li>
+                {% endfor %}
+                    </ul>
+                </li>
+            
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Theory Questions</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                         {% for questions in theory_questions %}
+                <li>
+                    <a href="{% url 'theory' questions.course_id questions.year %}">{{ questions.year }}</a>
+                </li>
+                {% endfor %}
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" onclick="showModal('cbt-modal')" >See CBT Questions</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span>Toggle Sidebar</span>
+                    </button>
+                </div>
+            </nav>
+
+
+<section>
+    <div class="container">
+        <div class="row">
+                        <div class="forum-detail-container">
+ <!-- Forum Header -->
+    <div class="forum-header">
+        <h1>{{ forum.title }}</h1>
+        <p>{{ forum.content }}</p>
+        <p>Course: {{ forum.course.name }}</p>
+        <p>Created by {{ forum.creator.username }} on {{ forum.created_at }}</p>
+    </div>
+
+            <div>
+                <h1>Comments</h1>
+                 {% for comment in comments %}
+                <div class="comment mt-4 text-justify">
+                    {% if comment.commenter.student %}
+                    <img src="{{comment.commenter.student.image}}"  class="rounded-circle" width="40" height="40">
+                    {% elif comment.commenter.tutorial_center %}
+                    <img src="{{comment.commenter.tutorial_center.image}}"  class="rounded-circle" width="40" height="40">
+                    {% elif comment.commenter.tutor %}
+                    <img src="{{comment.commenter.tutor.image}}"  class="rounded-circle" width="40" height="40">
+                        {% endif %}                    
+                    <h4>{{ comment.commenter.username|title }}</h4>
+                    <span>- {{ comment.created_at }}</span>
+                    <br>
+                    <p>{{ comment.content }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<form method="post" class="add-comment-form">
+                {% csrf_token %}
+            <textarea id="" name="content" placeholder="Write a comment..." required></textarea>
+    <button type="submit">Post Comment</button>
+</form>
+
+        </div>
+    </div>
+
+     <div id="cbt-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="hideModal('cbt-modal')">&times;</span>
+            <h2>CBT Questions</h2>
+            <ul>
+                {% for question in cbt_questions %}
+                <li class="cbt-question">
+                    <p><strong>Question:</strong> {{ question.question_text|safe }}</p>
+                    <ul class="options-list">
+                        <li>Option A: {{ question.option_a }}</li>
+                        <li>Option B: {{ question.option_b }}</li>
+                        <li>Option C: {{ question.option_c }}</li>
+                        <li>Option D: {{ question.option_d }}</li>
+                    </ul>
+                    <p class="correct-option text-success"><strong>Correct Answer:</strong> {{ question.correct_option }}</p>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+  <div id="theory-{{ questions.year }}" style="display: none;" class="modal">
+                            <h2>Theory Questions for {{ questions.year }}</h2>
+                            <p>{{ questions.content }}</p>
+                        </div>
+    
+
+<script>
+     function showModal(id) {
+        document.getElementById(id).style.display = 'block';
+    }
+
+    function hideModal(id) {
+        document.getElementById(id).style.display = 'none';
+    }
+</script>
+    
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+
+<head>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #fafafa;
+        }
+
+        .navbar {
+            padding: 15px;
+            background: #fff;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .wrapper {
+            display: flex;
+        }
+
+        #sidebar {
+            width: 250px;
+            background: #7386D5;
+            color: #fff;
+            transition: all 0.3s;
+        }
+
+        #sidebar .sidebar-header {
+            padding: 20px;
+            background: #6d7fcc;
+        }
+
+        #sidebar ul.components {
+            padding: 20px;
+        }
+
+        #sidebar ul li a {
+            color: #fff;
+            padding: 10px;
+            display: block;
+        }
+
+        #sidebar ul li a:hover {
+            background: #fff;
+            color: #7386D5;
+        }
+
+        #content {
+            width: 100%;
+            padding: 20px;
+        }
+
+        .forum-header {
+            text-align: center;
+            padding: 20px;
+            background: #6d7fcc;
+            color: white;
+            border-radius: 8px;
+        }
+
+        .forum-header h1 {
+            margin-bottom: 10px;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .modal-content {
+            background-color: #fff;
+            margin: 10% auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            width: 70%;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .close {
+            float: right;
+            font-size: 1.5rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        function showModal(contentId) {
+            const modal = document.getElementById('dynamic-modal');
+            const modalContent = document.getElementById('modal-content-body');
+            modalContent.innerHTML = document.getElementById(contentId).innerHTML;
+            modal.style.display = 'block';
+        }
+
+        function hideModal() {
+            document.getElementById('dynamic-modal').style.display = 'none';
+        }
+
+        window.onclick = function (event) {
+            const modal = document.getElementById('dynamic-modal');
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        };
+    </script>
+</head>
+
+<div class="wrapper">
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <h3>Forum Navigation</h3>
+        </div>
+
+        <ul class="list-unstyled components">
+            <li>
+                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Key Points</a>
+                <ul class="collapse list-unstyled" id="homeSubmenu">
+                    {% for topic in topics %}
+                    <li>
+                        <a href="{% url 'topic_detail' topic.id %}">{{ topic.name }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </li>
+            <li>
+                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Theory Questions</a>
+                <ul class="collapse list-unstyled" id="pageSubmenu">
+                    {% for questions in theory_questions %}
+                    <li>
+                        <a href="#" onclick="showModal('theory-{{ questions.year }}')">{{ questions.year }}</a>
+                        <div id="theory-{{ questions.year }}" style="display: none;">
+                            <h2>Theory Questions for {{ questions.year }}</h2>
+                            <p>{{ questions.content }}</p>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </li>
+            <li>
+                <a href="#" onclick="showModal('cbt-modal-content')">See CBT Questions</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="content">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button type="button" id="sidebarCollapse" class="btn btn-info">
+                <i class="fas fa-align-left"></i>
+                <span>Toggle Sidebar</span>
+            </button>
+        </nav>
+
+        <section>
+            <div class="forum-header">
+                <h1>{{ forum.title }}</h1>
+                <p>{{ forum.content }}</p>
+                <p>Course: {{ forum.course.name }}</p>
+                <p>Created by {{ forum.creator.username }} on {{ forum.created_at }}</p>
+            </div>
+
+            <h2>Comments</h2>
+            {% for comment in comments %}
+            <div class="comment mt-4">
+                <img src="{{ comment.commenter.student.image }}" class="rounded-circle" width="40" height="40">
+                <h4>{{ comment.commenter.username|title }}</h4>
+                <p>{{ comment.content }}</p>
+            </div>
+            {% endfor %}
+
+            <form method="post" class="add-comment-form">
+                {% csrf_token %}
+                <textarea name="content" placeholder="Write a comment..." required></textarea>
+                <button type="submit">Post Comment</button>
+            </form>
+        </section>
+
+        <div id="dynamic-modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="hideModal()">&times;</span>
+                <div id="modal-content-body"></div>
+            </div>
+        </div>
+
+        <div id="cbt-modal-content" style="display: none;">
+            <h2>CBT Questions</h2>
+            <ul>
+                {% for question in cbt_questions %}
+                <li>
+                    <p><strong>Question:</strong> {{ question.question_text|safe }}</p>
+                    <ul>
+                        <li>Option A: {{ question.option_a }}</li>
+                        <li>Option B: {{ question.option_b }}</li>
+                        <li>Option C: {{ question.option_c }}</li>
+                        <li>Option D: {{ question.option_d }}</li>
+                    </ul>
+                    <p class="correct-option">Correct Answer: {{ question.correct_option }}</p>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+-->

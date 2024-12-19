@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Discussion Forums</h1>
+<ul>
+    {% for forum in forums %}
+    <li>
+        <a href="{% url 'forum_detail' forum.id %}">{{ forum.title }}</a>
+        <p>Course: {{ forum.course.title }}</p>
+        <p>Created by {{ forum.creator.username }} on {{ forum.created_at }}</p>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
