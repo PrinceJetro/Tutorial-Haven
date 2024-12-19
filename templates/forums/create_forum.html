@@ -1,22 +1,121 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1>Create New Forum</h1>
-<form method="post">
-    {% csrf_token %}
-    <label for="course">Select Course</label>
-    <select id="course" name="course" required>
-        {% for course in courses %}
-        <option value="{{ course.id }}">{{ course.title }}</option>
-        {% endfor %}
-    </select>
-    <br>
-    <label for="title">Title</label>
-    <input type="text" id="title" name="title" required>
-    <br>
-    <label for="content">Content</label>
-    <textarea id="content" name="content" required></textarea>
-    <br>
-    <button type="submit">Create</button>
-</form>
+
+
+
+<head>
+    <style>
+        .create-forum-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.create-forum-container h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.create-forum-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.form-input, 
+.form-textarea, 
+select.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333;
+    transition: border-color 0.3s ease;
+}
+
+.form-input:focus, 
+.form-textarea:focus, 
+select.form-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.3);
+}
+
+.form-textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.form-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .create-forum-container {
+        padding: 15px;
+    }
+
+    .create-forum-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .form-button {
+        padding: 12px;
+    }
+}
+
+    </style>
+</head>
+<div class="create-forum-container">
+    <h1>Create New Forum</h1>
+    <form method="post" class="create-forum-form">
+        {% csrf_token %}
+        
+        <!-- Course Selection -->
+        <label for="course" class="form-label">Select Course</label>
+        <select id="course" name="course" class="form-input" required>
+            {% for course in courses %}
+            <option value="{{ course.id }}">{{ course.name }}</option>
+            {% endfor %}
+        </select>
+        
+        <!-- Title Input -->
+        <label for="title" class="form-label">Title</label>
+        <input type="text" id="title" name="title" class="form-input" required>
+        
+        <!-- Content Textarea -->
+        <label for="content" class="form-label">Content</label>
+        <textarea id="content" name="content" class="form-textarea" required></textarea>
+        
+        <!-- Submit Button -->
+        <button type="submit" class="form-button">Create</button>
+    </form>
+</div>
 {% endblock %}

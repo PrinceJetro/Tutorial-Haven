@@ -33,6 +33,7 @@ urlpatterns = [
     path("forums/", views.forum_list, name="forum_list"),
     path("forums/<int:forum_id>/", views.forum_detail, name="forum_detail"),
     path("forums/create/", views.create_forum, name="create_forum"),
+    path("forums/delete/<int:forum_id>", views.delete_forum, name="delete_forum"),
 
 
 ]

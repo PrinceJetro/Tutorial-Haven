@@ -1,14 +1,112 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1>Discussion Forums</h1>
-<ul>
-    {% for forum in forums %}
-    <li>
-        <a href="{% url 'forum_detail' forum.id %}">{{ forum.title }}</a>
-        <p>Course: {{ forum.course.title }}</p>
-        <p>Created by {{ forum.creator.username }} on {{ forum.created_at }}</p>
-    </li>
+
+<head>
+    <style>
+        .forums-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.forums-container h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+.forums-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.forum-item {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.forum-item:last-child {
+    border-bottom: none;
+}
+
+.forum-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.forum-title:hover {
+    color: #0056b3;
+}
+
+.forum-course {
+    font-size: 1rem;
+    color: #495057;
+    margin-top: 5px;
+}
+
+.forum-creator {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-top: 5px;
+}
+
+.forum-creator strong {
+    color: #212529;
+}
+
+@media (max-width: 768px) {
+    .forums-container {
+        padding: 15px;
+    }
+
+    .forums-container h1 {
+        font-size: 1.8rem;
+    }
+
+    .forum-title {
+        font-size: 1.3rem;
+    }
+
+    .forum-course, .forum-creator {
+        font-size: 0.9rem;
+    }
+}
+
+    </style>
+</head>
+<div class="forums-container">
+    <h1>Discussion Forums</h1>
+{% if messages %}
+    {% for message in messages %}
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  {{message}}
+</div>
     {% endfor %}
-</ul>
+{% endif %}
+
+    <ul class="forums-list">
+        {% for forum in forums %}
+        <li class="forum-item">
+            <a href="{% url 'forum_detail' forum.id %}" class="forum-title">{{ forum.title|title }}</a>
+            <p class="forum-course">Course: {{ forum.course.name|title }}</p>
+            {% if forum.creator == user %}
+            <p class="forum-creator">Created by <strong>you</strong> on {{ forum.created_at }}</p>
+            {% else %}
+            <p class="forum-creator">Created by <strong>{{ forum.creator.username|title }}</strong> on {{ forum.created_at }}</p>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+</div>
 {% endblock %}

@@ -113,9 +113,8 @@ class UserAchievementAdmin(admin.ModelAdmin):
 
 @admin.register(UserProgress)
 class UserProgressAdmin(admin.ModelAdmin):
-    list_display = ("user", "topics_completed", "courses_completed", "exams_perfect_score", "login_streak", "last_login")
+    list_display = ("user", "topics_completed", "courses_completed", "exams_perfect_score", "discussion_posts")
     search_fields = ("user__username",)
-    ordering = ("last_login",)
 
 
 

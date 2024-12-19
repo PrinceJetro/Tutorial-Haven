@@ -193,8 +193,6 @@ class UserProgress(models.Model):
     courses_completed = models.IntegerField(default=0)
     exams_perfect_score = models.IntegerField(default=0)
     discussion_posts = models.IntegerField(default=0)
-    login_streak = models.IntegerField(default=0)
-    last_login = models.DateTimeField(null=True, blank=True)
 
     def __str__(self):
         return f"Progress for {self.user.username}"

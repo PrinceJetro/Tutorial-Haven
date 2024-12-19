@@ -896,7 +896,8 @@ def achievements_list(request):
     return render(request, "achievement_list.html", context)
 
 
-def check_and_unlock_achievements(user):
+
+def check_and_unlock_achievements(request, user):
     """Check all achievements and unlock those the user qualifies for."""
     progress = user.progress
     achievements = Achievement.objects.all()
@@ -906,27 +907,88 @@ def check_and_unlock_achievements(user):
             # Check specific achievement criteria
             if achievement.name == "First Step" and progress.topics_completed >= 1:
                 UserAchievement.objects.create(user=user, achievement=achievement)
+                messages.success(request, "Congratulations! You unlocked the 'First Step' achievement.")
 
             elif achievement.name == "Course Enthusiast" and progress.courses_completed >= 5:
                 UserAchievement.objects.create(user=user, achievement=achievement)
+                messages.success(request, "Great job! You unlocked the 'Course Enthusiast' achievement.")
 
             elif achievement.name == "Top Performer" and progress.exams_perfect_score >= 1:
                 UserAchievement.objects.create(user=user, achievement=achievement)
+                messages.success(request, "Amazing! You unlocked the 'Top Performer' achievement.")
 
             elif achievement.name == "Course Master" and progress.courses_completed >= achievement.required_value:
                 UserAchievement.objects.create(user=user, achievement=achievement)
+                messages.success(request, f"Incredible! You unlocked the 'Course Master' achievement.")
 
-            elif achievement.name == "Social Learner" and progress.discussion_posts >= 1:
+            elif achievement.name == "Social Learner" and progress.discussion_posts == 1:
                 UserAchievement.objects.create(user=user, achievement=achievement)
+                messages.success(request, "You unlocked the 'Social Learner' achievement for joining the discussion!")
 
-            elif achievement.name == "Daily Streak" and progress.login_streak >= 7:
+            elif achievement.name == "Engaged Contributor" and progress.discussion_posts == 10:
                 UserAchievement.objects.create(user=user, achievement=achievement)
+                messages.success(request, "Fantastic! You unlocked the 'Engaged Contributor' achievement.")
+
+            elif achievement.name == "Community Leader" and progress.discussion_posts == 50:
+                UserAchievement.objects.create(user=user, achievement=achievement)
+                messages.success(request, "Congratulations! You unlocked the 'Community Leader' achievement.")
+
+            elif achievement.name == "Social Influencer" and progress.discussion_posts == 100:
+                UserAchievement.objects.create(user=user, achievement=achievement)
+                messages.success(request, "Outstanding! You unlocked the 'Social Influencer' achievement.")
+
+            elif achievement.name == "Discussion Master" and progress.discussion_posts == 500:
+                UserAchievement.objects.create(user=user, achievement=achievement)
+                messages.success(request, "Legendary! You unlocked the 'Discussion Master' achievement.")
+            
+            # Check for "Talk of the Town" achievement
+            elif achievement.name == "Talk Of The Town":
+                forums = DiscussionForum.objects.all()  # Assuming you have a Forum model
+                for forum in forums:
+                    if forum.comments.count() >= 50 and forum.creator == user:
+                        UserAchievement.objects.create(user=user, achievement=achievement)
+                        talk_of_the_town(forum)
 
             elif achievement.name == "Milestone Achiever" and UserAchievement.objects.filter(user=user).count() >= 10:
                 UserAchievement.objects.create(user=user, achievement=achievement)
+                messages.success(request, "You're unstoppable! You unlocked the 'Milestone Achiever' achievement.")
 
-            elif achievement.name == "Loyal Learner" and (now() - user.date_joined).days >= 90:
-                UserAchievement.objects.create(user=user, achievement=achievement)
+
+def talk_of_the_town(forum):
+    sender_email = 'princejetro123@gmail.com'
+    sender_password = "iatu bier ypec yeqq"  # App password, not actual email password
+    subject = "Congratulations On the 'Talk Of The Town' achievement."
+    body = f"""
+Hello {forum.creator.username},
+
+We are thrilled to inform you that your forum, titled "{forum.title}", has achieved an incredible milestone! With over 50 comments and counting, your forum has sparked meaningful discussions and interactions among our community members.
+
+This remarkable achievement has unlocked the exclusive "Talk Of The Town" badge, a testament to your ability to create engaging and impactful content.
+
+**Forum Details**:
+- **Title**: {forum.title}
+- **Total Comments**: {forum.comments.count()}
+- **Created On**: {forum.created_at.strftime('%B %d, %Y')}
+
+We encourage you to continue inspiring and engaging with the community. You can view your unlocked achievements in your profile section.
+
+Thank you for your valuable contributions to our platform!
+
+Best regards,  
+Tutorial Haven Team  
+"""
+    try:
+        context = ssl.create_default_context()
+        with smtplib.SMTP_SSL('smtp.gmail.com', 465, context=context) as smtp:
+            smtp.login(sender_email, sender_password)
+            smtp.sendmail(sender_email, forum.creator.email, f"Subject: {subject}\n\n{body}")
+        print("Email sent successfully.")
+    except Exception as e:
+        print(f"Failed to send email: {e}")
+
+
+
+
 
 
 @login_required
@@ -1007,15 +1069,7 @@ def complete_topic(request):
 
 
 
-def update_login_streak(user):
-    progress, created = UserProgress.objects.get_or_create(user=user)
-    if progress.last_login and (now().date() - progress.last_login.date()).days == 1:
-        progress.login_streak += 1
-    elif not progress.last_login or (now().date() - progress.last_login.date()).days > 1:
-        progress.login_streak = 1  # Reset streak
-    progress.last_login = now()
-    progress.save()
-    check_and_unlock_achievements(user)
+
 
 
 
@@ -1040,6 +1094,15 @@ def forum_detail(request, forum_id):
     if request.method == "POST":
         content = request.POST.get("content")
         Comment.objects.create(forum=forum, commenter=request.user, content=content)
+        user = request.user
+        progress, created  = UserProgress.objects.get_or_create(user=user)
+        progress.discussion_posts += 1
+        progress.save()
+
+        # Check for achievements
+        check_and_unlock_achievements(request,user)
+
+
         return redirect("forum_detail", forum_id=forum_id)
 
     return render(request, "forums/forum_detail.html", {
@@ -1064,3 +1127,24 @@ def create_forum(request):
         return redirect("forum_list")
 
     return render(request, "forums/create_forum.html", {"courses": courses})
+
+
+
+@login_required
+def delete_forum(request, forum_id):
+    forum = get_object_or_404(DiscussionForum, id=forum_id)
+
+    # # Ensure only the creator can delete the forum
+    # if request.user != forum.creator:
+    #     messages.error(request, "You are not authorized to delete this forum.")
+    #     return redirect('forum_detail', forum_id=forum.id)
+
+    # If the user is authorized, delete the forum
+    if request.method == "POST":
+        forum.delete()
+        messages.success(request, "Forum deleted successfully.")
+        return redirect('forum_list')  # Redirect to the forum list page after deletion
+
+    # If the method is not POST, redirect back to the forum detail page
+    messages.warning(request, "Invalid request method.")
+    return redirect('forum_detail', forum_id=forum.id)
