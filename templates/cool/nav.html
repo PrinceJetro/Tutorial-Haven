@@ -65,7 +65,110 @@
 .closebtn:hover {
   color: black;
 }
-    </style>
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 10;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+#sidebar {
+    width: 100%;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+    height: 100%;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #6d7fcc;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+
+</style>
 
 
 </head>
@@ -73,60 +176,76 @@
 
 
 <!-- Navbar Start -->
-<nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+<nav class="navbar bg-white navbar-light shadow sticky-top p-0" id="main_nav">
     <a href="{% url 'home' %}" class="navbar-brand d-flex align-items-center px-4 px-sm-5">
         <h5 class="m-0 text-primary"><i class="fa fa-book me-3"></i>Tutorial Haven</h5>
     </a>
-    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+    <button type="button" class="navbar-toggler me-4" onclick="openNav()">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav ms-auto p-4 p-lg-0">
-            {% if request.user.is_authenticated %}
-                <a href="{% url 'myprofile' %}" class="nav-item nav-link active">Welcome {{ request.user.username }}</a>
-                <a href="{% url 'myprofile' %}" class="nav-item nav-link">Your Profile</a>
-                <a href="{% url 'search' %}" class="nav-item nav-link">Search</a>
-            {% else %}
-                <a href="{% url 'login' %}" class="nav-item nav-link">Login</a>
-                <a href="{% url 'register_student' %}" class="nav-item nav-link">Register</a>
-            {% endif %}
-
-            {% if request.user.is_authenticated %}
-                {% if request.user.student.is_approved %}
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
-                        <div class="dropdown-menu fade-down m-0">
-                            <a href="{% url 'list_courses' request.user.student.department.id %}" class="dropdown-item">Courses</a>
-                            <a href="{% url 'listTheory' %}" class="dropdown-item">Theory Practices</a>
-                            <a href="{% url 'myreport' %}" class="dropdown-item">Your Report</a>
-                            <a href="{% url 'forum_list' %}" class="dropdown-item">Forums</a>
-                            <a href="{% url 'create_forum' %}" class="dropdown-item">Create Forum</a>
-                             <a href="{% url 'achievements_list' %}" class="dropdown-item">Achievements</a>                        
-                            <a href="{% url 'user_progress' %}" class="dropdown-item">Progress</a>              
-                        </div>
-                    </div>
-                {% elif request.user.tutorial_center or request.user.tutor %}
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
-                        <div class="dropdown-menu fade-down m-0">
-                            <a href="{% url 'allcourses' %}" class="dropdown-item">All Courses</a>
-                            <a href="{% url 'listTheory' %}" class="dropdown-item">Theory Practices</a>
-                            <a href="{% url 'forum_list' %}" class="dropdown-item">Forums</a>
-                            <a href="{% url 'create_forum' %}" class="dropdown-item">Create Forum</a>                        
-                        </div>
-                    </div>
-                {% else %}
-                    <span class="nav-item nav-link text-danger">You are not approved yet.</span>
-                {% endif %}
-                <form method="POST" action="{% url 'logout' %}" class="d-inline">
-                    {% csrf_token %}
-                    <button type="submit" class="btn btn-danger ms-3">Logout</button>
-                </form>
-            {% endif %}
-        </div>
-    </div>
 </nav>
 <!-- Navbar End -->
+
+<!-- side nav start -->
+<div id="mySidenav" class="sidenav">
+<nav id="sidebar">
+
+            <div class="sidebar-header">
+                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <h3 class="m-0 text-bright"><i class="fa fa-book me-3"></i>Tutorial Haven
+        </h3>
+            </div>
+
+<ul class="list-unstyled components">
+        <li>
+        {% if request.user.is_authenticated %}
+            <a href="{% url 'myprofile' %}" class="nav-item nav-link active">Welcome {{ request.user.username|title }}</a>
+            <a href="{% url 'myprofile' %}" class="nav-item nav-link">Your Profile</a>
+            <a href="{% url 'search' %}" class="nav-item nav-link">Search</a>
+        {% else %}
+            <a href="{% url 'login' %}" class="nav-item nav-link">Login</a>
+            <a href="{% url 'register_student' %}" class="nav-item nav-link">Register</a>
+        {% endif %}
+    </li>
+    <li>
+        {% if request.user.is_authenticated %}
+            {% if request.user.student.is_approved %}
+                    <li>
+                        <a href="{% url 'list_courses' request.user.student.department.id %}" class="dropdown-item">Courses</a>
+                        <a href="{% url 'listTheory' %}" class="dropdown-item">Theory Practices</a>
+                        <a href="{% url 'myreport' %}" class="dropdown-item">Your Report</a>
+                        <a href="{% url 'forum_list' %}" class="dropdown-item">Forums</a>
+                        <a href="{% url 'create_forum' %}" class="dropdown-item">Create Forum</a>
+                        <a href="{% url 'achievements_list' %}" class="dropdown-item">Achievements</a>
+                        <a href="{% url 'user_progress' %}" class="dropdown-item">Progress</a>
+                    </li>
+            {% elif request.user.tutorial_center or request.user.tutor %}
+              <li>
+                        <a href="{% url 'allcourses' %}" class="dropdown-item">All Courses</a>
+                        <a href="{% url 'listTheory' %}" class="dropdown-item">Theory Practices</a>
+                        <a href="{% url 'forum_list' %}" class="dropdown-item">Forums</a>
+                        <a href="{% url 'create_forum' %}" class="dropdown-item">Create Forum</a>
+                    </li>
+               {% else %}
+                <span class="nav-item nav-link text-danger">You are not approved yet.</span>
+            {% endif %}
+        {% endif %}
+    </li>
+    <li>
+        {% if request.user.is_authenticated %}
+            <form method="POST" action="{% url 'logout' %}" class="d-inline">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-danger ms-3">Logout</button>
+            </form>
+        {% endif %}
+    </li>
+</ul>
+
+
+    </nav>
+</div>
+
+<!-- side nav end -->
 
     {% block content %}
     {% endblock %}
@@ -142,6 +261,24 @@
 
 <!-- Template Javascript -->
 <script src="{% static 'js/main.js' %}"></script>
+
+<script>
+
+    sidenav = document.getElementById("mySidenav")
+    main_nav = document.getElementById("main_nav")
+
+function openNav() {
+    sidenav.style.width = "100%";
+    main_nav.style.display = "none";
+}
+
+function closeNav() {
+    sidenav.style.width = "0%";
+    main_nav.style.display = "flex";
+
+}
+</script>
+
 
 
 </body>
