@@ -15,17 +15,26 @@ class SupabaseStorage(Storage):
     def _save(self, name, content):
         self.bucket.upload(name, content.read())
         return name    
+
     def delete(self, name):
-        pass
+        """Delete a file from the Supabase bucket."""
+        try:
+            response = self.bucket.remove([name])  # Remove file using Supabase's API
+            if response.get("error") is None:
+                print(f"File '{name}' successfully deleted.")
+            else:
+                print(f"Error deleting file '{name}': {response['error']['message']}")
+        except Exception as e:
+            print(f"Exception occurred while deleting file '{name}': {e}")
 
     def exists(self, name):
-        # Check if the file already exists in the storage
         try:
-            file = self.bucket.get(name)  # Get file metadata
-            return file.get("data") is not None  # Return True if the file exists
+            file = self.bucket.get(name)
+            return file.get("data") is not None
         except Exception as e:
             print(f"Error checking if file exists: {e}")
             return False
+
     def listdir(self, path):
         pass
 
@@ -33,6 +42,5 @@ class SupabaseStorage(Storage):
         pass
 
     def url(self, name):
-         # URL-encode the file name
         encoded_name = quote(name)
         return self.bucket.get_public_url(encoded_name)

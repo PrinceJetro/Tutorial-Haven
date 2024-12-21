@@ -61,8 +61,7 @@
 
     <div class="card-header bg-primary text-white">
       <h4>
-        {{ theory_questions.course}} {{ theory_questions.body}}
-        {{theory_questions.year}}
+        {{ theory_questions.course}} by {{ theory_questions.tutor.user.get_full_name|title }}
       </h4>
     </div>
     <div class="card-body">

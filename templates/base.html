@@ -211,6 +211,7 @@ ul ul a {
                     <li>
                         <a href="{% url 'list_courses' request.user.student.department.id %}" class="dropdown-item">Courses</a>
                         <a href="{% url 'listTheory' %}" class="dropdown-item">Theory Practices</a>
+                         <a href="{% url 'listcustom' %}" class="dropdown-item">{{ request.user.student.tutorial_center.name|title }}  Questions</a>
                         <a href="{% url 'myreport' %}" class="dropdown-item">Your Report</a>
                         <a href="{% url 'forum_list' %}" class="dropdown-item">Forums</a>
                         <a href="{% url 'create_forum' %}" class="dropdown-item">Create Forum</a>

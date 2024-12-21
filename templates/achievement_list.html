@@ -1,14 +1,90 @@
-{% extends "base.html" %}
+{% extends "cool/nav.html" %}
 {% block content %}
-<h1>Achievements</h1>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .achievement {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+
+        .icon {
+            flex: 0 0 50px;
+            text-align: center;
+            margin-right: 20px;
+        }
+
+        .icon img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .details {
+            flex-grow: 1;
+        }
+
+        .details h3 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .details p {
+            margin: 5px 0 0;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Achievements</h1>
+    {% for achievement in user_achievements %}
+        <div class="achievement">
+            <div class="icon">
+                <img src="https://th.bing.com/th/id/R.1cb723a0bab720f7c503aff0b29d0d29?rik=BTsR3MFPF%2bYuIg&pid=ImgRaw&r=0" alt="Trophy Icon">
+            </div>
+            <div class="details">
+                <h3>{{ achievement.achievement.name}}</h3>
+                <p>{{ achievement.achievement.description }}</p>
+            </div>
+        </div>
+    </div>
+
+    {% endfor %}
+</body>
+</html>
+{% endblock %}
+
+
+
+
+
+<!-- 
 <ul>
-    {% for achievement in achievements %}
     <li>
         <strong>{{ achievement.name }}</strong> - {{ achievement.description }}
         {% if achievement.id in unlocked_ids %}
         <span style="color: green;">[Unlocked]</span>
         {% endif %}
     </li>
-    {% endfor %}
-</ul>
-{% endblock %}
+</ul> -->

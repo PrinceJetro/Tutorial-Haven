@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "cool/nav.html" %}
 
 {% block content %}
 <section style="background-color: #eee;">
@@ -51,7 +51,11 @@
                 </li>             
                 <li class="list-group-item d-flex justify-content-between align-items-center p-3">
                   <i class="fas fa-globe fa-lg text-warning"></i>
-                  <p class="mb-0"><a href="{% url 'pending_gradings' request.user.tutor.id %}">Pending Gradings</a><br></p>
+                  <p class="mb-0"><a href="{% url 'pending_gradings' request.user.tutor.id %}">Pending Theory Gradings</a><br></p>
+                </li>             
+                <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                  <i class="fas fa-globe fa-lg text-warning"></i>
+                  <p class="mb-0"><a href="{% url 'pending_custom_grades' request.user.tutor.id %}">Pending Personal Questions Gradings</a><br></p>
                 </li>             
                 {% endif %}
               

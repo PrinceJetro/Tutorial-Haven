@@ -1,6 +1,6 @@
 # admin.py
 from django.contrib import admin
-from .models import Student, Course, Department, Topic, PastQuestionsObj, KeyPoints, PracticeExplanations, TutorialCenter, Tutor, PastQuestionsTheory, ObjGrade, UserCourseProgress, TheoryGrade, UploadedImage, Achievement, UserAchievement, UserProgress, DiscussionForum, Comment
+from .models import Student, Course, Department, Topic, PastQuestionsObj, KeyPoints, PracticeExplanations, TutorialCenter, Tutor, PastQuestionsTheory, ObjGrade, UserCourseProgress, TheoryGrade, UploadedImage, Achievement, UserAchievement, UserProgress, DiscussionForum, Comment, CustomQuestion, CustomQuestionResponse
 
 
 @admin.register(Student)
@@ -131,3 +131,22 @@ class CommentAdmin(admin.ModelAdmin):
     list_display = ('forum', 'commenter', 'content', 'created_at')
     search_fields = ('forum__title', 'commenter__username', 'content')
     list_filter = ('created_at',)
+
+
+
+
+
+@admin.register(CustomQuestion)
+class CustomQuestionAdmin(admin.ModelAdmin):
+    list_display = ('course', 'tutor', 'created_at')  # Columns to display in the admin list view
+    search_fields = ('course__name', 'tutor__name', 'question_text')  # Enable search by these fields
+    list_filter = ('course', 'tutor', 'created_at')  # Filters for quick sorting
+    ordering = ('-created_at',)  # Order by latest created questions
+
+
+@admin.register(CustomQuestionResponse)
+class CustomQuestionResponseAdmin(admin.ModelAdmin):
+    list_display = ('question', 'student', 'score', 'submitted_at')  # Columns to display
+    search_fields = ('question__question_text', 'student__username')  # Searchable fields
+    list_filter = ('submitted_at', 'score')  # Filters for quick access
+    ordering = ('-submitted_at',)  # Order by latest submissions

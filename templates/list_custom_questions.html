@@ -3,24 +3,19 @@
 
 {% block content %}
 
-<!-- templates/courses/list_courses.html -->
-<h1>
-    {{courses.name}}
-</h1>
-
-
 
 <!-- Header Start -->
 <div class="container-fluid bg-primary py-5 mb-5 page-header">
     <div class="container py-5">
         <div class="row justify-content-center">
             <div class="col-lg-10 text-center">
-                <h1 class="display-3 text-white animated slideInDown" style="font-size: 50px">{{department.name}}</h1>
+                <h1 class="display-3 text-white animated slideInDown" style="font-size: 50px">Custom Questions</h1>
             </div>
         </div>
     </div>
 </div>
 <!-- Header End -->
+
 {% if messages %}
     {% for message in messages %}
 <div class="alert">
@@ -33,24 +28,20 @@
 
 <div class="d-flex">
   <div class="overflow-auto" style="height: 400px; width:100%;">
-    <h1 class="display-3 text-dark animated slideInDown" style="font-size: 50px">Pending Gradings</h1>
+    <h1 class="display-3 text-dark animated slideInDown" style="font-size: 50px">Custom Questions</h1>
 
     <div class="card m-2 m-auto" style="max-width: 540px; margin: auto">
-        {% for grade in pending_grades %}
+    {% for question in customquestions %}
     
 
         <div class="row g-0">
-            <div class="">
+            <div class="col">
                 <div class="card-body">
-                    <h5 class="card-title">
-                        <a href="{% url 'grade_theory' grade.id %}">
-                            {{ grade.user|title }}, {{ grade.course|title }} Submitted at {{ grade.submitted_at|date:"Y-m-d H:i" }}
-                        </a>
-                    </h5>
-
+                    <h5 class="card-title"><a href="{% url 'custom_questions' question.course.id %}">{{ question|title }}</a></h5>
+                    <p class="card-text">
+                    </p>
                 </div>
             </div>
-            <hr>
         </div>
     
     {% endfor %}

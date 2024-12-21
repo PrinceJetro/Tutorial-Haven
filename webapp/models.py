@@ -33,7 +33,7 @@ class TutorialCenter(models.Model):
 
 
 class Tutor(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    user = models.OneToOneField(User, on_delete=models.CASCADE, related_name="tutor")
     image = models.ImageField(upload_to="uploaded_image", null=True,default='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKKOdmJz8Z2pDtYgFgR2u9spABvNNPKYYtGw&s', max_length=5000)
     tutorial_center = models.ForeignKey(TutorialCenter, on_delete=models.CASCADE, related_name='tutors')
     is_approved = models.BooleanField(default=False)  # Approval field
@@ -44,7 +44,7 @@ class Tutor(models.Model):
     
 
 class Student(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    user = models.OneToOneField(User, on_delete=models.CASCADE,  related_name="student")
     image = models.ImageField(upload_to="uploaded_image", null=True,default='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKKOdmJz8Z2pDtYgFgR2u9spABvNNPKYYtGw&s', max_length=5000)
     tutorial_center = models.ForeignKey(TutorialCenter, on_delete=models.CASCADE, related_name='students', null=True)
     is_approved = models.BooleanField(default=False)
@@ -218,3 +218,53 @@ class Comment(models.Model):
 
     def __str__(self):
         return f"Comment by {self.commenter.username} on {self.forum.title}"
+
+class CustomQuestion(models.Model):
+    course = models.ForeignKey(
+        'Course', on_delete=models.CASCADE, related_name='custom_questions',
+        help_text="The course this question belongs to."
+    )
+    question_text = RichTextField(help_text="Enter the theory question in rich text format.")
+    tutor = models.ForeignKey(
+        'Tutor', on_delete=models.CASCADE, related_name='custom_questions',
+        help_text="The tutor who created this question."
+    )
+    created_at = models.DateTimeField(auto_now_add=True, help_text="The date and time the question was created.")
+
+    def __str__(self):
+        return f'{self.course.name} - {self.tutor.user.username}\'s Question posted {self.created_at}'
+
+
+class CustomQuestionResponse(models.Model):
+    question = models.ForeignKey(
+        CustomQuestion, on_delete=models.CASCADE, related_name='responses',
+        help_text="The question being answered."
+    )
+    student = models.ForeignKey(
+        User, on_delete=models.CASCADE, related_name='custom_responses',
+        help_text="The student who submitted the response."
+    )
+    response = RichTextField(help_text="Student's answer to the question.")
+    score = models.DecimalField(
+        max_digits=5, decimal_places=2, null=True, blank=True, default=0,
+        help_text="Score for the response, out of 100."
+    )
+    note = RichTextField(
+        null=True, blank=True, help_text="Feedback or note for the student from the tutor."
+    )
+    submitted_at = models.DateTimeField(auto_now_add=True, help_text="The date and time the response was submitted.")
+    submission_id = models.UUIDField(
+        default=uuid.uuid4, editable=False, unique=True, help_text="Unique ID for the submission."
+    )
+
+    def __str__(self):
+        return f'{self.student.username} - {self.question.course.name} Response'
+
+
+class UploadedImageCustom(models.Model):
+    custom_grade = models.ForeignKey(CustomQuestionResponse, on_delete=models.CASCADE, related_name='images')
+    image = models.ImageField(upload_to="uploaded_images", max_length=5000, null=True, blank=True)
+    uploaded_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"Image for Submission {self.theory_grade.submission_id}"

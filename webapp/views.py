@@ -2,7 +2,7 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponseRedirect
 from django.contrib.auth.models import User
-from .models import  Student, Course, Department, Topic, TutorialCenter, PastQuestionsObj, KeyPoints, Tutor, PastQuestionsTheory, ObjGrade,TheoryGrade, UserCourseProgress, UploadedImage,  Achievement, UserAchievement, UserProgress, DiscussionForum, Comment
+from .models import  Student, Course, Department, Topic, TutorialCenter, PastQuestionsObj, KeyPoints, Tutor, PastQuestionsTheory, ObjGrade,TheoryGrade, UserCourseProgress, UploadedImage,  Achievement, UserAchievement, UserProgress, DiscussionForum, Comment, CustomQuestion, CustomQuestionResponse, UploadedImageCustom
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import get_object_or_404
 from django.contrib.auth.decorators import login_required
@@ -12,7 +12,7 @@ from django.contrib.auth.hashers import make_password
 from django.urls import reverse
 from django.db.models import Avg
 from webapp.storage import SupabaseStorage
-from .forms import TheorySubmissionForm, GradeForm, SearchForm
+from .forms import TheorySubmissionForm, GradeForm, SearchForm, CustomSubmissionForm, CustomGrade
 import smtplib
 import ssl
 from django.db.models import Avg  # Import Avg for aggregation
@@ -21,9 +21,41 @@ from django.contrib import messages  # Import messages for feedback to users
 from django.http import JsonResponse
 from django.http import JsonResponse, HttpResponseBadRequest
 from django.db.models import Count, Q
+from functools import wraps
 
 
 
+def user_approved_required(view_func):
+    """Decorator to check if a user is approved based on their role."""
+    @wraps(view_func)
+    def _wrapped_view(request, *args, **kwargs):
+        user = request.user
+
+        # Check if the user is authenticated
+        if not user.is_authenticated:
+            # Redirect unauthenticated users to the login page
+            return redirect('login')
+
+        # Check if the user is a student and is approved
+        if hasattr(user, 'student') and not user.student.is_approved:
+            return HttpResponseForbidden("Your account has not been approved yet.")
+
+        # Check if the user is a tutor and is approved
+        if hasattr(user, 'tutor') and not user.tutor.is_approved:
+            return HttpResponseForbidden("Your account has not been approved yet.")
+
+        # Allow institutions without requiring approval
+        if hasattr(user, 'tutorial_center'):
+            return view_func(request, *args, **kwargs)
+        
+        if hasattr(user, 'tutor') and user.tutor.is_approved:
+            return view_func(request, *args, **kwargs)
+
+
+        # If the user doesn't fit any valid role, deny access
+        return HttpResponseForbidden("Access denied. Invalid user role.")
+
+    return _wrapped_view
 
 
 
@@ -359,6 +391,20 @@ def loginview(request):
     
     return render(request, 'login.html')
 
+
+@login_required
+@user_approved_required
+def delete_student(request, student_id):
+    print("called")
+    student = get_object_or_404(Student, id=student_id)
+    if request.method == "POST":
+        # student.delete()
+        messages.success(request, "Student deleted successfully.")
+        print("Student deleted successfully.")
+        return redirect('list_tutorial_students', tutorial_id=request.user.tutorial_center.id) 
+        
+
+@user_approved_required
 @login_required
 def approve_users(request):
     # Fetch the TutorialCenter owned by the logged-in user
@@ -402,6 +448,13 @@ def approve_users(request):
     })
 
 
+@login_required
+@user_approved_required
+def delete_user_registration(request):
+    pass
+
+
+
 def send_approval_email(first_name, email, institution_name, role):
     sender_email = 'princejetro123@gmail.com'
     sender_password = "iatu bier ypec yeqq"  # App password, not actual email password
@@ -427,6 +480,7 @@ Best regards,
         print(f"Failed to send email to {email}: {e}")
 
 
+@user_approved_required
 @login_required
 def list_departments(request):
     departments = Department.objects.all()
@@ -434,12 +488,14 @@ def list_departments(request):
     return render(request, "cool/departments.html", {"departments": departments})
 
 
+@user_approved_required
 @login_required
 def list_all_courses(request):
     all_courses = Course.objects.order_by('name').all()
     return render(request, 'list_courses.html', {'courses': all_courses})
 
 
+@user_approved_required
 @login_required
 def list_courses(request, department_id=None):
     if department_id:
@@ -448,6 +504,7 @@ def list_courses(request, department_id=None):
     return render(request, 'list_courses.html', {'courses': courses, "department": department})
 
 
+@user_approved_required
 @login_required
 def course_detail(request, course_id):
     course = get_object_or_404(Course, id=course_id)
@@ -459,7 +516,9 @@ def course_detail(request, course_id):
         'course_detail.html', 
         {'course': course, 'topics': topics, 'userprogress': userprogress}
     )
+ 
 
+@user_approved_required
 @login_required
 def topic_detail(request, topic_id):
     topic = get_object_or_404(Topic, id=topic_id)
@@ -505,6 +564,7 @@ def myprofile(request):
     })
 
 
+@user_approved_required
 @login_required
 def list_tutorial_students(request, tutorial_id):
     # Get the tutorial center by name or return 404 if not found
@@ -520,6 +580,7 @@ def list_tutorial_students(request, tutorial_id):
     return render(request, 'tutorial_students.html', {'students': students, 'center': center})
 
 
+@user_approved_required
 @login_required
 def cbtquestion(request, course_id):
     course = get_object_or_404(Course, id=course_id)
@@ -595,6 +656,7 @@ def cbtquestion(request, course_id):
     }
     return render(request, 'pastquestion.html', context)
 
+@user_approved_required
 @login_required
 def listTheory(request):
     theories = PastQuestionsTheory.objects.order_by('course').all()
@@ -603,6 +665,7 @@ def listTheory(request):
     })
 
 
+@user_approved_required
 @login_required
 def theoryquestion(request, course_id, year):
     course = get_object_or_404(Course, id=course_id)
@@ -697,6 +760,7 @@ Tutorial Haven Tech Team
     return render(request, 'theoryquestion.html', context)
 
 
+@user_approved_required
 @login_required
 def list_pending_theory(request, tutor_id):
     # Get the logged-in tutor
@@ -717,6 +781,7 @@ def list_pending_theory(request, tutor_id):
     }
     return render(request, 'pending_grades.html', context)
 
+@user_approved_required
 @login_required
 def grade_theory(request, grade_id):
     # Fetch the TheoryGrade object
@@ -767,6 +832,7 @@ def calculate_credits(percentage):
 
 
 
+@user_approved_required
 @login_required
 def myreport(request):
     objgrades = UserCourseProgress.objects.filter(user=request.user).order_by('-percentage')
@@ -802,6 +868,7 @@ def myreport(request):
     return render(request, 'report.html', context)
 
 
+@user_approved_required
 @login_required
 def studentsreport(request, student_id):
     student = get_object_or_404(Student, id=student_id)
@@ -843,6 +910,7 @@ def studentsreport(request, student_id):
 
 
 
+@user_approved_required
 @login_required
 def key_points(request, pastpq_id):
     pastpq = get_object_or_404(PastQuestionsObj, id=pastpq_id)
@@ -881,6 +949,7 @@ def search(request):
         'query': query,  # Pass the search query to show it in the template
     })
 
+@user_approved_required
 @login_required
 def achievements_list(request):
     """List all achievements and user's unlocked achievements."""
@@ -991,6 +1060,7 @@ Tutorial Haven Team
 
 
 
+@user_approved_required
 @login_required
 def user_progress(request):
     """Display the user's current progress."""
@@ -999,6 +1069,7 @@ def user_progress(request):
 
 
 
+@user_approved_required
 @login_required
 def complete_topic(request):
     if request.method == "POST":
@@ -1074,12 +1145,14 @@ def complete_topic(request):
 
 
 
+@user_approved_required
 @login_required
 def forum_list(request):
     forums = DiscussionForum.objects.select_related('course').all().order_by('-created_at')
     return render(request, "forums/forum_list.html", {"forums": forums})
 
 
+@user_approved_required
 @login_required
 def forum_detail(request, forum_id):
     forum = get_object_or_404(DiscussionForum, id=forum_id)
@@ -1114,6 +1187,7 @@ def forum_detail(request, forum_id):
     })
 
 
+@user_approved_required
 @login_required
 def create_forum(request):
     courses = Course.objects.all()
@@ -1130,6 +1204,7 @@ def create_forum(request):
 
 
 
+@user_approved_required
 @login_required
 def delete_forum(request, forum_id):
     forum = get_object_or_404(DiscussionForum, id=forum_id)
@@ -1148,3 +1223,156 @@ def delete_forum(request, forum_id):
     # If the method is not POST, redirect back to the forum detail page
     messages.warning(request, "Invalid request method.")
     return redirect('forum_detail', forum_id=forum.id)
+
+
+
+
+
+
+@user_approved_required
+@login_required
+def listCustomQuestions(request):
+    customquestions = CustomQuestion.objects.order_by('course').all()
+    return render(request, 'list_custom_questions.html', {
+        'customquestions':customquestions
+    })
+
+
+@user_approved_required
+@login_required
+def customquestion(request, course_id):
+    course = get_object_or_404(Course, id=course_id)
+    questions = CustomQuestion.objects.filter(course=course).first()
+
+    if request.method == 'POST':
+        print(request.POST)  # Debugging: Print POST data
+        uploaded_images = request.FILES.getlist("images")  # Retrieve uploaded images
+        form = CustomSubmissionForm(request.POST)
+
+        if form.is_valid():  # Ensure the form is valid
+            response = form.cleaned_data['response']
+            question_id = request.POST.get('question_id')
+            question = get_object_or_404(CustomQuestion, id=question_id)
+
+            # Prevent staff submissions
+            if hasattr(request.user, 'tutorial_center') or hasattr(request.user, 'tutor'):
+                messages.success(request, f"{questions} have been successfully received. However, submissions are restricted for staff accounts.")
+                return HttpResponseRedirect('/all_theories')
+
+            # Create CustomGrade instance
+            custom_grade = CustomQuestionResponse.objects.create(
+                student=request.user,
+                question=question,
+                response=response,
+                submission_id=uuid.uuid4()
+            )
+
+            # Initialize storage for image upload
+            storage = SupabaseStorage()
+            try:
+                print("Uploading images...")
+                for image in uploaded_images:
+                    # Define storage path
+                    storage_path = f"diagrams/{image.name}"
+                    print(f"Uploading file: {image.name}")
+
+                    # Save to Supabase and get URL
+                    filename = storage.save(storage_path, image)
+                    image_url = storage.url(filename)
+
+                    # Save image record to UploadedImage model
+                    UploadedImage.objects.create(custom_grade=custom_grade, image=image_url)
+                print("Images uploaded successfully.")
+            except Exception as e:
+                print(f"Error uploading images: {e}")
+                messages.error(request, "Failed to upload one or more images. Please try again.")
+
+            # Send email notification to tutor
+            tutor = Tutor.objects.filter(speciality=course).first()
+            if tutor and tutor.user.email:
+                sender_email = 'princejetro123@gmail.com'
+                sender_password = "iatu bier ypec yeqq"
+                recipient_email = tutor.user.email
+                subject = "New Theory Practice Submission"
+                body = f"""
+Dear {tutor.user.username},
+
+A new theory practice response has been submitted by {request.user.get_full_name()} for the course '{course.name}'.
+
+Please log in to your dashboard to review and grade the submission.
+
+Best regards,
+Tutorial Haven Tech Team
+"""
+
+                try:
+                    context = ssl.create_default_context()
+                    with smtplib.SMTP_SSL('smtp.gmail.com', 465, context=context) as smtp:
+                        smtp.login(sender_email, sender_password)
+                        smtp.sendmail(sender_email, recipient_email, f"Subject: {subject}\n\n{body}")
+                        print(f"Notification email sent to {tutor.user.email}.")
+                except Exception as e:
+                    print(f"Failed to send email to {tutor.user.email}: {e}")
+
+            # Success message and redirect
+            messages.success(request, f"{questions} Successfully Submitted! Your Tutor will grade and get back to you soon.")
+            return HttpResponseRedirect('/all_custom_questions')
+        else:
+            # Form validation error
+            messages.error(request, "Answers Cannot Be Blank. You must submit an answer.")
+    else:
+        form = TheorySubmissionForm()
+
+    context = {
+        'course': course,
+        'theory_questions': questions,
+        'form': form,
+    }
+    return render(request, 'customquestions.html', context)
+
+
+@user_approved_required
+@login_required
+def list_pending_custom_question(request, tutor_id):
+
+    # Fetch all pending grades 
+    pending_grades = CustomQuestionResponse.objects.filter(score=0)
+    print(pending_grades)
+
+    # Pass the data to the template
+    context = {
+        'pending_grades': pending_grades,
+    }
+    return render(request, 'pending_custom_grades.html', context)
+
+@user_approved_required
+@login_required
+def grade_custom_questions(request, grade_id):
+    # Fetch the TheoryGrade object
+    question_grade = get_object_or_404(CustomQuestionResponse, id=grade_id)
+    images = UploadedImageCustom.objects.filter(custom_grade=question_grade)  # Retrieve all related images
+
+    # Ensure the user has the right to grade (e.g., is a tutor)
+    if not hasattr(request.user, 'tutor') or not request.user.tutor:
+        messages.error(request, "You do not have permission to grade this question.")
+        return redirect('myprofile')  # Redirect to a suitable page
+
+    # Handle form submission
+    if request.method == 'POST':
+        form = CustomGrade(request.POST, instance=question_grade)
+        if form.is_valid():
+            form.save()  # Save the updated score
+            messages.success(request, "Score updated successfully!")
+            return redirect('pending_custom_grades', tutor_id=request.user.tutor.id)  # Redirect to pending grades
+    else:
+        form = CustomGrade(instance=question_grade)
+
+    # Pass data to the template
+    context = {
+        'theory_grade': question_grade,
+        'form': form,
+        'images': images,  # Pass all images to the template
+    }
+    return render(request, 'grade_custom_questions.html', context)
+
+

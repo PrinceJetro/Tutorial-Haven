@@ -3,6 +3,16 @@
 
 {% block content %}
 
+                                    {% if messages %}
+    {% for message in messages %}
+<div class="alert bg-danger" >
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  {{message}}
+</div>
+    {% endfor %}
+{% endif %}
+
+
 <div class="container mt-3">
   <div class="row">
     <!-- First Card -->
@@ -13,7 +23,11 @@
         <div class="card-body">
           <h4 class="card-title">{{ student.user.get_full_name|title }}</h4>
           <p class="card-text">{{ student.department }} Department </p>
-          <a href="{% url 'studentsreport' student.id %}" class="btn btn-primary">See Progress</a>
+          <a href="{% url 'studentsreport' student.id %}" class="m-1 btn btn-primary">See Progress</a>
+          <form action="{% url 'deletestudent' student.id %}" method="post" style="display: inline;">
+                    {% csrf_token %}
+            <button class="m-1 btn btn-danger">Delete Student</button>
+          </form>
         </div>
       </div>
     </div>

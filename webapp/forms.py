@@ -1,7 +1,7 @@
 # forms.py
 from django import forms
 from django.contrib.auth.models import User
-from .models import  Course, Topic, TheoryGrade
+from .models import  Course, Topic, TheoryGrade, CustomQuestionResponse
 from ckeditor.fields import RichTextField  # For model definition
 from ckeditor.widgets import CKEditorWidget  # Import the CKEditor widget
 
@@ -46,12 +46,36 @@ class TheorySubmissionForm(forms.Form):
         label="Your Answer",
         help_text="Provide a detailed answer to the question",
         required=True,  # Ensure the field is required
+    )
+
+class CustomSubmissionForm(forms.Form):
+    response = forms.CharField(
+        widget=forms.Textarea(attrs={"class": "form-control w-100", "rows": 6}),
+        label="Your Answer",
+        help_text="Provide a detailed answer to the question",
+        required=True,  # Ensure the field is required
 
     )
 
 class GradeForm(forms.ModelForm):
     class Meta:
         model = TheoryGrade
+        fields = ['score', 'note']  # Include both score and note
+        widgets = {
+            'score': forms.NumberInput(attrs={'min': 0, 'max': 100, 'step': 0.01}),
+        }
+        labels = {
+            'score': 'Assign Score',
+            'note': 'Add Note',
+        }
+        help_texts = {
+            'score': 'Enter a score between 0 and 100.',
+            'note': 'Provide a note for the student (optional).',
+        }
+
+class CustomGrade(forms.ModelForm):
+    class Meta:
+        model = CustomQuestionResponse
         fields = ['score', 'note']  # Include both score and note
         widgets = {
             'score': forms.NumberInput(attrs={'min': 0, 'max': 100, 'step': 0.01}),

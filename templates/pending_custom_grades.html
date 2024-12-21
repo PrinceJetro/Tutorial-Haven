@@ -43,8 +43,8 @@
             <div class="">
                 <div class="card-body">
                     <h5 class="card-title">
-                        <a href="{% url 'grade_theory' grade.id %}">
-                            {{ grade.user|title }}, {{ grade.course|title }} Submitted at {{ grade.submitted_at|date:"Y-m-d H:i" }}
+                        <a href="{% url 'grade_custom' grade.id %}">
+                            {{ grade.student.get_full_name|title }}, {{ grade.question.course.name|title }} Submitted at {{ grade.submitted_at|date:"Y-m-d H:i" }} Compiled By {{ grade.question.tutor.user.get_full_name|title }}
                         </a>
                     </h5>
 

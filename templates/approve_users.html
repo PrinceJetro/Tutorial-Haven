@@ -77,9 +77,18 @@
                             <span>Student</span>
                         </td>
                         <td class="align-middle">
+                                                  <span>Approve</span> 
+
                           <a href="#!" data-mdb-tooltip-init title="Done"><input type="checkbox" name="approve_students" value="{{ student.id }}"></a>
-                          <a href="#!" data-mdb-tooltip-init title="Remove"><i
+                                                  <span>Reject</span> 
+                                                  <form action="">
+                                                    <button type="submit" style="background: transparent; border: 0px">
+                                                                                <a href="#!" data-mdb-tooltip-init title="Remove"><i
                               class="fas fa-trash-alt fa-lg text-warning"></i></a>
+                                                    </button>
+                                                  </form>
+
+
                         </td>
                       </tr>
                       {% empty %}
@@ -98,9 +107,20 @@
                            <span>Tutor</span>
                        </td>
                        <td class="align-middle">
-                         <a href="#!" data-mdb-tooltip-init title="Done"><input type="checkbox" name="approve_tutors" value="{{ tutor.id }}"></a>
-                         <a href="#!" data-mdb-tooltip-init title="Remove"><i
-                             class="fas fa-trash-alt fa-lg text-warning"></i></a>
+                        <td class="align-middle">
+                                                  <span>Approve</span> 
+
+                          <a href="#!" data-mdb-tooltip-init title="Done"><input type="checkbox" name="approve_tutors" value="{{ student.id }}"></a>
+                                                  <span>Reject</span> 
+                                                  <form action="">
+                                                    <button type="submit" style="background: transparent; border: 0px">
+                                                                                <a href="#!" data-mdb-tooltip-init title="Remove"><i
+                              class="fas fa-trash-alt fa-lg text-warning"></i></a>
+                                                    </button>
+                                                  </form>
+
+
+                        </td>
                        </td>
                      </tr>
                      {% empty %}
