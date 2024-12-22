@@ -51,6 +51,9 @@ def user_approved_required(view_func):
         if hasattr(user, 'tutor') and user.tutor.is_approved:
             return view_func(request, *args, **kwargs)
 
+        if hasattr(user, 'student') and user.student.is_approved:
+            return view_func(request, *args, **kwargs)
+
 
         # If the user doesn't fit any valid role, deny access
         return HttpResponseForbidden("Access denied. Invalid user role.")
