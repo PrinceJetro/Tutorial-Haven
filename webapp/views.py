@@ -1227,6 +1227,27 @@ def delete_forum(request, forum_id):
 
 
 
+@user_approved_required
+@login_required
+def create_custom_question(request):
+    courses = Course.objects.all()
+
+    if request.method == "POST":
+        print(request.POST)
+        # Ensure only tutors can create questions
+        if not hasattr(request.user, 'tutor'):
+            return HttpResponseForbidden("You do not have permission to create questions.")
+        
+        course_id = request.POST.get("course")
+        tutor = request.user.tutor
+        question_text = request.POST.get("response")
+        course = get_object_or_404(Course, id=course_id)
+        CustomQuestion.objects.create(course=course, tutor=tutor, question_text=question_text)
+        return redirect("listcustom")
+    else: form = CustomSubmissionForm()
+
+    return render(request, "create_custom_question.html", {"courses": courses, 'form':form})
+
 
 
 @user_approved_required
@@ -1333,7 +1354,7 @@ Tutorial Haven Tech Team
 
 @user_approved_required
 @login_required
-def list_pending_custom_question(request, tutor_id):
+def list_pending_custom_question(request):
 
     # Fetch all pending grades 
     pending_grades = CustomQuestionResponse.objects.filter(score=0)

@@ -227,6 +227,8 @@ ul ul a {
                            <a href="{% url 'listcustom' %}" class="dropdown-item">Your Institution's Questions</a>
                         <a href="{% url 'forum_list' %}" class="dropdown-item">Forums</a>
                         <a href="{% url 'create_forum' %}" class="dropdown-item">Create Forum</a>
+                        <a href="{% url 'create_custom_question' %}" class="dropdown-item">Create Practices</a>
+                        <a href="{% url 'pending_custom_grades' %}" class="dropdown-item">Pending Practice Gradings</a>
                     </li>
                {% else %}
                 <span class="nav-item nav-link text-danger">You are not approved yet.</span>

@@ -51,10 +51,9 @@ class TheorySubmissionForm(forms.Form):
 class CustomSubmissionForm(forms.Form):
     response = forms.CharField(
         widget=forms.Textarea(attrs={"class": "form-control w-100", "rows": 6}),
-        label="Your Answer",
-        help_text="Provide a detailed answer to the question",
+        label="Your Questions",
+        help_text="Provide a detailed Question",
         required=True,  # Ensure the field is required
-
     )
 
 class GradeForm(forms.ModelForm):
