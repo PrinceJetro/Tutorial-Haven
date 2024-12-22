@@ -1,0 +1,102 @@
+{% extends "cool/nav.html" %}
+{% block content %}
+
+
+<style>
+    .activity-container {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 800px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .header {
+      background-color: #6d7fcc;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: rgba(0, 0, 255, 0.815);
+      color: white;
+      font-weight: bold;
+    }
+
+    td {
+      font-size: 14px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+
+    input {
+      width: 100%;
+      border: none;
+      text-align: center;
+      background: none;
+    }
+  </style>
+
+  <div class="activity-container">
+      <div class="container">
+    <div class="header">Activites</div>
+    <table>
+      <thead>
+        <tr>
+          <th>DATE</th>
+          <th>ACTIVITY</th>
+          {% if request.user.tutorial_center %}
+          <th>User</th>
+          {% endif %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for activity in activities %}
+            <tr>
+          <td>{{ activity.timestamp }}</td>
+          <td>{{ activity.action|title }}</td>
+           {% if request.user.tutorial_center %}
+          <td>{{ activity.user|title }}</td>
+          {% endif %}
+        </tr>
+
+        {% endfor %}
+        <!-- Repeat the <tr> block as needed -->
+      </tbody>
+    </table>
+  </div>
+  </div>
+
+  {% endblock %}

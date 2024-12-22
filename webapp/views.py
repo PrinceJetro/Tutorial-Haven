@@ -2,7 +2,7 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponseRedirect
 from django.contrib.auth.models import User
-from .models import  Student, Course, Department, Topic, TutorialCenter, PastQuestionsObj, KeyPoints, Tutor, PastQuestionsTheory, ObjGrade,TheoryGrade, UserCourseProgress, UploadedImage,  Achievement, UserAchievement, UserProgress, DiscussionForum, Comment, CustomQuestion, CustomQuestionResponse, UploadedImageCustom
+from .models import  Student, Course, Department, Topic, TutorialCenter, PastQuestionsObj, KeyPoints, Tutor, PastQuestionsTheory, ObjGrade,TheoryGrade, UserCourseProgress, UploadedImage,  Achievement, UserAchievement, UserProgress, DiscussionForum, Comment, CustomQuestion, CustomQuestionResponse, UploadedImageCustom, ActivityLog
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import get_object_or_404
 from django.contrib.auth.decorators import login_required
@@ -651,6 +651,10 @@ def cbtquestion(request, course_id):
             'attempts': user_progress.attempts,
             'total_percent': user_progress.percentage
         }
+        ActivityLog.objects.create(
+            user=request.user,
+            action=f"Practiced CBT questions for the course '{course.name}'. Scored {percentage_score:.2f}% with {score}/{total_questions} correct answers."
+        )
         return render(request, 'cbt_result.html', context)
 
     context = {
@@ -748,6 +752,10 @@ Tutorial Haven Tech Team
 
             # Success message and redirect
             messages.success(request, f"{questions} Successfully Submitted! Your Tutor will grade and get back to you soon.")
+            ActivityLog.objects.create(
+            user=request.user,
+            action=f"Practiced Theory questions for {question.year} {course.name}"
+            )
             return HttpResponseRedirect('/all_theories')
         else:
             # Form validation error
@@ -812,6 +820,10 @@ def grade_theory(request, grade_id):
         'form': form,
         'images': images,  # Pass all images to the template
     }
+    ActivityLog.objects.create(
+            user=request.user,
+            action=f"Graded Theory Question for {theory_grade.user} {theory_grade.question.year}"
+            )
     return render(request, 'grade_theory.html', context)
 
 # Utility function to calculate credits
@@ -918,7 +930,6 @@ def studentsreport(request, student_id):
 def key_points(request, pastpq_id):
     pastpq = get_object_or_404(PastQuestionsObj, id=pastpq_id)
     keypoint = KeyPoints.objects.filter(past_question=pastpq).first()  # Use .first() to fetch the single object
-
     return render(request, 'cool/keypoints.html', {'keypoint': keypoint})
 
 
@@ -1142,12 +1153,6 @@ def complete_topic(request):
         # Check for other achievements
 
 
-
-
-
-
-
-
 @user_approved_required
 @login_required
 def forum_list(request):
@@ -1201,6 +1206,10 @@ def create_forum(request):
         content = request.POST.get("content")
         course = get_object_or_404(Course, id=course_id)
         DiscussionForum.objects.create(creator=request.user, course=course, title=title, content=content)
+        ActivityLog.objects.create(
+            user=request.user,
+            action=f"Created a Discussion Forum under the {course.name} course with title: {title}"
+            )
         return redirect("forum_list")
 
     return render(request, "forums/create_forum.html", {"courses": courses})
@@ -1225,6 +1234,10 @@ def delete_forum(request, forum_id):
 
     # If the method is not POST, redirect back to the forum detail page
     messages.warning(request, "Invalid request method.")
+    ActivityLog.objects.create(
+            user=request.user,
+            action=f"Deleted a Discussion Forum under the {forum.course.name} course with title: {forum.title}"
+            )
     return redirect('forum_detail', forum_id=forum.id)
 
 
@@ -1246,6 +1259,10 @@ def create_custom_question(request):
         question_text = request.POST.get("response")
         course = get_object_or_404(Course, id=course_id)
         CustomQuestion.objects.create(course=course, tutor=tutor, question_text=question_text)
+        ActivityLog.objects.create(
+            user=request.user,
+            action=f"Created a Custom {course.name} question"
+            )
         return redirect("listcustom")
     else: form = CustomSubmissionForm()
 
@@ -1340,6 +1357,10 @@ Tutorial Haven Tech Team
 
             # Success message and redirect
             messages.success(request, f"{questions} Successfully Submitted! Your Tutor will grade and get back to you soon.")
+            ActivityLog.objects.create(
+            user=request.user,
+            action=f"Practiced Custom questions for {question.year} {course.name}"
+            )
             return HttpResponseRedirect('/all_custom_questions')
         else:
             # Form validation error
@@ -1397,6 +1418,32 @@ def grade_custom_questions(request, grade_id):
         'form': form,
         'images': images,  # Pass all images to the template
     }
+    ActivityLog.objects.create(
+            user=request.user,
+            action=f"Graded Custom Question for {question_grade.user} {question_grade.question.year}"
+            )
     return render(request, 'grade_custom_questions.html', context)
 
 
+@login_required
+@user_approved_required
+def listActivity(request):
+    if hasattr(request.user, 'tutorial_center'):
+        # If the user is a tutorial center, fetch activities of all students and tutors under them
+        user_students = request.user.tutorial_center.students.all().values_list('user', flat=True)
+        user_tutors = request.user.tutorial_center.tutors.all().values_list('user', flat=True)
+        
+        # Combine the lists of users
+        user_list = list(user_students) + list(user_tutors)
+        
+        # Fetch activities for these users
+        activities = ActivityLog.objects.filter(user__in=user_list).order_by('-timestamp')
+    else:
+        # If the user is a tutor or student, fetch only their own activities
+        activities = ActivityLog.objects.filter(user=request.user).order_by('-timestamp')
+
+    context = {
+        'activities': activities,
+    }
+
+    return render(request, 'activity_list.html', context)

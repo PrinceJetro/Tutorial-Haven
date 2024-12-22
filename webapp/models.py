@@ -268,3 +268,26 @@ class UploadedImageCustom(models.Model):
 
     def __str__(self):
         return f"Image for Submission {self.theory_grade.submission_id}"
+
+
+
+class ActivityLog(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='activity_logs')
+    action = models.CharField(max_length=255, help_text="Description of the action performed")
+    timestamp = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"{self.user.username} - {self.action} at {self.timestamp}"
+
+
+
+# class Feedback(models.Model):
+#     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='feedbacks')
+#     tutorial_center = models.ForeignKey(TutorialCenter, on_delete=models.CASCADE, related_name='feedbacks', null=True, blank=True)
+#     course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name='feedbacks', null=True, blank=True)
+#     rating = models.PositiveIntegerField(default=0, help_text="Rating out of 5")
+#     comments = models.TextField(help_text="Feedback comments", blank=True, null=True)
+#     created_at = models.DateTimeField(auto_now_add=True)
+
+#     def __str__(self):
+#         return f"Feedback by {self.user.username} - {self.rating}/5"

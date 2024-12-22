@@ -1,6 +1,6 @@
 # admin.py
 from django.contrib import admin
-from .models import Student, Course, Department, Topic, PastQuestionsObj, KeyPoints, PracticeExplanations, TutorialCenter, Tutor, PastQuestionsTheory, ObjGrade, UserCourseProgress, TheoryGrade, UploadedImage, Achievement, UserAchievement, UserProgress, DiscussionForum, Comment, CustomQuestion, CustomQuestionResponse
+from .models import Student, Course, Department, Topic, PastQuestionsObj, KeyPoints, PracticeExplanations, TutorialCenter, Tutor, PastQuestionsTheory, ObjGrade, UserCourseProgress, TheoryGrade, UploadedImage, Achievement, UserAchievement, UserProgress, DiscussionForum, Comment, CustomQuestion, CustomQuestionResponse, ActivityLog
 
 
 @admin.register(Student)
@@ -150,3 +150,8 @@ class CustomQuestionResponseAdmin(admin.ModelAdmin):
     search_fields = ('question__question_text', 'student__username')  # Searchable fields
     list_filter = ('submitted_at', 'score')  # Filters for quick access
     ordering = ('-submitted_at',)  # Order by latest submissions
+
+@admin.register(ActivityLog)
+class ActivityLogAdmin(admin.ModelAdmin):
+    list_display = ('user', 'action')
+    search_fields = ('user',)
