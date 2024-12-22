@@ -45,18 +45,18 @@ def user_approved_required(view_func):
             return HttpResponseForbidden("Your account has not been approved yet.")
 
         # Allow institutions without requiring approval
-        if hasattr(user, 'tutorial_center'):
+        if hasattr(user, 'tutorial_center') and user.tutorial_center.is_active:
             return view_func(request, *args, **kwargs)
         
-        if hasattr(user, 'tutor') and user.tutor.is_approved:
+        if hasattr(user, 'tutor') and user.tutor.is_approved and user.tutor.tutorial_center.is_active:
             return view_func(request, *args, **kwargs)
 
-        if hasattr(user, 'student') and user.student.is_approved:
+        if hasattr(user, 'student') and user.student.is_approved and user.student.tutorial_center.is_active:
             return view_func(request, *args, **kwargs)
 
 
         # If the user doesn't fit any valid role, deny access
-        return HttpResponseForbidden("Access denied. Invalid user role.")
+        return HttpResponseForbidden("Access denied.")
 
     return _wrapped_view
 

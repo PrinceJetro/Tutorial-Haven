@@ -28,6 +28,7 @@ class TutorialCenter(models.Model):
     address = models.CharField(max_length=200, null=True)
     owner = models.OneToOneField(User, on_delete=models.CASCADE, related_name='tutorial_center')
     image = models.ImageField(upload_to="uploaded_image", null=True,default='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKKOdmJz8Z2pDtYgFgR2u9spABvNNPKYYtGw&s', max_length=5000)
+    is_active = models.BooleanField(default=False, null=True)
     def __str__(self):
         return self.name
 
