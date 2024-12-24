@@ -262,7 +262,7 @@
                 </div>
                 {% endfor %}
             </div>
-            <div class="navigation-buttons">
+            <div class="navigation-buttons" id="navigation-buttons">
                 <button type="button" id="prevButton" class="submit mb-4">Previous</button>
                 <button type="button" id="nextButton" class="submit mb-4">Next</button>
             </div>
@@ -339,7 +339,10 @@ function startTimer(duration, display) {
 
       if (--timer < 0) {
           clearInterval(timerInterval); // Stop the timer
+          document.getElementById("navigation-buttons").style.display="none"
+          alert("Submitting")
           document.getElementById("quizForm").submit(); // Submit form
+
       }
   }, 1000);
 }
