@@ -18,11 +18,46 @@ import ssl
 from django.db.models import Avg  # Import Avg for aggregation
 import uuid  # Ensure you have imported this at the top of the file
 from django.contrib import messages  # Import messages for feedback to users
-from django.http import JsonResponse
 from django.http import JsonResponse, HttpResponseBadRequest
 from django.db.models import Count, Q
 from functools import wraps
+from openai import OpenAI
+from dotenv import load_dotenv
+import os
+import markdown
 
+
+
+
+# Load environment variables
+load_dotenv()
+
+# Initialize OpenAI client
+api_key = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=api_key)
+
+
+
+def generate_haiku(request):
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant."},
+                {"role": "user", "content": "Write a haiku about recursion in programming."}
+            ],
+            temperature=0.3,
+            max_completion_tokens=350,
+            top_p=1,
+            frequency_penalty=0,
+            presence_penalty=0
+        )
+
+        # Extract the content
+        haiku = response.choices[0].message.content
+        return JsonResponse({"haiku": haiku})
+    except Exception as e:
+        return JsonResponse({"error": str(e)}, status=500)
 
 
 def user_approved_required(view_func):
@@ -586,21 +621,47 @@ def list_tutorial_students(request, tutorial_id):
 @user_approved_required
 @login_required
 def cbtquestion(request, course_id):
+    from openai import OpenAI
+    from dotenv import load_dotenv
+    import os
+
+    # Load environment variables from .env
+    load_dotenv()
+    api_key = os.getenv("OPENAI_API_KEY")
+    client = OpenAI(api_key=api_key)
+
     course = get_object_or_404(Course, id=course_id)
-    questions = PastQuestionsObj.objects.filter(course=course)[:25]
+    questions = PastQuestionsObj.objects.filter(course=course)[:2]
 
     if request.method == 'POST':
         if hasattr(request.user, 'tutorial_center') or hasattr(request.user, 'tutor'):
             messages.success(request, "Practice session has been successfully received. However, submissions are restricted for staff accounts.")
             return HttpResponseRedirect('/allcourses/')
+        
         score = 0
         total_questions = questions.count()
+        failed_questions = []
         submission_id = uuid.uuid4()  # Generate a unique submission ID for this attempt
 
         for question in questions:
             selected_option = request.POST.get(f'question_{question.id}')
+            correct_option = question.correct_option
             if selected_option == question.correct_option:
                 score += 1
+                print(f"{selected_option} is correct")
+            else:
+                # Get actual text for selected and correct options
+                selected_option_text = getattr(question, f"option_{selected_option.lower()}")
+                correct_option_text = getattr(question, f"option_{correct_option.lower()}")
+                # Append failed question details
+                print(f"Failed {question.question_text}")
+                print(f"{selected_option_text} was picked")
+
+                failed_questions.append({
+                    "question_text": question.question_text,
+                    "selected_option": selected_option_text,
+                    "correct_option": correct_option_text,
+                })
 
             # Save individual grade for this question
             ObjGrade.objects.create(
@@ -611,16 +672,43 @@ def cbtquestion(request, course_id):
                 submission_id=submission_id,  # Assign the unique submission ID
             )
 
+        # Handle failed questions via OpenAI API
+        if failed_questions:
+            try:
+                # Format failed questions into a prompt
+                failed_prompt = "\n".join([
+                    f"Question: {fq['question_text']}\nYour Answer: {fq['selected_option']}\nCorrect Answer: {fq['correct_option']}\n"
+                    for fq in failed_questions
+                ])
+                
+                # Call the OpenAI API
+                response = client.chat.completions.create(
+                    model="gpt-4o-mini",
+                    messages=[
+                        {"role": "system", "content": "You are a tutor reviewing a student's answers. For each question, critically evaluate the correctness of the provided answers, even if marked as 'correct.' If you find discrepancies or potential inaccuracies, provide the most accurate answer with explanations. For incorrect answers, explain why they are wrong, clarify the correct answer, and suggest how the student can improve."},
+                        {"role": "user", "content": f"The following are the questions I failed:\n\n{failed_prompt}"}
+                    ],
+                    temperature=0.3,
+                    max_completion_tokens=350,
+                    top_p=1,
+                    frequency_penalty=0,
+                    presence_penalty=0
+                )
+
+                # Extract and prepare response content
+                tutor_feedback = markdown.markdown(response.choices[0].message.content)
+            except Exception as e:
+                tutor_feedback = f"An error occurred while generating feedback: {str(e)}"
+
         # Calculate overall percentage score for this attempt
         percentage_score = (score / total_questions) * 100
+
         # Check for "Perfect Grade" achievement
         if percentage_score == 100:
-            print("Perfect score")
             progress, created = UserProgress.objects.get_or_create(user=request.user)
             progress.exams_perfect_score += 1
             progress.save()
 
-            # Check and unlock the "Ace the Test" achievement
             achievement = Achievement.objects.filter(name="Ace the Test").first()
             if achievement:
                 user_achievement, created = UserAchievement.objects.get_or_create(
@@ -636,7 +724,6 @@ def cbtquestion(request, course_id):
             course=course,
         )
         user_progress.attempts += 1
-        # Update the average percentage considering all attempts
         all_user_grades = ObjGrade.objects.filter(user=request.user, course=course)
         average_score = all_user_grades.aggregate(average_score=Avg('score'))['average_score'] or 0
         user_progress.percentage = average_score
@@ -649,7 +736,8 @@ def cbtquestion(request, course_id):
             'percentage_score': percentage_score,
             'total_questions': total_questions,
             'attempts': user_progress.attempts,
-            'total_percent': user_progress.percentage
+            'total_percent': user_progress.percentage,
+            'tutor_feedback': tutor_feedback if failed_questions else None
         }
         ActivityLog.objects.create(
             user=request.user,

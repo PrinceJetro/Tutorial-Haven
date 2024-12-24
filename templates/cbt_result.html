@@ -1,20 +1,149 @@
-<!-- cbt_result.html -->
+
 {% extends "cool/nav.html" %}
 
+
+<head>
+    <script type="text/javascript" id="MathJax-script" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js">
+</script>
+    <style>
+        /* Results Card */
+.card-header {
+    background: linear-gradient(90deg, #007BFF, #0056b3);
+    color: white;
+    padding: 15px;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Feedback Section */
+.tutor-feedback-section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tutor-feedback-section h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+}
+
+.feedback-content h3 {
+    font-size: 1.4em;
+    color: #007BFF;
+    margin-top: 15px;
+}
+
+.feedback-content p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+    margin: 10px 0;
+}
+
+.feedback-content hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 15px 0;
+}
+
+/* Pass/Fail Alerts */
+.alert {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border-color: #c3e6cb;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border-color: #f5c6cb;
+}
+
+/* Navigation Button */
+.btn-primary {
+    background: linear-gradient(90deg, #007BFF, #0056b3);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #0056b3, #003f7f);
+    color: #fff;
+    transform: scale(1.05);
+}
+    </style>
+</head>
 {% block content %}
-<h2>{{ course.name }} CBT Results</h2>
-<p>Your Score: {{ score }} / {{ total_questions }}</p>
-<p>Percentage: {{ percentage_score }}%</p>
-<p>Total Attempts: {{ attempts }}</p>
-<p>Course Average: {{ total_percent }}%</p>
+<div class="container mt-5">
+    <div class="card shadow-lg">
+        <div class="card-header text-center bg-primary text-white">
+            <h2>{{ course.name }} CBT Results</h2>
+        </div>
+        <div class="card-body">
+            <!-- Results Summary -->
+            <div class="text-center mb-4">
+                <h4>Your Results</h4>
+            </div>
+            <ul class="list-group list-group-flush mb-4">
+                <li class="list-group-item">
+                    <strong>Your Score:</strong> {{ score }} / {{ total_questions }}
+                </li>
+                <li class="list-group-item">
+                    <strong>Percentage:</strong> {{ percentage_score }}%
+                </li>
+                <li class="list-group-item">
+                    <strong>Total Attempts:</strong> {{ attempts }}
+                </li>
+                <li class="list-group-item">
+                    <strong>Course Average:</strong> {{ total_percent }}%
+                </li>
+            </ul>
 
-{% if percentage_score >= 50 %}
-    <p>Congratulations, you passed!</p>
-{% else %}
-    <p>Keep studying, you'll get it next time!</p>
-{% endif %}
-<a href="{% url 'course_detail' course.id %}" class="btn btn-primary">Back to Course</a>
+            <!-- Tutor Feedback Section -->
+            <div class="tutor-feedback-section">
+                <h2>Tutor Feedback</h2>
+                <div class="feedback-content">
+                    {{ tutor_feedback|safe }}
+                </div>
+            </div>
 
+            <!-- Pass/Fail Message -->
+            {% if percentage_score >= 50 %}
+                <div class="alert alert-success text-center mt-3" role="alert">
+                    <p>Congratulations, you passed!</p>
+                </div>
+            {% else %}
+                <div class="alert alert-danger text-center mt-3" role="alert">
+                    <p>Keep studying, you'll get it next time!</p>
+                </div>
+            {% endif %}
 
-
+            <!-- Navigation Button -->
+            <div class="text-center mt-4">
+                <a href="{% url 'course_detail' course.id %}" class="btn btn-primary btn-lg">
+                    Back to Course
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}

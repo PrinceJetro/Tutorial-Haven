@@ -25,6 +25,24 @@ SECRET_KEY = 'django-insecure-32-w9phd*pzbgvvem943767ax3rh&odlq+q$69$qbb8p3=3m96
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+
+
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
+
+# Retrieve sensitive values
+SECRET_KEY = os.getenv("SECRET_KEY", "your-default-secret-key")  # Always use a default for local dev
+DEBUG = os.getenv("DEBUG", "False") == "True"
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
+# Example usage of the OpenAI API key in views or other parts of the app
+
+
+
+
+
 ALLOWED_HOSTS = ['*']
 
 
