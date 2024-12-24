@@ -38,28 +38,6 @@ client = OpenAI(api_key=api_key)
 
 
 
-def generate_haiku(request):
-    try:
-        response = client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[
-                {"role": "system", "content": "You are a helpful assistant."},
-                {"role": "user", "content": "Write a haiku about recursion in programming."}
-            ],
-            temperature=0.3,
-            max_completion_tokens=350,
-            top_p=1,
-            frequency_penalty=0,
-            presence_penalty=0
-        )
-
-        # Extract the content
-        haiku = response.choices[0].message.content
-        return JsonResponse({"haiku": haiku})
-    except Exception as e:
-        return JsonResponse({"error": str(e)}, status=500)
-
-
 def user_approved_required(view_func):
     """Decorator to check if a user is approved based on their role."""
     @wraps(view_func)
@@ -631,7 +609,7 @@ def cbtquestion(request, course_id):
     client = OpenAI(api_key=api_key)
 
     course = get_object_or_404(Course, id=course_id)
-    questions = PastQuestionsObj.objects.filter(course=course)[:2]
+    questions = PastQuestionsObj.objects.filter(course=course)[:25]
 
     if request.method == 'POST':
         if hasattr(request.user, 'tutorial_center') or hasattr(request.user, 'tutor'):
@@ -646,13 +624,15 @@ def cbtquestion(request, course_id):
         for question in questions:
             selected_option = request.POST.get(f'question_{question.id}')
             correct_option = question.correct_option
+            # Get actual text for selected and correct options
+            selected_option_text = getattr(question, f"option_{(selected_option.lower() if selected_option else '')}", '')
+            correct_option_text = getattr(question, f"option_{correct_option.lower()}")
+
             if selected_option == question.correct_option:
                 score += 1
-                print(f"{selected_option} is correct")
+                print(f"Got {question.question_text}")
+                print(f"{selected_option_text} is correct")
             else:
-                # Get actual text for selected and correct options
-                selected_option_text = getattr(question, f"option_{selected_option.lower()}")
-                correct_option_text = getattr(question, f"option_{correct_option.lower()}")
                 # Append failed question details
                 print(f"Failed {question.question_text}")
                 print(f"{selected_option_text} was picked")
@@ -685,20 +665,28 @@ def cbtquestion(request, course_id):
                 response = client.chat.completions.create(
                     model="gpt-4o-mini",
                     messages=[
-                        {"role": "system", "content": "You are a tutor reviewing a student's answers. For each question, critically evaluate the correctness of the provided answers, even if marked as 'correct.' If you find discrepancies or potential inaccuracies, provide the most accurate answer with explanations. For incorrect answers, explain why they are wrong, clarify the correct answer, and suggest how the student can improve."},
+                        {"role": "system", "content": "You are a tutor reviewing a student's answers. For each question, critically evaluate the correctness of the provided answers, even if marked as 'correct.' If you find discrepancies or potential inaccuracies, provide the most accurate answer with explanations. For incorrect answers, explain why they are wrong, clarify the correct answer, and suggest how the student can improve.           If your explanation involves any formula, mathematical expression, or chemical equation, make sure to provide it in LaTeX format. For display math, use double dollar signs like this: $$ E = mc^2 $$ and for inline math, use \( E = mc^2 \). Provide the raw LaTeX code, not the rendered output, so that it can be rendered properly on the frontend using MathJax or LaTeX rendering tools. For chemical equations, use proper LaTeX formatting such as \( \text{H}_2\text{O} \) for water. "},
                         {"role": "user", "content": f"The following are the questions I failed:\n\n{failed_prompt}"}
                     ],
                     temperature=0.3,
-                    max_completion_tokens=350,
+                    max_completion_tokens=3500,
                     top_p=1,
                     frequency_penalty=0,
                     presence_penalty=0
                 )
 
                 # Extract and prepare response content
-                tutor_feedback = markdown.markdown(response.choices[0].message.content)
+                tutor_feedback = response.choices[0].message.content.replace("\n", "<br>").replace("---", "<hr>")
             except Exception as e:
                 tutor_feedback = f"An error occurred while generating feedback: {str(e)}"
+        else:
+            # If no failed questions, generate perfect score feedback
+            tutor_feedback = """
+    <h2>Congratulations!</h2>
+    <p>You scored a perfect grade! Well done! 🎉</p>
+    <p>Since you achieved a perfect score, you've unlocked the "Ace the Test" achievement! Keep up the great work and continue challenging yourself!</p>
+    <p>Your dedication to studying has paid off. Keep up the momentum and aim for even greater achievements!</p>
+    """
 
         # Calculate overall percentage score for this attempt
         percentage_score = (score / total_questions) * 100
@@ -737,7 +725,7 @@ def cbtquestion(request, course_id):
             'total_questions': total_questions,
             'attempts': user_progress.attempts,
             'total_percent': user_progress.percentage,
-            'tutor_feedback': tutor_feedback if failed_questions else None
+            'tutor_feedback': tutor_feedback
         }
         ActivityLog.objects.create(
             user=request.user,

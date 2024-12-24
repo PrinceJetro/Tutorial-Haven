@@ -41,6 +41,14 @@
 <body>
     
 
+                                    {% if messages %}
+    {% for message in messages %}
+<div class="alert bg-danger" >
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  {{message}}
+</div>
+    {% endfor %}
+{% endif %}
     
     <section class="gradient-custom-2">
         <div class="container py-5 h-100">

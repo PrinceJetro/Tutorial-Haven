@@ -41,5 +41,4 @@ urlpatterns = [
     path("forums/create/", views.create_forum, name="create_forum"),
     path("forums/delete/<int:forum_id>", views.delete_forum, name="delete_forum"),
     path("activities", views.listActivity, name="activities"),
-    path("generate-haiku/", views.generate_haiku, name="generate_haiku"),
 ]
