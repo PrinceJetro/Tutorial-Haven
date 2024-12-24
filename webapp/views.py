@@ -611,7 +611,7 @@ def cbtquestion(request, course_id):
     client = OpenAI(api_key=api_key)
 
     course = get_object_or_404(Course, id=course_id)
-    questions = PastQuestionsObj.objects.filter(course=course).order_by('?')[:2]
+    questions = PastQuestionsObj.objects.filter(course=course).order_by('?')[:10]
 
     if request.method == 'POST':
         if hasattr(request.user, 'tutorial_center') or hasattr(request.user, 'tutor'):
@@ -632,12 +632,12 @@ def cbtquestion(request, course_id):
 
             if selected_option == question.correct_option:
                 score += 1
-                print(f"Got {question.question_text}")
-                print(f"{selected_option_text} is correct")
+                # print(f"Got {question.question_text}")
+                # print(f"{selected_option_text} is correct")
             else:
                 # Append failed question details
-                print(f"Failed {question.question_text}")
-                print(f"{selected_option_text} was picked")
+                # print(f"Failed {question.question_text}")
+                # print(f"{selected_option_text} was picked")
 
                 failed_questions.append({
                     "question_text": question.question_text,
