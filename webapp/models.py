@@ -282,6 +282,17 @@ class ActivityLog(models.Model):
 
 
 
+# class CustomTopic(models.Model):
+#     name = models.CharField(max_length=255)
+#     content = models.TextField(blank=True)
+#     course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name='topics')
+
+#     def __str__(self):
+#         return self.name
+
+
+
+
 # class Feedback(models.Model):
 #     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='feedbacks')
 #     tutorial_center = models.ForeignKey(TutorialCenter, on_delete=models.CASCADE, related_name='feedbacks', null=True, blank=True)
