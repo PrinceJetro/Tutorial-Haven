@@ -100,7 +100,7 @@
   },
   {
     "course_id": "16",
-    "question_text": "<a href=\"https://myschool.ng/classroom/computer-studies\"><div class=\"mb-2 badge bg-success text-light\">Computer Studies</div></a>\n    <a href=\"https://myschool.ng/classroom/computer-studies?exam_type=waec&amp;exam_year=2014\"><div class=\"mb-2 badge bg-success text-light\">WAEC 2014</div></a>\n    <br>\n    \n    \n            <div class=\"mb-4\">\n            <img src=\"https://myschool.ng/storage/classroom/oUy2QFYi02FKT038LblnNwjkJqjvVawg8Lqb3fsE.jpeg\" class=\"img-fluid\">\n        </div>\n    \n    <p><strong>Fig 1above is a logic gate. Use it to answer the question below</strong></p>\n\n<p>Fig 1 represents_________?</p>",
+    "question_text": "<img src=\"https://myschool.ng/storage/classroom/oUy2QFYi02FKT038LblnNwjkJqjvVawg8Lqb3fsE.jpeg\" class=\"img-fluid\">\n        </div>\n    \n    <p><strong>Fig 1above is a logic gate. Use it to answer the question below</strong></p>\n\n<p>Fig 1 represents_________?</p>",
     "option_a": "A. an AND gate",
     "option_b": "B. an OR gate",
     "option_c": "C. a NOT gate",
