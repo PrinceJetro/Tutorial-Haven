@@ -1,6 +1,6 @@
 # admin.py
 from django.contrib import admin
-from .models import Student, Course, Department, Topic, PastQuestionsObj, KeyPoints, PracticeExplanations, TutorialCenter, Tutor, PastQuestionsTheory, ObjGrade, UserCourseProgress, TheoryGrade, UploadedImage, Achievement, UserAchievement, UserProgress, DiscussionForum, Comment, CustomQuestion, CustomQuestionResponse, ActivityLog
+from .models import Student, Course, Department, Topic, PastQuestionsObj, KeyPoints, PracticeExplanations, TutorialCenter, Tutor, PastQuestionsTheory, ObjGrade, UserCourseProgress, TheoryGrade, UploadedImage, Achievement, UserAchievement, UserProgress, DiscussionForum, Comment, CustomQuestion, CustomQuestionResponse, ActivityLog, UploadedImageCustom
 
 
 @admin.register(Student)
@@ -95,6 +95,11 @@ class UploadedImageAdmin(admin.ModelAdmin):
     list_display = ('image',)
     search_fields = ('image',)
 
+@admin.register(UploadedImageCustom)
+class UploadedImageCustomAdmin(admin.ModelAdmin):
+    list_display = ('image',)
+    search_fields = ('image',)
+
 
 
 @admin.register(Achievement)
@@ -138,8 +143,8 @@ class CommentAdmin(admin.ModelAdmin):
 
 @admin.register(CustomQuestion)
 class CustomQuestionAdmin(admin.ModelAdmin):
-    list_display = ('course', 'tutor', 'created_at')  # Columns to display in the admin list view
-    search_fields = ('course__name', 'tutor__name', 'question_text')  # Enable search by these fields
+    list_display = ('course', 'tutor', 'created_at', 'title')  # Columns to display in the admin list view
+    search_fields = ('course__name', 'tutor__name', 'question_text', 'title')  # Enable search by these fields
     list_filter = ('course', 'tutor', 'created_at')  # Filters for quick sorting
     ordering = ('-created_at',)  # Order by latest created questions
 

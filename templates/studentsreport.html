@@ -184,6 +184,46 @@
             </div>
         </div>
     
+
+                <!-- Grades Table -->
+        <div class="grades-table mb-4">
+            <h3 class="h5 text-center mb-3">Grades On Your School's Aspects</h3>
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Subject</th>
+                            <th>Title</th>
+                            <th>Credits Earned</th>
+                            <th>Total Grade</th>
+                            <th>Comments</th>
+                            <th>Submitted At</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for grade in graded_data_custom %}
+                        <tr>
+                            <td>{{ grade.course }}</td>
+                            <td>{{ grade.title }}</td>
+                            <td>{{ grade.credits }}</td>
+                            <td>
+                                {% if grade.percentage == 0.00 %}
+                                    Not Graded Yet
+                                {% else %}
+                                    {{ grade.percentage }}%
+                                {% endif %}
+                            </td>
+                            <td>
+                                {{ grade.note|safe }}
+                            </td>
+                            <td>{{ grade.submitted_at }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    
     
     
     

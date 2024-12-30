@@ -152,6 +152,14 @@ select.form-input:focus {
           id="question_id"
           value="{{ theory_questions.id }}"
         />
+        <label for="title" class="form-label">Title</label>
+        <input 
+        class="form-input" required
+          type="text"
+          name="title"
+          id="title"
+        />
+        
         {{ form.as_p }}
         
         <!-- Submit Button -->

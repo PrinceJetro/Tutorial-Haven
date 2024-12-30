@@ -28,12 +28,13 @@ class SupabaseStorage(Storage):
             print(f"Exception occurred while deleting file '{name}': {e}")
 
     def exists(self, name):
-        try:
-            file = self.bucket.get(name)
-            return file.get("data") is not None
-        except Exception as e:
-            print(f"Error checking if file exists: {e}")
-            return False
+        pass
+        # try:
+        #     file = self.bucket.get(name)
+        #     return file.get("data") is not None
+        # except Exception as e:
+        #     print(f"Error checking if file exists: {e}")
+        #     return False
 
     def listdir(self, path):
         pass

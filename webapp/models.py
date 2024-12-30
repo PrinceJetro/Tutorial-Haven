@@ -225,6 +225,7 @@ class CustomQuestion(models.Model):
         'Course', on_delete=models.CASCADE, related_name='custom_questions',
         help_text="The course this question belongs to."
     )
+    title = models.TextField(blank=True, null=True)
     question_text = RichTextField(help_text="Enter the theory question in rich text format.")
     tutor = models.ForeignKey(
         'Tutor', on_delete=models.CASCADE, related_name='custom_questions',

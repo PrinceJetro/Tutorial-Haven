@@ -857,12 +857,8 @@ def list_pending_theory(request, tutor_id):
 
     # Get all the tutor's specialities (courses)
     speciality_courses = tutor.speciality.all()
-    print(speciality_courses)
-
     # Fetch all pending grades for the tutor's courses
     pending_grades = TheoryGrade.objects.filter(course_id__in=speciality_courses, score=0)
-    print(pending_grades)
-
     # Pass the data to the template
     context = {
         'pending_grades': pending_grades,
@@ -930,10 +926,12 @@ def calculate_credits(percentage):
 def myreport(request):
     objgrades = UserCourseProgress.objects.filter(user=request.user).order_by('-percentage')
     theorygrades = TheoryGrade.objects.filter(user=request.user).order_by('-submitted_at')
+    customgrades = CustomQuestionResponse.objects.filter(student=request.user).order_by('-submitted_at')
 
 
     graded_data = []
     graded_data_theory = []
+    graded_data_custom = []
 
     for grade in objgrades:
         credits = calculate_credits(grade.percentage)
@@ -954,9 +952,21 @@ def myreport(request):
             "year": grade.question.year
         })
 
+    for grade in customgrades:
+        credits = calculate_credits(grade.score)
+        graded_data_custom.append({
+            "course": grade.question.course.name,
+            "percentage": grade.score,
+            "credits": credits,
+            "note": grade.note,
+            "submitted_at": grade.submitted_at,
+            "title": grade.question.title,
+        })
+
     context = {
         "graded_data": graded_data,
         "graded_data_theory": graded_data_theory,
+        "graded_data_custom": graded_data_custom,
     }
     return render(request, 'report.html', context)
 
@@ -967,10 +977,12 @@ def studentsreport(request, student_id):
     student = get_object_or_404(Student, id=student_id)
     objgrades = UserCourseProgress.objects.filter(user=student.user).order_by('-percentage')
     theorygrades = TheoryGrade.objects.filter(user=student.user).order_by('-score')
+    customgrades = CustomQuestionResponse.objects.filter(student=student.user).order_by('-score')
 
-    print(theorygrades)
     graded_data = []
     graded_data_theory = []
+    graded_data_custom = []
+
 
     for grade in objgrades:
         credits = calculate_credits(grade.percentage)
@@ -981,7 +993,6 @@ def studentsreport(request, student_id):
             "attempts": grade.attempts
         })
     for grade in theorygrades:
-        print(grade)
         credits = calculate_credits(grade.score)
         graded_data_theory.append({
             "course": grade.course.name,
@@ -991,10 +1002,23 @@ def studentsreport(request, student_id):
             "submitted_at": grade.submitted_at,
             "year": grade.question.year
         })
+        for grade in customgrades:
+            credits = calculate_credits(grade.score)
+            print(grade)
+            graded_data_custom.append({
+                "course": grade.question.course.name,
+                "percentage": grade.score,
+                "credits": credits,
+                "note": grade.note,
+                "submitted_at": grade.submitted_at,
+                "title": grade.question.title,
+            })
+
 
     context = {
         "graded_data": graded_data,
         "graded_data_theory": graded_data_theory,
+        "graded_data_custom": graded_data_custom,
         "student":student
     }
     return render(request, 'studentsreport.html', context)
@@ -1335,8 +1359,9 @@ def create_custom_question(request):
         course_id = request.POST.get("course")
         tutor = request.user.tutor
         question_text = request.POST.get("response")
+        title = request.POST.get("title")
         course = get_object_or_404(Course, id=course_id)
-        CustomQuestion.objects.create(course=course, tutor=tutor, question_text=question_text)
+        CustomQuestion.objects.create(course=course, tutor=tutor, question_text=question_text,title=title)
         ActivityLog.objects.create(
             user=request.user,
             action=f"Created a Custom {course.name} question"
@@ -1392,15 +1417,17 @@ def customquestion(request, course_id):
                 print("Uploading images...")
                 for image in uploaded_images:
                     # Define storage path
-                    storage_path = f"diagrams/{image.name}"
+                    storage_path = f"custom/{image.name}"
                     print(f"Uploading file: {image.name}")
 
                     # Save to Supabase and get URL
                     filename = storage.save(storage_path, image)
+                    print("Uploaded")
                     image_url = storage.url(filename)
+                    print(f'url : {image_url}')
 
                     # Save image record to UploadedImage model
-                    UploadedImage.objects.create(custom_grade=custom_grade, image=image_url)
+                    UploadedImageCustom.objects.create(custom_grade=custom_grade, image=image_url)
                 print("Images uploaded successfully.")
             except Exception as e:
                 print(f"Error uploading images: {e}")
@@ -1437,7 +1464,7 @@ Tutorial Haven Tech Team
             messages.success(request, f"{questions} Successfully Submitted! Your Tutor will grade and get back to you soon.")
             ActivityLog.objects.create(
             user=request.user,
-            action=f"Practiced Custom questions for {question.year} {course.name}"
+            action=f"Practiced Custom questions for {course.name}"
             )
             return HttpResponseRedirect('/all_custom_questions')
         else:
@@ -1460,8 +1487,6 @@ def list_pending_custom_question(request):
 
     # Fetch all pending grades 
     pending_grades = CustomQuestionResponse.objects.filter(score=0)
-    print(pending_grades)
-
     # Pass the data to the template
     context = {
         'pending_grades': pending_grades,
@@ -1498,7 +1523,7 @@ def grade_custom_questions(request, grade_id):
     }
     ActivityLog.objects.create(
             user=request.user,
-            action=f"Graded Custom Question for {question_grade.user} {question_grade.question.year}"
+            action=f"Graded Custom Question for {question_grade.student.username} {question_grade.question.course.name}"
             )
     return render(request, 'grade_custom_questions.html', context)
 
