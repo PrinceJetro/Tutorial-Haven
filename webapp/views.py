@@ -1598,3 +1598,60 @@ def listActivity(request):
     }
 
     return render(request, 'activity_list.html', context)
+
+openai.api_key = api_key
+
+def ai_playground(request):
+    """Main AI Playground page."""
+    return render(request, "ai_playground.html")
+
+def interactive_learning(request):
+    """Interactive learning assistant."""
+    if request.method == "POST":
+        data = json.loads(request.body)
+        student_query = data.get("query")
+        feature = data.get("feature", "question_answering")
+
+        try:
+            response_content = None
+            if feature == "question_answering":
+                response_content = handle_question_answering(student_query)
+            elif feature == "summarization":
+                response_content = handle_summarization(student_query)
+            elif feature == "explanation":
+                response_content = handle_explanation(student_query)
+            elif feature == "quiz":
+                response_content = handle_quiz_generation(student_query)            
+            return JsonResponse({"response": response_content})
+        except Exception as e:
+            print(f"Error: {e}")
+            return JsonResponse({"response": "An error occurred. Please try again."}, status=500)
+    return JsonResponse({"response": "Invalid request method."}, status=400)
+
+def handle_question_answering(query):
+    """Real-time Q&A support."""
+    return call_openai_api("You are a tutor. Provide a concise and accurate answer to the student's question.", query)
+
+def handle_summarization(content):
+    """Generate a summary of content."""
+    return call_openai_api("You are a summarization expert. Summarize the following content:", content)
+
+def handle_explanation(query):
+    """Provide detailed explanations of concepts."""
+    return call_openai_api("You are an educator. Provide a detailed explanation of the following concept:", query)
+
+def handle_quiz_generation(content):
+    """Generate quizzes or flashcards."""
+    return call_openai_api("You are a quiz master. Generate an engaging 5-question quiz on the following topic:", content)
+
+
+def call_openai_api(system_message, user_message):
+    """Call the OpenAI API."""
+    response = client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=[
+            {"role": "system", "content": system_message},
+            {"role": "user", "content": user_message},
+        ]
+    )
+    return response.choices[0].message.content.replace("\n", "<br>").replace("---", "<hr>")

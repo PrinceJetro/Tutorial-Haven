@@ -42,4 +42,6 @@ urlpatterns = [
     path("forums/create/", views.create_forum, name="create_forum"),
     path("forums/delete/<int:forum_id>", views.delete_forum, name="delete_forum"),
     path("activities", views.listActivity, name="activities"),
+    path("ai_playground/", views.ai_playground, name="ai_playground"),
+    path("interactive_learning/", views.interactive_learning, name="interactive_learning"),
 ]

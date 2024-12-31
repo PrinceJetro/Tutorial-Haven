@@ -1,0 +1,113 @@
+{% extends "cool/nav.html" %}
+{% block content %}
+
+<head>
+    <title>Tutorial Haven's AI Playground</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <style>
+        body {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+}
+
+textarea {
+    resize: none;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center">Tutorial Haven's AI Playground</h1>
+        <p class="text-center text-muted">Explore interactive learning features powered by our AI.</p>
+        <hr>
+        
+        <!-- Feature Selection -->
+        <div class="mb-4">
+            <label for="feature-select" class="form-label">Select a Feature:</label>
+            <select class="form-select" id="feature-select">
+                <option value="question_answering">Personalized Tutoring</option>
+                <option value="summarization">Lesson Summarization</option>
+                <option value="explanation">Concept Explanation</option>
+                <option value="quiz">Gamified Learning Quizzes</option>
+            </select>
+        </div>
+
+
+                <!-- AI Response -->
+        <div class="mt-5">
+            <h3>AI Response:</h3>
+            <div id="response-container" class="p-3 border rounded bg-light"></div>
+        </div>
+
+        <!-- User Input -->
+        <div class="mb-4">
+            <label for="user-input" class="form-label">Enter your input:</label>
+            <textarea class="form-control" id="user-input" rows="4" placeholder="Type your query or topic here..."></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="text-center">
+            <button class="btn btn-primary" id="submit-button">Submit</button>
+        </div>
+    </div>
+
+<script>
+    // Function to get CSRF token from the cookie
+    function getCSRFToken() {
+        let cookieValue = null;
+        const cookies = document.cookie.split(';');
+        for (let i = 0; i < cookies.length; i++) {
+            const cookie = cookies[i].trim();
+            if (cookie.startsWith('csrftoken=')) {
+                cookieValue = cookie.substring('csrftoken='.length, cookie.length);
+                break;
+            }
+        }
+        return cookieValue;
+    }
+
+    document.getElementById('submit-button').addEventListener('click', function() {
+        const feature = document.getElementById('feature-select').value;
+        const userInput = document.getElementById('user-input').value.trim();
+        const csrfToken = getCSRFToken();
+
+        if (!userInput) {
+            alert("Please enter your input.");
+            return;
+        }
+        document.getElementById('response-container').innerHTML = `<p>loading response</p>`;
+
+
+        // Send POST request with CSRF token
+        axios.post('/interactive_learning/', 
+            {
+                feature: feature,
+                query: userInput
+            }, 
+            {
+                headers: {
+                    'X-CSRFToken': csrfToken
+                }
+            }
+        )
+        .then(response => {
+            document.getElementById('response-container').innerHTML = `<p>${response.data.response}</p>`;
+            document.getElementById('user-input').value="";
+        })
+        .catch(error => {
+            console.error(error);
+            document.getElementById('response-container').innerHTML = `<p class="text-danger">An error occurred. Please try again later.</p>`;
+        });
+    });
+</script>
+
+</body>
+
+
+  {% endblock %}
