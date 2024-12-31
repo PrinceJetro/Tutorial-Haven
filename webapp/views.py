@@ -1057,7 +1057,7 @@ def myreport(request):
     ai_response = client.chat.completions.create(
         model="gpt-4",
         messages=[
-            {"role": "system", "content": "You are a tutor providing a detailed student progress report with actionable insights for me."},
+            {"role": "system", "content": "You are a tutor providing a detailed student progress report with actionable insights for me. End by saying 'Best regards, TH-AI'"},
             {"role": "user", "content": feedback_prompt},
         ],
         temperature=0.7,
