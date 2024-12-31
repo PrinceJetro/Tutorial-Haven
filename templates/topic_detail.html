@@ -189,6 +189,22 @@
                 max-width: 100%;
             }
         } 
+.modal{
+    height: 100vh;
+}
+#chat-box {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    height: 100vh;
+}
+#chat-box p {
+    margin: 5px 0;
+}
+#chat-box p strong {
+    color: #007bff;
+}
+
         </style>
         
     
@@ -209,20 +225,40 @@
 
 
 <div class="content-container">
+    <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#aiChatModal">
+        Chat with AI Tutor
+    </button>
     <div id="topic-content">{{ topic.content|safe }}</div>
 </div>
-<form style="display: none;">
-    <input type="text" name="topic_id" id="" value="{{ topic.id }}">
-    {% csrf_token %}
-</form>
 
-
-<div>
+<div style="margin: auto; display: flex; justify-content: center; align-items: center; text-align: center; height: 100px;">
         <button class="m-3 btn btn-primary" onclick="speak()">Play</button>
         <button class="m-3 btn btn-warning" onclick="pause()">Pause</button>
         <button class="m-3 btn btn-success" onclick="resume()">Resume</button>
         <button class="m-3 btn btn-danger" onclick="reset()">Reset</button>
 </div>
+
+<!-- AI Chat Modal -->
+<div class="modal fade" id="aiChatModal" tabindex="-1" aria-labelledby="aiChatModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="aiChatModalLabel">AI Tutor Chat - {{ topic.name }}</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div id="chat-box" class="border p-3 mb-3" style="height: 400px; overflow-y: auto;">
+                    <p><strong>AI:</strong> Hi! Ask me anything about <em>{{ topic.name }}</em>.</p>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="user-input" class="form-control" placeholder="Type your question here..." />
+                    <button id="send-button" class="btn btn-primary">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <!-- JavaScript Libraries -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -298,14 +334,48 @@
             },
             success: function (response) {
                 console.log(response.message); // Handle the response
-                alert("Congrats! You've completed the topic.");
             },
             error: function (xhr, status, error) {
                 console.error("Error completing topic:", error);
             }
         });
     }
+    const chatBox = document.getElementById('chat-box');
+    const userInput = document.getElementById('user-input');
+    const sendButton = document.getElementById('send-button');
+    const topicId = "{{ topic.id }}";
 
+sendButton.addEventListener('click', function () {
+    const userMessage = userInput.value.trim();
+    if (userMessage === '') return;
+
+    // Display user's message in the chat
+    chatBox.innerHTML += `<p><strong>You:</strong> ${userMessage}</p>`;
+    userInput.value = '';
+    chatBox.scrollTop = chatBox.scrollHeight;
+
+    // Send message to the backend
+    fetch(window.location.href, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'X-CSRFToken': '{{ csrf_token }}', // Ensure CSRF token is included
+        },
+        body: JSON.stringify({ message: userMessage }), // Send the message as JSON
+    })
+        .then(response => response.json())
+        .then(data => {
+            const aiReply = data.reply;
+            // Display AI's reply in the chat
+            chatBox.innerHTML += `<p><strong>AI:</strong> ${aiReply}</p>`;
+            chatBox.scrollTop = chatBox.scrollHeight;
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            chatBox.innerHTML += `<p><strong>AI:</strong> Sorry, something went wrong.</p>`;
+            chatBox.scrollTop = chatBox.scrollHeight;
+        });
+});
 
 </script>
 

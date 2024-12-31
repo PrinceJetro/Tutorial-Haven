@@ -22,6 +22,7 @@ urlpatterns = [
     path('pastquestions/<int:course_id>/<int:year>/theory', views.theoryquestion, name='theory'),
     path('grade/theory/<int:grade_id>/', views.grade_theory, name='grade_theory'),
     path('pending_gradings/<int:tutor_id>/', views.list_pending_theory, name='pending_gradings'),
+    path('pending_gradings', views.all_pending_theory, name='all_pending_gradings'),
     path('customquestion/<int:course_id>/question', views.customquestion, name='custom_questions'),
     path('create_custom_question/', views.create_custom_question, name='create_custom_question'),
     path('grade/customquestion/<int:grade_id>/', views.grade_custom_questions, name='grade_custom'),

@@ -22,6 +22,7 @@ from django.http import JsonResponse, HttpResponseBadRequest
 from django.db.models import Count, Q
 from functools import wraps
 from openai import OpenAI
+import openai
 from dotenv import load_dotenv
 import os
 import markdown
@@ -535,13 +536,37 @@ def course_detail(request, course_id):
         {'course': course, 'topics': topics, 'userprogress': userprogress}
     )
  
+from django.http import JsonResponse
+import json
 
 @user_approved_required
 @login_required
 def topic_detail(request, topic_id):
     topic = get_object_or_404(Topic, id=topic_id)
-    return render(request, 'topic_detail.html', {'topic': topic})
 
+    if request.method == "POST":
+        # Parse JSON data from the request
+        try:
+            data = json.loads(request.body)  # Parse JSON body
+            user_message = data.get('message', '')  # Extract the user message
+            topic_content = topic.content
+            openai.api_key = api_key
+            response = client.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": f"You are an expert tutor on the topic: {topic.name}. Answer based only on this topic."},
+                    {"role": "assistant", "content": topic_content},
+                    {"role": "user", "content": user_message},
+                ]
+            )
+            ai_reply = response.choices[0].message.content.replace("\n", "<br>").replace("---", "<hr>")
+
+            return JsonResponse({"reply": ai_reply})  # Return AI's reply as JSON
+        except Exception as e:
+            print(f"Error: {e}")  # Log errors for debugging
+            return JsonResponse({"reply": "Sorry, I couldn't process your request."}, status=500)
+
+    return render(request, 'topic_detail.html', {'topic': topic})
 
 
 @login_required
@@ -866,6 +891,19 @@ def list_pending_theory(request, tutor_id):
     }
     return render(request, 'pending_grades.html', context)
 
+
+@user_approved_required
+@login_required
+def all_pending_theory(request):
+    pending_grades = TheoryGrade.objects.filter(score=0)
+    courses = Course.objects.all()
+    # Pass the data to the template
+    context = {
+        'pending_grades': pending_grades,
+        'courses': courses,  # Pass all courses for the tutor
+    }
+    return render(request, 'pending_grades.html', context)
+
 @user_approved_required
 @login_required
 def grade_theory(request, grade_id):
@@ -873,8 +911,8 @@ def grade_theory(request, grade_id):
     theory_grade = get_object_or_404(TheoryGrade, id=grade_id)
     images = UploadedImage.objects.filter(theory_grade=theory_grade)  # Retrieve all related images
 
-    # Ensure the user has the right to grade (e.g., is a tutor)
-    if not hasattr(request.user, 'tutor') or not request.user.tutor:
+    # Ensure the user has the right to grade
+    if not (hasattr(request.user, 'tutor') and request.user.tutor) and not (hasattr(request.user, 'tutorial_center') and request.user.tutorial_center):
         messages.error(request, "You do not have permission to grade this question.")
         return redirect('myprofile')  # Redirect to a suitable page
 
@@ -883,8 +921,22 @@ def grade_theory(request, grade_id):
         form = GradeForm(request.POST, instance=theory_grade)
         if form.is_valid():
             form.save()  # Save the updated score
+            ActivityLog.objects.create(
+            user=request.user,
+            action=f"Graded Theory Question for {theory_grade.user} {theory_grade.question.year}"
+            )
             messages.success(request, "Score updated successfully!")
-            return redirect('pending_gradings', tutor_id=request.user.tutor.id)  # Redirect to pending grades
+             # Redirect based on user type
+            if hasattr(request.user, 'tutor') and request.user.tutor:
+                return redirect('pending_gradings', tutor_id=request.user.tutor.id)
+            elif hasattr(request.user, 'tutorial_center') and request.user.tutorial_center:
+                return redirect('all_pending_gradings')
+            else:
+                return redirect('myprofile')  # Fallback in case of unexpected user type
+
+
+                
+
     else:
         form = GradeForm(instance=theory_grade)
 
@@ -894,10 +946,6 @@ def grade_theory(request, grade_id):
         'form': form,
         'images': images,  # Pass all images to the template
     }
-    ActivityLog.objects.create(
-            user=request.user,
-            action=f"Graded Theory Question for {theory_grade.user} {theory_grade.question.year}"
-            )
     return render(request, 'grade_theory.html', context)
 
 # Utility function to calculate credits
