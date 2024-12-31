@@ -636,7 +636,7 @@ def cbtquestion(request, course_id):
     client = OpenAI(api_key=api_key)
 
     course = get_object_or_404(Course, id=course_id)
-    questions = PastQuestionsObj.objects.filter(course=course)[:10]
+    questions = PastQuestionsObj.objects.filter(course=course)[:5]
 
     if request.method == 'POST':
         if hasattr(request.user, 'tutorial_center') or hasattr(request.user, 'tutor'):
