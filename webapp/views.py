@@ -650,6 +650,7 @@ def cbtquestion(request, course_id):
 
         for question in questions:
             selected_option = request.POST.get(f'question_{question.id}')
+            print(selected_option)
             correct_option = question.correct_option
             # Get actual text for selected and correct options
             selected_option_text = getattr(question, f"option_{(selected_option.lower() if selected_option else '')}", '')
@@ -667,7 +668,6 @@ def cbtquestion(request, course_id):
                 failed_questions.append({
                     "question_text": question.question_text,
                     "selected_option": selected_option_text,
-                    "correct_option": correct_option_text,
                 })
 
             # Save individual grade for this question
@@ -684,7 +684,7 @@ def cbtquestion(request, course_id):
             try:
                 # Format failed questions into a prompt
                 failed_prompt = "\n".join([
-                    f"Question: {fq['question_text']}\nYour Answer: {fq['selected_option']}\nCorrect Answer: {fq['correct_option']}\n"
+                    f"Question: {fq['question_text']}\nYour Answer: {fq['selected_option']}"
                     for fq in failed_questions
                 ])
                 
