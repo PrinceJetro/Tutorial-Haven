@@ -1,32 +1,34 @@
 {% extends 'cool/nav.html' %}
 
-
 {% block content %}
 
-                                    {% if messages %}
-    {% for message in messages %}
-<div class="alert bg-danger" >
-  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-  {{message}}
+{% if messages %}
+<div class="container mt-3">
+  {% for message in messages %}
+  <div class="alert alert-danger alert-dismissible fade show" role="alert">
+    {{ message }}
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+  {% endfor %}
 </div>
-    {% endfor %}
 {% endif %}
 
-
-<div class="container mt-3">
-  <div class="row">
-    <!-- First Card -->
-     {% for student in students %}
-    <div class="col-lg-3 col-md-6 mb-3">
-      <div class="card" style="width: 100%;">
-        <img class="card-img-top" src="{{ student.image }}" alt="{{student.user.get_full_name}} image" style="width:100%; object-fit: cover" height="250px">
-        <div class="card-body">
-          <h4 class="card-title">{{ student.user.get_full_name|title }}</h4>
-          <p class="card-text">{{ student.department }} Department </p>
-          <a href="{% url 'studentsreport' student.id %}" class="m-1 btn btn-primary">See Progress</a>
+<div class="container mt-4">
+  <h1 class="text-center mb-4">Student Directory</h1>
+  <div class="row g-4">
+    {% for student in students %}
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="card h-100 shadow-sm border-0">
+        <div class="card-img-container" style="height: 200px; overflow: hidden;">
+          <img src="{{ student.image }}" class="card-img-top" alt="{{ student.user.get_full_name }} image" style="object-fit: cover; height: 100%; width: 100%;">
+        </div>
+        <div class="card-body text-center">
+          <h5 class="card-title text-primary">{{ student.user.get_full_name|title }}</h5>
+          <p class="card-text text-muted mb-3">{{ student.department }} Department</p>
+          <a href="{% url 'studentsreport' student.id %}" class="btn btn-outline-primary btn-sm w-100 mb-2">View Progress</a>
           <form action="{% url 'deletestudent' student.id %}" method="post" style="display: inline;">
-                    {% csrf_token %}
-            <button class="m-1 btn btn-danger">Delete Student</button>
+            {% csrf_token %}
+            <button class="btn btn-outline-danger btn-sm w-100">Remove Student</button>
           </form>
         </div>
       </div>
@@ -34,7 +36,5 @@
     {% endfor %}
   </div>
 </div>
-
-
 
 {% endblock %}

@@ -981,14 +981,26 @@ def myreport(request):
     graded_data_theory = []
     graded_data_custom = []
 
+    # Summarize performance data
+    overall_performance = {"total_courses": 0, "average_percentage": 0, "strengths": [], "weaknesses": []}
+    total_percentage = 0
+    total_courses = 0
+
     for grade in objgrades:
         credits = calculate_credits(grade.percentage)
         graded_data.append({
             "course": grade.course.name,
             "percentage": grade.percentage,
             "credits": credits,
-            "attempts": grade.attempts
+            "attempts": grade.attempts,
         })
+
+        # Include only attempted courses in the total percentage and course count
+        if grade.percentage != 0:
+            total_percentage += grade.percentage
+            total_courses += 1
+
+
     for grade in theorygrades:
         credits = calculate_credits(grade.score)
         graded_data_theory.append({
@@ -997,7 +1009,7 @@ def myreport(request):
             "credits": credits,
             "note": grade.note,
             "submitted_at": grade.submitted_at,
-            "year": grade.question.year
+            "year": grade.question.year,
         })
 
     for grade in customgrades:
@@ -1011,10 +1023,54 @@ def myreport(request):
             "title": grade.question.title,
         })
 
+    # Calculate aggregated performance
+    if total_courses > 0:
+        overall_performance["total_courses"] = total_courses
+        overall_performance["average_percentage"] = round(total_percentage / total_courses, 2)
+
+        # Identify strengths and weaknesses
+        strengths = [grade for grade in objgrades if grade.percentage > 75]
+        weaknesses = [grade for grade in objgrades if grade.percentage < 50]
+
+        overall_performance["strengths"] = [s.course.name for s in strengths]
+        overall_performance["weaknesses"] = [w.course.name for w in weaknesses]
+
+    # Generate AI feedback
+    feedback_prompt = (
+        f"Student Name: {request.user.username}\n\n"
+        f"Performance Summary:\n"
+        f"- Total Courses: {overall_performance['total_courses']}\n"
+        f"- Average Percentage: {overall_performance['average_percentage']}%\n\n"
+        f"Strengths:\n{', '.join(overall_performance['strengths'])}\n\n"
+        f"Weaknesses:\n{', '.join(overall_performance['weaknesses'])}\n\n"
+        """Based on this data, provide detailed feedback on the my performance. Include:
+            Performance Analysis: Trends, strengths, and areas needing improvement.
+            Strengths & Weaknesses: Key abilities to leverage and gaps to address with constructive suggestions.
+            Actionable Strategies: Practical steps and study techniques for improvement.
+            Resources: Recommend tailored tools like courses, books, or practice materials.
+            Behavioral Insights: Comment on engagement, consistency, or mindset, with advice for improvement.
+            Progress Tracking: Suggest ways to measure and monitor improvement.
+            Encouragement: End with motivational advice to inspire confidence and growth.
+            Keep the tone clear, professional, and empathetic to support both me and my mentor."""
+    )
+
+    ai_response = client.chat.completions.create(
+        model="gpt-4",
+        messages=[
+            {"role": "system", "content": "You are a tutor providing a detailed student progress report with actionable insights for me."},
+            {"role": "user", "content": feedback_prompt},
+        ],
+        temperature=0.7,
+        max_tokens=2500,
+    )
+    ai_feedback = ai_response.choices[0].message.content.replace("\n", "<br>").replace("---", "<hr>")
+
     context = {
         "graded_data": graded_data,
         "graded_data_theory": graded_data_theory,
         "graded_data_custom": graded_data_custom,
+        "overall_performance": overall_performance,
+        "ai_feedback": ai_feedback,
     }
     return render(request, 'report.html', context)
 
@@ -1022,6 +1078,7 @@ def myreport(request):
 @user_approved_required
 @login_required
 def studentsreport(request, student_id):
+    # Fetch student data
     student = get_object_or_404(Student, id=student_id)
     objgrades = UserCourseProgress.objects.filter(user=student.user).order_by('-percentage')
     theorygrades = TheoryGrade.objects.filter(user=student.user).order_by('-score')
@@ -1031,6 +1088,10 @@ def studentsreport(request, student_id):
     graded_data_theory = []
     graded_data_custom = []
 
+    # Summarize performance data
+    overall_performance = {"total_courses": 0, "average_percentage": 0, "strengths": [], "weaknesses": []}
+    total_percentage = 0
+    total_courses = 0
 
     for grade in objgrades:
         credits = calculate_credits(grade.percentage)
@@ -1038,8 +1099,15 @@ def studentsreport(request, student_id):
             "course": grade.course.name,
             "percentage": grade.percentage,
             "credits": credits,
-            "attempts": grade.attempts
+            "attempts": grade.attempts,
         })
+
+        # Include only attempted courses in the total percentage and course count
+        if grade.percentage != 0:
+            total_percentage += grade.percentage
+            total_courses += 1
+
+
     for grade in theorygrades:
         credits = calculate_credits(grade.score)
         graded_data_theory.append({
@@ -1048,27 +1116,71 @@ def studentsreport(request, student_id):
             "credits": credits,
             "note": grade.note,
             "submitted_at": grade.submitted_at,
-            "year": grade.question.year
+            "year": grade.question.year,
         })
-        for grade in customgrades:
-            credits = calculate_credits(grade.score)
-            print(grade)
-            graded_data_custom.append({
-                "course": grade.question.course.name,
-                "percentage": grade.score,
-                "credits": credits,
-                "note": grade.note,
-                "submitted_at": grade.submitted_at,
-                "title": grade.question.title,
-            })
 
+    for grade in customgrades:
+        credits = calculate_credits(grade.score)
+        graded_data_custom.append({
+            "course": grade.question.course.name,
+            "percentage": grade.score,
+            "credits": credits,
+            "note": grade.note,
+            "submitted_at": grade.submitted_at,
+            "title": grade.question.title,
+        })
+
+    # Calculate aggregated performance
+    if total_courses > 0:
+        overall_performance["total_courses"] = total_courses
+        overall_performance["average_percentage"] = round(total_percentage / total_courses, 2)
+
+        # Identify strengths and weaknesses
+        strengths = [grade for grade in objgrades if grade.percentage > 75]
+        weaknesses = [grade for grade in objgrades if grade.percentage < 50]
+
+        overall_performance["strengths"] = [s.course.name for s in strengths]
+        overall_performance["weaknesses"] = [w.course.name for w in weaknesses]
+
+    # Generate AI feedback
+    feedback_prompt = (
+        f"Student Name: {student.user.username}\n\n"
+        f"Performance Summary:\n"
+        f"- Total Courses: {overall_performance['total_courses']}\n"
+        f"- Average Percentage: {overall_performance['average_percentage']}%\n\n"
+        f"Strengths:\n{', '.join(overall_performance['strengths'])}\n\n"
+        f"Weaknesses:\n{', '.join(overall_performance['weaknesses'])}\n\n"
+        """Based on this data, provide detailed feedback on the student's performance. Include:
+            Performance Analysis: Trends, strengths, and areas needing improvement.
+            Strengths & Weaknesses: Key abilities to leverage and gaps to address with constructive suggestions.
+            Actionable Strategies: Practical steps and study techniques for improvement.
+            Resources: Recommend tailored tools like courses, books, or practice materials.
+            Behavioral Insights: Comment on engagement, consistency, or mindset, with advice for improvement.
+            Progress Tracking: Suggest ways to measure and monitor improvement.
+            Encouragement: End with motivational advice to inspire confidence and growth.
+            Keep the tone clear, professional, and empathetic to support both the student and their mentor."""
+    )
+
+    ai_response = client.chat.completions.create(
+        model="gpt-4",
+        messages=[
+            {"role": "system", "content": "You are a tutor providing a detailed student progress report with actionable insights."},
+            {"role": "user", "content": feedback_prompt},
+        ],
+        temperature=0.7,
+        max_tokens=2500,
+    )
+    ai_feedback = ai_response.choices[0].message.content.replace("\n", "<br>").replace("---", "<hr>")
 
     context = {
+        "student": student,
         "graded_data": graded_data,
         "graded_data_theory": graded_data_theory,
         "graded_data_custom": graded_data_custom,
-        "student":student
+        "overall_performance": overall_performance,
+        "ai_feedback": ai_feedback,
     }
+
     return render(request, 'studentsreport.html', context)
 
 

@@ -62,10 +62,32 @@
             text-align: center;
         }
     </style>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 </head>
 <body>
+        <!-- Modal -->
+    <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="feedbackModalLabel">Tutorial Haven's Feedback On Your Progress</h5>
+                </div>
+                <div class="modal-body">
+                    <!-- AI Feedback Content -->
+                    <div id="ai-feedback-content">
+                        {{ ai_feedback|safe }}
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container report-card">
         <div class="header text-center mb-4">
             <h1 class="display-4">PROGRESS REPORT</h1>
@@ -87,6 +109,11 @@
                 <strong>Signature:</strong> ____________________
             </div>
         </div>
+    </div>
+        <!-- Button to trigger modal -->
+        <button class="btn btn-primary m-auto mt-3" data-bs-toggle="modal" data-bs-target="#feedbackModal">
+            View Detailed Feedback
+        </button>
     
         <!-- Grades Table -->
         <div class="grades-table mb-4">
@@ -273,6 +300,5 @@
     
        
     </div>
-    
 </body>
 </html>
