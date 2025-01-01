@@ -427,10 +427,10 @@ a.article:hover {
                     {% elif comment.commenter.tutor %}
                     <img src="{{comment.commenter.tutor.image}}"  class="rounded-circle" width="40" height="40">
                         {% endif %}                    
-                    <h4>{{ comment.commenter.username|title }}</h4>
+                    <p>{{ comment.commenter.username|title }}</p>
+                    <h4>{{ comment.content }}</h4>
                     <span>- {{ comment.created_at }}</span>
                     <br>
-                    <p>{{ comment.content }}</p>
                 </div>
                 {% endfor %}
             </div>
