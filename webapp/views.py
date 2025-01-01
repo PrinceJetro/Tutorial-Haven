@@ -1136,8 +1136,8 @@ def studentsreport(request, student_id):
         overall_performance["average_percentage"] = round(total_percentage / total_courses, 2)
 
         # Identify strengths and weaknesses
-        strengths = [grade for grade in objgrades if grade.percentage > 75]
-        weaknesses = [grade for grade in objgrades if grade.percentage < 50]
+        strengths = [grade for grade in objgrades if grade.percentage >= 60]
+        weaknesses = [grade for grade in objgrades if 0 < grade.percentage < 60]
 
         overall_performance["strengths"] = [s.course.name for s in strengths]
         overall_performance["weaknesses"] = [w.course.name for w in weaknesses]

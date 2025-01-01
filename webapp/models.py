@@ -269,7 +269,7 @@ class UploadedImageCustom(models.Model):
     uploaded_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return f"Image for Submission {self.theory_grade.submission_id}"
+        return f"Image for Submission {self.custom_grade.submission_id}"
 
 
 

@@ -1,8 +1,11 @@
+{% extends 'cool/nav.html' %}
+{% load static %}
+
+
+{% block content %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ student.user.username|title }}  Progress Report</title>
     <style>
         body {
@@ -107,15 +110,14 @@
                 <strong>Institution's Owner's Name:</strong> {{ student.tutorial_center.owner.get_full_name|title }}
             </div>
             <div class="col-12 col-md-6 mb-3">
-                <strong>Signature:</strong> ____________________
-            </div>
-        </div>
-    </div>
-            <!-- Button to trigger modal -->
+                            <!-- Button to trigger modal -->
         <button class="btn btn-primary m-auto mt-3" data-bs-toggle="modal" data-bs-target="#feedbackModal">
             View Detailed Feedback
         </button>
 
+            </div>
+        </div>
+    </div>
     
         <!-- Grades Table -->
         <div class="grades-table mb-4">
@@ -316,3 +318,5 @@
 
 </body>
 </html>
+
+{% endblock %}
