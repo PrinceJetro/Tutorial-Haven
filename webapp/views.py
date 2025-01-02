@@ -1422,7 +1422,9 @@ def forum_list(request):
     if hasattr(request.user, 'tutor'):
         center = request.user.tutor.tutorial_center
     elif hasattr(request.user, 'tutorial_center'):
+        print("here")
         center = request.user.tutorial_center
+        print(center)
     elif hasattr(request.user, 'student'):
         center = request.user.student.tutorial_center
     else:
@@ -1430,9 +1432,7 @@ def forum_list(request):
 
     # If the user has an associated tutorial center, filter forums by it
     if center:
-        forums = DiscussionForum.objects.select_related('course').filter(
-            creator__tutorial_center=center
-        ).order_by('-created_at')
+        forums = DiscussionForum.objects.select_related('course').all().order_by('-created_at')
     else:
         forums = DiscussionForum.objects.none()  # Return an empty queryset if no center found
 
