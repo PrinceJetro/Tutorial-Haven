@@ -166,8 +166,8 @@
                             <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Explore Learning Opportunities</h5>
                             <h1 class="display-5 text-white animated slideInDown">Join Top Courses Curated by Expert Tutors</h1>
                             <p class="fs-5 text-white mb-4 pb-2">Learn from industry professionals, track your progress, and achieve milestones with our comprehensive platform.</p>
-                            <a href="/courses" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Browse Courses</a>
-                            <a href="/register" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Get Started</a>
+                            <a href="{% url 'login' %}" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Login</a>
+                            <a href="{% url 'register_student' %}" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Get Started</a>
                         </div>
                     </div>
                 </div>
@@ -184,7 +184,7 @@
                             <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Empower Your Education</h5>
                             <h1 class="display-5 text-white animated slideInDown">Connect with Tutors and Enhance Your Skills</h1>
                             <p class="fs-5 text-white mb-4 pb-2">Our platform offers personalized learning paths, expert guidance, and interactive forums for collaborative growth.</p>
-                            <a href="/tutors" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Find a Tutor</a>
+                            <a href="/tutors" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Find An Institution</a>
                             <a href="/join" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
                         </div>
                     </div>
@@ -276,7 +276,6 @@
                         <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Personalized Learning Paths</p>
                     </div>
                 </div>
-                <a class="btn btn-primary py-3 px-5 mt-2" href="">Learn More</a>
             </div>
         </div>
     </div>
