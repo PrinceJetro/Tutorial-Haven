@@ -27,6 +27,8 @@ from dotenv import load_dotenv
 import os
 import markdown
 from random import shuffle
+from django.utils.text import slugify
+
 
 
 
@@ -121,15 +123,18 @@ def register_owner(request):
 
         # Upload profile image to Supabase (optional)
         storage = SupabaseStorage()
-        image_url = None
+        institution_folder = slugify(tutorial_center_name)  # Slugify for safe folder names
+
+    
+        image_url = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKKOdmJz8Z2pDtYgFgR2u9spABvNNPKYYtGw&s'
         if profile_pic:
             try:
-                storage_path = f"media/{profile_pic.name}"
+                storage_path = f'media/{institution_folder}/profilepic/{username}__' + profile_pic.name
                 filename = storage.save(storage_path, profile_pic)
                 image_url = storage.url(filename)
                 print(f"Profile image uploaded: {image_url}")
             except Exception as e:
-                error_message = "Failed to upload image to storage."
+                error_message = "Failed to upload image."
                 print(f"Error uploading image: {e}")
                 messages.error(request, error_message)
                 return render(request, 'register_owner.html', {'error_message': error_message})
@@ -196,14 +201,16 @@ def register_tutor(request):
             'error_message': error_message,
             'allinstitutions': allinstitutions,
         })
+        institution = get_object_or_404(TutorialCenter, id=school_id)
+        institution_folder = slugify(institution.name)  # Slugify for safe folder names
 
         # Initialize storage
         storage = SupabaseStorage()
 
         # Handle image upload
-        image_url = None
+        image_url = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKKOdmJz8Z2pDtYgFgR2u9spABvNNPKYYtGw&s'
         if profile_pic:
-            post = 'media/' + profile_pic.name
+            post = f'media/{institution_folder}/profilepic/{username}__' + profile_pic.name
             print(profile_pic.name)
             try:
                 filename = storage.save(post, profile_pic)
@@ -296,14 +303,17 @@ def register_student(request):
             'alldepartments': departments,
             'allinstitutions': allinstitutions,
         })
+        institution = get_object_or_404(TutorialCenter, id=school_id)
+        institution_folder = slugify(institution.name)  # Slugify for safe folder names
+
 
         # Initialize storage
         storage = SupabaseStorage()
 
         # Handle image upload
-        image_url = None
+        image_url = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKKOdmJz8Z2pDtYgFgR2u9spABvNNPKYYtGw&s'
         if profile_pic:
-            post = 'media/' + profile_pic.name
+            post = f'media/{institution_folder}/profilepic/{username}__' + profile_pic.name
             print(profile_pic.name)
             try:
                 filename = storage.save(post, profile_pic)
@@ -812,7 +822,8 @@ def theoryquestion(request, course_id, year):
                 print("Uploading images...")
                 for image in uploaded_images:
                     # Define storage path
-                    storage_path = f"diagrams/{image.name}"
+                    institution_folder = slugify(request.user.student.tutorial_center.name)  # Slugify for safe folder names
+                    storage_path = f"diagrams/{institution_folder}/{request.user.username}_{image.name}"
                     print(f"Uploading file: {image.name}")
 
                     # Save to Supabase and get URL
@@ -1563,7 +1574,8 @@ def customquestion(request, course_id):
                 print("Uploading images...")
                 for image in uploaded_images:
                     # Define storage path
-                    storage_path = f"custom/{image.name}"
+                    institution_folder = slugify(request.user.student.tutorial_center.name)  # Slugify for safe folder names
+                    storage_path = f"custom/{institution_folder}/{request.user.username}_{image.name}"                    
                     print(f"Uploading file: {image.name}")
 
                     # Save to Supabase and get URL
@@ -1824,12 +1836,12 @@ def custom_topic_detail(request, topic_id):
         try:
             data = json.loads(request.body)  # Parse JSON body
             user_message = data.get('message', '')  # Extract the user message
-            topic_content = topic.content
+            topic_content = topic.contents
             openai.api_key = api_key
             response = client.chat.completions.create(
                 model="gpt-3.5-turbo",
                 messages=[
-                    {"role": "system", "content": f"You are an expert tutor on the topic: {topic.name}. Answer based only on this topic."},
+                    {"role": "system", "content": f"You are an expert tutor on the topic: {topic.title}. Answer based only on this topic."},
                     {"role": "assistant", "content": topic_content},
                     {"role": "user", "content": user_message},
                 ]
