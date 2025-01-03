@@ -56,6 +56,14 @@ class CustomSubmissionForm(forms.Form):
         required=True,  # Ensure the field is required
     )
 
+class CustomTopicForm(forms.Form):
+    response = forms.CharField(
+        widget=forms.Textarea(attrs={"class": "form-control w-100", "rows": 6}),
+        label="Your Content",
+        help_text="Provide a detailed Content",
+        required=True,  # Ensure the field is required
+    )
+
 class GradeForm(forms.ModelForm):
     class Meta:
         model = TheoryGrade

@@ -34,7 +34,7 @@ load_dotenv()
 
 # Retrieve sensitive values
 SECRET_KEY = os.getenv("SECRET_KEY", "your-default-secret-key")  # Always use a default for local dev
-DEBUG = os.getenv("DEBUG", "False") == "True"
+# DEBUG = os.getenv("DEBUG", "False") == "True"
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Example usage of the OpenAI API key in views or other parts of the app

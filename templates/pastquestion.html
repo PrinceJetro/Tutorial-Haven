@@ -272,97 +272,101 @@
 </div>
 
 
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const questions = document.querySelectorAll(".answerContainer");
-    const nextButton = document.getElementById("nextButton");
-    const prevButton = document.getElementById("prevButton");
-    let currentIndex = 0;
+ <script>
+    let isFormSubmitted = false; // Flag to track form submission
+    document.addEventListener("DOMContentLoaded", () => {
+      const questions = document.querySelectorAll(".answerContainer");
+      const nextButton = document.getElementById("nextButton");
+      const prevButton = document.getElementById("prevButton");
+      let currentIndex = 0;
 
-    const showQuestion = (index) => {
-        // Hide all questions
-        questions.forEach((question) => question.classList.remove("active"));
-        // Show the current question
-        questions[index].classList.add("active");
+      const showQuestion = (index) => {
+        questions.forEach((question) => question.classList.remove("active")); // Hide all questions
+        questions[index].classList.add("active"); // Show current question
 
-        // Update button text based on the question index
+        // Update button text
         if (index === questions.length - 1) {
-            nextButton.textContent = "Submit"; // Change to Submit on the last question
-            nextButton.style.backgroundColor="red"
+          nextButton.textContent = "Submit";
+          nextButton.style.backgroundColor = "red";
         } else {
-            nextButton.textContent = "Next"; // Change back to Next otherwise
-            nextButton.style.backgroundColor="rgb(52, 52, 209)"
+          nextButton.textContent = "Next";
+          nextButton.style.backgroundColor = "rgb(52, 52, 209)";
         }
-        
-    };
+      };
 
-    nextButton.addEventListener("click", () => {
+      nextButton.addEventListener("click", () => {
         if (currentIndex < questions.length - 1) {
-            currentIndex++;
-            showQuestion(currentIndex);
+          currentIndex++;
+          showQuestion(currentIndex);
         } else {
-            // When the last question is reached, submit the form
-            document.getElementById("quizForm").submit();
+          // Last question, simulate form submission
+          isFormSubmitted = true;
+          console.log("Form is being submitted...");
+          document.getElementById("quizForm").submit(); // Submit the form
         }
-    });
+      });
 
-    prevButton.addEventListener("click", () => {
+      prevButton.addEventListener("click", () => {
         if (currentIndex > 0) {
-            currentIndex--;
-            showQuestion(currentIndex);
+          currentIndex--;
+          showQuestion(currentIndex);
         }
+      });
+
+      showQuestion(currentIndex); // Initialize first question
     });
 
-    // Initialize the first question
-    showQuestion(currentIndex);
-});
+    function startTimer(duration, display) {
+      let timer = duration, minutes, seconds;
 
-function startTimer(duration, display) {
-  var timer = duration, minutes, seconds;
-  var timerInterval = setInterval(function () {
-      minutes = parseInt(timer / 60, 10);
-      seconds = parseInt(timer % 60, 10);
-
-      minutes = minutes < 10 ? "0" + minutes : minutes;
-      seconds = seconds < 10 ? "0" + seconds : seconds;
-
-      display.textContent = minutes + ":" + seconds;
-
-      // Change color based on remaining time
-      if (timer <= 30) {
-          display.style.color = "red"; // Less than or equal to 30 seconds
-      } else if (timer <= 60) {
-          display.style.color = "yellow"; // Between 31 and 60 seconds
-      } else {
-          display.style.color = "green"; // More than 60 seconds
-      }
-
-      if (--timer < 0) {
+      const timerInterval = setInterval(() => {
+        if (isFormSubmitted) {
+          console.log("Timer disabled after form submission.");
           clearInterval(timerInterval); // Stop the timer
-          document.getElementById("navigation-buttons").style.display="none"
-          alert("Submitting")
+          return;
+        }
+
+        minutes = Math.floor(timer / 60);
+        seconds = timer % 60;
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = `${minutes}:${seconds}`;
+
+        // Update display color based on time remaining
+        if (timer <= 30) {
+          display.style.color = "red";
+        } else if (timer <= 60) {
+          display.style.color = "yellow";
+        } else {
+          display.style.color = "green";
+        }
+
+        if (--timer < 0) {
+          clearInterval(timerInterval); // Stop the timer
+          alert("Time is up! Submitting....");
           document.getElementById("quizForm").submit(); // Submit form
+          document.getElementById("navigation-buttons").style.display="none"
+        }
+      }, 1000);
+    }
 
+    function begin() {
+      const timeInput = document.getElementById("timeInput").value;
+      const display = document.getElementById("time");
+
+      if (!timeInput || timeInput <= 0) {
+        alert("Please enter a valid time in minutes.");
+        return;
       }
-  }, 1000);
-}
 
-function begin() {
-  const timeInput = document.getElementById("timeInput").value;
-  const display = document.getElementById("time");
+      document.getElementById("main").style.display = "none";
+      document.getElementById("container").style.display = "block";
 
-
-  if (!timeInput || timeInput <= 0) {
-      alert("Please enter a valid time in minutes.");
-      return;
-  }
-  document.getElementById("main").style.display="none";
-  document.getElementById("container").style.display="block";
-
-  const duration = timeInput * 60; // Convert minutes to seconds
-  startTimer(duration, display);
-}
-</script>
-
+      const duration = timeInput * 60; // Convert minutes to seconds
+      startTimer(duration, display);
+    }
+  </script>
 
 {% endblock %}

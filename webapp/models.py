@@ -205,6 +205,7 @@ class DiscussionForum(models.Model):
     creator = models.ForeignKey(User, on_delete=models.CASCADE, related_name="forums")
     title = models.CharField(max_length=255)
     content = models.TextField()
+    center = models.CharField(null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
@@ -261,6 +262,27 @@ class CustomQuestionResponse(models.Model):
 
     def __str__(self):
         return f'{self.student.username} - {self.question.course.name} Response'
+
+
+class CustomTopic(models.Model):
+    course = models.ForeignKey(
+        'Course', on_delete=models.CASCADE, related_name='custom_topics',
+        help_text="The course this topic belongs to."
+    )
+    title = models.CharField(max_length=255, blank=True, null=True, help_text="Title of the custom topic.")
+    contents = RichTextField(help_text="Enter the topic contents in rich text format.")
+    creator = models.ForeignKey(
+        User, on_delete=models.CASCADE, related_name='custom_topics',
+        help_text="The tutor or institution who created this topic."
+    )
+    created_at = models.DateTimeField(auto_now_add=True, help_text="The date and time the topic was created.")
+    center = models.CharField(max_length=255, blank=True, null=True, help_text="The institution or center creating this topic.")
+
+    def __str__(self):
+        return f"{self.course.name} - {self.creator.username}'s Topic posted on {self.created_at}"
+
+
+
 
 
 class UploadedImageCustom(models.Model):

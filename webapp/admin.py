@@ -1,6 +1,6 @@
 # admin.py
 from django.contrib import admin
-from .models import Student, Course, Department, Topic, PastQuestionsObj, KeyPoints, PracticeExplanations, TutorialCenter, Tutor, PastQuestionsTheory, ObjGrade, UserCourseProgress, TheoryGrade, UploadedImage, Achievement, UserAchievement, UserProgress, DiscussionForum, Comment, CustomQuestion, CustomQuestionResponse, ActivityLog, UploadedImageCustom
+from .models import Student, Course, Department, Topic, PastQuestionsObj, KeyPoints, PracticeExplanations, TutorialCenter, Tutor, PastQuestionsTheory, ObjGrade, UserCourseProgress, TheoryGrade, UploadedImage, Achievement, UserAchievement, UserProgress, DiscussionForum, Comment, CustomQuestion, CustomQuestionResponse, ActivityLog, UploadedImageCustom, CustomTopic
 
 
 @admin.register(Student)
@@ -38,6 +38,13 @@ class CourseAdmin(admin.ModelAdmin):
 class TopicAdmin(admin.ModelAdmin):
     list_display = ('name', 'course')
     search_fields = ('name', 'course__name')
+    list_filter = ('course',)
+
+
+@admin.register(CustomTopic)
+class CustomTopicAdmin(admin.ModelAdmin):
+    list_display = ('title', 'course','creator')
+    search_fields = ('title', 'course__name')
     list_filter = ('course',)
 
 @admin.register(KeyPoints)

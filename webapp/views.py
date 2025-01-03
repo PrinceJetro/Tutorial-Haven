@@ -2,7 +2,7 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponseRedirect
 from django.contrib.auth.models import User
-from .models import  Student, Course, Department, Topic, TutorialCenter, PastQuestionsObj, KeyPoints, Tutor, PastQuestionsTheory, ObjGrade,TheoryGrade, UserCourseProgress, UploadedImage,  Achievement, UserAchievement, UserProgress, DiscussionForum, Comment, CustomQuestion, CustomQuestionResponse, UploadedImageCustom, ActivityLog
+from .models import  Student, Course, Department, Topic, TutorialCenter, PastQuestionsObj, KeyPoints, Tutor, PastQuestionsTheory, ObjGrade,TheoryGrade, UserCourseProgress, UploadedImage,  Achievement, UserAchievement, UserProgress, DiscussionForum, Comment, CustomQuestion, CustomQuestionResponse, UploadedImageCustom, ActivityLog, CustomTopic
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import get_object_or_404
 from django.contrib.auth.decorators import login_required
@@ -12,7 +12,7 @@ from django.contrib.auth.hashers import make_password
 from django.urls import reverse
 from django.db.models import Avg
 from webapp.storage import SupabaseStorage
-from .forms import TheorySubmissionForm, GradeForm, SearchForm, CustomSubmissionForm, CustomGrade
+from .forms import TheorySubmissionForm, GradeForm, SearchForm, CustomSubmissionForm, CustomGrade, CustomTopicForm
 import smtplib
 import ssl
 from django.db.models import Avg  # Import Avg for aggregation
@@ -1375,46 +1375,6 @@ def complete_topic(request):
 
     return HttpResponseBadRequest("Invalid request method.")
 
-    
-        # Check if the user has completed all topics in the course
-        # course = topic.course
-        # if progress.completed_topics.filter(course=course).count() == course.topics.count():
-        #     # The user has completed all topics in the course - unlock the "Course Master" achievement
-        #     achievement = Achievement.objects.filter(name="Course Master").first()
-        #     if achievement:
-        #         user_achievement, created = UserAchievement.objects.get_or_create(
-        #             user=user,
-        #             achievement=achievement
-        #         )
-        #         if created:
-        #             messages.success(request, "Congratulations! You've unlocked the 'Course Master' achievement!")
-
-        # # Check if the user has completed 5 courses - unlock the "Course Enthusiast" achievement
-        # # First get all courses the user has completed by checking completed topics
-        # completed_courses = UserCourseProgress.objects.filter(user=user)
-        
-        # completed_courses_with_topic_count = completed_courses.annotate(
-        #     num_completed_topics=Count('course__topics', filter=Q(course__topics__in=progress.completed_topics))
-        # )
-        
-        # # Count how many of these courses have all topics completed
-        # completed_courses_count = completed_courses_with_topic_count.filter(
-        #     num_completed_topics=F('course__topics__count')
-        # ).count()
-
-        # if completed_courses_count >= 5:
-        #     achievement = Achievement.objects.filter(name="Course Enthusiast").first()
-        #     if achievement:
-        #         user_achievement, created = UserAchievement.objects.get_or_create(
-        #             user=user,
-        #             achievement=achievement
-        #         )
-        #         if created:
-        #             messages.success(request, "Congratulations! You've unlocked the 'Course Enthusiast' achievement!")
-
-        # Check for other achievements
-
-
 @user_approved_required
 @login_required
 def forum_list(request):
@@ -1422,9 +1382,7 @@ def forum_list(request):
     if hasattr(request.user, 'tutor'):
         center = request.user.tutor.tutorial_center
     elif hasattr(request.user, 'tutorial_center'):
-        print("here")
         center = request.user.tutorial_center
-        print(center)
     elif hasattr(request.user, 'student'):
         center = request.user.student.tutorial_center
     else:
@@ -1432,7 +1390,9 @@ def forum_list(request):
 
     # If the user has an associated tutorial center, filter forums by it
     if center:
-        forums = DiscussionForum.objects.select_related('course').all().order_by('-created_at')
+        forums = DiscussionForum.objects.select_related('course').filter(
+            center=center
+        ).order_by('-created_at')
     else:
         forums = DiscussionForum.objects.none()  # Return an empty queryset if no center found
 
@@ -1480,11 +1440,20 @@ def create_forum(request):
     courses = Course.objects.all()
 
     if request.method == "POST":
+            # Get the tutorial center of the current user
+        if hasattr(request.user, 'tutor'):
+            center = request.user.tutor.tutorial_center
+        elif hasattr(request.user, 'tutorial_center'):
+            center = request.user.tutorial_center
+        elif hasattr(request.user, 'student'):
+            center = request.user.student.tutorial_center
+        else:
+            center = None
         course_id = request.POST.get("course")
         title = request.POST.get("title")
         content = request.POST.get("content")
         course = get_object_or_404(Course, id=course_id)
-        DiscussionForum.objects.create(creator=request.user, course=course, title=title, content=content)
+        DiscussionForum.objects.create(creator=request.user, course=course, title=title, content=content, center=center)
         ActivityLog.objects.create(
             user=request.user,
             action=f"Created a Discussion Forum under the {course.name} course with title: {title}"
@@ -1688,7 +1657,7 @@ def grade_custom_questions(request, grade_id):
         if form.is_valid():
             form.save()  # Save the updated score
             messages.success(request, "Score updated successfully!")
-            return redirect('pending_custom_grades', tutor_id=request.user.tutor.id)  # Redirect to pending grades
+            return redirect('pending_custom_grades')  # Redirect to pending grades
     else:
         form = CustomGrade(instance=question_grade)
 
@@ -1784,3 +1753,92 @@ def call_openai_api(system_message, user_message):
         ]
     )
     return response.choices[0].message.content.replace("\n", "<br>").replace("---", "<hr>")
+
+
+@user_approved_required
+@login_required
+def create_custom_topic(request):
+    courses = Course.objects.all()
+
+    if request.method == "POST":
+        # Get the tutorial center of the current user
+        if hasattr(request.user, 'tutor'):
+            center = request.user.tutor.tutorial_center
+        elif hasattr(request.user, 'tutorial_center'):
+            center = request.user.tutorial_center
+        else:
+            center = None
+
+        print(request.POST)        
+        creator = request.user
+        course_id = request.POST.get("course")
+        content = request.POST.get("response")
+        title = request.POST.get("title")
+        course = get_object_or_404(Course, id=course_id)
+        CustomTopic.objects.create(course=course, title=title, contents=content,creator=creator,center=center)
+        ActivityLog.objects.create(
+            user=request.user,
+            action=f"Created a Custom {course.name} Topic"
+            )
+        return redirect("listcustom_topics")
+    else: form = CustomTopicForm()
+
+    return render(request, "create_custom_topic.html", {"courses": courses, 'form':form})
+
+
+
+
+
+
+@user_approved_required
+@login_required
+def listCustomTopics(request):
+    # Get the tutorial center of the current user
+    if hasattr(request.user, 'tutor'):
+        center = request.user.tutor.tutorial_center
+    elif hasattr(request.user, 'tutorial_center'):
+        center = request.user.tutorial_center
+    elif hasattr(request.user, 'student'):
+        center = request.user.student.tutorial_center
+    else:
+        center = None
+
+    # If the user has an associated tutorial center, filter forums by it
+    if center:
+        topics = CustomTopic.objects.select_related('course').filter(
+            center=center
+        ).order_by('-created_at')
+    else:
+        topics = CustomTopic.objects.none()  # Return an empty queryset if no center found
+
+    return render(request, "custom_topics.html", {"topics": topics})
+
+
+@user_approved_required
+@login_required
+def custom_topic_detail(request, topic_id):
+    topic = get_object_or_404(CustomTopic, id=topic_id)
+
+    if request.method == "POST":
+        # Parse JSON data from the request
+        try:
+            data = json.loads(request.body)  # Parse JSON body
+            user_message = data.get('message', '')  # Extract the user message
+            topic_content = topic.content
+            openai.api_key = api_key
+            response = client.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": f"You are an expert tutor on the topic: {topic.name}. Answer based only on this topic."},
+                    {"role": "assistant", "content": topic_content},
+                    {"role": "user", "content": user_message},
+                ]
+            )
+            ai_reply = response.choices[0].message.content.replace("\n", "<br>").replace("---", "<hr>")
+
+            return JsonResponse({"reply": ai_reply})  # Return AI's reply as JSON
+        except Exception as e:
+            print(f"Error: {e}")  # Log errors for debugging
+            return JsonResponse({"reply": "Sorry, I couldn't process your request."}, status=500)
+
+    return render(request, 'topic_detail.html', {'topic': topic})

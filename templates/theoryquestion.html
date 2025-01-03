@@ -1,11 +1,11 @@
 <!-- templates/grade_theory.html -->
-{% extends "cool/nav.html" %} 
+{% extends "cool/nav.html" %}
 {% block content %}
 
 <head>
   <script src="//cdn.ckeditor.com/4.6.2/standard/ckeditor.js"></script>
-
   <style>
+    /* CKEditor Customizations */
     .cke_inner {
       width: 100%;
     }
@@ -20,9 +20,68 @@
     img {
       width: auto;
     }
-    .media-body a {
+
+    /* Main Container */
+    .main {
+      max-width: 600px;
+      margin: 50px auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px 30px;
+    }
+
+    /* Header Text */
+    .input_div h6 {
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: #444;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    /* Input Styles */
+    .input_div .input {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+    }
+    .input_div input {
+      width: 80%;
+      padding: 10px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      outline: none;
+      transition: all 0.3s ease-in-out;
+    }
+    .input_div input:focus {
+      border-color: hsl(259, 100%, 65%);
+      box-shadow: 0 0 8px rgba(102, 51, 153, 0.2);
+    }
+
+    /* Button Container */
+    .d-flex {
+      cursor: pointer;
+      transition: transform 0.2s ease-in-out;
+    }
+    .d-flex:hover {
+      transform: scale(1.1);
+    }
+    .rounded-circle {
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .d-flex svg {
+      transition: fill 0.2s ease-in-out;
+    }
+    .d-flex:hover svg {
+      fill: #fff;
+    }
+
+    /* Hidden Container */
+    .container {
       display: none;
-      visibility: hidden;
     }
   </style>
   <script type="text/javascript">
@@ -30,60 +89,63 @@
       CKEDITOR.replace("id_response");
       adjustHeightAfterDelay();
     };
-    function sendText() {
-      window.parent.postMessage(CKEDITOR.instances.CK1.getData(), "*");
-    }
-    // Function to adjust height of the specified element
+
     function adjustHeightAfterDelay() {
-      setTimeout(function () {
-        // Select the element by its ID
-        var element = document.getElementById("cke_1_contents");
+      setTimeout(() => {
+        const element = document.getElementById("cke_1_contents");
         if (element) {
-          element.style.height = "500px"; // Set the new height
+          element.style.height = "500px";
         } else {
           console.error("Element with ID 'cke_1_contents' not found.");
         }
-      }, 7000); // 10000 milliseconds = 10 seconds
+      }, 7000);
     }
   </script>
 </head>
-<div class="container mt-5">
-  <!-- Card for Theory Question -->
-  <div class="card shadow-sm">
-{% if messages %}
-    {% for message in messages %}
-<div class="alert bg-danger">
-  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-  {{message}}
-</div>
-    {% endfor %}
-{% endif %}
 
-    <div class="card-header bg-primary text-white">
-      <h4>
-        {{ theory_questions.course}} {{ theory_questions.body}}
-        {{theory_questions.year}}
-      </h4>
+<div class="main p-3" id="main">
+  {% if messages %}
+    {% for message in messages %}
+      <div class="alert bg-danger">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        {{ message }}
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  <div class="input_div">
+    <h6>{{ course.name }} Past Questions Practice</h6>
+    <h6>Set Your Time in Minutes</h6>
+    <h6>There are {{ cbt_questions.count }} questions in total</h6>
+    <div class="input">
+      <input type="number" placeholder="Enter time (minutes)" min="1" max="240" id="timeInput">
     </div>
+  </div>
+
+  <div onclick="begin()" class="d-flex justify-content-center align-items-center rounded-circle" style="background-color: hsl(259, 100%, 65%); float: right; height: 60px; width: 60px;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44">
+      <g fill="none" stroke="#FFF" stroke-width="2">
+        <path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/>
+      </g>
+    </svg>
+  </div>
+</div>
+
+<div class="container mt-5" id="container">
+  <div class="card shadow-sm">
+    <div class="card-header bg-primary text-white">
+      <h4>{{ theory_questions.course }} {{ theory_questions.body }} {{ theory_questions.year }}</h4>
+    </div>
+    <h3><span id="time"></span> minutes!</h3>
     <div class="card-body">
-      <!-- Question Text -->
       <div class="mb-4">
         <h5><strong>Question(s):</strong></h5>
         {{ theory_questions.question_text|safe }}
       </div>
-
-      <!-- Form Section -->
-       <form method="POST" enctype="multipart/form-data"  class="mt-4">
+      <form method="POST" enctype="multipart/form-data" class="mt-4" id="quizForm">
         {% csrf_token %}
-        <input
-          type="hidden"
-          name="question_id"
-          id="question_id"
-          value="{{ theory_questions.id }}"
-        />
+        <input type="hidden" name="question_id" id="question_id" value="{{ theory_questions.id }}">
         {{ form.as_p }}
-
-         <!-- Image Upload Section -->
         <div class="mb-4">
           <label for="images" class="form-label"><strong>Upload Your Drawing:</strong></label>
           <input type="file" name="images" id="images" class="form-control" accept="image/*" multiple>
@@ -96,11 +158,45 @@
 </div>
 
 <script>
-  $w.onReady(function () {
-    $w("#myHtmlComponent").onMessage((event) => {
-      $w("#myText").html = event.data;
-    });
+  let isFormSubmitted = false;
+
+  document.getElementById("quizForm").addEventListener("submit", function () {
+    isFormSubmitted = true;
   });
+
+  function startTimer(duration, display) {
+    let timer = duration, minutes, seconds;
+    const timerInterval = setInterval(() => {
+      if (isFormSubmitted) {
+        clearInterval(timerInterval);
+        return;
+      }
+      minutes = Math.floor(timer / 60);
+      seconds = timer % 60;
+      display.textContent = `${minutes}:${seconds}`;
+      display.style.color = timer <= 30 ? "red" : timer <= 60 ? "yellow" : "green";
+      if (--timer < 0) {
+        clearInterval(timerInterval);
+        alert("Time is up! Submitting...");
+        document.getElementById("quizForm").submit();
+        document.getElementById("navigation-buttons").style.display = "none";
+      }
+    }, 1000);
+  }
+
+  function begin() {
+    const timeInput = document.getElementById("timeInput").value;
+    const display = document.getElementById("time");
+
+    if (!timeInput || timeInput <= 0) {
+      alert("Please enter a valid time in minutes.");
+      return;
+    }
+
+    document.getElementById("main").style.display = "none";
+    document.getElementById("container").style.display = "block";
+    startTimer(timeInput * 60, display);
+  }
 </script>
 
 {% endblock %}

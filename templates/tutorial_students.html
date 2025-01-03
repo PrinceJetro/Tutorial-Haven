@@ -26,10 +26,13 @@
           <h5 class="card-title text-primary">{{ student.user.get_full_name|title }}</h5>
           <p class="card-text text-muted mb-3">{{ student.department }} Department</p>
           <a href="{% url 'studentsreport' student.id %}" class="btn btn-outline-primary btn-sm w-100 mb-2">View Progress</a>
-          <form action="{% url 'deletestudent' student.id %}" method="post" style="display: inline;">
+          {% if request.user.tutorial_center %}
+                    <form action="{% url 'deletestudent' student.id %}" method="post" style="display: inline;">
             {% csrf_token %}
             <button class="btn btn-outline-danger btn-sm w-100">Remove Student</button>
           </form>
+          {% endif %}
+
         </div>
       </div>
     </div>
